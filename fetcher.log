@@ -599,3 +599,70 @@
 [2023-07-27 00:23:18] INFO root fetch - processPackages [prettyqt]: Remove: archive file [/home/abi/fetcher/tmp/prettyqt-1.9.2.tar.gz]
 [2023-07-27 00:23:18] INFO root fetch - main [MainThread]: End processing [prettyqt]: success
 [2023-07-27 00:23:18] INFO root fetch - main [MainThread]: Store serial: [19050453]
+[2023-07-27 00:28:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19050453]
+[2023-07-27 00:28:26] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-27 00:28:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: roguewave
+[2023-07-27 00:28:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cptac
+[2023-07-27 00:28:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: navi-pro
+[2023-07-27 00:28:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torchaug
+[2023-07-27 00:28:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Topyfic
+[2023-07-27 00:28:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bSuite-auth
+[2023-07-27 00:28:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: otgCrypto
+[2023-07-27 00:28:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Topyfic
+[2023-07-27 00:28:26] INFO root fetch - processPackages [roguewave]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-27 00:28:26] INFO root fetch - processPackages [otgCrypto]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-27 00:28:26] INFO root fetch - processPackages [Topyfic]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-07-27 00:28:27] INFO root fetch - processPackages [Topyfic]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-07-27 00:28:27] WARNING root fetch - processPackages [torchaug]: Skipping, unable to determine old version
+[2023-07-27 00:28:27] INFO root fetch - main [MainThread]: End processing [torchaug] error
+[2023-07-27 00:28:27] INFO root fetch - processPackages [bSuite-auth]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-27 00:28:27] INFO root fetch - processPackages [cptac]: New version: [1.5.0rc3] Old Version: [1.5.0rc1]
+[2023-07-27 00:28:27] INFO root fetch - processPackages [navi-pro]: New version: [7.3.1] Old Version: [7.2.4]
+[2023-07-27 00:28:27] INFO root fetch - processPackages [otgCrypto]: Downloading https://files.pythonhosted.org/packages/3a/84/e8438b09826eee0f7e63a627099cc14b15a804ad5219cce98e67e33586f8/otgCrypto-0.0.8.tar.gz
+[2023-07-27 00:28:27] INFO root fetch - processPackages [bSuite-auth]: Downloading https://files.pythonhosted.org/packages/bb/89/d9094fbdb118a98c78b6d7318dd1a87ade43293ba240f77dc92c21254b0b/bSuite-auth-0.3.0.tar.gz
+[2023-07-27 00:28:27] INFO root fetch - processPackages [Topyfic]: Downloading https://files.pythonhosted.org/packages/3e/34/3eda55ebbf1187ac14a8f5a2e3c7a7c2981fd92da9672bf6633ac891b580/Topyfic-0.4.1.tar.gz
+[2023-07-27 00:28:27] INFO root fetch - processPackages [Topyfic]: Downloading https://files.pythonhosted.org/packages/3e/34/3eda55ebbf1187ac14a8f5a2e3c7a7c2981fd92da9672bf6633ac891b580/Topyfic-0.4.1.tar.gz
+[2023-07-27 00:28:27] INFO root fetch - processPackages [roguewave]: Downloading https://files.pythonhosted.org/packages/78/6a/176b0bb0901ea4782efa3a02cffa2564d80dedf95b4ab0ef114673ff33c2/roguewave-0.2.8.tar.gz
+[2023-07-27 00:28:27] INFO root fetch - processPackages [cptac]: Downloading https://files.pythonhosted.org/packages/a3/44/9a174d679671b33f807edbd17cfefad6e5f237c7eabfde4fe7fa60533577/cptac-1.5.0rc1.tar.gz
+[2023-07-27 00:28:27] INFO root fetch - processPackages [navi-pro]: Downloading https://files.pythonhosted.org/packages/aa/13/371e54c4c1e5495a8b2c232e713bf437bd6d9e0aeffdfc5bfa795cbdf95f/navi_pro-7.2.4-py3-none-any.whl
+[2023-07-27 00:28:27] INFO root fetch - processPackages [otgCrypto]: Downloading https://files.pythonhosted.org/packages/5d/ce/8d8fbee58e6dfa6bf7dd8208b87c23edefbd69b2ae3b906263c389211615/otgCrypto-0.0.9.tar.gz
+[2023-07-27 00:28:27] INFO root fetch - processPackages [bSuite-auth]: Downloading https://files.pythonhosted.org/packages/bd/34/1deceffccd654642e3eaedab452cf28d765babde8476ad466a5cf3ce6e96/bSuite-auth-0.4.0.tar.gz
+[2023-07-27 00:28:27] INFO root fetch - processPackages [otgCrypto]: executing diffoscope
+[2023-07-27 00:28:27] INFO root fetch - processPackages [otgCrypto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otgCrypto-0.0.8.tar.gz tmp/otgCrypto-0.0.9.tar.gz --markdown 20230727/o/otgCrypto/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-27 00:28:27] INFO root fetch - processPackages [bSuite-auth]: executing diffoscope
+[2023-07-27 00:28:27] INFO root fetch - processPackages [bSuite-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bSuite-auth-0.3.0.tar.gz tmp/bSuite-auth-0.4.0.tar.gz --markdown 20230727/b/bSuite-auth/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-27 00:28:27] INFO root fetch - processPackages [navi-pro]: Downloading https://files.pythonhosted.org/packages/01/8e/45593f165f3a92e727d0f1d625f2895ed5d5e9e6ab15fe33b2855b29e6cc/navi_pro-7.3.1-py3-none-any.whl
+[2023-07-27 00:28:27] INFO root fetch - processPackages [Topyfic]: Downloading https://files.pythonhosted.org/packages/6f/81/a496789842ff09a1b2c6b95e55d460a337ccbe28c188ecf4194898d4eef5/Topyfic-0.4.2.tar.gz
+[2023-07-27 00:28:27] INFO root fetch - processPackages [Topyfic]: Downloading https://files.pythonhosted.org/packages/6f/81/a496789842ff09a1b2c6b95e55d460a337ccbe28c188ecf4194898d4eef5/Topyfic-0.4.2.tar.gz
+[2023-07-27 00:28:27] INFO root fetch - processPackages [navi-pro]: executing diffoscope
+[2023-07-27 00:28:27] INFO root fetch - processPackages [navi-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/navi_pro-7.2.4-py3-none-any.whl.zip tmp/navi_pro-7.3.1-py3-none-any.whl.zip --markdown 20230727/n/navi-pro/7.2.4-7.3.1/diff.md --exclude *.pyd
+[2023-07-27 00:28:27] INFO root fetch - processPackages [Topyfic]: executing diffoscope
+[2023-07-27 00:28:27] INFO root fetch - processPackages [Topyfic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Topyfic-0.4.1.tar.gz tmp/Topyfic-0.4.2.tar.gz --markdown 20230727/T/Topyfic/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-07-27 00:28:27] INFO root fetch - processPackages [roguewave]: Downloading https://files.pythonhosted.org/packages/10/12/a4fc5463d893cee0b80a7528e4bfbbd704f33bec149787d2ca40d45c2590/roguewave-0.2.9.tar.gz
+[2023-07-27 00:28:27] INFO root fetch - processPackages [Topyfic]: executing diffoscope
+[2023-07-27 00:28:27] INFO root fetch - processPackages [Topyfic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Topyfic-0.4.1.tar.gz tmp/Topyfic-0.4.2.tar.gz --markdown 20230727/T/Topyfic/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-07-27 00:28:28] INFO root fetch - processPackages [roguewave]: executing diffoscope
+[2023-07-27 00:28:28] INFO root fetch - processPackages [roguewave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roguewave-0.2.8.tar.gz tmp/roguewave-0.2.9.tar.gz --markdown 20230727/r/roguewave/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-27 00:28:28] INFO root fetch - processPackages [cptac]: Downloading https://files.pythonhosted.org/packages/f7/59/9f771094bd9f850fc817846826641098ee889db6a0aa022cb778ee92c835/cptac-1.5.0rc3.tar.gz
+[2023-07-27 00:28:28] INFO root fetch - processPackages [otgCrypto]: Remove: archive file [/home/abi/fetcher/tmp/otgCrypto-0.0.8.tar.gz]
+[2023-07-27 00:28:28] INFO root fetch - processPackages [otgCrypto]: Remove: archive file [/home/abi/fetcher/tmp/otgCrypto-0.0.9.tar.gz]
+[2023-07-27 00:28:28] INFO root fetch - main [MainThread]: End processing [otgCrypto]: success
+[2023-07-27 00:28:28] INFO root fetch - processPackages [bSuite-auth]: Remove: archive file [/home/abi/fetcher/tmp/bSuite-auth-0.3.0.tar.gz]
+[2023-07-27 00:28:28] INFO root fetch - processPackages [bSuite-auth]: Remove: archive file [/home/abi/fetcher/tmp/bSuite-auth-0.4.0.tar.gz]
+[2023-07-27 00:28:28] INFO root fetch - main [MainThread]: End processing [bSuite-auth]: success
+[2023-07-27 00:28:28] INFO root fetch - processPackages [Topyfic]: Remove: archive file [/home/abi/fetcher/tmp/Topyfic-0.4.1.tar.gz]
+[2023-07-27 00:28:28] INFO root fetch - processPackages [Topyfic]: Remove: archive file [/home/abi/fetcher/tmp/Topyfic-0.4.2.tar.gz]
+[2023-07-27 00:28:28] INFO root fetch - main [MainThread]: End processing [Topyfic]: success
+[2023-07-27 00:28:28] INFO root fetch - main [MainThread]: End processing [Topyfic]: success
+[2023-07-27 00:28:29] INFO root fetch - processPackages [navi-pro]: Remove: archive file [/home/abi/fetcher/tmp/navi_pro-7.2.4-py3-none-any.whl.zip]
+[2023-07-27 00:28:29] INFO root fetch - processPackages [navi-pro]: Remove: archive file [/home/abi/fetcher/tmp/navi_pro-7.3.1-py3-none-any.whl.zip]
+[2023-07-27 00:28:29] INFO root fetch - main [MainThread]: End processing [navi-pro]: success
+[2023-07-27 00:28:29] INFO root fetch - processPackages [roguewave]: Remove: archive file [/home/abi/fetcher/tmp/roguewave-0.2.8.tar.gz]
+[2023-07-27 00:28:29] INFO root fetch - processPackages [roguewave]: Remove: archive file [/home/abi/fetcher/tmp/roguewave-0.2.9.tar.gz]
+[2023-07-27 00:28:29] INFO root fetch - main [MainThread]: End processing [roguewave]: success
+[2023-07-27 00:28:29] INFO root fetch - processPackages [cptac]: executing diffoscope
+[2023-07-27 00:28:29] INFO root fetch - processPackages [cptac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cptac-1.5.0rc1.tar.gz tmp/cptac-1.5.0rc3.tar.gz --markdown 20230727/c/cptac/1.5.0rc1-1.5.0rc3/diff.md --exclude *.pyd
+[2023-07-27 00:28:31] INFO root fetch - processPackages [cptac]: Remove: archive file [/home/abi/fetcher/tmp/cptac-1.5.0rc1.tar.gz]
+[2023-07-27 00:28:31] INFO root fetch - processPackages [cptac]: Remove: archive file [/home/abi/fetcher/tmp/cptac-1.5.0rc3.tar.gz]
+[2023-07-27 00:28:31] INFO root fetch - main [MainThread]: End processing [cptac]: success
+[2023-07-27 00:28:31] INFO root fetch - main [MainThread]: Store serial: [19050487]
