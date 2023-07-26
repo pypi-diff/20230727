@@ -1685,3 +1685,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-27 01:37:42] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
 [2023-07-27 01:37:42] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-07-27 01:37:42] INFO root fetch - main [MainThread]: Store serial: [19050845]
+[2023-07-27 01:42:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19050845]
+[2023-07-27 01:42:50] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-27 01:42:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ccsf
+[2023-07-27 01:42:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyhrms
+[2023-07-27 01:42:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-oci
+[2023-07-27 01:42:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lucupy
+[2023-07-27 01:42:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dkist-processing-visp
+[2023-07-27 01:42:50] INFO root fetch - processPackages [lucupy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-27 01:42:50] INFO root fetch - processPackages [pulumi-oci]: New version: [1.5.0a1690410363] Old Version: [1.4.0a1689820630]
+[2023-07-27 01:42:50] INFO root fetch - processPackages [pyhrms]: New version: [0.6.5] Old Version: [0.6.4]
+[2023-07-27 01:42:50] INFO root fetch - processPackages [ccsf]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-27 01:42:50] INFO root fetch - processPackages [dkist-processing-visp]: New version: [2.6.3] Old Version: [2.6.2]
+[2023-07-27 01:42:50] INFO root fetch - processPackages [pyhrms]: Downloading https://files.pythonhosted.org/packages/49/b3/e187c2ccdc24da98902f2438aae48cb170fee105788d8adddd4181d1db05/pyhrms-0.6.4.zip
+[2023-07-27 01:42:50] INFO root fetch - processPackages [dkist-processing-visp]: Downloading https://files.pythonhosted.org/packages/ac/58/5152f4ef844a9a0e394293a4ae4b6f84c864b77faac75420e411f05c24bd/dkist_processing_visp-2.6.2.tar.gz
+[2023-07-27 01:42:50] INFO root fetch - processPackages [ccsf]: Downloading https://files.pythonhosted.org/packages/42/73/ff2e948c274f1196aab2924523d38a1bb0b5a8655cae8ec03865430a6e56/ccsf-1.0.2.tar.gz
+[2023-07-27 01:42:50] INFO root fetch - processPackages [lucupy]: Downloading https://files.pythonhosted.org/packages/48/24/564fb7fc12915db3e559e4a44c2c2ea56620d4da2174d3da93586a4d9af4/lucupy-0.1.8.tar.gz
+[2023-07-27 01:42:50] INFO root fetch - processPackages [pulumi-oci]: Downloading https://files.pythonhosted.org/packages/bb/12/e5d73d640f8b70a94ec45f07cfdd3fdeb3b03122d60b9bb1296a1d91e3d5/pulumi_oci-1.4.0a1689820630.tar.gz
+[2023-07-27 01:42:51] INFO root fetch - processPackages [pyhrms]: Downloading https://files.pythonhosted.org/packages/a3/cb/e058a96df319f79bf9dfee5c19c0cc2972e746d04bef8e669c4cf413890b/pyhrms-0.6.5.zip
+[2023-07-27 01:42:51] INFO root fetch - processPackages [dkist-processing-visp]: Downloading https://files.pythonhosted.org/packages/44/32/8cf2d470edbbf244a70feacfdafde9530234628ec80cc5ae154e6ddd7afc/dkist_processing_visp-2.6.3.tar.gz
+[2023-07-27 01:42:51] INFO root fetch - processPackages [ccsf]: Downloading https://files.pythonhosted.org/packages/35/b8/8d4837e13f053ee9ef9767e864853c8e615eddbd6b096560c99168e93ddd/ccsf-1.0.3.tar.gz
+[2023-07-27 01:42:51] INFO root fetch - processPackages [pyhrms]: executing diffoscope
+[2023-07-27 01:42:51] INFO root fetch - processPackages [pyhrms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhrms-0.6.4.zip tmp/pyhrms-0.6.5.zip --markdown 20230727/p/pyhrms/0.6.4-0.6.5/diff.md --exclude *.pyd
+[2023-07-27 01:42:51] INFO root fetch - processPackages [ccsf]: executing diffoscope
+[2023-07-27 01:42:51] INFO root fetch - processPackages [ccsf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccsf-1.0.2.tar.gz tmp/ccsf-1.0.3.tar.gz --markdown 20230727/c/ccsf/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-27 01:42:51] INFO root fetch - processPackages [dkist-processing-visp]: executing diffoscope
+[2023-07-27 01:42:51] INFO root fetch - processPackages [dkist-processing-visp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dkist_processing_visp-2.6.2.tar.gz tmp/dkist_processing_visp-2.6.3.tar.gz --markdown 20230727/d/dkist-processing-visp/2.6.2-2.6.3/diff.md --exclude *.pyd
+[2023-07-27 01:42:51] INFO root fetch - processPackages [pulumi-oci]: Downloading https://files.pythonhosted.org/packages/81/45/73de49a21de522ea1a30ab0e9e918d54e49503b2ce4b13efeaafc5c226e5/pulumi_oci-1.5.0a1690410363.tar.gz
+[2023-07-27 01:42:51] INFO root fetch - processPackages [lucupy]: Downloading https://files.pythonhosted.org/packages/8e/71/90824741abbd5f41e02cef3f27573135ac7ee3e561efa91dfd0394c03374/lucupy-0.1.9.tar.gz
+[2023-07-27 01:42:51] INFO root fetch - processPackages [lucupy]: executing diffoscope
+[2023-07-27 01:42:51] INFO root fetch - processPackages [lucupy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lucupy-0.1.8.tar.gz tmp/lucupy-0.1.9.tar.gz --markdown 20230727/l/lucupy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-27 01:42:51] INFO root fetch - processPackages [pulumi-oci]: executing diffoscope
+[2023-07-27 01:42:51] INFO root fetch - processPackages [pulumi-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_oci-1.4.0a1689820630.tar.gz tmp/pulumi_oci-1.5.0a1690410363.tar.gz --markdown 20230727/p/pulumi-oci/1.4.0a1689820630-1.5.0a1690410363/diff.md --exclude *.pyd
+[2023-07-27 01:42:52] INFO root fetch - processPackages [ccsf]: Remove: archive file [/home/abi/fetcher/tmp/ccsf-1.0.2.tar.gz]
+[2023-07-27 01:42:52] INFO root fetch - processPackages [ccsf]: Remove: archive file [/home/abi/fetcher/tmp/ccsf-1.0.3.tar.gz]
+[2023-07-27 01:42:52] INFO root fetch - main [MainThread]: End processing [ccsf]: success
+[2023-07-27 01:42:52] INFO root fetch - processPackages [pyhrms]: Remove: archive file [/home/abi/fetcher/tmp/pyhrms-0.6.4.zip]
+[2023-07-27 01:42:52] INFO root fetch - processPackages [pyhrms]: Remove: archive file [/home/abi/fetcher/tmp/pyhrms-0.6.5.zip]
+[2023-07-27 01:42:52] INFO root fetch - main [MainThread]: End processing [pyhrms]: success
+[2023-07-27 01:42:52] INFO root fetch - processPackages [dkist-processing-visp]: Remove: archive file [/home/abi/fetcher/tmp/dkist_processing_visp-2.6.2.tar.gz]
+[2023-07-27 01:42:52] INFO root fetch - processPackages [dkist-processing-visp]: Remove: archive file [/home/abi/fetcher/tmp/dkist_processing_visp-2.6.3.tar.gz]
+[2023-07-27 01:42:52] INFO root fetch - main [MainThread]: End processing [dkist-processing-visp]: success
+[2023-07-27 01:42:52] INFO root fetch - processPackages [lucupy]: Remove: archive file [/home/abi/fetcher/tmp/lucupy-0.1.8.tar.gz]
+[2023-07-27 01:42:52] INFO root fetch - processPackages [lucupy]: Remove: archive file [/home/abi/fetcher/tmp/lucupy-0.1.9.tar.gz]
+[2023-07-27 01:42:52] INFO root fetch - main [MainThread]: End processing [lucupy]: success
+[2023-07-27 01:43:15] INFO root fetch - processPackages [pulumi-oci]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_oci-1.4.0a1689820630.tar.gz]
+[2023-07-27 01:43:15] INFO root fetch - processPackages [pulumi-oci]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_oci-1.5.0a1690410363.tar.gz]
+[2023-07-27 01:43:15] INFO root fetch - main [MainThread]: End processing [pulumi-oci]: success
+[2023-07-27 01:43:15] INFO root fetch - main [MainThread]: Store serial: [19050861]
