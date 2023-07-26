@@ -726,3 +726,84 @@
 [2023-07-27 00:33:58] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
 [2023-07-27 00:33:58] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-07-27 00:33:58] INFO root fetch - main [MainThread]: Store serial: [19050508]
+[2023-07-27 00:39:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19050508]
+[2023-07-27 00:39:06] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-27 00:39:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-sops-secrets
+[2023-07-27 00:39:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: canvasxpress
+[2023-07-27 00:39:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: veris-ptab
+[2023-07-27 00:39:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytesdaq
+[2023-07-27 00:39:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-azuredevops
+[2023-07-27 00:39:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nobuco
+[2023-07-27 00:39:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: elasticate
+[2023-07-27 00:39:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: SpecLab
+[2023-07-27 00:39:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pulumi-aiven
+[2023-07-27 00:39:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: testflows.github.runners
+[2023-07-27 00:39:06] WARNING root fetch - processPackages [veris-ptab]: Skipping, unable to determine old version
+[2023-07-27 00:39:06] INFO root fetch - main [MainThread]: End processing [veris-ptab] error
+[2023-07-27 00:39:07] INFO root fetch - processPackages [pytesdaq]: New version: [0.3.3] Old Version: [0.3.1]
+[2023-07-27 00:39:07] INFO root fetch - processPackages [testflows.github.runners]: New version: [1.2.230726.1223826] Old Version: [1.2.230726.1222247]
+[2023-07-27 00:39:07] WARNING root fetch - processPackages [elasticate]: Skipping, unable to determine old version
+[2023-07-27 00:39:07] INFO root fetch - main [MainThread]: End processing [elasticate] error
+[2023-07-27 00:39:07] INFO root fetch - processPackages [SpecLab]: New version: [4.2.4] Old Version: [4.2.3]
+[2023-07-27 00:39:07] INFO root fetch - processPackages [nobuco]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-07-27 00:39:07] INFO root fetch - processPackages [pulumi-azuredevops]: New version: [2.9.0a1687903032] Old Version: [2.9.0]
+[2023-07-27 00:39:07] INFO root fetch - processPackages [canvasxpress]: New version: [2023.7.9.1809] Old Version: [2023.7.26.223355]
+[2023-07-27 00:39:07] INFO root fetch - processPackages [pulumi-aiven]: New version: [6.6.0a1690404903] Old Version: [6.6.0]
+[2023-07-27 00:39:07] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-07-27 00:39:07] INFO root fetch - processPackages [pulumi-azuredevops]: Downloading https://files.pythonhosted.org/packages/d9/68/839de7186fb7bc7596ef15314b9cda71420e15863a59226e8344709084e1/pulumi_azuredevops-2.9.0.tar.gz
+[2023-07-27 00:39:07] INFO root fetch - processPackages [pytesdaq]: Downloading https://files.pythonhosted.org/packages/d2/6f/22513fe357e65efeebc4b175f5f752894a9e418e7ec72d5a17efdc064409/pytesdaq-0.3.1.tar.gz
+[2023-07-27 00:39:07] INFO root fetch - processPackages [testflows.github.runners]: Downloading https://files.pythonhosted.org/packages/d8/a3/8de89974a4b8ee93cd156129e65c43192e52e55024717c289159ae618049/testflows.github.runners-1.2.230726.1222247.tar.gz
+[2023-07-27 00:39:07] INFO root fetch - processPackages [pulumi-aiven]: Downloading https://files.pythonhosted.org/packages/39/69/65accd72ba790e7c3dc14286ca79608f8abec502c254ef1bf6d1a749798c/pulumi_aiven-6.6.0.tar.gz
+[2023-07-27 00:39:07] INFO root fetch - processPackages [SpecLab]: Downloading https://files.pythonhosted.org/packages/67/40/d1da55c4ba80f9b8c0ca2cc75c47456bac58c2f742d390e9216b4397423a/SpecLab-4.2.3.tar.gz
+[2023-07-27 00:39:07] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/e2/8d/e29915f1e26b1a9d52bb33bc0abeaa259422cbc8e7fb8d8031fb9d7855e5/cdk-sops-secrets-1.2.98.tar.gz
+[2023-07-27 00:39:07] INFO root fetch - processPackages [canvasxpress]: Downloading https://files.pythonhosted.org/packages/0e/0e/6fbf985f14f34ae49889528876ef99b2b12da371b9ac387854ec8bb54788/canvasxpress-2023.7.26.223355.tar.gz
+[2023-07-27 00:39:07] INFO root fetch - processPackages [nobuco]: Downloading https://files.pythonhosted.org/packages/27/b4/6236b99bca7153c709452d7460eee8f49d467e96cb5d314e122cf7abdc77/nobuco-0.6.2.tar.gz
+[2023-07-27 00:39:07] INFO root fetch - processPackages [pulumi-azuredevops]: Downloading https://files.pythonhosted.org/packages/e1/18/3ed6670b5ec2da218207a72ee629edf8e9be664398be7789b637bfd9d500/pulumi_azuredevops-2.9.0a1687903032.tar.gz
+[2023-07-27 00:39:07] INFO root fetch - processPackages [pulumi-azuredevops]: executing diffoscope
+[2023-07-27 00:39:07] INFO root fetch - processPackages [pulumi-azuredevops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_azuredevops-2.9.0.tar.gz tmp/pulumi_azuredevops-2.9.0a1687903032.tar.gz --markdown 20230727/p/pulumi-azuredevops/2.9.0-2.9.0a1687903032/diff.md --exclude *.pyd
+[2023-07-27 00:39:07] INFO root fetch - processPackages [testflows.github.runners]: Downloading https://files.pythonhosted.org/packages/e8/b1/82266f62dda20c26459b7dd45ccf555ecf36a975d713e8b6742b0e7aa6b8/testflows.github.runners-1.2.230726.1223826.tar.gz
+[2023-07-27 00:39:07] INFO root fetch - processPackages [pytesdaq]: Downloading https://files.pythonhosted.org/packages/20/f3/4cb75e401d786d00348dc813221b9c105679d993a1f5e94c56ae169369d4/pytesdaq-0.3.3.tar.gz
+[2023-07-27 00:39:07] INFO root fetch - processPackages [nobuco]: Downloading https://files.pythonhosted.org/packages/f4/8a/7744b8dce9bdce7947d52dac8d187dea3df8b0153cc3c72420406bc1dba4/nobuco-0.6.3.tar.gz
+[2023-07-27 00:39:07] INFO root fetch - processPackages [pulumi-aiven]: Downloading https://files.pythonhosted.org/packages/c9/5e/3b25304af8635651fa27532dbe70112ba8511bd67d45b9f278da4eeb1703/pulumi_aiven-6.6.0a1690404903.tar.gz
+[2023-07-27 00:39:07] INFO root fetch - processPackages [SpecLab]: Downloading https://files.pythonhosted.org/packages/e3/f2/354670a97c8a848907648f331f525a2b78ac2b4e9adb2abb3210d3a5395a/SpecLab-4.2.4.tar.gz
+[2023-07-27 00:39:07] INFO root fetch - processPackages [pytesdaq]: executing diffoscope
+[2023-07-27 00:39:07] INFO root fetch - processPackages [pytesdaq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytesdaq-0.3.1.tar.gz tmp/pytesdaq-0.3.3.tar.gz --markdown 20230727/p/pytesdaq/0.3.1-0.3.3/diff.md --exclude *.pyd
+[2023-07-27 00:39:07] INFO root fetch - processPackages [testflows.github.runners]: executing diffoscope
+[2023-07-27 00:39:07] INFO root fetch - processPackages [testflows.github.runners]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testflows.github.runners-1.2.230726.1222247.tar.gz tmp/testflows.github.runners-1.2.230726.1223826.tar.gz --markdown 20230727/t/testflows.github.runners/1.2.230726.1222247-1.2.230726.1223826/diff.md --exclude *.pyd
+[2023-07-27 00:39:08] INFO root fetch - processPackages [nobuco]: executing diffoscope
+[2023-07-27 00:39:08] INFO root fetch - processPackages [nobuco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nobuco-0.6.2.tar.gz tmp/nobuco-0.6.3.tar.gz --markdown 20230727/n/nobuco/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-07-27 00:39:08] INFO root fetch - processPackages [pulumi-aiven]: executing diffoscope
+[2023-07-27 00:39:08] INFO root fetch - processPackages [pulumi-aiven]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aiven-6.6.0.tar.gz tmp/pulumi_aiven-6.6.0a1690404903.tar.gz --markdown 20230727/p/pulumi-aiven/6.6.0-6.6.0a1690404903/diff.md --exclude *.pyd
+[2023-07-27 00:39:08] INFO root fetch - processPackages [canvasxpress]: Downloading https://files.pythonhosted.org/packages/d7/4b/d35f5a1efffacd6674699617a600450a4cc73c4e5cdbdb893820518287da/canvasxpress-2023.7.9.1809.tar.gz
+[2023-07-27 00:39:08] INFO root fetch - processPackages [SpecLab]: executing diffoscope
+[2023-07-27 00:39:08] INFO root fetch - processPackages [SpecLab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SpecLab-4.2.3.tar.gz tmp/SpecLab-4.2.4.tar.gz --markdown 20230727/S/SpecLab/4.2.3-4.2.4/diff.md --exclude *.pyd
+[2023-07-27 00:39:08] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/10/33/e08c5e7bb6d5b198c75b53cba42224da6ac877f65fd4a4343fecdad9a93e/cdk-sops-secrets-1.2.99.tar.gz
+[2023-07-27 00:39:08] INFO root fetch - processPackages [canvasxpress]: executing diffoscope
+[2023-07-27 00:39:08] INFO root fetch - processPackages [canvasxpress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/canvasxpress-2023.7.26.223355.tar.gz tmp/canvasxpress-2023.7.9.1809.tar.gz --markdown 20230727/c/canvasxpress/2023.7.26.223355-2023.7.9.1809/diff.md --exclude *.pyd
+[2023-07-27 00:39:08] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2023-07-27 00:39:08] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.2.98.tar.gz tmp/cdk-sops-secrets-1.2.99.tar.gz --markdown 20230727/c/cdk-sops-secrets/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-07-27 00:39:09] INFO root fetch - processPackages [SpecLab]: Remove: archive file [/home/abi/fetcher/tmp/SpecLab-4.2.3.tar.gz]
+[2023-07-27 00:39:09] INFO root fetch - processPackages [SpecLab]: Remove: archive file [/home/abi/fetcher/tmp/SpecLab-4.2.4.tar.gz]
+[2023-07-27 00:39:09] INFO root fetch - main [MainThread]: End processing [SpecLab]: success
+[2023-07-27 00:39:09] INFO root fetch - processPackages [testflows.github.runners]: Remove: archive file [/home/abi/fetcher/tmp/testflows.github.runners-1.2.230726.1222247.tar.gz]
+[2023-07-27 00:39:09] INFO root fetch - processPackages [testflows.github.runners]: Remove: archive file [/home/abi/fetcher/tmp/testflows.github.runners-1.2.230726.1223826.tar.gz]
+[2023-07-27 00:39:09] INFO root fetch - main [MainThread]: End processing [testflows.github.runners]: success
+[2023-07-27 00:39:09] INFO root fetch - processPackages [nobuco]: Remove: archive file [/home/abi/fetcher/tmp/nobuco-0.6.2.tar.gz]
+[2023-07-27 00:39:09] INFO root fetch - processPackages [nobuco]: Remove: archive file [/home/abi/fetcher/tmp/nobuco-0.6.3.tar.gz]
+[2023-07-27 00:39:09] INFO root fetch - main [MainThread]: End processing [nobuco]: success
+[2023-07-27 00:39:09] INFO root fetch - processPackages [pytesdaq]: Remove: archive file [/home/abi/fetcher/tmp/pytesdaq-0.3.1.tar.gz]
+[2023-07-27 00:39:09] INFO root fetch - processPackages [pytesdaq]: Remove: archive file [/home/abi/fetcher/tmp/pytesdaq-0.3.3.tar.gz]
+[2023-07-27 00:39:09] INFO root fetch - main [MainThread]: End processing [pytesdaq]: success
+[2023-07-27 00:39:09] INFO root fetch - processPackages [pulumi-azuredevops]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuredevops-2.9.0.tar.gz]
+[2023-07-27 00:39:09] INFO root fetch - processPackages [pulumi-azuredevops]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuredevops-2.9.0a1687903032.tar.gz]
+[2023-07-27 00:39:09] INFO root fetch - main [MainThread]: End processing [pulumi-azuredevops]: success
+[2023-07-27 00:39:10] INFO root fetch - processPackages [pulumi-aiven]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aiven-6.6.0.tar.gz]
+[2023-07-27 00:39:10] INFO root fetch - processPackages [pulumi-aiven]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aiven-6.6.0a1690404903.tar.gz]
+[2023-07-27 00:39:10] INFO root fetch - main [MainThread]: End processing [pulumi-aiven]: success
+[2023-07-27 00:39:10] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.98.tar.gz]
+[2023-07-27 00:39:10] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.99.tar.gz]
+[2023-07-27 00:39:10] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2023-07-27 00:39:35] INFO root fetch - processPackages [canvasxpress]: Remove: archive file [/home/abi/fetcher/tmp/canvasxpress-2023.7.26.223355.tar.gz]
+[2023-07-27 00:39:35] INFO root fetch - processPackages [canvasxpress]: Remove: archive file [/home/abi/fetcher/tmp/canvasxpress-2023.7.9.1809.tar.gz]
+[2023-07-27 00:39:35] INFO root fetch - main [MainThread]: End processing [canvasxpress]: success
+[2023-07-27 00:39:35] INFO root fetch - main [MainThread]: Store serial: [19050548]
