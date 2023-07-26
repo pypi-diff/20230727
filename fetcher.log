@@ -1313,3 +1313,85 @@
 [2023-07-27 01:16:11] INFO root fetch - processPackages [scrunch]: Remove: archive file [/home/abi/fetcher/tmp/scrunch-6.5.2012.post1690413109.tar.gz]
 [2023-07-27 01:16:11] INFO root fetch - main [MainThread]: End processing [scrunch]: success
 [2023-07-27 01:16:11] INFO root fetch - main [MainThread]: Store serial: [19050729]
+[2023-07-27 01:21:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19050729]
+[2023-07-27 01:21:20] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-27 01:21:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: heizer
+[2023-07-27 01:21:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nsj-queue-lib
+[2023-07-27 01:21:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: coiled
+[2023-07-27 01:21:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mrgrain.cdk-esbuild
+[2023-07-27 01:21:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: heizer
+[2023-07-27 01:21:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hspylib-setman
+[2023-07-27 01:21:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tensorflow-compression
+[2023-07-27 01:21:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: MedicalImageConverter
+[2023-07-27 01:21:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: latinex-sdk
+[2023-07-27 01:21:20] INFO root fetch - processPackages [heizer]: New version: [999999.dev1690413391] Old Version: [999999.dev1681441540]
+[2023-07-27 01:21:20] INFO root fetch - processPackages [mrgrain.cdk-esbuild]: New version: [4.1.9] Old Version: [4.1.8]
+[2023-07-27 01:21:20] INFO root fetch - processPackages [heizer]: New version: [999999.dev1690413391] Old Version: [999999.dev1681441540]
+[2023-07-27 01:21:20] INFO root fetch - processPackages [hspylib-setman]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-27 01:21:20] INFO root fetch - processPackages [nsj-queue-lib]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-27 01:21:20] INFO root fetch - processPackages [tensorflow-compression]: New version: [2.9.2] Old Version: [2.9.1]
+[2023-07-27 01:21:20] INFO root fetch - processPackages [coiled]: New version: [0.8.9.dev9] Old Version: [0.8.9.dev6]
+[2023-07-27 01:21:20] INFO root fetch - processPackages [MedicalImageConverter]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-07-27 01:21:20] INFO root fetch - processPackages [latinex-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-27 01:21:20] INFO root fetch - processPackages [hspylib-setman]: Downloading https://files.pythonhosted.org/packages/ca/86/d4c00d36772f3c810863e8a8facf2b40913eb2af79eed33bd695d81a8a66/hspylib-setman-0.9.8.tar.gz
+[2023-07-27 01:21:20] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/01/4b/38ee625e022b9045458352636265942fc0dd2c5373d6b88ca4415a39b230/coiled-0.8.9.dev6.tar.gz
+[2023-07-27 01:21:20] INFO root fetch - processPackages [heizer]: Downloading https://files.pythonhosted.org/packages/58/15/39b39a544dc414932763a6f9db4a3f0f570878d526a876995526a7f65e63/heizer-999999.dev1681441540.tar.gz
+[2023-07-27 01:21:20] INFO root fetch - processPackages [nsj-queue-lib]: Downloading https://files.pythonhosted.org/packages/65/f6/3d8956f227c912b5516a4303c6fd97e0a59bef95511d007fe6412ff3932b/nsj_queue_lib-0.3.0.tar.gz
+[2023-07-27 01:21:20] INFO root fetch - processPackages [heizer]: Downloading https://files.pythonhosted.org/packages/58/15/39b39a544dc414932763a6f9db4a3f0f570878d526a876995526a7f65e63/heizer-999999.dev1681441540.tar.gz
+[2023-07-27 01:21:20] INFO root fetch - processPackages [tensorflow-compression]: Downloading https://files.pythonhosted.org/packages/f5/23/ce8b38098fc182660c56d5686cee2f1154f00390b7e74d9df24937bc70a6/tensorflow_compression-2.9.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-27 01:21:20] INFO root fetch - processPackages [latinex-sdk]: Downloading https://files.pythonhosted.org/packages/ed/70/73ee4973b7196c2daa6b8a7a65b5c6e4dc232c886605ebd548b7adaaeb94/latinex-sdk-0.0.8.tar.gz
+[2023-07-27 01:21:20] INFO root fetch - processPackages [MedicalImageConverter]: Downloading https://files.pythonhosted.org/packages/56/9d/5c6d9f6a8c30d03c30a7e6d71b8eaf15b6b102d19537c0d10cc1b314cad6/MedicalImageConverter-1.1.2.tar.gz
+[2023-07-27 01:21:20] INFO root fetch - processPackages [mrgrain.cdk-esbuild]: Downloading https://files.pythonhosted.org/packages/56/75/54c0e12842e49983934d84f31548b619fd175ad19b8c19b5f97f794eb94e/mrgrain.cdk-esbuild-4.1.8.tar.gz
+[2023-07-27 01:21:21] INFO root fetch - processPackages [hspylib-setman]: Downloading https://files.pythonhosted.org/packages/c5/a4/722debaef60a0f54fbee575ca41fa122ec39cd3fab91b4b8ddebc1dc8232/hspylib-setman-0.9.9.tar.gz
+[2023-07-27 01:21:21] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/26/80/9e4bfeccf312016e825026ef4ffbc2321b3117d2572b720eaa72b12d9673/coiled-0.8.9.dev9.tar.gz
+[2023-07-27 01:21:21] INFO root fetch - processPackages [nsj-queue-lib]: Downloading https://files.pythonhosted.org/packages/72/db/3207f4746a3af423ef9ece0dcfbedfec41dd7f921deb69692a75b3b9ec54/nsj_queue_lib-0.4.0.tar.gz
+[2023-07-27 01:21:21] INFO root fetch - processPackages [hspylib-setman]: executing diffoscope
+[2023-07-27 01:21:21] INFO root fetch - processPackages [hspylib-setman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hspylib-setman-0.9.8.tar.gz tmp/hspylib-setman-0.9.9.tar.gz --markdown 20230727/h/hspylib-setman/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-27 01:21:21] INFO root fetch - processPackages [mrgrain.cdk-esbuild]: Downloading https://files.pythonhosted.org/packages/8f/4d/f07f5f7e8663e5c3a7bdcce04614832dec7d8ce7766d77dad96f4796e451/mrgrain.cdk-esbuild-4.1.9.tar.gz
+[2023-07-27 01:21:21] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-07-27 01:21:21] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.8.9.dev6.tar.gz tmp/coiled-0.8.9.dev9.tar.gz --markdown 20230727/c/coiled/0.8.9.dev6-0.8.9.dev9/diff.md --exclude *.pyd
+[2023-07-27 01:21:21] INFO root fetch - processPackages [latinex-sdk]: Downloading https://files.pythonhosted.org/packages/86/b3/108620bc3030ae98278a6cc63004bb725c2f3589a0154581657fe95e5dfd/latinex-sdk-0.0.9.tar.gz
+[2023-07-27 01:21:21] INFO root fetch - processPackages [nsj-queue-lib]: executing diffoscope
+[2023-07-27 01:21:21] INFO root fetch - processPackages [nsj-queue-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nsj_queue_lib-0.3.0.tar.gz tmp/nsj_queue_lib-0.4.0.tar.gz --markdown 20230727/n/nsj-queue-lib/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-27 01:21:21] INFO root fetch - processPackages [mrgrain.cdk-esbuild]: executing diffoscope
+[2023-07-27 01:21:21] INFO root fetch - processPackages [mrgrain.cdk-esbuild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrgrain.cdk-esbuild-4.1.8.tar.gz tmp/mrgrain.cdk-esbuild-4.1.9.tar.gz --markdown 20230727/m/mrgrain.cdk-esbuild/4.1.8-4.1.9/diff.md --exclude *.pyd
+[2023-07-27 01:21:21] INFO root fetch - processPackages [MedicalImageConverter]: Downloading https://files.pythonhosted.org/packages/f2/8e/12faeeb86b1daa94e78a04540b1337c56b3ffd2f898de1efa7eca9178694/MedicalImageConverter-1.1.3.tar.gz
+[2023-07-27 01:21:21] INFO root fetch - processPackages [tensorflow-compression]: Downloading https://files.pythonhosted.org/packages/79/6d/ba93e52191c552ff9bf8143bef1ea4f0dd52c50158121fe1a4fca8c86ab6/tensorflow_compression-2.9.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-27 01:21:21] INFO root fetch - processPackages [latinex-sdk]: executing diffoscope
+[2023-07-27 01:21:21] INFO root fetch - processPackages [latinex-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latinex-sdk-0.0.8.tar.gz tmp/latinex-sdk-0.0.9.tar.gz --markdown 20230727/l/latinex-sdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-27 01:21:21] INFO root fetch - processPackages [tensorflow-compression]: executing diffoscope
+[2023-07-27 01:21:21] INFO root fetch - processPackages [tensorflow-compression]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorflow_compression-2.9.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/tensorflow_compression-2.9.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230727/t/tensorflow-compression/2.9.1-2.9.2/diff.md --exclude *.pyd
+[2023-07-27 01:21:21] INFO root fetch - processPackages [MedicalImageConverter]: executing diffoscope
+[2023-07-27 01:21:21] INFO root fetch - processPackages [MedicalImageConverter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MedicalImageConverter-1.1.2.tar.gz tmp/MedicalImageConverter-1.1.3.tar.gz --markdown 20230727/M/MedicalImageConverter/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-07-27 01:21:21] INFO root fetch - processPackages [heizer]: Downloading https://files.pythonhosted.org/packages/db/3f/265b8e13c2ad6c1670907086e3a4aa18dd3c94446cf19639d42967a6843b/heizer-999999.dev1690413391.tar.gz
+[2023-07-27 01:21:21] INFO root fetch - processPackages [heizer]: Downloading https://files.pythonhosted.org/packages/db/3f/265b8e13c2ad6c1670907086e3a4aa18dd3c94446cf19639d42967a6843b/heizer-999999.dev1690413391.tar.gz
+[2023-07-27 01:21:22] INFO root fetch - processPackages [heizer]: executing diffoscope
+[2023-07-27 01:21:22] INFO root fetch - processPackages [heizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heizer-999999.dev1681441540.tar.gz tmp/heizer-999999.dev1690413391.tar.gz --markdown 20230727/h/heizer/999999.dev1681441540-999999.dev1690413391/diff.md --exclude *.pyd
+[2023-07-27 01:21:22] INFO root fetch - processPackages [heizer]: executing diffoscope
+[2023-07-27 01:21:22] INFO root fetch - processPackages [heizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heizer-999999.dev1681441540.tar.gz tmp/heizer-999999.dev1690413391.tar.gz --markdown 20230727/h/heizer/999999.dev1681441540-999999.dev1690413391/diff.md --exclude *.pyd
+[2023-07-27 01:21:22] INFO root fetch - processPackages [hspylib-setman]: Remove: archive file [/home/abi/fetcher/tmp/hspylib-setman-0.9.8.tar.gz]
+[2023-07-27 01:21:22] INFO root fetch - processPackages [hspylib-setman]: Remove: archive file [/home/abi/fetcher/tmp/hspylib-setman-0.9.9.tar.gz]
+[2023-07-27 01:21:22] INFO root fetch - main [MainThread]: End processing [hspylib-setman]: success
+[2023-07-27 01:21:22] INFO root fetch - processPackages [nsj-queue-lib]: Remove: archive file [/home/abi/fetcher/tmp/nsj_queue_lib-0.3.0.tar.gz]
+[2023-07-27 01:21:22] INFO root fetch - processPackages [nsj-queue-lib]: Remove: archive file [/home/abi/fetcher/tmp/nsj_queue_lib-0.4.0.tar.gz]
+[2023-07-27 01:21:22] INFO root fetch - main [MainThread]: End processing [nsj-queue-lib]: success
+[2023-07-27 01:21:22] INFO root fetch - processPackages [latinex-sdk]: Remove: archive file [/home/abi/fetcher/tmp/latinex-sdk-0.0.8.tar.gz]
+[2023-07-27 01:21:22] INFO root fetch - processPackages [latinex-sdk]: Remove: archive file [/home/abi/fetcher/tmp/latinex-sdk-0.0.9.tar.gz]
+[2023-07-27 01:21:22] INFO root fetch - main [MainThread]: End processing [latinex-sdk]: success
+[2023-07-27 01:21:22] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.8.9.dev6.tar.gz]
+[2023-07-27 01:21:22] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.8.9.dev9.tar.gz]
+[2023-07-27 01:21:22] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-07-27 01:21:22] INFO root fetch - processPackages [MedicalImageConverter]: Remove: archive file [/home/abi/fetcher/tmp/MedicalImageConverter-1.1.2.tar.gz]
+[2023-07-27 01:21:22] INFO root fetch - processPackages [MedicalImageConverter]: Remove: archive file [/home/abi/fetcher/tmp/MedicalImageConverter-1.1.3.tar.gz]
+[2023-07-27 01:21:22] INFO root fetch - main [MainThread]: End processing [MedicalImageConverter]: success
+[2023-07-27 01:21:22] INFO root fetch - processPackages [mrgrain.cdk-esbuild]: Remove: archive file [/home/abi/fetcher/tmp/mrgrain.cdk-esbuild-4.1.8.tar.gz]
+[2023-07-27 01:21:22] INFO root fetch - processPackages [mrgrain.cdk-esbuild]: Remove: archive file [/home/abi/fetcher/tmp/mrgrain.cdk-esbuild-4.1.9.tar.gz]
+[2023-07-27 01:21:22] INFO root fetch - main [MainThread]: End processing [mrgrain.cdk-esbuild]: success
+[2023-07-27 01:21:23] INFO root fetch - processPackages [heizer]: Remove: archive file [/home/abi/fetcher/tmp/heizer-999999.dev1681441540.tar.gz]
+[2023-07-27 01:21:23] INFO root fetch - processPackages [heizer]: Remove: archive file [/home/abi/fetcher/tmp/heizer-999999.dev1690413391.tar.gz]
+[2023-07-27 01:21:23] INFO root fetch - main [MainThread]: End processing [heizer]: success
+[2023-07-27 01:21:23] INFO root fetch - main [MainThread]: End processing [heizer]: success
+[2023-07-27 01:21:24] INFO root fetch - processPackages [tensorflow-compression]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow_compression-2.9.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-27 01:21:24] INFO root fetch - processPackages [tensorflow-compression]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow_compression-2.9.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-27 01:21:24] INFO root fetch - main [MainThread]: End processing [tensorflow-compression]: success
+[2023-07-27 01:21:24] INFO root fetch - main [MainThread]: Store serial: [19050765]
