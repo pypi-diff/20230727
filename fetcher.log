@@ -882,3 +882,114 @@
 [2023-07-27 00:44:49] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307262239-py3-none-any.whl.zip]
 [2023-07-27 00:44:49] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-07-27 00:44:49] INFO root fetch - main [MainThread]: Store serial: [19050583]
+[2023-07-27 00:49:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19050583]
+[2023-07-27 00:49:57] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-27 00:49:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gwcelery
+[2023-07-27 00:49:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: glotlib
+[2023-07-27 00:49:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: myPyllant
+[2023-07-27 00:49:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: klongpy
+[2023-07-27 00:49:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scrunch
+[2023-07-27 00:49:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dopt-blocks-python-client
+[2023-07-27 00:49:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hak
+[2023-07-27 00:49:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rouskinhf
+[2023-07-27 00:49:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nclib
+[2023-07-27 00:49:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: FM15-bfr2geojson
+[2023-07-27 00:49:57] INFO root fetch - processPackages [hak]: New version: [0.0.98] Old Version: [0.0.97]
+[2023-07-27 00:49:58] INFO root fetch - processPackages [gwcelery]: New version: [2.1.4] Old Version: [2.1.3]
+[2023-07-27 00:49:58] INFO root fetch - processPackages [rouskinhf]: New version: [0.2.3] Old Version: [0.2.1]
+[2023-07-27 00:49:58] INFO root fetch - processPackages [glotlib]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-27 00:49:58] INFO root fetch - processPackages [klongpy]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-07-27 00:49:58] INFO root fetch - processPackages [dopt-blocks-python-client]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-27 00:49:58] INFO root fetch - processPackages [myPyllant]: New version: [0.4.0] Old Version: [0.3.3]
+[2023-07-27 00:49:58] INFO root fetch - processPackages [scrunch]: New version: [6.5.2012.post1690411612] Old Version: [6.5.2012.post1690408577]
+[2023-07-27 00:49:58] INFO root fetch - processPackages [nclib]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-27 00:49:58] INFO root fetch - processPackages [FM15-bfr2geojson]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-27 00:49:58] INFO root fetch - processPackages [scrunch]: Downloading https://files.pythonhosted.org/packages/70/59/b1397b21972a5422289d7814e347cc996c3811c0719640b6e313fa4d13e9/scrunch-6.5.2012.post1690408577.tar.gz
+[2023-07-27 00:49:58] INFO root fetch - processPackages [gwcelery]: Downloading https://files.pythonhosted.org/packages/c8/62/2126f9eff9359e23a8fd1a03db6173a83138f39783f0cac7ad9e6bb27500/gwcelery-2.1.3.tar.gz
+[2023-07-27 00:49:58] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/61/0c/440743736beab2080764a19d50fce18796dba30de54e8992ad357aef3b53/hak-0.0.97.tar.gz
+[2023-07-27 00:49:58] INFO root fetch - processPackages [rouskinhf]: Downloading https://files.pythonhosted.org/packages/5b/26/d1a14c39a627bc2bbf6667bdfbedc9712046beaad9f5a8163b27071efb2f/rouskinhf-0.2.1.tar.gz
+[2023-07-27 00:49:58] INFO root fetch - processPackages [nclib]: Downloading https://files.pythonhosted.org/packages/bd/19/bb371227589f7431d34ec1515a1da9c5fec9e6d8a0eb773bb5367e9176c5/nclib-1.0.2.tar.gz
+[2023-07-27 00:49:58] INFO root fetch - processPackages [klongpy]: Downloading https://files.pythonhosted.org/packages/b9/05/3ba7c6dfddd8819e2a5a4954f4063bac6401c756b37baf2fc507ee776b20/klongpy-0.4.1.tar.gz
+[2023-07-27 00:49:58] INFO root fetch - processPackages [dopt-blocks-python-client]: Downloading https://files.pythonhosted.org/packages/32/5a/445a8c112db0833eff3a4fc4fe4c70f6708d28c722462221ea51387758ba/dopt_blocks_python_client-1.0.8.tar.gz
+[2023-07-27 00:49:58] INFO root fetch - processPackages [myPyllant]: Downloading https://files.pythonhosted.org/packages/25/d0/2b811b925a2ab714563af7db50aed442eea3734c4068c4cba957b0ed0f05/mypyllant-0.3.3.tar.gz
+[2023-07-27 00:49:58] INFO root fetch - processPackages [glotlib]: Downloading https://files.pythonhosted.org/packages/e0/8c/88ecaaf38d2de22a00d5ce0603ddad6865560fcd37b583f91ffe37487306/glotlib-0.9.1.tar.gz
+[2023-07-27 00:49:58] INFO root fetch - processPackages [FM15-bfr2geojson]: Downloading https://files.pythonhosted.org/packages/dc/14/01c9cffd23ee5c9285a2c0f45011d979f1a264adb26c99de86f2b477db1d/FM15_bfr2geojson-0.0.2.tar.gz
+[2023-07-27 00:49:58] INFO root fetch - processPackages [scrunch]: Downloading https://files.pythonhosted.org/packages/4c/e1/38adeaf4d436f33e6797b6a89ab3bd42120a287cd26fcec160184c99cca8/scrunch-6.5.2012.post1690411612.tar.gz
+[2023-07-27 00:49:58] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/a1/9a/419bf4ee5fc4a90f7065fa7832ea16845a3077a93def062d948b6d89626b/hak-0.0.98.tar.gz
+[2023-07-27 00:49:58] INFO root fetch - processPackages [rouskinhf]: Downloading https://files.pythonhosted.org/packages/ba/1f/0d337fabd21df45f521c6fbb35221d86d9fe0bb1d1484a0151937b9c51ed/rouskinhf-0.2.3.tar.gz
+[2023-07-27 00:49:58] INFO root fetch - processPackages [klongpy]: Downloading https://files.pythonhosted.org/packages/da/ac/171b9693ca5330f19ff3658b16b72895ccdbb3a39767055d19993d80a660/klongpy-0.4.2.tar.gz
+[2023-07-27 00:49:58] INFO root fetch - processPackages [nclib]: Downloading https://files.pythonhosted.org/packages/00/42/4d5bc2ab082df68b51b04106d7af3d9e25009d784886893b4f6c69bcdca9/nclib-1.0.3.tar.gz
+[2023-07-27 00:49:58] INFO root fetch - processPackages [myPyllant]: Downloading https://files.pythonhosted.org/packages/5a/27/2340b6e6f195f597487bb2dad1d6dbf6e13f71be3aa0860aa1b0b45c4de2/mypyllant-0.4.0.tar.gz
+[2023-07-27 00:49:58] INFO root fetch - processPackages [FM15-bfr2geojson]: Downloading https://files.pythonhosted.org/packages/4a/ba/af9fec1897f0d6fb450c7bfd6b623fed1c253f6c74c6d43ca6f8a6564968/FM15_bfr2geojson-0.0.3.tar.gz
+[2023-07-27 00:49:58] INFO root fetch - processPackages [scrunch]: executing diffoscope
+[2023-07-27 00:49:58] INFO root fetch - processPackages [scrunch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrunch-6.5.2012.post1690408577.tar.gz tmp/scrunch-6.5.2012.post1690411612.tar.gz --markdown 20230727/s/scrunch/6.5.2012.post1690408577-6.5.2012.post1690411612/diff.md --exclude *.pyd
+[2023-07-27 00:49:58] INFO root fetch - processPackages [glotlib]: Downloading https://files.pythonhosted.org/packages/63/2d/bccc2029d6383c05938014a9b42234589143bec2ceaefb1fd522d923bdf9/glotlib-0.9.2.tar.gz
+[2023-07-27 00:49:59] INFO root fetch - processPackages [rouskinhf]: executing diffoscope
+[2023-07-27 00:49:59] INFO root fetch - processPackages [rouskinhf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rouskinhf-0.2.1.tar.gz tmp/rouskinhf-0.2.3.tar.gz --markdown 20230727/r/rouskinhf/0.2.1-0.2.3/diff.md --exclude *.pyd
+[2023-07-27 00:49:59] INFO root fetch - processPackages [dopt-blocks-python-client]: Downloading https://files.pythonhosted.org/packages/90/8d/ff4857da10a20feeaa9ba44f8e0b708328b19bfada7d188bab680fd0eebe/dopt_blocks_python_client-1.0.9.tar.gz
+[2023-07-27 00:49:59] INFO root fetch - processPackages [klongpy]: executing diffoscope
+[2023-07-27 00:49:59] INFO root fetch - processPackages [klongpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/klongpy-0.4.1.tar.gz tmp/klongpy-0.4.2.tar.gz --markdown 20230727/k/klongpy/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-07-27 00:49:59] INFO root fetch - processPackages [myPyllant]: executing diffoscope
+[2023-07-27 00:49:59] INFO root fetch - processPackages [myPyllant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypyllant-0.3.3.tar.gz tmp/mypyllant-0.4.0.tar.gz --markdown 20230727/m/myPyllant/0.3.3-0.4.0/diff.md --exclude *.pyd
+[2023-07-27 00:49:59] INFO root fetch - processPackages [hak]: executing diffoscope
+[2023-07-27 00:49:59] INFO root fetch - processPackages [hak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hak-0.0.97.tar.gz tmp/hak-0.0.98.tar.gz --markdown 20230727/h/hak/0.0.97-0.0.98/diff.md --exclude *.pyd
+[2023-07-27 00:49:59] INFO root fetch - processPackages [nclib]: executing diffoscope
+[2023-07-27 00:49:59] INFO root fetch - processPackages [nclib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nclib-1.0.2.tar.gz tmp/nclib-1.0.3.tar.gz --markdown 20230727/n/nclib/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-27 00:49:59] INFO root fetch - processPackages [gwcelery]: Downloading https://files.pythonhosted.org/packages/81/81/70f69fff8ff2c146eb87c702c5254ad051c642c39b2efa50301c8110b667/gwcelery-2.1.4.tar.gz
+[2023-07-27 00:49:59] INFO root fetch - processPackages [glotlib]: executing diffoscope
+[2023-07-27 00:49:59] INFO root fetch - processPackages [glotlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glotlib-0.9.1.tar.gz tmp/glotlib-0.9.2.tar.gz --markdown 20230727/g/glotlib/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-27 00:49:59] INFO root fetch - processPackages [FM15-bfr2geojson]: executing diffoscope
+[2023-07-27 00:49:59] INFO root fetch - processPackages [FM15-bfr2geojson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FM15_bfr2geojson-0.0.2.tar.gz tmp/FM15_bfr2geojson-0.0.3.tar.gz --markdown 20230727/F/FM15-bfr2geojson/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-27 00:49:59] INFO root fetch - processPackages [dopt-blocks-python-client]: executing diffoscope
+[2023-07-27 00:49:59] INFO root fetch - processPackages [dopt-blocks-python-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dopt_blocks_python_client-1.0.8.tar.gz tmp/dopt_blocks_python_client-1.0.9.tar.gz --markdown 20230727/d/dopt-blocks-python-client/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-27 00:49:59] INFO root fetch - processPackages [gwcelery]: executing diffoscope
+[2023-07-27 00:49:59] INFO root fetch - processPackages [gwcelery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gwcelery-2.1.3.tar.gz tmp/gwcelery-2.1.4.tar.gz --markdown 20230727/g/gwcelery/2.1.3-2.1.4/diff.md --exclude *.pyd
+[2023-07-27 00:50:00] INFO root fetch - processPackages [rouskinhf]: Remove: archive file [/home/abi/fetcher/tmp/rouskinhf-0.2.1.tar.gz]
+[2023-07-27 00:50:00] INFO root fetch - processPackages [rouskinhf]: Remove: archive file [/home/abi/fetcher/tmp/rouskinhf-0.2.3.tar.gz]
+[2023-07-27 00:50:00] INFO root fetch - processPackages [rouskinhf]: Start processing: khoj-assistant
+[2023-07-27 00:50:00] INFO root fetch - main [MainThread]: End processing [rouskinhf]: success
+[2023-07-27 00:50:00] INFO root fetch - processPackages [nclib]: Remove: archive file [/home/abi/fetcher/tmp/nclib-1.0.2.tar.gz]
+[2023-07-27 00:50:00] INFO root fetch - processPackages [nclib]: Remove: archive file [/home/abi/fetcher/tmp/nclib-1.0.3.tar.gz]
+[2023-07-27 00:50:00] INFO root fetch - processPackages [nclib]: Start processing: prettyqt
+[2023-07-27 00:50:00] INFO root fetch - main [MainThread]: End processing [nclib]: success
+[2023-07-27 00:50:00] INFO root fetch - processPackages [prettyqt]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-07-27 00:50:00] INFO root fetch - processPackages [FM15-bfr2geojson]: Remove: archive file [/home/abi/fetcher/tmp/FM15_bfr2geojson-0.0.2.tar.gz]
+[2023-07-27 00:50:00] INFO root fetch - processPackages [FM15-bfr2geojson]: Remove: archive file [/home/abi/fetcher/tmp/FM15_bfr2geojson-0.0.3.tar.gz]
+[2023-07-27 00:50:00] INFO root fetch - main [MainThread]: End processing [FM15-bfr2geojson]: success
+[2023-07-27 00:50:00] INFO root fetch - processPackages [prettyqt]: Downloading https://files.pythonhosted.org/packages/90/b7/c5a53747168c1ccc1d26309eca89b437a5f5c027f7a8486b65463ad4770c/prettyqt-1.9.1.tar.gz
+[2023-07-27 00:50:00] INFO root fetch - processPackages [scrunch]: Remove: archive file [/home/abi/fetcher/tmp/scrunch-6.5.2012.post1690408577.tar.gz]
+[2023-07-27 00:50:00] INFO root fetch - processPackages [scrunch]: Remove: archive file [/home/abi/fetcher/tmp/scrunch-6.5.2012.post1690411612.tar.gz]
+[2023-07-27 00:50:00] INFO root fetch - main [MainThread]: End processing [scrunch]: success
+[2023-07-27 00:50:00] INFO root fetch - processPackages [myPyllant]: Remove: archive file [/home/abi/fetcher/tmp/mypyllant-0.3.3.tar.gz]
+[2023-07-27 00:50:00] INFO root fetch - processPackages [klongpy]: Remove: archive file [/home/abi/fetcher/tmp/klongpy-0.4.1.tar.gz]
+[2023-07-27 00:50:00] INFO root fetch - processPackages [myPyllant]: Remove: archive file [/home/abi/fetcher/tmp/mypyllant-0.4.0.tar.gz]
+[2023-07-27 00:50:01] INFO root fetch - processPackages [klongpy]: Remove: archive file [/home/abi/fetcher/tmp/klongpy-0.4.2.tar.gz]
+[2023-07-27 00:50:01] INFO root fetch - main [MainThread]: End processing [myPyllant]: success
+[2023-07-27 00:50:01] INFO root fetch - main [MainThread]: End processing [klongpy]: success
+[2023-07-27 00:50:01] INFO root fetch - processPackages [khoj-assistant]: New version: [0.9.1.dev8] Old Version: [0.9.1.dev7]
+[2023-07-27 00:50:01] INFO root fetch - processPackages [glotlib]: Remove: archive file [/home/abi/fetcher/tmp/glotlib-0.9.1.tar.gz]
+[2023-07-27 00:50:01] INFO root fetch - processPackages [glotlib]: Remove: archive file [/home/abi/fetcher/tmp/glotlib-0.9.2.tar.gz]
+[2023-07-27 00:50:01] INFO root fetch - main [MainThread]: End processing [glotlib]: success
+[2023-07-27 00:50:01] INFO root fetch - processPackages [dopt-blocks-python-client]: Remove: archive file [/home/abi/fetcher/tmp/dopt_blocks_python_client-1.0.8.tar.gz]
+[2023-07-27 00:50:01] INFO root fetch - processPackages [dopt-blocks-python-client]: Remove: archive file [/home/abi/fetcher/tmp/dopt_blocks_python_client-1.0.9.tar.gz]
+[2023-07-27 00:50:01] INFO root fetch - main [MainThread]: End processing [dopt-blocks-python-client]: success
+[2023-07-27 00:50:01] INFO root fetch - processPackages [prettyqt]: Downloading https://files.pythonhosted.org/packages/49/65/b381f14f4a70e301a6f9cd50931dea1693b62567e0d6f4a9f55040563489/prettyqt-1.9.2.tar.gz
+[2023-07-27 00:50:01] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/80/c2/afc116f8f70318334052f67223fb93a5ce1d898f2d901991e87dad33b030/khoj_assistant-0.9.1.dev7.tar.gz
+[2023-07-27 00:50:01] INFO root fetch - processPackages [prettyqt]: executing diffoscope
+[2023-07-27 00:50:01] INFO root fetch - processPackages [prettyqt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prettyqt-1.9.1.tar.gz tmp/prettyqt-1.9.2.tar.gz --markdown 20230727/p/prettyqt/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-07-27 00:50:01] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.97.tar.gz]
+[2023-07-27 00:50:01] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.98.tar.gz]
+[2023-07-27 00:50:01] INFO root fetch - main [MainThread]: End processing [hak]: success
+[2023-07-27 00:50:01] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/87/c3/a6da041c3dee772521fabc9586096b6809ee0e9289735b249898c5a282a2/khoj_assistant-0.9.1.dev8.tar.gz
+[2023-07-27 00:50:02] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2023-07-27 00:50:02] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-0.9.1.dev7.tar.gz tmp/khoj_assistant-0.9.1.dev8.tar.gz --markdown 20230727/k/khoj-assistant/0.9.1.dev7-0.9.1.dev8/diff.md --exclude *.pyd
+[2023-07-27 00:50:02] INFO root fetch - processPackages [gwcelery]: Remove: archive file [/home/abi/fetcher/tmp/gwcelery-2.1.3.tar.gz]
+[2023-07-27 00:50:02] INFO root fetch - processPackages [gwcelery]: Remove: archive file [/home/abi/fetcher/tmp/gwcelery-2.1.4.tar.gz]
+[2023-07-27 00:50:02] INFO root fetch - main [MainThread]: End processing [gwcelery]: success
+[2023-07-27 00:50:03] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.9.1.dev7.tar.gz]
+[2023-07-27 00:50:03] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.9.1.dev8.tar.gz]
+[2023-07-27 00:50:03] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2023-07-27 00:50:05] INFO root fetch - processPackages [prettyqt]: Remove: archive file [/home/abi/fetcher/tmp/prettyqt-1.9.1.tar.gz]
+[2023-07-27 00:50:05] INFO root fetch - processPackages [prettyqt]: Remove: archive file [/home/abi/fetcher/tmp/prettyqt-1.9.2.tar.gz]
+[2023-07-27 00:50:05] INFO root fetch - main [MainThread]: End processing [prettyqt]: success
+[2023-07-27 00:50:05] INFO root fetch - main [MainThread]: Store serial: [19050615]
