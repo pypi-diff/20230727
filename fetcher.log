@@ -807,3 +807,78 @@
 [2023-07-27 00:39:35] INFO root fetch - processPackages [canvasxpress]: Remove: archive file [/home/abi/fetcher/tmp/canvasxpress-2023.7.9.1809.tar.gz]
 [2023-07-27 00:39:35] INFO root fetch - main [MainThread]: End processing [canvasxpress]: success
 [2023-07-27 00:39:35] INFO root fetch - main [MainThread]: Store serial: [19050548]
+[2023-07-27 00:44:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19050548]
+[2023-07-27 00:44:44] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-27 00:44:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kcli
+[2023-07-27 00:44:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hyperopt-prophet
+[2023-07-27 00:44:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bittensor
+[2023-07-27 00:44:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tanchan
+[2023-07-27 00:44:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: secrets-vault
+[2023-07-27 00:44:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kfish
+[2023-07-27 00:44:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ginormal
+[2023-07-27 00:44:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: SpecLab
+[2023-07-27 00:44:44] INFO root fetch - processPackages [tanchan]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-27 00:44:44] INFO root fetch - processPackages [SpecLab]: New version: [4.2.4] Old Version: [4.2.3]
+[2023-07-27 00:44:44] INFO root fetch - processPackages [kfish]: New version: [99.0.202307262242] Old Version: [99.0.202307261900]
+[2023-07-27 00:44:44] INFO root fetch - processPackages [bittensor]: New version: [5.3.2] Old Version: [5.3.1]
+[2023-07-27 00:44:44] INFO root fetch - processPackages [ginormal]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-27 00:44:44] INFO root fetch - processPackages [hyperopt-prophet]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-27 00:44:44] INFO root fetch - processPackages [secrets-vault]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-27 00:44:44] INFO root fetch - processPackages [kcli]: New version: [99.0.202307262239] Old Version: [99.0.202307261857]
+[2023-07-27 00:44:44] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/d2/63/3bcc6fbb2febca6162cf708e9c00d91c86b1d8417c8b60a15eea6178fd42/kfish-99.0.202307261900-py3-none-any.whl
+[2023-07-27 00:44:44] INFO root fetch - processPackages [ginormal]: Downloading https://files.pythonhosted.org/packages/9a/28/2b38a8adebebd82c853dc86e90fcd36a324d2840c563a1b40a6ce840e164/ginormal-0.0.7.tar.gz
+[2023-07-27 00:44:44] INFO root fetch - processPackages [SpecLab]: Downloading https://files.pythonhosted.org/packages/67/40/d1da55c4ba80f9b8c0ca2cc75c47456bac58c2f742d390e9216b4397423a/SpecLab-4.2.3.tar.gz
+[2023-07-27 00:44:44] INFO root fetch - processPackages [hyperopt-prophet]: Downloading https://files.pythonhosted.org/packages/af/c4/3ab45c8cfde8d3278525b3a1ba7ebf46ea5bfefb043ee319d2c89b408f13/hyperopt_prophet-0.1.5.tar.gz
+[2023-07-27 00:44:44] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/fb/d1/b76b613ac986828d10fa559a1471fe3e176c0cec0d5fe2c86a18e89c54b8/kcli-99.0.202307261857-py3-none-any.whl
+[2023-07-27 00:44:44] INFO root fetch - processPackages [tanchan]: Downloading https://files.pythonhosted.org/packages/92/1f/0e85ade554c2619ec6bb91dd3832c416ff0f7680a9f5be1ed67a5922cbea/tanchan-0.3.0.tar.gz
+[2023-07-27 00:44:44] INFO root fetch - processPackages [secrets-vault]: Downloading https://files.pythonhosted.org/packages/44/aa/4a5d2ca64a6d79c980853ede4e669938583170de17f4c192bcf92500ff1f/secrets-vault-0.1.8.tar.gz
+[2023-07-27 00:44:44] INFO root fetch - processPackages [bittensor]: Downloading https://files.pythonhosted.org/packages/69/d3/e861e69a6457554728a44640285256c4cd613156f3138bb64b274b253b25/bittensor-5.3.1.tar.gz
+[2023-07-27 00:44:45] INFO root fetch - processPackages [SpecLab]: Downloading https://files.pythonhosted.org/packages/e3/f2/354670a97c8a848907648f331f525a2b78ac2b4e9adb2abb3210d3a5395a/SpecLab-4.2.4.tar.gz
+[2023-07-27 00:44:45] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/fd/e4/bfbb0e162286bc47be1c419309b2ec8bc396170e73763827c2b0bbc8380f/kfish-99.0.202307262242-py3-none-any.whl
+[2023-07-27 00:44:45] INFO root fetch - processPackages [ginormal]: Downloading https://files.pythonhosted.org/packages/1e/34/e7b46c26868af3a25e2eeb008e978d8f6d7c4c841db243d4388544d7ecbf/ginormal-0.0.8.tar.gz
+[2023-07-27 00:44:45] INFO root fetch - processPackages [hyperopt-prophet]: Downloading https://files.pythonhosted.org/packages/eb/c5/2f18e5751ff8df68316957d696bd8c1586baa2e3f71494a9b51a00754193/hyperopt_prophet-0.1.6.tar.gz
+[2023-07-27 00:44:45] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/78/77/232ae5af5d6f0db51f934cd165d8122f4d23f386f6875582b2cbf55c989e/kcli-99.0.202307262239-py3-none-any.whl
+[2023-07-27 00:44:45] INFO root fetch - processPackages [tanchan]: Downloading https://files.pythonhosted.org/packages/28/97/be70782fe94d84027d2dce1475fb90a9db06700d161b7a0aab0500911c7d/tanchan-0.3.1.tar.gz
+[2023-07-27 00:44:45] INFO root fetch - processPackages [SpecLab]: executing diffoscope
+[2023-07-27 00:44:45] INFO root fetch - processPackages [SpecLab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SpecLab-4.2.3.tar.gz tmp/SpecLab-4.2.4.tar.gz --markdown 20230727/S/SpecLab/4.2.3-4.2.4/diff.md --exclude *.pyd
+[2023-07-27 00:44:45] INFO root fetch - processPackages [secrets-vault]: Downloading https://files.pythonhosted.org/packages/fb/07/bc2a1662dc0ed7e174bb078e2e2535276a28379ec2bf1cf7223faba5a988/secrets-vault-0.1.9.tar.gz
+[2023-07-27 00:44:45] INFO root fetch - processPackages [bittensor]: Downloading https://files.pythonhosted.org/packages/21/52/b83913f28143f15aedc3fd8e54b54871d24f1521357a369b788f5a03978a/bittensor-5.3.2.tar.gz
+[2023-07-27 00:44:45] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-07-27 00:44:45] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202307261900-py3-none-any.whl.zip tmp/kfish-99.0.202307262242-py3-none-any.whl.zip --markdown 20230727/k/kfish/99.0.202307261900-99.0.202307262242/diff.md --exclude *.pyd
+[2023-07-27 00:44:45] INFO root fetch - processPackages [ginormal]: executing diffoscope
+[2023-07-27 00:44:45] INFO root fetch - processPackages [ginormal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ginormal-0.0.7.tar.gz tmp/ginormal-0.0.8.tar.gz --markdown 20230727/g/ginormal/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-27 00:44:45] INFO root fetch - processPackages [hyperopt-prophet]: executing diffoscope
+[2023-07-27 00:44:45] INFO root fetch - processPackages [hyperopt-prophet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperopt_prophet-0.1.5.tar.gz tmp/hyperopt_prophet-0.1.6.tar.gz --markdown 20230727/h/hyperopt-prophet/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-27 00:44:45] INFO root fetch - processPackages [tanchan]: executing diffoscope
+[2023-07-27 00:44:45] INFO root fetch - processPackages [tanchan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tanchan-0.3.0.tar.gz tmp/tanchan-0.3.1.tar.gz --markdown 20230727/t/tanchan/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-27 00:44:45] INFO root fetch - processPackages [secrets-vault]: executing diffoscope
+[2023-07-27 00:44:45] INFO root fetch - processPackages [secrets-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secrets-vault-0.1.8.tar.gz tmp/secrets-vault-0.1.9.tar.gz --markdown 20230727/s/secrets-vault/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-27 00:44:45] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-07-27 00:44:45] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202307261857-py3-none-any.whl.zip tmp/kcli-99.0.202307262239-py3-none-any.whl.zip --markdown 20230727/k/kcli/99.0.202307261857-99.0.202307262239/diff.md --exclude *.pyd
+[2023-07-27 00:44:45] INFO root fetch - processPackages [bittensor]: executing diffoscope
+[2023-07-27 00:44:45] INFO root fetch - processPackages [bittensor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bittensor-5.3.1.tar.gz tmp/bittensor-5.3.2.tar.gz --markdown 20230727/b/bittensor/5.3.1-5.3.2/diff.md --exclude *.pyd
+[2023-07-27 00:44:46] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307261900-py3-none-any.whl.zip]
+[2023-07-27 00:44:46] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307262242-py3-none-any.whl.zip]
+[2023-07-27 00:44:46] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-07-27 00:44:46] INFO root fetch - processPackages [ginormal]: Remove: archive file [/home/abi/fetcher/tmp/ginormal-0.0.7.tar.gz]
+[2023-07-27 00:44:46] INFO root fetch - processPackages [ginormal]: Remove: archive file [/home/abi/fetcher/tmp/ginormal-0.0.8.tar.gz]
+[2023-07-27 00:44:46] INFO root fetch - main [MainThread]: End processing [ginormal]: success
+[2023-07-27 00:44:46] INFO root fetch - processPackages [SpecLab]: Remove: archive file [/home/abi/fetcher/tmp/SpecLab-4.2.3.tar.gz]
+[2023-07-27 00:44:46] INFO root fetch - processPackages [SpecLab]: Remove: archive file [/home/abi/fetcher/tmp/SpecLab-4.2.4.tar.gz]
+[2023-07-27 00:44:46] INFO root fetch - main [MainThread]: End processing [SpecLab]: success
+[2023-07-27 00:44:46] INFO root fetch - processPackages [hyperopt-prophet]: Remove: archive file [/home/abi/fetcher/tmp/hyperopt_prophet-0.1.5.tar.gz]
+[2023-07-27 00:44:46] INFO root fetch - processPackages [hyperopt-prophet]: Remove: archive file [/home/abi/fetcher/tmp/hyperopt_prophet-0.1.6.tar.gz]
+[2023-07-27 00:44:46] INFO root fetch - main [MainThread]: End processing [hyperopt-prophet]: success
+[2023-07-27 00:44:46] INFO root fetch - processPackages [secrets-vault]: Remove: archive file [/home/abi/fetcher/tmp/secrets-vault-0.1.8.tar.gz]
+[2023-07-27 00:44:46] INFO root fetch - processPackages [secrets-vault]: Remove: archive file [/home/abi/fetcher/tmp/secrets-vault-0.1.9.tar.gz]
+[2023-07-27 00:44:46] INFO root fetch - main [MainThread]: End processing [secrets-vault]: success
+[2023-07-27 00:44:47] INFO root fetch - processPackages [tanchan]: Remove: archive file [/home/abi/fetcher/tmp/tanchan-0.3.0.tar.gz]
+[2023-07-27 00:44:47] INFO root fetch - processPackages [tanchan]: Remove: archive file [/home/abi/fetcher/tmp/tanchan-0.3.1.tar.gz]
+[2023-07-27 00:44:47] INFO root fetch - main [MainThread]: End processing [tanchan]: success
+[2023-07-27 00:44:47] INFO root fetch - processPackages [bittensor]: Remove: archive file [/home/abi/fetcher/tmp/bittensor-5.3.1.tar.gz]
+[2023-07-27 00:44:47] INFO root fetch - processPackages [bittensor]: Remove: archive file [/home/abi/fetcher/tmp/bittensor-5.3.2.tar.gz]
+[2023-07-27 00:44:47] INFO root fetch - main [MainThread]: End processing [bittensor]: success
+[2023-07-27 00:44:49] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307261857-py3-none-any.whl.zip]
+[2023-07-27 00:44:49] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307262239-py3-none-any.whl.zip]
+[2023-07-27 00:44:49] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-07-27 00:44:49] INFO root fetch - main [MainThread]: Store serial: [19050583]
