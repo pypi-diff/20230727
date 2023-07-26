@@ -1395,3 +1395,197 @@
 [2023-07-27 01:21:24] INFO root fetch - processPackages [tensorflow-compression]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow_compression-2.9.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-07-27 01:21:24] INFO root fetch - main [MainThread]: End processing [tensorflow-compression]: success
 [2023-07-27 01:21:24] INFO root fetch - main [MainThread]: Store serial: [19050765]
+[2023-07-27 01:26:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19050765]
+[2023-07-27 01:26:32] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-27 01:26:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: describealign
+[2023-07-27 01:26:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: reverseshellserver
+[2023-07-27 01:26:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pysyncrosim
+[2023-07-27 01:26:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fundaml
+[2023-07-27 01:26:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dgisim
+[2023-07-27 01:26:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: q2report
+[2023-07-27 01:26:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: reverseshellclient
+[2023-07-27 01:26:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: latinex-sdk
+[2023-07-27 01:26:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addon-ssi-m2o-configurator-mixin
+[2023-07-27 01:26:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mantium-spec
+[2023-07-27 01:26:33] WARNING root fetch - processPackages [odoo14-addon-ssi-m2o-configurator-mixin]: Skipping, unable to determine old version
+[2023-07-27 01:26:33] INFO root fetch - processPackages [odoo14-addon-ssi-m2o-configurator-mixin]: Start processing: odoo14-addon-test-ssi-accounting-entry-mixin
+[2023-07-27 01:26:33] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-m2o-configurator-mixin] error
+[2023-07-27 01:26:33] WARNING root fetch - processPackages [describealign]: Skipping, unable to determine old version
+[2023-07-27 01:26:33] INFO root fetch - processPackages [describealign]: Start processing: verisptab
+[2023-07-27 01:26:33] INFO root fetch - main [MainThread]: End processing [describealign] error
+[2023-07-27 01:26:33] WARNING root fetch - processPackages [odoo14-addon-test-ssi-accounting-entry-mixin]: Skipping, unable to determine old version
+[2023-07-27 01:26:33] INFO root fetch - processPackages [odoo14-addon-test-ssi-accounting-entry-mixin]: Start processing: dkist-processing-test
+[2023-07-27 01:26:33] INFO root fetch - main [MainThread]: End processing [odoo14-addon-test-ssi-accounting-entry-mixin] error
+[2023-07-27 01:26:33] INFO root fetch - processPackages [dkist-processing-test]: New version: [1.4.5] Old Version: [1.4.4]
+[2023-07-27 01:26:33] INFO root fetch - processPackages [q2report]: New version: [0.1.33] Old Version: [0.1.32]
+[2023-07-27 01:26:33] INFO root fetch - processPackages [pysyncrosim]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-27 01:26:33] INFO root fetch - processPackages [latinex-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-27 01:26:33] INFO root fetch - processPackages [reverseshellclient]: New version: [0.11] Old Version: [0.10]
+[2023-07-27 01:26:33] INFO root fetch - processPackages [reverseshellserver]: New version: [0.11] Old Version: [0.10]
+[2023-07-27 01:26:33] INFO root fetch - processPackages [mantium-spec]: New version: [1.0.518.post1] Old Version: [1.0.518]
+[2023-07-27 01:26:33] INFO root fetch - processPackages [fundaml]: New version: [0.1.35] Old Version: [0.1.34]
+[2023-07-27 01:26:33] INFO root fetch - processPackages [dkist-processing-test]: Downloading https://files.pythonhosted.org/packages/19/e2/a4e068a1341717f17f3611c706186b4ec6fd4dbcd281297eabf9827d3552/dkist-processing-test-1.4.4.tar.gz
+[2023-07-27 01:26:33] INFO root fetch - processPackages [latinex-sdk]: Downloading https://files.pythonhosted.org/packages/ed/70/73ee4973b7196c2daa6b8a7a65b5c6e4dc232c886605ebd548b7adaaeb94/latinex-sdk-0.0.8.tar.gz
+[2023-07-27 01:26:33] INFO root fetch - processPackages [reverseshellclient]: Downloading https://files.pythonhosted.org/packages/d9/c7/062ab69f303974dd132de8506d2bf2c8b4b3ed31f2a89ab9deab55f20089/reverseshellclient-0.10.tar.gz
+[2023-07-27 01:26:33] INFO root fetch - processPackages [mantium-spec]: Downloading https://files.pythonhosted.org/packages/f2/24/cfd962f89e4a2ffb7f15f948e9bf567cad4250fa3ef3dbeed86353b7f078/mantium_spec-1.0.518.tar.gz
+[2023-07-27 01:26:33] INFO root fetch - processPackages [q2report]: Downloading https://files.pythonhosted.org/packages/2c/6a/522525faeb73e59195f9ab38982a5ec4b31a52a7a3ce34f8dc705e53699d/q2report-0.1.32.tar.gz
+[2023-07-27 01:26:33] INFO root fetch - processPackages [pysyncrosim]: Downloading https://files.pythonhosted.org/packages/ee/4b/67c94e31897dcef6c8f1228e07548c39ffed40e6bee98a49aa8d86c0d59c/pysyncrosim-1.0.8.tar.gz
+[2023-07-27 01:26:33] INFO root fetch - processPackages [reverseshellserver]: Downloading https://files.pythonhosted.org/packages/53/4e/f85606fd67da061b2523a463a92eee0dcd5c331dd7fd7399fc2f538cd435/reverseshellserver-0.10.tar.gz
+[2023-07-27 01:26:33] INFO root fetch - processPackages [latinex-sdk]: Downloading https://files.pythonhosted.org/packages/86/b3/108620bc3030ae98278a6cc63004bb725c2f3589a0154581657fe95e5dfd/latinex-sdk-0.0.9.tar.gz
+[2023-07-27 01:26:33] INFO root fetch - processPackages [fundaml]: Downloading https://files.pythonhosted.org/packages/3d/7d/79e3833e89f0c27e10419e79ae226534d626d2dba1fa4ef388bb8e90727e/fundaml-0.1.34.tar.gz
+[2023-07-27 01:26:33] INFO root fetch - processPackages [dgisim]: New version: [0.2.dev3] Old Version: [0.2.dev2]
+[2023-07-27 01:26:33] INFO root fetch - processPackages [dkist-processing-test]: Downloading https://files.pythonhosted.org/packages/b2/7d/0c78bdca7b6e75184933aa246b33f4f4942321807055f5ef357cf5d1c352/dkist-processing-test-1.4.5.tar.gz
+[2023-07-27 01:26:34] INFO root fetch - processPackages [latinex-sdk]: executing diffoscope
+[2023-07-27 01:26:34] INFO root fetch - processPackages [latinex-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latinex-sdk-0.0.8.tar.gz tmp/latinex-sdk-0.0.9.tar.gz --markdown 20230727/l/latinex-sdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-27 01:26:34] INFO root fetch - processPackages [mantium-spec]: Downloading https://files.pythonhosted.org/packages/67/87/fee5169724912a7445bd48b9ecb46abbbe81d81b3a6591ef68ba8dba8161/mantium_spec-1.0.518.post1.tar.gz
+[2023-07-27 01:26:34] INFO root fetch - processPackages [dkist-processing-test]: executing diffoscope
+[2023-07-27 01:26:34] INFO root fetch - processPackages [dkist-processing-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dkist-processing-test-1.4.4.tar.gz tmp/dkist-processing-test-1.4.5.tar.gz --markdown 20230727/d/dkist-processing-test/1.4.4-1.4.5/diff.md --exclude *.pyd
+[2023-07-27 01:26:34] INFO root fetch - processPackages [q2report]: Downloading https://files.pythonhosted.org/packages/6a/b8/549f3cefea3c5b1576baa31111a79386c53a4da6b0d7eb3adcab5a9f9630/q2report-0.1.33.tar.gz
+[2023-07-27 01:26:34] INFO root fetch - processPackages [reverseshellserver]: Downloading https://files.pythonhosted.org/packages/ac/49/225434b0ee4a3ee923f1b89b48a12a9c8257ed63308a1eed61cd827f47a4/reverseshellserver-0.11.tar.gz
+[2023-07-27 01:26:34] INFO root fetch - processPackages [dgisim]: Downloading https://files.pythonhosted.org/packages/a3/0b/f6e1e5064585f0156cd161550cf601131a19e4c645acef863f131f5807a9/dgisim-0.2.dev2.tar.gz
+[2023-07-27 01:26:34] WARNING root fetch - processPackages [verisptab]: Skipping, unable to determine old version
+[2023-07-27 01:26:34] INFO root fetch - processPackages [verisptab]: Start processing: libcbm
+[2023-07-27 01:26:34] INFO root fetch - main [MainThread]: End processing [verisptab] error
+[2023-07-27 01:26:34] INFO root fetch - processPackages [reverseshellclient]: Downloading https://files.pythonhosted.org/packages/f9/cf/59a1b9f9c8acb16160ebecdc678346e953986adbce29304027626d3bde74/reverseshellclient-0.11.tar.gz
+[2023-07-27 01:26:34] INFO root fetch - processPackages [libcbm]: New version: [2.5.0] Old Version: [2.4.5]
+[2023-07-27 01:26:34] INFO root fetch - processPackages [mantium-spec]: executing diffoscope
+[2023-07-27 01:26:34] INFO root fetch - processPackages [mantium-spec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mantium_spec-1.0.518.tar.gz tmp/mantium_spec-1.0.518.post1.tar.gz --markdown 20230727/m/mantium-spec/1.0.518-1.0.518.post1/diff.md --exclude *.pyd
+[2023-07-27 01:26:34] INFO root fetch - processPackages [q2report]: executing diffoscope
+[2023-07-27 01:26:34] INFO root fetch - processPackages [q2report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/q2report-0.1.32.tar.gz tmp/q2report-0.1.33.tar.gz --markdown 20230727/q/q2report/0.1.32-0.1.33/diff.md --exclude *.pyd
+[2023-07-27 01:26:34] INFO root fetch - processPackages [reverseshellserver]: executing diffoscope
+[2023-07-27 01:26:34] INFO root fetch - processPackages [reverseshellserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reverseshellserver-0.10.tar.gz tmp/reverseshellserver-0.11.tar.gz --markdown 20230727/r/reverseshellserver/0.10-0.11/diff.md --exclude *.pyd
+[2023-07-27 01:26:34] INFO root fetch - processPackages [fundaml]: Downloading https://files.pythonhosted.org/packages/f8/b2/3906cf501715143f3f6f0b2f207ac7d8b4cbaa524aeade4d59aad84c7b96/fundaml-0.1.35.tar.gz
+[2023-07-27 01:26:34] INFO root fetch - processPackages [pysyncrosim]: Downloading https://files.pythonhosted.org/packages/59/e8/dc57094ec566989258d4d085b84f1517f1e142b41dcee8c06438480552ef/pysyncrosim-1.0.9.tar.gz
+[2023-07-27 01:26:34] INFO root fetch - processPackages [reverseshellclient]: executing diffoscope
+[2023-07-27 01:26:34] INFO root fetch - processPackages [reverseshellclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reverseshellclient-0.10.tar.gz tmp/reverseshellclient-0.11.tar.gz --markdown 20230727/r/reverseshellclient/0.10-0.11/diff.md --exclude *.pyd
+[2023-07-27 01:26:34] INFO root fetch - processPackages [libcbm]: Downloading https://files.pythonhosted.org/packages/85/ec/2446e6d3c4d6481de2a1cf643f320df149477ea145283d5f37e87671c952/libcbm-2.4.5-py3-none-any.whl
+[2023-07-27 01:26:34] INFO root fetch - processPackages [fundaml]: executing diffoscope
+[2023-07-27 01:26:34] INFO root fetch - processPackages [fundaml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fundaml-0.1.34.tar.gz tmp/fundaml-0.1.35.tar.gz --markdown 20230727/f/fundaml/0.1.34-0.1.35/diff.md --exclude *.pyd
+[2023-07-27 01:26:34] INFO root fetch - processPackages [dgisim]: Downloading https://files.pythonhosted.org/packages/33/21/7a45c2ff880da8f24454e41fdcb42dab4df7ce9abe4159e286047203ae0c/dgisim-0.2.dev3.tar.gz
+[2023-07-27 01:26:34] INFO root fetch - processPackages [pysyncrosim]: executing diffoscope
+[2023-07-27 01:26:34] INFO root fetch - processPackages [pysyncrosim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysyncrosim-1.0.8.tar.gz tmp/pysyncrosim-1.0.9.tar.gz --markdown 20230727/p/pysyncrosim/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-27 01:26:34] INFO root fetch - processPackages [dgisim]: executing diffoscope
+[2023-07-27 01:26:34] INFO root fetch - processPackages [dgisim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dgisim-0.2.dev2.tar.gz tmp/dgisim-0.2.dev3.tar.gz --markdown 20230727/d/dgisim/0.2.dev2-0.2.dev3/diff.md --exclude *.pyd
+[2023-07-27 01:26:35] INFO root fetch - processPackages [latinex-sdk]: Remove: archive file [/home/abi/fetcher/tmp/latinex-sdk-0.0.8.tar.gz]
+[2023-07-27 01:26:35] INFO root fetch - processPackages [latinex-sdk]: Remove: archive file [/home/abi/fetcher/tmp/latinex-sdk-0.0.9.tar.gz]
+[2023-07-27 01:26:35] INFO root fetch - main [MainThread]: End processing [latinex-sdk]: success
+[2023-07-27 01:26:35] INFO root fetch - processPackages [dkist-processing-test]: Remove: archive file [/home/abi/fetcher/tmp/dkist-processing-test-1.4.4.tar.gz]
+[2023-07-27 01:26:35] INFO root fetch - processPackages [dkist-processing-test]: Remove: archive file [/home/abi/fetcher/tmp/dkist-processing-test-1.4.5.tar.gz]
+[2023-07-27 01:26:35] INFO root fetch - main [MainThread]: End processing [dkist-processing-test]: success
+[2023-07-27 01:26:35] INFO root fetch - processPackages [reverseshellclient]: Remove: archive file [/home/abi/fetcher/tmp/reverseshellclient-0.10.tar.gz]
+[2023-07-27 01:26:35] INFO root fetch - processPackages [reverseshellclient]: Remove: archive file [/home/abi/fetcher/tmp/reverseshellclient-0.11.tar.gz]
+[2023-07-27 01:26:35] INFO root fetch - main [MainThread]: End processing [reverseshellclient]: success
+[2023-07-27 01:26:36] INFO root fetch - processPackages [reverseshellserver]: Remove: archive file [/home/abi/fetcher/tmp/reverseshellserver-0.10.tar.gz]
+[2023-07-27 01:26:36] INFO root fetch - processPackages [reverseshellserver]: Remove: archive file [/home/abi/fetcher/tmp/reverseshellserver-0.11.tar.gz]
+[2023-07-27 01:26:36] INFO root fetch - main [MainThread]: End processing [reverseshellserver]: success
+[2023-07-27 01:26:36] INFO root fetch - processPackages [q2report]: Remove: archive file [/home/abi/fetcher/tmp/q2report-0.1.32.tar.gz]
+[2023-07-27 01:26:36] INFO root fetch - processPackages [q2report]: Remove: archive file [/home/abi/fetcher/tmp/q2report-0.1.33.tar.gz]
+[2023-07-27 01:26:36] INFO root fetch - main [MainThread]: End processing [q2report]: success
+[2023-07-27 01:26:36] INFO root fetch - processPackages [pysyncrosim]: Remove: archive file [/home/abi/fetcher/tmp/pysyncrosim-1.0.8.tar.gz]
+[2023-07-27 01:26:36] INFO root fetch - processPackages [pysyncrosim]: Remove: archive file [/home/abi/fetcher/tmp/pysyncrosim-1.0.9.tar.gz]
+[2023-07-27 01:26:36] INFO root fetch - main [MainThread]: End processing [pysyncrosim]: success
+[2023-07-27 01:26:36] INFO root fetch - processPackages [fundaml]: Remove: archive file [/home/abi/fetcher/tmp/fundaml-0.1.34.tar.gz]
+[2023-07-27 01:26:36] INFO root fetch - processPackages [fundaml]: Remove: archive file [/home/abi/fetcher/tmp/fundaml-0.1.35.tar.gz]
+[2023-07-27 01:26:36] INFO root fetch - main [MainThread]: End processing [fundaml]: success
+[2023-07-27 01:26:36] INFO root fetch - processPackages [mantium-spec]: Remove: archive file [/home/abi/fetcher/tmp/mantium_spec-1.0.518.tar.gz]
+[2023-07-27 01:26:36] INFO root fetch - processPackages [mantium-spec]: Remove: archive file [/home/abi/fetcher/tmp/mantium_spec-1.0.518.post1.tar.gz]
+[2023-07-27 01:26:36] INFO root fetch - main [MainThread]: End processing [mantium-spec]: success
+[2023-07-27 01:26:36] INFO root fetch - processPackages [dgisim]: Remove: archive file [/home/abi/fetcher/tmp/dgisim-0.2.dev2.tar.gz]
+[2023-07-27 01:26:36] INFO root fetch - processPackages [dgisim]: Remove: archive file [/home/abi/fetcher/tmp/dgisim-0.2.dev3.tar.gz]
+[2023-07-27 01:26:36] INFO root fetch - main [MainThread]: End processing [dgisim]: success
+[2023-07-27 01:26:36] INFO root fetch - processPackages [libcbm]: Downloading https://files.pythonhosted.org/packages/70/09/f19ad6db5c72ebabd29cbd66c542046f60c0f15449433db6bc00da4035ce/libcbm-2.5.0-py3-none-any.whl
+[2023-07-27 01:26:36] INFO root fetch - processPackages [libcbm]: executing diffoscope
+[2023-07-27 01:26:36] INFO root fetch - processPackages [libcbm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libcbm-2.4.5-py3-none-any.whl.zip tmp/libcbm-2.5.0-py3-none-any.whl.zip --markdown 20230727/l/libcbm/2.4.5-2.5.0/diff.md --exclude *.pyd
+[2023-07-27 01:27:08] ERROR root fetch - processPackages [libcbm]: Diffoscope failed: time="2023-07-27T01:26:36+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 127, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=139710252981696)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/ar.py", line 71, in compare_details
+    Difference.from_text_readers(
+  File "/srv/diffoscope/diffoscope/difference.py", line 258, in from_text_readers
+    return Difference.from_feeder(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 127, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=139710387201040)
+
+[2023-07-27 01:27:08] INFO root fetch - main [MainThread]: End processing [libcbm] error
+[2023-07-27 01:27:08] INFO root fetch - main [MainThread]: Store serial: [19050813]
