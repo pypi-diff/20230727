@@ -1619,3 +1619,69 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-27 01:32:18] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.9.1.dev8.tar.gz]
 [2023-07-27 01:32:18] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
 [2023-07-27 01:32:18] INFO root fetch - main [MainThread]: Store serial: [19050823]
+[2023-07-27 01:37:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19050823]
+[2023-07-27 01:37:26] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-27 01:37:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pepperize.cdk-github
+[2023-07-27 01:37:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: moto
+[2023-07-27 01:37:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tipg
+[2023-07-27 01:37:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyDolarVenezuela
+[2023-07-27 01:37:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fsaa
+[2023-07-27 01:37:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: clear-skies
+[2023-07-27 01:37:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: alice-blue
+[2023-07-27 01:37:27] INFO root fetch - processPackages [fsaa]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-27 01:37:27] INFO root fetch - processPackages [pyDolarVenezuela]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-27 01:37:27] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-07-27 01:37:27] INFO root fetch - processPackages [pepperize.cdk-github]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-27 01:37:27] INFO root fetch - processPackages [pyDolarVenezuela]: Downloading https://files.pythonhosted.org/packages/72/8a/639cd25041d0f5dd679d23823c1083b8a3eaa89c52f340bc141ad5adab2e/pyDolarVenezuela-1.0.8-py3-none-any.whl
+[2023-07-27 01:37:27] INFO root fetch - processPackages [alice-blue]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-07-27 01:37:27] INFO root fetch - processPackages [clear-skies]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-07-27 01:37:27] INFO root fetch - processPackages [tipg]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-27 01:37:27] INFO root fetch - processPackages [fsaa]: Downloading https://files.pythonhosted.org/packages/73/67/12c3a6379ade87692e19a243805606a742bc86df8fbfa76ba259add8d732/fsaa-0.0.7.tar.gz
+[2023-07-27 01:37:27] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/2c/d4/8e03b33a9179ac2880d9ee7985f188927368b16081e05a142152e556685c/moto-4.1.9.dev8.tar.gz
+[2023-07-27 01:37:27] INFO root fetch - processPackages [pepperize.cdk-github]: Downloading https://files.pythonhosted.org/packages/24/6d/598d06b1a4e959b347586ba22a01a1bc105e61fe7d1318c6fb190d545b38/pepperize.cdk-github-0.0.98.tar.gz
+[2023-07-27 01:37:27] INFO root fetch - processPackages [alice-blue]: Downloading https://files.pythonhosted.org/packages/9e/bb/bff0f5a71e64e80c8a8054387e6661a261e7d95117e1bb6672546a29a79c/alice_blue-2.0.3-py2.py3-none-any.whl
+[2023-07-27 01:37:27] INFO root fetch - processPackages [clear-skies]: Downloading https://files.pythonhosted.org/packages/86/c6/5fc7f98d0b986c1fc7be0ee2f9821c93bff9852a85fc1b812fd0d36b5902/clear-skies-1.8.0.tar.gz
+[2023-07-27 01:37:27] INFO root fetch - processPackages [tipg]: Downloading https://files.pythonhosted.org/packages/ec/82/3af66692e3c313898c0a87caf0099f3330221a6dafc111f06bdfe75fb347/tipg-0.2.0.tar.gz
+[2023-07-27 01:37:27] INFO root fetch - processPackages [pepperize.cdk-github]: Downloading https://files.pythonhosted.org/packages/c3/a7/0446f664eacf32838f54f1c66d5396c5ab08f1bcd671ef0f29c503c0f763/pepperize.cdk-github-0.0.99.tar.gz
+[2023-07-27 01:37:27] INFO root fetch - processPackages [pyDolarVenezuela]: Downloading https://files.pythonhosted.org/packages/22/36/045d0bdb4f6b1a1808bfeaf4831f7fab47e6a0901b495a0f604f026a971e/pyDolarVenezuela-1.0.9-py3-none-any.whl
+[2023-07-27 01:37:27] INFO root fetch - processPackages [pyDolarVenezuela]: executing diffoscope
+[2023-07-27 01:37:27] INFO root fetch - processPackages [pyDolarVenezuela]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyDolarVenezuela-1.0.8-py3-none-any.whl.zip tmp/pyDolarVenezuela-1.0.9-py3-none-any.whl.zip --markdown 20230727/p/pyDolarVenezuela/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-27 01:37:27] INFO root fetch - processPackages [pepperize.cdk-github]: executing diffoscope
+[2023-07-27 01:37:27] INFO root fetch - processPackages [pepperize.cdk-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-github-0.0.98.tar.gz tmp/pepperize.cdk-github-0.0.99.tar.gz --markdown 20230727/p/pepperize.cdk-github/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-27 01:37:28] INFO root fetch - processPackages [alice-blue]: Downloading https://files.pythonhosted.org/packages/50/9e/2498327585211a6cdf85889fdf1ce5f82ae31abab16cfd280d8968e43cc7/alice_blue-2.0.4-py2.py3-none-any.whl
+[2023-07-27 01:37:28] INFO root fetch - processPackages [tipg]: Downloading https://files.pythonhosted.org/packages/5f/c0/7fd75616338f943c1c7bac23a88a9bf2bbe91a123b1805e4e58cc31f33bd/tipg-0.3.0.tar.gz
+[2023-07-27 01:37:28] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/4b/79/8731bdd68db60192dd81a418b0552fc817d87bba0726d6c4ff2dbd93f913/moto-4.1.9.dev9.tar.gz
+[2023-07-27 01:37:28] INFO root fetch - processPackages [clear-skies]: Downloading https://files.pythonhosted.org/packages/46/ff/38dd0872e0df49c2ac34c7256f311d26a829dd84c6f09be6ed0215107767/clear-skies-1.9.0.tar.gz
+[2023-07-27 01:37:28] INFO root fetch - processPackages [tipg]: executing diffoscope
+[2023-07-27 01:37:28] INFO root fetch - processPackages [tipg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tipg-0.2.0.tar.gz tmp/tipg-0.3.0.tar.gz --markdown 20230727/t/tipg/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-27 01:37:28] INFO root fetch - processPackages [alice-blue]: executing diffoscope
+[2023-07-27 01:37:28] INFO root fetch - processPackages [alice-blue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alice_blue-2.0.3-py2.py3-none-any.whl.zip tmp/alice_blue-2.0.4-py2.py3-none-any.whl.zip --markdown 20230727/a/alice-blue/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-07-27 01:37:28] INFO root fetch - processPackages [fsaa]: Downloading https://files.pythonhosted.org/packages/42/f3/d271298aa3b4c4b33c492d76d18d2093f8c1a0e1d86e99ba4f0331d5170c/fsaa-0.0.8.tar.gz
+[2023-07-27 01:37:28] INFO root fetch - processPackages [fsaa]: executing diffoscope
+[2023-07-27 01:37:28] INFO root fetch - processPackages [fsaa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fsaa-0.0.7.tar.gz tmp/fsaa-0.0.8.tar.gz --markdown 20230727/f/fsaa/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-27 01:37:28] INFO root fetch - processPackages [clear-skies]: executing diffoscope
+[2023-07-27 01:37:28] INFO root fetch - processPackages [clear-skies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clear-skies-1.8.0.tar.gz tmp/clear-skies-1.9.0.tar.gz --markdown 20230727/c/clear-skies/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-27 01:37:28] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-07-27 01:37:28] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230727/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-07-27 01:37:29] INFO root fetch - processPackages [pepperize.cdk-github]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-github-0.0.98.tar.gz]
+[2023-07-27 01:37:29] INFO root fetch - processPackages [pepperize.cdk-github]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-github-0.0.99.tar.gz]
+[2023-07-27 01:37:29] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-github]: success
+[2023-07-27 01:37:29] INFO root fetch - processPackages [pyDolarVenezuela]: Remove: archive file [/home/abi/fetcher/tmp/pyDolarVenezuela-1.0.8-py3-none-any.whl.zip]
+[2023-07-27 01:37:29] INFO root fetch - processPackages [pyDolarVenezuela]: Remove: archive file [/home/abi/fetcher/tmp/pyDolarVenezuela-1.0.9-py3-none-any.whl.zip]
+[2023-07-27 01:37:29] INFO root fetch - main [MainThread]: End processing [pyDolarVenezuela]: success
+[2023-07-27 01:37:29] INFO root fetch - processPackages [alice-blue]: Remove: archive file [/home/abi/fetcher/tmp/alice_blue-2.0.3-py2.py3-none-any.whl.zip]
+[2023-07-27 01:37:29] INFO root fetch - processPackages [alice-blue]: Remove: archive file [/home/abi/fetcher/tmp/alice_blue-2.0.4-py2.py3-none-any.whl.zip]
+[2023-07-27 01:37:29] INFO root fetch - main [MainThread]: End processing [alice-blue]: success
+[2023-07-27 01:37:29] INFO root fetch - processPackages [tipg]: Remove: archive file [/home/abi/fetcher/tmp/tipg-0.2.0.tar.gz]
+[2023-07-27 01:37:29] INFO root fetch - processPackages [tipg]: Remove: archive file [/home/abi/fetcher/tmp/tipg-0.3.0.tar.gz]
+[2023-07-27 01:37:29] INFO root fetch - main [MainThread]: End processing [tipg]: success
+[2023-07-27 01:37:29] INFO root fetch - processPackages [fsaa]: Remove: archive file [/home/abi/fetcher/tmp/fsaa-0.0.7.tar.gz]
+[2023-07-27 01:37:29] INFO root fetch - processPackages [fsaa]: Remove: archive file [/home/abi/fetcher/tmp/fsaa-0.0.8.tar.gz]
+[2023-07-27 01:37:29] INFO root fetch - main [MainThread]: End processing [fsaa]: success
+[2023-07-27 01:37:29] INFO root fetch - processPackages [clear-skies]: Remove: archive file [/home/abi/fetcher/tmp/clear-skies-1.8.0.tar.gz]
+[2023-07-27 01:37:29] INFO root fetch - processPackages [clear-skies]: Remove: archive file [/home/abi/fetcher/tmp/clear-skies-1.9.0.tar.gz]
+[2023-07-27 01:37:29] INFO root fetch - main [MainThread]: End processing [clear-skies]: success
+[2023-07-27 01:37:42] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev8.tar.gz]
+[2023-07-27 01:37:42] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
+[2023-07-27 01:37:42] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-07-27 01:37:42] INFO root fetch - main [MainThread]: Store serial: [19050845]
