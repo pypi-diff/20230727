@@ -1862,3 +1862,126 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-27 01:54:15] INFO root fetch - processPackages [benchling-api-client]: Remove: archive file [/home/abi/fetcher/tmp/benchling_api_client-2.0.99.tar.gz]
 [2023-07-27 01:54:15] INFO root fetch - main [MainThread]: End processing [benchling-api-client]: success
 [2023-07-27 01:54:15] INFO root fetch - main [MainThread]: Store serial: [19050912]
+[2023-07-27 01:59:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19050912]
+[2023-07-27 01:59:24] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-27 01:59:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bittensor
+[2023-07-27 01:59:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fast-dash
+[2023-07-27 01:59:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Furious-GUI
+[2023-07-27 01:59:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aigent
+[2023-07-27 01:59:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aigent-nnext
+[2023-07-27 01:59:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flywheel-migration
+[2023-07-27 01:59:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: testflows.github.runners
+[2023-07-27 01:59:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tldr-man
+[2023-07-27 01:59:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: danbi
+[2023-07-27 01:59:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ecoengine
+[2023-07-27 01:59:24] INFO root fetch - processPackages [Furious-GUI]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-27 01:59:24] INFO root fetch - processPackages [flywheel-migration]: New version: [13.7.1rc0] Old Version: [13.7.1]
+[2023-07-27 01:59:24] INFO root fetch - processPackages [fast-dash]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-27 01:59:24] WARNING root fetch - processPackages [aigent]: Skipping, unable to determine old version
+[2023-07-27 01:59:24] INFO root fetch - processPackages [testflows.github.runners]: New version: [1.2.230726.1235607] Old Version: [1.2.230726.1231242]
+[2023-07-27 01:59:24] INFO root fetch - processPackages [ecoengine]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-27 01:59:24] INFO root fetch - processPackages [aigent]: Start processing: Print-Tricks-And-More-Alpha
+[2023-07-27 01:59:24] INFO root fetch - main [MainThread]: End processing [aigent] error
+[2023-07-27 01:59:24] INFO root fetch - processPackages [tldr-man]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-07-27 01:59:24] INFO root fetch - processPackages [danbi]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-07-27 01:59:24] INFO root fetch - processPackages [bittensor]: New version: [5.3.2] Old Version: [5.3.1]
+[2023-07-27 01:59:24] ERROR root fetch - processPackages [aigent-nnext]: Unable to get metadata: No such project 'aigent-nnext'
+[2023-07-27 01:59:24] INFO root fetch - processPackages [aigent-nnext]: Start processing: ccsf
+[2023-07-27 01:59:24] INFO root fetch - main [MainThread]: End processing [aigent-nnext] error
+[2023-07-27 01:59:24] INFO root fetch - processPackages [Print-Tricks-And-More-Alpha]: New version: [0.3.93] Old Version: [0.3.86rc0]
+[2023-07-27 01:59:24] INFO root fetch - processPackages [testflows.github.runners]: Downloading https://files.pythonhosted.org/packages/10/31/b72b18e4a96f52f5eca7972c0a7f7480408e44348e3c3971a2693a239075/testflows.github.runners-1.2.230726.1231242.tar.gz
+[2023-07-27 01:59:24] INFO root fetch - processPackages [ccsf]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-27 01:59:24] INFO root fetch - processPackages [flywheel-migration]: Downloading https://files.pythonhosted.org/packages/24/cc/f3932cc5425ab683ca55479094a5d890aca79fad56c99f1b8075b95a726a/flywheel_migration-13.7.1-py2.py3-none-any.whl
+[2023-07-27 01:59:24] INFO root fetch - processPackages [Furious-GUI]: Downloading https://files.pythonhosted.org/packages/b3/ef/cf196259a628433650461068e622f530b1b05a32041ca5949d68036b2fa7/Furious-GUI-0.1.4.tar.gz
+[2023-07-27 01:59:24] INFO root fetch - processPackages [fast-dash]: Downloading https://files.pythonhosted.org/packages/e6/7e/3dce6ecc235ed2b001533d1989ef548cc8daaac523d4abcaec5556613fcd/fast_dash-0.2.1.tar.gz
+[2023-07-27 01:59:24] INFO root fetch - processPackages [ccsf]: Downloading https://files.pythonhosted.org/packages/35/b8/8d4837e13f053ee9ef9767e864853c8e615eddbd6b096560c99168e93ddd/ccsf-1.0.3.tar.gz
+[2023-07-27 01:59:24] INFO root fetch - processPackages [tldr-man]: Downloading https://files.pythonhosted.org/packages/8a/ea/fe3d3f6f6c02956e1f3785827c2c32a46aaa121f88fc3289ce38a3ffb8ad/tldr_man-1.2.0.tar.gz
+[2023-07-27 01:59:24] INFO root fetch - processPackages [ecoengine]: Downloading https://files.pythonhosted.org/packages/d8/e5/5b3594045f107ce24e058d4f5ac188087d76010f4389991a7c9a9ce4beb6/ecoengine-0.0.8.tar.gz
+[2023-07-27 01:59:24] INFO root fetch - processPackages [bittensor]: Downloading https://files.pythonhosted.org/packages/69/d3/e861e69a6457554728a44640285256c4cd613156f3138bb64b274b253b25/bittensor-5.3.1.tar.gz
+[2023-07-27 01:59:24] INFO root fetch - processPackages [danbi]: Downloading https://files.pythonhosted.org/packages/c2/72/22ba0c3509479f69f5ffc3941df78acc0abfcc40698187c42ce4a3ddcc73/danbi-0.2.98.tar.gz
+[2023-07-27 01:59:24] INFO root fetch - processPackages [Print-Tricks-And-More-Alpha]: Downloading https://files.pythonhosted.org/packages/8f/f9/da11bf3bad3b52c3a366e5fae56ac6dfb588a06b8ef2132c99128ce17ec6/Print_Tricks_And_More_Alpha-0.3.86rc0-py3-none-any.whl
+[2023-07-27 01:59:24] INFO root fetch - processPackages [testflows.github.runners]: Downloading https://files.pythonhosted.org/packages/09/e5/9ce60a995b58f9b6b9955b3004758348aa5dc8ba28562ede1ed0aff43ecc/testflows.github.runners-1.2.230726.1235607.tar.gz
+[2023-07-27 01:59:25] INFO root fetch - processPackages [ccsf]: Downloading https://files.pythonhosted.org/packages/6f/49/9529423e3537e610b35f1b387e61fa246bd4e102609ceaeb90e1059ebbba/ccsf-1.0.4.tar.gz
+[2023-07-27 01:59:25] INFO root fetch - processPackages [testflows.github.runners]: executing diffoscope
+[2023-07-27 01:59:25] INFO root fetch - processPackages [testflows.github.runners]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testflows.github.runners-1.2.230726.1231242.tar.gz tmp/testflows.github.runners-1.2.230726.1235607.tar.gz --markdown 20230727/t/testflows.github.runners/1.2.230726.1231242-1.2.230726.1235607/diff.md --exclude *.pyd
+[2023-07-27 01:59:25] INFO root fetch - processPackages [flywheel-migration]: Downloading https://files.pythonhosted.org/packages/0c/7f/01020a8099ae6fe745eeb40b227e327e3b238584e2120f3edfd18afb2933/flywheel_migration-13.7.1rc0-py2.py3-none-any.whl
+[2023-07-27 01:59:25] INFO root fetch - processPackages [fast-dash]: Downloading https://files.pythonhosted.org/packages/84/09/2d60a63d4a0c7fc24aaf89064d36f66d1b6f5d56723445fd0a0ae7b05bef/fast_dash-0.2.2.tar.gz
+[2023-07-27 01:59:25] INFO root fetch - processPackages [ecoengine]: Downloading https://files.pythonhosted.org/packages/b4/06/8712491ed487422ca74801e6051cd89e398183d43abb0a99e904022af6ba/ecoengine-0.0.9.tar.gz
+[2023-07-27 01:59:25] INFO root fetch - processPackages [tldr-man]: Downloading https://files.pythonhosted.org/packages/92/38/a5b588e311f3d15752b9061dfb52befa198f8068c132b277bee10310738b/tldr_man-1.3.0.tar.gz
+[2023-07-27 01:59:25] INFO root fetch - processPackages [flywheel-migration]: executing diffoscope
+[2023-07-27 01:59:25] INFO root fetch - processPackages [flywheel-migration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flywheel_migration-13.7.1-py2.py3-none-any.whl.zip tmp/flywheel_migration-13.7.1rc0-py2.py3-none-any.whl.zip --markdown 20230727/f/flywheel-migration/13.7.1-13.7.1rc0/diff.md --exclude *.pyd
+[2023-07-27 01:59:25] INFO root fetch - processPackages [fast-dash]: executing diffoscope
+[2023-07-27 01:59:25] INFO root fetch - processPackages [fast-dash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast_dash-0.2.1.tar.gz tmp/fast_dash-0.2.2.tar.gz --markdown 20230727/f/fast-dash/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-27 01:59:25] INFO root fetch - processPackages [bittensor]: Downloading https://files.pythonhosted.org/packages/21/52/b83913f28143f15aedc3fd8e54b54871d24f1521357a369b788f5a03978a/bittensor-5.3.2.tar.gz
+[2023-07-27 01:59:25] INFO root fetch - processPackages [Print-Tricks-And-More-Alpha]: Downloading https://files.pythonhosted.org/packages/77/f7/273d823a68ff6af798ba296987acee8ca3bf9a159bac3abf6675a93da6f7/Print_Tricks_And_More_Alpha-0.3.93-py3-none-any.whl
+[2023-07-27 01:59:25] INFO root fetch - processPackages [ccsf]: executing diffoscope
+[2023-07-27 01:59:25] INFO root fetch - processPackages [ccsf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccsf-1.0.3.tar.gz tmp/ccsf-1.0.4.tar.gz --markdown 20230727/c/ccsf/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-27 01:59:25] INFO root fetch - processPackages [tldr-man]: executing diffoscope
+[2023-07-27 01:59:25] INFO root fetch - processPackages [tldr-man]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tldr_man-1.2.0.tar.gz tmp/tldr_man-1.3.0.tar.gz --markdown 20230727/t/tldr-man/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-07-27 01:59:25] INFO root fetch - processPackages [bittensor]: executing diffoscope
+[2023-07-27 01:59:25] INFO root fetch - processPackages [bittensor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bittensor-5.3.1.tar.gz tmp/bittensor-5.3.2.tar.gz --markdown 20230727/b/bittensor/5.3.1-5.3.2/diff.md --exclude *.pyd
+[2023-07-27 01:59:25] INFO root fetch - processPackages [Print-Tricks-And-More-Alpha]: executing diffoscope
+[2023-07-27 01:59:25] INFO root fetch - processPackages [Print-Tricks-And-More-Alpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Print_Tricks_And_More_Alpha-0.3.86rc0-py3-none-any.whl.zip tmp/Print_Tricks_And_More_Alpha-0.3.93-py3-none-any.whl.zip --markdown 20230727/P/Print-Tricks-And-More-Alpha/0.3.86rc0-0.3.93/diff.md --exclude *.pyd
+[2023-07-27 01:59:25] INFO root fetch - processPackages [ecoengine]: executing diffoscope
+[2023-07-27 01:59:25] INFO root fetch - processPackages [ecoengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecoengine-0.0.8.tar.gz tmp/ecoengine-0.0.9.tar.gz --markdown 20230727/e/ecoengine/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-27 01:59:25] INFO root fetch - processPackages [Furious-GUI]: Downloading https://files.pythonhosted.org/packages/91/13/14efbb67706522aedd1862e5537c18ea8e49b928888f87207436d7697df9/Furious-GUI-0.1.5.tar.gz
+[2023-07-27 01:59:26] INFO root fetch - processPackages [danbi]: Downloading https://files.pythonhosted.org/packages/08/67/6ca29911c73cded25c25e0725cecb295a7ffb7284383910591bbccccb9bf/danbi-0.2.99.tar.gz
+[2023-07-27 01:59:26] INFO root fetch - processPackages [danbi]: executing diffoscope
+[2023-07-27 01:59:26] INFO root fetch - processPackages [danbi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/danbi-0.2.98.tar.gz tmp/danbi-0.2.99.tar.gz --markdown 20230727/d/danbi/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-07-27 01:59:26] INFO root fetch - processPackages [testflows.github.runners]: Remove: archive file [/home/abi/fetcher/tmp/testflows.github.runners-1.2.230726.1231242.tar.gz]
+[2023-07-27 01:59:26] INFO root fetch - processPackages [testflows.github.runners]: Remove: archive file [/home/abi/fetcher/tmp/testflows.github.runners-1.2.230726.1235607.tar.gz]
+[2023-07-27 01:59:26] INFO root fetch - processPackages [testflows.github.runners]: Start processing: sqly
+[2023-07-27 01:59:26] INFO root fetch - main [MainThread]: End processing [testflows.github.runners]: success
+[2023-07-27 01:59:26] INFO root fetch - processPackages [fast-dash]: Remove: archive file [/home/abi/fetcher/tmp/fast_dash-0.2.1.tar.gz]
+[2023-07-27 01:59:26] INFO root fetch - processPackages [fast-dash]: Remove: archive file [/home/abi/fetcher/tmp/fast_dash-0.2.2.tar.gz]
+[2023-07-27 01:59:26] INFO root fetch - processPackages [fast-dash]: Start processing: ldas.iiif
+[2023-07-27 01:59:26] INFO root fetch - main [MainThread]: End processing [fast-dash]: success
+[2023-07-27 01:59:26] WARNING root fetch - processPackages [ldas.iiif]: Skipping, unable to determine old version
+[2023-07-27 01:59:26] INFO root fetch - processPackages [ldas.iiif]: Start processing: functime
+[2023-07-27 01:59:26] INFO root fetch - main [MainThread]: End processing [ldas.iiif] error
+[2023-07-27 01:59:26] INFO root fetch - processPackages [sqly]: New version: [0.9.0rc2] Old Version: [0.9.0]
+[2023-07-27 01:59:26] INFO root fetch - processPackages [Furious-GUI]: executing diffoscope
+[2023-07-27 01:59:26] INFO root fetch - processPackages [Furious-GUI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Furious-GUI-0.1.4.tar.gz tmp/Furious-GUI-0.1.5.tar.gz --markdown 20230727/F/Furious-GUI/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-27 01:59:26] INFO root fetch - processPackages [flywheel-migration]: Remove: archive file [/home/abi/fetcher/tmp/flywheel_migration-13.7.1-py2.py3-none-any.whl.zip]
+[2023-07-27 01:59:26] INFO root fetch - processPackages [flywheel-migration]: Remove: archive file [/home/abi/fetcher/tmp/flywheel_migration-13.7.1rc0-py2.py3-none-any.whl.zip]
+[2023-07-27 01:59:26] INFO root fetch - processPackages [flywheel-migration]: Start processing: superagent
+[2023-07-27 01:59:26] INFO root fetch - main [MainThread]: End processing [flywheel-migration]: success
+[2023-07-27 01:59:26] INFO root fetch - processPackages [tldr-man]: Remove: archive file [/home/abi/fetcher/tmp/tldr_man-1.2.0.tar.gz]
+[2023-07-27 01:59:26] INFO root fetch - processPackages [tldr-man]: Remove: archive file [/home/abi/fetcher/tmp/tldr_man-1.3.0.tar.gz]
+[2023-07-27 01:59:26] INFO root fetch - main [MainThread]: End processing [tldr-man]: success
+[2023-07-27 01:59:26] INFO root fetch - processPackages [ccsf]: Remove: archive file [/home/abi/fetcher/tmp/ccsf-1.0.3.tar.gz]
+[2023-07-27 01:59:26] INFO root fetch - processPackages [ccsf]: Remove: archive file [/home/abi/fetcher/tmp/ccsf-1.0.4.tar.gz]
+[2023-07-27 01:59:26] INFO root fetch - main [MainThread]: End processing [ccsf]: success
+[2023-07-27 01:59:26] INFO root fetch - processPackages [functime]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-27 01:59:27] WARNING root fetch - processPackages [superagent]: Skipping, unable to determine old version
+[2023-07-27 01:59:27] INFO root fetch - main [MainThread]: End processing [superagent] error
+[2023-07-27 01:59:27] INFO root fetch - processPackages [sqly]: Downloading https://files.pythonhosted.org/packages/7a/4c/d5efd6bbc778c5db65ba9e7709ce32befebf44edffcb994ccfcd53b7444f/sqly-0.9.0.tar.gz
+[2023-07-27 01:59:27] INFO root fetch - processPackages [ecoengine]: Remove: archive file [/home/abi/fetcher/tmp/ecoengine-0.0.8.tar.gz]
+[2023-07-27 01:59:27] INFO root fetch - processPackages [ecoengine]: Remove: archive file [/home/abi/fetcher/tmp/ecoengine-0.0.9.tar.gz]
+[2023-07-27 01:59:27] INFO root fetch - main [MainThread]: End processing [ecoengine]: success
+[2023-07-27 01:59:27] INFO root fetch - processPackages [functime]: Downloading https://files.pythonhosted.org/packages/4c/e7/098c3572cf73ca0ae3209985951ae418ff5a13f5aa52d5d6f2405a608f2a/functime-0.3.0-py3-none-any.whl
+[2023-07-27 01:59:27] INFO root fetch - processPackages [Print-Tricks-And-More-Alpha]: Remove: archive file [/home/abi/fetcher/tmp/Print_Tricks_And_More_Alpha-0.3.86rc0-py3-none-any.whl.zip]
+[2023-07-27 01:59:27] INFO root fetch - processPackages [Print-Tricks-And-More-Alpha]: Remove: archive file [/home/abi/fetcher/tmp/Print_Tricks_And_More_Alpha-0.3.93-py3-none-any.whl.zip]
+[2023-07-27 01:59:27] INFO root fetch - main [MainThread]: End processing [Print-Tricks-And-More-Alpha]: success
+[2023-07-27 01:59:27] INFO root fetch - processPackages [sqly]: Downloading https://files.pythonhosted.org/packages/8f/ce/a0bd8af8fd81573497eb6a247dfb7107e4da14f87deebd1b57b051377ccd/sqly-0.9.0rc2.tar.gz
+[2023-07-27 01:59:27] INFO root fetch - processPackages [sqly]: executing diffoscope
+[2023-07-27 01:59:27] INFO root fetch - processPackages [sqly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqly-0.9.0.tar.gz tmp/sqly-0.9.0rc2.tar.gz --markdown 20230727/s/sqly/0.9.0-0.9.0rc2/diff.md --exclude *.pyd
+[2023-07-27 01:59:27] INFO root fetch - processPackages [functime]: Downloading https://files.pythonhosted.org/packages/23/ff/7800dfa69d686e5653095905c6ec3acc500ac56caa896e907ccfec69fb9c/functime-0.3.1-py3-none-any.whl
+[2023-07-27 01:59:27] INFO root fetch - processPackages [danbi]: Remove: archive file [/home/abi/fetcher/tmp/danbi-0.2.98.tar.gz]
+[2023-07-27 01:59:27] INFO root fetch - processPackages [danbi]: Remove: archive file [/home/abi/fetcher/tmp/danbi-0.2.99.tar.gz]
+[2023-07-27 01:59:27] INFO root fetch - main [MainThread]: End processing [danbi]: success
+[2023-07-27 01:59:27] INFO root fetch - processPackages [functime]: executing diffoscope
+[2023-07-27 01:59:27] INFO root fetch - processPackages [functime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/functime-0.3.0-py3-none-any.whl.zip tmp/functime-0.3.1-py3-none-any.whl.zip --markdown 20230727/f/functime/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-27 01:59:28] INFO root fetch - processPackages [bittensor]: Remove: archive file [/home/abi/fetcher/tmp/bittensor-5.3.1.tar.gz]
+[2023-07-27 01:59:28] INFO root fetch - processPackages [bittensor]: Remove: archive file [/home/abi/fetcher/tmp/bittensor-5.3.2.tar.gz]
+[2023-07-27 01:59:28] INFO root fetch - main [MainThread]: End processing [bittensor]: success
+[2023-07-27 01:59:28] INFO root fetch - processPackages [sqly]: Remove: archive file [/home/abi/fetcher/tmp/sqly-0.9.0.tar.gz]
+[2023-07-27 01:59:28] INFO root fetch - processPackages [sqly]: Remove: archive file [/home/abi/fetcher/tmp/sqly-0.9.0rc2.tar.gz]
+[2023-07-27 01:59:28] INFO root fetch - main [MainThread]: End processing [sqly]: success
+[2023-07-27 01:59:28] INFO root fetch - processPackages [functime]: Remove: archive file [/home/abi/fetcher/tmp/functime-0.3.0-py3-none-any.whl.zip]
+[2023-07-27 01:59:28] INFO root fetch - processPackages [functime]: Remove: archive file [/home/abi/fetcher/tmp/functime-0.3.1-py3-none-any.whl.zip]
+[2023-07-27 01:59:28] INFO root fetch - main [MainThread]: End processing [functime]: success
+[2023-07-27 01:59:29] INFO root fetch - processPackages [Furious-GUI]: Remove: archive file [/home/abi/fetcher/tmp/Furious-GUI-0.1.4.tar.gz]
+[2023-07-27 01:59:29] INFO root fetch - processPackages [Furious-GUI]: Remove: archive file [/home/abi/fetcher/tmp/Furious-GUI-0.1.5.tar.gz]
+[2023-07-27 01:59:29] INFO root fetch - main [MainThread]: End processing [Furious-GUI]: success
+[2023-07-27 01:59:29] INFO root fetch - main [MainThread]: Store serial: [19050966]
