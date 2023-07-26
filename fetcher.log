@@ -666,3 +666,63 @@
 [2023-07-27 00:28:31] INFO root fetch - processPackages [cptac]: Remove: archive file [/home/abi/fetcher/tmp/cptac-1.5.0rc3.tar.gz]
 [2023-07-27 00:28:31] INFO root fetch - main [MainThread]: End processing [cptac]: success
 [2023-07-27 00:28:31] INFO root fetch - main [MainThread]: Store serial: [19050487]
+[2023-07-27 00:33:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19050487]
+[2023-07-27 00:33:40] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-27 00:33:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: otgCrypto
+[2023-07-27 00:33:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-07-27 00:33:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: streamdeck-linux-gui
+[2023-07-27 00:33:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: landingai
+[2023-07-27 00:33:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yacore
+[2023-07-27 00:33:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: moto
+[2023-07-27 00:33:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-sops-secrets
+[2023-07-27 00:33:40] INFO root fetch - processPackages [yacore]: New version: [0.4.0] Old Version: [0.3.2]
+[2023-07-27 00:33:40] INFO root fetch - processPackages [landingai]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-27 00:33:40] INFO root fetch - processPackages [otgCrypto]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-27 00:33:40] WARNING root fetch - processPackages [streamdeck-linux-gui]: Skipping, unable to determine old version
+[2023-07-27 00:33:40] INFO root fetch - main [MainThread]: End processing [streamdeck-linux-gui] error
+[2023-07-27 00:33:40] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.408] Old Version: [0.3.407]
+[2023-07-27 00:33:40] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-07-27 00:33:40] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-07-27 00:33:40] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/20/14/1f745437935327f3c4439483b3fdb0cfce893045cdd0d82cc79459316d5d/pepperize.cdk-ses-smtp-credentials-0.3.407.tar.gz
+[2023-07-27 00:33:40] INFO root fetch - processPackages [yacore]: Downloading https://files.pythonhosted.org/packages/68/4c/17dc5c5bb0a91ca3349ab771113507e5d84636e96f1e687b6113acb8fa09/yacore-0.3.2.tar.gz
+[2023-07-27 00:33:40] INFO root fetch - processPackages [otgCrypto]: Downloading https://files.pythonhosted.org/packages/3a/84/e8438b09826eee0f7e63a627099cc14b15a804ad5219cce98e67e33586f8/otgCrypto-0.0.8.tar.gz
+[2023-07-27 00:33:40] INFO root fetch - processPackages [landingai]: Downloading https://files.pythonhosted.org/packages/bc/c0/71eef7e0f41b4a8a1e9500693e4380635b9d17e959fbda8bd8ff906c519e/landingai-0.2.8.tar.gz
+[2023-07-27 00:33:40] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/e2/8d/e29915f1e26b1a9d52bb33bc0abeaa259422cbc8e7fb8d8031fb9d7855e5/cdk-sops-secrets-1.2.98.tar.gz
+[2023-07-27 00:33:41] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/2c/d4/8e03b33a9179ac2880d9ee7985f188927368b16081e05a142152e556685c/moto-4.1.9.dev8.tar.gz
+[2023-07-27 00:33:41] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/21/d6/fc26113e043a9ea336e93dcaa77b9a6d12caf1d603bbe638adfd6add6edc/pepperize.cdk-ses-smtp-credentials-0.3.408.tar.gz
+[2023-07-27 00:33:41] INFO root fetch - processPackages [yacore]: Downloading https://files.pythonhosted.org/packages/01/fa/f15f5eb6893e8e5c444d99f453284e13e5361bb0607f8d1d448818d99f96/yacore-0.4.0.tar.gz
+[2023-07-27 00:33:41] INFO root fetch - processPackages [otgCrypto]: Downloading https://files.pythonhosted.org/packages/5d/ce/8d8fbee58e6dfa6bf7dd8208b87c23edefbd69b2ae3b906263c389211615/otgCrypto-0.0.9.tar.gz
+[2023-07-27 00:33:41] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-07-27 00:33:41] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.407.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.408.tar.gz --markdown 20230727/p/pepperize.cdk-ses-smtp-credentials/0.3.407-0.3.408/diff.md --exclude *.pyd
+[2023-07-27 00:33:41] INFO root fetch - processPackages [otgCrypto]: executing diffoscope
+[2023-07-27 00:33:41] INFO root fetch - processPackages [otgCrypto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otgCrypto-0.0.8.tar.gz tmp/otgCrypto-0.0.9.tar.gz --markdown 20230727/o/otgCrypto/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-27 00:33:41] INFO root fetch - processPackages [landingai]: Downloading https://files.pythonhosted.org/packages/ea/3f/715b25bf04d5b0a3ce1ac88585fd0936b894706f86e810287e4d079fab4d/landingai-0.2.9.tar.gz
+[2023-07-27 00:33:41] INFO root fetch - processPackages [yacore]: executing diffoscope
+[2023-07-27 00:33:41] INFO root fetch - processPackages [yacore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yacore-0.3.2.tar.gz tmp/yacore-0.4.0.tar.gz --markdown 20230727/y/yacore/0.3.2-0.4.0/diff.md --exclude *.pyd
+[2023-07-27 00:33:41] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/10/33/e08c5e7bb6d5b198c75b53cba42224da6ac877f65fd4a4343fecdad9a93e/cdk-sops-secrets-1.2.99.tar.gz
+[2023-07-27 00:33:41] INFO root fetch - processPackages [landingai]: executing diffoscope
+[2023-07-27 00:33:41] INFO root fetch - processPackages [landingai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/landingai-0.2.8.tar.gz tmp/landingai-0.2.9.tar.gz --markdown 20230727/l/landingai/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-27 00:33:41] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/4b/79/8731bdd68db60192dd81a418b0552fc817d87bba0726d6c4ff2dbd93f913/moto-4.1.9.dev9.tar.gz
+[2023-07-27 00:33:42] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2023-07-27 00:33:42] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.2.98.tar.gz tmp/cdk-sops-secrets-1.2.99.tar.gz --markdown 20230727/c/cdk-sops-secrets/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-07-27 00:33:42] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.407.tar.gz]
+[2023-07-27 00:33:42] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.408.tar.gz]
+[2023-07-27 00:33:42] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-07-27 00:33:42] INFO root fetch - processPackages [otgCrypto]: Remove: archive file [/home/abi/fetcher/tmp/otgCrypto-0.0.8.tar.gz]
+[2023-07-27 00:33:42] INFO root fetch - processPackages [otgCrypto]: Remove: archive file [/home/abi/fetcher/tmp/otgCrypto-0.0.9.tar.gz]
+[2023-07-27 00:33:42] INFO root fetch - main [MainThread]: End processing [otgCrypto]: success
+[2023-07-27 00:33:42] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-07-27 00:33:42] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230727/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-07-27 00:33:42] INFO root fetch - processPackages [yacore]: Remove: archive file [/home/abi/fetcher/tmp/yacore-0.3.2.tar.gz]
+[2023-07-27 00:33:42] INFO root fetch - processPackages [yacore]: Remove: archive file [/home/abi/fetcher/tmp/yacore-0.4.0.tar.gz]
+[2023-07-27 00:33:42] INFO root fetch - main [MainThread]: End processing [yacore]: success
+[2023-07-27 00:33:42] INFO root fetch - processPackages [landingai]: Remove: archive file [/home/abi/fetcher/tmp/landingai-0.2.8.tar.gz]
+[2023-07-27 00:33:42] INFO root fetch - processPackages [landingai]: Remove: archive file [/home/abi/fetcher/tmp/landingai-0.2.9.tar.gz]
+[2023-07-27 00:33:42] INFO root fetch - main [MainThread]: End processing [landingai]: success
+[2023-07-27 00:33:43] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.98.tar.gz]
+[2023-07-27 00:33:43] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.99.tar.gz]
+[2023-07-27 00:33:43] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2023-07-27 00:33:58] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev8.tar.gz]
+[2023-07-27 00:33:58] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
+[2023-07-27 00:33:58] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-07-27 00:33:58] INFO root fetch - main [MainThread]: Store serial: [19050508]
