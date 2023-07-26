@@ -1246,3 +1246,70 @@
 [2023-07-27 01:11:00] INFO root fetch - processPackages [infinitydb]: Remove: archive file [/home/abi/fetcher/tmp/infinitydb-1.0.1.tar.gz]
 [2023-07-27 01:11:00] INFO root fetch - main [MainThread]: End processing [infinitydb]: success
 [2023-07-27 01:11:00] INFO root fetch - main [MainThread]: Store serial: [19050704]
+[2023-07-27 01:16:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19050704]
+[2023-07-27 01:16:09] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-27 01:16:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dkist-fits-specifications
+[2023-07-27 01:16:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: CalSim
+[2023-07-27 01:16:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: echofish-aws-resample-and-write-to-zarr-store-lambda
+[2023-07-27 01:16:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ccsf
+[2023-07-27 01:16:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scrunch
+[2023-07-27 01:16:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: testflows.github.runners
+[2023-07-27 01:16:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lvmguider
+[2023-07-27 01:16:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hspylib-setman
+[2023-07-27 01:16:09] INFO root fetch - processPackages [echofish-aws-resample-and-write-to-zarr-store-lambda]: New version: [1.0.0.dev20230726225322] Old Version: [1.0.0.dev20230726184718]
+[2023-07-27 01:16:09] INFO root fetch - processPackages [CalSim]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-27 01:16:09] WARNING root fetch - processPackages [lvmguider]: Skipping, unable to determine old version
+[2023-07-27 01:16:09] INFO root fetch - main [MainThread]: End processing [lvmguider] error
+[2023-07-27 01:16:09] INFO root fetch - processPackages [hspylib-setman]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-27 01:16:09] INFO root fetch - processPackages [ccsf]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-27 01:16:09] INFO root fetch - processPackages [testflows.github.runners]: New version: [1.2.230726.1231242] Old Version: [1.2.230726.1230050]
+[2023-07-27 01:16:09] INFO root fetch - processPackages [scrunch]: New version: [6.5.2012.post1690413109] Old Version: [6.5.2012.post1690411612]
+[2023-07-27 01:16:09] INFO root fetch - processPackages [dkist-fits-specifications]: New version: [3.7.1] Old Version: [3.7.0]
+[2023-07-27 01:16:09] INFO root fetch - processPackages [echofish-aws-resample-and-write-to-zarr-store-lambda]: Downloading https://files.pythonhosted.org/packages/ea/32/fcb075d30c587231e825c0597739a93edb0670e2f4a14f65213de0ea1d29/echofish-aws-resample-and-write-to-zarr-store-lambda-1.0.0.dev20230726184718.tar.gz
+[2023-07-27 01:16:09] INFO root fetch - processPackages [hspylib-setman]: Downloading https://files.pythonhosted.org/packages/ca/86/d4c00d36772f3c810863e8a8facf2b40913eb2af79eed33bd695d81a8a66/hspylib-setman-0.9.8.tar.gz
+[2023-07-27 01:16:09] INFO root fetch - processPackages [scrunch]: Downloading https://files.pythonhosted.org/packages/4c/e1/38adeaf4d436f33e6797b6a89ab3bd42120a287cd26fcec160184c99cca8/scrunch-6.5.2012.post1690411612.tar.gz
+[2023-07-27 01:16:09] INFO root fetch - processPackages [dkist-fits-specifications]: Downloading https://files.pythonhosted.org/packages/5c/fb/025fcd0d283439783b078b6f11cc32167920421907d5a358bb96bf168636/dkist_fits_specifications-3.7.0.tar.gz
+[2023-07-27 01:16:09] INFO root fetch - processPackages [testflows.github.runners]: Downloading https://files.pythonhosted.org/packages/aa/d2/7b692992bfe38cfbb6397e3ec820c28968812959314dae510130e3a5d9de/testflows.github.runners-1.2.230726.1230050.tar.gz
+[2023-07-27 01:16:09] INFO root fetch - processPackages [ccsf]: Downloading https://files.pythonhosted.org/packages/d1/23/fde4d687cba2f1e0df783093f474b8e88fe77b11a5388fd5dc3e5893519b/ccsf-1.0.0.tar.gz
+[2023-07-27 01:16:10] INFO root fetch - processPackages [hspylib-setman]: Downloading https://files.pythonhosted.org/packages/c5/a4/722debaef60a0f54fbee575ca41fa122ec39cd3fab91b4b8ddebc1dc8232/hspylib-setman-0.9.9.tar.gz
+[2023-07-27 01:16:10] INFO root fetch - processPackages [echofish-aws-resample-and-write-to-zarr-store-lambda]: Downloading https://files.pythonhosted.org/packages/4f/3a/0be520875a79af9214194d819022b87fea2f2a04f1b0834603fc13f3ab93/echofish-aws-resample-and-write-to-zarr-store-lambda-1.0.0.dev20230726225322.tar.gz
+[2023-07-27 01:16:10] INFO root fetch - processPackages [CalSim]: executing diffoscope
+[2023-07-27 01:16:10] INFO root fetch - processPackages [CalSim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calsim-0.0.8.tar.gz tmp/calsim-0.0.9.tar.gz --markdown 20230727/C/CalSim/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-27 01:16:10] INFO root fetch - processPackages [dkist-fits-specifications]: Downloading https://files.pythonhosted.org/packages/2a/0b/47f3cd61530b980dbb23a3fb0b51d96f989f2e9adf093939056f99ce32ba/dkist_fits_specifications-3.7.1.tar.gz
+[2023-07-27 01:16:10] INFO root fetch - processPackages [ccsf]: Downloading https://files.pythonhosted.org/packages/a1/f5/c088af7d8c7cfe22b61b16c19c69d07c8fed8ab60d55063fc586394da925/ccsf-1.0.1.tar.gz
+[2023-07-27 01:16:10] INFO root fetch - processPackages [testflows.github.runners]: Downloading https://files.pythonhosted.org/packages/10/31/b72b18e4a96f52f5eca7972c0a7f7480408e44348e3c3971a2693a239075/testflows.github.runners-1.2.230726.1231242.tar.gz
+[2023-07-27 01:16:10] INFO root fetch - processPackages [hspylib-setman]: executing diffoscope
+[2023-07-27 01:16:10] INFO root fetch - processPackages [hspylib-setman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hspylib-setman-0.9.8.tar.gz tmp/hspylib-setman-0.9.9.tar.gz --markdown 20230727/h/hspylib-setman/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-27 01:16:10] INFO root fetch - processPackages [scrunch]: Downloading https://files.pythonhosted.org/packages/cf/56/e4a21a9687146b8e2740d854f4939c2bc46d580b47c3ab8f8c6c2b686f5f/scrunch-6.5.2012.post1690413109.tar.gz
+[2023-07-27 01:16:10] INFO root fetch - processPackages [echofish-aws-resample-and-write-to-zarr-store-lambda]: executing diffoscope
+[2023-07-27 01:16:10] INFO root fetch - processPackages [echofish-aws-resample-and-write-to-zarr-store-lambda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/echofish-aws-resample-and-write-to-zarr-store-lambda-1.0.0.dev20230726184718.tar.gz tmp/echofish-aws-resample-and-write-to-zarr-store-lambda-1.0.0.dev20230726225322.tar.gz --markdown 20230727/e/echofish-aws-resample-and-write-to-zarr-store-lambda/1.0.0.dev20230726184718-1.0.0.dev20230726225322/diff.md --exclude *.pyd
+[2023-07-27 01:16:10] INFO root fetch - processPackages [dkist-fits-specifications]: executing diffoscope
+[2023-07-27 01:16:10] INFO root fetch - processPackages [dkist-fits-specifications]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dkist_fits_specifications-3.7.0.tar.gz tmp/dkist_fits_specifications-3.7.1.tar.gz --markdown 20230727/d/dkist-fits-specifications/3.7.0-3.7.1/diff.md --exclude *.pyd
+[2023-07-27 01:16:10] INFO root fetch - processPackages [ccsf]: executing diffoscope
+[2023-07-27 01:16:10] INFO root fetch - processPackages [ccsf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccsf-1.0.0.tar.gz tmp/ccsf-1.0.1.tar.gz --markdown 20230727/c/ccsf/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-27 01:16:10] INFO root fetch - processPackages [testflows.github.runners]: executing diffoscope
+[2023-07-27 01:16:10] INFO root fetch - processPackages [testflows.github.runners]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testflows.github.runners-1.2.230726.1230050.tar.gz tmp/testflows.github.runners-1.2.230726.1231242.tar.gz --markdown 20230727/t/testflows.github.runners/1.2.230726.1230050-1.2.230726.1231242/diff.md --exclude *.pyd
+[2023-07-27 01:16:10] INFO root fetch - processPackages [scrunch]: executing diffoscope
+[2023-07-27 01:16:10] INFO root fetch - processPackages [scrunch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrunch-6.5.2012.post1690411612.tar.gz tmp/scrunch-6.5.2012.post1690413109.tar.gz --markdown 20230727/s/scrunch/6.5.2012.post1690411612-6.5.2012.post1690413109/diff.md --exclude *.pyd
+[2023-07-27 01:16:11] INFO root fetch - processPackages [CalSim]: Remove: archive file [/home/abi/fetcher/tmp/calsim-0.0.8.tar.gz]
+[2023-07-27 01:16:11] INFO root fetch - processPackages [CalSim]: Remove: archive file [/home/abi/fetcher/tmp/calsim-0.0.9.tar.gz]
+[2023-07-27 01:16:11] INFO root fetch - main [MainThread]: End processing [CalSim]: success
+[2023-07-27 01:16:11] INFO root fetch - processPackages [echofish-aws-resample-and-write-to-zarr-store-lambda]: Remove: archive file [/home/abi/fetcher/tmp/echofish-aws-resample-and-write-to-zarr-store-lambda-1.0.0.dev20230726184718.tar.gz]
+[2023-07-27 01:16:11] INFO root fetch - processPackages [echofish-aws-resample-and-write-to-zarr-store-lambda]: Remove: archive file [/home/abi/fetcher/tmp/echofish-aws-resample-and-write-to-zarr-store-lambda-1.0.0.dev20230726225322.tar.gz]
+[2023-07-27 01:16:11] INFO root fetch - main [MainThread]: End processing [echofish-aws-resample-and-write-to-zarr-store-lambda]: success
+[2023-07-27 01:16:11] INFO root fetch - processPackages [hspylib-setman]: Remove: archive file [/home/abi/fetcher/tmp/hspylib-setman-0.9.8.tar.gz]
+[2023-07-27 01:16:11] INFO root fetch - processPackages [hspylib-setman]: Remove: archive file [/home/abi/fetcher/tmp/hspylib-setman-0.9.9.tar.gz]
+[2023-07-27 01:16:11] INFO root fetch - main [MainThread]: End processing [hspylib-setman]: success
+[2023-07-27 01:16:11] INFO root fetch - processPackages [ccsf]: Remove: archive file [/home/abi/fetcher/tmp/ccsf-1.0.0.tar.gz]
+[2023-07-27 01:16:11] INFO root fetch - processPackages [ccsf]: Remove: archive file [/home/abi/fetcher/tmp/ccsf-1.0.1.tar.gz]
+[2023-07-27 01:16:11] INFO root fetch - main [MainThread]: End processing [ccsf]: success
+[2023-07-27 01:16:11] INFO root fetch - processPackages [testflows.github.runners]: Remove: archive file [/home/abi/fetcher/tmp/testflows.github.runners-1.2.230726.1230050.tar.gz]
+[2023-07-27 01:16:11] INFO root fetch - processPackages [testflows.github.runners]: Remove: archive file [/home/abi/fetcher/tmp/testflows.github.runners-1.2.230726.1231242.tar.gz]
+[2023-07-27 01:16:11] INFO root fetch - main [MainThread]: End processing [testflows.github.runners]: success
+[2023-07-27 01:16:11] INFO root fetch - processPackages [dkist-fits-specifications]: Remove: archive file [/home/abi/fetcher/tmp/dkist_fits_specifications-3.7.0.tar.gz]
+[2023-07-27 01:16:11] INFO root fetch - processPackages [dkist-fits-specifications]: Remove: archive file [/home/abi/fetcher/tmp/dkist_fits_specifications-3.7.1.tar.gz]
+[2023-07-27 01:16:11] INFO root fetch - main [MainThread]: End processing [dkist-fits-specifications]: success
+[2023-07-27 01:16:11] INFO root fetch - processPackages [scrunch]: Remove: archive file [/home/abi/fetcher/tmp/scrunch-6.5.2012.post1690411612.tar.gz]
+[2023-07-27 01:16:11] INFO root fetch - processPackages [scrunch]: Remove: archive file [/home/abi/fetcher/tmp/scrunch-6.5.2012.post1690413109.tar.gz]
+[2023-07-27 01:16:11] INFO root fetch - main [MainThread]: End processing [scrunch]: success
+[2023-07-27 01:16:11] INFO root fetch - main [MainThread]: Store serial: [19050729]
