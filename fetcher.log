@@ -1216,3 +1216,33 @@
 [2023-07-27 01:05:46] INFO root fetch - processPackages [python2verilog]: Remove: archive file [/home/abi/fetcher/tmp/python2verilog-0.0.4.tar.gz]
 [2023-07-27 01:05:46] INFO root fetch - main [MainThread]: End processing [python2verilog]: success
 [2023-07-27 01:05:46] INFO root fetch - main [MainThread]: Store serial: [19050695]
+[2023-07-27 01:10:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19050695]
+[2023-07-27 01:10:55] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-27 01:10:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: infinitydb
+[2023-07-27 01:10:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-fancy-formset
+[2023-07-27 01:10:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: oobabot-plugin
+[2023-07-27 01:10:55] INFO root fetch - processPackages [infinitydb]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-27 01:10:55] INFO root fetch - processPackages [django-fancy-formset]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-27 01:10:55] INFO root fetch - processPackages [oobabot-plugin]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-27 01:10:55] INFO root fetch - processPackages [django-fancy-formset]: Downloading https://files.pythonhosted.org/packages/55/21/ff9fd4156145d50789c40c528e796829024e30ea74f492349bbec0aa7ae6/django-fancy-formset-0.2.1.tar.gz
+[2023-07-27 01:10:55] INFO root fetch - processPackages [infinitydb]: Downloading https://files.pythonhosted.org/packages/78/86/a684e5932fd4edac729331255de6b3798dfd7c29cb697d83539c49cbcc92/infinitydb-1.0.0.tar.gz
+[2023-07-27 01:10:55] INFO root fetch - processPackages [oobabot-plugin]: Downloading https://files.pythonhosted.org/packages/2c/74/351449723b0381fbaa1cd27f4e20a69b8734f6a748fa9e3b4ec3d1396375/oobabot_plugin-0.2.1.tar.gz
+[2023-07-27 01:10:55] INFO root fetch - processPackages [django-fancy-formset]: Downloading https://files.pythonhosted.org/packages/6e/f9/c63b32a3fb843d73e17fef5a3892b3e3082e927a86960d92272af5bc83db/django-fancy-formset-0.2.2.tar.gz
+[2023-07-27 01:10:55] INFO root fetch - processPackages [oobabot-plugin]: Downloading https://files.pythonhosted.org/packages/19/0f/95dd6ce4fc46a596e3d68b2bf714aa9fe0385ff8a1ed3888bdfb91f53377/oobabot_plugin-0.2.2.tar.gz
+[2023-07-27 01:10:55] INFO root fetch - processPackages [django-fancy-formset]: executing diffoscope
+[2023-07-27 01:10:55] INFO root fetch - processPackages [django-fancy-formset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-fancy-formset-0.2.1.tar.gz tmp/django-fancy-formset-0.2.2.tar.gz --markdown 20230727/d/django-fancy-formset/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-27 01:10:55] INFO root fetch - processPackages [oobabot-plugin]: executing diffoscope
+[2023-07-27 01:10:55] INFO root fetch - processPackages [oobabot-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oobabot_plugin-0.2.1.tar.gz tmp/oobabot_plugin-0.2.2.tar.gz --markdown 20230727/o/oobabot-plugin/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-27 01:10:56] INFO root fetch - processPackages [infinitydb]: Downloading https://files.pythonhosted.org/packages/fd/be/b0925b12769a6d0c2d0c5da0b57a6333966939fa13009d9ade1ffd917d3a/infinitydb-1.0.1.tar.gz
+[2023-07-27 01:10:56] INFO root fetch - processPackages [infinitydb]: executing diffoscope
+[2023-07-27 01:10:56] INFO root fetch - processPackages [infinitydb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/infinitydb-1.0.0.tar.gz tmp/infinitydb-1.0.1.tar.gz --markdown 20230727/i/infinitydb/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-27 01:10:56] INFO root fetch - processPackages [django-fancy-formset]: Remove: archive file [/home/abi/fetcher/tmp/django-fancy-formset-0.2.1.tar.gz]
+[2023-07-27 01:10:56] INFO root fetch - processPackages [django-fancy-formset]: Remove: archive file [/home/abi/fetcher/tmp/django-fancy-formset-0.2.2.tar.gz]
+[2023-07-27 01:10:56] INFO root fetch - main [MainThread]: End processing [django-fancy-formset]: success
+[2023-07-27 01:10:56] INFO root fetch - processPackages [oobabot-plugin]: Remove: archive file [/home/abi/fetcher/tmp/oobabot_plugin-0.2.1.tar.gz]
+[2023-07-27 01:10:56] INFO root fetch - processPackages [oobabot-plugin]: Remove: archive file [/home/abi/fetcher/tmp/oobabot_plugin-0.2.2.tar.gz]
+[2023-07-27 01:10:56] INFO root fetch - main [MainThread]: End processing [oobabot-plugin]: success
+[2023-07-27 01:11:00] INFO root fetch - processPackages [infinitydb]: Remove: archive file [/home/abi/fetcher/tmp/infinitydb-1.0.0.tar.gz]
+[2023-07-27 01:11:00] INFO root fetch - processPackages [infinitydb]: Remove: archive file [/home/abi/fetcher/tmp/infinitydb-1.0.1.tar.gz]
+[2023-07-27 01:11:00] INFO root fetch - main [MainThread]: End processing [infinitydb]: success
+[2023-07-27 01:11:00] INFO root fetch - main [MainThread]: Store serial: [19050704]
