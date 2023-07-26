@@ -1589,3 +1589,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 
 [2023-07-27 01:27:08] INFO root fetch - main [MainThread]: End processing [libcbm] error
 [2023-07-27 01:27:08] INFO root fetch - main [MainThread]: Store serial: [19050813]
+[2023-07-27 01:32:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19050813]
+[2023-07-27 01:32:16] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-27 01:32:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ccsf
+[2023-07-27 01:32:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyhrms
+[2023-07-27 01:32:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: khoj-assistant
+[2023-07-27 01:32:16] INFO root fetch - processPackages [ccsf]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-27 01:32:16] INFO root fetch - processPackages [pyhrms]: New version: [0.6.4] Old Version: [0.6.3]
+[2023-07-27 01:32:16] INFO root fetch - processPackages [khoj-assistant]: New version: [0.9.1.dev8] Old Version: [0.9.1.dev7]
+[2023-07-27 01:32:16] INFO root fetch - processPackages [ccsf]: Downloading https://files.pythonhosted.org/packages/a1/f5/c088af7d8c7cfe22b61b16c19c69d07c8fed8ab60d55063fc586394da925/ccsf-1.0.1.tar.gz
+[2023-07-27 01:32:16] INFO root fetch - processPackages [pyhrms]: Downloading https://files.pythonhosted.org/packages/2a/53/4709f2ade166f764a7c32bb88fe3e3c8be0de0e43b636d6a286642376c15/pyhrms-0.6.3.zip
+[2023-07-27 01:32:17] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/80/c2/afc116f8f70318334052f67223fb93a5ce1d898f2d901991e87dad33b030/khoj_assistant-0.9.1.dev7.tar.gz
+[2023-07-27 01:32:17] INFO root fetch - processPackages [ccsf]: Downloading https://files.pythonhosted.org/packages/42/73/ff2e948c274f1196aab2924523d38a1bb0b5a8655cae8ec03865430a6e56/ccsf-1.0.2.tar.gz
+[2023-07-27 01:32:17] INFO root fetch - processPackages [pyhrms]: Downloading https://files.pythonhosted.org/packages/49/b3/e187c2ccdc24da98902f2438aae48cb170fee105788d8adddd4181d1db05/pyhrms-0.6.4.zip
+[2023-07-27 01:32:17] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/87/c3/a6da041c3dee772521fabc9586096b6809ee0e9289735b249898c5a282a2/khoj_assistant-0.9.1.dev8.tar.gz
+[2023-07-27 01:32:17] INFO root fetch - processPackages [pyhrms]: executing diffoscope
+[2023-07-27 01:32:17] INFO root fetch - processPackages [pyhrms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhrms-0.6.3.zip tmp/pyhrms-0.6.4.zip --markdown 20230727/p/pyhrms/0.6.3-0.6.4/diff.md --exclude *.pyd
+[2023-07-27 01:32:17] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2023-07-27 01:32:17] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-0.9.1.dev7.tar.gz tmp/khoj_assistant-0.9.1.dev8.tar.gz --markdown 20230727/k/khoj-assistant/0.9.1.dev7-0.9.1.dev8/diff.md --exclude *.pyd
+[2023-07-27 01:32:17] INFO root fetch - processPackages [ccsf]: executing diffoscope
+[2023-07-27 01:32:17] INFO root fetch - processPackages [ccsf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccsf-1.0.1.tar.gz tmp/ccsf-1.0.2.tar.gz --markdown 20230727/c/ccsf/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-27 01:32:18] INFO root fetch - processPackages [ccsf]: Remove: archive file [/home/abi/fetcher/tmp/ccsf-1.0.1.tar.gz]
+[2023-07-27 01:32:18] INFO root fetch - processPackages [ccsf]: Remove: archive file [/home/abi/fetcher/tmp/ccsf-1.0.2.tar.gz]
+[2023-07-27 01:32:18] INFO root fetch - main [MainThread]: End processing [ccsf]: success
+[2023-07-27 01:32:18] INFO root fetch - processPackages [pyhrms]: Remove: archive file [/home/abi/fetcher/tmp/pyhrms-0.6.3.zip]
+[2023-07-27 01:32:18] INFO root fetch - processPackages [pyhrms]: Remove: archive file [/home/abi/fetcher/tmp/pyhrms-0.6.4.zip]
+[2023-07-27 01:32:18] INFO root fetch - main [MainThread]: End processing [pyhrms]: success
+[2023-07-27 01:32:18] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.9.1.dev7.tar.gz]
+[2023-07-27 01:32:18] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.9.1.dev8.tar.gz]
+[2023-07-27 01:32:18] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2023-07-27 01:32:18] INFO root fetch - main [MainThread]: Store serial: [19050823]
