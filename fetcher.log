@@ -1775,3 +1775,90 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-27 01:48:30] INFO root fetch - processPackages [skyplane-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skyplane_nightly-0.3.2.dev20230726.tar.gz]
 [2023-07-27 01:48:30] INFO root fetch - main [MainThread]: End processing [skyplane-nightly]: success
 [2023-07-27 01:48:30] INFO root fetch - main [MainThread]: Store serial: [19050879]
+[2023-07-27 01:53:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19050879]
+[2023-07-27 01:53:38] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-27 01:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tcex
+[2023-07-27 01:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: benchling-api-client
+[2023-07-27 01:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: latch
+[2023-07-27 01:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: demogpt
+[2023-07-27 01:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spackle-python
+[2023-07-27 01:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lucupy
+[2023-07-27 01:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bisum
+[2023-07-27 01:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: echofish-aws-raw-to-zarr-lambda
+[2023-07-27 01:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mrgrain.cdk-esbuild
+[2023-07-27 01:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: latinex-sdk
+[2023-07-27 01:53:38] INFO root fetch - processPackages [mrgrain.cdk-esbuild]: New version: [4.2.0] Old Version: [4.1.9]
+[2023-07-27 01:53:38] INFO root fetch - processPackages [lucupy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-27 01:53:38] INFO root fetch - processPackages [tcex]: New version: [4.0.0] Old Version: [3.0.9]
+[2023-07-27 01:53:38] WARNING root fetch - processPackages [bisum]: Skipping, unable to determine old version
+[2023-07-27 01:53:38] INFO root fetch - main [MainThread]: End processing [bisum] error
+[2023-07-27 01:53:38] INFO root fetch - processPackages [demogpt]: New version: [1.1.1.8] Old Version: [1.1.1.7]
+[2023-07-27 01:53:38] INFO root fetch - processPackages [echofish-aws-raw-to-zarr-lambda]: New version: [1.0.0.dev20230726233431] Old Version: [1.0.0.dev20230724211819]
+[2023-07-27 01:53:38] INFO root fetch - processPackages [latinex-sdk]: New version: [0.1.1] Old Version: [0.0.9]
+[2023-07-27 01:53:38] INFO root fetch - processPackages [spackle-python]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-27 01:53:38] INFO root fetch - processPackages [latch]: New version: [2.9.6] Old Version: [2.9.5]
+[2023-07-27 01:53:38] INFO root fetch - processPackages [benchling-api-client]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-27 01:53:38] INFO root fetch - processPackages [mrgrain.cdk-esbuild]: Downloading https://files.pythonhosted.org/packages/8f/4d/f07f5f7e8663e5c3a7bdcce04614832dec7d8ce7766d77dad96f4796e451/mrgrain.cdk-esbuild-4.1.9.tar.gz
+[2023-07-27 01:53:38] INFO root fetch - processPackages [lucupy]: Downloading https://files.pythonhosted.org/packages/48/24/564fb7fc12915db3e559e4a44c2c2ea56620d4da2174d3da93586a4d9af4/lucupy-0.1.8.tar.gz
+[2023-07-27 01:53:38] INFO root fetch - processPackages [demogpt]: Downloading https://files.pythonhosted.org/packages/83/f6/d629fb2a42e7c945e1b18e3f33aaf8e2030f3710bb6ea0d4781dfb140a10/demogpt-1.1.1.7.tar.gz
+[2023-07-27 01:53:38] INFO root fetch - processPackages [tcex]: Downloading https://files.pythonhosted.org/packages/f4/ed/6dbcd889644395983ad2367e42eb0e6177aff16b3f468a8060632f4c403f/tcex-3.0.9.tar.gz
+[2023-07-27 01:53:39] INFO root fetch - processPackages [latinex-sdk]: Downloading https://files.pythonhosted.org/packages/86/b3/108620bc3030ae98278a6cc63004bb725c2f3589a0154581657fe95e5dfd/latinex-sdk-0.0.9.tar.gz
+[2023-07-27 01:53:39] INFO root fetch - processPackages [echofish-aws-raw-to-zarr-lambda]: Downloading https://files.pythonhosted.org/packages/98/da/68e0473f9f817864a3c0c849284045d5a0d41246140faf2b82ac8c2224f7/echofish-aws-raw-to-zarr-lambda-1.0.0.dev20230724211819.tar.gz
+[2023-07-27 01:53:39] INFO root fetch - processPackages [spackle-python]: Downloading https://files.pythonhosted.org/packages/57/88/4023c9855de01dc879534c23667e591ffe69724097b1d9fb6e2e8ee94603/spackle-python-0.0.8.tar.gz
+[2023-07-27 01:53:39] INFO root fetch - processPackages [latch]: Downloading https://files.pythonhosted.org/packages/79/f7/1912dae713dbd539910745289141bab27e2ec23827c1f7112accaf98bdda/latch-2.9.5.tar.gz
+[2023-07-27 01:53:39] INFO root fetch - processPackages [benchling-api-client]: Downloading https://files.pythonhosted.org/packages/ce/1d/9c3669396c4c52924ccf39a48a438a2c8167c4fb512eca865bd64066d33e/benchling_api_client-2.0.98.tar.gz
+[2023-07-27 01:53:39] INFO root fetch - processPackages [lucupy]: Downloading https://files.pythonhosted.org/packages/8e/71/90824741abbd5f41e02cef3f27573135ac7ee3e561efa91dfd0394c03374/lucupy-0.1.9.tar.gz
+[2023-07-27 01:53:39] INFO root fetch - processPackages [lucupy]: executing diffoscope
+[2023-07-27 01:53:39] INFO root fetch - processPackages [lucupy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lucupy-0.1.8.tar.gz tmp/lucupy-0.1.9.tar.gz --markdown 20230727/l/lucupy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-27 01:53:39] INFO root fetch - processPackages [mrgrain.cdk-esbuild]: Downloading https://files.pythonhosted.org/packages/91/e8/4ca3fef56ef7f0d134dca10e65b7738e96c30e2fe35da548671e751b8d76/mrgrain.cdk-esbuild-4.2.0.tar.gz
+[2023-07-27 01:53:39] INFO root fetch - processPackages [demogpt]: Downloading https://files.pythonhosted.org/packages/a7/51/139e9fdb49946ccd141e4efde6bb7ed6e0452c4eff229b6874663ca2dc19/demogpt-1.1.1.8.tar.gz
+[2023-07-27 01:53:39] INFO root fetch - processPackages [latinex-sdk]: Downloading https://files.pythonhosted.org/packages/4b/a4/e54cc25ab4361c5b4b1e023bb32f19cbd52e75143b9c82b662a520fed2b5/latinex-sdk-0.1.1.tar.gz
+[2023-07-27 01:53:39] INFO root fetch - processPackages [tcex]: Downloading https://files.pythonhosted.org/packages/cf/88/97cd012eba8fbf52856a0535e528ed4051a93bca074440675009de07397b/tcex-4.0.0.tar.gz
+[2023-07-27 01:53:39] INFO root fetch - processPackages [echofish-aws-raw-to-zarr-lambda]: Downloading https://files.pythonhosted.org/packages/b9/5c/d08830a601b4a5618a2664a063b3ceb6d61afcca932df7fb0467dfbc7429/echofish-aws-raw-to-zarr-lambda-1.0.0.dev20230726233431.tar.gz
+[2023-07-27 01:53:39] INFO root fetch - processPackages [spackle-python]: Downloading https://files.pythonhosted.org/packages/f0/2d/52773c91a5eb9ccc9fb565d2125cb5f794cec46c1c7750cf4b0fb9df94ad/spackle-python-0.0.9.tar.gz
+[2023-07-27 01:53:39] INFO root fetch - processPackages [latch]: Downloading https://files.pythonhosted.org/packages/5e/5a/e91171b6eca0ba929f7259719a3d389fd86242408d94dbf266925a9f4d21/latch-2.9.6.tar.gz
+[2023-07-27 01:53:39] INFO root fetch - processPackages [demogpt]: executing diffoscope
+[2023-07-27 01:53:39] INFO root fetch - processPackages [demogpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/demogpt-1.1.1.7.tar.gz tmp/demogpt-1.1.1.8.tar.gz --markdown 20230727/d/demogpt/1.1.1.7-1.1.1.8/diff.md --exclude *.pyd
+[2023-07-27 01:53:39] INFO root fetch - processPackages [tcex]: executing diffoscope
+[2023-07-27 01:53:39] INFO root fetch - processPackages [tcex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tcex-3.0.9.tar.gz tmp/tcex-4.0.0.tar.gz --markdown 20230727/t/tcex/3.0.9-4.0.0/diff.md --exclude *.pyd
+[2023-07-27 01:53:39] INFO root fetch - processPackages [latinex-sdk]: executing diffoscope
+[2023-07-27 01:53:39] INFO root fetch - processPackages [latinex-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latinex-sdk-0.0.9.tar.gz tmp/latinex-sdk-0.1.1.tar.gz --markdown 20230727/l/latinex-sdk/0.0.9-0.1.1/diff.md --exclude *.pyd
+[2023-07-27 01:53:39] INFO root fetch - processPackages [benchling-api-client]: Downloading https://files.pythonhosted.org/packages/f9/23/649c2147d11c171b4b3d27c6a52dab32d22dc24ec1c248cf5d1dd8a4451d/benchling_api_client-2.0.99.tar.gz
+[2023-07-27 01:53:39] INFO root fetch - processPackages [latch]: executing diffoscope
+[2023-07-27 01:53:39] INFO root fetch - processPackages [latch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latch-2.9.5.tar.gz tmp/latch-2.9.6.tar.gz --markdown 20230727/l/latch/2.9.5-2.9.6/diff.md --exclude *.pyd
+[2023-07-27 01:53:39] INFO root fetch - processPackages [echofish-aws-raw-to-zarr-lambda]: executing diffoscope
+[2023-07-27 01:53:39] INFO root fetch - processPackages [echofish-aws-raw-to-zarr-lambda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/echofish-aws-raw-to-zarr-lambda-1.0.0.dev20230724211819.tar.gz tmp/echofish-aws-raw-to-zarr-lambda-1.0.0.dev20230726233431.tar.gz --markdown 20230727/e/echofish-aws-raw-to-zarr-lambda/1.0.0.dev20230724211819-1.0.0.dev20230726233431/diff.md --exclude *.pyd
+[2023-07-27 01:53:39] INFO root fetch - processPackages [spackle-python]: executing diffoscope
+[2023-07-27 01:53:39] INFO root fetch - processPackages [spackle-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spackle-python-0.0.8.tar.gz tmp/spackle-python-0.0.9.tar.gz --markdown 20230727/s/spackle-python/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-27 01:53:39] INFO root fetch - processPackages [mrgrain.cdk-esbuild]: executing diffoscope
+[2023-07-27 01:53:39] INFO root fetch - processPackages [mrgrain.cdk-esbuild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrgrain.cdk-esbuild-4.1.9.tar.gz tmp/mrgrain.cdk-esbuild-4.2.0.tar.gz --markdown 20230727/m/mrgrain.cdk-esbuild/4.1.9-4.2.0/diff.md --exclude *.pyd
+[2023-07-27 01:53:40] INFO root fetch - processPackages [benchling-api-client]: executing diffoscope
+[2023-07-27 01:53:40] INFO root fetch - processPackages [benchling-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benchling_api_client-2.0.98.tar.gz tmp/benchling_api_client-2.0.99.tar.gz --markdown 20230727/b/benchling-api-client/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-27 01:53:40] INFO root fetch - processPackages [lucupy]: Remove: archive file [/home/abi/fetcher/tmp/lucupy-0.1.8.tar.gz]
+[2023-07-27 01:53:40] INFO root fetch - processPackages [lucupy]: Remove: archive file [/home/abi/fetcher/tmp/lucupy-0.1.9.tar.gz]
+[2023-07-27 01:53:40] INFO root fetch - main [MainThread]: End processing [lucupy]: success
+[2023-07-27 01:53:41] INFO root fetch - processPackages [demogpt]: Remove: archive file [/home/abi/fetcher/tmp/demogpt-1.1.1.7.tar.gz]
+[2023-07-27 01:53:41] INFO root fetch - processPackages [demogpt]: Remove: archive file [/home/abi/fetcher/tmp/demogpt-1.1.1.8.tar.gz]
+[2023-07-27 01:53:41] INFO root fetch - main [MainThread]: End processing [demogpt]: success
+[2023-07-27 01:53:41] INFO root fetch - processPackages [latinex-sdk]: Remove: archive file [/home/abi/fetcher/tmp/latinex-sdk-0.0.9.tar.gz]
+[2023-07-27 01:53:41] INFO root fetch - processPackages [latinex-sdk]: Remove: archive file [/home/abi/fetcher/tmp/latinex-sdk-0.1.1.tar.gz]
+[2023-07-27 01:53:41] INFO root fetch - main [MainThread]: End processing [latinex-sdk]: success
+[2023-07-27 01:53:41] INFO root fetch - processPackages [mrgrain.cdk-esbuild]: Remove: archive file [/home/abi/fetcher/tmp/mrgrain.cdk-esbuild-4.1.9.tar.gz]
+[2023-07-27 01:53:41] INFO root fetch - processPackages [mrgrain.cdk-esbuild]: Remove: archive file [/home/abi/fetcher/tmp/mrgrain.cdk-esbuild-4.2.0.tar.gz]
+[2023-07-27 01:53:41] INFO root fetch - main [MainThread]: End processing [mrgrain.cdk-esbuild]: success
+[2023-07-27 01:53:41] INFO root fetch - processPackages [spackle-python]: Remove: archive file [/home/abi/fetcher/tmp/spackle-python-0.0.8.tar.gz]
+[2023-07-27 01:53:41] INFO root fetch - processPackages [spackle-python]: Remove: archive file [/home/abi/fetcher/tmp/spackle-python-0.0.9.tar.gz]
+[2023-07-27 01:53:41] INFO root fetch - main [MainThread]: End processing [spackle-python]: success
+[2023-07-27 01:53:41] INFO root fetch - processPackages [echofish-aws-raw-to-zarr-lambda]: Remove: archive file [/home/abi/fetcher/tmp/echofish-aws-raw-to-zarr-lambda-1.0.0.dev20230724211819.tar.gz]
+[2023-07-27 01:53:41] INFO root fetch - processPackages [echofish-aws-raw-to-zarr-lambda]: Remove: archive file [/home/abi/fetcher/tmp/echofish-aws-raw-to-zarr-lambda-1.0.0.dev20230726233431.tar.gz]
+[2023-07-27 01:53:41] INFO root fetch - main [MainThread]: End processing [echofish-aws-raw-to-zarr-lambda]: success
+[2023-07-27 01:53:41] INFO root fetch - processPackages [latch]: Remove: archive file [/home/abi/fetcher/tmp/latch-2.9.5.tar.gz]
+[2023-07-27 01:53:41] INFO root fetch - processPackages [latch]: Remove: archive file [/home/abi/fetcher/tmp/latch-2.9.6.tar.gz]
+[2023-07-27 01:53:41] INFO root fetch - main [MainThread]: End processing [latch]: success
+[2023-07-27 01:53:43] INFO root fetch - processPackages [tcex]: Remove: archive file [/home/abi/fetcher/tmp/tcex-3.0.9.tar.gz]
+[2023-07-27 01:53:43] INFO root fetch - processPackages [tcex]: Remove: archive file [/home/abi/fetcher/tmp/tcex-4.0.0.tar.gz]
+[2023-07-27 01:53:43] INFO root fetch - main [MainThread]: End processing [tcex]: success
+[2023-07-27 01:54:15] INFO root fetch - processPackages [benchling-api-client]: Remove: archive file [/home/abi/fetcher/tmp/benchling_api_client-2.0.98.tar.gz]
+[2023-07-27 01:54:15] INFO root fetch - processPackages [benchling-api-client]: Remove: archive file [/home/abi/fetcher/tmp/benchling_api_client-2.0.99.tar.gz]
+[2023-07-27 01:54:15] INFO root fetch - main [MainThread]: End processing [benchling-api-client]: success
+[2023-07-27 01:54:15] INFO root fetch - main [MainThread]: Store serial: [19050912]
