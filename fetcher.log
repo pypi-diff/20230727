@@ -1011,3 +1011,106 @@
 [2023-07-27 00:55:18] INFO root fetch - processPackages [prettyqt]: Remove: archive file [/home/abi/fetcher/tmp/prettyqt-1.9.2.tar.gz]
 [2023-07-27 00:55:18] INFO root fetch - main [MainThread]: End processing [prettyqt]: success
 [2023-07-27 00:55:18] INFO root fetch - main [MainThread]: Store serial: [19050625]
+[2023-07-27 01:00:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19050625]
+[2023-07-27 01:00:26] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-27 01:00:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: snitch-protos
+[2023-07-27 01:00:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: veris-priv-tab
+[2023-07-27 01:00:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: neon-mq-connector
+[2023-07-27 01:00:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ultralytics
+[2023-07-27 01:00:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hspylib-cfman
+[2023-07-27 01:00:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mtrain-superclient
+[2023-07-27 01:00:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyradiance
+[2023-07-27 01:00:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: montecarlodata
+[2023-07-27 01:00:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: audioscrape
+[2023-07-27 01:00:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mtrain-superclient
+[2023-07-27 01:00:27] INFO root fetch - processPackages [neon-mq-connector]: New version: [0.7.1a1] Old Version: [0.7.0]
+[2023-07-27 01:00:27] INFO root fetch - processPackages [audioscrape]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-27 01:00:27] INFO root fetch - processPackages [mtrain-superclient]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-07-27 01:00:27] INFO root fetch - processPackages [snitch-protos]: New version: [0.0.50] Old Version: [0.0.49]
+[2023-07-27 01:00:27] INFO root fetch - processPackages [veris-priv-tab]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-27 01:00:27] INFO root fetch - processPackages [mtrain-superclient]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-07-27 01:00:27] INFO root fetch - processPackages [pyradiance]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-27 01:00:27] INFO root fetch - processPackages [montecarlodata]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-27 01:00:27] INFO root fetch - processPackages [hspylib-cfman]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-07-27 01:00:27] INFO root fetch - processPackages [ultralytics]: New version: [8.0.99] Old Version: [8.0.98]
+[2023-07-27 01:00:27] INFO root fetch - processPackages [snitch-protos]: Downloading https://files.pythonhosted.org/packages/16/f3/3fb2639fd0fdf93371b6f53d4f9f46f2803d557bfbc1f525f4608b7d6b26/snitch-protos-0.0.49.tar.gz
+[2023-07-27 01:00:27] INFO root fetch - processPackages [hspylib-cfman]: Downloading https://files.pythonhosted.org/packages/33/f6/1eeb30d6c451ee64f6041b7568cb0c536e7a47991a2ae743ec3a4d28ec23/hspylib-cfman-0.9.98.tar.gz
+[2023-07-27 01:00:27] INFO root fetch - processPackages [pyradiance]: Downloading https://files.pythonhosted.org/packages/8b/5c/e80ef654d73262da7a02c069ff756927273e75484124d3e4c4fa0109dc3d/pyradiance-0.1.1-py3-none-win_amd64.whl
+[2023-07-27 01:00:27] INFO root fetch - processPackages [veris-priv-tab]: Downloading https://files.pythonhosted.org/packages/e4/9d/89f885da729f476ef081acf66570cee587be5d385b28dd497b1733fbaa31/veris-priv-tab-0.1.0.tar.gz
+[2023-07-27 01:00:27] INFO root fetch - processPackages [neon-mq-connector]: Downloading https://files.pythonhosted.org/packages/69/03/3f8f242f59e50ffa1cf085ffd22217c67bbce757fc83ca701b4d3968c2fb/neon_mq_connector-0.7.0-py3-none-any.whl
+[2023-07-27 01:00:27] INFO root fetch - processPackages [mtrain-superclient]: Downloading https://files.pythonhosted.org/packages/98/80/473cfd7723a6b11226d084e1f58afc9462a5ac6cd3f285265cbd37f6d7e3/mtrain-superclient-0.6.0.tar.gz
+[2023-07-27 01:00:27] INFO root fetch - processPackages [mtrain-superclient]: Downloading https://files.pythonhosted.org/packages/98/80/473cfd7723a6b11226d084e1f58afc9462a5ac6cd3f285265cbd37f6d7e3/mtrain-superclient-0.6.0.tar.gz
+[2023-07-27 01:00:27] INFO root fetch - processPackages [audioscrape]: Downloading https://files.pythonhosted.org/packages/5f/24/d88ab87f161423fdcdf604c09892041c5c1b70e93fc24398d7461a3b239e/audioscrape-0.2.0.tar.gz
+[2023-07-27 01:00:27] INFO root fetch - processPackages [montecarlodata]: Downloading https://files.pythonhosted.org/packages/db/0d/aecc03a79df2b9dfdaef8e4452e6b9e2947bf5ad211f43e5f9a4d27ac076/montecarlodata-0.9.1.tar.gz
+[2023-07-27 01:00:27] INFO root fetch - processPackages [ultralytics]: Downloading https://files.pythonhosted.org/packages/b6/de/f3172b8f928ec31c47cbc2e23d6a875eea575cba8e11ad4548900923efa1/ultralytics-8.0.98.tar.gz
+[2023-07-27 01:00:27] INFO root fetch - processPackages [hspylib-cfman]: Downloading https://files.pythonhosted.org/packages/5a/16/179240901d274930dc0c60d1e56fea69c32e51226323714644d04e213c5f/hspylib-cfman-0.9.99.tar.gz
+[2023-07-27 01:00:27] INFO root fetch - processPackages [snitch-protos]: Downloading https://files.pythonhosted.org/packages/9d/ec/82325cba762b2c48dce9b65246e6287e64461cfddb9071d1f4caed240c66/snitch-protos-0.0.50.tar.gz
+[2023-07-27 01:00:27] INFO root fetch - processPackages [neon-mq-connector]: Downloading https://files.pythonhosted.org/packages/f6/b0/3a6b9869532e8571a7116eed35ace4ee95ea5484c57fb2d31d97ce76de57/neon_mq_connector-0.7.1a1.tar.gz
+[2023-07-27 01:00:28] INFO root fetch - processPackages [hspylib-cfman]: executing diffoscope
+[2023-07-27 01:00:28] INFO root fetch - processPackages [hspylib-cfman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hspylib-cfman-0.9.98.tar.gz tmp/hspylib-cfman-0.9.99.tar.gz --markdown 20230727/h/hspylib-cfman/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-07-27 01:00:28] INFO root fetch - processPackages [mtrain-superclient]: Downloading https://files.pythonhosted.org/packages/2d/37/be976cda9a0a9eaa9b04f4072ea95d5ee2d5d182e485fd718363d41f3322/mtrain-superclient-0.6.1.tar.gz
+[2023-07-27 01:00:28] INFO root fetch - processPackages [mtrain-superclient]: Downloading https://files.pythonhosted.org/packages/2d/37/be976cda9a0a9eaa9b04f4072ea95d5ee2d5d182e485fd718363d41f3322/mtrain-superclient-0.6.1.tar.gz
+[2023-07-27 01:00:28] INFO root fetch - processPackages [veris-priv-tab]: Downloading https://files.pythonhosted.org/packages/b5/82/cc75a1a43f816e94d5205d1c07650b333a2cf67fd4ed27cb661b9783adb7/veris-priv-tab-0.1.1.tar.gz
+[2023-07-27 01:00:28] INFO root fetch - processPackages [mtrain-superclient]: executing diffoscope
+[2023-07-27 01:00:28] INFO root fetch - processPackages [mtrain-superclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mtrain-superclient-0.6.0.tar.gz tmp/mtrain-superclient-0.6.1.tar.gz --markdown 20230727/m/mtrain-superclient/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-07-27 01:00:28] INFO root fetch - processPackages [veris-priv-tab]: executing diffoscope
+[2023-07-27 01:00:28] INFO root fetch - processPackages [mtrain-superclient]: executing diffoscope
+[2023-07-27 01:00:28] INFO root fetch - processPackages [veris-priv-tab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/veris-priv-tab-0.1.0.tar.gz tmp/veris-priv-tab-0.1.1.tar.gz --markdown 20230727/v/veris-priv-tab/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-27 01:00:28] INFO root fetch - processPackages [mtrain-superclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mtrain-superclient-0.6.0.tar.gz tmp/mtrain-superclient-0.6.1.tar.gz --markdown 20230727/m/mtrain-superclient/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-07-27 01:00:28] INFO root fetch - processPackages [snitch-protos]: executing diffoscope
+[2023-07-27 01:00:28] INFO root fetch - processPackages [snitch-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snitch-protos-0.0.49.tar.gz tmp/snitch-protos-0.0.50.tar.gz --markdown 20230727/s/snitch-protos/0.0.49-0.0.50/diff.md --exclude *.pyd
+[2023-07-27 01:00:28] INFO root fetch - processPackages [ultralytics]: Downloading https://files.pythonhosted.org/packages/b3/b0/87b289ca8a910cd1421d5a217c06fb642b51546dd96bd6b923c67be00415/ultralytics-8.0.99.tar.gz
+[2023-07-27 01:00:28] INFO root fetch - processPackages [montecarlodata]: Downloading https://files.pythonhosted.org/packages/db/e4/113cd728e2daba98e9a0ab50ceb4c29e0d6c8d370f1b4e6edf9b9fa5ae12/montecarlodata-0.9.2.tar.gz
+[2023-07-27 01:00:28] INFO root fetch - processPackages [neon-mq-connector]: executing diffoscope
+[2023-07-27 01:00:28] INFO root fetch - processPackages [neon-mq-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_mq_connector-0.7.0-py3-none-any.whl.zip tmp/neon_mq_connector-0.7.1a1.tar.gz --markdown 20230727/n/neon-mq-connector/0.7.0-0.7.1a1/diff.md --exclude *.pyd
+[2023-07-27 01:00:28] INFO root fetch - processPackages [ultralytics]: executing diffoscope
+[2023-07-27 01:00:28] INFO root fetch - processPackages [ultralytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultralytics-8.0.98.tar.gz tmp/ultralytics-8.0.99.tar.gz --markdown 20230727/u/ultralytics/8.0.98-8.0.99/diff.md --exclude *.pyd
+[2023-07-27 01:00:28] INFO root fetch - processPackages [montecarlodata]: executing diffoscope
+[2023-07-27 01:00:28] INFO root fetch - processPackages [montecarlodata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/montecarlodata-0.9.1.tar.gz tmp/montecarlodata-0.9.2.tar.gz --markdown 20230727/m/montecarlodata/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-27 01:00:28] INFO root fetch - processPackages [audioscrape]: Downloading https://files.pythonhosted.org/packages/07/e0/e91965fcbb3ae65a36c4335a7b6ca4c84b3c69ab501253688892e2fce9fd/audioscrape-0.3.0.tar.gz
+[2023-07-27 01:00:28] INFO root fetch - processPackages [pyradiance]: Downloading https://files.pythonhosted.org/packages/9d/16/0feb53df1b1d45502775e0854122cd3fd1457663ebdedd124fb2f94fb6f1/pyradiance-0.1.2-py3-none-macosx_11_0_arm64.whl
+[2023-07-27 01:00:29] INFO root fetch - processPackages [audioscrape]: executing diffoscope
+[2023-07-27 01:00:29] INFO root fetch - processPackages [audioscrape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audioscrape-0.2.0.tar.gz tmp/audioscrape-0.3.0.tar.gz --markdown 20230727/a/audioscrape/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-27 01:00:29] INFO root fetch - processPackages [hspylib-cfman]: Remove: archive file [/home/abi/fetcher/tmp/hspylib-cfman-0.9.98.tar.gz]
+[2023-07-27 01:00:29] INFO root fetch - processPackages [hspylib-cfman]: Remove: archive file [/home/abi/fetcher/tmp/hspylib-cfman-0.9.99.tar.gz]
+[2023-07-27 01:00:29] INFO root fetch - processPackages [hspylib-cfman]: Start processing: CFXplorer
+[2023-07-27 01:00:29] INFO root fetch - main [MainThread]: End processing [hspylib-cfman]: success
+[2023-07-27 01:00:29] WARNING root fetch - processPackages [CFXplorer]: Skipping, unable to determine old version
+[2023-07-27 01:00:29] INFO root fetch - processPackages [CFXplorer]: Start processing: bittensor-config
+[2023-07-27 01:00:29] INFO root fetch - main [MainThread]: End processing [CFXplorer] error
+[2023-07-27 01:00:29] INFO root fetch - processPackages [bittensor-config]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-07-27 01:00:29] INFO root fetch - processPackages [snitch-protos]: Remove: archive file [/home/abi/fetcher/tmp/snitch-protos-0.0.49.tar.gz]
+[2023-07-27 01:00:29] INFO root fetch - processPackages [snitch-protos]: Remove: archive file [/home/abi/fetcher/tmp/snitch-protos-0.0.50.tar.gz]
+[2023-07-27 01:00:29] INFO root fetch - main [MainThread]: End processing [snitch-protos]: success
+[2023-07-27 01:00:29] INFO root fetch - processPackages [pyradiance]: executing diffoscope
+[2023-07-27 01:00:29] INFO root fetch - processPackages [pyradiance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyradiance-0.1.1-py3-none-win_amd64.whl.zip tmp/pyradiance-0.1.2-py3-none-macosx_11_0_arm64.whl.zip --markdown 20230727/p/pyradiance/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-27 01:00:29] INFO root fetch - processPackages [veris-priv-tab]: Remove: archive file [/home/abi/fetcher/tmp/veris-priv-tab-0.1.0.tar.gz]
+[2023-07-27 01:00:29] INFO root fetch - processPackages [veris-priv-tab]: Remove: archive file [/home/abi/fetcher/tmp/veris-priv-tab-0.1.1.tar.gz]
+[2023-07-27 01:00:29] INFO root fetch - main [MainThread]: End processing [veris-priv-tab]: success
+[2023-07-27 01:00:29] INFO root fetch - processPackages [bittensor-config]: Downloading https://files.pythonhosted.org/packages/5a/f1/33e97bb3bbccad6d9f5eb6fbc5fb0ed73e78361880e2904bd9c033ad7cd5/bittensor-config-0.0.0.tar.gz
+[2023-07-27 01:00:29] INFO root fetch - processPackages [mtrain-superclient]: Remove: archive file [/home/abi/fetcher/tmp/mtrain-superclient-0.6.0.tar.gz]
+[2023-07-27 01:00:29] INFO root fetch - processPackages [mtrain-superclient]: Remove: archive file [/home/abi/fetcher/tmp/mtrain-superclient-0.6.1.tar.gz]
+[2023-07-27 01:00:29] INFO root fetch - main [MainThread]: End processing [mtrain-superclient]: success
+[2023-07-27 01:00:29] INFO root fetch - processPackages [neon-mq-connector]: Remove: archive file [/home/abi/fetcher/tmp/neon_mq_connector-0.7.0-py3-none-any.whl.zip]
+[2023-07-27 01:00:29] INFO root fetch - processPackages [neon-mq-connector]: Remove: archive file [/home/abi/fetcher/tmp/neon_mq_connector-0.7.1a1.tar.gz]
+[2023-07-27 01:00:29] INFO root fetch - main [MainThread]: End processing [neon-mq-connector]: success
+[2023-07-27 01:00:29] INFO root fetch - main [MainThread]: End processing [mtrain-superclient]: success
+[2023-07-27 01:00:29] INFO root fetch - processPackages [montecarlodata]: Remove: archive file [/home/abi/fetcher/tmp/montecarlodata-0.9.1.tar.gz]
+[2023-07-27 01:00:29] INFO root fetch - processPackages [montecarlodata]: Remove: archive file [/home/abi/fetcher/tmp/montecarlodata-0.9.2.tar.gz]
+[2023-07-27 01:00:29] INFO root fetch - main [MainThread]: End processing [montecarlodata]: success
+[2023-07-27 01:00:30] INFO root fetch - processPackages [bittensor-config]: Downloading https://files.pythonhosted.org/packages/db/1d/25874dec025b59f9b7f99b17a6e2459dcbb44ca174526c699ca9d054b377/bittensor-config-0.0.1.tar.gz
+[2023-07-27 01:00:30] INFO root fetch - processPackages [bittensor-config]: executing diffoscope
+[2023-07-27 01:00:30] INFO root fetch - processPackages [bittensor-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bittensor-config-0.0.0.tar.gz tmp/bittensor-config-0.0.1.tar.gz --markdown 20230727/b/bittensor-config/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-07-27 01:00:30] INFO root fetch - processPackages [ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics-8.0.98.tar.gz]
+[2023-07-27 01:00:30] INFO root fetch - processPackages [ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics-8.0.99.tar.gz]
+[2023-07-27 01:00:30] INFO root fetch - main [MainThread]: End processing [ultralytics]: success
+[2023-07-27 01:00:30] INFO root fetch - processPackages [audioscrape]: Remove: archive file [/home/abi/fetcher/tmp/audioscrape-0.2.0.tar.gz]
+[2023-07-27 01:00:30] INFO root fetch - processPackages [audioscrape]: Remove: archive file [/home/abi/fetcher/tmp/audioscrape-0.3.0.tar.gz]
+[2023-07-27 01:00:30] INFO root fetch - main [MainThread]: End processing [audioscrape]: success
+[2023-07-27 01:00:30] INFO root fetch - processPackages [bittensor-config]: Remove: archive file [/home/abi/fetcher/tmp/bittensor-config-0.0.0.tar.gz]
+[2023-07-27 01:00:30] INFO root fetch - processPackages [bittensor-config]: Remove: archive file [/home/abi/fetcher/tmp/bittensor-config-0.0.1.tar.gz]
+[2023-07-27 01:00:30] INFO root fetch - main [MainThread]: End processing [bittensor-config]: success
+[2023-07-27 01:00:32] INFO root fetch - processPackages [pyradiance]: Remove: archive file [/home/abi/fetcher/tmp/pyradiance-0.1.1-py3-none-win_amd64.whl.zip]
+[2023-07-27 01:00:32] INFO root fetch - processPackages [pyradiance]: Remove: archive file [/home/abi/fetcher/tmp/pyradiance-0.1.2-py3-none-macosx_11_0_arm64.whl.zip]
+[2023-07-27 01:00:32] INFO root fetch - main [MainThread]: End processing [pyradiance]: success
+[2023-07-27 01:00:32] INFO root fetch - main [MainThread]: Store serial: [19050662]
