@@ -58,3 +58,117 @@
 [2023-07-27 00:02:02] INFO root fetch - processPackages [omni-pro]: Remove: archive file [/home/abi/fetcher/tmp/omni-pro-0.1.25.tar.gz]
 [2023-07-27 00:02:02] INFO root fetch - main [MainThread]: End processing [omni-pro]: success
 [2023-07-27 00:02:02] INFO root fetch - main [MainThread]: Store serial: [19050244]
+[2023-07-27 00:07:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19050244]
+[2023-07-27 00:07:10] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-27 00:07:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lollms
+[2023-07-27 00:07:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: abpandas
+[2023-07-27 00:07:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hspylib-cfman
+[2023-07-27 00:07:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hspylib-clitt
+[2023-07-27 00:07:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: testflows.github.runners
+[2023-07-27 00:07:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: minecraft-script
+[2023-07-27 00:07:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hspylib-datasource
+[2023-07-27 00:07:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hspylib-firebase
+[2023-07-27 00:07:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hoppr-nexus-bundler
+[2023-07-27 00:07:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: angmom-suite
+[2023-07-27 00:07:10] INFO root fetch - processPackages [hspylib-clitt]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-27 00:07:10] INFO root fetch - processPackages [lollms]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-07-27 00:07:10] WARNING root fetch - processPackages [abpandas]: Skipping, unable to determine old version
+[2023-07-27 00:07:10] INFO root fetch - processPackages [abpandas]: Start processing: hspylib-hqt
+[2023-07-27 00:07:10] INFO root fetch - main [MainThread]: End processing [abpandas] error
+[2023-07-27 00:07:10] INFO root fetch - processPackages [minecraft-script]: New version: [0.1.406] Old Version: [0.1.405]
+[2023-07-27 00:07:10] INFO root fetch - processPackages [hspylib-datasource]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-27 00:07:10] INFO root fetch - processPackages [testflows.github.runners]: New version: [1.2.230726.1220559] Old Version: [1.2.230726.1214947]
+[2023-07-27 00:07:11] INFO root fetch - processPackages [hspylib-cfman]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-07-27 00:07:11] INFO root fetch - processPackages [hspylib-firebase]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-07-27 00:07:11] INFO root fetch - processPackages [hspylib-hqt]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-07-27 00:07:11] INFO root fetch - processPackages [angmom-suite]: New version: [1.9.0] Old Version: [1.8.2]
+[2023-07-27 00:07:11] INFO root fetch - processPackages [hoppr-nexus-bundler]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-27 00:07:11] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/55/8e/c10a453677812ff66a65c459737c99f6b99cc00da8cc2e27f3a1f924faa0/lollms-2.1.8.tar.gz
+[2023-07-27 00:07:11] INFO root fetch - processPackages [hspylib-clitt]: Downloading https://files.pythonhosted.org/packages/a0/0f/42b890c8f02902edfff9f8ea73ea79d8acfea76c705b6966ff73e809437a/hspylib-clitt-0.9.8.tar.gz
+[2023-07-27 00:07:11] INFO root fetch - processPackages [testflows.github.runners]: Downloading https://files.pythonhosted.org/packages/21/11/36704a006fa41a0dfc85bd3cb2eb97ea38889d4e25d676d862426b5d98a4/testflows.github.runners-1.2.230726.1214947.tar.gz
+[2023-07-27 00:07:11] INFO root fetch - processPackages [minecraft-script]: Downloading https://files.pythonhosted.org/packages/0a/15/2587be6feed42839b5db1407e97bb80bb572fe3c9ec6bf5f3ee122e377d7/minecraft_script-0.1.405.tar.gz
+[2023-07-27 00:07:11] INFO root fetch - processPackages [hspylib-firebase]: Downloading https://files.pythonhosted.org/packages/b3/c1/df924c9a05ded1364ea44caeaf6b35bb300ce4bfaec0c1b8300044798fe7/hspylib-firebase-0.9.98.tar.gz
+[2023-07-27 00:07:11] INFO root fetch - processPackages [hspylib-cfman]: Downloading https://files.pythonhosted.org/packages/33/f6/1eeb30d6c451ee64f6041b7568cb0c536e7a47991a2ae743ec3a4d28ec23/hspylib-cfman-0.9.98.tar.gz
+[2023-07-27 00:07:11] INFO root fetch - processPackages [hspylib-datasource]: Downloading https://files.pythonhosted.org/packages/84/47/f38072cbefc618dedda4a9fdd080f7a96aaccfb90121fee4c5813ad16079/hspylib-datasource-0.9.8.tar.gz
+[2023-07-27 00:07:11] INFO root fetch - processPackages [hspylib-hqt]: Downloading https://files.pythonhosted.org/packages/36/67/7658c01911ce0563d9b4250f6326a7e1a7d674404650a0289fb44dc3c4e3/hspylib-hqt-0.9.6.tar.gz
+[2023-07-27 00:07:11] INFO root fetch - processPackages [angmom-suite]: Downloading https://files.pythonhosted.org/packages/0c/61/698f9619ad7ae1dda4e582a74dae0e7910c95d6910e49af840cd217ca385/angmom_suite-1.8.2.tar.gz
+[2023-07-27 00:07:11] INFO root fetch - processPackages [hoppr-nexus-bundler]: Downloading https://files.pythonhosted.org/packages/0a/75/a61b263749fe77f13a4467cc55c763ff7b493f63ceaf6bc0164859f4d040/hoppr_nexus_bundler-0.5.0.tar.gz
+[2023-07-27 00:07:11] INFO root fetch - processPackages [hspylib-cfman]: Downloading https://files.pythonhosted.org/packages/5a/16/179240901d274930dc0c60d1e56fea69c32e51226323714644d04e213c5f/hspylib-cfman-0.9.99.tar.gz
+[2023-07-27 00:07:11] INFO root fetch - processPackages [hspylib-clitt]: Downloading https://files.pythonhosted.org/packages/47/f9/72c8e44dc280a8f3542b8890670b05e5c03581d2712648f572e4b0717836/hspylib-clitt-0.9.9.tar.gz
+[2023-07-27 00:07:11] INFO root fetch - processPackages [hspylib-hqt]: Downloading https://files.pythonhosted.org/packages/b7/4d/ab5ab3d8c3c25fc9161061b3bdf24d3ee20c5e1fe3d0fcb2f5c860edf969/hspylib-hqt-0.9.7.tar.gz
+[2023-07-27 00:07:11] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/6a/83/7745db4a743155e7a857ec418630027696e10e7fb67dfd6805a2496bdb64/lollms-2.1.9.tar.gz
+[2023-07-27 00:07:11] INFO root fetch - processPackages [hspylib-firebase]: Downloading https://files.pythonhosted.org/packages/b3/3b/97937a13574633ebabf4064ad625a14153340d653ddaf08abb25c870255d/hspylib-firebase-0.9.99.tar.gz
+[2023-07-27 00:07:11] INFO root fetch - processPackages [testflows.github.runners]: Downloading https://files.pythonhosted.org/packages/15/af/6e63fb442665a3ff96615c20ac8fe73dd62e63efb8ca086274b730244589/testflows.github.runners-1.2.230726.1220559.tar.gz
+[2023-07-27 00:07:11] INFO root fetch - processPackages [hspylib-cfman]: executing diffoscope
+[2023-07-27 00:07:11] INFO root fetch - processPackages [hspylib-cfman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hspylib-cfman-0.9.98.tar.gz tmp/hspylib-cfman-0.9.99.tar.gz --markdown 20230727/h/hspylib-cfman/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-07-27 00:07:11] INFO root fetch - processPackages [minecraft-script]: Downloading https://files.pythonhosted.org/packages/48/f6/0fffbef8fb8ac64eb2b5ab18d9c0cef09f2bc241cc91b07165ce4458b3d5/minecraft_script-0.1.406.tar.gz
+[2023-07-27 00:07:11] INFO root fetch - processPackages [hspylib-datasource]: Downloading https://files.pythonhosted.org/packages/38/fb/af7730aeb7d4a3b273ddd9ae5f71e849f0cd535f93271afc647d221fce09/hspylib-datasource-0.9.9.tar.gz
+[2023-07-27 00:07:11] INFO root fetch - processPackages [hspylib-clitt]: executing diffoscope
+[2023-07-27 00:07:11] INFO root fetch - processPackages [hspylib-clitt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hspylib-clitt-0.9.8.tar.gz tmp/hspylib-clitt-0.9.9.tar.gz --markdown 20230727/h/hspylib-clitt/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-27 00:07:11] INFO root fetch - processPackages [hspylib-hqt]: executing diffoscope
+[2023-07-27 00:07:11] INFO root fetch - processPackages [hspylib-hqt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hspylib-hqt-0.9.6.tar.gz tmp/hspylib-hqt-0.9.7.tar.gz --markdown 20230727/h/hspylib-hqt/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-07-27 00:07:12] INFO root fetch - processPackages [hoppr-nexus-bundler]: Downloading https://files.pythonhosted.org/packages/9d/08/548884a9b465db60c631cebd843a2d14ad58577d39a61ea16fb8d4267475/hoppr_nexus_bundler-0.5.1.tar.gz
+[2023-07-27 00:07:12] INFO root fetch - processPackages [hspylib-firebase]: executing diffoscope
+[2023-07-27 00:07:12] INFO root fetch - processPackages [hspylib-firebase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hspylib-firebase-0.9.98.tar.gz tmp/hspylib-firebase-0.9.99.tar.gz --markdown 20230727/h/hspylib-firebase/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-07-27 00:07:12] INFO root fetch - processPackages [testflows.github.runners]: executing diffoscope
+[2023-07-27 00:07:12] INFO root fetch - processPackages [testflows.github.runners]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testflows.github.runners-1.2.230726.1214947.tar.gz tmp/testflows.github.runners-1.2.230726.1220559.tar.gz --markdown 20230727/t/testflows.github.runners/1.2.230726.1214947-1.2.230726.1220559/diff.md --exclude *.pyd
+[2023-07-27 00:07:12] INFO root fetch - processPackages [minecraft-script]: executing diffoscope
+[2023-07-27 00:07:12] INFO root fetch - processPackages [minecraft-script]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minecraft_script-0.1.405.tar.gz tmp/minecraft_script-0.1.406.tar.gz --markdown 20230727/m/minecraft-script/0.1.405-0.1.406/diff.md --exclude *.pyd
+[2023-07-27 00:07:12] INFO root fetch - processPackages [lollms]: executing diffoscope
+[2023-07-27 00:07:12] INFO root fetch - processPackages [lollms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lollms-2.1.8.tar.gz tmp/lollms-2.1.9.tar.gz --markdown 20230727/l/lollms/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-07-27 00:07:12] INFO root fetch - processPackages [angmom-suite]: Downloading https://files.pythonhosted.org/packages/aa/f2/4b1999e91fe587a8c51098a142e94717915c29c1d2b7e5107e95bd5da4af/angmom_suite-1.9.0.tar.gz
+[2023-07-27 00:07:12] INFO root fetch - processPackages [hoppr-nexus-bundler]: executing diffoscope
+[2023-07-27 00:07:12] INFO root fetch - processPackages [hoppr-nexus-bundler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hoppr_nexus_bundler-0.5.0.tar.gz tmp/hoppr_nexus_bundler-0.5.1.tar.gz --markdown 20230727/h/hoppr-nexus-bundler/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-27 00:07:12] INFO root fetch - processPackages [angmom-suite]: executing diffoscope
+[2023-07-27 00:07:12] INFO root fetch - processPackages [angmom-suite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/angmom_suite-1.8.2.tar.gz tmp/angmom_suite-1.9.0.tar.gz --markdown 20230727/a/angmom-suite/1.8.2-1.9.0/diff.md --exclude *.pyd
+[2023-07-27 00:07:12] INFO root fetch - processPackages [hspylib-datasource]: executing diffoscope
+[2023-07-27 00:07:12] INFO root fetch - processPackages [hspylib-datasource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hspylib-datasource-0.9.8.tar.gz tmp/hspylib-datasource-0.9.9.tar.gz --markdown 20230727/h/hspylib-datasource/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-27 00:07:13] INFO root fetch - processPackages [hspylib-cfman]: Remove: archive file [/home/abi/fetcher/tmp/hspylib-cfman-0.9.98.tar.gz]
+[2023-07-27 00:07:13] INFO root fetch - processPackages [hspylib-cfman]: Remove: archive file [/home/abi/fetcher/tmp/hspylib-cfman-0.9.99.tar.gz]
+[2023-07-27 00:07:13] INFO root fetch - processPackages [hspylib-cfman]: Start processing: otgCrypto
+[2023-07-27 00:07:13] INFO root fetch - main [MainThread]: End processing [hspylib-cfman]: success
+[2023-07-27 00:07:13] INFO root fetch - processPackages [otgCrypto]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-27 00:07:13] INFO root fetch - processPackages [otgCrypto]: Downloading https://files.pythonhosted.org/packages/3a/84/e8438b09826eee0f7e63a627099cc14b15a804ad5219cce98e67e33586f8/otgCrypto-0.0.8.tar.gz
+[2023-07-27 00:07:13] INFO root fetch - processPackages [hspylib-firebase]: Remove: archive file [/home/abi/fetcher/tmp/hspylib-firebase-0.9.98.tar.gz]
+[2023-07-27 00:07:13] INFO root fetch - processPackages [hspylib-firebase]: Remove: archive file [/home/abi/fetcher/tmp/hspylib-firebase-0.9.99.tar.gz]
+[2023-07-27 00:07:13] INFO root fetch - processPackages [hspylib-firebase]: Start processing: nasa-scrub
+[2023-07-27 00:07:13] INFO root fetch - main [MainThread]: End processing [hspylib-firebase]: success
+[2023-07-27 00:07:13] INFO root fetch - processPackages [hspylib-hqt]: Remove: archive file [/home/abi/fetcher/tmp/hspylib-hqt-0.9.6.tar.gz]
+[2023-07-27 00:07:13] INFO root fetch - processPackages [hspylib-hqt]: Remove: archive file [/home/abi/fetcher/tmp/hspylib-hqt-0.9.7.tar.gz]
+[2023-07-27 00:07:13] INFO root fetch - main [MainThread]: End processing [hspylib-hqt]: success
+[2023-07-27 00:07:13] INFO root fetch - processPackages [hspylib-clitt]: Remove: archive file [/home/abi/fetcher/tmp/hspylib-clitt-0.9.8.tar.gz]
+[2023-07-27 00:07:13] INFO root fetch - processPackages [hspylib-clitt]: Remove: archive file [/home/abi/fetcher/tmp/hspylib-clitt-0.9.9.tar.gz]
+[2023-07-27 00:07:13] INFO root fetch - main [MainThread]: End processing [hspylib-clitt]: success
+[2023-07-27 00:07:13] INFO root fetch - processPackages [minecraft-script]: Remove: archive file [/home/abi/fetcher/tmp/minecraft_script-0.1.405.tar.gz]
+[2023-07-27 00:07:13] INFO root fetch - processPackages [minecraft-script]: Remove: archive file [/home/abi/fetcher/tmp/minecraft_script-0.1.406.tar.gz]
+[2023-07-27 00:07:13] INFO root fetch - main [MainThread]: End processing [minecraft-script]: success
+[2023-07-27 00:07:13] INFO root fetch - processPackages [otgCrypto]: Downloading https://files.pythonhosted.org/packages/5d/ce/8d8fbee58e6dfa6bf7dd8208b87c23edefbd69b2ae3b906263c389211615/otgCrypto-0.0.9.tar.gz
+[2023-07-27 00:07:13] INFO root fetch - processPackages [nasa-scrub]: New version: [2.7] Old Version: [2.6.5]
+[2023-07-27 00:07:13] INFO root fetch - processPackages [hoppr-nexus-bundler]: Remove: archive file [/home/abi/fetcher/tmp/hoppr_nexus_bundler-0.5.0.tar.gz]
+[2023-07-27 00:07:13] INFO root fetch - processPackages [hoppr-nexus-bundler]: Remove: archive file [/home/abi/fetcher/tmp/hoppr_nexus_bundler-0.5.1.tar.gz]
+[2023-07-27 00:07:13] INFO root fetch - main [MainThread]: End processing [hoppr-nexus-bundler]: success
+[2023-07-27 00:07:13] INFO root fetch - processPackages [otgCrypto]: executing diffoscope
+[2023-07-27 00:07:13] INFO root fetch - processPackages [otgCrypto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otgCrypto-0.0.8.tar.gz tmp/otgCrypto-0.0.9.tar.gz --markdown 20230727/o/otgCrypto/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-27 00:07:13] INFO root fetch - processPackages [lollms]: Remove: archive file [/home/abi/fetcher/tmp/lollms-2.1.8.tar.gz]
+[2023-07-27 00:07:13] INFO root fetch - processPackages [lollms]: Remove: archive file [/home/abi/fetcher/tmp/lollms-2.1.9.tar.gz]
+[2023-07-27 00:07:13] INFO root fetch - main [MainThread]: End processing [lollms]: success
+[2023-07-27 00:07:13] INFO root fetch - processPackages [angmom-suite]: Remove: archive file [/home/abi/fetcher/tmp/angmom_suite-1.8.2.tar.gz]
+[2023-07-27 00:07:13] INFO root fetch - processPackages [angmom-suite]: Remove: archive file [/home/abi/fetcher/tmp/angmom_suite-1.9.0.tar.gz]
+[2023-07-27 00:07:13] INFO root fetch - main [MainThread]: End processing [angmom-suite]: success
+[2023-07-27 00:07:13] INFO root fetch - processPackages [hspylib-datasource]: Remove: archive file [/home/abi/fetcher/tmp/hspylib-datasource-0.9.8.tar.gz]
+[2023-07-27 00:07:13] INFO root fetch - processPackages [hspylib-datasource]: Remove: archive file [/home/abi/fetcher/tmp/hspylib-datasource-0.9.9.tar.gz]
+[2023-07-27 00:07:13] INFO root fetch - main [MainThread]: End processing [hspylib-datasource]: success
+[2023-07-27 00:07:14] INFO root fetch - processPackages [testflows.github.runners]: Remove: archive file [/home/abi/fetcher/tmp/testflows.github.runners-1.2.230726.1214947.tar.gz]
+[2023-07-27 00:07:14] INFO root fetch - processPackages [testflows.github.runners]: Remove: archive file [/home/abi/fetcher/tmp/testflows.github.runners-1.2.230726.1220559.tar.gz]
+[2023-07-27 00:07:14] INFO root fetch - main [MainThread]: End processing [testflows.github.runners]: success
+[2023-07-27 00:07:14] INFO root fetch - processPackages [nasa-scrub]: Downloading https://files.pythonhosted.org/packages/50/d8/de9896d9396ecb142c6781bed1ba0dfb01e04e7e1753175b8c343a09f702/nasa-scrub-2.6.5.tar.gz
+[2023-07-27 00:07:14] INFO root fetch - processPackages [nasa-scrub]: Downloading https://files.pythonhosted.org/packages/e9/95/c72908f12c3c5f9eb482c64c947610467249653b94c8e20748846f7bf1c7/nasa-scrub-2.7.tar.gz
+[2023-07-27 00:07:14] INFO root fetch - processPackages [nasa-scrub]: executing diffoscope
+[2023-07-27 00:07:14] INFO root fetch - processPackages [nasa-scrub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nasa-scrub-2.6.5.tar.gz tmp/nasa-scrub-2.7.tar.gz --markdown 20230727/n/nasa-scrub/2.6.5-2.7/diff.md --exclude *.pyd
+[2023-07-27 00:07:14] INFO root fetch - processPackages [otgCrypto]: Remove: archive file [/home/abi/fetcher/tmp/otgCrypto-0.0.8.tar.gz]
+[2023-07-27 00:07:14] INFO root fetch - processPackages [otgCrypto]: Remove: archive file [/home/abi/fetcher/tmp/otgCrypto-0.0.9.tar.gz]
+[2023-07-27 00:07:14] INFO root fetch - main [MainThread]: End processing [otgCrypto]: success
+[2023-07-27 00:07:15] INFO root fetch - processPackages [nasa-scrub]: Remove: archive file [/home/abi/fetcher/tmp/nasa-scrub-2.6.5.tar.gz]
+[2023-07-27 00:07:15] INFO root fetch - processPackages [nasa-scrub]: Remove: archive file [/home/abi/fetcher/tmp/nasa-scrub-2.7.tar.gz]
+[2023-07-27 00:07:15] INFO root fetch - main [MainThread]: End processing [nasa-scrub]: success
+[2023-07-27 00:07:15] INFO root fetch - main [MainThread]: Store serial: [19050284]
