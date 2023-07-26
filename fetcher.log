@@ -418,3 +418,68 @@
 [2023-07-27 00:12:34] INFO root fetch - processPackages [cirq-core]: Remove: archive file [/home/abi/fetcher/tmp/cirq_core-1.3.0.dev20230726220909-py3-none-any.whl.zip]
 [2023-07-27 00:12:34] INFO root fetch - main [MainThread]: End processing [cirq-core]: success
 [2023-07-27 00:12:34] INFO root fetch - main [MainThread]: Store serial: [19050366]
+[2023-07-27 00:17:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19050366]
+[2023-07-27 00:17:42] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-27 00:17:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: otgCrypto
+[2023-07-27 00:17:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hyperopt-prophet
+[2023-07-27 00:17:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: otgCrypto
+[2023-07-27 00:17:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: diskannpy
+[2023-07-27 00:17:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-azure
+[2023-07-27 00:17:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: naludaq
+[2023-07-27 00:17:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pliable
+[2023-07-27 00:17:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: otgCrypto
+[2023-07-27 00:17:43] INFO root fetch - processPackages [otgCrypto]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-27 00:17:43] INFO root fetch - processPackages [naludaq]: New version: [0.20.2] Old Version: [0.20.1]
+[2023-07-27 00:17:43] INFO root fetch - processPackages [hyperopt-prophet]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-27 00:17:43] INFO root fetch - processPackages [otgCrypto]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-27 00:17:43] INFO root fetch - processPackages [otgCrypto]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-27 00:17:43] WARNING root fetch - processPackages [pliable]: Skipping, unable to determine old version
+[2023-07-27 00:17:43] INFO root fetch - main [MainThread]: End processing [pliable] error
+[2023-07-27 00:17:43] INFO root fetch - processPackages [diskannpy]: New version: [0.5.0rc5] Old Version: [0.5.0rc4]
+[2023-07-27 00:17:43] INFO root fetch - processPackages [pulumi-azure]: New version: [5.9.0a1654522381] Old Version: [5.9.0a1654274095]
+[2023-07-27 00:17:43] INFO root fetch - processPackages [otgCrypto]: Downloading https://files.pythonhosted.org/packages/3a/84/e8438b09826eee0f7e63a627099cc14b15a804ad5219cce98e67e33586f8/otgCrypto-0.0.8.tar.gz
+[2023-07-27 00:17:43] INFO root fetch - processPackages [otgCrypto]: Downloading https://files.pythonhosted.org/packages/3a/84/e8438b09826eee0f7e63a627099cc14b15a804ad5219cce98e67e33586f8/otgCrypto-0.0.8.tar.gz
+[2023-07-27 00:17:43] INFO root fetch - processPackages [hyperopt-prophet]: Downloading https://files.pythonhosted.org/packages/88/cc/357b310e014a939ed16aeef54ef8e34e68e5c2e1da10e163566f97bfc779/hyperopt_prophet-0.1.4.tar.gz
+[2023-07-27 00:17:43] INFO root fetch - processPackages [naludaq]: Downloading https://files.pythonhosted.org/packages/47/08/f9290c554558fc60e79af75ef947a40b8256734a3cb56232b1cc8b5626df/naludaq-0.20.1.tar.gz
+[2023-07-27 00:17:43] INFO root fetch - processPackages [otgCrypto]: Downloading https://files.pythonhosted.org/packages/3a/84/e8438b09826eee0f7e63a627099cc14b15a804ad5219cce98e67e33586f8/otgCrypto-0.0.8.tar.gz
+[2023-07-27 00:17:43] INFO root fetch - processPackages [diskannpy]: Downloading https://files.pythonhosted.org/packages/b0/fa/8a8d6e6fc3642fa1de59513916075801059b30f9e80388c1a4db37ba8766/diskannpy-0.5.0rc4-cp39-cp39-win_amd64.whl
+[2023-07-27 00:17:43] INFO root fetch - processPackages [pulumi-azure]: Downloading https://files.pythonhosted.org/packages/95/6d/184badcdda1d8846e82c25063e340f60ddbf5b018a98c303e4bb5aa0a6ff/pulumi_azure-5.9.0a1654274095.tar.gz
+[2023-07-27 00:17:43] INFO root fetch - processPackages [otgCrypto]: Downloading https://files.pythonhosted.org/packages/5d/ce/8d8fbee58e6dfa6bf7dd8208b87c23edefbd69b2ae3b906263c389211615/otgCrypto-0.0.9.tar.gz
+[2023-07-27 00:17:43] INFO root fetch - processPackages [otgCrypto]: Downloading https://files.pythonhosted.org/packages/5d/ce/8d8fbee58e6dfa6bf7dd8208b87c23edefbd69b2ae3b906263c389211615/otgCrypto-0.0.9.tar.gz
+[2023-07-27 00:17:43] INFO root fetch - processPackages [otgCrypto]: Downloading https://files.pythonhosted.org/packages/5d/ce/8d8fbee58e6dfa6bf7dd8208b87c23edefbd69b2ae3b906263c389211615/otgCrypto-0.0.9.tar.gz
+[2023-07-27 00:17:43] INFO root fetch - processPackages [hyperopt-prophet]: Downloading https://files.pythonhosted.org/packages/af/c4/3ab45c8cfde8d3278525b3a1ba7ebf46ea5bfefb043ee319d2c89b408f13/hyperopt_prophet-0.1.5.tar.gz
+[2023-07-27 00:17:43] INFO root fetch - processPackages [otgCrypto]: executing diffoscope
+[2023-07-27 00:17:43] INFO root fetch - processPackages [otgCrypto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otgCrypto-0.0.8.tar.gz tmp/otgCrypto-0.0.9.tar.gz --markdown 20230727/o/otgCrypto/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-27 00:17:43] INFO root fetch - processPackages [otgCrypto]: executing diffoscope
+[2023-07-27 00:17:43] INFO root fetch - processPackages [otgCrypto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otgCrypto-0.0.8.tar.gz tmp/otgCrypto-0.0.9.tar.gz --markdown 20230727/o/otgCrypto/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-27 00:17:43] INFO root fetch - processPackages [naludaq]: Downloading https://files.pythonhosted.org/packages/2d/ad/44d063b7634312ad37fcaa2239e8e8fce91131719c755ddcf9f2d5e457d0/naludaq-0.20.2.tar.gz
+[2023-07-27 00:17:43] INFO root fetch - processPackages [otgCrypto]: executing diffoscope
+[2023-07-27 00:17:43] INFO root fetch - processPackages [otgCrypto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otgCrypto-0.0.8.tar.gz tmp/otgCrypto-0.0.9.tar.gz --markdown 20230727/o/otgCrypto/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-27 00:17:43] INFO root fetch - processPackages [hyperopt-prophet]: executing diffoscope
+[2023-07-27 00:17:43] INFO root fetch - processPackages [hyperopt-prophet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperopt_prophet-0.1.4.tar.gz tmp/hyperopt_prophet-0.1.5.tar.gz --markdown 20230727/h/hyperopt-prophet/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-27 00:17:43] INFO root fetch - processPackages [naludaq]: executing diffoscope
+[2023-07-27 00:17:43] INFO root fetch - processPackages [naludaq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naludaq-0.20.1.tar.gz tmp/naludaq-0.20.2.tar.gz --markdown 20230727/n/naludaq/0.20.1-0.20.2/diff.md --exclude *.pyd
+[2023-07-27 00:17:44] INFO root fetch - processPackages [pulumi-azure]: Downloading https://files.pythonhosted.org/packages/19/1b/87a51c6988d790ed8bfb430670a85c499af09d14d21430448a37baa7fb64/pulumi_azure-5.9.0a1654522381.tar.gz
+[2023-07-27 00:17:44] INFO root fetch - processPackages [diskannpy]: Downloading https://files.pythonhosted.org/packages/84/8a/d5603980bb19bc9e3010145b2387e160cf29d64b65e37a3b9dfa53bcc71b/diskannpy-0.5.0rc5-cp39-cp39-win_amd64.whl
+[2023-07-27 00:17:44] INFO root fetch - processPackages [pulumi-azure]: executing diffoscope
+[2023-07-27 00:17:44] INFO root fetch - processPackages [pulumi-azure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_azure-5.9.0a1654274095.tar.gz tmp/pulumi_azure-5.9.0a1654522381.tar.gz --markdown 20230727/p/pulumi-azure/5.9.0a1654274095-5.9.0a1654522381/diff.md --exclude *.pyd
+[2023-07-27 00:17:44] INFO root fetch - processPackages [otgCrypto]: Remove: archive file [/home/abi/fetcher/tmp/otgCrypto-0.0.8.tar.gz]
+[2023-07-27 00:17:44] INFO root fetch - processPackages [otgCrypto]: Remove: archive file [/home/abi/fetcher/tmp/otgCrypto-0.0.9.tar.gz]
+[2023-07-27 00:17:44] INFO root fetch - main [MainThread]: End processing [otgCrypto]: success
+[2023-07-27 00:17:44] INFO root fetch - main [MainThread]: End processing [otgCrypto]: success
+[2023-07-27 00:17:44] INFO root fetch - main [MainThread]: End processing [otgCrypto]: success
+[2023-07-27 00:17:44] INFO root fetch - processPackages [hyperopt-prophet]: Remove: archive file [/home/abi/fetcher/tmp/hyperopt_prophet-0.1.4.tar.gz]
+[2023-07-27 00:17:44] INFO root fetch - processPackages [hyperopt-prophet]: Remove: archive file [/home/abi/fetcher/tmp/hyperopt_prophet-0.1.5.tar.gz]
+[2023-07-27 00:17:44] INFO root fetch - main [MainThread]: End processing [hyperopt-prophet]: success
+[2023-07-27 00:17:45] INFO root fetch - processPackages [diskannpy]: executing diffoscope
+[2023-07-27 00:17:45] INFO root fetch - processPackages [diskannpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diskannpy-0.5.0rc4-cp39-cp39-win_amd64.whl.zip tmp/diskannpy-0.5.0rc5-cp39-cp39-win_amd64.whl.zip --markdown 20230727/d/diskannpy/0.5.0rc4-0.5.0rc5/diff.md --exclude *.pyd
+[2023-07-27 00:17:45] INFO root fetch - processPackages [naludaq]: Remove: archive file [/home/abi/fetcher/tmp/naludaq-0.20.1.tar.gz]
+[2023-07-27 00:17:45] INFO root fetch - processPackages [naludaq]: Remove: archive file [/home/abi/fetcher/tmp/naludaq-0.20.2.tar.gz]
+[2023-07-27 00:17:45] INFO root fetch - main [MainThread]: End processing [naludaq]: success
+[2023-07-27 00:17:56] INFO root fetch - processPackages [pulumi-azure]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azure-5.9.0a1654274095.tar.gz]
+[2023-07-27 00:17:56] INFO root fetch - processPackages [pulumi-azure]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azure-5.9.0a1654522381.tar.gz]
+[2023-07-27 00:17:56] INFO root fetch - main [MainThread]: End processing [pulumi-azure]: success
+[2023-07-27 00:18:02] INFO root fetch - processPackages [diskannpy]: Remove: archive file [/home/abi/fetcher/tmp/diskannpy-0.5.0rc4-cp39-cp39-win_amd64.whl.zip]
+[2023-07-27 00:18:02] INFO root fetch - processPackages [diskannpy]: Remove: archive file [/home/abi/fetcher/tmp/diskannpy-0.5.0rc5-cp39-cp39-win_amd64.whl.zip]
+[2023-07-27 00:18:02] INFO root fetch - main [MainThread]: End processing [diskannpy]: success
+[2023-07-27 00:18:02] INFO root fetch - main [MainThread]: Store serial: [19050395]
