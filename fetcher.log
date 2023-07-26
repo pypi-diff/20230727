@@ -1114,3 +1114,105 @@
 [2023-07-27 01:00:32] INFO root fetch - processPackages [pyradiance]: Remove: archive file [/home/abi/fetcher/tmp/pyradiance-0.1.2-py3-none-macosx_11_0_arm64.whl.zip]
 [2023-07-27 01:00:32] INFO root fetch - main [MainThread]: End processing [pyradiance]: success
 [2023-07-27 01:00:32] INFO root fetch - main [MainThread]: Store serial: [19050662]
+[2023-07-27 01:05:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19050662]
+[2023-07-27 01:05:42] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-27 01:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: faker-file-qt
+[2023-07-27 01:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hspylib-cfman
+[2023-07-27 01:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: testflows.github.runners
+[2023-07-27 01:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hspylib-clitt
+[2023-07-27 01:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sqly
+[2023-07-27 01:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hspylib-datasource
+[2023-07-27 01:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tmnt-cu101
+[2023-07-27 01:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hspylib-firebase
+[2023-07-27 01:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hspylib-hqt
+[2023-07-27 01:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tmnt
+[2023-07-27 01:05:42] INFO root fetch - processPackages [hspylib-datasource]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-27 01:05:42] INFO root fetch - processPackages [hspylib-hqt]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-27 01:05:42] INFO root fetch - processPackages [testflows.github.runners]: New version: [1.2.230726.1230050] Old Version: [1.2.230726.1223826]
+[2023-07-27 01:05:42] INFO root fetch - processPackages [faker-file-qt]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-27 01:05:42] INFO root fetch - processPackages [hspylib-clitt]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-27 01:05:42] INFO root fetch - processPackages [sqly]: New version: [0.9.0rc2] Old Version: [0.7.0]
+[2023-07-27 01:05:42] INFO root fetch - processPackages [hspylib-cfman]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-07-27 01:05:42] INFO root fetch - processPackages [hspylib-firebase]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-07-27 01:05:42] INFO root fetch - processPackages [tmnt]: New version: [0.7.0b20230726] Old Version: [0.7.0b20230725]
+[2023-07-27 01:05:42] INFO root fetch - processPackages [tmnt-cu101]: New version: [0.7.0b20230726] Old Version: [0.7.0b20230725]
+[2023-07-27 01:05:42] INFO root fetch - processPackages [hspylib-clitt]: Downloading https://files.pythonhosted.org/packages/a0/0f/42b890c8f02902edfff9f8ea73ea79d8acfea76c705b6966ff73e809437a/hspylib-clitt-0.9.8.tar.gz
+[2023-07-27 01:05:42] INFO root fetch - processPackages [hspylib-datasource]: Downloading https://files.pythonhosted.org/packages/84/47/f38072cbefc618dedda4a9fdd080f7a96aaccfb90121fee4c5813ad16079/hspylib-datasource-0.9.8.tar.gz
+[2023-07-27 01:05:42] INFO root fetch - processPackages [hspylib-cfman]: Downloading https://files.pythonhosted.org/packages/33/f6/1eeb30d6c451ee64f6041b7568cb0c536e7a47991a2ae743ec3a4d28ec23/hspylib-cfman-0.9.98.tar.gz
+[2023-07-27 01:05:42] INFO root fetch - processPackages [hspylib-firebase]: Downloading https://files.pythonhosted.org/packages/b3/c1/df924c9a05ded1364ea44caeaf6b35bb300ce4bfaec0c1b8300044798fe7/hspylib-firebase-0.9.98.tar.gz
+[2023-07-27 01:05:42] INFO root fetch - processPackages [hspylib-hqt]: Downloading https://files.pythonhosted.org/packages/c7/21/3d53acc199530894ee86c690cd0e8fd504756b941802158456fad84dbe82/hspylib-hqt-0.9.8.tar.gz
+[2023-07-27 01:05:42] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/c4/8b/84036cb00eb7c54ed64554a6280aa52f5c884546906577f7651832c31e66/tmnt-0.7.0b20230725.tar.gz
+[2023-07-27 01:05:42] INFO root fetch - processPackages [faker-file-qt]: Downloading https://files.pythonhosted.org/packages/6b/af/6659516909712f5c753a22ea2a458542fb99c067ace556f602892b196f70/faker-file-qt-0.1.2.tar.gz
+[2023-07-27 01:05:42] INFO root fetch - processPackages [testflows.github.runners]: Downloading https://files.pythonhosted.org/packages/e8/b1/82266f62dda20c26459b7dd45ccf555ecf36a975d713e8b6742b0e7aa6b8/testflows.github.runners-1.2.230726.1223826.tar.gz
+[2023-07-27 01:05:43] INFO root fetch - processPackages [sqly]: Downloading https://files.pythonhosted.org/packages/5a/97/de5f9156e38dc555b37c6981d3c1918a1cfab3692ca30059cf633045c61f/sqly-0.7.0.tar.gz
+[2023-07-27 01:05:43] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/e7/f6/19a989e0e3c850900166addfb742daf7573f0b7f1d280784c68eb7ab59ff/tmnt-cu101-0.7.0b20230725.tar.gz
+[2023-07-27 01:05:43] INFO root fetch - processPackages [hspylib-clitt]: Downloading https://files.pythonhosted.org/packages/47/f9/72c8e44dc280a8f3542b8890670b05e5c03581d2712648f572e4b0717836/hspylib-clitt-0.9.9.tar.gz
+[2023-07-27 01:05:43] INFO root fetch - processPackages [hspylib-cfman]: Downloading https://files.pythonhosted.org/packages/5a/16/179240901d274930dc0c60d1e56fea69c32e51226323714644d04e213c5f/hspylib-cfman-0.9.99.tar.gz
+[2023-07-27 01:05:43] INFO root fetch - processPackages [hspylib-firebase]: Downloading https://files.pythonhosted.org/packages/b3/3b/97937a13574633ebabf4064ad625a14153340d653ddaf08abb25c870255d/hspylib-firebase-0.9.99.tar.gz
+[2023-07-27 01:05:43] INFO root fetch - processPackages [hspylib-datasource]: Downloading https://files.pythonhosted.org/packages/38/fb/af7730aeb7d4a3b273ddd9ae5f71e849f0cd535f93271afc647d221fce09/hspylib-datasource-0.9.9.tar.gz
+[2023-07-27 01:05:43] INFO root fetch - processPackages [faker-file-qt]: Downloading https://files.pythonhosted.org/packages/f3/a1/f5ac55098e7e1c874c6e26ba4d494d09b60a4c8fcf9cda0b8d77792dd37c/faker-file-qt-0.1.3.tar.gz
+[2023-07-27 01:05:43] INFO root fetch - processPackages [hspylib-clitt]: executing diffoscope
+[2023-07-27 01:05:43] INFO root fetch - processPackages [hspylib-clitt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hspylib-clitt-0.9.8.tar.gz tmp/hspylib-clitt-0.9.9.tar.gz --markdown 20230727/h/hspylib-clitt/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-27 01:05:43] INFO root fetch - processPackages [testflows.github.runners]: Downloading https://files.pythonhosted.org/packages/aa/d2/7b692992bfe38cfbb6397e3ec820c28968812959314dae510130e3a5d9de/testflows.github.runners-1.2.230726.1230050.tar.gz
+[2023-07-27 01:05:43] INFO root fetch - processPackages [hspylib-cfman]: executing diffoscope
+[2023-07-27 01:05:43] INFO root fetch - processPackages [hspylib-cfman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hspylib-cfman-0.9.98.tar.gz tmp/hspylib-cfman-0.9.99.tar.gz --markdown 20230727/h/hspylib-cfman/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-07-27 01:05:43] INFO root fetch - processPackages [hspylib-firebase]: executing diffoscope
+[2023-07-27 01:05:43] INFO root fetch - processPackages [hspylib-firebase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hspylib-firebase-0.9.98.tar.gz tmp/hspylib-firebase-0.9.99.tar.gz --markdown 20230727/h/hspylib-firebase/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-07-27 01:05:43] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/f8/54/83748179b2f825ec187abe85b4b17481c947eb933612777c748750fc3a4f/tmnt-0.7.0b20230726.tar.gz
+[2023-07-27 01:05:43] INFO root fetch - processPackages [sqly]: Downloading https://files.pythonhosted.org/packages/8f/ce/a0bd8af8fd81573497eb6a247dfb7107e4da14f87deebd1b57b051377ccd/sqly-0.9.0rc2.tar.gz
+[2023-07-27 01:05:43] INFO root fetch - processPackages [hspylib-hqt]: Downloading https://files.pythonhosted.org/packages/36/95/c62aead8691d734810e927ccf74c8c086f5afa5d69d438ee0dd7d831bd59/hspylib-hqt-0.9.9.tar.gz
+[2023-07-27 01:05:43] INFO root fetch - processPackages [hspylib-datasource]: executing diffoscope
+[2023-07-27 01:05:43] INFO root fetch - processPackages [hspylib-datasource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hspylib-datasource-0.9.8.tar.gz tmp/hspylib-datasource-0.9.9.tar.gz --markdown 20230727/h/hspylib-datasource/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-27 01:05:43] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/32/18/c0e9b99f7147ba0105fa6c8c890f8e2f6b8f334a3571d46e702b384994d7/tmnt-cu101-0.7.0b20230726.tar.gz
+[2023-07-27 01:05:43] INFO root fetch - processPackages [faker-file-qt]: executing diffoscope
+[2023-07-27 01:05:43] INFO root fetch - processPackages [faker-file-qt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faker-file-qt-0.1.2.tar.gz tmp/faker-file-qt-0.1.3.tar.gz --markdown 20230727/f/faker-file-qt/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-27 01:05:43] INFO root fetch - processPackages [sqly]: executing diffoscope
+[2023-07-27 01:05:43] INFO root fetch - processPackages [sqly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqly-0.7.0.tar.gz tmp/sqly-0.9.0rc2.tar.gz --markdown 20230727/s/sqly/0.7.0-0.9.0rc2/diff.md --exclude *.pyd
+[2023-07-27 01:05:43] INFO root fetch - processPackages [testflows.github.runners]: executing diffoscope
+[2023-07-27 01:05:43] INFO root fetch - processPackages [testflows.github.runners]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testflows.github.runners-1.2.230726.1223826.tar.gz tmp/testflows.github.runners-1.2.230726.1230050.tar.gz --markdown 20230727/t/testflows.github.runners/1.2.230726.1223826-1.2.230726.1230050/diff.md --exclude *.pyd
+[2023-07-27 01:05:43] INFO root fetch - processPackages [hspylib-hqt]: executing diffoscope
+[2023-07-27 01:05:43] INFO root fetch - processPackages [hspylib-hqt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hspylib-hqt-0.9.8.tar.gz tmp/hspylib-hqt-0.9.9.tar.gz --markdown 20230727/h/hspylib-hqt/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-27 01:05:43] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2023-07-27 01:05:43] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.0b20230725.tar.gz tmp/tmnt-0.7.0b20230726.tar.gz --markdown 20230727/t/tmnt/0.7.0b20230725-0.7.0b20230726/diff.md --exclude *.pyd
+[2023-07-27 01:05:43] INFO root fetch - processPackages [tmnt-cu101]: executing diffoscope
+[2023-07-27 01:05:43] INFO root fetch - processPackages [tmnt-cu101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-cu101-0.7.0b20230725.tar.gz tmp/tmnt-cu101-0.7.0b20230726.tar.gz --markdown 20230727/t/tmnt-cu101/0.7.0b20230725-0.7.0b20230726/diff.md --exclude *.pyd
+[2023-07-27 01:05:45] INFO root fetch - processPackages [hspylib-cfman]: Remove: archive file [/home/abi/fetcher/tmp/hspylib-cfman-0.9.98.tar.gz]
+[2023-07-27 01:05:45] INFO root fetch - processPackages [hspylib-cfman]: Remove: archive file [/home/abi/fetcher/tmp/hspylib-cfman-0.9.99.tar.gz]
+[2023-07-27 01:05:45] INFO root fetch - processPackages [hspylib-cfman]: Start processing: python2verilog
+[2023-07-27 01:05:45] INFO root fetch - main [MainThread]: End processing [hspylib-cfman]: success
+[2023-07-27 01:05:45] INFO root fetch - processPackages [hspylib-firebase]: Remove: archive file [/home/abi/fetcher/tmp/hspylib-firebase-0.9.98.tar.gz]
+[2023-07-27 01:05:45] INFO root fetch - processPackages [hspylib-firebase]: Remove: archive file [/home/abi/fetcher/tmp/hspylib-firebase-0.9.99.tar.gz]
+[2023-07-27 01:05:45] INFO root fetch - main [MainThread]: End processing [hspylib-firebase]: success
+[2023-07-27 01:05:45] INFO root fetch - processPackages [python2verilog]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-27 01:05:45] INFO root fetch - processPackages [faker-file-qt]: Remove: archive file [/home/abi/fetcher/tmp/faker-file-qt-0.1.2.tar.gz]
+[2023-07-27 01:05:45] INFO root fetch - processPackages [faker-file-qt]: Remove: archive file [/home/abi/fetcher/tmp/faker-file-qt-0.1.3.tar.gz]
+[2023-07-27 01:05:45] INFO root fetch - main [MainThread]: End processing [faker-file-qt]: success
+[2023-07-27 01:05:45] INFO root fetch - processPackages [hspylib-datasource]: Remove: archive file [/home/abi/fetcher/tmp/hspylib-datasource-0.9.8.tar.gz]
+[2023-07-27 01:05:45] INFO root fetch - processPackages [hspylib-datasource]: Remove: archive file [/home/abi/fetcher/tmp/hspylib-datasource-0.9.9.tar.gz]
+[2023-07-27 01:05:45] INFO root fetch - main [MainThread]: End processing [hspylib-datasource]: success
+[2023-07-27 01:05:45] INFO root fetch - processPackages [sqly]: Remove: archive file [/home/abi/fetcher/tmp/sqly-0.7.0.tar.gz]
+[2023-07-27 01:05:45] INFO root fetch - processPackages [sqly]: Remove: archive file [/home/abi/fetcher/tmp/sqly-0.9.0rc2.tar.gz]
+[2023-07-27 01:05:45] INFO root fetch - main [MainThread]: End processing [sqly]: success
+[2023-07-27 01:05:45] INFO root fetch - processPackages [python2verilog]: Downloading https://files.pythonhosted.org/packages/ec/b7/c49b608c4ead381c5e2aff3f5762fa2ffdb108c1c904275a4900dbd96900/python2verilog-0.0.3.tar.gz
+[2023-07-27 01:05:45] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230725.tar.gz]
+[2023-07-27 01:05:45] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230726.tar.gz]
+[2023-07-27 01:05:45] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2023-07-27 01:05:45] INFO root fetch - processPackages [hspylib-clitt]: Remove: archive file [/home/abi/fetcher/tmp/hspylib-clitt-0.9.8.tar.gz]
+[2023-07-27 01:05:45] INFO root fetch - processPackages [hspylib-clitt]: Remove: archive file [/home/abi/fetcher/tmp/hspylib-clitt-0.9.9.tar.gz]
+[2023-07-27 01:05:45] INFO root fetch - main [MainThread]: End processing [hspylib-clitt]: success
+[2023-07-27 01:05:45] INFO root fetch - processPackages [hspylib-hqt]: Remove: archive file [/home/abi/fetcher/tmp/hspylib-hqt-0.9.8.tar.gz]
+[2023-07-27 01:05:45] INFO root fetch - processPackages [hspylib-hqt]: Remove: archive file [/home/abi/fetcher/tmp/hspylib-hqt-0.9.9.tar.gz]
+[2023-07-27 01:05:45] INFO root fetch - main [MainThread]: End processing [hspylib-hqt]: success
+[2023-07-27 01:05:45] INFO root fetch - processPackages [testflows.github.runners]: Remove: archive file [/home/abi/fetcher/tmp/testflows.github.runners-1.2.230726.1223826.tar.gz]
+[2023-07-27 01:05:45] INFO root fetch - processPackages [testflows.github.runners]: Remove: archive file [/home/abi/fetcher/tmp/testflows.github.runners-1.2.230726.1230050.tar.gz]
+[2023-07-27 01:05:45] INFO root fetch - main [MainThread]: End processing [testflows.github.runners]: success
+[2023-07-27 01:05:45] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230725.tar.gz]
+[2023-07-27 01:05:45] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230726.tar.gz]
+[2023-07-27 01:05:45] INFO root fetch - main [MainThread]: End processing [tmnt-cu101]: success
+[2023-07-27 01:05:45] INFO root fetch - processPackages [python2verilog]: Downloading https://files.pythonhosted.org/packages/de/0c/e9d4b9c8bb061d41ab737ea4901c5061cd6850daa01fbe5a0f447d2c2bc3/python2verilog-0.0.4.tar.gz
+[2023-07-27 01:05:45] INFO root fetch - processPackages [python2verilog]: executing diffoscope
+[2023-07-27 01:05:45] INFO root fetch - processPackages [python2verilog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python2verilog-0.0.3.tar.gz tmp/python2verilog-0.0.4.tar.gz --markdown 20230727/p/python2verilog/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-27 01:05:46] INFO root fetch - processPackages [python2verilog]: Remove: archive file [/home/abi/fetcher/tmp/python2verilog-0.0.3.tar.gz]
+[2023-07-27 01:05:46] INFO root fetch - processPackages [python2verilog]: Remove: archive file [/home/abi/fetcher/tmp/python2verilog-0.0.4.tar.gz]
+[2023-07-27 01:05:46] INFO root fetch - main [MainThread]: End processing [python2verilog]: success
+[2023-07-27 01:05:46] INFO root fetch - main [MainThread]: Store serial: [19050695]
