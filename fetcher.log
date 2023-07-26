@@ -1733,3 +1733,45 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-27 01:43:15] INFO root fetch - processPackages [pulumi-oci]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_oci-1.5.0a1690410363.tar.gz]
 [2023-07-27 01:43:15] INFO root fetch - main [MainThread]: End processing [pulumi-oci]: success
 [2023-07-27 01:43:15] INFO root fetch - main [MainThread]: Store serial: [19050861]
+[2023-07-27 01:48:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19050861]
+[2023-07-27 01:48:28] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-27 01:48:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dkist-processing-vbi
+[2023-07-27 01:48:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: skyplane-nightly
+[2023-07-27 01:48:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SummarizedExperiment
+[2023-07-27 01:48:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: visclo
+[2023-07-27 01:48:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nsj-queue-lib
+[2023-07-27 01:48:28] INFO root fetch - processPackages [SummarizedExperiment]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-27 01:48:28] WARNING root fetch - processPackages [visclo]: Skipping, unable to determine old version
+[2023-07-27 01:48:28] INFO root fetch - main [MainThread]: End processing [visclo] error
+[2023-07-27 01:48:28] INFO root fetch - processPackages [nsj-queue-lib]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-07-27 01:48:28] INFO root fetch - processPackages [dkist-processing-vbi]: New version: [1.4.5] Old Version: [1.4.4]
+[2023-07-27 01:48:28] INFO root fetch - processPackages [SummarizedExperiment]: Downloading https://files.pythonhosted.org/packages/a4/45/cd7ec2990324886dec57d59b931bb959da2465059d544b06ac1a2f45a44c/SummarizedExperiment-0.2.8.tar.gz
+[2023-07-27 01:48:28] INFO root fetch - processPackages [nsj-queue-lib]: Downloading https://files.pythonhosted.org/packages/72/db/3207f4746a3af423ef9ece0dcfbedfec41dd7f921deb69692a75b3b9ec54/nsj_queue_lib-0.4.0.tar.gz
+[2023-07-27 01:48:28] INFO root fetch - processPackages [skyplane-nightly]: New version: [0.3.2.dev20230726] Old Version: [0.3.2.dev20230725]
+[2023-07-27 01:48:28] INFO root fetch - processPackages [dkist-processing-vbi]: Downloading https://files.pythonhosted.org/packages/b4/1b/de331470d10ab84e2a03d4e991c70ab6262ce497d8be8448f05a8c75d39e/dkist_processing_vbi-1.4.4.tar.gz
+[2023-07-27 01:48:28] INFO root fetch - processPackages [skyplane-nightly]: Downloading https://files.pythonhosted.org/packages/65/c9/c8546a3814f9ba60621638568b041de8cb1e92e74eb4e75398563e960269/skyplane_nightly-0.3.2.dev20230725.tar.gz
+[2023-07-27 01:48:28] INFO root fetch - processPackages [nsj-queue-lib]: Downloading https://files.pythonhosted.org/packages/5c/77/fac262ca008bc0e09ee8f5f4fd7a8a5457584cdb6c1e0c576cb1d7e9745a/nsj_queue_lib-0.5.0.tar.gz
+[2023-07-27 01:48:28] INFO root fetch - processPackages [SummarizedExperiment]: Downloading https://files.pythonhosted.org/packages/f9/8f/775435fe16978ae4f67af1b5bfe705ccb02b0735bee422e68b8012fb4306/SummarizedExperiment-0.2.9.tar.gz
+[2023-07-27 01:48:28] INFO root fetch - processPackages [dkist-processing-vbi]: Downloading https://files.pythonhosted.org/packages/51/d8/1fa79f60912135359bc4dc0659881235e2e81a780d2ed4a885ed934db46e/dkist_processing_vbi-1.4.5.tar.gz
+[2023-07-27 01:48:28] INFO root fetch - processPackages [skyplane-nightly]: Downloading https://files.pythonhosted.org/packages/11/58/22e5c2304e768a399f44ef87b4f3b0c18d97626c91d80f719dad918b0952/skyplane_nightly-0.3.2.dev20230726.tar.gz
+[2023-07-27 01:48:29] INFO root fetch - processPackages [nsj-queue-lib]: executing diffoscope
+[2023-07-27 01:48:29] INFO root fetch - processPackages [nsj-queue-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nsj_queue_lib-0.4.0.tar.gz tmp/nsj_queue_lib-0.5.0.tar.gz --markdown 20230727/n/nsj-queue-lib/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-07-27 01:48:29] INFO root fetch - processPackages [SummarizedExperiment]: executing diffoscope
+[2023-07-27 01:48:29] INFO root fetch - processPackages [SummarizedExperiment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SummarizedExperiment-0.2.8.tar.gz tmp/SummarizedExperiment-0.2.9.tar.gz --markdown 20230727/S/SummarizedExperiment/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-27 01:48:29] INFO root fetch - processPackages [dkist-processing-vbi]: executing diffoscope
+[2023-07-27 01:48:29] INFO root fetch - processPackages [dkist-processing-vbi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dkist_processing_vbi-1.4.4.tar.gz tmp/dkist_processing_vbi-1.4.5.tar.gz --markdown 20230727/d/dkist-processing-vbi/1.4.4-1.4.5/diff.md --exclude *.pyd
+[2023-07-27 01:48:29] INFO root fetch - processPackages [skyplane-nightly]: executing diffoscope
+[2023-07-27 01:48:29] INFO root fetch - processPackages [skyplane-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skyplane_nightly-0.3.2.dev20230725.tar.gz tmp/skyplane_nightly-0.3.2.dev20230726.tar.gz --markdown 20230727/s/skyplane-nightly/0.3.2.dev20230725-0.3.2.dev20230726/diff.md --exclude *.pyd
+[2023-07-27 01:48:30] INFO root fetch - processPackages [nsj-queue-lib]: Remove: archive file [/home/abi/fetcher/tmp/nsj_queue_lib-0.4.0.tar.gz]
+[2023-07-27 01:48:30] INFO root fetch - processPackages [nsj-queue-lib]: Remove: archive file [/home/abi/fetcher/tmp/nsj_queue_lib-0.5.0.tar.gz]
+[2023-07-27 01:48:30] INFO root fetch - main [MainThread]: End processing [nsj-queue-lib]: success
+[2023-07-27 01:48:30] INFO root fetch - processPackages [SummarizedExperiment]: Remove: archive file [/home/abi/fetcher/tmp/SummarizedExperiment-0.2.8.tar.gz]
+[2023-07-27 01:48:30] INFO root fetch - processPackages [SummarizedExperiment]: Remove: archive file [/home/abi/fetcher/tmp/SummarizedExperiment-0.2.9.tar.gz]
+[2023-07-27 01:48:30] INFO root fetch - main [MainThread]: End processing [SummarizedExperiment]: success
+[2023-07-27 01:48:30] INFO root fetch - processPackages [dkist-processing-vbi]: Remove: archive file [/home/abi/fetcher/tmp/dkist_processing_vbi-1.4.4.tar.gz]
+[2023-07-27 01:48:30] INFO root fetch - processPackages [dkist-processing-vbi]: Remove: archive file [/home/abi/fetcher/tmp/dkist_processing_vbi-1.4.5.tar.gz]
+[2023-07-27 01:48:30] INFO root fetch - main [MainThread]: End processing [dkist-processing-vbi]: success
+[2023-07-27 01:48:30] INFO root fetch - processPackages [skyplane-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skyplane_nightly-0.3.2.dev20230725.tar.gz]
+[2023-07-27 01:48:30] INFO root fetch - processPackages [skyplane-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skyplane_nightly-0.3.2.dev20230726.tar.gz]
+[2023-07-27 01:48:30] INFO root fetch - main [MainThread]: End processing [skyplane-nightly]: success
+[2023-07-27 01:48:30] INFO root fetch - main [MainThread]: Store serial: [19050879]
