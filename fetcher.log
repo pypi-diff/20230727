@@ -993,3 +993,21 @@
 [2023-07-27 00:50:05] INFO root fetch - processPackages [prettyqt]: Remove: archive file [/home/abi/fetcher/tmp/prettyqt-1.9.2.tar.gz]
 [2023-07-27 00:50:05] INFO root fetch - main [MainThread]: End processing [prettyqt]: success
 [2023-07-27 00:50:05] INFO root fetch - main [MainThread]: Store serial: [19050615]
+[2023-07-27 00:55:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19050615]
+[2023-07-27 00:55:14] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-27 00:55:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: prettyqt
+[2023-07-27 00:55:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: veris-priv-tab
+[2023-07-27 00:55:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torchaug
+[2023-07-27 00:55:14] WARNING root fetch - processPackages [veris-priv-tab]: Skipping, unable to determine old version
+[2023-07-27 00:55:14] INFO root fetch - main [MainThread]: End processing [veris-priv-tab] error
+[2023-07-27 00:55:14] WARNING root fetch - processPackages [torchaug]: Skipping, unable to determine old version
+[2023-07-27 00:55:14] INFO root fetch - main [MainThread]: End processing [torchaug] error
+[2023-07-27 00:55:14] INFO root fetch - processPackages [prettyqt]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-07-27 00:55:14] INFO root fetch - processPackages [prettyqt]: Downloading https://files.pythonhosted.org/packages/90/b7/c5a53747168c1ccc1d26309eca89b437a5f5c027f7a8486b65463ad4770c/prettyqt-1.9.1.tar.gz
+[2023-07-27 00:55:14] INFO root fetch - processPackages [prettyqt]: Downloading https://files.pythonhosted.org/packages/49/65/b381f14f4a70e301a6f9cd50931dea1693b62567e0d6f4a9f55040563489/prettyqt-1.9.2.tar.gz
+[2023-07-27 00:55:15] INFO root fetch - processPackages [prettyqt]: executing diffoscope
+[2023-07-27 00:55:15] INFO root fetch - processPackages [prettyqt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prettyqt-1.9.1.tar.gz tmp/prettyqt-1.9.2.tar.gz --markdown 20230727/p/prettyqt/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-07-27 00:55:18] INFO root fetch - processPackages [prettyqt]: Remove: archive file [/home/abi/fetcher/tmp/prettyqt-1.9.1.tar.gz]
+[2023-07-27 00:55:18] INFO root fetch - processPackages [prettyqt]: Remove: archive file [/home/abi/fetcher/tmp/prettyqt-1.9.2.tar.gz]
+[2023-07-27 00:55:18] INFO root fetch - main [MainThread]: End processing [prettyqt]: success
+[2023-07-27 00:55:18] INFO root fetch - main [MainThread]: Store serial: [19050625]
