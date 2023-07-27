@@ -22950,3 +22950,141 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-27 13:06:29] INFO root fetch - processPackages [pywikibot]: Remove: archive file [/home/abi/fetcher/tmp/pywikibot-8.3.0.tar.gz]
 [2023-07-27 13:06:29] INFO root fetch - main [MainThread]: End processing [pywikibot]: success
 [2023-07-27 13:06:29] INFO root fetch - main [MainThread]: Store serial: [19058799]
+[2023-07-27 13:11:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19058799]
+[2023-07-27 13:11:37] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-27 13:11:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ak-ipatool-py
+[2023-07-27 13:11:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pdr-sapphire-wrapper
+[2023-07-27 13:11:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: symbolicai
+[2023-07-27 13:11:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: certora-cli-alpha-nast-mutation-test
+[2023-07-27 13:11:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ag-llama-api-s
+[2023-07-27 13:11:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-logbasecommand
+[2023-07-27 13:11:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Flask-AppBuilder
+[2023-07-27 13:11:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: reldi-tokeniser
+[2023-07-27 13:11:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hauliopylib
+[2023-07-27 13:11:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: datarefiner-client
+[2023-07-27 13:11:38] INFO root fetch - processPackages [hauliopylib]: New version: [0.39] Old Version: [0.38]
+[2023-07-27 13:11:38] INFO root fetch - processPackages [pdr-sapphire-wrapper]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-27 13:11:38] INFO root fetch - processPackages [django-logbasecommand]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-27 13:11:38] INFO root fetch - processPackages [ag-llama-api-s]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-27 13:11:38] INFO root fetch - processPackages [reldi-tokeniser]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-27 13:11:38] INFO root fetch - processPackages [ak-ipatool-py]: New version: [0.0.4] Old Version: [0.0.2]
+[2023-07-27 13:11:38] WARNING root fetch - processPackages [datarefiner-client]: Skipping, unable to determine old version
+[2023-07-27 13:11:38] INFO root fetch - processPackages [datarefiner-client]: Start processing: swagger-coverage
+[2023-07-27 13:11:38] INFO root fetch - main [MainThread]: End processing [datarefiner-client] error
+[2023-07-27 13:11:38] INFO root fetch - processPackages [certora-cli-alpha-nast-mutation-test]: New version: [20230727.11.6.740980] Old Version: [20230726.12.6.653823]
+[2023-07-27 13:11:38] INFO root fetch - processPackages [symbolicai]: New version: [0.2.9] Old Version: [0.2.7]
+[2023-07-27 13:11:38] INFO root fetch - processPackages [Flask-AppBuilder]: New version: [4.3.5rc2] Old Version: [4.3.5rc1]
+[2023-07-27 13:11:38] INFO root fetch - processPackages [swagger-coverage]: New version: [3.3.0] Old Version: [3.2.0]
+[2023-07-27 13:11:38] INFO root fetch - processPackages [ag-llama-api-s]: Downloading https://files.pythonhosted.org/packages/b1/a9/f5004de2d8b9885995d695acb28be9391e712e18cf598f92220d6bc10253/ag_llama_api_s-0.0.5.tar.gz
+[2023-07-27 13:11:38] INFO root fetch - processPackages [hauliopylib]: Downloading https://files.pythonhosted.org/packages/af/12/6ca1c03c706aff24166e89d0f521e0604af6ce3844aa4fddc203f33d1f7c/hauliopylib-0.38.tar.gz
+[2023-07-27 13:11:38] INFO root fetch - processPackages [django-logbasecommand]: Downloading https://files.pythonhosted.org/packages/d8/ac/dc097bdd3bf344ecc006709a7bdf29616909a3817df4e1af46e2771fb873/django-logbasecommand-0.0.1.tar.gz
+[2023-07-27 13:11:38] INFO root fetch - processPackages [Flask-AppBuilder]: Downloading https://files.pythonhosted.org/packages/bd/9e/272047cb448bf3b664aac507a6a919e3c72b249832df1cfdf95bb629b381/Flask-AppBuilder-4.3.5rc1.tar.gz
+[2023-07-27 13:11:38] INFO root fetch - processPackages [pdr-sapphire-wrapper]: Downloading https://files.pythonhosted.org/packages/29/a8/d31c286b35d05767a769b779b1ad3380ae11a15e4e1262e22fae1cb06213/pdr-sapphire-wrapper-0.1.8.tar.gz
+[2023-07-27 13:11:38] INFO root fetch - processPackages [certora-cli-alpha-nast-mutation-test]: Downloading https://files.pythonhosted.org/packages/c1/1b/d8ce66715e062af9e3ceb35ec828b27dd07682f8789ea9eaa9fc8d11c39a/certora-cli-alpha-nast-mutation-test-20230726.12.6.653823.tar.gz
+[2023-07-27 13:11:38] INFO root fetch - processPackages [ak-ipatool-py]: Downloading https://files.pythonhosted.org/packages/31/f4/9a53cdd7d55e8ec513c3a5d568cc1eae6e2d5f6a840b2ea88b7e72eafa78/ak-ipatool-py-0.0.2.tar.gz
+[2023-07-27 13:11:38] INFO root fetch - processPackages [reldi-tokeniser]: Downloading https://files.pythonhosted.org/packages/9d/3f/56069f9eb5294e545f31cda44c90ae8a8b8dad86d56a032f52b4b09311b6/reldi-tokeniser-1.0.2.tar.gz
+[2023-07-27 13:11:38] WARNING root fetch - processPackages [pdr-sapphire-wrapper]: Skipping package: exceeds size limit 17637726>=10485760
+[2023-07-27 13:11:38] INFO root fetch - processPackages [pdr-sapphire-wrapper]: Start processing: checkov
+[2023-07-27 13:11:38] INFO root fetch - main [MainThread]: End processing [pdr-sapphire-wrapper] error
+[2023-07-27 13:11:38] WARNING root fetch - processPackages [certora-cli-alpha-nast-mutation-test]: Skipping package: exceeds size limit 37488804>=10485760
+[2023-07-27 13:11:38] INFO root fetch - processPackages [certora-cli-alpha-nast-mutation-test]: Start processing: brain-loop-search
+[2023-07-27 13:11:38] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-nast-mutation-test] error
+[2023-07-27 13:11:38] INFO root fetch - processPackages [swagger-coverage]: Downloading https://files.pythonhosted.org/packages/8c/c9/2610ec03ae8039ef8681ccf0e794cb35beda962a7e9052e8e681f4997660/swagger-coverage-3.2.0.tar.gz
+[2023-07-27 13:11:38] INFO root fetch - processPackages [symbolicai]: Downloading https://files.pythonhosted.org/packages/59/14/798e49c20397acd30771571396d3eda6fd597a03aa173eaff2f7291228e3/symbolicai-0.2.7-py3-none-any.whl
+[2023-07-27 13:11:38] INFO root fetch - processPackages [brain-loop-search]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-27 13:11:38] WARNING root fetch - processPackages [swagger-coverage]: Skipping package: exceeds size limit 22018303>=10485760
+[2023-07-27 13:11:38] INFO root fetch - processPackages [swagger-coverage]: Start processing: biobb-godmd
+[2023-07-27 13:11:38] INFO root fetch - main [MainThread]: End processing [swagger-coverage] error
+[2023-07-27 13:11:38] INFO root fetch - processPackages [checkov]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-07-27 13:11:38] INFO root fetch - processPackages [ag-llama-api-s]: Downloading https://files.pythonhosted.org/packages/a4/0b/888ae0ab7babed01c6042998835f7629af1ff78606049289dcc7af3e3561/ag_llama_api_s-0.0.6.tar.gz
+[2023-07-27 13:11:39] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/8f/c0/b3713d4cbc03ff63d42af6bc96060bf07ac510f578af21d0beb23a58ebd5/checkov-2.3.98.tar.gz
+[2023-07-27 13:11:39] INFO root fetch - processPackages [ag-llama-api-s]: executing diffoscope
+[2023-07-27 13:11:39] INFO root fetch - processPackages [ag-llama-api-s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ag_llama_api_s-0.0.5.tar.gz tmp/ag_llama_api_s-0.0.6.tar.gz --markdown 20230727/a/ag-llama-api-s/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-27 13:11:39] INFO root fetch - processPackages [biobb-godmd]: New version: [4.0.1] Old Version: [4.0.0]
+[2023-07-27 13:11:39] INFO root fetch - processPackages [brain-loop-search]: Downloading https://files.pythonhosted.org/packages/fd/e0/b6b46083d5b586ebcf1547b8c9858341b90f958abfce72652919b2cdd19a/brain-loop-search-0.1.6.tar.gz
+[2023-07-27 13:11:39] INFO root fetch - processPackages [django-logbasecommand]: Downloading https://files.pythonhosted.org/packages/ab/36/f1a04ae094dfa96b0e1aab83580a697143a50b63e55ab1f700181ccdf771/django-logbasecommand-0.0.2.tar.gz
+[2023-07-27 13:11:39] INFO root fetch - processPackages [hauliopylib]: Downloading https://files.pythonhosted.org/packages/11/fc/02d6df1806d694a551eb83c759784806f1523762975e57618c58f1430fa1/hauliopylib-0.39.tar.gz
+[2023-07-27 13:11:39] INFO root fetch - processPackages [reldi-tokeniser]: Downloading https://files.pythonhosted.org/packages/15/02/f1aebc83789d692ea14723e3875bcdd2d0d25b8147eedf6d2149a717addb/reldi-tokeniser-1.0.3.tar.gz
+[2023-07-27 13:11:39] INFO root fetch - processPackages [ak-ipatool-py]: Downloading https://files.pythonhosted.org/packages/11/93/723ff820d1b0df047f8cbd31502bc8b9125d479d3fa32c30f26e84c8a327/ak-ipatool-py-0.0.4.tar.gz
+[2023-07-27 13:11:39] INFO root fetch - processPackages [django-logbasecommand]: executing diffoscope
+[2023-07-27 13:11:39] INFO root fetch - processPackages [django-logbasecommand]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-logbasecommand-0.0.1.tar.gz tmp/django-logbasecommand-0.0.2.tar.gz --markdown 20230727/d/django-logbasecommand/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-27 13:11:39] INFO root fetch - processPackages [reldi-tokeniser]: executing diffoscope
+[2023-07-27 13:11:39] INFO root fetch - processPackages [reldi-tokeniser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reldi-tokeniser-1.0.2.tar.gz tmp/reldi-tokeniser-1.0.3.tar.gz --markdown 20230727/r/reldi-tokeniser/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-27 13:11:39] INFO root fetch - processPackages [hauliopylib]: executing diffoscope
+[2023-07-27 13:11:39] INFO root fetch - processPackages [hauliopylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hauliopylib-0.38.tar.gz tmp/hauliopylib-0.39.tar.gz --markdown 20230727/h/hauliopylib/0.38-0.39/diff.md --exclude *.pyd
+[2023-07-27 13:11:39] INFO root fetch - processPackages [ak-ipatool-py]: executing diffoscope
+[2023-07-27 13:11:39] INFO root fetch - processPackages [ak-ipatool-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ak-ipatool-py-0.0.2.tar.gz tmp/ak-ipatool-py-0.0.4.tar.gz --markdown 20230727/a/ak-ipatool-py/0.0.2-0.0.4/diff.md --exclude *.pyd
+[2023-07-27 13:11:39] INFO root fetch - processPackages [biobb-godmd]: Downloading https://files.pythonhosted.org/packages/90/a3/450007a622c3f5497fe017c7fb3ce64533dc9464b073516a7e7ff76b22da/biobb_godmd-4.0.0.tar.gz
+[2023-07-27 13:11:39] INFO root fetch - processPackages [brain-loop-search]: Downloading https://files.pythonhosted.org/packages/a2/79/c789b8cd67622030966f0c8eef6a0744750932aff4f96f6839daae3aafdc/brain-loop-search-0.1.7.tar.gz
+[2023-07-27 13:11:39] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/36/b2/faea7cf4d04d72880327d7e73a0327922cb8cd1c61a51e8fd38f344e9f2f/checkov-2.3.99.tar.gz
+[2023-07-27 13:11:39] INFO root fetch - processPackages [brain-loop-search]: executing diffoscope
+[2023-07-27 13:11:39] INFO root fetch - processPackages [brain-loop-search]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brain-loop-search-0.1.6.tar.gz tmp/brain-loop-search-0.1.7.tar.gz --markdown 20230727/b/brain-loop-search/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-27 13:11:39] INFO root fetch - processPackages [biobb-godmd]: Downloading https://files.pythonhosted.org/packages/ca/ca/eaceba20bdc56ab8ad71c4de5b105a5028ca3a999ec775efe99faa6b9327/biobb_godmd-4.0.1.tar.gz
+[2023-07-27 13:11:39] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2023-07-27 13:11:39] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-2.3.98.tar.gz tmp/checkov-2.3.99.tar.gz --markdown 20230727/c/checkov/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-07-27 13:11:39] INFO root fetch - processPackages [biobb-godmd]: executing diffoscope
+[2023-07-27 13:11:39] INFO root fetch - processPackages [biobb-godmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biobb_godmd-4.0.0.tar.gz tmp/biobb_godmd-4.0.1.tar.gz --markdown 20230727/b/biobb-godmd/4.0.0-4.0.1/diff.md --exclude *.pyd
+[2023-07-27 13:11:40] INFO root fetch - processPackages [Flask-AppBuilder]: Downloading https://files.pythonhosted.org/packages/81/cb/2c2fd3abef21857a4128a65f10501d586a12e4f4f0ce4300c561fcbeed56/Flask-AppBuilder-4.3.5rc2.tar.gz
+[2023-07-27 13:11:40] INFO root fetch - processPackages [symbolicai]: Downloading https://files.pythonhosted.org/packages/d4/20/d69129c72a905a1d7f198c70e94d4b5d966f97686ef827699d68d5da2a6c/symbolicai-0.2.9-py3-none-any.whl
+[2023-07-27 13:11:40] INFO root fetch - processPackages [ag-llama-api-s]: Remove: archive file [/home/abi/fetcher/tmp/ag_llama_api_s-0.0.5.tar.gz]
+[2023-07-27 13:11:40] INFO root fetch - processPackages [ag-llama-api-s]: Remove: archive file [/home/abi/fetcher/tmp/ag_llama_api_s-0.0.6.tar.gz]
+[2023-07-27 13:11:40] INFO root fetch - processPackages [ag-llama-api-s]: Start processing: sky-api-client
+[2023-07-27 13:11:40] INFO root fetch - main [MainThread]: End processing [ag-llama-api-s]: success
+[2023-07-27 13:11:40] INFO root fetch - processPackages [sky-api-client]: New version: [3.2.8] Old Version: [3.2.6]
+[2023-07-27 13:11:40] INFO root fetch - processPackages [django-logbasecommand]: Remove: archive file [/home/abi/fetcher/tmp/django-logbasecommand-0.0.1.tar.gz]
+[2023-07-27 13:11:40] INFO root fetch - processPackages [django-logbasecommand]: Remove: archive file [/home/abi/fetcher/tmp/django-logbasecommand-0.0.2.tar.gz]
+[2023-07-27 13:11:40] INFO root fetch - processPackages [django-logbasecommand]: Start processing: pysui
+[2023-07-27 13:11:40] INFO root fetch - main [MainThread]: End processing [django-logbasecommand]: success
+[2023-07-27 13:11:40] INFO root fetch - processPackages [hauliopylib]: Remove: archive file [/home/abi/fetcher/tmp/hauliopylib-0.38.tar.gz]
+[2023-07-27 13:11:40] INFO root fetch - processPackages [hauliopylib]: Remove: archive file [/home/abi/fetcher/tmp/hauliopylib-0.39.tar.gz]
+[2023-07-27 13:11:40] INFO root fetch - processPackages [hauliopylib]: Start processing: onnx2kerastl
+[2023-07-27 13:11:40] INFO root fetch - main [MainThread]: End processing [hauliopylib]: success
+[2023-07-27 13:11:40] INFO root fetch - processPackages [reldi-tokeniser]: Remove: archive file [/home/abi/fetcher/tmp/reldi-tokeniser-1.0.2.tar.gz]
+[2023-07-27 13:11:40] INFO root fetch - processPackages [reldi-tokeniser]: Remove: archive file [/home/abi/fetcher/tmp/reldi-tokeniser-1.0.3.tar.gz]
+[2023-07-27 13:11:40] INFO root fetch - main [MainThread]: End processing [reldi-tokeniser]: success
+[2023-07-27 13:11:40] INFO root fetch - processPackages [ak-ipatool-py]: Remove: archive file [/home/abi/fetcher/tmp/ak-ipatool-py-0.0.2.tar.gz]
+[2023-07-27 13:11:40] INFO root fetch - processPackages [ak-ipatool-py]: Remove: archive file [/home/abi/fetcher/tmp/ak-ipatool-py-0.0.4.tar.gz]
+[2023-07-27 13:11:40] INFO root fetch - main [MainThread]: End processing [ak-ipatool-py]: success
+[2023-07-27 13:11:40] INFO root fetch - processPackages [pysui]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-27 13:11:40] INFO root fetch - processPackages [onnx2kerastl]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-27 13:11:41] INFO root fetch - processPackages [brain-loop-search]: Remove: archive file [/home/abi/fetcher/tmp/brain-loop-search-0.1.6.tar.gz]
+[2023-07-27 13:11:41] INFO root fetch - processPackages [brain-loop-search]: Remove: archive file [/home/abi/fetcher/tmp/brain-loop-search-0.1.7.tar.gz]
+[2023-07-27 13:11:41] INFO root fetch - main [MainThread]: End processing [brain-loop-search]: success
+[2023-07-27 13:11:41] INFO root fetch - processPackages [sky-api-client]: Downloading https://files.pythonhosted.org/packages/16/1b/132f52a66c6d767912ee8faefa3d0c60732c6420136076076abba8138eb9/sky_api_client-3.2.6.tar.gz
+[2023-07-27 13:11:41] INFO root fetch - processPackages [biobb-godmd]: Remove: archive file [/home/abi/fetcher/tmp/biobb_godmd-4.0.0.tar.gz]
+[2023-07-27 13:11:41] INFO root fetch - processPackages [biobb-godmd]: Remove: archive file [/home/abi/fetcher/tmp/biobb_godmd-4.0.1.tar.gz]
+[2023-07-27 13:11:41] INFO root fetch - main [MainThread]: End processing [biobb-godmd]: success
+[2023-07-27 13:11:41] INFO root fetch - processPackages [pysui]: Downloading https://files.pythonhosted.org/packages/df/fd/8060c20cdf32607400911d43fc627a8bf48fe7571dc1992ab190b3274d7b/pysui-0.8.0-py3-none-any.whl
+[2023-07-27 13:11:41] INFO root fetch - processPackages [onnx2kerastl]: Downloading https://files.pythonhosted.org/packages/56/30/4fe6a62a391b7a1f4849721540cb3c2ac08682ab3718cd0bf95ad8649005/onnx2kerastl-0.0.98.tar.gz
+[2023-07-27 13:11:41] INFO root fetch - processPackages [sky-api-client]: Downloading https://files.pythonhosted.org/packages/bc/30/a6cd6b713d3d9532b6b9d64f394e082d5cd67c6e609c73a85843f2341b13/sky_api_client-3.2.8.tar.gz
+[2023-07-27 13:11:41] INFO root fetch - processPackages [onnx2kerastl]: Downloading https://files.pythonhosted.org/packages/42/31/7e8fff9b0c93088de0c4c5543ffd14e079e872d9a350b1b6f99febee59e8/onnx2kerastl-0.0.99.tar.gz
+[2023-07-27 13:11:41] INFO root fetch - processPackages [pysui]: Downloading https://files.pythonhosted.org/packages/d0/d5/e2108ab88d1f544ccab9554dcf4127133263950ae9c3e3912ab5bb6db12a/pysui-0.9.0-py3-none-any.whl
+[2023-07-27 13:11:41] INFO root fetch - processPackages [onnx2kerastl]: executing diffoscope
+[2023-07-27 13:11:41] INFO root fetch - processPackages [onnx2kerastl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnx2kerastl-0.0.98.tar.gz tmp/onnx2kerastl-0.0.99.tar.gz --markdown 20230727/o/onnx2kerastl/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-27 13:11:41] INFO root fetch - processPackages [sky-api-client]: executing diffoscope
+[2023-07-27 13:11:41] INFO root fetch - processPackages [sky-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sky_api_client-3.2.6.tar.gz tmp/sky_api_client-3.2.8.tar.gz --markdown 20230727/s/sky-api-client/3.2.6-3.2.8/diff.md --exclude *.pyd
+[2023-07-27 13:11:41] INFO root fetch - processPackages [pysui]: executing diffoscope
+[2023-07-27 13:11:41] INFO root fetch - processPackages [pysui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysui-0.8.0-py3-none-any.whl.zip tmp/pysui-0.9.0-py3-none-any.whl.zip --markdown 20230727/p/pysui/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-27 13:11:42] INFO root fetch - processPackages [symbolicai]: executing diffoscope
+[2023-07-27 13:11:42] INFO root fetch - processPackages [symbolicai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/symbolicai-0.2.7-py3-none-any.whl.zip tmp/symbolicai-0.2.9-py3-none-any.whl.zip --markdown 20230727/s/symbolicai/0.2.7-0.2.9/diff.md --exclude *.pyd
+[2023-07-27 13:11:42] INFO root fetch - processPackages [Flask-AppBuilder]: executing diffoscope
+[2023-07-27 13:11:42] INFO root fetch - processPackages [Flask-AppBuilder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Flask-AppBuilder-4.3.5rc1.tar.gz tmp/Flask-AppBuilder-4.3.5rc2.tar.gz --markdown 20230727/F/Flask-AppBuilder/4.3.5rc1-4.3.5rc2/diff.md --exclude *.pyd
+[2023-07-27 13:11:42] INFO root fetch - processPackages [sky-api-client]: Remove: archive file [/home/abi/fetcher/tmp/sky_api_client-3.2.6.tar.gz]
+[2023-07-27 13:11:42] INFO root fetch - processPackages [sky-api-client]: Remove: archive file [/home/abi/fetcher/tmp/sky_api_client-3.2.8.tar.gz]
+[2023-07-27 13:11:42] INFO root fetch - main [MainThread]: End processing [sky-api-client]: success
+[2023-07-27 13:11:42] INFO root fetch - processPackages [onnx2kerastl]: Remove: archive file [/home/abi/fetcher/tmp/onnx2kerastl-0.0.98.tar.gz]
+[2023-07-27 13:11:42] INFO root fetch - processPackages [onnx2kerastl]: Remove: archive file [/home/abi/fetcher/tmp/onnx2kerastl-0.0.99.tar.gz]
+[2023-07-27 13:11:42] INFO root fetch - main [MainThread]: End processing [onnx2kerastl]: success
+[2023-07-27 13:11:43] INFO root fetch - processPackages [pysui]: Remove: archive file [/home/abi/fetcher/tmp/pysui-0.8.0-py3-none-any.whl.zip]
+[2023-07-27 13:11:43] INFO root fetch - processPackages [pysui]: Remove: archive file [/home/abi/fetcher/tmp/pysui-0.9.0-py3-none-any.whl.zip]
+[2023-07-27 13:11:43] INFO root fetch - main [MainThread]: End processing [pysui]: success
+[2023-07-27 13:11:43] INFO root fetch - processPackages [symbolicai]: Remove: archive file [/home/abi/fetcher/tmp/symbolicai-0.2.7-py3-none-any.whl.zip]
+[2023-07-27 13:11:43] INFO root fetch - processPackages [symbolicai]: Remove: archive file [/home/abi/fetcher/tmp/symbolicai-0.2.9-py3-none-any.whl.zip]
+[2023-07-27 13:11:43] INFO root fetch - main [MainThread]: End processing [symbolicai]: success
+[2023-07-27 13:11:48] INFO root fetch - processPackages [Flask-AppBuilder]: Remove: archive file [/home/abi/fetcher/tmp/Flask-AppBuilder-4.3.5rc1.tar.gz]
+[2023-07-27 13:11:48] INFO root fetch - processPackages [Flask-AppBuilder]: Remove: archive file [/home/abi/fetcher/tmp/Flask-AppBuilder-4.3.5rc2.tar.gz]
+[2023-07-27 13:11:48] INFO root fetch - main [MainThread]: End processing [Flask-AppBuilder]: success
+[2023-07-27 13:11:55] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.98.tar.gz]
+[2023-07-27 13:11:55] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.99.tar.gz]
+[2023-07-27 13:11:55] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2023-07-27 13:11:55] INFO root fetch - main [MainThread]: Store serial: [19058853]
