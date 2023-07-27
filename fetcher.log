@@ -11313,3 +11313,68 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-27 05:35:55] INFO root fetch - processPackages [wom-py]: Remove: archive file [/home/abi/fetcher/tmp/wom_py-0.6.0.tar.gz]
 [2023-07-27 05:35:55] INFO root fetch - main [MainThread]: End processing [wom-py]: success
 [2023-07-27 05:35:55] INFO root fetch - main [MainThread]: Store serial: [19054313]
+[2023-07-27 05:40:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19054313]
+[2023-07-27 05:41:04] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-27 05:41:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: onqlave-python-sdk-pilot
+[2023-07-27 05:41:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: AlgorithmLib
+[2023-07-27 05:41:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dodevops
+[2023-07-27 05:41:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: crop-utils
+[2023-07-27 05:41:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pybaseutils
+[2023-07-27 05:41:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pxblat
+[2023-07-27 05:41:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: acgen-by-den
+[2023-07-27 05:41:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: braintrust
+[2023-07-27 05:41:04] INFO root fetch - processPackages [onqlave-python-sdk-pilot]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-27 05:41:04] INFO root fetch - processPackages [dodevops]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-27 05:41:04] INFO root fetch - processPackages [crop-utils]: New version: [4.3.8] Old Version: [4.3.7]
+[2023-07-27 05:41:04] INFO root fetch - processPackages [pxblat]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-27 05:41:04] INFO root fetch - processPackages [AlgorithmLib]: New version: [3.9.9] Old Version: [3.9.8]
+[2023-07-27 05:41:04] WARNING root fetch - processPackages [acgen-by-den]: Skipping, unable to determine old version
+[2023-07-27 05:41:04] INFO root fetch - main [MainThread]: End processing [acgen-by-den] error
+[2023-07-27 05:41:04] INFO root fetch - processPackages [pybaseutils]: New version: [0.8.8] Old Version: [0.8.7]
+[2023-07-27 05:41:04] INFO root fetch - processPackages [braintrust]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-27 05:41:04] INFO root fetch - processPackages [dodevops]: Downloading https://files.pythonhosted.org/packages/1a/18/06c2488148b2257582b58138dc3697e62cc7a847d51f00a381e948d75b1a/dodevops-0.1.8.tar.gz
+[2023-07-27 05:41:04] INFO root fetch - processPackages [crop-utils]: Downloading https://files.pythonhosted.org/packages/8e/83/0d33c8fbf409e372c176b3bf099a144189d74130896f0328070c76d3b59c/crop_utils-4.3.7.tar.gz
+[2023-07-27 05:41:04] INFO root fetch - processPackages [onqlave-python-sdk-pilot]: Downloading https://files.pythonhosted.org/packages/59/52/27818a5b0dc9fe59434c9f8dd87931c7b1e1d7bfb5c4444e786d74d04257/onqlave-python-sdk-pilot-0.0.8.tar.gz
+[2023-07-27 05:41:04] INFO root fetch - processPackages [pxblat]: Downloading https://files.pythonhosted.org/packages/11/e6/a275714e73ca9f86027c27cce57e8633e1279c007c97ace75ca353baa3ae/pxblat-0.2.0.tar.gz
+[2023-07-27 05:41:04] INFO root fetch - processPackages [pybaseutils]: Downloading https://files.pythonhosted.org/packages/9e/2b/11d8df8125ab03990ba5b4cd32afadfe90cb463b959f95143709fe21f01a/pybaseutils-0.8.7.tar.gz
+[2023-07-27 05:41:04] INFO root fetch - processPackages [AlgorithmLib]: Downloading https://files.pythonhosted.org/packages/78/f1/2fbac4aa9ef115eda50059c81431330d595bbf744e9ac898466afc3a85ee/AlgorithmLib-3.9.8.tar.gz
+[2023-07-27 05:41:04] INFO root fetch - processPackages [braintrust]: Downloading https://files.pythonhosted.org/packages/ea/49/6dafb427c97ea65cb6b2e479c00756df3abbea160d67859f033ac7667a61/braintrust-0.0.8.tar.gz
+[2023-07-27 05:41:04] INFO root fetch - processPackages [dodevops]: Downloading https://files.pythonhosted.org/packages/41/5d/c2423ea8b261b7a7034db4214baef9f7e4474e8e2ac9d884063cc022e455/dodevops-0.1.9.tar.gz
+[2023-07-27 05:41:04] WARNING root fetch - processPackages [AlgorithmLib]: Skipping package: exceeds size limit 14952675>=10485760
+[2023-07-27 05:41:04] INFO root fetch - main [MainThread]: End processing [AlgorithmLib] error
+[2023-07-27 05:41:04] INFO root fetch - processPackages [crop-utils]: Downloading https://files.pythonhosted.org/packages/22/56/d0b2dd9920e6fe4f62d3ab8e2d0cf3b5ad1cc731be1ca6f441973d21f295/crop_utils-4.3.8.tar.gz
+[2023-07-27 05:41:05] INFO root fetch - processPackages [dodevops]: executing diffoscope
+[2023-07-27 05:41:05] INFO root fetch - processPackages [dodevops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dodevops-0.1.8.tar.gz tmp/dodevops-0.1.9.tar.gz --markdown 20230727/d/dodevops/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-27 05:41:05] INFO root fetch - processPackages [crop-utils]: executing diffoscope
+[2023-07-27 05:41:05] INFO root fetch - processPackages [crop-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crop_utils-4.3.7.tar.gz tmp/crop_utils-4.3.8.tar.gz --markdown 20230727/c/crop-utils/4.3.7-4.3.8/diff.md --exclude *.pyd
+[2023-07-27 05:41:05] INFO root fetch - processPackages [onqlave-python-sdk-pilot]: Downloading https://files.pythonhosted.org/packages/63/b0/994ce6161d7a0abbf7a7adef4b05993a95b3f12dcef78d435a13caa4c412/onqlave-python-sdk-pilot-0.0.9.tar.gz
+[2023-07-27 05:41:05] INFO root fetch - processPackages [pybaseutils]: Downloading https://files.pythonhosted.org/packages/c7/0b/155d2f254dd6b640751ab4b172f3473da0a8a6fbf40d364e4df3d0d7fa56/pybaseutils-0.8.8.tar.gz
+[2023-07-27 05:41:05] INFO root fetch - processPackages [pxblat]: Downloading https://files.pythonhosted.org/packages/3e/19/3700f5af8ffc136b2914f9e313c61e46bb30136097372ffff74f79142464/pxblat-0.3.0.tar.gz
+[2023-07-27 05:41:05] INFO root fetch - processPackages [braintrust]: Downloading https://files.pythonhosted.org/packages/4e/3a/faf597cceac630ee3924d2d8dcf603fc90baec28bb6313aefcb9ee399668/braintrust-0.0.9.tar.gz
+[2023-07-27 05:41:05] INFO root fetch - processPackages [onqlave-python-sdk-pilot]: executing diffoscope
+[2023-07-27 05:41:05] INFO root fetch - processPackages [onqlave-python-sdk-pilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onqlave-python-sdk-pilot-0.0.8.tar.gz tmp/onqlave-python-sdk-pilot-0.0.9.tar.gz --markdown 20230727/o/onqlave-python-sdk-pilot/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-27 05:41:05] INFO root fetch - processPackages [pxblat]: executing diffoscope
+[2023-07-27 05:41:05] INFO root fetch - processPackages [pxblat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pxblat-0.2.0.tar.gz tmp/pxblat-0.3.0.tar.gz --markdown 20230727/p/pxblat/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-27 05:41:05] INFO root fetch - processPackages [pybaseutils]: executing diffoscope
+[2023-07-27 05:41:05] INFO root fetch - processPackages [pybaseutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybaseutils-0.8.7.tar.gz tmp/pybaseutils-0.8.8.tar.gz --markdown 20230727/p/pybaseutils/0.8.7-0.8.8/diff.md --exclude *.pyd
+[2023-07-27 05:41:05] INFO root fetch - processPackages [braintrust]: executing diffoscope
+[2023-07-27 05:41:05] INFO root fetch - processPackages [braintrust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/braintrust-0.0.8.tar.gz tmp/braintrust-0.0.9.tar.gz --markdown 20230727/b/braintrust/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-27 05:41:06] INFO root fetch - processPackages [dodevops]: Remove: archive file [/home/abi/fetcher/tmp/dodevops-0.1.8.tar.gz]
+[2023-07-27 05:41:06] INFO root fetch - processPackages [dodevops]: Remove: archive file [/home/abi/fetcher/tmp/dodevops-0.1.9.tar.gz]
+[2023-07-27 05:41:06] INFO root fetch - main [MainThread]: End processing [dodevops]: success
+[2023-07-27 05:41:06] INFO root fetch - processPackages [crop-utils]: Remove: archive file [/home/abi/fetcher/tmp/crop_utils-4.3.7.tar.gz]
+[2023-07-27 05:41:06] INFO root fetch - processPackages [crop-utils]: Remove: archive file [/home/abi/fetcher/tmp/crop_utils-4.3.8.tar.gz]
+[2023-07-27 05:41:06] INFO root fetch - main [MainThread]: End processing [crop-utils]: success
+[2023-07-27 05:41:06] INFO root fetch - processPackages [braintrust]: Remove: archive file [/home/abi/fetcher/tmp/braintrust-0.0.8.tar.gz]
+[2023-07-27 05:41:06] INFO root fetch - processPackages [braintrust]: Remove: archive file [/home/abi/fetcher/tmp/braintrust-0.0.9.tar.gz]
+[2023-07-27 05:41:06] INFO root fetch - main [MainThread]: End processing [braintrust]: success
+[2023-07-27 05:41:06] INFO root fetch - processPackages [onqlave-python-sdk-pilot]: Remove: archive file [/home/abi/fetcher/tmp/onqlave-python-sdk-pilot-0.0.8.tar.gz]
+[2023-07-27 05:41:06] INFO root fetch - processPackages [onqlave-python-sdk-pilot]: Remove: archive file [/home/abi/fetcher/tmp/onqlave-python-sdk-pilot-0.0.9.tar.gz]
+[2023-07-27 05:41:06] INFO root fetch - main [MainThread]: End processing [onqlave-python-sdk-pilot]: success
+[2023-07-27 05:41:06] INFO root fetch - processPackages [pybaseutils]: Remove: archive file [/home/abi/fetcher/tmp/pybaseutils-0.8.7.tar.gz]
+[2023-07-27 05:41:06] INFO root fetch - processPackages [pybaseutils]: Remove: archive file [/home/abi/fetcher/tmp/pybaseutils-0.8.8.tar.gz]
+[2023-07-27 05:41:06] INFO root fetch - main [MainThread]: End processing [pybaseutils]: success
+[2023-07-27 05:41:07] INFO root fetch - processPackages [pxblat]: Remove: archive file [/home/abi/fetcher/tmp/pxblat-0.2.0.tar.gz]
+[2023-07-27 05:41:07] INFO root fetch - processPackages [pxblat]: Remove: archive file [/home/abi/fetcher/tmp/pxblat-0.3.0.tar.gz]
+[2023-07-27 05:41:07] INFO root fetch - main [MainThread]: End processing [pxblat]: success
+[2023-07-27 05:41:07] INFO root fetch - main [MainThread]: Store serial: [19054340]
