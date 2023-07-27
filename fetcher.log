@@ -22573,3 +22573,118 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-27 12:45:30] INFO root fetch - processPackages [SuperPang]: Remove: archive file [/home/abi/fetcher/tmp/SuperPang-1.1.0.tar.gz]
 [2023-07-27 12:45:30] INFO root fetch - main [MainThread]: End processing [SuperPang]: success
 [2023-07-27 12:45:30] INFO root fetch - main [MainThread]: Store serial: [19058656]
+[2023-07-27 12:50:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19058656]
+[2023-07-27 12:50:39] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-27 12:50:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: webcam
+[2023-07-27 12:50:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-apitokens
+[2023-07-27 12:50:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mongodb-python-manager
+[2023-07-27 12:50:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-helpdesk-mgmt
+[2023-07-27 12:50:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tomotok
+[2023-07-27 12:50:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wxai-langchain
+[2023-07-27 12:50:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tuxmake
+[2023-07-27 12:50:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Flask-AppBuilder
+[2023-07-27 12:50:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: networklab
+[2023-07-27 12:50:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: microt-prompt
+[2023-07-27 12:50:39] INFO root fetch - processPackages [tomotok]: New version: [1.3] Old Version: [1.2.2]
+[2023-07-27 12:50:39] INFO root fetch - processPackages [mongodb-python-manager]: New version: [1.5.6] Old Version: [1.5.5]
+[2023-07-27 12:50:39] INFO root fetch - processPackages [tuxmake]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-07-27 12:50:39] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: New version: [16.0.1.2.0] Old Version: [16.0.1.1.0.8]
+[2023-07-27 12:50:39] INFO root fetch - processPackages [wxai-langchain]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-27 12:50:39] INFO root fetch - processPackages [networklab]: New version: [1.5.5.dev1] Old Version: [1.5.4.post1]
+[2023-07-27 12:50:39] INFO root fetch - processPackages [webcam]: New version: [1.9] Old Version: [1.8]
+[2023-07-27 12:50:39] INFO root fetch - processPackages [django-apitokens]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-27 12:50:39] INFO root fetch - processPackages [microt-prompt]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-27 12:50:39] INFO root fetch - processPackages [Flask-AppBuilder]: New version: [4.3.5rc1] Old Version: [4.3.4rc1]
+[2023-07-27 12:50:39] INFO root fetch - processPackages [webcam]: Downloading https://files.pythonhosted.org/packages/31/4f/5f62a6aab1c05a3296501d54d104278fb9f289b855a8dd7a9263dd64d053/webcam-1.8.tar.gz
+[2023-07-27 12:50:39] INFO root fetch - processPackages [tomotok]: Downloading https://files.pythonhosted.org/packages/61/ce/54ee71f061d9d2a7a9a11dbf743a110e7ff0cd96a2ec37e7a36d8621b5ac/tomotok-1.2.2.tar.gz
+[2023-07-27 12:50:39] INFO root fetch - processPackages [tuxmake]: Downloading https://files.pythonhosted.org/packages/46/c5/0aaceffcdd95bee2b75b09418edaa4a8ebfcb471f6add06545661a9a1085/tuxmake-1.8.0.tar.gz
+[2023-07-27 12:50:39] INFO root fetch - processPackages [django-apitokens]: Downloading https://files.pythonhosted.org/packages/9b/58/402b98536dbff74b3ee08d3d05db94490f7e8d072b322042fa7a5c83ba4d/django-apitokens-0.0.1.tar.gz
+[2023-07-27 12:50:39] INFO root fetch - processPackages [Flask-AppBuilder]: Downloading https://files.pythonhosted.org/packages/94/02/e88910e2cb1a1aafcf0ff82358bfc61f91fbf9b2bc9b007414abfeda5c47/Flask-AppBuilder-4.3.4rc1.tar.gz
+[2023-07-27 12:50:39] INFO root fetch - processPackages [mongodb-python-manager]: Downloading https://files.pythonhosted.org/packages/45/79/c7e57474a46d56b83b5615a8fa705cad0b7b49dfac52bf48cb8e6deee8e1/mongodb_python_manager-1.5.5.tar.gz
+[2023-07-27 12:50:40] INFO root fetch - processPackages [networklab]: Downloading https://files.pythonhosted.org/packages/4d/1a/5425a1992836597796fbe532902e796218704481d5fd6361cba87f82c3b7/networklab-1.5.4.post1.tar.gz
+[2023-07-27 12:50:40] INFO root fetch - processPackages [wxai-langchain]: Downloading https://files.pythonhosted.org/packages/26/b3/5a55636827a5d08202a85e0c572ba1713df428446eaf74f9d9be9af4f487/wxai-langchain-0.0.1.tar.gz
+[2023-07-27 12:50:40] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: Downloading https://files.pythonhosted.org/packages/6f/de/e5c3b367e01f250d72b4cb63189af0775c1e325eb2f6d976b5791d9608f8/odoo_addon_helpdesk_mgmt-16.0.1.1.0.8-py3-none-any.whl
+[2023-07-27 12:50:40] INFO root fetch - processPackages [webcam]: Downloading https://files.pythonhosted.org/packages/76/2d/d3a50566f3d71537fdb9ab221cd05fa44a94a1c4f5220e804924e777ea1f/webcam-1.9.tar.gz
+[2023-07-27 12:50:40] INFO root fetch - processPackages [microt-prompt]: executing diffoscope
+[2023-07-27 12:50:40] INFO root fetch - processPackages [microt-prompt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microt_prompt-0.1.8.tar.gz tmp/microt_prompt-0.1.9.tar.gz --markdown 20230727/m/microt-prompt/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-27 12:50:40] INFO root fetch - processPackages [tomotok]: Downloading https://files.pythonhosted.org/packages/b0/9b/0d9bcb3743a886fa0a493fd21f00d88c4bb71209ef65b9337ce11eecc38d/tomotok-1.3.tar.gz
+[2023-07-27 12:50:40] INFO root fetch - processPackages [webcam]: executing diffoscope
+[2023-07-27 12:50:40] INFO root fetch - processPackages [webcam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webcam-1.8.tar.gz tmp/webcam-1.9.tar.gz --markdown 20230727/w/webcam/1.8-1.9/diff.md --exclude *.pyd
+[2023-07-27 12:50:40] INFO root fetch - processPackages [django-apitokens]: Downloading https://files.pythonhosted.org/packages/5a/87/81d280847f1d29e57fb186f6838d9d98dc978fbb914da7842ba530b971a3/django-apitokens-0.0.2.tar.gz
+[2023-07-27 12:50:40] INFO root fetch - processPackages [mongodb-python-manager]: Downloading https://files.pythonhosted.org/packages/77/a9/1b3a21fd15698c26cf99d709f28d048a2e2162a2c4114049100201b8e054/mongodb_python_manager-1.5.6.tar.gz
+[2023-07-27 12:50:40] INFO root fetch - processPackages [tuxmake]: Downloading https://files.pythonhosted.org/packages/63/d6/1a0d16774332729db06319fca66d2207f8696e0d3c2e8b3197b625cccb7b/tuxmake-1.9.0.tar.gz
+[2023-07-27 12:50:40] INFO root fetch - processPackages [wxai-langchain]: Downloading https://files.pythonhosted.org/packages/cc/f8/4f7b55829a6894e66a564105a01e864a43800992673fcaa29a0aab7bc0c6/wxai-langchain-0.0.2.tar.gz
+[2023-07-27 12:50:40] INFO root fetch - processPackages [django-apitokens]: executing diffoscope
+[2023-07-27 12:50:40] INFO root fetch - processPackages [django-apitokens]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-apitokens-0.0.1.tar.gz tmp/django-apitokens-0.0.2.tar.gz --markdown 20230727/d/django-apitokens/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-27 12:50:40] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: Downloading https://files.pythonhosted.org/packages/75/fb/28636f65423eaa2d239f42b12cc798c4381ea686c43cb8bff16f31b79d34/odoo_addon_helpdesk_mgmt-16.0.1.2.0-py3-none-any.whl
+[2023-07-27 12:50:40] INFO root fetch - processPackages [mongodb-python-manager]: executing diffoscope
+[2023-07-27 12:50:40] INFO root fetch - processPackages [mongodb-python-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongodb_python_manager-1.5.5.tar.gz tmp/mongodb_python_manager-1.5.6.tar.gz --markdown 20230727/m/mongodb-python-manager/1.5.5-1.5.6/diff.md --exclude *.pyd
+[2023-07-27 12:50:40] INFO root fetch - processPackages [tomotok]: executing diffoscope
+[2023-07-27 12:50:40] INFO root fetch - processPackages [tomotok]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tomotok-1.2.2.tar.gz tmp/tomotok-1.3.tar.gz --markdown 20230727/t/tomotok/1.2.2-1.3/diff.md --exclude *.pyd
+[2023-07-27 12:50:40] INFO root fetch - processPackages [networklab]: Downloading https://files.pythonhosted.org/packages/a2/b2/f588fdcf3de2c9f51639bc42fb44ee6433f3697a21354e60e5cd601e76ee/networklab-1.5.5.dev1.tar.gz
+[2023-07-27 12:50:40] INFO root fetch - processPackages [tuxmake]: executing diffoscope
+[2023-07-27 12:50:40] INFO root fetch - processPackages [tuxmake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tuxmake-1.8.0.tar.gz tmp/tuxmake-1.9.0.tar.gz --markdown 20230727/t/tuxmake/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-27 12:50:40] INFO root fetch - processPackages [wxai-langchain]: executing diffoscope
+[2023-07-27 12:50:40] INFO root fetch - processPackages [wxai-langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wxai-langchain-0.0.1.tar.gz tmp/wxai-langchain-0.0.2.tar.gz --markdown 20230727/w/wxai-langchain/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-27 12:50:40] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: executing diffoscope
+[2023-07-27 12:50:40] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_helpdesk_mgmt-16.0.1.1.0.8-py3-none-any.whl.zip tmp/odoo_addon_helpdesk_mgmt-16.0.1.2.0-py3-none-any.whl.zip --markdown 20230727/o/odoo-addon-helpdesk-mgmt/16.0.1.1.0.8-16.0.1.2.0/diff.md --exclude *.pyd
+[2023-07-27 12:50:40] INFO root fetch - processPackages [networklab]: executing diffoscope
+[2023-07-27 12:50:40] INFO root fetch - processPackages [networklab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/networklab-1.5.4.post1.tar.gz tmp/networklab-1.5.5.dev1.tar.gz --markdown 20230727/n/networklab/1.5.4.post1-1.5.5.dev1/diff.md --exclude *.pyd
+[2023-07-27 12:50:41] INFO root fetch - processPackages [microt-prompt]: Remove: archive file [/home/abi/fetcher/tmp/microt_prompt-0.1.8.tar.gz]
+[2023-07-27 12:50:41] INFO root fetch - processPackages [microt-prompt]: Remove: archive file [/home/abi/fetcher/tmp/microt_prompt-0.1.9.tar.gz]
+[2023-07-27 12:50:41] INFO root fetch - processPackages [microt-prompt]: Start processing: django-dkron-dev
+[2023-07-27 12:50:41] INFO root fetch - main [MainThread]: End processing [microt-prompt]: success
+[2023-07-27 12:50:41] INFO root fetch - processPackages [django-dkron-dev]: New version: [0.9] Old Version: [0.8]
+[2023-07-27 12:50:41] INFO root fetch - processPackages [django-dkron-dev]: Downloading https://files.pythonhosted.org/packages/1b/46/ae043d0ebdfabd0a58fe5e43692726603324d6a390e303099ab6ff4ef25c/django-dkron-dev-0.8.tar.gz
+[2023-07-27 12:50:42] INFO root fetch - processPackages [webcam]: Remove: archive file [/home/abi/fetcher/tmp/webcam-1.8.tar.gz]
+[2023-07-27 12:50:42] INFO root fetch - processPackages [webcam]: Remove: archive file [/home/abi/fetcher/tmp/webcam-1.9.tar.gz]
+[2023-07-27 12:50:42] INFO root fetch - processPackages [webcam]: Start processing: django-dkron-dev
+[2023-07-27 12:50:42] INFO root fetch - main [MainThread]: End processing [webcam]: success
+[2023-07-27 12:50:42] INFO root fetch - processPackages [django-dkron-dev]: New version: [0.9] Old Version: [0.8]
+[2023-07-27 12:50:42] INFO root fetch - processPackages [mongodb-python-manager]: Remove: archive file [/home/abi/fetcher/tmp/mongodb_python_manager-1.5.5.tar.gz]
+[2023-07-27 12:50:42] INFO root fetch - processPackages [django-dkron-dev]: Downloading https://files.pythonhosted.org/packages/d0/73/8904c848a71245f4eca60f849ed07b6b65be2b6d230b0f060ccdc3e69291/django-dkron-dev-0.9.tar.gz
+[2023-07-27 12:50:42] INFO root fetch - processPackages [mongodb-python-manager]: Remove: archive file [/home/abi/fetcher/tmp/mongodb_python_manager-1.5.6.tar.gz]
+[2023-07-27 12:50:42] INFO root fetch - processPackages [mongodb-python-manager]: Start processing: multiel-spectra
+[2023-07-27 12:50:42] INFO root fetch - main [MainThread]: End processing [mongodb-python-manager]: success
+[2023-07-27 12:50:42] INFO root fetch - processPackages [django-dkron-dev]: Downloading https://files.pythonhosted.org/packages/d0/73/8904c848a71245f4eca60f849ed07b6b65be2b6d230b0f060ccdc3e69291/django-dkron-dev-0.9.tar.gz
+[2023-07-27 12:50:42] INFO root fetch - processPackages [django-dkron-dev]: executing diffoscope
+[2023-07-27 12:50:42] INFO root fetch - processPackages [django-dkron-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-dkron-dev-0.8.tar.gz tmp/django-dkron-dev-0.9.tar.gz --markdown 20230727/d/django-dkron-dev/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-27 12:50:42] INFO root fetch - processPackages [django-apitokens]: Remove: archive file [/home/abi/fetcher/tmp/django-apitokens-0.0.1.tar.gz]
+[2023-07-27 12:50:42] INFO root fetch - processPackages [django-apitokens]: Remove: archive file [/home/abi/fetcher/tmp/django-apitokens-0.0.2.tar.gz]
+[2023-07-27 12:50:42] INFO root fetch - main [MainThread]: End processing [django-apitokens]: success
+[2023-07-27 12:50:42] INFO root fetch - processPackages [wxai-langchain]: Remove: archive file [/home/abi/fetcher/tmp/wxai-langchain-0.0.1.tar.gz]
+[2023-07-27 12:50:42] INFO root fetch - processPackages [wxai-langchain]: Remove: archive file [/home/abi/fetcher/tmp/wxai-langchain-0.0.2.tar.gz]
+[2023-07-27 12:50:42] INFO root fetch - main [MainThread]: End processing [wxai-langchain]: success
+[2023-07-27 12:50:42] INFO root fetch - processPackages [django-dkron-dev]: executing diffoscope
+[2023-07-27 12:50:42] INFO root fetch - processPackages [django-dkron-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-dkron-dev-0.8.tar.gz tmp/django-dkron-dev-0.9.tar.gz --markdown 20230727/d/django-dkron-dev/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-27 12:50:42] INFO root fetch - processPackages [multiel-spectra]: New version: [0.0.26] Old Version: [0.0.25]
+[2023-07-27 12:50:42] INFO root fetch - processPackages [tomotok]: Remove: archive file [/home/abi/fetcher/tmp/tomotok-1.2.2.tar.gz]
+[2023-07-27 12:50:42] INFO root fetch - processPackages [tomotok]: Remove: archive file [/home/abi/fetcher/tmp/tomotok-1.3.tar.gz]
+[2023-07-27 12:50:42] INFO root fetch - main [MainThread]: End processing [tomotok]: success
+[2023-07-27 12:50:42] INFO root fetch - processPackages [multiel-spectra]: Downloading https://files.pythonhosted.org/packages/e6/da/4c7508d159e04cede36e2bdf18816221d8c025d94251261464e422e3fa58/multiel_spectra-0.0.25.tar.gz
+[2023-07-27 12:50:42] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_helpdesk_mgmt-16.0.1.1.0.8-py3-none-any.whl.zip]
+[2023-07-27 12:50:42] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_helpdesk_mgmt-16.0.1.2.0-py3-none-any.whl.zip]
+[2023-07-27 12:50:43] INFO root fetch - main [MainThread]: End processing [odoo-addon-helpdesk-mgmt]: success
+[2023-07-27 12:50:43] INFO root fetch - processPackages [tuxmake]: Remove: archive file [/home/abi/fetcher/tmp/tuxmake-1.8.0.tar.gz]
+[2023-07-27 12:50:43] INFO root fetch - processPackages [tuxmake]: Remove: archive file [/home/abi/fetcher/tmp/tuxmake-1.9.0.tar.gz]
+[2023-07-27 12:50:43] INFO root fetch - main [MainThread]: End processing [tuxmake]: success
+[2023-07-27 12:50:43] INFO root fetch - processPackages [multiel-spectra]: Downloading https://files.pythonhosted.org/packages/a7/1b/c95e03b5035001dd8f637c46996762333aa43af2d20d2a79ac9ebba2c1b2/multiel_spectra-0.0.26.tar.gz
+[2023-07-27 12:50:43] INFO root fetch - processPackages [Flask-AppBuilder]: Downloading https://files.pythonhosted.org/packages/bd/9e/272047cb448bf3b664aac507a6a919e3c72b249832df1cfdf95bb629b381/Flask-AppBuilder-4.3.5rc1.tar.gz
+[2023-07-27 12:50:43] INFO root fetch - processPackages [multiel-spectra]: executing diffoscope
+[2023-07-27 12:50:43] INFO root fetch - processPackages [multiel-spectra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multiel_spectra-0.0.25.tar.gz tmp/multiel_spectra-0.0.26.tar.gz --markdown 20230727/m/multiel-spectra/0.0.25-0.0.26/diff.md --exclude *.pyd
+[2023-07-27 12:50:43] INFO root fetch - processPackages [django-dkron-dev]: Remove: archive file [/home/abi/fetcher/tmp/django-dkron-dev-0.8.tar.gz]
+[2023-07-27 12:50:43] INFO root fetch - processPackages [django-dkron-dev]: Remove: archive file [/home/abi/fetcher/tmp/django-dkron-dev-0.9.tar.gz]
+[2023-07-27 12:50:43] INFO root fetch - main [MainThread]: End processing [django-dkron-dev]: success
+[2023-07-27 12:50:43] INFO root fetch - main [MainThread]: End processing [django-dkron-dev]: success
+[2023-07-27 12:50:44] INFO root fetch - processPackages [Flask-AppBuilder]: executing diffoscope
+[2023-07-27 12:50:44] INFO root fetch - processPackages [Flask-AppBuilder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Flask-AppBuilder-4.3.4rc1.tar.gz tmp/Flask-AppBuilder-4.3.5rc1.tar.gz --markdown 20230727/F/Flask-AppBuilder/4.3.4rc1-4.3.5rc1/diff.md --exclude *.pyd
+[2023-07-27 12:50:44] INFO root fetch - processPackages [multiel-spectra]: Remove: archive file [/home/abi/fetcher/tmp/multiel_spectra-0.0.25.tar.gz]
+[2023-07-27 12:50:44] INFO root fetch - processPackages [multiel-spectra]: Remove: archive file [/home/abi/fetcher/tmp/multiel_spectra-0.0.26.tar.gz]
+[2023-07-27 12:50:44] INFO root fetch - main [MainThread]: End processing [multiel-spectra]: success
+[2023-07-27 12:50:45] INFO root fetch - processPackages [networklab]: Remove: archive file [/home/abi/fetcher/tmp/networklab-1.5.4.post1.tar.gz]
+[2023-07-27 12:50:45] INFO root fetch - processPackages [networklab]: Remove: archive file [/home/abi/fetcher/tmp/networklab-1.5.5.dev1.tar.gz]
+[2023-07-27 12:50:45] INFO root fetch - main [MainThread]: End processing [networklab]: success
+[2023-07-27 12:50:50] INFO root fetch - processPackages [Flask-AppBuilder]: Remove: archive file [/home/abi/fetcher/tmp/Flask-AppBuilder-4.3.4rc1.tar.gz]
+[2023-07-27 12:50:50] INFO root fetch - processPackages [Flask-AppBuilder]: Remove: archive file [/home/abi/fetcher/tmp/Flask-AppBuilder-4.3.5rc1.tar.gz]
+[2023-07-27 12:50:50] INFO root fetch - main [MainThread]: End processing [Flask-AppBuilder]: success
+[2023-07-27 12:50:50] INFO root fetch - main [MainThread]: Store serial: [19058693]
