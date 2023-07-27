@@ -3149,3 +3149,92 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-27 02:41:34] INFO root fetch - processPackages [bkapi-plugins-py]: Remove: archive file [/home/abi/fetcher/tmp/bkapi-plugins-py-0.727.tar.gz]
 [2023-07-27 02:41:34] INFO root fetch - main [MainThread]: End processing [bkapi-plugins-py]: success
 [2023-07-27 02:41:34] INFO root fetch - main [MainThread]: Store serial: [19051426]
+[2023-07-27 02:46:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19051426]
+[2023-07-27 02:46:42] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-27 02:46:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: latinex-sdk
+[2023-07-27 02:46:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: edc-auth
+[2023-07-27 02:46:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: injector
+[2023-07-27 02:46:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: edc-constants
+[2023-07-27 02:46:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: anybomt
+[2023-07-27 02:46:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-comprehend-s3olap
+[2023-07-27 02:46:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: our1314
+[2023-07-27 02:46:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: edc-crf
+[2023-07-27 02:46:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tfds-nightly
+[2023-07-27 02:46:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: otter-service
+[2023-07-27 02:46:42] INFO root fetch - processPackages [edc-auth]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-27 02:46:42] INFO root fetch - processPackages [latinex-sdk]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-27 02:46:42] INFO root fetch - processPackages [edc-constants]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-27 02:46:42] INFO root fetch - processPackages [anybomt]: New version: [0.2.2] Old Version: [0.2.0]
+[2023-07-27 02:46:42] INFO root fetch - processPackages [our1314]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-27 02:46:42] INFO root fetch - processPackages [edc-crf]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-27 02:46:42] INFO root fetch - processPackages [injector]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-27 02:46:42] INFO root fetch - processPackages [otter-service]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-27 02:46:42] INFO root fetch - processPackages [tfds-nightly]: New version: [4.9.2.dev202307260045] Old Version: [4.9.2.dev202307250045]
+[2023-07-27 02:46:42] INFO root fetch - processPackages [cdk-comprehend-s3olap]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-27 02:46:43] INFO root fetch - processPackages [our1314]: Downloading https://files.pythonhosted.org/packages/dd/4b/fb5c04b974e954182b3b8adc3e38e4ac4deefd1c4e9afd25ee21a6fd4dd7/our1314-0.1.8.tar.gz
+[2023-07-27 02:46:43] INFO root fetch - processPackages [latinex-sdk]: Downloading https://files.pythonhosted.org/packages/4f/1e/7212e89fe5ceb569b61da25d3747404a4d4dec6a8d518c654f8e1de13b74/latinex_sdk-0.1.4.tar.gz
+[2023-07-27 02:46:43] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/72/32/d83c471dafc1d126bfd1e20922016bbe9615e403cb82598584afcd7225b5/tfds-nightly-4.9.2.dev202307250045.tar.gz
+[2023-07-27 02:46:43] INFO root fetch - processPackages [edc-crf]: Downloading https://files.pythonhosted.org/packages/9f/43/46d337ba0341ece46f0a66fee395d021c6f03113afeb7fdf40b3ce1e5401/edc_crf-0.3.8-py3-none-any.whl
+[2023-07-27 02:46:43] INFO root fetch - processPackages [edc-auth]: Downloading https://files.pythonhosted.org/packages/c4/50/dda687f1b63b07640e69d4d9bff6d375bae86f1c4b27b5046c322ede21cf/edc_auth-0.3.8-py2.py3-none-any.whl
+[2023-07-27 02:46:43] INFO root fetch - processPackages [otter-service]: Downloading https://files.pythonhosted.org/packages/b9/ba/6551c70a4a4b011cdb473e01569522f55d2ee7e22d53d5874bb20531b912/otter_service-0.2.8.tar.gz
+[2023-07-27 02:46:43] INFO root fetch - processPackages [cdk-comprehend-s3olap]: Downloading https://files.pythonhosted.org/packages/d2/64/ec00fce58a2563fe9a768f5ee5a77ecba74bfccf89b1ec489306be4a20a8/cdk_comprehend_s3olap-2.0.98.tar.gz
+[2023-07-27 02:46:43] INFO root fetch - processPackages [edc-constants]: Downloading https://files.pythonhosted.org/packages/e1/6e/b8edf4ad6fa5549d1b7e98a9cf2c8b4dc3242215cb886aaef19b64a9ccf9/edc_constants-0.3.8-py3-none-any.whl
+[2023-07-27 02:46:43] INFO root fetch - processPackages [injector]: Downloading https://files.pythonhosted.org/packages/a8/57/17b47b016f68d36358625198103aa3380260343b069f063ff0cd8830503c/injector-0.9.0.tar.gz
+[2023-07-27 02:46:43] INFO root fetch - processPackages [anybomt]: Downloading https://files.pythonhosted.org/packages/25/cc/fc68944340db7a9d596f04864dc01909086e87a5dc972303661be3a57943/anybomt-0.2.0.tar.gz
+[2023-07-27 02:46:43] WARNING root fetch - processPackages [cdk-comprehend-s3olap]: Skipping package: exceeds size limit 14179128>=10485760
+[2023-07-27 02:46:43] INFO root fetch - main [MainThread]: End processing [cdk-comprehend-s3olap] error
+[2023-07-27 02:46:43] INFO root fetch - processPackages [our1314]: Downloading https://files.pythonhosted.org/packages/a5/2d/20df8e686de75225e2e8d244304dff78378aaf46c98f0a3357d326fe7000/our1314-0.1.9.tar.gz
+[2023-07-27 02:46:43] INFO root fetch - processPackages [otter-service]: Downloading https://files.pythonhosted.org/packages/fe/9b/6c765b06c984000c5a4e4b056f64bab0e80d6770ae7c10cba66127624997/otter_service-0.2.9.tar.gz
+[2023-07-27 02:46:43] INFO root fetch - processPackages [latinex-sdk]: Downloading https://files.pythonhosted.org/packages/ec/36/c4a9f298c167776cb4eca9fa897f9b1a436878095d67b7982f27e94c7b68/latinex_sdk-0.1.5.tar.gz
+[2023-07-27 02:46:43] INFO root fetch - processPackages [our1314]: executing diffoscope
+[2023-07-27 02:46:43] INFO root fetch - processPackages [our1314]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/our1314-0.1.8.tar.gz tmp/our1314-0.1.9.tar.gz --markdown 20230727/o/our1314/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-27 02:46:43] INFO root fetch - processPackages [otter-service]: executing diffoscope
+[2023-07-27 02:46:43] INFO root fetch - processPackages [otter-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otter_service-0.2.8.tar.gz tmp/otter_service-0.2.9.tar.gz --markdown 20230727/o/otter-service/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-27 02:46:43] INFO root fetch - processPackages [latinex-sdk]: executing diffoscope
+[2023-07-27 02:46:43] INFO root fetch - processPackages [latinex-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latinex_sdk-0.1.4.tar.gz tmp/latinex_sdk-0.1.5.tar.gz --markdown 20230727/l/latinex-sdk/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-27 02:46:43] INFO root fetch - processPackages [edc-constants]: Downloading https://files.pythonhosted.org/packages/a5/d1/9988cdbdb1f2e472539d91e620b2b13a958a8e477c1da4b977ad8aa7e185/edc_constants-0.3.9-py3-none-any.whl
+[2023-07-27 02:46:43] INFO root fetch - processPackages [injector]: Downloading https://files.pythonhosted.org/packages/81/05/686e8617cbc1668614710af6d6aceded912f15d70be5b2926af10354d960/injector-0.9.1.tar.gz
+[2023-07-27 02:46:43] INFO root fetch - processPackages [anybomt]: Downloading https://files.pythonhosted.org/packages/dd/8e/c058613b41bfdff4678e514b577dec8a388dc59320c389ca1797b349a5f6/anybomt-0.2.2.tar.gz
+[2023-07-27 02:46:43] INFO root fetch - processPackages [edc-crf]: Downloading https://files.pythonhosted.org/packages/b6/a7/7e05c659d42d9ae792cb30294e365867a55188a3ac718ae22613a5b641d5/edc_crf-0.3.9-py3-none-any.whl
+[2023-07-27 02:46:43] INFO root fetch - processPackages [edc-auth]: Downloading https://files.pythonhosted.org/packages/63/36/404b92dd95bce03bc0fafd2cf5a0f3e72bc2176ca44f89ee75c57f685864/edc_auth-0.3.9-py2.py3-none-any.whl
+[2023-07-27 02:46:43] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/c1/ac/14303581638e7dbebf0ad85b7f8d5719a200101a866ff20e86830a4f9204/tfds-nightly-4.9.2.dev202307260045.tar.gz
+[2023-07-27 02:46:43] INFO root fetch - processPackages [edc-constants]: executing diffoscope
+[2023-07-27 02:46:43] INFO root fetch - processPackages [anybomt]: executing diffoscope
+[2023-07-27 02:46:43] INFO root fetch - processPackages [edc-constants]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_constants-0.3.8-py3-none-any.whl.zip tmp/edc_constants-0.3.9-py3-none-any.whl.zip --markdown 20230727/e/edc-constants/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-27 02:46:43] INFO root fetch - processPackages [anybomt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anybomt-0.2.0.tar.gz tmp/anybomt-0.2.2.tar.gz --markdown 20230727/a/anybomt/0.2.0-0.2.2/diff.md --exclude *.pyd
+[2023-07-27 02:46:43] INFO root fetch - processPackages [injector]: executing diffoscope
+[2023-07-27 02:46:43] INFO root fetch - processPackages [injector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/injector-0.9.0.tar.gz tmp/injector-0.9.1.tar.gz --markdown 20230727/i/injector/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-27 02:46:43] INFO root fetch - processPackages [edc-crf]: executing diffoscope
+[2023-07-27 02:46:43] INFO root fetch - processPackages [edc-crf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_crf-0.3.8-py3-none-any.whl.zip tmp/edc_crf-0.3.9-py3-none-any.whl.zip --markdown 20230727/e/edc-crf/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-27 02:46:43] INFO root fetch - processPackages [edc-auth]: executing diffoscope
+[2023-07-27 02:46:43] INFO root fetch - processPackages [edc-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_auth-0.3.8-py2.py3-none-any.whl.zip tmp/edc_auth-0.3.9-py2.py3-none-any.whl.zip --markdown 20230727/e/edc-auth/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-27 02:46:44] INFO root fetch - processPackages [tfds-nightly]: executing diffoscope
+[2023-07-27 02:46:44] INFO root fetch - processPackages [tfds-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfds-nightly-4.9.2.dev202307250045.tar.gz tmp/tfds-nightly-4.9.2.dev202307260045.tar.gz --markdown 20230727/t/tfds-nightly/4.9.2.dev202307250045-4.9.2.dev202307260045/diff.md --exclude *.pyd
+[2023-07-27 02:46:44] INFO root fetch - processPackages [our1314]: Remove: archive file [/home/abi/fetcher/tmp/our1314-0.1.8.tar.gz]
+[2023-07-27 02:46:44] INFO root fetch - processPackages [our1314]: Remove: archive file [/home/abi/fetcher/tmp/our1314-0.1.9.tar.gz]
+[2023-07-27 02:46:44] INFO root fetch - main [MainThread]: End processing [our1314]: success
+[2023-07-27 02:46:44] INFO root fetch - processPackages [latinex-sdk]: Remove: archive file [/home/abi/fetcher/tmp/latinex_sdk-0.1.4.tar.gz]
+[2023-07-27 02:46:44] INFO root fetch - processPackages [latinex-sdk]: Remove: archive file [/home/abi/fetcher/tmp/latinex_sdk-0.1.5.tar.gz]
+[2023-07-27 02:46:44] INFO root fetch - main [MainThread]: End processing [latinex-sdk]: success
+[2023-07-27 02:46:44] INFO root fetch - processPackages [otter-service]: Remove: archive file [/home/abi/fetcher/tmp/otter_service-0.2.8.tar.gz]
+[2023-07-27 02:46:44] INFO root fetch - processPackages [otter-service]: Remove: archive file [/home/abi/fetcher/tmp/otter_service-0.2.9.tar.gz]
+[2023-07-27 02:46:44] INFO root fetch - main [MainThread]: End processing [otter-service]: success
+[2023-07-27 02:46:45] INFO root fetch - processPackages [edc-constants]: Remove: archive file [/home/abi/fetcher/tmp/edc_constants-0.3.8-py3-none-any.whl.zip]
+[2023-07-27 02:46:45] INFO root fetch - processPackages [edc-constants]: Remove: archive file [/home/abi/fetcher/tmp/edc_constants-0.3.9-py3-none-any.whl.zip]
+[2023-07-27 02:46:45] INFO root fetch - main [MainThread]: End processing [edc-constants]: success
+[2023-07-27 02:46:45] INFO root fetch - processPackages [injector]: Remove: archive file [/home/abi/fetcher/tmp/injector-0.9.0.tar.gz]
+[2023-07-27 02:46:45] INFO root fetch - processPackages [injector]: Remove: archive file [/home/abi/fetcher/tmp/injector-0.9.1.tar.gz]
+[2023-07-27 02:46:45] INFO root fetch - main [MainThread]: End processing [injector]: success
+[2023-07-27 02:46:45] INFO root fetch - processPackages [anybomt]: Remove: archive file [/home/abi/fetcher/tmp/anybomt-0.2.0.tar.gz]
+[2023-07-27 02:46:45] INFO root fetch - processPackages [anybomt]: Remove: archive file [/home/abi/fetcher/tmp/anybomt-0.2.2.tar.gz]
+[2023-07-27 02:46:45] INFO root fetch - main [MainThread]: End processing [anybomt]: success
+[2023-07-27 02:46:45] INFO root fetch - processPackages [edc-auth]: Remove: archive file [/home/abi/fetcher/tmp/edc_auth-0.3.8-py2.py3-none-any.whl.zip]
+[2023-07-27 02:46:45] INFO root fetch - processPackages [edc-auth]: Remove: archive file [/home/abi/fetcher/tmp/edc_auth-0.3.9-py2.py3-none-any.whl.zip]
+[2023-07-27 02:46:45] INFO root fetch - main [MainThread]: End processing [edc-auth]: success
+[2023-07-27 02:46:45] INFO root fetch - processPackages [edc-crf]: Remove: archive file [/home/abi/fetcher/tmp/edc_crf-0.3.8-py3-none-any.whl.zip]
+[2023-07-27 02:46:45] INFO root fetch - processPackages [edc-crf]: Remove: archive file [/home/abi/fetcher/tmp/edc_crf-0.3.9-py3-none-any.whl.zip]
+[2023-07-27 02:46:45] INFO root fetch - main [MainThread]: End processing [edc-crf]: success
+[2023-07-27 02:46:50] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202307250045.tar.gz]
+[2023-07-27 02:46:50] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202307260045.tar.gz]
+[2023-07-27 02:46:50] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
+[2023-07-27 02:46:50] INFO root fetch - main [MainThread]: Store serial: [19051463]
