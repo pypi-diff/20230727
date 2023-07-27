@@ -3238,3 +3238,120 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-27 02:46:50] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202307260045.tar.gz]
 [2023-07-27 02:46:50] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
 [2023-07-27 02:46:50] INFO root fetch - main [MainThread]: Store serial: [19051463]
+[2023-07-27 02:51:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19051463]
+[2023-07-27 02:51:58] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-27 02:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: latinex-sdk
+[2023-07-27 02:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: airbyte
+[2023-07-27 02:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kubric-nightly
+[2023-07-27 02:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: edc-export
+[2023-07-27 02:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: landingai
+[2023-07-27 02:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kfp-dsl
+[2023-07-27 02:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dipdup
+[2023-07-27 02:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: agentgpt
+[2023-07-27 02:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk-databrew-cicd
+[2023-07-27 02:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pbu
+[2023-07-27 02:51:59] INFO root fetch - processPackages [edc-export]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-07-27 02:51:59] INFO root fetch - processPackages [latinex-sdk]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-27 02:51:59] WARNING root fetch - processPackages [kfp-dsl]: Skipping, unable to determine old version
+[2023-07-27 02:51:59] INFO root fetch - processPackages [kfp-dsl]: Start processing: TorchSUL
+[2023-07-27 02:51:59] INFO root fetch - main [MainThread]: End processing [kfp-dsl] error
+[2023-07-27 02:51:59] INFO root fetch - processPackages [pbu]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-27 02:51:59] WARNING root fetch - processPackages [agentgpt]: Skipping, unable to determine old version
+[2023-07-27 02:51:59] INFO root fetch - processPackages [agentgpt]: Start processing: usefulgram
+[2023-07-27 02:51:59] INFO root fetch - main [MainThread]: End processing [agentgpt] error
+[2023-07-27 02:51:59] INFO root fetch - processPackages [airbyte]: New version: [1.9.3] Old Version: [1.9.2]
+[2023-07-27 02:51:59] INFO root fetch - processPackages [landingai]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-27 02:51:59] INFO root fetch - processPackages [usefulgram]: New version: [0.0.0a6] Old Version: [0.0.0a5]
+[2023-07-27 02:51:59] INFO root fetch - processPackages [dipdup]: New version: [7.0.0rc2] Old Version: [7.0.0rc1]
+[2023-07-27 02:51:59] INFO root fetch - processPackages [cdk-databrew-cicd]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-27 02:51:59] INFO root fetch - processPackages [TorchSUL]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-27 02:51:59] INFO root fetch - processPackages [kubric-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-27 02:51:59] INFO root fetch - processPackages [landingai]: Downloading https://files.pythonhosted.org/packages/bc/c0/71eef7e0f41b4a8a1e9500693e4380635b9d17e959fbda8bd8ff906c519e/landingai-0.2.8.tar.gz
+[2023-07-27 02:51:59] INFO root fetch - processPackages [usefulgram]: Downloading https://files.pythonhosted.org/packages/f2/d2/e00e1098576510320875a2f1fc5cb3be5d05c6cd586e9fad3bad06169934/usefulgram-0.0.0a5.tar.gz
+[2023-07-27 02:51:59] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/9c/18/acad9d22fe20a13d93a1aee49739981e3ab739a2edcb478344aa0fc5b783/cdk_databrew_cicd-2.0.98.tar.gz
+[2023-07-27 02:51:59] INFO root fetch - processPackages [latinex-sdk]: Downloading https://files.pythonhosted.org/packages/ec/36/c4a9f298c167776cb4eca9fa897f9b1a436878095d67b7982f27e94c7b68/latinex_sdk-0.1.5.tar.gz
+[2023-07-27 02:51:59] INFO root fetch - processPackages [pbu]: Downloading https://files.pythonhosted.org/packages/16/a4/ff69e56dfc320f49a4ea879f1d866579f10157aa5da918201ec178beac75/pbu-1.1.1.tar.gz
+[2023-07-27 02:51:59] INFO root fetch - processPackages [edc-export]: Downloading https://files.pythonhosted.org/packages/54/bf/546e613c95646829058880d98eefb65fcd6856ed0b54ed989131668bca3f/edc-export-0.3.7.tar.gz
+[2023-07-27 02:51:59] INFO root fetch - processPackages [dipdup]: Downloading https://files.pythonhosted.org/packages/a1/bf/09d3e4c554f45d7440fdf4ed7ef80513e405db275e94388b4d5622af80f1/dipdup-7.0.0rc1.tar.gz
+[2023-07-27 02:51:59] INFO root fetch - processPackages [TorchSUL]: Downloading https://files.pythonhosted.org/packages/a7/f6/e6da76ffcceaaa9b56d47bd1256c7b8cf9ccb78777f1a44e5dd2ae1f32e4/TorchSUL-0.2.1.tar.gz
+[2023-07-27 02:51:59] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/bf/45/efe5ab87889959326f80b81945414a41c438fa00b255ffe28308ecb3b52b/kubric-nightly-2023.7.8.tar.gz
+[2023-07-27 02:51:59] INFO root fetch - processPackages [airbyte]: Downloading https://files.pythonhosted.org/packages/95/09/eea230e893ab55370e867c76f081945c8f60016ebdb0b385d9f077a4fc0c/airbyte-1.9.2.tar.gz
+[2023-07-27 02:51:59] INFO root fetch - processPackages [usefulgram]: Downloading https://files.pythonhosted.org/packages/b7/0d/e4c04b0c5b8ecdddfd8629bc9d1a2670834a84b88c889366e346619f9a91/usefulgram-0.0.0a6.tar.gz
+[2023-07-27 02:51:59] INFO root fetch - processPackages [latinex-sdk]: Downloading https://files.pythonhosted.org/packages/ef/09/abea71951d92d729efdbbbb4567bc5c311a4e2c43a1a4943d473028bd053/latinex_sdk-0.1.6.tar.gz
+[2023-07-27 02:51:59] INFO root fetch - processPackages [landingai]: Downloading https://files.pythonhosted.org/packages/ea/3f/715b25bf04d5b0a3ce1ac88585fd0936b894706f86e810287e4d079fab4d/landingai-0.2.9.tar.gz
+[2023-07-27 02:51:59] INFO root fetch - processPackages [pbu]: Downloading https://files.pythonhosted.org/packages/39/40/563bdffe224e4218a8049e9764e0c78542edd3fbbb7dbc96b89f24de7188/pbu-1.1.2.tar.gz
+[2023-07-27 02:52:00] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/66/41/4c5089b171b28b627753bb3de1b4b696fdaeb4f78ef49dcb72a79fcb6e9d/cdk_databrew_cicd-2.0.99.tar.gz
+[2023-07-27 02:52:00] INFO root fetch - processPackages [edc-export]: Downloading https://files.pythonhosted.org/packages/f1/e1/b25a4518013301e7ea2fda91e1862c6e14878c736bb1369bdd42d4ec974c/edc-export-0.3.8.tar.gz
+[2023-07-27 02:52:00] INFO root fetch - processPackages [TorchSUL]: Downloading https://files.pythonhosted.org/packages/71/11/fea34da7e6e72f58c794a4eeb70413fbcc4f2a53dbc40d2c7f85dfa2b500/TorchSUL-0.2.2.tar.gz
+[2023-07-27 02:52:00] INFO root fetch - processPackages [landingai]: executing diffoscope
+[2023-07-27 02:52:00] INFO root fetch - processPackages [landingai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/landingai-0.2.8.tar.gz tmp/landingai-0.2.9.tar.gz --markdown 20230727/l/landingai/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-27 02:52:00] INFO root fetch - processPackages [usefulgram]: executing diffoscope
+[2023-07-27 02:52:00] INFO root fetch - processPackages [usefulgram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usefulgram-0.0.0a5.tar.gz tmp/usefulgram-0.0.0a6.tar.gz --markdown 20230727/u/usefulgram/0.0.0a5-0.0.0a6/diff.md --exclude *.pyd
+[2023-07-27 02:52:00] INFO root fetch - processPackages [latinex-sdk]: executing diffoscope
+[2023-07-27 02:52:00] INFO root fetch - processPackages [latinex-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latinex_sdk-0.1.5.tar.gz tmp/latinex_sdk-0.1.6.tar.gz --markdown 20230727/l/latinex-sdk/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-27 02:52:00] INFO root fetch - processPackages [airbyte]: Downloading https://files.pythonhosted.org/packages/c8/0f/877b6add49894978bf75b52f0cac1579d618edd3403e2547fc5a23f4705e/airbyte-1.9.3.tar.gz
+[2023-07-27 02:52:00] INFO root fetch - processPackages [TorchSUL]: executing diffoscope
+[2023-07-27 02:52:00] INFO root fetch - processPackages [edc-export]: executing diffoscope
+[2023-07-27 02:52:00] INFO root fetch - processPackages [TorchSUL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TorchSUL-0.2.1.tar.gz tmp/TorchSUL-0.2.2.tar.gz --markdown 20230727/T/TorchSUL/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-27 02:52:00] INFO root fetch - processPackages [edc-export]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-export-0.3.7.tar.gz tmp/edc-export-0.3.8.tar.gz --markdown 20230727/e/edc-export/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-07-27 02:52:00] INFO root fetch - processPackages [dipdup]: Downloading https://files.pythonhosted.org/packages/c7/5f/42b5ea1a211d99bd325a333a884f27d8d507827e7a53b8937e55e45549e6/dipdup-7.0.0rc2.tar.gz
+[2023-07-27 02:52:00] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/bb/cd/24a7d0673a40d4a2ccf50e8e9298594da4b918433ca23a33d7273fcb6871/kubric-nightly-2023.7.9.tar.gz
+[2023-07-27 02:52:00] INFO root fetch - processPackages [pbu]: executing diffoscope
+[2023-07-27 02:52:00] INFO root fetch - processPackages [pbu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pbu-1.1.1.tar.gz tmp/pbu-1.1.2.tar.gz --markdown 20230727/p/pbu/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-27 02:52:00] INFO root fetch - processPackages [cdk-databrew-cicd]: executing diffoscope
+[2023-07-27 02:52:00] INFO root fetch - processPackages [cdk-databrew-cicd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_databrew_cicd-2.0.98.tar.gz tmp/cdk_databrew_cicd-2.0.99.tar.gz --markdown 20230727/c/cdk-databrew-cicd/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-27 02:52:00] INFO root fetch - processPackages [airbyte]: executing diffoscope
+[2023-07-27 02:52:00] INFO root fetch - processPackages [airbyte]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-1.9.2.tar.gz tmp/airbyte-1.9.3.tar.gz --markdown 20230727/a/airbyte/1.9.2-1.9.3/diff.md --exclude *.pyd
+[2023-07-27 02:52:00] INFO root fetch - processPackages [kubric-nightly]: executing diffoscope
+[2023-07-27 02:52:00] INFO root fetch - processPackages [kubric-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubric-nightly-2023.7.8.tar.gz tmp/kubric-nightly-2023.7.9.tar.gz --markdown 20230727/k/kubric-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-27 02:52:00] INFO root fetch - processPackages [dipdup]: executing diffoscope
+[2023-07-27 02:52:00] INFO root fetch - processPackages [dipdup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dipdup-7.0.0rc1.tar.gz tmp/dipdup-7.0.0rc2.tar.gz --markdown 20230727/d/dipdup/7.0.0rc1-7.0.0rc2/diff.md --exclude *.pyd
+[2023-07-27 02:52:01] INFO root fetch - processPackages [latinex-sdk]: Remove: archive file [/home/abi/fetcher/tmp/latinex_sdk-0.1.5.tar.gz]
+[2023-07-27 02:52:01] INFO root fetch - processPackages [latinex-sdk]: Remove: archive file [/home/abi/fetcher/tmp/latinex_sdk-0.1.6.tar.gz]
+[2023-07-27 02:52:01] INFO root fetch - processPackages [latinex-sdk]: Start processing: pepperize.cdk-organizations
+[2023-07-27 02:52:01] INFO root fetch - main [MainThread]: End processing [latinex-sdk]: success
+[2023-07-27 02:52:01] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-07-27 02:52:01] INFO root fetch - processPackages [usefulgram]: Remove: archive file [/home/abi/fetcher/tmp/usefulgram-0.0.0a5.tar.gz]
+[2023-07-27 02:52:01] INFO root fetch - processPackages [usefulgram]: Remove: archive file [/home/abi/fetcher/tmp/usefulgram-0.0.0a6.tar.gz]
+[2023-07-27 02:52:01] INFO root fetch - processPackages [usefulgram]: Start processing: edc-locator
+[2023-07-27 02:52:01] INFO root fetch - main [MainThread]: End processing [usefulgram]: success
+[2023-07-27 02:52:01] INFO root fetch - processPackages [landingai]: Remove: archive file [/home/abi/fetcher/tmp/landingai-0.2.8.tar.gz]
+[2023-07-27 02:52:01] INFO root fetch - processPackages [landingai]: Remove: archive file [/home/abi/fetcher/tmp/landingai-0.2.9.tar.gz]
+[2023-07-27 02:52:01] INFO root fetch - main [MainThread]: End processing [landingai]: success
+[2023-07-27 02:52:02] INFO root fetch - processPackages [pbu]: Remove: archive file [/home/abi/fetcher/tmp/pbu-1.1.1.tar.gz]
+[2023-07-27 02:52:02] INFO root fetch - processPackages [pbu]: Remove: archive file [/home/abi/fetcher/tmp/pbu-1.1.2.tar.gz]
+[2023-07-27 02:52:02] INFO root fetch - main [MainThread]: End processing [pbu]: success
+[2023-07-27 02:52:02] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.98.tar.gz]
+[2023-07-27 02:52:02] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.99.tar.gz]
+[2023-07-27 02:52:02] INFO root fetch - main [MainThread]: End processing [cdk-databrew-cicd]: success
+[2023-07-27 02:52:02] INFO root fetch - processPackages [edc-locator]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-27 02:52:02] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/c4/ec/fa2c14031b7b9ce22e4b044c652dd13a1a81769141fcd90e55c9eeb24d66/pepperize.cdk-organizations-0.7.98.tar.gz
+[2023-07-27 02:52:02] INFO root fetch - processPackages [TorchSUL]: Remove: archive file [/home/abi/fetcher/tmp/TorchSUL-0.2.1.tar.gz]
+[2023-07-27 02:52:02] INFO root fetch - processPackages [TorchSUL]: Remove: archive file [/home/abi/fetcher/tmp/TorchSUL-0.2.2.tar.gz]
+[2023-07-27 02:52:02] INFO root fetch - main [MainThread]: End processing [TorchSUL]: success
+[2023-07-27 02:52:02] INFO root fetch - processPackages [edc-locator]: Downloading https://files.pythonhosted.org/packages/23/dc/5dfe8e311dc347218bf82960648dd9859311bda95f3734940080bbee8770/edc_locator-0.3.8-py3-none-any.whl
+[2023-07-27 02:52:02] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/12/45/1106cc30844f7f4d96f7898a6ef3647d24a597c297bab995920a5915750e/pepperize.cdk-organizations-0.7.99.tar.gz
+[2023-07-27 02:52:02] INFO root fetch - processPackages [edc-export]: Remove: archive file [/home/abi/fetcher/tmp/edc-export-0.3.7.tar.gz]
+[2023-07-27 02:52:02] INFO root fetch - processPackages [edc-export]: Remove: archive file [/home/abi/fetcher/tmp/edc-export-0.3.8.tar.gz]
+[2023-07-27 02:52:02] INFO root fetch - main [MainThread]: End processing [edc-export]: success
+[2023-07-27 02:52:02] INFO root fetch - processPackages [kubric-nightly]: Remove: archive file [/home/abi/fetcher/tmp/kubric-nightly-2023.7.8.tar.gz]
+[2023-07-27 02:52:02] INFO root fetch - processPackages [kubric-nightly]: Remove: archive file [/home/abi/fetcher/tmp/kubric-nightly-2023.7.9.tar.gz]
+[2023-07-27 02:52:02] INFO root fetch - main [MainThread]: End processing [kubric-nightly]: success
+[2023-07-27 02:52:02] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-07-27 02:52:02] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230727/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-07-27 02:52:02] INFO root fetch - processPackages [edc-locator]: Downloading https://files.pythonhosted.org/packages/8d/89/63cfcd98d138c00cbdb907bc1bf53adc8d3af73e2a79ce70d1e6deccd71a/edc_locator-0.3.9-py3-none-any.whl
+[2023-07-27 02:52:02] INFO root fetch - processPackages [edc-locator]: executing diffoscope
+[2023-07-27 02:52:02] INFO root fetch - processPackages [edc-locator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_locator-0.3.8-py3-none-any.whl.zip tmp/edc_locator-0.3.9-py3-none-any.whl.zip --markdown 20230727/e/edc-locator/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-27 02:52:03] INFO root fetch - processPackages [airbyte]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-1.9.2.tar.gz]
+[2023-07-27 02:52:03] INFO root fetch - processPackages [airbyte]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-1.9.3.tar.gz]
+[2023-07-27 02:52:03] INFO root fetch - main [MainThread]: End processing [airbyte]: success
+[2023-07-27 02:52:03] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.98.tar.gz]
+[2023-07-27 02:52:03] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.99.tar.gz]
+[2023-07-27 02:52:03] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-07-27 02:52:03] INFO root fetch - processPackages [edc-locator]: Remove: archive file [/home/abi/fetcher/tmp/edc_locator-0.3.8-py3-none-any.whl.zip]
+[2023-07-27 02:52:03] INFO root fetch - processPackages [edc-locator]: Remove: archive file [/home/abi/fetcher/tmp/edc_locator-0.3.9-py3-none-any.whl.zip]
+[2023-07-27 02:52:03] INFO root fetch - main [MainThread]: End processing [edc-locator]: success
+[2023-07-27 02:52:45] INFO root fetch - processPackages [dipdup]: Remove: archive file [/home/abi/fetcher/tmp/dipdup-7.0.0rc1.tar.gz]
+[2023-07-27 02:52:45] INFO root fetch - processPackages [dipdup]: Remove: archive file [/home/abi/fetcher/tmp/dipdup-7.0.0rc2.tar.gz]
+[2023-07-27 02:52:45] INFO root fetch - main [MainThread]: End processing [dipdup]: success
+[2023-07-27 02:52:45] INFO root fetch - main [MainThread]: Store serial: [19051509]
