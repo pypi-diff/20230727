@@ -22357,3 +22357,138 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-27 12:34:49] INFO root fetch - processPackages [savant-rs-etcd-dynamic-state]: Remove: archive file [/home/abi/fetcher/tmp/savant_rs_etcd_dynamic_state-0.1.37-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-07-27 12:34:49] INFO root fetch - main [MainThread]: End processing [savant-rs-etcd-dynamic-state]: success
 [2023-07-27 12:34:49] INFO root fetch - main [MainThread]: Store serial: [19058566]
+[2023-07-27 12:40:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19058566]
+[2023-07-27 12:40:09] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-27 12:40:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cfstack
+[2023-07-27 12:40:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xmlib-to-git
+[2023-07-27 12:40:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rustack-esu
+[2023-07-27 12:40:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: readyocr
+[2023-07-27 12:40:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: csvcubed
+[2023-07-27 12:40:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pydivkit
+[2023-07-27 12:40:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: test-library-sina
+[2023-07-27 12:40:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-dkron-dev
+[2023-07-27 12:40:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ragas
+[2023-07-27 12:40:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vern
+[2023-07-27 12:40:09] INFO root fetch - processPackages [rustack-esu]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-27 12:40:09] INFO root fetch - processPackages [xmlib-to-git]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-07-27 12:40:09] INFO root fetch - processPackages [test-library-sina]: New version: [1.3.1] Old Version: [1.2.1]
+[2023-07-27 12:40:09] INFO root fetch - processPackages [cfstack]: New version: [1.2.1] Old Version: [1.1.9]
+[2023-07-27 12:40:09] INFO root fetch - processPackages [readyocr]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-27 12:40:09] INFO root fetch - processPackages [pydivkit]: New version: [26.2.1] Old Version: [26.2.0]
+[2023-07-27 12:40:09] INFO root fetch - processPackages [ragas]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-27 12:40:09] INFO root fetch - processPackages [csvcubed]: New version: [0.4.7] Old Version: [0.4.6]
+[2023-07-27 12:40:09] INFO root fetch - processPackages [django-dkron-dev]: New version: [0.9] Old Version: [0.8]
+[2023-07-27 12:40:09] INFO root fetch - processPackages [vern]: New version: [1.3.9b0] Old Version: [1.3.8b0]
+[2023-07-27 12:40:10] INFO root fetch - processPackages [xmlib-to-git]: Downloading https://files.pythonhosted.org/packages/17/10/2dfa1ba18294ff341d241a0435084dbc40878f6eb233dfa9eaa2daeb4faf/xmlib-to-git-1.0.6.tar.gz
+[2023-07-27 12:40:10] INFO root fetch - processPackages [test-library-sina]: Downloading https://files.pythonhosted.org/packages/63/99/4ff5c241719da7dff3ade20e4b7035101b0e5e85aedb49f384ca687f8eeb/test_library_sina-1.2.1-py3-none-any.whl
+[2023-07-27 12:40:10] INFO root fetch - processPackages [django-dkron-dev]: Downloading https://files.pythonhosted.org/packages/1b/46/ae043d0ebdfabd0a58fe5e43692726603324d6a390e303099ab6ff4ef25c/django-dkron-dev-0.8.tar.gz
+[2023-07-27 12:40:10] INFO root fetch - processPackages [rustack-esu]: Downloading https://files.pythonhosted.org/packages/7b/65/4fef2fcfe62f7249cd3f245549a6dfb7897bae5ab8a630444d44009f554b/rustack-esu-0.1.8.tar.gz
+[2023-07-27 12:40:10] INFO root fetch - processPackages [readyocr]: Downloading https://files.pythonhosted.org/packages/c0/29/14e71ef7cbc2bb63eb3a7dde19b1d0261a548da80fc6f233f4cdf0b5ee8c/readyocr-0.0.8.tar.gz
+[2023-07-27 12:40:10] INFO root fetch - processPackages [csvcubed]: Downloading https://files.pythonhosted.org/packages/87/07/5bd219317b06e56a1acff9041aa023851872a6b5baefb8cc6fdd09c9b85e/csvcubed-0.4.6-py3-none-any.whl
+[2023-07-27 12:40:10] INFO root fetch - processPackages [cfstack]: Downloading https://files.pythonhosted.org/packages/a7/6d/57b08557a2bcd9b11ea42cd789625eb391134560eb28a049f444aed4c531/cfstack-1.1.9.tar.gz
+[2023-07-27 12:40:10] INFO root fetch - processPackages [pydivkit]: Downloading https://files.pythonhosted.org/packages/af/0b/013b69220d9891613e05ca027feb0a9c9601d0c443744e2c967879fe226a/pydivkit-26.2.0.tar.gz
+[2023-07-27 12:40:10] INFO root fetch - processPackages [vern]: Downloading https://files.pythonhosted.org/packages/b7/42/d30ccee830eb2a3e9ebbba795a7c7383f2a5ad9dd58b2867b6848818bb8a/vern-1.3.8b0.tar.gz
+[2023-07-27 12:40:10] INFO root fetch - processPackages [ragas]: Downloading https://files.pythonhosted.org/packages/7a/cf/4bc5d8016df466c72df566d47eecaa8e02cd2b6ba3fe84ad0f9dcfb33a5f/ragas-0.0.7.tar.gz
+[2023-07-27 12:40:10] INFO root fetch - processPackages [test-library-sina]: Downloading https://files.pythonhosted.org/packages/8d/f0/ee86f4125e44cb297db7778c86e4cc20663df17616341d057823be46c13e/test-library-sina-1.3.1.tar.gz
+[2023-07-27 12:40:10] INFO root fetch - processPackages [xmlib-to-git]: Downloading https://files.pythonhosted.org/packages/e8/c2/8089aae18a6ca9861dc017b3396f5e5ba31a443e0006acc07afba23264f2/xmlib_to_git-1.0.7-py3-none-any.whl
+[2023-07-27 12:40:10] INFO root fetch - processPackages [csvcubed]: Downloading https://files.pythonhosted.org/packages/3d/c9/6d6cc1a156bac6c5177cdf6c62e6c73c6aa3ff0f19b49f5442fd690a5d95/csvcubed-0.4.7-py3-none-any.whl
+[2023-07-27 12:40:10] INFO root fetch - processPackages [django-dkron-dev]: Downloading https://files.pythonhosted.org/packages/d0/73/8904c848a71245f4eca60f849ed07b6b65be2b6d230b0f060ccdc3e69291/django-dkron-dev-0.9.tar.gz
+[2023-07-27 12:40:10] INFO root fetch - processPackages [test-library-sina]: executing diffoscope
+[2023-07-27 12:40:10] INFO root fetch - processPackages [test-library-sina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test_library_sina-1.2.1-py3-none-any.whl.zip tmp/test-library-sina-1.3.1.tar.gz --markdown 20230727/t/test-library-sina/1.2.1-1.3.1/diff.md --exclude *.pyd
+[2023-07-27 12:40:10] INFO root fetch - processPackages [cfstack]: Downloading https://files.pythonhosted.org/packages/e5/6c/65fbf3465663bc7175342c17b1ea9c1032c62c2f154245fa23e9b1cc6db3/cfstack-1.2.1.tar.gz
+[2023-07-27 12:40:10] INFO root fetch - processPackages [readyocr]: Downloading https://files.pythonhosted.org/packages/67/b0/34662554637d50f73b74973afb6ddfb4d9895b1fafbfa36c16d5764321fa/readyocr-0.0.9.tar.gz
+[2023-07-27 12:40:10] INFO root fetch - processPackages [rustack-esu]: Downloading https://files.pythonhosted.org/packages/c1/a6/a4c31adc30882b61636badd0e62ffe2109d3f30cd5cdcd364afa99a55e6b/rustack-esu-0.1.9.tar.gz
+[2023-07-27 12:40:10] INFO root fetch - processPackages [pydivkit]: Downloading https://files.pythonhosted.org/packages/0f/60/a86e824e56acbcd2a97a0a5122278c5d79c8f7eb873a948a81309ba81e01/pydivkit-26.2.1.tar.gz
+[2023-07-27 12:40:10] INFO root fetch - processPackages [ragas]: Downloading https://files.pythonhosted.org/packages/74/ad/d887a9b6dc483298274b6e60dea95169430b782cd135cdbdddbfc04482f3/ragas-0.0.8.tar.gz
+[2023-07-27 12:40:11] INFO root fetch - processPackages [vern]: Downloading https://files.pythonhosted.org/packages/a7/94/6287ab3e98a811ad29ae34054c34f5d22f4cc56bac2ef220bbbe1f8f1f42/vern-1.3.9b0.tar.gz
+[2023-07-27 12:40:11] INFO root fetch - processPackages [xmlib-to-git]: executing diffoscope
+[2023-07-27 12:40:11] INFO root fetch - processPackages [xmlib-to-git]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xmlib-to-git-1.0.6.tar.gz tmp/xmlib_to_git-1.0.7-py3-none-any.whl.zip --markdown 20230727/x/xmlib-to-git/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-07-27 12:40:11] INFO root fetch - processPackages [csvcubed]: executing diffoscope
+[2023-07-27 12:40:11] INFO root fetch - processPackages [csvcubed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csvcubed-0.4.6-py3-none-any.whl.zip tmp/csvcubed-0.4.7-py3-none-any.whl.zip --markdown 20230727/c/csvcubed/0.4.6-0.4.7/diff.md --exclude *.pyd
+[2023-07-27 12:40:11] INFO root fetch - processPackages [readyocr]: executing diffoscope
+[2023-07-27 12:40:11] INFO root fetch - processPackages [readyocr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readyocr-0.0.8.tar.gz tmp/readyocr-0.0.9.tar.gz --markdown 20230727/r/readyocr/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-27 12:40:11] INFO root fetch - processPackages [django-dkron-dev]: executing diffoscope
+[2023-07-27 12:40:11] INFO root fetch - processPackages [django-dkron-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-dkron-dev-0.8.tar.gz tmp/django-dkron-dev-0.9.tar.gz --markdown 20230727/d/django-dkron-dev/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-27 12:40:11] INFO root fetch - processPackages [pydivkit]: executing diffoscope
+[2023-07-27 12:40:11] INFO root fetch - processPackages [pydivkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydivkit-26.2.0.tar.gz tmp/pydivkit-26.2.1.tar.gz --markdown 20230727/p/pydivkit/26.2.0-26.2.1/diff.md --exclude *.pyd
+[2023-07-27 12:40:11] INFO root fetch - processPackages [ragas]: executing diffoscope
+[2023-07-27 12:40:11] INFO root fetch - processPackages [ragas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ragas-0.0.7.tar.gz tmp/ragas-0.0.8.tar.gz --markdown 20230727/r/ragas/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-27 12:40:11] INFO root fetch - processPackages [cfstack]: executing diffoscope
+[2023-07-27 12:40:11] INFO root fetch - processPackages [cfstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfstack-1.1.9.tar.gz tmp/cfstack-1.2.1.tar.gz --markdown 20230727/c/cfstack/1.1.9-1.2.1/diff.md --exclude *.pyd
+[2023-07-27 12:40:11] INFO root fetch - processPackages [rustack-esu]: executing diffoscope
+[2023-07-27 12:40:11] INFO root fetch - processPackages [rustack-esu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rustack-esu-0.1.8.tar.gz tmp/rustack-esu-0.1.9.tar.gz --markdown 20230727/r/rustack-esu/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-27 12:40:11] INFO root fetch - processPackages [vern]: executing diffoscope
+[2023-07-27 12:40:11] INFO root fetch - processPackages [vern]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vern-1.3.8b0.tar.gz tmp/vern-1.3.9b0.tar.gz --markdown 20230727/v/vern/1.3.8b0-1.3.9b0/diff.md --exclude *.pyd
+[2023-07-27 12:40:12] INFO root fetch - processPackages [test-library-sina]: Remove: archive file [/home/abi/fetcher/tmp/test_library_sina-1.2.1-py3-none-any.whl.zip]
+[2023-07-27 12:40:12] INFO root fetch - processPackages [test-library-sina]: Remove: archive file [/home/abi/fetcher/tmp/test-library-sina-1.3.1.tar.gz]
+[2023-07-27 12:40:12] INFO root fetch - processPackages [test-library-sina]: Start processing: wxai-langchain
+[2023-07-27 12:40:12] INFO root fetch - main [MainThread]: End processing [test-library-sina]: success
+[2023-07-27 12:40:12] WARNING root fetch - processPackages [wxai-langchain]: Skipping, unable to determine old version
+[2023-07-27 12:40:12] INFO root fetch - processPackages [wxai-langchain]: Start processing: har2tree
+[2023-07-27 12:40:12] INFO root fetch - main [MainThread]: End processing [wxai-langchain] error
+[2023-07-27 12:40:12] INFO root fetch - processPackages [har2tree]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-07-27 12:40:12] INFO root fetch - processPackages [xmlib-to-git]: Remove: archive file [/home/abi/fetcher/tmp/xmlib-to-git-1.0.6.tar.gz]
+[2023-07-27 12:40:12] INFO root fetch - processPackages [xmlib-to-git]: Remove: archive file [/home/abi/fetcher/tmp/xmlib_to_git-1.0.7-py3-none-any.whl.zip]
+[2023-07-27 12:40:12] INFO root fetch - processPackages [xmlib-to-git]: Start processing: clargs
+[2023-07-27 12:40:12] INFO root fetch - main [MainThread]: End processing [xmlib-to-git]: success
+[2023-07-27 12:40:12] INFO root fetch - processPackages [clargs]: New version: [0.6.0] Old Version: [0.5.3]
+[2023-07-27 12:40:12] INFO root fetch - processPackages [har2tree]: Downloading https://files.pythonhosted.org/packages/ab/1c/fa462b6fc68113b09310268a01e459e0c8d5e55039f3137af27181369e7a/har2tree-1.9.1.tar.gz
+[2023-07-27 12:40:12] INFO root fetch - processPackages [clargs]: Downloading https://files.pythonhosted.org/packages/31/dc/8d7e065017f98bb36108af8fdb7353382559037b8295cda1fad2a49240c7/clargs-0.5.3.tar.gz
+[2023-07-27 12:40:12] INFO root fetch - processPackages [har2tree]: Downloading https://files.pythonhosted.org/packages/d5/e7/2b2311330f353586a94cd7d47f1c1460458ed98491ec39c490b14a3955a0/har2tree-1.9.2.tar.gz
+[2023-07-27 12:40:13] INFO root fetch - processPackages [cfstack]: Remove: archive file [/home/abi/fetcher/tmp/cfstack-1.1.9.tar.gz]
+[2023-07-27 12:40:13] INFO root fetch - processPackages [cfstack]: Remove: archive file [/home/abi/fetcher/tmp/cfstack-1.2.1.tar.gz]
+[2023-07-27 12:40:13] INFO root fetch - processPackages [cfstack]: Start processing: oarepo-ui
+[2023-07-27 12:40:13] INFO root fetch - main [MainThread]: End processing [cfstack]: success
+[2023-07-27 12:40:13] INFO root fetch - processPackages [readyocr]: Remove: archive file [/home/abi/fetcher/tmp/readyocr-0.0.8.tar.gz]
+[2023-07-27 12:40:13] INFO root fetch - processPackages [readyocr]: Remove: archive file [/home/abi/fetcher/tmp/readyocr-0.0.9.tar.gz]
+[2023-07-27 12:40:13] INFO root fetch - processPackages [readyocr]: Start processing: morm
+[2023-07-27 12:40:13] INFO root fetch - main [MainThread]: End processing [readyocr]: success
+[2023-07-27 12:40:13] INFO root fetch - processPackages [har2tree]: executing diffoscope
+[2023-07-27 12:40:13] INFO root fetch - processPackages [har2tree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/har2tree-1.9.1.tar.gz tmp/har2tree-1.9.2.tar.gz --markdown 20230727/h/har2tree/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-07-27 12:40:13] INFO root fetch - processPackages [oarepo-ui]: New version: [5.0.9] Old Version: [5.0.8]
+[2023-07-27 12:40:13] INFO root fetch - processPackages [morm]: New version: [1.5.0] Old Version: [1.4.6]
+[2023-07-27 12:40:13] INFO root fetch - processPackages [django-dkron-dev]: Remove: archive file [/home/abi/fetcher/tmp/django-dkron-dev-0.8.tar.gz]
+[2023-07-27 12:40:13] INFO root fetch - processPackages [django-dkron-dev]: Remove: archive file [/home/abi/fetcher/tmp/django-dkron-dev-0.9.tar.gz]
+[2023-07-27 12:40:13] INFO root fetch - processPackages [django-dkron-dev]: Start processing: dbcc
+[2023-07-27 12:40:13] INFO root fetch - main [MainThread]: End processing [django-dkron-dev]: success
+[2023-07-27 12:40:13] INFO root fetch - processPackages [rustack-esu]: Remove: archive file [/home/abi/fetcher/tmp/rustack-esu-0.1.8.tar.gz]
+[2023-07-27 12:40:13] INFO root fetch - processPackages [rustack-esu]: Remove: archive file [/home/abi/fetcher/tmp/rustack-esu-0.1.9.tar.gz]
+[2023-07-27 12:40:13] INFO root fetch - main [MainThread]: End processing [rustack-esu]: success
+[2023-07-27 12:40:13] INFO root fetch - processPackages [oarepo-ui]: Downloading https://files.pythonhosted.org/packages/49/3c/5d87e2fb479ef282c83cc818b68215fe52a28115915aa8288ecf89dd107c/oarepo-ui-5.0.8.tar.gz
+[2023-07-27 12:40:13] INFO root fetch - processPackages [morm]: Downloading https://files.pythonhosted.org/packages/34/29/5a7929fece99cd511fe3c0deed410b6e534f46d44093a0a58f3570bb3717/morm-1.4.6-py3-none-any.whl
+[2023-07-27 12:40:13] WARNING root fetch - processPackages [dbcc]: Skipping, unable to determine old version
+[2023-07-27 12:40:13] INFO root fetch - main [MainThread]: End processing [dbcc] error
+[2023-07-27 12:40:13] INFO root fetch - processPackages [clargs]: Downloading https://files.pythonhosted.org/packages/ee/50/c2c1a7a25dd58e5da1145c378dc0abb2325d35e3f7aec981bcc052e84ce4/clargs-0.6.0.tar.gz
+[2023-07-27 12:40:13] INFO root fetch - processPackages [vern]: Remove: archive file [/home/abi/fetcher/tmp/vern-1.3.8b0.tar.gz]
+[2023-07-27 12:40:13] INFO root fetch - processPackages [vern]: Remove: archive file [/home/abi/fetcher/tmp/vern-1.3.9b0.tar.gz]
+[2023-07-27 12:40:13] INFO root fetch - main [MainThread]: End processing [vern]: success
+[2023-07-27 12:40:13] INFO root fetch - processPackages [clargs]: executing diffoscope
+[2023-07-27 12:40:13] INFO root fetch - processPackages [clargs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clargs-0.5.3.tar.gz tmp/clargs-0.6.0.tar.gz --markdown 20230727/c/clargs/0.5.3-0.6.0/diff.md --exclude *.pyd
+[2023-07-27 12:40:13] INFO root fetch - processPackages [pydivkit]: Remove: archive file [/home/abi/fetcher/tmp/pydivkit-26.2.0.tar.gz]
+[2023-07-27 12:40:13] INFO root fetch - processPackages [pydivkit]: Remove: archive file [/home/abi/fetcher/tmp/pydivkit-26.2.1.tar.gz]
+[2023-07-27 12:40:13] INFO root fetch - main [MainThread]: End processing [pydivkit]: success
+[2023-07-27 12:40:13] INFO root fetch - processPackages [oarepo-ui]: Downloading https://files.pythonhosted.org/packages/3f/5a/7fecedd4e7c29ba8d68233c490b8b3e39ffb36289b9fbb4183058fc02342/oarepo-ui-5.0.9.tar.gz
+[2023-07-27 12:40:13] INFO root fetch - processPackages [ragas]: Remove: archive file [/home/abi/fetcher/tmp/ragas-0.0.7.tar.gz]
+[2023-07-27 12:40:13] INFO root fetch - processPackages [ragas]: Remove: archive file [/home/abi/fetcher/tmp/ragas-0.0.8.tar.gz]
+[2023-07-27 12:40:13] INFO root fetch - main [MainThread]: End processing [ragas]: success
+[2023-07-27 12:40:13] INFO root fetch - processPackages [oarepo-ui]: executing diffoscope
+[2023-07-27 12:40:13] INFO root fetch - processPackages [oarepo-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-ui-5.0.8.tar.gz tmp/oarepo-ui-5.0.9.tar.gz --markdown 20230727/o/oarepo-ui/5.0.8-5.0.9/diff.md --exclude *.pyd
+[2023-07-27 12:40:13] INFO root fetch - processPackages [morm]: Downloading https://files.pythonhosted.org/packages/69/b5/38acda36ee8e56ad90ff436cb8f357583b7f2c15217e9dc2facf91a347aa/morm-1.5.0-py3-none-any.whl
+[2023-07-27 12:40:13] INFO root fetch - processPackages [csvcubed]: Remove: archive file [/home/abi/fetcher/tmp/csvcubed-0.4.6-py3-none-any.whl.zip]
+[2023-07-27 12:40:13] INFO root fetch - processPackages [csvcubed]: Remove: archive file [/home/abi/fetcher/tmp/csvcubed-0.4.7-py3-none-any.whl.zip]
+[2023-07-27 12:40:13] INFO root fetch - main [MainThread]: End processing [csvcubed]: success
+[2023-07-27 12:40:13] INFO root fetch - processPackages [morm]: executing diffoscope
+[2023-07-27 12:40:13] INFO root fetch - processPackages [morm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morm-1.4.6-py3-none-any.whl.zip tmp/morm-1.5.0-py3-none-any.whl.zip --markdown 20230727/m/morm/1.4.6-1.5.0/diff.md --exclude *.pyd
+[2023-07-27 12:40:14] INFO root fetch - processPackages [har2tree]: Remove: archive file [/home/abi/fetcher/tmp/har2tree-1.9.1.tar.gz]
+[2023-07-27 12:40:14] INFO root fetch - processPackages [har2tree]: Remove: archive file [/home/abi/fetcher/tmp/har2tree-1.9.2.tar.gz]
+[2023-07-27 12:40:14] INFO root fetch - main [MainThread]: End processing [har2tree]: success
+[2023-07-27 12:40:14] INFO root fetch - processPackages [clargs]: Remove: archive file [/home/abi/fetcher/tmp/clargs-0.5.3.tar.gz]
+[2023-07-27 12:40:14] INFO root fetch - processPackages [clargs]: Remove: archive file [/home/abi/fetcher/tmp/clargs-0.6.0.tar.gz]
+[2023-07-27 12:40:14] INFO root fetch - main [MainThread]: End processing [clargs]: success
+[2023-07-27 12:40:14] INFO root fetch - processPackages [oarepo-ui]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-ui-5.0.8.tar.gz]
+[2023-07-27 12:40:14] INFO root fetch - processPackages [oarepo-ui]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-ui-5.0.9.tar.gz]
+[2023-07-27 12:40:14] INFO root fetch - main [MainThread]: End processing [oarepo-ui]: success
+[2023-07-27 12:40:14] INFO root fetch - processPackages [morm]: Remove: archive file [/home/abi/fetcher/tmp/morm-1.4.6-py3-none-any.whl.zip]
+[2023-07-27 12:40:14] INFO root fetch - processPackages [morm]: Remove: archive file [/home/abi/fetcher/tmp/morm-1.5.0-py3-none-any.whl.zip]
+[2023-07-27 12:40:14] INFO root fetch - main [MainThread]: End processing [morm]: success
+[2023-07-27 12:40:14] INFO root fetch - main [MainThread]: Store serial: [19058624]
