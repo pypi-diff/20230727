@@ -10583,3 +10583,90 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-27 04:53:23] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz]
 [2023-07-27 04:53:23] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-intl-en]: success
 [2023-07-27 04:53:23] INFO root fetch - main [MainThread]: Store serial: [19053996]
+[2023-07-27 04:58:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19053996]
+[2023-07-27 04:58:31] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-27 04:58:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: LibcSearcher3
+[2023-07-27 04:58:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: galactiko-gxskpo
+[2023-07-27 04:58:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: interactivenlp
+[2023-07-27 04:58:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cs-sender
+[2023-07-27 04:58:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: galactiko
+[2023-07-27 04:58:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: MyMalDependency
+[2023-07-27 04:58:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: usefulgram
+[2023-07-27 04:58:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: neo4j-marshaller
+[2023-07-27 04:58:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lycoris-lora
+[2023-07-27 04:58:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kaldi-native-io
+[2023-07-27 04:58:32] WARNING root fetch - processPackages [galactiko]: Skipping, unable to determine old version
+[2023-07-27 04:58:32] INFO root fetch - processPackages [galactiko]: Start processing: labeltransform2
+[2023-07-27 04:58:32] INFO root fetch - main [MainThread]: End processing [galactiko] error
+[2023-07-27 04:58:32] WARNING root fetch - processPackages [neo4j-marshaller]: Skipping, unable to determine old version
+[2023-07-27 04:58:32] INFO root fetch - processPackages [neo4j-marshaller]: Start processing: onqlave-python-sdk-pilot
+[2023-07-27 04:58:32] INFO root fetch - main [MainThread]: End processing [neo4j-marshaller] error
+[2023-07-27 04:58:32] INFO root fetch - processPackages [LibcSearcher3]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-07-27 04:58:32] INFO root fetch - processPackages [usefulgram]: New version: [0.0.0a8] Old Version: [0.0.0a7]
+[2023-07-27 04:58:32] INFO root fetch - processPackages [interactivenlp]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-07-27 04:58:32] INFO root fetch - processPackages [cs-sender]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-07-27 04:58:32] WARNING root fetch - processPackages [galactiko-gxskpo]: Skipping, unable to determine old version
+[2023-07-27 04:58:32] INFO root fetch - main [MainThread]: End processing [galactiko-gxskpo] error
+[2023-07-27 04:58:32] INFO root fetch - processPackages [lycoris-lora]: New version: [1.8.1.dev3] Old Version: [1.8.1.dev2]
+[2023-07-27 04:58:32] INFO root fetch - processPackages [kaldi-native-io]: New version: [1.9] Old Version: [1.8]
+[2023-07-27 04:58:32] INFO root fetch - processPackages [labeltransform2]: New version: [2.2] Old Version: [2.1]
+[2023-07-27 04:58:32] WARNING root fetch - processPackages [MyMalDependency]: Skipping, unable to determine old version
+[2023-07-27 04:58:32] INFO root fetch - main [MainThread]: End processing [MyMalDependency] error
+[2023-07-27 04:58:32] INFO root fetch - processPackages [interactivenlp]: Downloading https://files.pythonhosted.org/packages/bd/82/470bb44fe3ea93068afb9c643b86b6533f48afbd35df52efc858c6a31715/interactivenlp-0.2.5.tar.gz
+[2023-07-27 04:58:32] INFO root fetch - processPackages [usefulgram]: Downloading https://files.pythonhosted.org/packages/34/d5/b1a07cf94a1f32f212a05c8593fb3de5fb60b47d46c589ae02a35d0bc35c/usefulgram-0.0.0a7.tar.gz
+[2023-07-27 04:58:32] INFO root fetch - processPackages [onqlave-python-sdk-pilot]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-27 04:58:32] INFO root fetch - processPackages [LibcSearcher3]: Downloading https://files.pythonhosted.org/packages/c2/04/cf225eefcbbabd44b3d72462da578447c2af90255eae70ff754dff2569b2/LibcSearcher3-1.3.0.tar.gz
+[2023-07-27 04:58:32] INFO root fetch - processPackages [cs-sender]: Downloading https://files.pythonhosted.org/packages/94/7d/8aad96b2aba64e809b84c0d1f35dc7819cfd0f830aee70ce5165b0695158/cs_sender-1.5.0.tar.gz
+[2023-07-27 04:58:32] INFO root fetch - processPackages [kaldi-native-io]: Downloading https://files.pythonhosted.org/packages/50/71/cad17f618b35a0d90d3f6e714a0ef46d6f9ecd5ddc9e8661e91b8870839b/kaldi_native_io-1.8.tar.gz
+[2023-07-27 04:58:32] INFO root fetch - processPackages [labeltransform2]: Downloading https://files.pythonhosted.org/packages/d7/be/5f8f60f41e4c90b81f22e64a5331d3991e55898216d1dd3c2624e92834e6/labeltransform2-2.1.tar.gz
+[2023-07-27 04:58:32] INFO root fetch - processPackages [lycoris-lora]: Downloading https://files.pythonhosted.org/packages/a8/46/01b911b62c31345be435ac2dd7b2e6d8b72a37c566c6cdf3fb327e8c97ca/lycoris_lora-1.8.1.dev2.tar.gz
+[2023-07-27 04:58:32] INFO root fetch - processPackages [onqlave-python-sdk-pilot]: Downloading https://files.pythonhosted.org/packages/59/52/27818a5b0dc9fe59434c9f8dd87931c7b1e1d7bfb5c4444e786d74d04257/onqlave-python-sdk-pilot-0.0.8.tar.gz
+[2023-07-27 04:58:32] INFO root fetch - processPackages [interactivenlp]: Downloading https://files.pythonhosted.org/packages/09/3b/a212ac4ea2028e5676e1c9684939564d667bae83f55c8b1e8e842d7db442/interactivenlp-0.2.6.tar.gz
+[2023-07-27 04:58:32] INFO root fetch - processPackages [usefulgram]: Downloading https://files.pythonhosted.org/packages/2e/0b/c176ee2a4cca2f15c3d9f3366b81ea095083b0fdd909e565d866ba9a0eb5/usefulgram-0.0.0a8.tar.gz
+[2023-07-27 04:58:32] INFO root fetch - processPackages [cs-sender]: Downloading https://files.pythonhosted.org/packages/db/3d/f572e776b2d28863e941675cb3cce114734ce4206f33a058baf5a239691c/cs_sender-1.5.1.tar.gz
+[2023-07-27 04:58:33] INFO root fetch - processPackages [interactivenlp]: executing diffoscope
+[2023-07-27 04:58:33] INFO root fetch - processPackages [interactivenlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/interactivenlp-0.2.5.tar.gz tmp/interactivenlp-0.2.6.tar.gz --markdown 20230727/i/interactivenlp/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-07-27 04:58:33] INFO root fetch - processPackages [lycoris-lora]: Downloading https://files.pythonhosted.org/packages/d6/f2/31aa11032e79d971f1aae3f1ddc718c29cd670719e1c99bd5b235892abd5/lycoris_lora-1.8.1.dev3.tar.gz
+[2023-07-27 04:58:33] INFO root fetch - processPackages [usefulgram]: executing diffoscope
+[2023-07-27 04:58:33] INFO root fetch - processPackages [usefulgram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usefulgram-0.0.0a7.tar.gz tmp/usefulgram-0.0.0a8.tar.gz --markdown 20230727/u/usefulgram/0.0.0a7-0.0.0a8/diff.md --exclude *.pyd
+[2023-07-27 04:58:33] INFO root fetch - processPackages [labeltransform2]: Downloading https://files.pythonhosted.org/packages/da/3d/5d4a943e15efe0aff381943b654cd9f638b557de3e50e830934574badeb9/labeltransform2-2.2.tar.gz
+[2023-07-27 04:58:33] INFO root fetch - processPackages [cs-sender]: executing diffoscope
+[2023-07-27 04:58:33] INFO root fetch - processPackages [cs-sender]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs_sender-1.5.0.tar.gz tmp/cs_sender-1.5.1.tar.gz --markdown 20230727/c/cs-sender/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-07-27 04:58:33] INFO root fetch - processPackages [lycoris-lora]: executing diffoscope
+[2023-07-27 04:58:33] INFO root fetch - processPackages [lycoris-lora]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lycoris_lora-1.8.1.dev2.tar.gz tmp/lycoris_lora-1.8.1.dev3.tar.gz --markdown 20230727/l/lycoris-lora/1.8.1.dev2-1.8.1.dev3/diff.md --exclude *.pyd
+[2023-07-27 04:58:33] INFO root fetch - processPackages [kaldi-native-io]: Downloading https://files.pythonhosted.org/packages/20/27/40c4d14faffdb7a2da395828b2f994ad1270959a9e4abfc32ed43626dfc3/kaldi_native_io-1.9.tar.gz
+[2023-07-27 04:58:33] INFO root fetch - processPackages [onqlave-python-sdk-pilot]: Downloading https://files.pythonhosted.org/packages/63/b0/994ce6161d7a0abbf7a7adef4b05993a95b3f12dcef78d435a13caa4c412/onqlave-python-sdk-pilot-0.0.9.tar.gz
+[2023-07-27 04:58:33] INFO root fetch - processPackages [LibcSearcher3]: Downloading https://files.pythonhosted.org/packages/9e/2a/0a918da25ba71e6107cb6eaecafbd7af83b29570f26f6e30d27ac4b14397/LibcSearcher3-1.4.0.tar.gz
+[2023-07-27 04:58:33] INFO root fetch - processPackages [labeltransform2]: executing diffoscope
+[2023-07-27 04:58:33] INFO root fetch - processPackages [labeltransform2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labeltransform2-2.1.tar.gz tmp/labeltransform2-2.2.tar.gz --markdown 20230727/l/labeltransform2/2.1-2.2/diff.md --exclude *.pyd
+[2023-07-27 04:58:33] INFO root fetch - processPackages [kaldi-native-io]: executing diffoscope
+[2023-07-27 04:58:33] INFO root fetch - processPackages [kaldi-native-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kaldi_native_io-1.8.tar.gz tmp/kaldi_native_io-1.9.tar.gz --markdown 20230727/k/kaldi-native-io/1.8-1.9/diff.md --exclude *.pyd
+[2023-07-27 04:58:33] INFO root fetch - processPackages [onqlave-python-sdk-pilot]: executing diffoscope
+[2023-07-27 04:58:33] INFO root fetch - processPackages [onqlave-python-sdk-pilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onqlave-python-sdk-pilot-0.0.8.tar.gz tmp/onqlave-python-sdk-pilot-0.0.9.tar.gz --markdown 20230727/o/onqlave-python-sdk-pilot/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-27 04:58:33] INFO root fetch - processPackages [LibcSearcher3]: executing diffoscope
+[2023-07-27 04:58:33] INFO root fetch - processPackages [LibcSearcher3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LibcSearcher3-1.3.0.tar.gz tmp/LibcSearcher3-1.4.0.tar.gz --markdown 20230727/L/LibcSearcher3/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-07-27 04:58:34] INFO root fetch - processPackages [interactivenlp]: Remove: archive file [/home/abi/fetcher/tmp/interactivenlp-0.2.5.tar.gz]
+[2023-07-27 04:58:34] INFO root fetch - processPackages [interactivenlp]: Remove: archive file [/home/abi/fetcher/tmp/interactivenlp-0.2.6.tar.gz]
+[2023-07-27 04:58:34] INFO root fetch - main [MainThread]: End processing [interactivenlp]: success
+[2023-07-27 04:58:34] INFO root fetch - processPackages [labeltransform2]: Remove: archive file [/home/abi/fetcher/tmp/labeltransform2-2.1.tar.gz]
+[2023-07-27 04:58:34] INFO root fetch - processPackages [labeltransform2]: Remove: archive file [/home/abi/fetcher/tmp/labeltransform2-2.2.tar.gz]
+[2023-07-27 04:58:34] INFO root fetch - main [MainThread]: End processing [labeltransform2]: success
+[2023-07-27 04:58:34] INFO root fetch - processPackages [usefulgram]: Remove: archive file [/home/abi/fetcher/tmp/usefulgram-0.0.0a7.tar.gz]
+[2023-07-27 04:58:34] INFO root fetch - processPackages [usefulgram]: Remove: archive file [/home/abi/fetcher/tmp/usefulgram-0.0.0a8.tar.gz]
+[2023-07-27 04:58:34] INFO root fetch - main [MainThread]: End processing [usefulgram]: success
+[2023-07-27 04:58:34] INFO root fetch - processPackages [cs-sender]: Remove: archive file [/home/abi/fetcher/tmp/cs_sender-1.5.0.tar.gz]
+[2023-07-27 04:58:34] INFO root fetch - processPackages [cs-sender]: Remove: archive file [/home/abi/fetcher/tmp/cs_sender-1.5.1.tar.gz]
+[2023-07-27 04:58:34] INFO root fetch - main [MainThread]: End processing [cs-sender]: success
+[2023-07-27 04:58:34] INFO root fetch - processPackages [onqlave-python-sdk-pilot]: Remove: archive file [/home/abi/fetcher/tmp/onqlave-python-sdk-pilot-0.0.8.tar.gz]
+[2023-07-27 04:58:34] INFO root fetch - processPackages [onqlave-python-sdk-pilot]: Remove: archive file [/home/abi/fetcher/tmp/onqlave-python-sdk-pilot-0.0.9.tar.gz]
+[2023-07-27 04:58:34] INFO root fetch - main [MainThread]: End processing [onqlave-python-sdk-pilot]: success
+[2023-07-27 04:58:34] INFO root fetch - processPackages [lycoris-lora]: Remove: archive file [/home/abi/fetcher/tmp/lycoris_lora-1.8.1.dev2.tar.gz]
+[2023-07-27 04:58:34] INFO root fetch - processPackages [lycoris-lora]: Remove: archive file [/home/abi/fetcher/tmp/lycoris_lora-1.8.1.dev3.tar.gz]
+[2023-07-27 04:58:34] INFO root fetch - main [MainThread]: End processing [lycoris-lora]: success
+[2023-07-27 04:58:34] INFO root fetch - processPackages [kaldi-native-io]: Remove: archive file [/home/abi/fetcher/tmp/kaldi_native_io-1.8.tar.gz]
+[2023-07-27 04:58:34] INFO root fetch - processPackages [kaldi-native-io]: Remove: archive file [/home/abi/fetcher/tmp/kaldi_native_io-1.9.tar.gz]
+[2023-07-27 04:58:34] INFO root fetch - main [MainThread]: End processing [kaldi-native-io]: success
+[2023-07-27 04:58:34] INFO root fetch - processPackages [LibcSearcher3]: Remove: archive file [/home/abi/fetcher/tmp/LibcSearcher3-1.3.0.tar.gz]
+[2023-07-27 04:58:34] INFO root fetch - processPackages [LibcSearcher3]: Remove: archive file [/home/abi/fetcher/tmp/LibcSearcher3-1.4.0.tar.gz]
+[2023-07-27 04:58:34] INFO root fetch - main [MainThread]: End processing [LibcSearcher3]: success
+[2023-07-27 04:58:34] INFO root fetch - main [MainThread]: Store serial: [19054042]
