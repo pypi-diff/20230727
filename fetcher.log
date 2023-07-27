@@ -3572,3 +3572,54 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-27 03:03:30] INFO root fetch - processPackages [pulumi-oci]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_oci-1.5.0a1690410363.tar.gz]
 [2023-07-27 03:03:30] INFO root fetch - main [MainThread]: End processing [pulumi-oci]: success
 [2023-07-27 03:03:30] INFO root fetch - main [MainThread]: Store serial: [19051614]
+[2023-07-27 03:08:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19051614]
+[2023-07-27 03:08:39] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-27 03:08:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kcai-bentoml
+[2023-07-27 03:08:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: multilectic
+[2023-07-27 03:08:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: echofish-aws-resample-and-write-to-zarr-store-lambda
+[2023-07-27 03:08:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-hugo-deploy
+[2023-07-27 03:08:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: anyBoNett
+[2023-07-27 03:08:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spotcrates
+[2023-07-27 03:08:39] WARNING root fetch - processPackages [kcai-bentoml]: Skipping, unable to determine old version
+[2023-07-27 03:08:39] INFO root fetch - main [MainThread]: End processing [kcai-bentoml] error
+[2023-07-27 03:08:39] INFO root fetch - processPackages [spotcrates]: New version: [0.6.5] Old Version: [0.6.4]
+[2023-07-27 03:08:39] INFO root fetch - processPackages [multilectic]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-27 03:08:39] INFO root fetch - processPackages [anyBoNett]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-27 03:08:39] INFO root fetch - processPackages [echofish-aws-resample-and-write-to-zarr-store-lambda]: New version: [1.0.0.dev20230727004630] Old Version: [1.0.0.dev20230727000831]
+[2023-07-27 03:08:39] INFO root fetch - processPackages [cdk-hugo-deploy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-27 03:08:39] INFO root fetch - processPackages [multilectic]: Downloading https://files.pythonhosted.org/packages/ae/ed/f576bc68ce514239b68c840b2feee2e79b3e91794a77d98ea34dcb34f544/multilectic-0.0.4.tar.gz
+[2023-07-27 03:08:39] INFO root fetch - processPackages [echofish-aws-resample-and-write-to-zarr-store-lambda]: Downloading https://files.pythonhosted.org/packages/67/70/0ab9a1ba7f4447a3eb611336b4cc1f6d29095bde04565073702abd85843b/echofish-aws-resample-and-write-to-zarr-store-lambda-1.0.0.dev20230727000831.tar.gz
+[2023-07-27 03:08:39] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/33/a0/02c1c61c08488072b10045f13351cac91a6dc5b3b289a3a38fb162ac9cfa/cdk-hugo-deploy-0.0.98.tar.gz
+[2023-07-27 03:08:39] INFO root fetch - processPackages [anyBoNett]: Downloading https://files.pythonhosted.org/packages/62/22/24f914e2c7678b23da5b71345af0ea143ba0e5bde053d69b823c8cac7a85/anyBoNett-0.0.8.tar.gz
+[2023-07-27 03:08:39] INFO root fetch - processPackages [spotcrates]: Downloading https://files.pythonhosted.org/packages/8a/cb/e84c1bbc01122a6f485254b56b9135d3d20caa90de4b4653775566eb1b12/spotcrates-0.6.4.tar.gz
+[2023-07-27 03:08:40] INFO root fetch - processPackages [echofish-aws-resample-and-write-to-zarr-store-lambda]: Downloading https://files.pythonhosted.org/packages/43/65/fe5529bd8d1a793f93a472b1ce6641319b4f239dfa863be553151a8c4539/echofish-aws-resample-and-write-to-zarr-store-lambda-1.0.0.dev20230727004630.tar.gz
+[2023-07-27 03:08:40] INFO root fetch - processPackages [multilectic]: Downloading https://files.pythonhosted.org/packages/7a/4f/376c2f2130801d216a33ac8e5932b5c29ce99f9fba3451cd836f08907ce9/multilectic-0.0.5.tar.gz
+[2023-07-27 03:08:40] INFO root fetch - processPackages [anyBoNett]: Downloading https://files.pythonhosted.org/packages/56/38/fbcf37754f84b5e972fd60d5b40043eff5fe4be0cc7eafae2dbe2a884c6a/anyBoNett-0.0.9.tar.gz
+[2023-07-27 03:08:40] INFO root fetch - processPackages [spotcrates]: Downloading https://files.pythonhosted.org/packages/31/92/2d499f00fd1acbfc787f8b517bcf07fd8d456fded8bf622f2fa97be4de29/spotcrates-0.6.5.tar.gz
+[2023-07-27 03:08:40] INFO root fetch - processPackages [multilectic]: executing diffoscope
+[2023-07-27 03:08:40] INFO root fetch - processPackages [multilectic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multilectic-0.0.4.tar.gz tmp/multilectic-0.0.5.tar.gz --markdown 20230727/m/multilectic/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-27 03:08:40] INFO root fetch - processPackages [anyBoNett]: executing diffoscope
+[2023-07-27 03:08:40] INFO root fetch - processPackages [anyBoNett]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anyBoNett-0.0.8.tar.gz tmp/anyBoNett-0.0.9.tar.gz --markdown 20230727/a/anyBoNett/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-27 03:08:40] INFO root fetch - processPackages [spotcrates]: executing diffoscope
+[2023-07-27 03:08:40] INFO root fetch - processPackages [spotcrates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotcrates-0.6.4.tar.gz tmp/spotcrates-0.6.5.tar.gz --markdown 20230727/s/spotcrates/0.6.4-0.6.5/diff.md --exclude *.pyd
+[2023-07-27 03:08:40] INFO root fetch - processPackages [echofish-aws-resample-and-write-to-zarr-store-lambda]: executing diffoscope
+[2023-07-27 03:08:40] INFO root fetch - processPackages [echofish-aws-resample-and-write-to-zarr-store-lambda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/echofish-aws-resample-and-write-to-zarr-store-lambda-1.0.0.dev20230727000831.tar.gz tmp/echofish-aws-resample-and-write-to-zarr-store-lambda-1.0.0.dev20230727004630.tar.gz --markdown 20230727/e/echofish-aws-resample-and-write-to-zarr-store-lambda/1.0.0.dev20230727000831-1.0.0.dev20230727004630/diff.md --exclude *.pyd
+[2023-07-27 03:08:40] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/69/65/61cf4e2d01ce9f811649f2d5a9b579e9603a4b6257774c90a60bc13109ee/cdk-hugo-deploy-0.0.99.tar.gz
+[2023-07-27 03:08:40] INFO root fetch - processPackages [cdk-hugo-deploy]: executing diffoscope
+[2023-07-27 03:08:40] INFO root fetch - processPackages [cdk-hugo-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-hugo-deploy-0.0.98.tar.gz tmp/cdk-hugo-deploy-0.0.99.tar.gz --markdown 20230727/c/cdk-hugo-deploy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-27 03:08:41] INFO root fetch - processPackages [spotcrates]: Remove: archive file [/home/abi/fetcher/tmp/spotcrates-0.6.4.tar.gz]
+[2023-07-27 03:08:41] INFO root fetch - processPackages [spotcrates]: Remove: archive file [/home/abi/fetcher/tmp/spotcrates-0.6.5.tar.gz]
+[2023-07-27 03:08:41] INFO root fetch - main [MainThread]: End processing [spotcrates]: success
+[2023-07-27 03:08:41] INFO root fetch - processPackages [multilectic]: Remove: archive file [/home/abi/fetcher/tmp/multilectic-0.0.4.tar.gz]
+[2023-07-27 03:08:41] INFO root fetch - processPackages [multilectic]: Remove: archive file [/home/abi/fetcher/tmp/multilectic-0.0.5.tar.gz]
+[2023-07-27 03:08:41] INFO root fetch - main [MainThread]: End processing [multilectic]: success
+[2023-07-27 03:08:41] INFO root fetch - processPackages [echofish-aws-resample-and-write-to-zarr-store-lambda]: Remove: archive file [/home/abi/fetcher/tmp/echofish-aws-resample-and-write-to-zarr-store-lambda-1.0.0.dev20230727000831.tar.gz]
+[2023-07-27 03:08:41] INFO root fetch - processPackages [echofish-aws-resample-and-write-to-zarr-store-lambda]: Remove: archive file [/home/abi/fetcher/tmp/echofish-aws-resample-and-write-to-zarr-store-lambda-1.0.0.dev20230727004630.tar.gz]
+[2023-07-27 03:08:41] INFO root fetch - main [MainThread]: End processing [echofish-aws-resample-and-write-to-zarr-store-lambda]: success
+[2023-07-27 03:08:41] INFO root fetch - processPackages [anyBoNett]: Remove: archive file [/home/abi/fetcher/tmp/anyBoNett-0.0.8.tar.gz]
+[2023-07-27 03:08:41] INFO root fetch - processPackages [anyBoNett]: Remove: archive file [/home/abi/fetcher/tmp/anyBoNett-0.0.9.tar.gz]
+[2023-07-27 03:08:41] INFO root fetch - main [MainThread]: End processing [anyBoNett]: success
+[2023-07-27 03:08:41] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.98.tar.gz]
+[2023-07-27 03:08:41] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.99.tar.gz]
+[2023-07-27 03:08:41] INFO root fetch - main [MainThread]: End processing [cdk-hugo-deploy]: success
+[2023-07-27 03:08:41] INFO root fetch - main [MainThread]: Store serial: [19051634]
