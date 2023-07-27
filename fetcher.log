@@ -23233,3 +23233,118 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-27 13:20:18] ERROR root fetch - processPackages [python-copasi]: Timeout during execution of pkgdiff
 [2023-07-27 13:20:18] INFO root fetch - main [MainThread]: End processing [python-copasi] error
 [2023-07-27 13:20:18] INFO root fetch - main [MainThread]: Store serial: [19058932]
+[2023-07-27 13:25:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19058932]
+[2023-07-27 13:25:27] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-27 13:25:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pm-slack
+[2023-07-27 13:25:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-webstack
+[2023-07-27 13:25:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bugout
+[2023-07-27 13:25:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bridgecrew
+[2023-07-27 13:25:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pydork
+[2023-07-27 13:25:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-webstack
+[2023-07-27 13:25:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: NodeGraphQt
+[2023-07-27 13:25:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: imface
+[2023-07-27 13:25:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bstk-datatables
+[2023-07-27 13:25:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sdkit
+[2023-07-27 13:25:28] WARNING root fetch - processPackages [imface]: Skipping, unable to determine old version
+[2023-07-27 13:25:28] INFO root fetch - processPackages [imface]: Start processing: yt-dlp-cp
+[2023-07-27 13:25:28] INFO root fetch - main [MainThread]: End processing [imface] error
+[2023-07-27 13:25:28] INFO root fetch - processPackages [bstk-datatables]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-27 13:25:28] INFO root fetch - processPackages [pydork]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-07-27 13:25:28] INFO root fetch - processPackages [bugout]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-27 13:25:28] INFO root fetch - processPackages [NodeGraphQt]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-07-27 13:25:28] INFO root fetch - processPackages [django-webstack]: New version: [1.4.0] Old Version: [1.3.6.3]
+[2023-07-27 13:25:28] INFO root fetch - processPackages [pm-slack]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-07-27 13:25:28] INFO root fetch - processPackages [django-webstack]: New version: [1.4.0] Old Version: [1.3.6.3]
+[2023-07-27 13:25:28] INFO root fetch - processPackages [sdkit]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-27 13:25:28] INFO root fetch - processPackages [yt-dlp-cp]: New version: [2.9.9] Old Version: [1.9.9]
+[2023-07-27 13:25:28] INFO root fetch - processPackages [bridgecrew]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-07-27 13:25:28] INFO root fetch - processPackages [django-webstack]: Downloading https://files.pythonhosted.org/packages/39/6e/066a25b0f1e137ec060f74645c9ff4cb00d5ecb2efb4c4cb0a4b34c58695/django-webstack-1.3.6.3.tar.gz
+[2023-07-27 13:25:28] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/d1/c1/f3e251106f7f4c022d55f8fe3a3c0eacdb5bfdf84ce4182f71368c4f3a5f/sdkit-1.0.98.tar.gz
+[2023-07-27 13:25:28] INFO root fetch - processPackages [django-webstack]: Downloading https://files.pythonhosted.org/packages/39/6e/066a25b0f1e137ec060f74645c9ff4cb00d5ecb2efb4c4cb0a4b34c58695/django-webstack-1.3.6.3.tar.gz
+[2023-07-27 13:25:28] INFO root fetch - processPackages [bstk-datatables]: Downloading https://files.pythonhosted.org/packages/ff/c1/d1b07a69bbe039dcceffa1a507f477f68eb98c1350085fa66e119677a1cc/bstk_datatables-0.2.0.tar.gz
+[2023-07-27 13:25:28] INFO root fetch - processPackages [NodeGraphQt]: Downloading https://files.pythonhosted.org/packages/d3/ec/fb950534937f6aaf4efb573d8340c8ffbe55117125821bf6e5348a6ea157/NodeGraphQt-0.6.8.tar.gz
+[2023-07-27 13:25:28] INFO root fetch - processPackages [pydork]: Downloading https://files.pythonhosted.org/packages/e0/24/ef24eac4b0734704e87c386295616a534761baa2057ce93ae483d542f0c1/pydork-1.1.4.tar.gz
+[2023-07-27 13:25:28] INFO root fetch - processPackages [yt-dlp-cp]: Downloading https://files.pythonhosted.org/packages/31/5b/605b6ab3949e49cd62f51592c9281f6145c714b9c3295f7be01b305872c5/yt-dlp-cp-1.9.9.tar.gz
+[2023-07-27 13:25:28] INFO root fetch - processPackages [bugout]: Downloading https://files.pythonhosted.org/packages/5c/ef/fbe271674b752145f16ca48787d7b125306ab5e23ce95d156dcd9bec424e/bugout-0.2.8.tar.gz
+[2023-07-27 13:25:28] INFO root fetch - processPackages [pm-slack]: Downloading https://files.pythonhosted.org/packages/9c/c1/e6a1ac7d5017b66769a3b4e118971506526c7eb6cf77f5361b94650893d0/pm_slack-0.3.1.tar.gz
+[2023-07-27 13:25:28] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/c1/70/3267f94d196f9213b2b44a429d64b71cb1f9f3d812687dd74ff8a983a588/bridgecrew-2.3.98.tar.gz
+[2023-07-27 13:25:28] INFO root fetch - processPackages [django-webstack]: Downloading https://files.pythonhosted.org/packages/2e/f7/b2a641d9a273fd9baadc25af9aaceb83dba3fd296accdadadbca36bb79af/django-webstack-1.4.0.tar.gz
+[2023-07-27 13:25:28] INFO root fetch - processPackages [django-webstack]: Downloading https://files.pythonhosted.org/packages/2e/f7/b2a641d9a273fd9baadc25af9aaceb83dba3fd296accdadadbca36bb79af/django-webstack-1.4.0.tar.gz
+[2023-07-27 13:25:29] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/7e/69/b60dd118fa3c33f9ff305ec5ce9de04303dfdfc9be5d286e20cbc1ee1e7b/sdkit-1.0.99.tar.gz
+[2023-07-27 13:25:29] INFO root fetch - processPackages [bstk-datatables]: Downloading https://files.pythonhosted.org/packages/dd/34/8cc57de9789a3e7cd885758dbb52c70b2a573506d7ed2d419530c4297da0/bstk_datatables-0.2.1.tar.gz
+[2023-07-27 13:25:29] INFO root fetch - processPackages [django-webstack]: executing diffoscope
+[2023-07-27 13:25:29] INFO root fetch - processPackages [django-webstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-webstack-1.3.6.3.tar.gz tmp/django-webstack-1.4.0.tar.gz --markdown 20230727/d/django-webstack/1.3.6.3-1.4.0/diff.md --exclude *.pyd
+[2023-07-27 13:25:29] INFO root fetch - processPackages [django-webstack]: executing diffoscope
+[2023-07-27 13:25:29] INFO root fetch - processPackages [django-webstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-webstack-1.3.6.3.tar.gz tmp/django-webstack-1.4.0.tar.gz --markdown 20230727/d/django-webstack/1.3.6.3-1.4.0/diff.md --exclude *.pyd
+[2023-07-27 13:25:29] INFO root fetch - processPackages [pm-slack]: Downloading https://files.pythonhosted.org/packages/23/e1/8ca1a3c0b148c7b592915c03281fc2e291a5eda22f966f5f85a4740f246d/pm_slack-0.4.0.tar.gz
+[2023-07-27 13:25:29] INFO root fetch - processPackages [sdkit]: executing diffoscope
+[2023-07-27 13:25:29] INFO root fetch - processPackages [sdkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdkit-1.0.98.tar.gz tmp/sdkit-1.0.99.tar.gz --markdown 20230727/s/sdkit/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-27 13:25:29] INFO root fetch - processPackages [yt-dlp-cp]: Downloading https://files.pythonhosted.org/packages/49/19/dabb7345a3a33c9ab1cac82b07e142dff8e3a9fcff04a4e2e6789936d4ce/yt-dlp-cp-2.9.9.tar.gz
+[2023-07-27 13:25:29] INFO root fetch - processPackages [bstk-datatables]: executing diffoscope
+[2023-07-27 13:25:29] INFO root fetch - processPackages [bstk-datatables]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bstk_datatables-0.2.0.tar.gz tmp/bstk_datatables-0.2.1.tar.gz --markdown 20230727/b/bstk-datatables/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-27 13:25:29] INFO root fetch - processPackages [pydork]: Downloading https://files.pythonhosted.org/packages/ba/0a/b5233a4c91823e675b8efd0ac2e6022034130ef3c4a3c06524f17e758e58/pydork-1.1.5.tar.gz
+[2023-07-27 13:25:29] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/9e/6b/ea9cdf20d73a8621ab1f56b3ee95c8fe6b3e23cb8cd7a0f75ec041c3f16f/bridgecrew-2.3.99.tar.gz
+[2023-07-27 13:25:29] INFO root fetch - processPackages [bugout]: Downloading https://files.pythonhosted.org/packages/31/66/98f11fdbfd1344bc3e864cca1cd3be5dfb84c8eb3b611fa56b1f05cc3edb/bugout-0.2.9.tar.gz
+[2023-07-27 13:25:29] INFO root fetch - processPackages [NodeGraphQt]: Downloading https://files.pythonhosted.org/packages/a3/f2/b8c7d17e13327bb0d735dbec6846a6b32ccbd207306ff420c7c93c99d52e/NodeGraphQt-0.6.9.tar.gz
+[2023-07-27 13:25:29] INFO root fetch - processPackages [pm-slack]: executing diffoscope
+[2023-07-27 13:25:29] INFO root fetch - processPackages [pm-slack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pm_slack-0.3.1.tar.gz tmp/pm_slack-0.4.0.tar.gz --markdown 20230727/p/pm-slack/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-07-27 13:25:29] INFO root fetch - processPackages [yt-dlp-cp]: executing diffoscope
+[2023-07-27 13:25:29] INFO root fetch - processPackages [yt-dlp-cp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yt-dlp-cp-1.9.9.tar.gz tmp/yt-dlp-cp-2.9.9.tar.gz --markdown 20230727/y/yt-dlp-cp/1.9.9-2.9.9/diff.md --exclude *.pyd
+[2023-07-27 13:25:29] INFO root fetch - processPackages [pydork]: executing diffoscope
+[2023-07-27 13:25:29] INFO root fetch - processPackages [pydork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydork-1.1.4.tar.gz tmp/pydork-1.1.5.tar.gz --markdown 20230727/p/pydork/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-07-27 13:25:29] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2023-07-27 13:25:29] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-2.3.98.tar.gz tmp/bridgecrew-2.3.99.tar.gz --markdown 20230727/b/bridgecrew/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-07-27 13:25:29] INFO root fetch - processPackages [bugout]: executing diffoscope
+[2023-07-27 13:25:29] INFO root fetch - processPackages [bugout]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bugout-0.2.8.tar.gz tmp/bugout-0.2.9.tar.gz --markdown 20230727/b/bugout/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-27 13:25:29] INFO root fetch - processPackages [NodeGraphQt]: executing diffoscope
+[2023-07-27 13:25:29] INFO root fetch - processPackages [NodeGraphQt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NodeGraphQt-0.6.8.tar.gz tmp/NodeGraphQt-0.6.9.tar.gz --markdown 20230727/N/NodeGraphQt/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-07-27 13:25:30] INFO root fetch - processPackages [pm-slack]: Remove: archive file [/home/abi/fetcher/tmp/pm_slack-0.3.1.tar.gz]
+[2023-07-27 13:25:30] INFO root fetch - processPackages [pm-slack]: Remove: archive file [/home/abi/fetcher/tmp/pm_slack-0.4.0.tar.gz]
+[2023-07-27 13:25:30] INFO root fetch - processPackages [pm-slack]: Start processing: autotrain-advanced
+[2023-07-27 13:25:30] INFO root fetch - main [MainThread]: End processing [pm-slack]: success
+[2023-07-27 13:25:30] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.98.tar.gz]
+[2023-07-27 13:25:30] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.99.tar.gz]
+[2023-07-27 13:25:30] INFO root fetch - processPackages [bridgecrew]: Start processing: mylibrarysina
+[2023-07-27 13:25:30] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2023-07-27 13:25:30] INFO root fetch - processPackages [autotrain-advanced]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-07-27 13:25:31] INFO root fetch - processPackages [bstk-datatables]: Remove: archive file [/home/abi/fetcher/tmp/bstk_datatables-0.2.0.tar.gz]
+[2023-07-27 13:25:31] INFO root fetch - processPackages [bstk-datatables]: Remove: archive file [/home/abi/fetcher/tmp/bstk_datatables-0.2.1.tar.gz]
+[2023-07-27 13:25:31] INFO root fetch - processPackages [bstk-datatables]: Start processing: simpleflow
+[2023-07-27 13:25:31] INFO root fetch - main [MainThread]: End processing [bstk-datatables]: success
+[2023-07-27 13:25:31] WARNING root fetch - processPackages [mylibrarysina]: Skipping, unable to determine old version
+[2023-07-27 13:25:31] INFO root fetch - main [MainThread]: End processing [mylibrarysina] error
+[2023-07-27 13:25:31] INFO root fetch - processPackages [simpleflow]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-07-27 13:25:31] INFO root fetch - processPackages [pydork]: Remove: archive file [/home/abi/fetcher/tmp/pydork-1.1.4.tar.gz]
+[2023-07-27 13:25:31] INFO root fetch - processPackages [pydork]: Remove: archive file [/home/abi/fetcher/tmp/pydork-1.1.5.tar.gz]
+[2023-07-27 13:25:31] INFO root fetch - processPackages [autotrain-advanced]: Downloading https://files.pythonhosted.org/packages/75/7c/6b0cd90ad86802c991fea1f78d18440f49659e585adf8b446047cbb24189/autotrain-advanced-0.6.8.tar.gz
+[2023-07-27 13:25:31] INFO root fetch - main [MainThread]: End processing [pydork]: success
+[2023-07-27 13:25:31] INFO root fetch - processPackages [bugout]: Remove: archive file [/home/abi/fetcher/tmp/bugout-0.2.8.tar.gz]
+[2023-07-27 13:25:31] INFO root fetch - processPackages [bugout]: Remove: archive file [/home/abi/fetcher/tmp/bugout-0.2.9.tar.gz]
+[2023-07-27 13:25:31] INFO root fetch - main [MainThread]: End processing [bugout]: success
+[2023-07-27 13:25:31] INFO root fetch - processPackages [django-webstack]: Remove: archive file [/home/abi/fetcher/tmp/django-webstack-1.3.6.3.tar.gz]
+[2023-07-27 13:25:31] INFO root fetch - processPackages [django-webstack]: Remove: archive file [/home/abi/fetcher/tmp/django-webstack-1.4.0.tar.gz]
+[2023-07-27 13:25:31] INFO root fetch - main [MainThread]: End processing [django-webstack]: success
+[2023-07-27 13:25:31] INFO root fetch - processPackages [autotrain-advanced]: Downloading https://files.pythonhosted.org/packages/87/79/c6f84b3427bfa3ae6a282317e936b560d1d714838ec7fbab4cf4295a8cc3/autotrain-advanced-0.6.9.tar.gz
+[2023-07-27 13:25:31] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-1.0.98.tar.gz]
+[2023-07-27 13:25:31] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-1.0.99.tar.gz]
+[2023-07-27 13:25:31] INFO root fetch - main [MainThread]: End processing [sdkit]: success
+[2023-07-27 13:25:31] INFO root fetch - processPackages [NodeGraphQt]: Remove: archive file [/home/abi/fetcher/tmp/NodeGraphQt-0.6.8.tar.gz]
+[2023-07-27 13:25:31] INFO root fetch - processPackages [NodeGraphQt]: Remove: archive file [/home/abi/fetcher/tmp/NodeGraphQt-0.6.9.tar.gz]
+[2023-07-27 13:25:31] INFO root fetch - main [MainThread]: End processing [NodeGraphQt]: success
+[2023-07-27 13:25:31] INFO root fetch - main [MainThread]: End processing [django-webstack]: success
+[2023-07-27 13:25:31] INFO root fetch - processPackages [autotrain-advanced]: executing diffoscope
+[2023-07-27 13:25:31] INFO root fetch - processPackages [autotrain-advanced]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autotrain-advanced-0.6.8.tar.gz tmp/autotrain-advanced-0.6.9.tar.gz --markdown 20230727/a/autotrain-advanced/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-07-27 13:25:31] INFO root fetch - processPackages [simpleflow]: Downloading https://files.pythonhosted.org/packages/8f/92/f959ab0a49ae67b4b4826ccb8898cd5e1be9fe11921b8ac4c930fb4eb0b9/simpleflow-0.9.6.tar.gz
+[2023-07-27 13:25:32] INFO root fetch - processPackages [simpleflow]: Downloading https://files.pythonhosted.org/packages/a0/79/de24855ad4b72a81b096f80770f29894c4d78acb0452fcd6b71e4fe700d3/simpleflow-0.9.7.tar.gz
+[2023-07-27 13:25:32] INFO root fetch - processPackages [autotrain-advanced]: Remove: archive file [/home/abi/fetcher/tmp/autotrain-advanced-0.6.8.tar.gz]
+[2023-07-27 13:25:32] INFO root fetch - processPackages [autotrain-advanced]: Remove: archive file [/home/abi/fetcher/tmp/autotrain-advanced-0.6.9.tar.gz]
+[2023-07-27 13:25:32] INFO root fetch - main [MainThread]: End processing [autotrain-advanced]: success
+[2023-07-27 13:25:32] INFO root fetch - processPackages [simpleflow]: executing diffoscope
+[2023-07-27 13:25:32] INFO root fetch - processPackages [simpleflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simpleflow-0.9.6.tar.gz tmp/simpleflow-0.9.7.tar.gz --markdown 20230727/s/simpleflow/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-07-27 13:25:33] INFO root fetch - processPackages [simpleflow]: Remove: archive file [/home/abi/fetcher/tmp/simpleflow-0.9.6.tar.gz]
+[2023-07-27 13:25:33] INFO root fetch - processPackages [simpleflow]: Remove: archive file [/home/abi/fetcher/tmp/simpleflow-0.9.7.tar.gz]
+[2023-07-27 13:25:33] INFO root fetch - main [MainThread]: End processing [simpleflow]: success
+[2023-07-27 13:25:41] INFO root fetch - processPackages [yt-dlp-cp]: Remove: archive file [/home/abi/fetcher/tmp/yt-dlp-cp-1.9.9.tar.gz]
+[2023-07-27 13:25:41] INFO root fetch - processPackages [yt-dlp-cp]: Remove: archive file [/home/abi/fetcher/tmp/yt-dlp-cp-2.9.9.tar.gz]
+[2023-07-27 13:25:41] INFO root fetch - main [MainThread]: End processing [yt-dlp-cp]: success
+[2023-07-27 13:25:41] INFO root fetch - main [MainThread]: Store serial: [19059013]
