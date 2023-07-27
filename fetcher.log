@@ -10179,3 +10179,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-27 04:37:43] INFO root fetch - processPackages [crawler-studio]: Remove: archive file [/home/abi/fetcher/tmp/crawler_studio-1.5.7.tar.gz]
 [2023-07-27 04:37:43] INFO root fetch - main [MainThread]: End processing [crawler-studio]: success
 [2023-07-27 04:37:43] INFO root fetch - main [MainThread]: Store serial: [19053913]
+[2023-07-27 04:42:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19053913]
+[2023-07-27 04:42:52] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-27 04:42:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rime-sdk
+[2023-07-27 04:42:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: baby-code
+[2023-07-27 04:42:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xj-user
+[2023-07-27 04:42:52] INFO root fetch - processPackages [baby-code]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-27 04:42:52] INFO root fetch - processPackages [rime-sdk]: New version: [2.2.0rc4] Old Version: [2.2.0rc3]
+[2023-07-27 04:42:52] INFO root fetch - processPackages [xj-user]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-07-27 04:42:52] INFO root fetch - processPackages [xj-user]: Downloading https://files.pythonhosted.org/packages/26/be/e0d28eecf05fff47ab8dc5bf0e46eff90f3cee3ae03596f052698e5df93d/xj_user-1.2.98.tar.gz
+[2023-07-27 04:42:52] INFO root fetch - processPackages [baby-code]: Downloading https://files.pythonhosted.org/packages/3a/64/7c6ff81ff0578d0dbb57e258d83d45a59c74762e0d1487b4a352ad0e1133/baby-code-0.0.2.tar.gz
+[2023-07-27 04:42:52] INFO root fetch - processPackages [rime-sdk]: Downloading https://files.pythonhosted.org/packages/1c/43/541e31187ab2bcd354a873649f94e2559e707fe49beade9175beb1618a6a/rime_sdk-2.2.0rc3.tar.gz
+[2023-07-27 04:42:52] INFO root fetch - processPackages [xj-user]: Downloading https://files.pythonhosted.org/packages/f9/79/9b7536f52cd2a21b092678ce5bc888a17a7c527cef9ae891d864354f2e5c/xj_user-1.2.99.tar.gz
+[2023-07-27 04:42:53] INFO root fetch - processPackages [rime-sdk]: Downloading https://files.pythonhosted.org/packages/c9/72/2079f5ef48a348f1bdb24e09585b261cb0cf1b3b113370c57420e3cf1c06/rime_sdk-2.2.0rc4.tar.gz
+[2023-07-27 04:42:53] INFO root fetch - processPackages [xj-user]: executing diffoscope
+[2023-07-27 04:42:53] INFO root fetch - processPackages [xj-user]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_user-1.2.98.tar.gz tmp/xj_user-1.2.99.tar.gz --markdown 20230727/x/xj-user/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-07-27 04:42:53] INFO root fetch - processPackages [baby-code]: Downloading https://files.pythonhosted.org/packages/4e/36/90a939b0fb6c0a36ef5c9b6ccd622c7cfa74804d730347e1f7e8d3caa397/baby-code-0.0.3.tar.gz
+[2023-07-27 04:42:53] INFO root fetch - processPackages [rime-sdk]: executing diffoscope
+[2023-07-27 04:42:53] INFO root fetch - processPackages [rime-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rime_sdk-2.2.0rc3.tar.gz tmp/rime_sdk-2.2.0rc4.tar.gz --markdown 20230727/r/rime-sdk/2.2.0rc3-2.2.0rc4/diff.md --exclude *.pyd
+[2023-07-27 04:42:53] INFO root fetch - processPackages [baby-code]: executing diffoscope
+[2023-07-27 04:42:53] INFO root fetch - processPackages [baby-code]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baby-code-0.0.2.tar.gz tmp/baby-code-0.0.3.tar.gz --markdown 20230727/b/baby-code/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-27 04:42:53] INFO root fetch - processPackages [baby-code]: Remove: archive file [/home/abi/fetcher/tmp/baby-code-0.0.2.tar.gz]
+[2023-07-27 04:42:53] INFO root fetch - processPackages [baby-code]: Remove: archive file [/home/abi/fetcher/tmp/baby-code-0.0.3.tar.gz]
+[2023-07-27 04:42:53] INFO root fetch - main [MainThread]: End processing [baby-code]: success
+[2023-07-27 04:42:54] INFO root fetch - processPackages [xj-user]: Remove: archive file [/home/abi/fetcher/tmp/xj_user-1.2.98.tar.gz]
+[2023-07-27 04:42:54] INFO root fetch - processPackages [xj-user]: Remove: archive file [/home/abi/fetcher/tmp/xj_user-1.2.99.tar.gz]
+[2023-07-27 04:42:54] INFO root fetch - main [MainThread]: End processing [xj-user]: success
+[2023-07-27 04:42:56] INFO root fetch - processPackages [rime-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rime_sdk-2.2.0rc3.tar.gz]
+[2023-07-27 04:42:56] INFO root fetch - processPackages [rime-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rime_sdk-2.2.0rc4.tar.gz]
+[2023-07-27 04:42:56] INFO root fetch - main [MainThread]: End processing [rime-sdk]: success
+[2023-07-27 04:42:56] INFO root fetch - main [MainThread]: Store serial: [19053923]
