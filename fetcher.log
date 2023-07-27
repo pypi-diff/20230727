@@ -11484,3 +11484,84 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-27 05:51:30] INFO root fetch - processPackages [piperider]: Remove: archive file [/home/abi/fetcher/tmp/piperider-0.9.0rc1.tar.gz]
 [2023-07-27 05:51:30] INFO root fetch - main [MainThread]: End processing [piperider]: success
 [2023-07-27 05:51:30] INFO root fetch - main [MainThread]: Store serial: [19054379]
+[2023-07-27 05:56:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19054379]
+[2023-07-27 05:56:39] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-27 05:56:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: conpacks
+[2023-07-27 05:56:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: neo-fairy-client
+[2023-07-27 05:56:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: greynoiselabs
+[2023-07-27 05:56:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rime-sdk
+[2023-07-27 05:56:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: logPPP
+[2023-07-27 05:56:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dorado
+[2023-07-27 05:56:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cosmopawn
+[2023-07-27 05:56:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: HandyLLM
+[2023-07-27 05:56:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: wow-ai-ml
+[2023-07-27 05:56:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: stdflow
+[2023-07-27 05:56:39] INFO root fetch - processPackages [neo-fairy-client]: New version: [3.5.0.9] Old Version: [3.5.0.8]
+[2023-07-27 05:56:39] INFO root fetch - processPackages [greynoiselabs]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-27 05:56:39] WARNING root fetch - processPackages [cosmopawn]: Skipping, unable to determine old version
+[2023-07-27 05:56:39] INFO root fetch - main [MainThread]: End processing [cosmopawn] error
+[2023-07-27 05:56:39] INFO root fetch - processPackages [wow-ai-ml]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-07-27 05:56:39] WARNING root fetch - processPackages [conpacks]: Skipping, unable to determine old version
+[2023-07-27 05:56:39] INFO root fetch - main [MainThread]: End processing [conpacks] error
+[2023-07-27 05:56:39] INFO root fetch - processPackages [stdflow]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-27 05:56:39] INFO root fetch - processPackages [logPPP]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-27 05:56:39] INFO root fetch - processPackages [HandyLLM]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-27 05:56:39] INFO root fetch - processPackages [rime-sdk]: New version: [2.2.0rc4] Old Version: [2.2.0rc3]
+[2023-07-27 05:56:39] INFO root fetch - processPackages [dorado]: New version: [2.0.6.dev99] Old Version: [2.0.6.dev97]
+[2023-07-27 05:56:39] INFO root fetch - processPackages [wow-ai-ml]: Downloading https://files.pythonhosted.org/packages/d5/d4/e580e5fcd63a6bcf4b8c70db80b8bf2327a36f4f745e19ad63b6c1a20eb4/wow_ai_ml-0.2.6.tar.gz
+[2023-07-27 05:56:39] INFO root fetch - processPackages [logPPP]: Downloading https://files.pythonhosted.org/packages/e5/03/523c5d0bad09a393ce8186b41cc6c7099fb74040ea04bf1a6192127d72d8/logPPP-1.1.0.tar.gz
+[2023-07-27 05:56:39] INFO root fetch - processPackages [stdflow]: Downloading https://files.pythonhosted.org/packages/5a/33/6e5153603470c41b92a8c59703dbf91abddf9edff5a271331124f97a73b0/stdflow-0.0.6.tar.gz
+[2023-07-27 05:56:39] INFO root fetch - processPackages [rime-sdk]: Downloading https://files.pythonhosted.org/packages/1c/43/541e31187ab2bcd354a873649f94e2559e707fe49beade9175beb1618a6a/rime_sdk-2.2.0rc3.tar.gz
+[2023-07-27 05:56:39] INFO root fetch - processPackages [dorado]: Downloading https://files.pythonhosted.org/packages/28/c3/25ec9324622ba0dd720edcd3809a1c623c162133d247d2e22790624c723b/dorado-2.0.6.dev97.tar.gz
+[2023-07-27 05:56:39] INFO root fetch - processPackages [greynoiselabs]: Downloading https://files.pythonhosted.org/packages/e6/d3/55cc5355f275835d5a9300fabac939be14e4454fd49831a534f1c3206600/greynoiselabs-0.1.0.tar.gz
+[2023-07-27 05:56:39] INFO root fetch - processPackages [neo-fairy-client]: Downloading https://files.pythonhosted.org/packages/97/14/b41debe9a15f9878282971321363d7ddd12ecb8c4468d5b7f4cf94808f9e/neo-fairy-client-3.5.0.8.tar.gz
+[2023-07-27 05:56:39] INFO root fetch - processPackages [HandyLLM]: Downloading https://files.pythonhosted.org/packages/7d/db/ebf0d3f36133a14135f39238576ba0768083b2b9ae7e3ab75133d228def7/HandyLLM-0.1.0.tar.gz
+[2023-07-27 05:56:39] INFO root fetch - processPackages [rime-sdk]: Downloading https://files.pythonhosted.org/packages/c9/72/2079f5ef48a348f1bdb24e09585b261cb0cf1b3b113370c57420e3cf1c06/rime_sdk-2.2.0rc4.tar.gz
+[2023-07-27 05:56:39] INFO root fetch - processPackages [wow-ai-ml]: Downloading https://files.pythonhosted.org/packages/19/0c/3e92533919f9140686a7fdbeb80585490a7651ff08672d339593f92414e0/wow_ai_ml-0.2.7.tar.gz
+[2023-07-27 05:56:39] INFO root fetch - processPackages [logPPP]: Downloading https://files.pythonhosted.org/packages/3c/0a/9fb229678c9ac2b44ac567f4a6a8b96ce10f62a2c9b462e392e6e8495506/logPPP-1.1.1.tar.gz
+[2023-07-27 05:56:39] INFO root fetch - processPackages [dorado]: Downloading https://files.pythonhosted.org/packages/b9/2e/854512bc2085bd5738d74bd4b50e4a958e43ee3e802999c5402e429e6030/dorado-2.0.6.dev99.tar.gz
+[2023-07-27 05:56:40] INFO root fetch - processPackages [stdflow]: Downloading https://files.pythonhosted.org/packages/f9/4e/7d3c32fc0dad4c47be5dc822af139c253bb348377f323fc9915f6be7f50b/stdflow-0.0.7.tar.gz
+[2023-07-27 05:56:40] INFO root fetch - processPackages [HandyLLM]: Downloading https://files.pythonhosted.org/packages/82/d3/52eff6284c39982dc9041b3c03e671af997fbdeb2bb7075d803b101503dd/HandyLLM-0.2.0.tar.gz
+[2023-07-27 05:56:40] INFO root fetch - processPackages [greynoiselabs]: Downloading https://files.pythonhosted.org/packages/4b/b7/e7b819bb7488b09d1c44bd9b095222a18edc2b8cedb693dd7b9475af9ca9/greynoiselabs-0.1.1.tar.gz
+[2023-07-27 05:56:40] INFO root fetch - processPackages [rime-sdk]: executing diffoscope
+[2023-07-27 05:56:40] INFO root fetch - processPackages [rime-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rime_sdk-2.2.0rc3.tar.gz tmp/rime_sdk-2.2.0rc4.tar.gz --markdown 20230727/r/rime-sdk/2.2.0rc3-2.2.0rc4/diff.md --exclude *.pyd
+[2023-07-27 05:56:40] INFO root fetch - processPackages [neo-fairy-client]: Downloading https://files.pythonhosted.org/packages/b3/4e/c7b7e068468467265e588c96985c20fa0db4ffa896c1cce293346595e4c6/neo-fairy-client-3.5.0.9.tar.gz
+[2023-07-27 05:56:40] INFO root fetch - processPackages [HandyLLM]: executing diffoscope
+[2023-07-27 05:56:40] INFO root fetch - processPackages [HandyLLM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HandyLLM-0.1.0.tar.gz tmp/HandyLLM-0.2.0.tar.gz --markdown 20230727/H/HandyLLM/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-27 05:56:40] INFO root fetch - processPackages [dorado]: executing diffoscope
+[2023-07-27 05:56:40] INFO root fetch - processPackages [dorado]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dorado-2.0.6.dev97.tar.gz tmp/dorado-2.0.6.dev99.tar.gz --markdown 20230727/d/dorado/2.0.6.dev97-2.0.6.dev99/diff.md --exclude *.pyd
+[2023-07-27 05:56:40] INFO root fetch - processPackages [stdflow]: executing diffoscope
+[2023-07-27 05:56:40] INFO root fetch - processPackages [stdflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stdflow-0.0.6.tar.gz tmp/stdflow-0.0.7.tar.gz --markdown 20230727/s/stdflow/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-27 05:56:40] INFO root fetch - processPackages [wow-ai-ml]: executing diffoscope
+[2023-07-27 05:56:40] INFO root fetch - processPackages [wow-ai-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wow_ai_ml-0.2.6.tar.gz tmp/wow_ai_ml-0.2.7.tar.gz --markdown 20230727/w/wow-ai-ml/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-07-27 05:56:40] INFO root fetch - processPackages [greynoiselabs]: executing diffoscope
+[2023-07-27 05:56:40] INFO root fetch - processPackages [greynoiselabs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/greynoiselabs-0.1.0.tar.gz tmp/greynoiselabs-0.1.1.tar.gz --markdown 20230727/g/greynoiselabs/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-27 05:56:40] INFO root fetch - processPackages [logPPP]: executing diffoscope
+[2023-07-27 05:56:40] INFO root fetch - processPackages [logPPP]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logPPP-1.1.0.tar.gz tmp/logPPP-1.1.1.tar.gz --markdown 20230727/l/logPPP/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-27 05:56:40] INFO root fetch - processPackages [neo-fairy-client]: executing diffoscope
+[2023-07-27 05:56:40] INFO root fetch - processPackages [neo-fairy-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neo-fairy-client-3.5.0.8.tar.gz tmp/neo-fairy-client-3.5.0.9.tar.gz --markdown 20230727/n/neo-fairy-client/3.5.0.8-3.5.0.9/diff.md --exclude *.pyd
+[2023-07-27 05:56:41] INFO root fetch - processPackages [HandyLLM]: Remove: archive file [/home/abi/fetcher/tmp/HandyLLM-0.1.0.tar.gz]
+[2023-07-27 05:56:41] INFO root fetch - processPackages [HandyLLM]: Remove: archive file [/home/abi/fetcher/tmp/HandyLLM-0.2.0.tar.gz]
+[2023-07-27 05:56:41] INFO root fetch - main [MainThread]: End processing [HandyLLM]: success
+[2023-07-27 05:56:41] INFO root fetch - processPackages [stdflow]: Remove: archive file [/home/abi/fetcher/tmp/stdflow-0.0.6.tar.gz]
+[2023-07-27 05:56:41] INFO root fetch - processPackages [stdflow]: Remove: archive file [/home/abi/fetcher/tmp/stdflow-0.0.7.tar.gz]
+[2023-07-27 05:56:41] INFO root fetch - main [MainThread]: End processing [stdflow]: success
+[2023-07-27 05:56:41] INFO root fetch - processPackages [neo-fairy-client]: Remove: archive file [/home/abi/fetcher/tmp/neo-fairy-client-3.5.0.8.tar.gz]
+[2023-07-27 05:56:41] INFO root fetch - processPackages [neo-fairy-client]: Remove: archive file [/home/abi/fetcher/tmp/neo-fairy-client-3.5.0.9.tar.gz]
+[2023-07-27 05:56:41] INFO root fetch - main [MainThread]: End processing [neo-fairy-client]: success
+[2023-07-27 05:56:41] INFO root fetch - processPackages [wow-ai-ml]: Remove: archive file [/home/abi/fetcher/tmp/wow_ai_ml-0.2.6.tar.gz]
+[2023-07-27 05:56:41] INFO root fetch - processPackages [wow-ai-ml]: Remove: archive file [/home/abi/fetcher/tmp/wow_ai_ml-0.2.7.tar.gz]
+[2023-07-27 05:56:41] INFO root fetch - main [MainThread]: End processing [wow-ai-ml]: success
+[2023-07-27 05:56:41] INFO root fetch - processPackages [greynoiselabs]: Remove: archive file [/home/abi/fetcher/tmp/greynoiselabs-0.1.0.tar.gz]
+[2023-07-27 05:56:41] INFO root fetch - processPackages [greynoiselabs]: Remove: archive file [/home/abi/fetcher/tmp/greynoiselabs-0.1.1.tar.gz]
+[2023-07-27 05:56:41] INFO root fetch - main [MainThread]: End processing [greynoiselabs]: success
+[2023-07-27 05:56:41] INFO root fetch - processPackages [logPPP]: Remove: archive file [/home/abi/fetcher/tmp/logPPP-1.1.0.tar.gz]
+[2023-07-27 05:56:41] INFO root fetch - processPackages [logPPP]: Remove: archive file [/home/abi/fetcher/tmp/logPPP-1.1.1.tar.gz]
+[2023-07-27 05:56:41] INFO root fetch - main [MainThread]: End processing [logPPP]: success
+[2023-07-27 05:56:41] INFO root fetch - processPackages [dorado]: Remove: archive file [/home/abi/fetcher/tmp/dorado-2.0.6.dev97.tar.gz]
+[2023-07-27 05:56:41] INFO root fetch - processPackages [dorado]: Remove: archive file [/home/abi/fetcher/tmp/dorado-2.0.6.dev99.tar.gz]
+[2023-07-27 05:56:41] INFO root fetch - main [MainThread]: End processing [dorado]: success
+[2023-07-27 05:56:43] INFO root fetch - processPackages [rime-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rime_sdk-2.2.0rc3.tar.gz]
+[2023-07-27 05:56:43] INFO root fetch - processPackages [rime-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rime_sdk-2.2.0rc4.tar.gz]
+[2023-07-27 05:56:43] INFO root fetch - main [MainThread]: End processing [rime-sdk]: success
+[2023-07-27 05:56:43] INFO root fetch - main [MainThread]: Store serial: [19054413]
