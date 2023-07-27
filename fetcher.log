@@ -12133,3 +12133,158 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-27 06:33:22] INFO root fetch - processPackages [InvokeAI]: Remove: archive file [/home/abi/fetcher/tmp/InvokeAI-3.0.1rc1.tar.gz]
 [2023-07-27 06:33:22] INFO root fetch - main [MainThread]: End processing [InvokeAI]: success
 [2023-07-27 06:33:22] INFO root fetch - main [MainThread]: Store serial: [19054592]
+[2023-07-27 06:38:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19054592]
+[2023-07-27 06:38:31] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-27 06:38:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: genet
+[2023-07-27 06:38:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jupysql-plugin
+[2023-07-27 06:38:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lazyinit
+[2023-07-27 06:38:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: opendp
+[2023-07-27 06:38:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: autodailycheckin
+[2023-07-27 06:38:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spiderx
+[2023-07-27 06:38:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bytetrade-recommend-model-sdk
+[2023-07-27 06:38:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: multisig-ci
+[2023-07-27 06:38:32] INFO root fetch - processPackages [lazyinit]: New version: [0.0.268] Old Version: [0.0.267]
+[2023-07-27 06:38:32] INFO root fetch - processPackages [genet]: New version: [0.6.1a0] Old Version: [0.6.0]
+[2023-07-27 06:38:32] INFO root fetch - processPackages [spiderx]: New version: [1.8.9] Old Version: [1.8.2]
+[2023-07-27 06:38:32] INFO root fetch - processPackages [opendp]: New version: [0.8.0a20230726001] Old Version: [0.7.0rc1]
+[2023-07-27 06:38:32] INFO root fetch - processPackages [autodailycheckin]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-27 06:38:32] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: New version: [0.0.29] Old Version: [0.0.28]
+[2023-07-27 06:38:32] INFO root fetch - processPackages [jupysql-plugin]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-27 06:38:32] INFO root fetch - processPackages [multisig-ci]: New version: [0.6.6] Old Version: [0.6.5]
+[2023-07-27 06:38:32] INFO root fetch - processPackages [lazyinit]: Downloading https://files.pythonhosted.org/packages/71/5d/9b79604f19a934f23ee68d35ff4a784120ffcecbe100f40086af738d06b2/lazyinit-0.0.267.tar.gz
+[2023-07-27 06:38:32] INFO root fetch - processPackages [spiderx]: Downloading https://files.pythonhosted.org/packages/0a/38/bdc5166668af43c8d8fb12955ee54797392b7e8d7c1bc7aa8180d6cf526b/spiderx-1.8.2.tar.gz
+[2023-07-27 06:38:32] INFO root fetch - processPackages [multisig-ci]: Downloading https://files.pythonhosted.org/packages/6c/c1/83657fe20020e77b608de8e14b1a08c99b3464b70b1e1745a2a47743f66f/multisig_ci-0.6.5.tar.gz
+[2023-07-27 06:38:32] INFO root fetch - processPackages [opendp]: Downloading https://files.pythonhosted.org/packages/9e/75/35d11467043d8db53789f5f5f09ebffe1608602aea9d77feaa7a02c01c92/opendp-0.7.0rc1-py3-none-any.whl
+[2023-07-27 06:38:32] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: Downloading https://files.pythonhosted.org/packages/62/ed/12444419d8f4b9fff67bfb505b4380fd22dc6979c306e75ebf24553c9e35/bytetrade-recommend-model-sdk-0.0.28.tar.gz
+[2023-07-27 06:38:32] INFO root fetch - processPackages [genet]: Downloading https://files.pythonhosted.org/packages/6b/0d/5d6e8c31e6bead7ee8ee6a738280d303ab3d9561c2276c918967f73b1ae1/genet-0.6.0-py3-none-any.whl
+[2023-07-27 06:38:32] INFO root fetch - processPackages [lazyinit]: Downloading https://files.pythonhosted.org/packages/0a/b0/036de2f35a1d36cd2e68fd251c9b1edf8163128d9239eac90b5bb13ec8b8/lazyinit-0.0.268.tar.gz
+[2023-07-27 06:38:32] INFO root fetch - processPackages [autodailycheckin]: Downloading https://files.pythonhosted.org/packages/f0/06/874fa591c55b5008ffabd05e314febaafb292b5967109e88a35bc7aa3bdf/autodailycheckin-0.1.5-py3-none-any.whl
+[2023-07-27 06:38:32] INFO root fetch - processPackages [jupysql-plugin]: Downloading https://files.pythonhosted.org/packages/a0/60/cb41f33e56cb869be7f11ea3570d0412ff244aa4affbdb10f12ab9815977/jupysql_plugin-0.1.8.tar.gz
+[2023-07-27 06:38:32] INFO root fetch - processPackages [multisig-ci]: Downloading https://files.pythonhosted.org/packages/2b/89/9ac13691863a54e3cd1a2057ef420d3bcfebb0cf477207435fa4ac85747e/multisig_ci-0.6.6.tar.gz
+[2023-07-27 06:38:32] INFO root fetch - processPackages [spiderx]: Downloading https://files.pythonhosted.org/packages/89/1b/9167dbeeaa50aa50ace655fad0bdde6e911624db12636d31909324747f8a/spiderx-1.8.9.tar.gz
+[2023-07-27 06:38:33] WARNING root fetch - processPackages [opendp]: Skipping package: exceeds size limit 19700208>=10485760
+[2023-07-27 06:38:33] INFO root fetch - main [MainThread]: End processing [opendp] error
+[2023-07-27 06:38:33] INFO root fetch - processPackages [autodailycheckin]: executing diffoscope
+[2023-07-27 06:38:33] INFO root fetch - processPackages [autodailycheckin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autodailycheckin-0.1.4-py3-none-any.whl.zip tmp/autodailycheckin-0.1.5-py3-none-any.whl.zip --markdown 20230727/a/autodailycheckin/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-27 06:38:33] INFO root fetch - processPackages [lazyinit]: executing diffoscope
+[2023-07-27 06:38:33] INFO root fetch - processPackages [lazyinit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazyinit-0.0.267.tar.gz tmp/lazyinit-0.0.268.tar.gz --markdown 20230727/l/lazyinit/0.0.267-0.0.268/diff.md --exclude *.pyd
+[2023-07-27 06:38:33] INFO root fetch - processPackages [multisig-ci]: executing diffoscope
+[2023-07-27 06:38:33] INFO root fetch - processPackages [multisig-ci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multisig_ci-0.6.5.tar.gz tmp/multisig_ci-0.6.6.tar.gz --markdown 20230727/m/multisig-ci/0.6.5-0.6.6/diff.md --exclude *.pyd
+[2023-07-27 06:38:33] INFO root fetch - processPackages [spiderx]: executing diffoscope
+[2023-07-27 06:38:33] INFO root fetch - processPackages [spiderx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spiderx-1.8.2.tar.gz tmp/spiderx-1.8.9.tar.gz --markdown 20230727/s/spiderx/1.8.2-1.8.9/diff.md --exclude *.pyd
+[2023-07-27 06:38:33] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: Downloading https://files.pythonhosted.org/packages/99/3c/7958b60de70917ea0eb285748be3264154e6958a3bfc16ed5dd1e985d6df/bytetrade-recommend-model-sdk-0.0.29.tar.gz
+[2023-07-27 06:38:33] INFO root fetch - processPackages [genet]: Downloading https://files.pythonhosted.org/packages/34/6b/4bc0154a47fd93a9d0676f61d332765549dacff239af579d51329b943bd3/genet-0.6.1a0-py3-none-any.whl
+[2023-07-27 06:38:33] INFO root fetch - processPackages [jupysql-plugin]: Downloading https://files.pythonhosted.org/packages/37/13/63f7ed469109e9a358d4f313ee38f6e8e20f6b2e463e676dde60ea06e6f8/jupysql_plugin-0.1.9.tar.gz
+[2023-07-27 06:38:33] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: executing diffoscope
+[2023-07-27 06:38:33] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bytetrade-recommend-model-sdk-0.0.28.tar.gz tmp/bytetrade-recommend-model-sdk-0.0.29.tar.gz --markdown 20230727/b/bytetrade-recommend-model-sdk/0.0.28-0.0.29/diff.md --exclude *.pyd
+[2023-07-27 06:38:33] INFO root fetch - processPackages [jupysql-plugin]: executing diffoscope
+[2023-07-27 06:38:33] INFO root fetch - processPackages [jupysql-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupysql_plugin-0.1.8.tar.gz tmp/jupysql_plugin-0.1.9.tar.gz --markdown 20230727/j/jupysql-plugin/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-27 06:38:33] INFO root fetch - processPackages [genet]: executing diffoscope
+[2023-07-27 06:38:33] INFO root fetch - processPackages [genet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genet-0.6.0-py3-none-any.whl.zip tmp/genet-0.6.1a0-py3-none-any.whl.zip --markdown 20230727/g/genet/0.6.0-0.6.1a0/diff.md --exclude *.pyd
+[2023-07-27 06:38:34] ERROR root fetch - processPackages [autodailycheckin]: Diffoscope failed: time="2023-07-27T06:38:33+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid continuation byte
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 252, in compare_details
+    differences.extend(zipinfo_differences(self, other))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 127, in zipinfo_differences
+    zipinfo = Difference.from_operation(Zipinfo, file.path, other.path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid continuation byte
+
+[2023-07-27 06:38:34] INFO root fetch - main [MainThread]: End processing [autodailycheckin] error
+[2023-07-27 06:38:34] INFO root fetch - processPackages [multisig-ci]: Remove: archive file [/home/abi/fetcher/tmp/multisig_ci-0.6.5.tar.gz]
+[2023-07-27 06:38:34] INFO root fetch - processPackages [multisig-ci]: Remove: archive file [/home/abi/fetcher/tmp/multisig_ci-0.6.6.tar.gz]
+[2023-07-27 06:38:34] INFO root fetch - main [MainThread]: End processing [multisig-ci]: success
+[2023-07-27 06:38:34] INFO root fetch - processPackages [genet]: Remove: archive file [/home/abi/fetcher/tmp/genet-0.6.0-py3-none-any.whl.zip]
+[2023-07-27 06:38:34] INFO root fetch - processPackages [genet]: Remove: archive file [/home/abi/fetcher/tmp/genet-0.6.1a0-py3-none-any.whl.zip]
+[2023-07-27 06:38:34] INFO root fetch - main [MainThread]: End processing [genet]: success
+[2023-07-27 06:38:34] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bytetrade-recommend-model-sdk-0.0.28.tar.gz]
+[2023-07-27 06:38:34] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bytetrade-recommend-model-sdk-0.0.29.tar.gz]
+[2023-07-27 06:38:34] INFO root fetch - main [MainThread]: End processing [bytetrade-recommend-model-sdk]: success
+[2023-07-27 06:38:34] INFO root fetch - processPackages [spiderx]: Remove: archive file [/home/abi/fetcher/tmp/spiderx-1.8.2.tar.gz]
+[2023-07-27 06:38:34] INFO root fetch - processPackages [spiderx]: Remove: archive file [/home/abi/fetcher/tmp/spiderx-1.8.9.tar.gz]
+[2023-07-27 06:38:34] INFO root fetch - main [MainThread]: End processing [spiderx]: success
+[2023-07-27 06:38:34] INFO root fetch - processPackages [lazyinit]: Remove: archive file [/home/abi/fetcher/tmp/lazyinit-0.0.267.tar.gz]
+[2023-07-27 06:38:34] INFO root fetch - processPackages [lazyinit]: Remove: archive file [/home/abi/fetcher/tmp/lazyinit-0.0.268.tar.gz]
+[2023-07-27 06:38:34] INFO root fetch - main [MainThread]: End processing [lazyinit]: success
+[2023-07-27 06:38:35] INFO root fetch - processPackages [jupysql-plugin]: Remove: archive file [/home/abi/fetcher/tmp/jupysql_plugin-0.1.8.tar.gz]
+[2023-07-27 06:38:35] INFO root fetch - processPackages [jupysql-plugin]: Remove: archive file [/home/abi/fetcher/tmp/jupysql_plugin-0.1.9.tar.gz]
+[2023-07-27 06:38:35] INFO root fetch - main [MainThread]: End processing [jupysql-plugin]: success
+[2023-07-27 06:38:35] INFO root fetch - main [MainThread]: Store serial: [19054613]
