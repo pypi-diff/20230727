@@ -11226,3 +11226,90 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-27 05:30:35] INFO root fetch - processPackages [rk-core]: Remove: archive file [/home/abi/fetcher/tmp/rk_core-0.1.4-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-07-27 05:30:35] INFO root fetch - main [MainThread]: End processing [rk-core]: success
 [2023-07-27 05:30:35] INFO root fetch - main [MainThread]: Store serial: [19054285]
+[2023-07-27 05:35:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19054285]
+[2023-07-27 05:35:52] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-27 05:35:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autopack-tools
+[2023-07-27 05:35:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: HawaData
+[2023-07-27 05:35:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: libprocess-extensions
+[2023-07-27 05:35:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: text-office
+[2023-07-27 05:35:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sparkdataframecomparer
+[2023-07-27 05:35:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: multisig-ci
+[2023-07-27 05:35:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: crop-utils
+[2023-07-27 05:35:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pylinkandtrack
+[2023-07-27 05:35:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: wom-py
+[2023-07-27 05:35:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: onqlave-python-sdk-pilot
+[2023-07-27 05:35:52] INFO root fetch - processPackages [HawaData]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-07-27 05:35:52] INFO root fetch - processPackages [autopack-tools]: New version: [0.4.0] Old Version: [0.3.4]
+[2023-07-27 05:35:52] WARNING root fetch - processPackages [libprocess-extensions]: Skipping, unable to determine old version
+[2023-07-27 05:35:52] INFO root fetch - main [MainThread]: End processing [libprocess-extensions] error
+[2023-07-27 05:35:52] INFO root fetch - processPackages [sparkdataframecomparer]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-07-27 05:35:52] INFO root fetch - processPackages [text-office]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-27 05:35:52] INFO root fetch - processPackages [pylinkandtrack]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-27 05:35:52] INFO root fetch - processPackages [wom-py]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-07-27 05:35:52] INFO root fetch - processPackages [crop-utils]: New version: [4.3.7] Old Version: [4.3.6]
+[2023-07-27 05:35:52] INFO root fetch - processPackages [onqlave-python-sdk-pilot]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-27 05:35:52] INFO root fetch - processPackages [multisig-ci]: New version: [0.6.4] Old Version: [0.6.3]
+[2023-07-27 05:35:52] INFO root fetch - processPackages [sparkdataframecomparer]: Downloading https://files.pythonhosted.org/packages/a6/6e/3cb8bc411bb1a69c038b1f9fd38e59326ed385c4734f7df2095883197ecf/sparkdataframecomparer-2.0.0.tar.gz
+[2023-07-27 05:35:52] INFO root fetch - processPackages [onqlave-python-sdk-pilot]: Downloading https://files.pythonhosted.org/packages/59/52/27818a5b0dc9fe59434c9f8dd87931c7b1e1d7bfb5c4444e786d74d04257/onqlave-python-sdk-pilot-0.0.8.tar.gz
+[2023-07-27 05:35:52] INFO root fetch - processPackages [autopack-tools]: Downloading https://files.pythonhosted.org/packages/a6/1e/41a43d1a3dc44308c5f6786cf1ac3720061c5980776dce4eb848d3d4c226/autopack_tools-0.3.4.tar.gz
+[2023-07-27 05:35:52] INFO root fetch - processPackages [HawaData]: Downloading https://files.pythonhosted.org/packages/93/65/8958754198f23e8e76b68e86577cc447b2f027cc15ce68765ea2aa92e336/HawaData-0.8.8.tar.gz
+[2023-07-27 05:35:52] INFO root fetch - processPackages [text-office]: Downloading https://files.pythonhosted.org/packages/1d/0a/2cc31041db37f5e31d7210aaf0c973f13a2f7ed601ba803a213698bef333/text-office-0.3.0.tar.gz
+[2023-07-27 05:35:52] INFO root fetch - processPackages [pylinkandtrack]: Downloading https://files.pythonhosted.org/packages/c6/d6/0f8f731300711bee42556bdbd850b6a78ab2793b976829c6691ef1d35713/pylinkandtrack-0.1.0.tar.gz
+[2023-07-27 05:35:52] INFO root fetch - processPackages [multisig-ci]: Downloading https://files.pythonhosted.org/packages/2b/94/46545c9f665056e80360194453562d117e62834654a497af9baebe833c5a/multisig_ci-0.6.3.tar.gz
+[2023-07-27 05:35:52] INFO root fetch - processPackages [wom-py]: Downloading https://files.pythonhosted.org/packages/fb/c5/bb5fba15bbc06dc40ff314e60dbdb38367011151a04bea9bf4d57e37683d/wom_py-0.5.0.tar.gz
+[2023-07-27 05:35:53] INFO root fetch - processPackages [crop-utils]: Downloading https://files.pythonhosted.org/packages/93/d7/987f9f05bf67b17622265ff151578ad7cd56615e8bba622d933496232baf/crop_utils-4.3.6.tar.gz
+[2023-07-27 05:35:53] INFO root fetch - processPackages [sparkdataframecomparer]: Downloading https://files.pythonhosted.org/packages/e5/46/1cccde79a726eb35b1faa9ffc247916d525e64c83878ea2c2344ff537da8/sparkdataframecomparer-2.0.1.tar.gz
+[2023-07-27 05:35:53] INFO root fetch - processPackages [onqlave-python-sdk-pilot]: Downloading https://files.pythonhosted.org/packages/63/b0/994ce6161d7a0abbf7a7adef4b05993a95b3f12dcef78d435a13caa4c412/onqlave-python-sdk-pilot-0.0.9.tar.gz
+[2023-07-27 05:35:53] INFO root fetch - processPackages [autopack-tools]: Downloading https://files.pythonhosted.org/packages/85/1c/9b899707b87c5f480c09eaf4eaca5ab2a06c484f6dcbc33cfb67e7e898e1/autopack_tools-0.4.0.tar.gz
+[2023-07-27 05:35:53] INFO root fetch - processPackages [text-office]: Downloading https://files.pythonhosted.org/packages/d3/13/c2496395af081a972325e5ce1147fbc3a33b4a6b2480974e9be96804f431/text-office-0.3.1.tar.gz
+[2023-07-27 05:35:53] INFO root fetch - processPackages [HawaData]: Downloading https://files.pythonhosted.org/packages/d2/bf/6828f336cfd522d4a8785c9336db1b29c44a1d6079de425dafe80e4aa31c/HawaData-0.8.9.tar.gz
+[2023-07-27 05:35:53] INFO root fetch - processPackages [sparkdataframecomparer]: executing diffoscope
+[2023-07-27 05:35:53] INFO root fetch - processPackages [sparkdataframecomparer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparkdataframecomparer-2.0.0.tar.gz tmp/sparkdataframecomparer-2.0.1.tar.gz --markdown 20230727/s/sparkdataframecomparer/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-07-27 05:35:53] INFO root fetch - processPackages [multisig-ci]: Downloading https://files.pythonhosted.org/packages/01/5b/01eec14a11182da69109674839cce73a29529ea7f621decaf911dc537aef/multisig_ci-0.6.4.tar.gz
+[2023-07-27 05:35:53] INFO root fetch - processPackages [pylinkandtrack]: Downloading https://files.pythonhosted.org/packages/11/a3/be5a88ad1cd9f6cc7f484996aedc69ad0b6606404689d102e6701f0f8323/pylinkandtrack-0.1.1.tar.gz
+[2023-07-27 05:35:53] INFO root fetch - processPackages [onqlave-python-sdk-pilot]: executing diffoscope
+[2023-07-27 05:35:53] INFO root fetch - processPackages [onqlave-python-sdk-pilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onqlave-python-sdk-pilot-0.0.8.tar.gz tmp/onqlave-python-sdk-pilot-0.0.9.tar.gz --markdown 20230727/o/onqlave-python-sdk-pilot/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-27 05:35:53] INFO root fetch - processPackages [wom-py]: Downloading https://files.pythonhosted.org/packages/61/9e/389304564e81b373fd7e1897d47a5f88214b91d64c6c76c54c374da27e38/wom_py-0.6.0.tar.gz
+[2023-07-27 05:35:53] INFO root fetch - processPackages [autopack-tools]: executing diffoscope
+[2023-07-27 05:35:53] INFO root fetch - processPackages [autopack-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopack_tools-0.3.4.tar.gz tmp/autopack_tools-0.4.0.tar.gz --markdown 20230727/a/autopack-tools/0.3.4-0.4.0/diff.md --exclude *.pyd
+[2023-07-27 05:35:53] INFO root fetch - processPackages [crop-utils]: Downloading https://files.pythonhosted.org/packages/8e/83/0d33c8fbf409e372c176b3bf099a144189d74130896f0328070c76d3b59c/crop_utils-4.3.7.tar.gz
+[2023-07-27 05:35:53] INFO root fetch - processPackages [text-office]: executing diffoscope
+[2023-07-27 05:35:53] INFO root fetch - processPackages [text-office]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text-office-0.3.0.tar.gz tmp/text-office-0.3.1.tar.gz --markdown 20230727/t/text-office/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-27 05:35:53] INFO root fetch - processPackages [pylinkandtrack]: executing diffoscope
+[2023-07-27 05:35:53] INFO root fetch - processPackages [pylinkandtrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylinkandtrack-0.1.0.tar.gz tmp/pylinkandtrack-0.1.1.tar.gz --markdown 20230727/p/pylinkandtrack/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-27 05:35:53] INFO root fetch - processPackages [HawaData]: executing diffoscope
+[2023-07-27 05:35:53] INFO root fetch - processPackages [multisig-ci]: executing diffoscope
+[2023-07-27 05:35:53] INFO root fetch - processPackages [HawaData]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HawaData-0.8.8.tar.gz tmp/HawaData-0.8.9.tar.gz --markdown 20230727/H/HawaData/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-07-27 05:35:53] INFO root fetch - processPackages [multisig-ci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multisig_ci-0.6.3.tar.gz tmp/multisig_ci-0.6.4.tar.gz --markdown 20230727/m/multisig-ci/0.6.3-0.6.4/diff.md --exclude *.pyd
+[2023-07-27 05:35:53] INFO root fetch - processPackages [wom-py]: executing diffoscope
+[2023-07-27 05:35:53] INFO root fetch - processPackages [wom-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wom_py-0.5.0.tar.gz tmp/wom_py-0.6.0.tar.gz --markdown 20230727/w/wom-py/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-07-27 05:35:53] INFO root fetch - processPackages [crop-utils]: executing diffoscope
+[2023-07-27 05:35:53] INFO root fetch - processPackages [crop-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crop_utils-4.3.6.tar.gz tmp/crop_utils-4.3.7.tar.gz --markdown 20230727/c/crop-utils/4.3.6-4.3.7/diff.md --exclude *.pyd
+[2023-07-27 05:35:54] INFO root fetch - processPackages [text-office]: Remove: archive file [/home/abi/fetcher/tmp/text-office-0.3.0.tar.gz]
+[2023-07-27 05:35:54] INFO root fetch - processPackages [text-office]: Remove: archive file [/home/abi/fetcher/tmp/text-office-0.3.1.tar.gz]
+[2023-07-27 05:35:54] INFO root fetch - main [MainThread]: End processing [text-office]: success
+[2023-07-27 05:35:55] INFO root fetch - processPackages [pylinkandtrack]: Remove: archive file [/home/abi/fetcher/tmp/pylinkandtrack-0.1.0.tar.gz]
+[2023-07-27 05:35:55] INFO root fetch - processPackages [pylinkandtrack]: Remove: archive file [/home/abi/fetcher/tmp/pylinkandtrack-0.1.1.tar.gz]
+[2023-07-27 05:35:55] INFO root fetch - main [MainThread]: End processing [pylinkandtrack]: success
+[2023-07-27 05:35:55] INFO root fetch - processPackages [autopack-tools]: Remove: archive file [/home/abi/fetcher/tmp/autopack_tools-0.3.4.tar.gz]
+[2023-07-27 05:35:55] INFO root fetch - processPackages [autopack-tools]: Remove: archive file [/home/abi/fetcher/tmp/autopack_tools-0.4.0.tar.gz]
+[2023-07-27 05:35:55] INFO root fetch - main [MainThread]: End processing [autopack-tools]: success
+[2023-07-27 05:35:55] INFO root fetch - processPackages [sparkdataframecomparer]: Remove: archive file [/home/abi/fetcher/tmp/sparkdataframecomparer-2.0.0.tar.gz]
+[2023-07-27 05:35:55] INFO root fetch - processPackages [sparkdataframecomparer]: Remove: archive file [/home/abi/fetcher/tmp/sparkdataframecomparer-2.0.1.tar.gz]
+[2023-07-27 05:35:55] INFO root fetch - main [MainThread]: End processing [sparkdataframecomparer]: success
+[2023-07-27 05:35:55] INFO root fetch - processPackages [crop-utils]: Remove: archive file [/home/abi/fetcher/tmp/crop_utils-4.3.6.tar.gz]
+[2023-07-27 05:35:55] INFO root fetch - processPackages [crop-utils]: Remove: archive file [/home/abi/fetcher/tmp/crop_utils-4.3.7.tar.gz]
+[2023-07-27 05:35:55] INFO root fetch - main [MainThread]: End processing [crop-utils]: success
+[2023-07-27 05:35:55] INFO root fetch - processPackages [onqlave-python-sdk-pilot]: Remove: archive file [/home/abi/fetcher/tmp/onqlave-python-sdk-pilot-0.0.8.tar.gz]
+[2023-07-27 05:35:55] INFO root fetch - processPackages [onqlave-python-sdk-pilot]: Remove: archive file [/home/abi/fetcher/tmp/onqlave-python-sdk-pilot-0.0.9.tar.gz]
+[2023-07-27 05:35:55] INFO root fetch - main [MainThread]: End processing [onqlave-python-sdk-pilot]: success
+[2023-07-27 05:35:55] INFO root fetch - processPackages [multisig-ci]: Remove: archive file [/home/abi/fetcher/tmp/multisig_ci-0.6.3.tar.gz]
+[2023-07-27 05:35:55] INFO root fetch - processPackages [multisig-ci]: Remove: archive file [/home/abi/fetcher/tmp/multisig_ci-0.6.4.tar.gz]
+[2023-07-27 05:35:55] INFO root fetch - main [MainThread]: End processing [multisig-ci]: success
+[2023-07-27 05:35:55] INFO root fetch - processPackages [HawaData]: Remove: archive file [/home/abi/fetcher/tmp/HawaData-0.8.8.tar.gz]
+[2023-07-27 05:35:55] INFO root fetch - processPackages [HawaData]: Remove: archive file [/home/abi/fetcher/tmp/HawaData-0.8.9.tar.gz]
+[2023-07-27 05:35:55] INFO root fetch - main [MainThread]: End processing [HawaData]: success
+[2023-07-27 05:35:55] INFO root fetch - processPackages [wom-py]: Remove: archive file [/home/abi/fetcher/tmp/wom_py-0.5.0.tar.gz]
+[2023-07-27 05:35:55] INFO root fetch - processPackages [wom-py]: Remove: archive file [/home/abi/fetcher/tmp/wom_py-0.6.0.tar.gz]
+[2023-07-27 05:35:55] INFO root fetch - main [MainThread]: End processing [wom-py]: success
+[2023-07-27 05:35:55] INFO root fetch - main [MainThread]: Store serial: [19054313]
