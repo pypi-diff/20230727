@@ -16935,3 +16935,127 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-27 08:56:39] INFO root fetch - processPackages [deepchecks]: Remove: archive file [/home/abi/fetcher/tmp/deepchecks-0.9.2.tar.gz]
 [2023-07-27 08:56:39] INFO root fetch - main [MainThread]: End processing [deepchecks]: success
 [2023-07-27 08:56:39] INFO root fetch - main [MainThread]: Store serial: [19056317]
+[2023-07-27 09:01:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19056317]
+[2023-07-27 09:01:48] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-27 09:01:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gpthistory
+[2023-07-27 09:01:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hyperopt-prophet
+[2023-07-27 09:01:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastramqpi
+[2023-07-27 09:01:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ascend-deployer
+[2023-07-27 09:01:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: biodigest
+[2023-07-27 09:01:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: py-pure-client
+[2023-07-27 09:01:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: benimang
+[2023-07-27 09:01:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: invest-life
+[2023-07-27 09:01:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: libTSCANAPI
+[2023-07-27 09:01:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: paddlepaddle-gpu
+[2023-07-27 09:01:48] INFO root fetch - processPackages [biodigest]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-27 09:01:48] INFO root fetch - processPackages [hyperopt-prophet]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-27 09:01:48] INFO root fetch - processPackages [libTSCANAPI]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-07-27 09:01:48] INFO root fetch - processPackages [fastramqpi]: New version: [1.5.3] Old Version: [1.5.2]
+[2023-07-27 09:01:48] INFO root fetch - processPackages [ascend-deployer]: New version: [5.0.0b9] Old Version: [5.0.0b8]
+[2023-07-27 09:01:48] INFO root fetch - processPackages [benimang]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-27 09:01:48] INFO root fetch - processPackages [paddlepaddle-gpu]: New version: [2.5.0rc1] Old Version: [2.5.0rc0]
+[2023-07-27 09:01:48] WARNING root fetch - processPackages [gpthistory]: Skipping, unable to determine old version
+[2023-07-27 09:01:48] INFO root fetch - processPackages [gpthistory]: Start processing: imsize
+[2023-07-27 09:01:48] INFO root fetch - main [MainThread]: End processing [gpthistory] error
+[2023-07-27 09:01:48] INFO root fetch - processPackages [invest-life]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-27 09:01:48] INFO root fetch - processPackages [py-pure-client]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-07-27 09:01:48] INFO root fetch - processPackages [libTSCANAPI]: Downloading https://files.pythonhosted.org/packages/60/26/4ebdfddda640181c14efb22a036143e7307d1dc2a92be8edb0b2021c8497/libTSCANAPI-1.2.2.tar.gz
+[2023-07-27 09:01:48] INFO root fetch - processPackages [imsize]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-07-27 09:01:48] INFO root fetch - processPackages [benimang]: Downloading https://files.pythonhosted.org/packages/6c/53/9b86c706ade5f74e42d276d659921701a0cf7c8ba099b489c3958cd88b4f/benimang-0.4.8.tar.gz
+[2023-07-27 09:01:49] INFO root fetch - processPackages [biodigest]: Downloading https://files.pythonhosted.org/packages/cb/f4/00f5dbe212fdc6f3320080d0403549155deabf08afa4491176f578746f84/biodigest-0.2.8.tar.gz
+[2023-07-27 09:01:49] INFO root fetch - processPackages [ascend-deployer]: Downloading https://files.pythonhosted.org/packages/c8/4e/d1b9c0b99ad4e8960740f9d14cc03a5fdda36feb4e6eb825b8fade8472e7/ascend_deployer-5.0.0b8-py3-none-any.whl
+[2023-07-27 09:01:49] INFO root fetch - processPackages [fastramqpi]: Downloading https://files.pythonhosted.org/packages/ff/94/7290089279ab12ae778907fe7edf3abd76e61293380a37ac609b6fae3e40/fastramqpi-1.5.2.tar.gz
+[2023-07-27 09:01:49] INFO root fetch - processPackages [hyperopt-prophet]: Downloading https://files.pythonhosted.org/packages/af/c4/3ab45c8cfde8d3278525b3a1ba7ebf46ea5bfefb043ee319d2c89b408f13/hyperopt_prophet-0.1.5.tar.gz
+[2023-07-27 09:01:49] WARNING root fetch - processPackages [libTSCANAPI]: Skipping package: exceeds size limit 16298298>=10485760
+[2023-07-27 09:01:49] INFO root fetch - processPackages [libTSCANAPI]: Start processing: pinnwand
+[2023-07-27 09:01:49] INFO root fetch - main [MainThread]: End processing [libTSCANAPI] error
+[2023-07-27 09:01:49] INFO root fetch - processPackages [imsize]: Downloading https://files.pythonhosted.org/packages/e9/b4/d61e6a55424eebe08c8e002944db05f86b52114cfcdae607c1b664fd575a/imsize-1.3.3.tar.gz
+[2023-07-27 09:01:49] INFO root fetch - processPackages [invest-life]: Downloading https://files.pythonhosted.org/packages/58/f2/cd9b9c84d633dca0d254f94d8fc5da76ddff81f05d20d81dba926e2682c3/invest_life-0.0.2.tar.gz
+[2023-07-27 09:01:49] INFO root fetch - processPackages [paddlepaddle-gpu]: Downloading https://files.pythonhosted.org/packages/09/29/e5edf7577f2ce3ce4edc9c832fc8d5b688eeed0116e839556ee7efa6ef88/paddlepaddle_gpu-2.5.0rc0-cp39-cp39-win_amd64.whl
+[2023-07-27 09:01:49] INFO root fetch - processPackages [py-pure-client]: Downloading https://files.pythonhosted.org/packages/f5/a9/1e9044d916cb22d9033363f82ed590e172e0135238fa7d4d04c91aab2b5b/py-pure-client-1.8.0.tar.gz
+[2023-07-27 09:01:49] INFO root fetch - processPackages [pinnwand]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-07-27 09:01:49] WARNING root fetch - processPackages [paddlepaddle-gpu]: Skipping package: exceeds size limit 452434513>=10485760
+[2023-07-27 09:01:49] INFO root fetch - processPackages [paddlepaddle-gpu]: Start processing: python-aternos
+[2023-07-27 09:01:49] INFO root fetch - main [MainThread]: End processing [paddlepaddle-gpu] error
+[2023-07-27 09:01:49] INFO root fetch - processPackages [benimang]: Downloading https://files.pythonhosted.org/packages/e6/d8/79c374e4571a77e12f622ba60e902b628a4f241c92211d73f8b66907db49/benimang-0.4.9.tar.gz
+[2023-07-27 09:01:49] INFO root fetch - processPackages [hyperopt-prophet]: Downloading https://files.pythonhosted.org/packages/eb/c5/2f18e5751ff8df68316957d696bd8c1586baa2e3f71494a9b51a00754193/hyperopt_prophet-0.1.6.tar.gz
+[2023-07-27 09:01:49] INFO root fetch - processPackages [biodigest]: Downloading https://files.pythonhosted.org/packages/c1/4f/a6829a2be5029cff51d8f8debc7a04ed99af64b8398532bba03dea55832a/biodigest-0.2.9.tar.gz
+[2023-07-27 09:01:49] INFO root fetch - processPackages [imsize]: Downloading https://files.pythonhosted.org/packages/4c/2f/1e60b2d50e425315936a68239b6cf674088da0438cc2f9fd502d81144058/imsize-1.3.4.tar.gz
+[2023-07-27 09:01:49] INFO root fetch - processPackages [python-aternos]: New version: [3.0.4] Old Version: [3.0.3]
+[2023-07-27 09:01:49] INFO root fetch - processPackages [benimang]: executing diffoscope
+[2023-07-27 09:01:49] INFO root fetch - processPackages [benimang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benimang-0.4.8.tar.gz tmp/benimang-0.4.9.tar.gz --markdown 20230727/b/benimang/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-27 09:01:49] INFO root fetch - processPackages [pinnwand]: Downloading https://files.pythonhosted.org/packages/ff/93/72bcc03a16e780fc954a1a5e50449f54d8d3e2e4533b434150f129e5a1a9/pinnwand-1.4.0.tar.gz
+[2023-07-27 09:01:49] INFO root fetch - processPackages [fastramqpi]: Downloading https://files.pythonhosted.org/packages/72/e9/ce35d73f54effee094f780d03555df3a42c6a0909066a566e971f76c1d47/fastramqpi-1.5.3.tar.gz
+[2023-07-27 09:01:49] INFO root fetch - processPackages [invest-life]: Downloading https://files.pythonhosted.org/packages/be/43/73d4e041d2b26f36f1e04f02e065a8b58fe73c132a304da6715671c781d9/invest_life-0.0.3.tar.gz
+[2023-07-27 09:01:49] INFO root fetch - processPackages [ascend-deployer]: Downloading https://files.pythonhosted.org/packages/82/2b/de9c9891308ac9115a7f856ed337c153c087f6c6534f0a6780aea70a04f0/ascend_deployer-5.0.0b9-py3-none-any.whl
+[2023-07-27 09:01:49] INFO root fetch - processPackages [hyperopt-prophet]: executing diffoscope
+[2023-07-27 09:01:49] INFO root fetch - processPackages [hyperopt-prophet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperopt_prophet-0.1.5.tar.gz tmp/hyperopt_prophet-0.1.6.tar.gz --markdown 20230727/h/hyperopt-prophet/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-27 09:01:49] INFO root fetch - processPackages [biodigest]: executing diffoscope
+[2023-07-27 09:01:49] INFO root fetch - processPackages [biodigest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biodigest-0.2.8.tar.gz tmp/biodigest-0.2.9.tar.gz --markdown 20230727/b/biodigest/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-27 09:01:49] INFO root fetch - processPackages [py-pure-client]: Downloading https://files.pythonhosted.org/packages/a2/95/0c1453c53a70db65236cf75842d1452fee7d3c3a4f0246e1797872c54cbe/py-pure-client-1.9.0.tar.gz
+[2023-07-27 09:01:49] INFO root fetch - processPackages [imsize]: executing diffoscope
+[2023-07-27 09:01:49] INFO root fetch - processPackages [imsize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imsize-1.3.3.tar.gz tmp/imsize-1.3.4.tar.gz --markdown 20230727/i/imsize/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-07-27 09:01:49] INFO root fetch - processPackages [invest-life]: executing diffoscope
+[2023-07-27 09:01:49] INFO root fetch - processPackages [invest-life]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invest_life-0.0.2.tar.gz tmp/invest_life-0.0.3.tar.gz --markdown 20230727/i/invest-life/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-27 09:01:49] INFO root fetch - processPackages [python-aternos]: Downloading https://files.pythonhosted.org/packages/de/ee/229ced22c4c3416ba73e98b8e7d78bab2bd4db2fff77fcff1cbed94265bb/python-aternos-3.0.3.tar.gz
+[2023-07-27 09:01:49] INFO root fetch - processPackages [ascend-deployer]: executing diffoscope
+[2023-07-27 09:01:49] INFO root fetch - processPackages [ascend-deployer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ascend_deployer-5.0.0b8-py3-none-any.whl.zip tmp/ascend_deployer-5.0.0b9-py3-none-any.whl.zip --markdown 20230727/a/ascend-deployer/5.0.0b8-5.0.0b9/diff.md --exclude *.pyd
+[2023-07-27 09:01:50] INFO root fetch - processPackages [fastramqpi]: executing diffoscope
+[2023-07-27 09:01:50] INFO root fetch - processPackages [fastramqpi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastramqpi-1.5.2.tar.gz tmp/fastramqpi-1.5.3.tar.gz --markdown 20230727/f/fastramqpi/1.5.2-1.5.3/diff.md --exclude *.pyd
+[2023-07-27 09:01:50] INFO root fetch - processPackages [py-pure-client]: executing diffoscope
+[2023-07-27 09:01:50] INFO root fetch - processPackages [py-pure-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-pure-client-1.8.0.tar.gz tmp/py-pure-client-1.9.0.tar.gz --markdown 20230727/p/py-pure-client/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-27 09:01:50] INFO root fetch - processPackages [pinnwand]: Downloading https://files.pythonhosted.org/packages/87/84/45e5b6eae158b664fd2c9d89451798cd022e0b3624836b34c8bb51fa4d44/pinnwand-1.5.0.tar.gz
+[2023-07-27 09:01:50] INFO root fetch - processPackages [pinnwand]: executing diffoscope
+[2023-07-27 09:01:50] INFO root fetch - processPackages [pinnwand]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinnwand-1.4.0.tar.gz tmp/pinnwand-1.5.0.tar.gz --markdown 20230727/p/pinnwand/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-07-27 09:01:50] INFO root fetch - processPackages [python-aternos]: Downloading https://files.pythonhosted.org/packages/4b/2a/d76f02200d780281d51146d7e2f19c8c1b3edae141bcc7581d074e66cc3a/python-aternos-3.0.4.tar.gz
+[2023-07-27 09:01:50] INFO root fetch - processPackages [python-aternos]: executing diffoscope
+[2023-07-27 09:01:50] INFO root fetch - processPackages [python-aternos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-aternos-3.0.3.tar.gz tmp/python-aternos-3.0.4.tar.gz --markdown 20230727/p/python-aternos/3.0.3-3.0.4/diff.md --exclude *.pyd
+[2023-07-27 09:01:51] INFO root fetch - processPackages [benimang]: Remove: archive file [/home/abi/fetcher/tmp/benimang-0.4.8.tar.gz]
+[2023-07-27 09:01:51] INFO root fetch - processPackages [benimang]: Remove: archive file [/home/abi/fetcher/tmp/benimang-0.4.9.tar.gz]
+[2023-07-27 09:01:51] INFO root fetch - processPackages [benimang]: Start processing: core-devoops
+[2023-07-27 09:01:51] INFO root fetch - main [MainThread]: End processing [benimang]: success
+[2023-07-27 09:01:51] INFO root fetch - processPackages [invest-life]: Remove: archive file [/home/abi/fetcher/tmp/invest_life-0.0.2.tar.gz]
+[2023-07-27 09:01:51] INFO root fetch - processPackages [invest-life]: Remove: archive file [/home/abi/fetcher/tmp/invest_life-0.0.3.tar.gz]
+[2023-07-27 09:01:51] INFO root fetch - processPackages [invest-life]: Start processing: zoviz
+[2023-07-27 09:01:51] INFO root fetch - main [MainThread]: End processing [invest-life]: success
+[2023-07-27 09:01:51] INFO root fetch - processPackages [hyperopt-prophet]: Remove: archive file [/home/abi/fetcher/tmp/hyperopt_prophet-0.1.5.tar.gz]
+[2023-07-27 09:01:51] INFO root fetch - processPackages [hyperopt-prophet]: Remove: archive file [/home/abi/fetcher/tmp/hyperopt_prophet-0.1.6.tar.gz]
+[2023-07-27 09:01:51] INFO root fetch - processPackages [core-devoops]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-27 09:01:51] INFO root fetch - main [MainThread]: End processing [hyperopt-prophet]: success
+[2023-07-27 09:01:51] INFO root fetch - processPackages [biodigest]: Remove: archive file [/home/abi/fetcher/tmp/biodigest-0.2.8.tar.gz]
+[2023-07-27 09:01:51] INFO root fetch - processPackages [biodigest]: Remove: archive file [/home/abi/fetcher/tmp/biodigest-0.2.9.tar.gz]
+[2023-07-27 09:01:51] INFO root fetch - main [MainThread]: End processing [biodigest]: success
+[2023-07-27 09:01:51] INFO root fetch - processPackages [imsize]: Remove: archive file [/home/abi/fetcher/tmp/imsize-1.3.3.tar.gz]
+[2023-07-27 09:01:51] INFO root fetch - processPackages [imsize]: Remove: archive file [/home/abi/fetcher/tmp/imsize-1.3.4.tar.gz]
+[2023-07-27 09:01:51] INFO root fetch - main [MainThread]: End processing [imsize]: success
+[2023-07-27 09:01:51] INFO root fetch - processPackages [zoviz]: New version: [0.4.99] Old Version: [0.4.98]
+[2023-07-27 09:01:51] INFO root fetch - processPackages [fastramqpi]: Remove: archive file [/home/abi/fetcher/tmp/fastramqpi-1.5.2.tar.gz]
+[2023-07-27 09:01:51] INFO root fetch - processPackages [fastramqpi]: Remove: archive file [/home/abi/fetcher/tmp/fastramqpi-1.5.3.tar.gz]
+[2023-07-27 09:01:51] INFO root fetch - main [MainThread]: End processing [fastramqpi]: success
+[2023-07-27 09:01:51] INFO root fetch - processPackages [core-devoops]: Downloading https://files.pythonhosted.org/packages/3c/93/adfe9f514ec315e817eaf2e1c5f1bb25cf7d0f2cbc936770e2c979d2aabd/core_devoops-0.0.8.tar.gz
+[2023-07-27 09:01:51] INFO root fetch - processPackages [zoviz]: Downloading https://files.pythonhosted.org/packages/39/01/118ff39e3e5bc58e05756a517d2b426abe032aa3420d27e3000aaac3b14a/zoviz-0.4.98.tar.gz
+[2023-07-27 09:01:51] INFO root fetch - processPackages [pinnwand]: Remove: archive file [/home/abi/fetcher/tmp/pinnwand-1.4.0.tar.gz]
+[2023-07-27 09:01:51] INFO root fetch - processPackages [pinnwand]: Remove: archive file [/home/abi/fetcher/tmp/pinnwand-1.5.0.tar.gz]
+[2023-07-27 09:01:51] INFO root fetch - main [MainThread]: End processing [pinnwand]: success
+[2023-07-27 09:01:52] INFO root fetch - processPackages [python-aternos]: Remove: archive file [/home/abi/fetcher/tmp/python-aternos-3.0.3.tar.gz]
+[2023-07-27 09:01:52] INFO root fetch - processPackages [python-aternos]: Remove: archive file [/home/abi/fetcher/tmp/python-aternos-3.0.4.tar.gz]
+[2023-07-27 09:01:52] INFO root fetch - main [MainThread]: End processing [python-aternos]: success
+[2023-07-27 09:01:52] INFO root fetch - processPackages [core-devoops]: Downloading https://files.pythonhosted.org/packages/2a/51/6533d996524e40b530571bc10bc34c3cb3d204851df2ef711ffaf9c70b84/core_devoops-0.0.9.tar.gz
+[2023-07-27 09:01:52] INFO root fetch - processPackages [zoviz]: Downloading https://files.pythonhosted.org/packages/4b/9a/dea269ed1403497e3e963b49e4d08cdc0e831c8642e0f505481d42cdc405/zoviz-0.4.99.tar.gz
+[2023-07-27 09:01:52] INFO root fetch - processPackages [core-devoops]: executing diffoscope
+[2023-07-27 09:01:52] INFO root fetch - processPackages [core-devoops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_devoops-0.0.8.tar.gz tmp/core_devoops-0.0.9.tar.gz --markdown 20230727/c/core-devoops/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-27 09:01:52] INFO root fetch - processPackages [zoviz]: executing diffoscope
+[2023-07-27 09:01:52] INFO root fetch - processPackages [zoviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zoviz-0.4.98.tar.gz tmp/zoviz-0.4.99.tar.gz --markdown 20230727/z/zoviz/0.4.98-0.4.99/diff.md --exclude *.pyd
+[2023-07-27 09:01:53] INFO root fetch - processPackages [core-devoops]: Remove: archive file [/home/abi/fetcher/tmp/core_devoops-0.0.8.tar.gz]
+[2023-07-27 09:01:53] INFO root fetch - processPackages [core-devoops]: Remove: archive file [/home/abi/fetcher/tmp/core_devoops-0.0.9.tar.gz]
+[2023-07-27 09:01:53] INFO root fetch - main [MainThread]: End processing [core-devoops]: success
+[2023-07-27 09:01:53] INFO root fetch - processPackages [zoviz]: Remove: archive file [/home/abi/fetcher/tmp/zoviz-0.4.98.tar.gz]
+[2023-07-27 09:01:53] INFO root fetch - processPackages [zoviz]: Remove: archive file [/home/abi/fetcher/tmp/zoviz-0.4.99.tar.gz]
+[2023-07-27 09:01:53] INFO root fetch - main [MainThread]: End processing [zoviz]: success
+[2023-07-27 09:01:54] INFO root fetch - processPackages [ascend-deployer]: Remove: archive file [/home/abi/fetcher/tmp/ascend_deployer-5.0.0b8-py3-none-any.whl.zip]
+[2023-07-27 09:01:54] INFO root fetch - processPackages [ascend-deployer]: Remove: archive file [/home/abi/fetcher/tmp/ascend_deployer-5.0.0b9-py3-none-any.whl.zip]
+[2023-07-27 09:01:54] INFO root fetch - main [MainThread]: End processing [ascend-deployer]: success
+[2023-07-27 09:01:59] INFO root fetch - processPackages [py-pure-client]: Remove: archive file [/home/abi/fetcher/tmp/py-pure-client-1.8.0.tar.gz]
+[2023-07-27 09:01:59] INFO root fetch - processPackages [py-pure-client]: Remove: archive file [/home/abi/fetcher/tmp/py-pure-client-1.9.0.tar.gz]
+[2023-07-27 09:01:59] INFO root fetch - main [MainThread]: End processing [py-pure-client]: success
+[2023-07-27 09:01:59] INFO root fetch - main [MainThread]: Store serial: [19056362]
