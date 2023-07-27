@@ -13047,3 +13047,70 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-27 07:25:56] INFO root fetch - processPackages [eyeball-pp]: Remove: archive file [/home/abi/fetcher/tmp/eyeball_pp-0.0.3.tar.gz]
 [2023-07-27 07:25:56] INFO root fetch - main [MainThread]: End processing [eyeball-pp]: success
 [2023-07-27 07:25:56] INFO root fetch - main [MainThread]: Store serial: [19054888]
+[2023-07-27 07:31:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19054888]
+[2023-07-27 07:31:05] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-27 07:31:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lbt-dragonfly
+[2023-07-27 07:31:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lbt-honeybee
+[2023-07-27 07:31:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ayaka-kemono
+[2023-07-27 07:31:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: crazy-thursday
+[2023-07-27 07:31:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: HawaData
+[2023-07-27 07:31:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lbt-dragonfly
+[2023-07-27 07:31:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: multifocal-stitching
+[2023-07-27 07:31:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: firstclass-dotenv
+[2023-07-27 07:31:05] WARNING root fetch - processPackages [ayaka-kemono]: Skipping, unable to determine old version
+[2023-07-27 07:31:05] INFO root fetch - main [MainThread]: End processing [ayaka-kemono] error
+[2023-07-27 07:31:05] INFO root fetch - processPackages [firstclass-dotenv]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-27 07:31:05] INFO root fetch - processPackages [multifocal-stitching]: New version: [0.1.1] Old Version: [0.1]
+[2023-07-27 07:31:05] INFO root fetch - processPackages [HawaData]: New version: [0.9.0] Old Version: [0.8.9]
+[2023-07-27 07:31:05] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-07-27 07:31:05] INFO root fetch - processPackages [lbt-honeybee]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-07-27 07:31:05] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.7.9.1] Old Version: [2023.7.9.0]
+[2023-07-27 07:31:05] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-07-27 07:31:05] INFO root fetch - processPackages [HawaData]: Downloading https://files.pythonhosted.org/packages/d2/bf/6828f336cfd522d4a8785c9336db1b29c44a1d6079de425dafe80e4aa31c/HawaData-0.8.9.tar.gz
+[2023-07-27 07:31:05] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/19/59/4901be09b4bc6b97917c58bf3279cb373aa222989b9501e53b4c43213a9e/lbt-honeybee-0.7.98.tar.gz
+[2023-07-27 07:31:05] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/be/ae/7267dfd241a0641f3fbadea4128db5ffa29609911cadb5fc4840656bb44a/lbt-dragonfly-0.9.98.tar.gz
+[2023-07-27 07:31:05] INFO root fetch - processPackages [multifocal-stitching]: Downloading https://files.pythonhosted.org/packages/1e/7a/7ab71396734e1a713548fe1cc5579695b3a3e7067fd80e4ef422ff142567/multifocal-stitching-0.1.tar.gz
+[2023-07-27 07:31:05] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/be/ae/7267dfd241a0641f3fbadea4128db5ffa29609911cadb5fc4840656bb44a/lbt-dragonfly-0.9.98.tar.gz
+[2023-07-27 07:31:05] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/6a/c9/15f9add630932cf1d361c73bada17a4fe2e962fe6ae5ac9e61297aedec22/crazy-thursday-2023.7.9.0.tar.gz
+[2023-07-27 07:31:05] INFO root fetch - processPackages [firstclass-dotenv]: Downloading https://files.pythonhosted.org/packages/3f/6c/ae2ac7cbbc85cb94d78c39055e48b7bc783f1ba33a1e35f00f2f4bf56b83/firstclass_dotenv-0.0.6.tar.gz
+[2023-07-27 07:31:05] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/b4/08/0ca46e9f7eef7b2cce7f0c6110106c42aa35a79bd88110559177f64d733a/lbt-dragonfly-0.9.99.tar.gz
+[2023-07-27 07:31:05] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/a2/24/156ec161f44515db7966a68d9cc8aa62da7475128d138541e64b86dd4487/lbt-honeybee-0.7.99.tar.gz
+[2023-07-27 07:31:06] INFO root fetch - processPackages [HawaData]: Downloading https://files.pythonhosted.org/packages/e7/55/b39867387b0c04e978108a494601ac807807c11f0dfd582a321e1520da43/HawaData-0.9.0.tar.gz
+[2023-07-27 07:31:06] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/b4/08/0ca46e9f7eef7b2cce7f0c6110106c42aa35a79bd88110559177f64d733a/lbt-dragonfly-0.9.99.tar.gz
+[2023-07-27 07:31:06] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/8d/ea/65adb6d9f2ff058a84add9a25d8423ef870914ed904a071fcd26e8e9ba74/crazy-thursday-2023.7.9.1.tar.gz
+[2023-07-27 07:31:06] INFO root fetch - processPackages [multifocal-stitching]: Downloading https://files.pythonhosted.org/packages/16/d5/54d7ef15c557cca530839e9af8df3830b2002f47d6bcfcf0e2eec67f0b3a/multifocal-stitching-0.1.1.tar.gz
+[2023-07-27 07:31:06] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2023-07-27 07:31:06] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20230727/l/lbt-dragonfly/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-07-27 07:31:06] INFO root fetch - processPackages [lbt-honeybee]: executing diffoscope
+[2023-07-27 07:31:06] INFO root fetch - processPackages [lbt-honeybee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-honeybee-0.7.98.tar.gz tmp/lbt-honeybee-0.7.99.tar.gz --markdown 20230727/l/lbt-honeybee/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-07-27 07:31:06] INFO root fetch - processPackages [HawaData]: executing diffoscope
+[2023-07-27 07:31:06] INFO root fetch - processPackages [HawaData]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HawaData-0.8.9.tar.gz tmp/HawaData-0.9.0.tar.gz --markdown 20230727/H/HawaData/0.8.9-0.9.0/diff.md --exclude *.pyd
+[2023-07-27 07:31:06] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-07-27 07:31:06] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2023-07-27 07:31:06] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20230727/l/lbt-dragonfly/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-07-27 07:31:06] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.7.9.0.tar.gz tmp/crazy-thursday-2023.7.9.1.tar.gz --markdown 20230727/c/crazy-thursday/2023.7.9.0-2023.7.9.1/diff.md --exclude *.pyd
+[2023-07-27 07:31:06] INFO root fetch - processPackages [firstclass-dotenv]: Downloading https://files.pythonhosted.org/packages/48/5d/aba63ef368eeff275a8b8608561d3d2eb2ea4b6ffd256130745ded279922/firstclass_dotenv-0.0.7.tar.gz
+[2023-07-27 07:31:06] INFO root fetch - processPackages [multifocal-stitching]: executing diffoscope
+[2023-07-27 07:31:06] INFO root fetch - processPackages [multifocal-stitching]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multifocal-stitching-0.1.tar.gz tmp/multifocal-stitching-0.1.1.tar.gz --markdown 20230727/m/multifocal-stitching/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-07-27 07:31:06] INFO root fetch - processPackages [firstclass-dotenv]: executing diffoscope
+[2023-07-27 07:31:06] INFO root fetch - processPackages [firstclass-dotenv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/firstclass_dotenv-0.0.6.tar.gz tmp/firstclass_dotenv-0.0.7.tar.gz --markdown 20230727/f/firstclass-dotenv/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-27 07:31:07] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.7.98.tar.gz]
+[2023-07-27 07:31:07] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.7.99.tar.gz]
+[2023-07-27 07:31:07] INFO root fetch - main [MainThread]: End processing [lbt-honeybee]: success
+[2023-07-27 07:31:07] INFO root fetch - processPackages [multifocal-stitching]: Remove: archive file [/home/abi/fetcher/tmp/multifocal-stitching-0.1.tar.gz]
+[2023-07-27 07:31:07] INFO root fetch - processPackages [multifocal-stitching]: Remove: archive file [/home/abi/fetcher/tmp/multifocal-stitching-0.1.1.tar.gz]
+[2023-07-27 07:31:07] INFO root fetch - main [MainThread]: End processing [multifocal-stitching]: success
+[2023-07-27 07:31:07] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.7.9.0.tar.gz]
+[2023-07-27 07:31:07] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.7.9.1.tar.gz]
+[2023-07-27 07:31:07] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-07-27 07:31:07] INFO root fetch - processPackages [firstclass-dotenv]: Remove: archive file [/home/abi/fetcher/tmp/firstclass_dotenv-0.0.6.tar.gz]
+[2023-07-27 07:31:07] INFO root fetch - processPackages [firstclass-dotenv]: Remove: archive file [/home/abi/fetcher/tmp/firstclass_dotenv-0.0.7.tar.gz]
+[2023-07-27 07:31:07] INFO root fetch - main [MainThread]: End processing [firstclass-dotenv]: success
+[2023-07-27 07:31:07] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.98.tar.gz]
+[2023-07-27 07:31:07] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.99.tar.gz]
+[2023-07-27 07:31:07] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2023-07-27 07:31:07] INFO root fetch - processPackages [HawaData]: Remove: archive file [/home/abi/fetcher/tmp/HawaData-0.8.9.tar.gz]
+[2023-07-27 07:31:07] INFO root fetch - processPackages [HawaData]: Remove: archive file [/home/abi/fetcher/tmp/HawaData-0.9.0.tar.gz]
+[2023-07-27 07:31:07] INFO root fetch - main [MainThread]: End processing [HawaData]: success
+[2023-07-27 07:31:07] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2023-07-27 07:31:07] INFO root fetch - main [MainThread]: Store serial: [19054914]
