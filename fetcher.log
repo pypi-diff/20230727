@@ -18825,3 +18825,135 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-07-27 10:09:32] INFO root fetch - processPackages [volcengine-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/volcengine-python-sdk-1.0.9.tar.gz]
 [2023-07-27 10:09:32] INFO root fetch - main [MainThread]: End processing [volcengine-python-sdk]: success
 [2023-07-27 10:09:32] INFO root fetch - main [MainThread]: Store serial: [19057081]
+[2023-07-27 10:14:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19057081]
+[2023-07-27 10:14:42] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-27 10:14:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spark-calibration
+[2023-07-27 10:14:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MyMalDependency
+[2023-07-27 10:14:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gardener-cicd-base
+[2023-07-27 10:14:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gardener-cicd-cli
+[2023-07-27 10:14:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gardener-cicd-dso
+[2023-07-27 10:14:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wiretap
+[2023-07-27 10:14:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gardener-cicd-libs
+[2023-07-27 10:14:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gardener-cicd-whd
+[2023-07-27 10:14:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gardener-oci
+[2023-07-27 10:14:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: abpandas
+[2023-07-27 10:14:42] INFO root fetch - processPackages [spark-calibration]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-27 10:14:42] INFO root fetch - processPackages [gardener-cicd-cli]: New version: [1.2118.0] Old Version: [1.2117.0]
+[2023-07-27 10:14:42] INFO root fetch - processPackages [wiretap]: New version: [5.0.1] Old Version: [5.0.0]
+[2023-07-27 10:14:42] INFO root fetch - processPackages [abpandas]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-27 10:14:42] INFO root fetch - processPackages [gardener-oci]: New version: [1.999.0] Old Version: [1.998.0]
+[2023-07-27 10:14:42] INFO root fetch - processPackages [MyMalDependency]: New version: [2.1.1] Old Version: [1.1.1]
+[2023-07-27 10:14:42] INFO root fetch - processPackages [gardener-cicd-whd]: New version: [1.2118.0] Old Version: [1.2117.0]
+[2023-07-27 10:14:42] INFO root fetch - processPackages [gardener-cicd-base]: New version: [1.2118.0] Old Version: [1.2117.0]
+[2023-07-27 10:14:42] INFO root fetch - processPackages [gardener-cicd-libs]: New version: [1.2118.0] Old Version: [1.2117.0]
+[2023-07-27 10:14:42] INFO root fetch - processPackages [gardener-cicd-dso]: New version: [1.2118.0] Old Version: [1.2117.0]
+[2023-07-27 10:14:42] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/38/a0/fe829be36e808804e076d1bb7e172fc14fc3c1922cb14546c2380c6da7a0/gardener-cicd-cli-1.2117.0.tar.gz
+[2023-07-27 10:14:42] INFO root fetch - processPackages [gardener-oci]: Downloading https://files.pythonhosted.org/packages/65/8d/87469d533eb661d280b5bb3eb778421053cbe6438908abdc1d79b2921522/gardener-oci-1.998.0.tar.gz
+[2023-07-27 10:14:42] INFO root fetch - processPackages [MyMalDependency]: Downloading https://files.pythonhosted.org/packages/e2/5c/c7fbd0debd8006e294b03abea794a04161d542c8247ff2022c53f3577997/MyMalDependency-1.1.1.tar.gz
+[2023-07-27 10:14:42] INFO root fetch - processPackages [wiretap]: Downloading https://files.pythonhosted.org/packages/4b/c9/05b2059af3c22b58fd53db4aa332a94f9ab7d4c0034bc51c0549d6ef7d86/wiretap-5.0.0-py3-none-any.whl
+[2023-07-27 10:14:42] INFO root fetch - processPackages [spark-calibration]: Downloading https://files.pythonhosted.org/packages/46/8f/e13877662495bc19f199efb2eee766ac0d5bfe23a18eadb191a12acf41cf/spark_calibration-0.0.1.tar.gz
+[2023-07-27 10:14:42] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/03/99/10b153bdc6262ed2740678fc106ba072eaa7fe691dcee4626d9e09f69417/gardener-cicd-base-1.2117.0.tar.gz
+[2023-07-27 10:14:42] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/60/d9/6e5c03b400de70c428655a989020f13026935f878c2ce08348413b22c085/gardener-cicd-whd-1.2117.0.tar.gz
+[2023-07-27 10:14:42] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/9a/af/1612ec6adfd521ca48b5c758c8723c7a4c8e4084e0ea968ac9474b0dd774/gardener-cicd-dso-1.2117.0.tar.gz
+[2023-07-27 10:14:42] INFO root fetch - processPackages [abpandas]: Downloading https://files.pythonhosted.org/packages/b6/4b/3ed683a993287d4f12448df12b7d7cd2561f510994685b6c67a932af6635/abpandas-0.0.1.tar.gz
+[2023-07-27 10:14:42] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/d2/9b/54659bb8f12d1db189037b16f0dc98aba89d1b247c5954f9bbfc8aa9cedb/gardener-cicd-libs-1.2117.0.tar.gz
+[2023-07-27 10:14:43] INFO root fetch - processPackages [gardener-oci]: Downloading https://files.pythonhosted.org/packages/f8/de/c6930b025944729e4655e337193e76592dfc15653c0cde84790cb8650df4/gardener-oci-1.999.0.tar.gz
+[2023-07-27 10:14:43] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/7f/ef/d9b3dd1aa0eeacad1f55e8381677e45e494cd5054771ccc6d02549573ba3/gardener-cicd-cli-1.2118.0.tar.gz
+[2023-07-27 10:14:43] INFO root fetch - processPackages [wiretap]: Downloading https://files.pythonhosted.org/packages/70/71/987ce37c8516932d5ddaeb3c0af6ede3f86c2f5cec1d8d66441c835e03da/wiretap-5.0.1-py3-none-any.whl
+[2023-07-27 10:14:43] INFO root fetch - processPackages [spark-calibration]: Downloading https://files.pythonhosted.org/packages/53/31/5954261ee626c497f965df5089d5a64c5be80ba5e962e65d6890965800ec/spark_calibration-0.0.2.tar.gz
+[2023-07-27 10:14:43] INFO root fetch - processPackages [gardener-oci]: executing diffoscope
+[2023-07-27 10:14:43] INFO root fetch - processPackages [gardener-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-oci-1.998.0.tar.gz tmp/gardener-oci-1.999.0.tar.gz --markdown 20230727/g/gardener-oci/1.998.0-1.999.0/diff.md --exclude *.pyd
+[2023-07-27 10:14:43] INFO root fetch - processPackages [MyMalDependency]: Downloading https://files.pythonhosted.org/packages/75/ad/00854a6201068d1160b864a38ffaece8351a7732243a9bc4d1aaa4a688d8/MyMalDependency-2.1.1.tar.gz
+[2023-07-27 10:14:43] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/de/ce/c15cd3ed977126db6494f650fecd885b937cc99a9c18a37b1536fee2cac2/gardener-cicd-base-1.2118.0.tar.gz
+[2023-07-27 10:14:43] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/98/b6/67b5b1933386910ed64bc9a2317ea748ea322d9ea4a98646fa640c0c753d/gardener-cicd-whd-1.2118.0.tar.gz
+[2023-07-27 10:14:43] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/89/fd/ff6af1b0193a4a4cbe36c8b6d280600f347c77e71d12b22557cbbbe0a71a/gardener-cicd-dso-1.2118.0.tar.gz
+[2023-07-27 10:14:43] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/9b/15/dc345bc8906a619ede561d620ebb8d69b391703bf3f4c53867e97ff062c9/gardener-cicd-libs-1.2118.0.tar.gz
+[2023-07-27 10:14:43] INFO root fetch - processPackages [abpandas]: Downloading https://files.pythonhosted.org/packages/c3/f8/d419b554a3e001624960ca544945252e77e9b5db4997142b9c29db990cee/abpandas-0.0.2.tar.gz
+[2023-07-27 10:14:43] INFO root fetch - processPackages [gardener-cicd-cli]: executing diffoscope
+[2023-07-27 10:14:43] INFO root fetch - processPackages [gardener-cicd-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-cli-1.2117.0.tar.gz tmp/gardener-cicd-cli-1.2118.0.tar.gz --markdown 20230727/g/gardener-cicd-cli/1.2117.0-1.2118.0/diff.md --exclude *.pyd
+[2023-07-27 10:14:43] INFO root fetch - processPackages [spark-calibration]: executing diffoscope
+[2023-07-27 10:14:43] INFO root fetch - processPackages [spark-calibration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark_calibration-0.0.1.tar.gz tmp/spark_calibration-0.0.2.tar.gz --markdown 20230727/s/spark-calibration/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-27 10:14:43] INFO root fetch - processPackages [wiretap]: executing diffoscope
+[2023-07-27 10:14:43] INFO root fetch - processPackages [wiretap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wiretap-5.0.0-py3-none-any.whl.zip tmp/wiretap-5.0.1-py3-none-any.whl.zip --markdown 20230727/w/wiretap/5.0.0-5.0.1/diff.md --exclude *.pyd
+[2023-07-27 10:14:43] INFO root fetch - processPackages [MyMalDependency]: executing diffoscope
+[2023-07-27 10:14:43] INFO root fetch - processPackages [MyMalDependency]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MyMalDependency-1.1.1.tar.gz tmp/MyMalDependency-2.1.1.tar.gz --markdown 20230727/M/MyMalDependency/1.1.1-2.1.1/diff.md --exclude *.pyd
+[2023-07-27 10:14:43] INFO root fetch - processPackages [gardener-cicd-base]: executing diffoscope
+[2023-07-27 10:14:43] INFO root fetch - processPackages [gardener-cicd-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-base-1.2117.0.tar.gz tmp/gardener-cicd-base-1.2118.0.tar.gz --markdown 20230727/g/gardener-cicd-base/1.2117.0-1.2118.0/diff.md --exclude *.pyd
+[2023-07-27 10:14:43] INFO root fetch - processPackages [abpandas]: executing diffoscope
+[2023-07-27 10:14:43] INFO root fetch - processPackages [abpandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abpandas-0.0.1.tar.gz tmp/abpandas-0.0.2.tar.gz --markdown 20230727/a/abpandas/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-27 10:14:43] INFO root fetch - processPackages [gardener-cicd-whd]: executing diffoscope
+[2023-07-27 10:14:43] INFO root fetch - processPackages [gardener-cicd-whd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-whd-1.2117.0.tar.gz tmp/gardener-cicd-whd-1.2118.0.tar.gz --markdown 20230727/g/gardener-cicd-whd/1.2117.0-1.2118.0/diff.md --exclude *.pyd
+[2023-07-27 10:14:43] INFO root fetch - processPackages [gardener-cicd-dso]: executing diffoscope
+[2023-07-27 10:14:43] INFO root fetch - processPackages [gardener-cicd-dso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-dso-1.2117.0.tar.gz tmp/gardener-cicd-dso-1.2118.0.tar.gz --markdown 20230727/g/gardener-cicd-dso/1.2117.0-1.2118.0/diff.md --exclude *.pyd
+[2023-07-27 10:14:43] INFO root fetch - processPackages [gardener-cicd-libs]: executing diffoscope
+[2023-07-27 10:14:43] INFO root fetch - processPackages [gardener-cicd-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-libs-1.2117.0.tar.gz tmp/gardener-cicd-libs-1.2118.0.tar.gz --markdown 20230727/g/gardener-cicd-libs/1.2117.0-1.2118.0/diff.md --exclude *.pyd
+[2023-07-27 10:14:45] INFO root fetch - processPackages [gardener-oci]: Remove: archive file [/home/abi/fetcher/tmp/gardener-oci-1.998.0.tar.gz]
+[2023-07-27 10:14:45] INFO root fetch - processPackages [gardener-oci]: Remove: archive file [/home/abi/fetcher/tmp/gardener-oci-1.999.0.tar.gz]
+[2023-07-27 10:14:45] INFO root fetch - processPackages [gardener-oci]: Start processing: exodusreader
+[2023-07-27 10:14:45] INFO root fetch - main [MainThread]: End processing [gardener-oci]: success
+[2023-07-27 10:14:45] WARNING root fetch - processPackages [exodusreader]: Skipping, unable to determine old version
+[2023-07-27 10:14:45] INFO root fetch - processPackages [exodusreader]: Start processing: simpleindex
+[2023-07-27 10:14:45] INFO root fetch - main [MainThread]: End processing [exodusreader] error
+[2023-07-27 10:14:45] INFO root fetch - processPackages [simpleindex]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-07-27 10:14:45] INFO root fetch - processPackages [MyMalDependency]: Remove: archive file [/home/abi/fetcher/tmp/MyMalDependency-1.1.1.tar.gz]
+[2023-07-27 10:14:45] INFO root fetch - processPackages [MyMalDependency]: Remove: archive file [/home/abi/fetcher/tmp/MyMalDependency-2.1.1.tar.gz]
+[2023-07-27 10:14:45] INFO root fetch - processPackages [MyMalDependency]: Start processing: QuNet
+[2023-07-27 10:14:45] INFO root fetch - main [MainThread]: End processing [MyMalDependency]: success
+[2023-07-27 10:14:45] INFO root fetch - processPackages [spark-calibration]: Remove: archive file [/home/abi/fetcher/tmp/spark_calibration-0.0.1.tar.gz]
+[2023-07-27 10:14:45] INFO root fetch - processPackages [spark-calibration]: Remove: archive file [/home/abi/fetcher/tmp/spark_calibration-0.0.2.tar.gz]
+[2023-07-27 10:14:45] INFO root fetch - processPackages [spark-calibration]: Start processing: quantnb
+[2023-07-27 10:14:45] INFO root fetch - main [MainThread]: End processing [spark-calibration]: success
+[2023-07-27 10:14:45] INFO root fetch - processPackages [quantnb]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-27 10:14:45] INFO root fetch - processPackages [QuNet]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-27 10:14:45] INFO root fetch - processPackages [gardener-cicd-cli]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-cli-1.2117.0.tar.gz]
+[2023-07-27 10:14:45] INFO root fetch - processPackages [gardener-cicd-cli]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-cli-1.2118.0.tar.gz]
+[2023-07-27 10:14:45] INFO root fetch - processPackages [gardener-cicd-cli]: Start processing: composabl
+[2023-07-27 10:14:45] INFO root fetch - main [MainThread]: End processing [gardener-cicd-cli]: success
+[2023-07-27 10:14:45] INFO root fetch - processPackages [wiretap]: Remove: archive file [/home/abi/fetcher/tmp/wiretap-5.0.0-py3-none-any.whl.zip]
+[2023-07-27 10:14:45] INFO root fetch - processPackages [wiretap]: Remove: archive file [/home/abi/fetcher/tmp/wiretap-5.0.1-py3-none-any.whl.zip]
+[2023-07-27 10:14:45] INFO root fetch - main [MainThread]: End processing [wiretap]: success
+[2023-07-27 10:14:45] INFO root fetch - processPackages [simpleindex]: Downloading https://files.pythonhosted.org/packages/97/2d/bfaa204f1cc862ce4ad5f86723d4ae4a38fcb8a23545c625d87389dbb92a/simpleindex-0.6.0.tar.gz
+[2023-07-27 10:14:45] INFO root fetch - processPackages [quantnb]: Downloading https://files.pythonhosted.org/packages/c4/f0/7e48b76099265ce6db715a34aaba5eedbfd4844706c1fd37fd04dd35c506/quantnb-0.2.8.tar.gz
+[2023-07-27 10:14:45] INFO root fetch - processPackages [composabl]: New version: [0.2.3] Old Version: [0.2.2.dev0]
+[2023-07-27 10:14:45] INFO root fetch - processPackages [abpandas]: Remove: archive file [/home/abi/fetcher/tmp/abpandas-0.0.1.tar.gz]
+[2023-07-27 10:14:45] INFO root fetch - processPackages [abpandas]: Remove: archive file [/home/abi/fetcher/tmp/abpandas-0.0.2.tar.gz]
+[2023-07-27 10:14:45] INFO root fetch - main [MainThread]: End processing [abpandas]: success
+[2023-07-27 10:14:45] INFO root fetch - processPackages [gardener-cicd-whd]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-whd-1.2117.0.tar.gz]
+[2023-07-27 10:14:45] INFO root fetch - processPackages [gardener-cicd-whd]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-whd-1.2118.0.tar.gz]
+[2023-07-27 10:14:45] INFO root fetch - main [MainThread]: End processing [gardener-cicd-whd]: success
+[2023-07-27 10:14:45] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/d5/ed/08e3812ae99f48d271d226b77d4a7da9cf1105ce195a4687389eb1e2d646/QuNet-0.0.98-py3-none-any.whl
+[2023-07-27 10:14:46] INFO root fetch - processPackages [composabl]: Downloading https://files.pythonhosted.org/packages/b6/81/83cc7d39cdc87d693f8d2a887e164fc526e2dbb9ce1aee508d8470e10953/composabl-0.2.2.dev0-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-07-27 10:14:46] INFO root fetch - processPackages [quantnb]: Downloading https://files.pythonhosted.org/packages/a2/1d/3d336644991a0b49a305a926389df70f564e74dfdb018d7256464a85d24e/quantnb-0.2.9.tar.gz
+[2023-07-27 10:14:46] INFO root fetch - processPackages [gardener-cicd-base]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-base-1.2117.0.tar.gz]
+[2023-07-27 10:14:46] INFO root fetch - processPackages [gardener-cicd-base]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-base-1.2118.0.tar.gz]
+[2023-07-27 10:14:46] INFO root fetch - main [MainThread]: End processing [gardener-cicd-base]: success
+[2023-07-27 10:14:46] INFO root fetch - processPackages [simpleindex]: Downloading https://files.pythonhosted.org/packages/9f/75/8729a25e5e305aa3a392d50f7ef5e82c81f9ad239c6939c998dc3654e2cd/simpleindex-0.6.1.tar.gz
+[2023-07-27 10:14:46] INFO root fetch - processPackages [quantnb]: executing diffoscope
+[2023-07-27 10:14:46] INFO root fetch - processPackages [quantnb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantnb-0.2.8.tar.gz tmp/quantnb-0.2.9.tar.gz --markdown 20230727/q/quantnb/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-27 10:14:46] INFO root fetch - processPackages [simpleindex]: executing diffoscope
+[2023-07-27 10:14:46] INFO root fetch - processPackages [simpleindex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simpleindex-0.6.0.tar.gz tmp/simpleindex-0.6.1.tar.gz --markdown 20230727/s/simpleindex/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-07-27 10:14:46] INFO root fetch - processPackages [gardener-cicd-dso]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-dso-1.2117.0.tar.gz]
+[2023-07-27 10:14:46] INFO root fetch - processPackages [gardener-cicd-dso]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-dso-1.2118.0.tar.gz]
+[2023-07-27 10:14:46] INFO root fetch - main [MainThread]: End processing [gardener-cicd-dso]: success
+[2023-07-27 10:14:46] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/e0/80/c34810051dcacd44f750dc59c5f982f9a679cbb6caaccd0aad3288430f3e/QuNet-0.0.99-py3-none-any.whl
+[2023-07-27 10:14:46] INFO root fetch - processPackages [QuNet]: executing diffoscope
+[2023-07-27 10:14:46] INFO root fetch - processPackages [QuNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuNet-0.0.98-py3-none-any.whl.zip tmp/QuNet-0.0.99-py3-none-any.whl.zip --markdown 20230727/Q/QuNet/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-27 10:14:46] INFO root fetch - processPackages [gardener-cicd-libs]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-libs-1.2117.0.tar.gz]
+[2023-07-27 10:14:46] INFO root fetch - processPackages [gardener-cicd-libs]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-libs-1.2118.0.tar.gz]
+[2023-07-27 10:14:46] INFO root fetch - main [MainThread]: End processing [gardener-cicd-libs]: success
+[2023-07-27 10:14:47] INFO root fetch - processPackages [quantnb]: Remove: archive file [/home/abi/fetcher/tmp/quantnb-0.2.8.tar.gz]
+[2023-07-27 10:14:47] INFO root fetch - processPackages [quantnb]: Remove: archive file [/home/abi/fetcher/tmp/quantnb-0.2.9.tar.gz]
+[2023-07-27 10:14:47] INFO root fetch - main [MainThread]: End processing [quantnb]: success
+[2023-07-27 10:14:47] INFO root fetch - processPackages [simpleindex]: Remove: archive file [/home/abi/fetcher/tmp/simpleindex-0.6.0.tar.gz]
+[2023-07-27 10:14:47] INFO root fetch - processPackages [simpleindex]: Remove: archive file [/home/abi/fetcher/tmp/simpleindex-0.6.1.tar.gz]
+[2023-07-27 10:14:47] INFO root fetch - main [MainThread]: End processing [simpleindex]: success
+[2023-07-27 10:14:47] INFO root fetch - processPackages [composabl]: Downloading https://files.pythonhosted.org/packages/4a/51/0611f522a46e260cb011b22beb6dec58923b38ef50f0891083b2dbc1bf3b/composabl-0.2.3-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-07-27 10:14:47] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.98-py3-none-any.whl.zip]
+[2023-07-27 10:14:47] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.99-py3-none-any.whl.zip]
+[2023-07-27 10:14:47] INFO root fetch - main [MainThread]: End processing [QuNet]: success
+[2023-07-27 10:14:47] INFO root fetch - processPackages [composabl]: executing diffoscope
+[2023-07-27 10:14:47] INFO root fetch - processPackages [composabl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl-0.2.2.dev0-cp38-cp38-musllinux_1_1_x86_64.whl.zip tmp/composabl-0.2.3-cp38-cp38-musllinux_1_1_x86_64.whl.zip --markdown 20230727/c/composabl/0.2.2.dev0-0.2.3/diff.md --exclude *.pyd
+[2023-07-27 10:14:49] INFO root fetch - processPackages [composabl]: Remove: archive file [/home/abi/fetcher/tmp/composabl-0.2.2.dev0-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2023-07-27 10:14:49] INFO root fetch - processPackages [composabl]: Remove: archive file [/home/abi/fetcher/tmp/composabl-0.2.3-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2023-07-27 10:14:49] INFO root fetch - main [MainThread]: End processing [composabl]: success
+[2023-07-27 10:14:49] INFO root fetch - main [MainThread]: Store serial: [19057130]
