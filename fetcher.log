@@ -17983,3 +17983,81 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-27 09:36:51] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-40.2.1.tar.gz]
 [2023-07-27 09:36:51] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-07-27 09:36:51] INFO root fetch - main [MainThread]: Store serial: [19056741]
+[2023-07-27 09:41:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19056741]
+[2023-07-27 09:41:59] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-27 09:41:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pumaz
+[2023-07-27 09:41:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: checkov
+[2023-07-27 09:41:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fourdigits-cli
+[2023-07-27 09:41:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mihomo
+[2023-07-27 09:41:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wpcsys
+[2023-07-27 09:41:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: iseqcbioportal
+[2023-07-27 09:41:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: s1280247-learn2
+[2023-07-27 09:41:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: metaloop-python-sdk
+[2023-07-27 09:41:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gitstats-abilian
+[2023-07-27 09:41:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sphinx-lfs-content
+[2023-07-27 09:42:00] INFO root fetch - processPackages [sphinx-lfs-content]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-07-27 09:42:00] INFO root fetch - processPackages [wpcsys]: New version: [2.1.7] Old Version: [2.1.6]
+[2023-07-27 09:42:00] INFO root fetch - processPackages [fourdigits-cli]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-07-27 09:42:00] WARNING root fetch - processPackages [pumaz]: Skipping, unable to determine old version
+[2023-07-27 09:42:00] INFO root fetch - processPackages [pumaz]: Start processing: navalmartin-mir-aws-utils
+[2023-07-27 09:42:00] INFO root fetch - main [MainThread]: End processing [pumaz] error
+[2023-07-27 09:42:00] INFO root fetch - processPackages [checkov]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-07-27 09:42:00] WARNING root fetch - processPackages [s1280247-learn2]: Skipping, unable to determine old version
+[2023-07-27 09:42:00] WARNING root fetch - processPackages [gitstats-abilian]: Skipping, unable to determine old version
+[2023-07-27 09:42:00] INFO root fetch - processPackages [mihomo]: New version: [1.2.0] Old Version: [1.1.2]
+[2023-07-27 09:42:00] WARNING root fetch - processPackages [iseqcbioportal]: Skipping, unable to determine old version
+[2023-07-27 09:42:00] INFO root fetch - main [MainThread]: End processing [s1280247-learn2] error
+[2023-07-27 09:42:00] INFO root fetch - processPackages [metaloop-python-sdk]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-07-27 09:42:00] INFO root fetch - main [MainThread]: End processing [gitstats-abilian] error
+[2023-07-27 09:42:00] INFO root fetch - main [MainThread]: End processing [iseqcbioportal] error
+[2023-07-27 09:42:00] INFO root fetch - processPackages [wpcsys]: Downloading https://files.pythonhosted.org/packages/35/2b/4010921c5b052e5c01691d235f7befcd3a24a56b42c9a537399bf127575c/wpcsys-2.1.6.tar.gz
+[2023-07-27 09:42:00] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/8f/c0/b3713d4cbc03ff63d42af6bc96060bf07ac510f578af21d0beb23a58ebd5/checkov-2.3.98.tar.gz
+[2023-07-27 09:42:00] INFO root fetch - processPackages [sphinx-lfs-content]: Downloading https://files.pythonhosted.org/packages/8f/b2/5a4b5a81ac25160959cdb072cdfc2cff2b2c5849865de41db94482db57ba/sphinx_lfs_content-1.1.2.tar.gz
+[2023-07-27 09:42:00] INFO root fetch - processPackages [navalmartin-mir-aws-utils]: New version: [0.0.9] Old Version: [0.0.32]
+[2023-07-27 09:42:00] INFO root fetch - processPackages [fourdigits-cli]: Downloading https://files.pythonhosted.org/packages/ea/60/5d7768ee35e721e6fc7d50fab02f09ee0cf8c46d1aebdc017dd17d2a04d0/fourdigits-cli-1.4.0.tar.gz
+[2023-07-27 09:42:00] INFO root fetch - processPackages [mihomo]: Downloading https://files.pythonhosted.org/packages/12/41/72d425a5cb86b354b9afbcd5590227e2145b35ab2457fb1ba21e396bb8fb/mihomo-1.1.2.tar.gz
+[2023-07-27 09:42:00] INFO root fetch - processPackages [metaloop-python-sdk]: Downloading https://files.pythonhosted.org/packages/25/9d/e28343123f0124516b910c6f1bbb9669b13ad88bc780f6628017a07434ec/metaloop-python-sdk-1.8.0.tar.gz
+[2023-07-27 09:42:00] INFO root fetch - processPackages [navalmartin-mir-aws-utils]: Downloading https://files.pythonhosted.org/packages/ad/25/6b3a310e9e328185791d7de1e81d3169f0dae03e7de96ddb11cbb838baaf/navalmartin_mir_aws_utils-0.0.32.tar.gz
+[2023-07-27 09:42:00] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/36/b2/faea7cf4d04d72880327d7e73a0327922cb8cd1c61a51e8fd38f344e9f2f/checkov-2.3.99.tar.gz
+[2023-07-27 09:42:00] INFO root fetch - processPackages [fourdigits-cli]: Downloading https://files.pythonhosted.org/packages/1e/76/561391a5b0b5cb2fdce3e673b0356223a12083d853260887cb13f6cb9b0b/fourdigits-cli-1.5.0.tar.gz
+[2023-07-27 09:42:00] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2023-07-27 09:42:00] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-2.3.98.tar.gz tmp/checkov-2.3.99.tar.gz --markdown 20230727/c/checkov/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-07-27 09:42:00] INFO root fetch - processPackages [wpcsys]: Downloading https://files.pythonhosted.org/packages/6e/b9/2bc33cbcc0bea5e2680a36b0db188cc850dc1901578c26470e5608f8ef32/wpcsys-2.1.7.tar.gz
+[2023-07-27 09:42:00] INFO root fetch - processPackages [mihomo]: Downloading https://files.pythonhosted.org/packages/54/84/813a2125b16056dc18c5e419a22f423b0814ca69cf599d061441933f37ac/mihomo-1.2.0.tar.gz
+[2023-07-27 09:42:00] INFO root fetch - processPackages [sphinx-lfs-content]: Downloading https://files.pythonhosted.org/packages/a7/fc/9b9319c83852a46193601e744dc43d31482b3c0297e25ca4aca509a62cd7/sphinx_lfs_content-1.1.3.tar.gz
+[2023-07-27 09:42:00] INFO root fetch - processPackages [fourdigits-cli]: executing diffoscope
+[2023-07-27 09:42:00] INFO root fetch - processPackages [fourdigits-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fourdigits-cli-1.4.0.tar.gz tmp/fourdigits-cli-1.5.0.tar.gz --markdown 20230727/f/fourdigits-cli/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-07-27 09:42:00] INFO root fetch - processPackages [navalmartin-mir-aws-utils]: Downloading https://files.pythonhosted.org/packages/de/f2/244dec2c48d5578424e8f0fb82c2f85844a0f0dbbfa4cfe21c326ba1a274/navalmartin_mir_aws_utils-0.0.9.tar.gz
+[2023-07-27 09:42:00] INFO root fetch - processPackages [sphinx-lfs-content]: executing diffoscope
+[2023-07-27 09:42:00] INFO root fetch - processPackages [sphinx-lfs-content]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx_lfs_content-1.1.2.tar.gz tmp/sphinx_lfs_content-1.1.3.tar.gz --markdown 20230727/s/sphinx-lfs-content/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-07-27 09:42:00] INFO root fetch - processPackages [mihomo]: executing diffoscope
+[2023-07-27 09:42:00] INFO root fetch - processPackages [mihomo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mihomo-1.1.2.tar.gz tmp/mihomo-1.2.0.tar.gz --markdown 20230727/m/mihomo/1.1.2-1.2.0/diff.md --exclude *.pyd
+[2023-07-27 09:42:00] INFO root fetch - processPackages [navalmartin-mir-aws-utils]: executing diffoscope
+[2023-07-27 09:42:00] INFO root fetch - processPackages [navalmartin-mir-aws-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/navalmartin_mir_aws_utils-0.0.32.tar.gz tmp/navalmartin_mir_aws_utils-0.0.9.tar.gz --markdown 20230727/n/navalmartin-mir-aws-utils/0.0.32-0.0.9/diff.md --exclude *.pyd
+[2023-07-27 09:42:01] INFO root fetch - processPackages [wpcsys]: executing diffoscope
+[2023-07-27 09:42:01] INFO root fetch - processPackages [wpcsys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wpcsys-2.1.6.tar.gz tmp/wpcsys-2.1.7.tar.gz --markdown 20230727/w/wpcsys/2.1.6-2.1.7/diff.md --exclude *.pyd
+[2023-07-27 09:42:01] INFO root fetch - processPackages [metaloop-python-sdk]: Downloading https://files.pythonhosted.org/packages/f7/12/1f0878d955d59b57a7260b70c737e22646f5d1a1834fb439329b2fd649fd/metaloop-python-sdk-1.9.0.tar.gz
+[2023-07-27 09:42:01] INFO root fetch - processPackages [metaloop-python-sdk]: executing diffoscope
+[2023-07-27 09:42:01] INFO root fetch - processPackages [metaloop-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaloop-python-sdk-1.8.0.tar.gz tmp/metaloop-python-sdk-1.9.0.tar.gz --markdown 20230727/m/metaloop-python-sdk/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-27 09:42:02] INFO root fetch - processPackages [fourdigits-cli]: Remove: archive file [/home/abi/fetcher/tmp/fourdigits-cli-1.4.0.tar.gz]
+[2023-07-27 09:42:02] INFO root fetch - processPackages [fourdigits-cli]: Remove: archive file [/home/abi/fetcher/tmp/fourdigits-cli-1.5.0.tar.gz]
+[2023-07-27 09:42:02] INFO root fetch - main [MainThread]: End processing [fourdigits-cli]: success
+[2023-07-27 09:42:02] INFO root fetch - processPackages [mihomo]: Remove: archive file [/home/abi/fetcher/tmp/mihomo-1.1.2.tar.gz]
+[2023-07-27 09:42:02] INFO root fetch - processPackages [mihomo]: Remove: archive file [/home/abi/fetcher/tmp/mihomo-1.2.0.tar.gz]
+[2023-07-27 09:42:02] INFO root fetch - main [MainThread]: End processing [mihomo]: success
+[2023-07-27 09:42:02] INFO root fetch - processPackages [sphinx-lfs-content]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_lfs_content-1.1.2.tar.gz]
+[2023-07-27 09:42:02] INFO root fetch - processPackages [sphinx-lfs-content]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_lfs_content-1.1.3.tar.gz]
+[2023-07-27 09:42:02] INFO root fetch - main [MainThread]: End processing [sphinx-lfs-content]: success
+[2023-07-27 09:42:02] INFO root fetch - processPackages [navalmartin-mir-aws-utils]: Remove: archive file [/home/abi/fetcher/tmp/navalmartin_mir_aws_utils-0.0.32.tar.gz]
+[2023-07-27 09:42:02] INFO root fetch - processPackages [navalmartin-mir-aws-utils]: Remove: archive file [/home/abi/fetcher/tmp/navalmartin_mir_aws_utils-0.0.9.tar.gz]
+[2023-07-27 09:42:02] INFO root fetch - main [MainThread]: End processing [navalmartin-mir-aws-utils]: success
+[2023-07-27 09:42:03] INFO root fetch - processPackages [wpcsys]: Remove: archive file [/home/abi/fetcher/tmp/wpcsys-2.1.6.tar.gz]
+[2023-07-27 09:42:03] INFO root fetch - processPackages [wpcsys]: Remove: archive file [/home/abi/fetcher/tmp/wpcsys-2.1.7.tar.gz]
+[2023-07-27 09:42:03] INFO root fetch - main [MainThread]: End processing [wpcsys]: success
+[2023-07-27 09:42:03] INFO root fetch - processPackages [metaloop-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/metaloop-python-sdk-1.8.0.tar.gz]
+[2023-07-27 09:42:03] INFO root fetch - processPackages [metaloop-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/metaloop-python-sdk-1.9.0.tar.gz]
+[2023-07-27 09:42:03] INFO root fetch - main [MainThread]: End processing [metaloop-python-sdk]: success
+[2023-07-27 09:42:16] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.98.tar.gz]
+[2023-07-27 09:42:16] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.99.tar.gz]
+[2023-07-27 09:42:16] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2023-07-27 09:42:16] INFO root fetch - main [MainThread]: Store serial: [19056798]
