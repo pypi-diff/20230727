@@ -11447,3 +11447,40 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-27 05:46:19] INFO root fetch - processPackages [merlin-sdk]: Remove: archive file [/home/abi/fetcher/tmp/merlin-sdk-0.9.1.tar.gz]
 [2023-07-27 05:46:19] INFO root fetch - main [MainThread]: End processing [merlin-sdk]: success
 [2023-07-27 05:46:19] INFO root fetch - main [MainThread]: Store serial: [19054364]
+[2023-07-27 05:51:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19054364]
+[2023-07-27 05:51:27] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-27 05:51:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bcmd
+[2023-07-27 05:51:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: piperider
+[2023-07-27 05:51:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bcmd
+[2023-07-27 05:51:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lazyinit
+[2023-07-27 05:51:27] INFO root fetch - processPackages [lazyinit]: New version: [0.0.265] Old Version: [0.0.264]
+[2023-07-27 05:51:27] INFO root fetch - processPackages [bcmd]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-27 05:51:27] INFO root fetch - processPackages [bcmd]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-27 05:51:27] INFO root fetch - processPackages [piperider]: New version: [0.9.0rc1] Old Version: [0.9.0]
+[2023-07-27 05:51:27] INFO root fetch - processPackages [lazyinit]: Downloading https://files.pythonhosted.org/packages/6f/fb/eaeb2e73b4e34794d3d9402a8afc22746e1fec017fa0b44f0e4c31651b45/lazyinit-0.0.264.tar.gz
+[2023-07-27 05:51:27] INFO root fetch - processPackages [bcmd]: Downloading https://files.pythonhosted.org/packages/14/bb/4ff93028b64c93970c4b76f5b7cfe73c743a936ed7a9653b9166cfab7d40/bcmd-0.0.8.tar.gz
+[2023-07-27 05:51:27] INFO root fetch - processPackages [bcmd]: Downloading https://files.pythonhosted.org/packages/14/bb/4ff93028b64c93970c4b76f5b7cfe73c743a936ed7a9653b9166cfab7d40/bcmd-0.0.8.tar.gz
+[2023-07-27 05:51:27] INFO root fetch - processPackages [piperider]: Downloading https://files.pythonhosted.org/packages/a4/50/e24b00f8c9eee6add2d234812268358dd31efb1c7692b89e4f2abcf53b3a/piperider-0.9.0.tar.gz
+[2023-07-27 05:51:27] INFO root fetch - processPackages [bcmd]: Downloading https://files.pythonhosted.org/packages/3b/fe/3525534e0b5966e860bd44d83a8fd9b36b7f3431bf8abe081ed29fe6de12/bcmd-0.0.9.tar.gz
+[2023-07-27 05:51:27] INFO root fetch - processPackages [bcmd]: Downloading https://files.pythonhosted.org/packages/3b/fe/3525534e0b5966e860bd44d83a8fd9b36b7f3431bf8abe081ed29fe6de12/bcmd-0.0.9.tar.gz
+[2023-07-27 05:51:28] INFO root fetch - processPackages [bcmd]: executing diffoscope
+[2023-07-27 05:51:28] INFO root fetch - processPackages [bcmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bcmd-0.0.8.tar.gz tmp/bcmd-0.0.9.tar.gz --markdown 20230727/b/bcmd/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-27 05:51:28] INFO root fetch - processPackages [lazyinit]: Downloading https://files.pythonhosted.org/packages/20/5c/7eebd52718a2a6129c35730251f97333c6a4d29496ceca0bcae8eb814d68/lazyinit-0.0.265.tar.gz
+[2023-07-27 05:51:28] INFO root fetch - processPackages [bcmd]: executing diffoscope
+[2023-07-27 05:51:28] INFO root fetch - processPackages [bcmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bcmd-0.0.8.tar.gz tmp/bcmd-0.0.9.tar.gz --markdown 20230727/b/bcmd/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-27 05:51:28] INFO root fetch - processPackages [lazyinit]: executing diffoscope
+[2023-07-27 05:51:28] INFO root fetch - processPackages [lazyinit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazyinit-0.0.264.tar.gz tmp/lazyinit-0.0.265.tar.gz --markdown 20230727/l/lazyinit/0.0.264-0.0.265/diff.md --exclude *.pyd
+[2023-07-27 05:51:28] INFO root fetch - processPackages [piperider]: Downloading https://files.pythonhosted.org/packages/7a/f9/9cc8461c7b00069da016c58db04f6c975e2adf28d9cbd443a882dd7396de/piperider-0.9.0rc1.tar.gz
+[2023-07-27 05:51:28] INFO root fetch - processPackages [piperider]: executing diffoscope
+[2023-07-27 05:51:28] INFO root fetch - processPackages [piperider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piperider-0.9.0.tar.gz tmp/piperider-0.9.0rc1.tar.gz --markdown 20230727/p/piperider/0.9.0-0.9.0rc1/diff.md --exclude *.pyd
+[2023-07-27 05:51:28] INFO root fetch - processPackages [bcmd]: Remove: archive file [/home/abi/fetcher/tmp/bcmd-0.0.8.tar.gz]
+[2023-07-27 05:51:28] INFO root fetch - processPackages [bcmd]: Remove: archive file [/home/abi/fetcher/tmp/bcmd-0.0.9.tar.gz]
+[2023-07-27 05:51:28] INFO root fetch - main [MainThread]: End processing [bcmd]: success
+[2023-07-27 05:51:28] INFO root fetch - main [MainThread]: End processing [bcmd]: success
+[2023-07-27 05:51:29] INFO root fetch - processPackages [lazyinit]: Remove: archive file [/home/abi/fetcher/tmp/lazyinit-0.0.264.tar.gz]
+[2023-07-27 05:51:29] INFO root fetch - processPackages [lazyinit]: Remove: archive file [/home/abi/fetcher/tmp/lazyinit-0.0.265.tar.gz]
+[2023-07-27 05:51:29] INFO root fetch - main [MainThread]: End processing [lazyinit]: success
+[2023-07-27 05:51:30] INFO root fetch - processPackages [piperider]: Remove: archive file [/home/abi/fetcher/tmp/piperider-0.9.0.tar.gz]
+[2023-07-27 05:51:30] INFO root fetch - processPackages [piperider]: Remove: archive file [/home/abi/fetcher/tmp/piperider-0.9.0rc1.tar.gz]
+[2023-07-27 05:51:30] INFO root fetch - main [MainThread]: End processing [piperider]: success
+[2023-07-27 05:51:30] INFO root fetch - main [MainThread]: Store serial: [19054379]
