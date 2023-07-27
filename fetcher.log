@@ -2236,3 +2236,124 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-27 02:10:00] INFO root fetch - main [MainThread]: End processing [ait-gui]: success
 [2023-07-27 02:10:00] INFO root fetch - main [MainThread]: End processing [ait-gui]: success
 [2023-07-27 02:10:00] INFO root fetch - main [MainThread]: Store serial: [19051054]
+[2023-07-27 02:15:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19051054]
+[2023-07-27 02:15:08] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-27 02:15:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mct-quantizers-nightly
+[2023-07-27 02:15:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openbb-nightly
+[2023-07-27 02:15:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdklabs.codepipeline-extensions
+[2023-07-27 02:15:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: elifecleaner
+[2023-07-27 02:15:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-iot-core-certificates
+[2023-07-27 02:15:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: speakeasy-client-sdk-python
+[2023-07-27 02:15:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: oms-mqclient
+[2023-07-27 02:15:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-common
+[2023-07-27 02:15:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: key-switcheroo
+[2023-07-27 02:15:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ccxt
+[2023-07-27 02:15:08] INFO root fetch - processPackages [speakeasy-client-sdk-python]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-07-27 02:15:08] INFO root fetch - processPackages [key-switcheroo]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-27 02:15:08] INFO root fetch - processPackages [elifecleaner]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-27 02:15:08] INFO root fetch - processPackages [oms-mqclient]: New version: [2.4.0] Old Version: [2.3.4]
+[2023-07-27 02:15:08] INFO root fetch - processPackages [openbb-nightly]: New version: [3.2.0.dev20230726] Old Version: [3.2.0.dev20230725]
+[2023-07-27 02:15:08] INFO root fetch - processPackages [cdk-iot-core-certificates]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-27 02:15:08] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-27 02:15:08] INFO root fetch - processPackages [cdklabs.codepipeline-extensions]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-27 02:15:08] INFO root fetch - processPackages [ccxt]: New version: [4.0.9] Old Version: [4.0.8]
+[2023-07-27 02:15:08] INFO root fetch - processPackages [mct-quantizers-nightly]: New version: [1.2.0.20230727.post957] Old Version: [1.2.0.20230726.post1057]
+[2023-07-27 02:15:08] INFO root fetch - processPackages [speakeasy-client-sdk-python]: Downloading https://files.pythonhosted.org/packages/51/73/c74332634e8130c6b89c1c8307ea722240a132020fa5c51bd7f7854b0c05/speakeasy-client-sdk-python-1.9.0.tar.gz
+[2023-07-27 02:15:09] INFO root fetch - processPackages [key-switcheroo]: Downloading https://files.pythonhosted.org/packages/b9/17/0bfd635ba194fa69231eec90a859f9cb01fc8b2dd92857ce336397e95771/key_switcheroo-0.0.8.tar.gz
+[2023-07-27 02:15:09] INFO root fetch - processPackages [cdk-iot-core-certificates]: Downloading https://files.pythonhosted.org/packages/f9/3a/11678fcacc9a26643437d84919789043bb31517789527c063bec8da27e8e/cdk-iot-core-certificates-1.0.8.tar.gz
+[2023-07-27 02:15:09] INFO root fetch - processPackages [cdklabs.codepipeline-extensions]: Downloading https://files.pythonhosted.org/packages/df/6c/78f1bfa2ffc81709ec21b0077aff92b7460ad1f071d595e2d767653cedc0/cdklabs.codepipeline-extensions-0.0.98.tar.gz
+[2023-07-27 02:15:09] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2023-07-27 02:15:09] INFO root fetch - processPackages [openbb-nightly]: Downloading https://files.pythonhosted.org/packages/ee/b9/732e4398807798eb45e7c2a0f574bfc0b89d985da7b25a2212c30c47203f/openbb_nightly-3.2.0.dev20230725.tar.gz
+[2023-07-27 02:15:09] INFO root fetch - processPackages [oms-mqclient]: Downloading https://files.pythonhosted.org/packages/4d/14/e6cb8a507d5425f84d41ff80263bf175e261d07ae220ddc77f0a7ba6da91/oms-mqclient-2.3.4.tar.gz
+[2023-07-27 02:15:09] INFO root fetch - processPackages [elifecleaner]: Downloading https://files.pythonhosted.org/packages/d8/0e/4046c55d79880da671663d71e149bd71481ded59f3d48fcdbcb00ba806d5/elifecleaner-0.9.0.tar.gz
+[2023-07-27 02:15:09] WARNING root fetch - processPackages [cdklabs.codepipeline-extensions]: Skipping package: exceeds size limit 12637726>=10485760
+[2023-07-27 02:15:09] INFO root fetch - processPackages [cdklabs.codepipeline-extensions]: Start processing: cdk-events-notify
+[2023-07-27 02:15:09] INFO root fetch - main [MainThread]: End processing [cdklabs.codepipeline-extensions] error
+[2023-07-27 02:15:09] WARNING root fetch - processPackages [openbb-nightly]: Skipping package: exceeds size limit 20874503>=10485760
+[2023-07-27 02:15:09] INFO root fetch - processPackages [openbb-nightly]: Start processing: cdktf-gitlab-runner
+[2023-07-27 02:15:09] INFO root fetch - main [MainThread]: End processing [openbb-nightly] error
+[2023-07-27 02:15:09] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/ad/7d/8330d03fabbc3e43fd950e4c4fc50051c4c1ed03e1de206a341ccc8c1663/ccxt-4.0.8.tar.gz
+[2023-07-27 02:15:09] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/bc/d2/c6c11f086fe607fedf96d53c6d1d3e1dcb0e14a7dc542e9086512c5baf6b/mct-quantizers-nightly-1.2.0.20230726.post1057.tar.gz
+[2023-07-27 02:15:09] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-27 02:15:09] INFO root fetch - processPackages [cdktf-gitlab-runner]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-27 02:15:09] INFO root fetch - processPackages [key-switcheroo]: Downloading https://files.pythonhosted.org/packages/88/30/bb3724cbb9ad640b4b9e715ac9bd4484a931a9fe81b423a6b613f0d0e104/key_switcheroo-0.0.9.tar.gz
+[2023-07-27 02:15:09] INFO root fetch - processPackages [cdk-iot-core-certificates]: Downloading https://files.pythonhosted.org/packages/4a/43/39180d2063c944a0f8d32557a55dc2ed201b2244a615cecd4ba0e33dee1a/cdk-iot-core-certificates-1.0.9.tar.gz
+[2023-07-27 02:15:09] INFO root fetch - processPackages [speakeasy-client-sdk-python]: Downloading https://files.pythonhosted.org/packages/ec/17/af09933815cbb33c06f585554b6a5963756ed5573cefe2151dde0046ce62/speakeasy-client-sdk-python-1.9.1.tar.gz
+[2023-07-27 02:15:09] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/b0/d8/d2deadc998a01ba26de7ffd230a5224483b3d116e10e36cb05f79b441303/cdk-events-notify-2.0.98.tar.gz
+[2023-07-27 02:15:09] INFO root fetch - processPackages [key-switcheroo]: executing diffoscope
+[2023-07-27 02:15:09] INFO root fetch - processPackages [cdk-iot-core-certificates]: executing diffoscope
+[2023-07-27 02:15:09] INFO root fetch - processPackages [key-switcheroo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/key_switcheroo-0.0.8.tar.gz tmp/key_switcheroo-0.0.9.tar.gz --markdown 20230727/k/key-switcheroo/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-27 02:15:09] INFO root fetch - processPackages [cdk-iot-core-certificates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-iot-core-certificates-1.0.8.tar.gz tmp/cdk-iot-core-certificates-1.0.9.tar.gz --markdown 20230727/c/cdk-iot-core-certificates/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-27 02:15:09] INFO root fetch - processPackages [oms-mqclient]: Downloading https://files.pythonhosted.org/packages/71/2e/291b1373a520eb85fbcce48417066e4cc470991bf8ba1d6e3b1a0523fed0/oms-mqclient-2.4.0.tar.gz
+[2023-07-27 02:15:09] INFO root fetch - processPackages [speakeasy-client-sdk-python]: executing diffoscope
+[2023-07-27 02:15:09] INFO root fetch - processPackages [speakeasy-client-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/speakeasy-client-sdk-python-1.9.0.tar.gz tmp/speakeasy-client-sdk-python-1.9.1.tar.gz --markdown 20230727/s/speakeasy-client-sdk-python/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-07-27 02:15:09] INFO root fetch - processPackages [cdktf-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/8a/6e/f1c520e407ce3adf90b51d2d1ca84d283a08c808fc00c9deeff4f4734d82/cdktf-gitlab-runner-0.0.98.tar.gz
+[2023-07-27 02:15:09] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/81/50/bcded729c8fe4e9c06cd8666948943ad846eaa22a44d4a4763344867c7bf/mct-quantizers-nightly-1.2.0.20230727.post957.tar.gz
+[2023-07-27 02:15:09] INFO root fetch - processPackages [elifecleaner]: Downloading https://files.pythonhosted.org/packages/ba/d9/f14856c509de287aec8a31e76808f681383e338462e051c31edcecd1527f/elifecleaner-0.9.1.tar.gz
+[2023-07-27 02:15:09] INFO root fetch - processPackages [oms-mqclient]: executing diffoscope
+[2023-07-27 02:15:09] INFO root fetch - processPackages [oms-mqclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oms-mqclient-2.3.4.tar.gz tmp/oms-mqclient-2.4.0.tar.gz --markdown 20230727/o/oms-mqclient/2.3.4-2.4.0/diff.md --exclude *.pyd
+[2023-07-27 02:15:09] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/3d/55/4372c391faf1ce75366fa988d26fee510d2d3c2b01a27ad4c21f14ace31c/cdk-events-notify-2.0.99.tar.gz
+[2023-07-27 02:15:09] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2023-07-27 02:15:09] INFO root fetch - processPackages [mct-quantizers-nightly]: executing diffoscope
+[2023-07-27 02:15:09] INFO root fetch - processPackages [mct-quantizers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-quantizers-nightly-1.2.0.20230726.post1057.tar.gz tmp/mct-quantizers-nightly-1.2.0.20230727.post957.tar.gz --markdown 20230727/m/mct-quantizers-nightly/1.2.0.20230726.post1057-1.2.0.20230727.post957/diff.md --exclude *.pyd
+[2023-07-27 02:15:09] INFO root fetch - processPackages [elifecleaner]: executing diffoscope
+[2023-07-27 02:15:09] INFO root fetch - processPackages [elifecleaner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elifecleaner-0.9.0.tar.gz tmp/elifecleaner-0.9.1.tar.gz --markdown 20230727/e/elifecleaner/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-27 02:15:10] INFO root fetch - processPackages [cdktf-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/59/f2/0d7ab5ec05a2b43bd92c00fd237afddb1e2770c7edaf03b1f7ddef6c0793/cdktf-gitlab-runner-0.0.99.tar.gz
+[2023-07-27 02:15:10] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2023-07-27 02:15:10] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.0.98.tar.gz tmp/cdk-events-notify-2.0.99.tar.gz --markdown 20230727/c/cdk-events-notify/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-27 02:15:10] INFO root fetch - processPackages [cdktf-gitlab-runner]: executing diffoscope
+[2023-07-27 02:15:10] INFO root fetch - processPackages [cdktf-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-gitlab-runner-0.0.98.tar.gz tmp/cdktf-gitlab-runner-0.0.99.tar.gz --markdown 20230727/c/cdktf-gitlab-runner/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-27 02:15:10] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/32/a5/e913d1abd897de7e300e2702f68a742f7dba4a8d682a377a41f7423bd968/ccxt-4.0.9.tar.gz
+[2023-07-27 02:15:10] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2023-07-27 02:15:10] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20230727/c/cdk-common/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-27 02:15:10] INFO root fetch - processPackages [ccxt]: executing diffoscope
+[2023-07-27 02:15:10] INFO root fetch - processPackages [ccxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-4.0.8.tar.gz tmp/ccxt-4.0.9.tar.gz --markdown 20230727/c/ccxt/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2023-07-27 02:15:11] INFO root fetch - processPackages [key-switcheroo]: Remove: archive file [/home/abi/fetcher/tmp/key_switcheroo-0.0.8.tar.gz]
+[2023-07-27 02:15:11] INFO root fetch - processPackages [key-switcheroo]: Remove: archive file [/home/abi/fetcher/tmp/key_switcheroo-0.0.9.tar.gz]
+[2023-07-27 02:15:11] INFO root fetch - processPackages [key-switcheroo]: Start processing: cdk-skylight
+[2023-07-27 02:15:11] INFO root fetch - main [MainThread]: End processing [key-switcheroo]: success
+[2023-07-27 02:15:11] INFO root fetch - processPackages [cdk-iot-core-certificates]: Remove: archive file [/home/abi/fetcher/tmp/cdk-iot-core-certificates-1.0.8.tar.gz]
+[2023-07-27 02:15:11] INFO root fetch - processPackages [cdk-iot-core-certificates]: Remove: archive file [/home/abi/fetcher/tmp/cdk-iot-core-certificates-1.0.9.tar.gz]
+[2023-07-27 02:15:11] INFO root fetch - processPackages [cdk-iot-core-certificates]: Start processing: kot
+[2023-07-27 02:15:11] INFO root fetch - main [MainThread]: End processing [cdk-iot-core-certificates]: success
+[2023-07-27 02:15:11] INFO root fetch - processPackages [kot]: New version: [0.20.0] Old Version: [0.19.0]
+[2023-07-27 02:15:11] INFO root fetch - processPackages [cdk-skylight]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-07-27 02:15:11] INFO root fetch - processPackages [kot]: Downloading https://files.pythonhosted.org/packages/d9/7a/11fbbaae93995044f977c65fa5b6f5274a1127334ce21ab461b3206081ef/kot-0.19.0.tar.gz
+[2023-07-27 02:15:11] INFO root fetch - processPackages [cdk-skylight]: Downloading https://files.pythonhosted.org/packages/86/f2/01b58f6183b48ce1105016a7f5045925a49464b8c20408459bd101fe5f25/cdk-skylight-1.1.98.tar.gz
+[2023-07-27 02:15:11] INFO root fetch - processPackages [speakeasy-client-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/speakeasy-client-sdk-python-1.9.0.tar.gz]
+[2023-07-27 02:15:11] INFO root fetch - processPackages [speakeasy-client-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/speakeasy-client-sdk-python-1.9.1.tar.gz]
+[2023-07-27 02:15:11] INFO root fetch - main [MainThread]: End processing [speakeasy-client-sdk-python]: success
+[2023-07-27 02:15:11] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.0.98.tar.gz]
+[2023-07-27 02:15:11] INFO root fetch - processPackages [elifecleaner]: Remove: archive file [/home/abi/fetcher/tmp/elifecleaner-0.9.0.tar.gz]
+[2023-07-27 02:15:11] INFO root fetch - processPackages [elifecleaner]: Remove: archive file [/home/abi/fetcher/tmp/elifecleaner-0.9.1.tar.gz]
+[2023-07-27 02:15:11] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.0.99.tar.gz]
+[2023-07-27 02:15:11] INFO root fetch - main [MainThread]: End processing [elifecleaner]: success
+[2023-07-27 02:15:11] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2023-07-27 02:15:11] INFO root fetch - processPackages [kot]: Downloading https://files.pythonhosted.org/packages/f6/03/1594b3cba6ead0eddcbd1534a3d2a5e49b83bde79d9ba8e9929367ac0602/kot-0.20.0.tar.gz
+[2023-07-27 02:15:11] INFO root fetch - processPackages [cdk-skylight]: Downloading https://files.pythonhosted.org/packages/59/49/3e035cb98d5f97f79c174e211129a2dbe596df70c5df50ac701242fabea2/cdk-skylight-1.1.99.tar.gz
+[2023-07-27 02:15:11] INFO root fetch - processPackages [oms-mqclient]: Remove: archive file [/home/abi/fetcher/tmp/oms-mqclient-2.3.4.tar.gz]
+[2023-07-27 02:15:11] INFO root fetch - processPackages [oms-mqclient]: Remove: archive file [/home/abi/fetcher/tmp/oms-mqclient-2.4.0.tar.gz]
+[2023-07-27 02:15:11] INFO root fetch - main [MainThread]: End processing [oms-mqclient]: success
+[2023-07-27 02:15:11] INFO root fetch - processPackages [cdktf-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-gitlab-runner-0.0.98.tar.gz]
+[2023-07-27 02:15:11] INFO root fetch - processPackages [cdktf-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-gitlab-runner-0.0.99.tar.gz]
+[2023-07-27 02:15:11] INFO root fetch - main [MainThread]: End processing [cdktf-gitlab-runner]: success
+[2023-07-27 02:15:11] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.2.0.20230726.post1057.tar.gz]
+[2023-07-27 02:15:11] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.2.0.20230727.post957.tar.gz]
+[2023-07-27 02:15:11] INFO root fetch - main [MainThread]: End processing [mct-quantizers-nightly]: success
+[2023-07-27 02:15:11] INFO root fetch - processPackages [kot]: executing diffoscope
+[2023-07-27 02:15:11] INFO root fetch - processPackages [kot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kot-0.19.0.tar.gz tmp/kot-0.20.0.tar.gz --markdown 20230727/k/kot/0.19.0-0.20.0/diff.md --exclude *.pyd
+[2023-07-27 02:15:11] INFO root fetch - processPackages [cdk-skylight]: executing diffoscope
+[2023-07-27 02:15:11] INFO root fetch - processPackages [cdk-skylight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-skylight-1.1.98.tar.gz tmp/cdk-skylight-1.1.99.tar.gz --markdown 20230727/c/cdk-skylight/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-07-27 02:15:11] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2023-07-27 02:15:11] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2023-07-27 02:15:11] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2023-07-27 02:15:12] INFO root fetch - processPackages [kot]: Remove: archive file [/home/abi/fetcher/tmp/kot-0.19.0.tar.gz]
+[2023-07-27 02:15:12] INFO root fetch - processPackages [kot]: Remove: archive file [/home/abi/fetcher/tmp/kot-0.20.0.tar.gz]
+[2023-07-27 02:15:12] INFO root fetch - main [MainThread]: End processing [kot]: success
+[2023-07-27 02:15:12] INFO root fetch - processPackages [cdk-skylight]: Remove: archive file [/home/abi/fetcher/tmp/cdk-skylight-1.1.98.tar.gz]
+[2023-07-27 02:15:12] INFO root fetch - processPackages [cdk-skylight]: Remove: archive file [/home/abi/fetcher/tmp/cdk-skylight-1.1.99.tar.gz]
+[2023-07-27 02:15:12] INFO root fetch - main [MainThread]: End processing [cdk-skylight]: success
+[2023-07-27 02:15:16] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.0.8.tar.gz]
+[2023-07-27 02:15:16] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.0.9.tar.gz]
+[2023-07-27 02:15:16] INFO root fetch - main [MainThread]: End processing [ccxt]: success
+[2023-07-27 02:15:16] INFO root fetch - main [MainThread]: Store serial: [19051095]
