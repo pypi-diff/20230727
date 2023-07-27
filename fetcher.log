@@ -20607,3 +20607,185 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-07-27 11:19:07] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
 [2023-07-27 11:19:07] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
 [2023-07-27 11:19:07] INFO root fetch - main [MainThread]: Store serial: [19057827]
+[2023-07-27 11:24:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19057827]
+[2023-07-27 11:24:16] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-07-27 11:24:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ggshield
+[2023-07-27 11:24:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: smartchart
+[2023-07-27 11:24:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kobo-md
+[2023-07-27 11:24:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lm-datahandler
+[2023-07-27 11:24:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spanishconjugator
+[2023-07-27 11:24:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lesscode-py
+[2023-07-27 11:24:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spanishconjugator
+[2023-07-27 11:24:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: database-testing-tools
+[2023-07-27 11:24:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-sale-order-line-menu
+[2023-07-27 11:24:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: volcengine-python-sdk
+[2023-07-27 11:24:16] INFO root fetch - processPackages [lesscode-py]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-27 11:24:16] INFO root fetch - processPackages [smartchart]: New version: [6.6.8.5] Old Version: [6.6.8.4]
+[2023-07-27 11:24:16] INFO root fetch - processPackages [kobo-md]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-27 11:24:16] INFO root fetch - processPackages [ggshield]: New version: [1.9.0] Old Version: [1.8.2]
+[2023-07-27 11:24:16] INFO root fetch - processPackages [odoo-addon-sale-order-line-menu]: New version: [16.0.1.2.0] Old Version: [16.0.1.1.0]
+[2023-07-27 11:24:16] INFO root fetch - processPackages [lm-datahandler]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-27 11:24:16] INFO root fetch - processPackages [volcengine-python-sdk]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-27 11:24:16] INFO root fetch - processPackages [database-testing-tools]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-27 11:24:16] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-27 11:24:16] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-27 11:24:16] INFO root fetch - processPackages [database-testing-tools]: Downloading https://files.pythonhosted.org/packages/dc/2d/0067e134a594b50ebabd85672fc6887234d693248197bff7394ce46aff94/database_testing_tools-1.0.1.tar.gz
+[2023-07-27 11:24:17] INFO root fetch - processPackages [lesscode-py]: Downloading https://files.pythonhosted.org/packages/93/59/9c87e90597a4fc3c2567abe4a0ff19fd2b89df126eacc6b3d22b92ec47b4/lesscode-py-0.3.8.tar.gz
+[2023-07-27 11:24:17] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-27 11:24:17] INFO root fetch - processPackages [smartchart]: Downloading https://files.pythonhosted.org/packages/8e/56/a29f2af273a7b2e562c80811e761c92e8771acd7b380641f1ea0269b9d47/smartchart-6.6.8.4.tar.gz
+[2023-07-27 11:24:17] INFO root fetch - processPackages [odoo-addon-sale-order-line-menu]: Downloading https://files.pythonhosted.org/packages/31/b2/002a67af0947c21e4ecc549c7e43ce4f724dda179091374547970364b3f4/odoo_addon_sale_order_line_menu-16.0.1.1.0-py3-none-any.whl
+[2023-07-27 11:24:17] INFO root fetch - processPackages [ggshield]: Downloading https://files.pythonhosted.org/packages/34/29/b6d09e3b410ddca0a4ae6b08203f751ff105ec3b48a59b3866f1ae0b16a4/ggshield-1.8.2.tar.gz
+[2023-07-27 11:24:17] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-27 11:24:17] INFO root fetch - processPackages [volcengine-python-sdk]: Downloading https://files.pythonhosted.org/packages/ff/75/e607b174f4efc875809400aaf720dd84ad23c6cf463baaa0667f9f458263/volcengine-python-sdk-1.0.8.tar.gz
+[2023-07-27 11:24:17] INFO root fetch - processPackages [lm-datahandler]: Downloading https://files.pythonhosted.org/packages/d9/98/95c6dbde862088dda438ca6adc5a4960239cca0a315229c70d3bad832211/lm_datahandler-0.1.8.tar.gz
+[2023-07-27 11:24:17] INFO root fetch - processPackages [kobo-md]: Downloading https://files.pythonhosted.org/packages/5a/83/90adfe0d74738663c69b6114b906a1f5a2fb9659d6a398502da9d0fa95fb/kobo-md-0.1.3.tar.gz
+[2023-07-27 11:24:17] INFO root fetch - processPackages [database-testing-tools]: Downloading https://files.pythonhosted.org/packages/9d/51/e27fbeca2127211027d1ce88dab169b1092f8c6facd3619de33b77fdc910/database_testing_tools-1.0.2.tar.gz
+[2023-07-27 11:24:17] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-27 11:24:17] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-27 11:24:17] INFO root fetch - processPackages [lesscode-py]: Downloading https://files.pythonhosted.org/packages/64/97/cec698b665aba9a27d2cddb9f7528a8982bbaa3379372774ff671e45fb3e/lesscode-py-0.3.9.tar.gz
+[2023-07-27 11:24:17] INFO root fetch - processPackages [odoo-addon-sale-order-line-menu]: Downloading https://files.pythonhosted.org/packages/85/99/9a2d35064bed6f8e2a9f024f91847a6ab49686ac26a397f5f2004c415eca/odoo_addon_sale_order_line_menu-16.0.1.2.0-py3-none-any.whl
+[2023-07-27 11:24:17] INFO root fetch - processPackages [database-testing-tools]: executing diffoscope
+[2023-07-27 11:24:17] INFO root fetch - processPackages [database-testing-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/database_testing_tools-1.0.1.tar.gz tmp/database_testing_tools-1.0.2.tar.gz --markdown 20230727/d/database-testing-tools/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-27 11:24:17] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-27 11:24:17] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230727/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-27 11:24:17] INFO root fetch - processPackages [kobo-md]: Downloading https://files.pythonhosted.org/packages/c1/bd/c26b7d7a12e796ebd3afce09714d73adad6ca92f2761a12404532a05b871/kobo-md-0.1.4.tar.gz
+[2023-07-27 11:24:17] INFO root fetch - processPackages [volcengine-python-sdk]: Downloading https://files.pythonhosted.org/packages/53/6e/bc2e8996b329c0459547989d687871830a3d17036f25d8455e66ffe3b1a8/volcengine-python-sdk-1.0.9.tar.gz
+[2023-07-27 11:24:17] INFO root fetch - processPackages [ggshield]: Downloading https://files.pythonhosted.org/packages/81/85/79e39491697e19ecd74d5565f6f95759646b1aca4c3e7c2201addb976587/ggshield-1.9.0.tar.gz
+[2023-07-27 11:24:17] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-27 11:24:17] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230727/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-27 11:24:17] INFO root fetch - processPackages [lesscode-py]: executing diffoscope
+[2023-07-27 11:24:17] INFO root fetch - processPackages [lesscode-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lesscode-py-0.3.8.tar.gz tmp/lesscode-py-0.3.9.tar.gz --markdown 20230727/l/lesscode-py/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-27 11:24:17] INFO root fetch - processPackages [lm-datahandler]: Downloading https://files.pythonhosted.org/packages/b6/7b/c27a06878e585d9037a60649c26f1e7818a9ddfdac4d817718ab2b5a2f7e/lm_datahandler-0.1.9.tar.gz
+[2023-07-27 11:24:17] INFO root fetch - processPackages [odoo-addon-sale-order-line-menu]: executing diffoscope
+[2023-07-27 11:24:17] INFO root fetch - processPackages [odoo-addon-sale-order-line-menu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_order_line_menu-16.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_sale_order_line_menu-16.0.1.2.0-py3-none-any.whl.zip --markdown 20230727/o/odoo-addon-sale-order-line-menu/16.0.1.1.0-16.0.1.2.0/diff.md --exclude *.pyd
+[2023-07-27 11:24:18] INFO root fetch - processPackages [kobo-md]: executing diffoscope
+[2023-07-27 11:24:18] INFO root fetch - processPackages [kobo-md]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kobo-md-0.1.3.tar.gz tmp/kobo-md-0.1.4.tar.gz --markdown 20230727/k/kobo-md/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-27 11:24:18] INFO root fetch - processPackages [volcengine-python-sdk]: executing diffoscope
+[2023-07-27 11:24:18] INFO root fetch - processPackages [volcengine-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volcengine-python-sdk-1.0.8.tar.gz tmp/volcengine-python-sdk-1.0.9.tar.gz --markdown 20230727/v/volcengine-python-sdk/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-27 11:24:18] INFO root fetch - processPackages [lm-datahandler]: executing diffoscope
+[2023-07-27 11:24:18] INFO root fetch - processPackages [lm-datahandler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lm_datahandler-0.1.8.tar.gz tmp/lm_datahandler-0.1.9.tar.gz --markdown 20230727/l/lm-datahandler/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-27 11:24:18] INFO root fetch - processPackages [ggshield]: executing diffoscope
+[2023-07-27 11:24:18] INFO root fetch - processPackages [ggshield]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ggshield-1.8.2.tar.gz tmp/ggshield-1.9.0.tar.gz --markdown 20230727/g/ggshield/1.8.2-1.9.0/diff.md --exclude *.pyd
+[2023-07-27 11:24:19] INFO root fetch - processPackages [smartchart]: Downloading https://files.pythonhosted.org/packages/0b/a7/dbc35d61ae4e95229ed45bd37c4c399f363df7eb82dca2d2c648bacb2f79/smartchart-6.6.8.5.tar.gz
+[2023-07-27 11:24:19] INFO root fetch - processPackages [database-testing-tools]: Remove: archive file [/home/abi/fetcher/tmp/database_testing_tools-1.0.1.tar.gz]
+[2023-07-27 11:24:19] INFO root fetch - processPackages [database-testing-tools]: Remove: archive file [/home/abi/fetcher/tmp/database_testing_tools-1.0.2.tar.gz]
+[2023-07-27 11:24:19] INFO root fetch - processPackages [database-testing-tools]: Start processing: webcam
+[2023-07-27 11:24:19] INFO root fetch - main [MainThread]: End processing [database-testing-tools]: success
+[2023-07-27 11:24:19] INFO root fetch - processPackages [webcam]: New version: [1.9] Old Version: [1.8]
+[2023-07-27 11:24:19] INFO root fetch - processPackages [odoo-addon-sale-order-line-menu]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_order_line_menu-16.0.1.1.0-py3-none-any.whl.zip]
+[2023-07-27 11:24:19] INFO root fetch - processPackages [odoo-addon-sale-order-line-menu]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_order_line_menu-16.0.1.2.0-py3-none-any.whl.zip]
+[2023-07-27 11:24:19] INFO root fetch - processPackages [odoo-addon-sale-order-line-menu]: Start processing: fusion-engine
+[2023-07-27 11:24:19] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-order-line-menu]: success
+[2023-07-27 11:24:19] INFO root fetch - processPackages [fusion-engine]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-07-27 11:24:19] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-07-27 11:24:19] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-07-27 11:24:19] INFO root fetch - processPackages [spanishconjugator]: Start processing: amazon-products-scraper
+[2023-07-27 11:24:19] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-27 11:24:19] INFO root fetch - processPackages [smartchart]: executing diffoscope
+[2023-07-27 11:24:19] INFO root fetch - processPackages [smartchart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartchart-6.6.8.4.tar.gz tmp/smartchart-6.6.8.5.tar.gz --markdown 20230727/s/smartchart/6.6.8.4-6.6.8.5/diff.md --exclude *.pyd
+[2023-07-27 11:24:19] INFO root fetch - processPackages [amazon-products-scraper]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-27 11:24:19] INFO root fetch - processPackages [spanishconjugator]: Start processing: django-webstack
+[2023-07-27 11:24:19] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-27 11:24:19] INFO root fetch - processPackages [fusion-engine]: Downloading https://files.pythonhosted.org/packages/10/83/68b185cfb2729b9a93916398b65ef7eb4f639c5d54c96ad533bc99cf8738/fusion-engine-0.2.6.tar.gz
+[2023-07-27 11:24:19] INFO root fetch - processPackages [webcam]: Downloading https://files.pythonhosted.org/packages/31/4f/5f62a6aab1c05a3296501d54d104278fb9f289b855a8dd7a9263dd64d053/webcam-1.8.tar.gz
+[2023-07-27 11:24:19] INFO root fetch - processPackages [django-webstack]: New version: [1.3.1] Old Version: [1.2.2]
+[2023-07-27 11:24:19] INFO root fetch - processPackages [lm-datahandler]: Remove: archive file [/home/abi/fetcher/tmp/lm_datahandler-0.1.8.tar.gz]
+[2023-07-27 11:24:19] INFO root fetch - processPackages [lm-datahandler]: Remove: archive file [/home/abi/fetcher/tmp/lm_datahandler-0.1.9.tar.gz]
+[2023-07-27 11:24:19] INFO root fetch - processPackages [lm-datahandler]: Start processing: pytbai
+[2023-07-27 11:24:19] INFO root fetch - main [MainThread]: End processing [lm-datahandler]: success
+[2023-07-27 11:24:19] INFO root fetch - processPackages [pytbai]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-07-27 11:24:19] INFO root fetch - processPackages [amazon-products-scraper]: Downloading https://files.pythonhosted.org/packages/77/2f/c1a8bc02b502e91bf09e69257f491fff8677236c70cd0b425e152e5380c6/amazon_products_scraper-0.0.1.tar.gz
+[2023-07-27 11:24:19] INFO root fetch - processPackages [lesscode-py]: Remove: archive file [/home/abi/fetcher/tmp/lesscode-py-0.3.8.tar.gz]
+[2023-07-27 11:24:19] INFO root fetch - processPackages [lesscode-py]: Remove: archive file [/home/abi/fetcher/tmp/lesscode-py-0.3.9.tar.gz]
+[2023-07-27 11:24:19] INFO root fetch - processPackages [lesscode-py]: Start processing: grpc4bmi
+[2023-07-27 11:24:19] INFO root fetch - main [MainThread]: End processing [lesscode-py]: success
+[2023-07-27 11:24:19] INFO root fetch - processPackages [kobo-md]: Remove: archive file [/home/abi/fetcher/tmp/kobo-md-0.1.3.tar.gz]
+[2023-07-27 11:24:19] INFO root fetch - processPackages [kobo-md]: Remove: archive file [/home/abi/fetcher/tmp/kobo-md-0.1.4.tar.gz]
+[2023-07-27 11:24:19] INFO root fetch - processPackages [kobo-md]: Start processing: Euphorie
+[2023-07-27 11:24:19] INFO root fetch - main [MainThread]: End processing [kobo-md]: success
+[2023-07-27 11:24:19] INFO root fetch - processPackages [grpc4bmi]: New version: [0.4.0] Old Version: [0.3.2]
+[2023-07-27 11:24:19] INFO root fetch - processPackages [django-webstack]: Downloading https://files.pythonhosted.org/packages/14/24/6eb03b296719d6e3fe9d48fe2b667508dc292f18b26327945af288f39037/django-webstack-1.2.2.tar.gz
+[2023-07-27 11:24:20] INFO root fetch - processPackages [ggshield]: Remove: archive file [/home/abi/fetcher/tmp/ggshield-1.8.2.tar.gz]
+[2023-07-27 11:24:20] INFO root fetch - processPackages [ggshield]: Remove: archive file [/home/abi/fetcher/tmp/ggshield-1.9.0.tar.gz]
+[2023-07-27 11:24:20] INFO root fetch - processPackages [ggshield]: Start processing: hepai
+[2023-07-27 11:24:20] INFO root fetch - main [MainThread]: End processing [ggshield]: success
+[2023-07-27 11:24:20] INFO root fetch - processPackages [pytbai]: Downloading https://files.pythonhosted.org/packages/c6/75/1cdfd67991cd90fa391526c5491b16dd23f941c7cf0a3f2f7ec88ff5ee8d/pytbai-1.4.1.tar.gz
+[2023-07-27 11:24:20] INFO root fetch - processPackages [fusion-engine]: Downloading https://files.pythonhosted.org/packages/99/92/23f2700e50cd3d81f0da584318398f7af38063247bf32e0cbb362061b98f/fusion-engine-0.2.7.tar.gz
+[2023-07-27 11:24:20] INFO root fetch - processPackages [Euphorie]: New version: [9.0.9] Old Version: [9.0.8]
+[2023-07-27 11:24:20] INFO root fetch - processPackages [webcam]: Downloading https://files.pythonhosted.org/packages/76/2d/d3a50566f3d71537fdb9ab221cd05fa44a94a1c4f5220e804924e777ea1f/webcam-1.9.tar.gz
+[2023-07-27 11:24:20] INFO root fetch - processPackages [hepai]: New version: [1.0.9] Old Version: [1.0.8.1]
+[2023-07-27 11:24:20] INFO root fetch - processPackages [grpc4bmi]: Downloading https://files.pythonhosted.org/packages/49/ca/edb1279c4d1e3bceec7ce38c679d8b1153e077958075360becdb01359913/grpc4bmi-0.3.2.tar.gz
+[2023-07-27 11:24:20] INFO root fetch - processPackages [amazon-products-scraper]: Downloading https://files.pythonhosted.org/packages/7c/85/721ed987d450cabe623e02e170d824d4067057400f25f8521407b232329f/amazon_products_scraper-0.0.2.tar.gz
+[2023-07-27 11:24:20] INFO root fetch - processPackages [fusion-engine]: executing diffoscope
+[2023-07-27 11:24:20] INFO root fetch - processPackages [fusion-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fusion-engine-0.2.6.tar.gz tmp/fusion-engine-0.2.7.tar.gz --markdown 20230727/f/fusion-engine/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-07-27 11:24:20] INFO root fetch - processPackages [Euphorie]: Downloading https://files.pythonhosted.org/packages/59/47/ab32c00407777de56187650efaeea4a863022dc664b35e3cc016cdda0841/Euphorie-9.0.8.zip
+[2023-07-27 11:24:20] INFO root fetch - processPackages [webcam]: executing diffoscope
+[2023-07-27 11:24:20] INFO root fetch - processPackages [webcam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webcam-1.8.tar.gz tmp/webcam-1.9.tar.gz --markdown 20230727/w/webcam/1.8-1.9/diff.md --exclude *.pyd
+[2023-07-27 11:24:20] INFO root fetch - processPackages [hepai]: Downloading https://files.pythonhosted.org/packages/d5/59/1a2d684052d8cfb8c732ee281019dd1d18d8712598941b10038ccbd31386/hepai-1.0.8.1.tar.gz
+[2023-07-27 11:24:20] INFO root fetch - processPackages [pytbai]: Downloading https://files.pythonhosted.org/packages/e3/16/24fc988bd73b9fec8e249fe83522a884f6bd0aa4cd898498137713b4d0aa/pytbai-1.4.2.tar.gz
+[2023-07-27 11:24:20] INFO root fetch - processPackages [django-webstack]: Downloading https://files.pythonhosted.org/packages/f5/65/bb59c5fa94dde18d07f282b90c02e6fbbc13e1bec357c0535462773144b9/django-webstack-1.3.1.tar.gz
+[2023-07-27 11:24:20] WARNING root fetch - processPackages [Euphorie]: Skipping package: exceeds size limit 12299974>=10485760
+[2023-07-27 11:24:20] INFO root fetch - processPackages [Euphorie]: Start processing: django-exact
+[2023-07-27 11:24:20] INFO root fetch - main [MainThread]: End processing [Euphorie] error
+[2023-07-27 11:24:20] INFO root fetch - processPackages [amazon-products-scraper]: executing diffoscope
+[2023-07-27 11:24:20] INFO root fetch - processPackages [amazon-products-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amazon_products_scraper-0.0.1.tar.gz tmp/amazon_products_scraper-0.0.2.tar.gz --markdown 20230727/a/amazon-products-scraper/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-27 11:24:20] INFO root fetch - processPackages [django-exact]: New version: [0.6.0] Old Version: [0.5.1]
+[2023-07-27 11:24:20] INFO root fetch - processPackages [grpc4bmi]: Downloading https://files.pythonhosted.org/packages/0c/af/208f4f84a7910136e2fe6776f8b7d4370235f47edc11e1cffd1bb6cc8bf9/grpc4bmi-0.4.0.tar.gz
+[2023-07-27 11:24:20] INFO root fetch - processPackages [pytbai]: executing diffoscope
+[2023-07-27 11:24:20] INFO root fetch - processPackages [pytbai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytbai-1.4.1.tar.gz tmp/pytbai-1.4.2.tar.gz --markdown 20230727/p/pytbai/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-07-27 11:24:20] INFO root fetch - processPackages [django-webstack]: executing diffoscope
+[2023-07-27 11:24:20] INFO root fetch - processPackages [django-webstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-webstack-1.2.2.tar.gz tmp/django-webstack-1.3.1.tar.gz --markdown 20230727/d/django-webstack/1.2.2-1.3.1/diff.md --exclude *.pyd
+[2023-07-27 11:24:20] INFO root fetch - processPackages [grpc4bmi]: executing diffoscope
+[2023-07-27 11:24:20] INFO root fetch - processPackages [django-exact]: Downloading https://files.pythonhosted.org/packages/c1/1a/870596866134052af03233f72afc91e378bde9244dda17981d7e2bc47786/django-exact-0.5.1.tar.gz
+[2023-07-27 11:24:20] INFO root fetch - processPackages [grpc4bmi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grpc4bmi-0.3.2.tar.gz tmp/grpc4bmi-0.4.0.tar.gz --markdown 20230727/g/grpc4bmi/0.3.2-0.4.0/diff.md --exclude *.pyd
+[2023-07-27 11:24:20] INFO root fetch - processPackages [hepai]: Downloading https://files.pythonhosted.org/packages/cf/bd/8488ec87ec4b70a54ec1e07c585b3022e45956051b92296e2fb7aee39bc9/hepai-1.0.9.tar.gz
+[2023-07-27 11:24:21] INFO root fetch - processPackages [hepai]: executing diffoscope
+[2023-07-27 11:24:21] INFO root fetch - processPackages [hepai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hepai-1.0.8.1.tar.gz tmp/hepai-1.0.9.tar.gz --markdown 20230727/h/hepai/1.0.8.1-1.0.9/diff.md --exclude *.pyd
+[2023-07-27 11:24:21] INFO root fetch - processPackages [django-exact]: Downloading https://files.pythonhosted.org/packages/ab/47/9852659af4b16d4c291f61201dd48ab251e05a22724391d0b2fddfdf7cbc/django-exact-0.6.0.tar.gz
+[2023-07-27 11:24:21] INFO root fetch - processPackages [django-exact]: executing diffoscope
+[2023-07-27 11:24:21] INFO root fetch - processPackages [django-exact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-exact-0.5.1.tar.gz tmp/django-exact-0.6.0.tar.gz --markdown 20230727/d/django-exact/0.5.1-0.6.0/diff.md --exclude *.pyd
+[2023-07-27 11:24:21] INFO root fetch - processPackages [webcam]: Remove: archive file [/home/abi/fetcher/tmp/webcam-1.8.tar.gz]
+[2023-07-27 11:24:21] INFO root fetch - processPackages [webcam]: Remove: archive file [/home/abi/fetcher/tmp/webcam-1.9.tar.gz]
+[2023-07-27 11:24:21] INFO root fetch - processPackages [webcam]: Start processing: osha.oira
+[2023-07-27 11:24:21] INFO root fetch - main [MainThread]: End processing [webcam]: success
+[2023-07-27 11:24:21] INFO root fetch - processPackages [osha.oira]: New version: [9.0.1] Old Version: [9.0.0]
+[2023-07-27 11:24:21] INFO root fetch - processPackages [fusion-engine]: Remove: archive file [/home/abi/fetcher/tmp/fusion-engine-0.2.6.tar.gz]
+[2023-07-27 11:24:21] INFO root fetch - processPackages [fusion-engine]: Remove: archive file [/home/abi/fetcher/tmp/fusion-engine-0.2.7.tar.gz]
+[2023-07-27 11:24:21] INFO root fetch - processPackages [fusion-engine]: Start processing: webcam
+[2023-07-27 11:24:21] INFO root fetch - main [MainThread]: End processing [fusion-engine]: success
+[2023-07-27 11:24:22] INFO root fetch - processPackages [webcam]: New version: [1.9] Old Version: [1.8]
+[2023-07-27 11:24:22] INFO root fetch - processPackages [amazon-products-scraper]: Remove: archive file [/home/abi/fetcher/tmp/amazon_products_scraper-0.0.1.tar.gz]
+[2023-07-27 11:24:22] INFO root fetch - processPackages [amazon-products-scraper]: Remove: archive file [/home/abi/fetcher/tmp/amazon_products_scraper-0.0.2.tar.gz]
+[2023-07-27 11:24:22] INFO root fetch - main [MainThread]: End processing [amazon-products-scraper]: success
+[2023-07-27 11:24:22] INFO root fetch - processPackages [webcam]: Downloading https://files.pythonhosted.org/packages/31/4f/5f62a6aab1c05a3296501d54d104278fb9f289b855a8dd7a9263dd64d053/webcam-1.8.tar.gz
+[2023-07-27 11:24:22] INFO root fetch - processPackages [osha.oira]: Downloading https://files.pythonhosted.org/packages/d0/44/79731e2f3a86deb818c137826b7a57876f4691ba5e0e28108cb6a5da40f3/osha.oira-9.0.0.tar.gz
+[2023-07-27 11:24:22] WARNING root fetch - processPackages [osha.oira]: Skipping package: exceeds size limit 54115052>=10485760
+[2023-07-27 11:24:22] INFO root fetch - main [MainThread]: End processing [osha.oira] error
+[2023-07-27 11:24:22] INFO root fetch - processPackages [webcam]: Downloading https://files.pythonhosted.org/packages/76/2d/d3a50566f3d71537fdb9ab221cd05fa44a94a1c4f5220e804924e777ea1f/webcam-1.9.tar.gz
+[2023-07-27 11:24:22] INFO root fetch - processPackages [pytbai]: Remove: archive file [/home/abi/fetcher/tmp/pytbai-1.4.1.tar.gz]
+[2023-07-27 11:24:22] INFO root fetch - processPackages [pytbai]: Remove: archive file [/home/abi/fetcher/tmp/pytbai-1.4.2.tar.gz]
+[2023-07-27 11:24:22] INFO root fetch - main [MainThread]: End processing [pytbai]: success
+[2023-07-27 11:24:22] INFO root fetch - processPackages [webcam]: executing diffoscope
+[2023-07-27 11:24:22] INFO root fetch - processPackages [webcam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webcam-1.8.tar.gz tmp/webcam-1.9.tar.gz --markdown 20230727/w/webcam/1.8-1.9/diff.md --exclude *.pyd
+[2023-07-27 11:24:22] INFO root fetch - processPackages [grpc4bmi]: Remove: archive file [/home/abi/fetcher/tmp/grpc4bmi-0.3.2.tar.gz]
+[2023-07-27 11:24:22] INFO root fetch - processPackages [grpc4bmi]: Remove: archive file [/home/abi/fetcher/tmp/grpc4bmi-0.4.0.tar.gz]
+[2023-07-27 11:24:22] INFO root fetch - main [MainThread]: End processing [grpc4bmi]: success
+[2023-07-27 11:24:22] INFO root fetch - processPackages [django-webstack]: Remove: archive file [/home/abi/fetcher/tmp/django-webstack-1.2.2.tar.gz]
+[2023-07-27 11:24:22] INFO root fetch - processPackages [django-webstack]: Remove: archive file [/home/abi/fetcher/tmp/django-webstack-1.3.1.tar.gz]
+[2023-07-27 11:24:22] INFO root fetch - main [MainThread]: End processing [django-webstack]: success
+[2023-07-27 11:24:22] INFO root fetch - processPackages [django-exact]: Remove: archive file [/home/abi/fetcher/tmp/django-exact-0.5.1.tar.gz]
+[2023-07-27 11:24:22] INFO root fetch - processPackages [django-exact]: Remove: archive file [/home/abi/fetcher/tmp/django-exact-0.6.0.tar.gz]
+[2023-07-27 11:24:22] INFO root fetch - main [MainThread]: End processing [django-exact]: success
+[2023-07-27 11:24:22] INFO root fetch - processPackages [hepai]: Remove: archive file [/home/abi/fetcher/tmp/hepai-1.0.8.1.tar.gz]
+[2023-07-27 11:24:22] INFO root fetch - processPackages [hepai]: Remove: archive file [/home/abi/fetcher/tmp/hepai-1.0.9.tar.gz]
+[2023-07-27 11:24:22] INFO root fetch - main [MainThread]: End processing [hepai]: success
+[2023-07-27 11:24:23] INFO root fetch - processPackages [webcam]: Remove: archive file [/home/abi/fetcher/tmp/webcam-1.8.tar.gz]
+[2023-07-27 11:24:23] INFO root fetch - processPackages [webcam]: Remove: archive file [/home/abi/fetcher/tmp/webcam-1.9.tar.gz]
+[2023-07-27 11:24:23] INFO root fetch - main [MainThread]: End processing [webcam]: success
+[2023-07-27 11:24:24] INFO root fetch - processPackages [smartchart]: Remove: archive file [/home/abi/fetcher/tmp/smartchart-6.6.8.4.tar.gz]
+[2023-07-27 11:24:24] INFO root fetch - processPackages [smartchart]: Remove: archive file [/home/abi/fetcher/tmp/smartchart-6.6.8.5.tar.gz]
+[2023-07-27 11:24:24] INFO root fetch - main [MainThread]: End processing [smartchart]: success
+[2023-07-27 11:24:31] INFO root fetch - processPackages [volcengine-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/volcengine-python-sdk-1.0.8.tar.gz]
+[2023-07-27 11:24:31] INFO root fetch - processPackages [volcengine-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/volcengine-python-sdk-1.0.9.tar.gz]
+[2023-07-27 11:24:31] INFO root fetch - main [MainThread]: End processing [volcengine-python-sdk]: success
+[2023-07-27 11:24:31] INFO root fetch - main [MainThread]: Store serial: [19057880]
