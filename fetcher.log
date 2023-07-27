@@ -12795,3 +12795,60 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-27 07:10:20] INFO root fetch - processPackages [honeybee-radiance]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-radiance-1.9.2.tar.gz]
 [2023-07-27 07:10:21] INFO root fetch - main [MainThread]: End processing [honeybee-radiance]: success
 [2023-07-27 07:10:21] INFO root fetch - main [MainThread]: Store serial: [19054796]
+[2023-07-27 07:15:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19054796]
+[2023-07-27 07:15:29] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-27 07:15:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odin-sdk-python
+[2023-07-27 07:15:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: botocore-stubs
+[2023-07-27 07:15:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: filelistener
+[2023-07-27 07:15:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vaal
+[2023-07-27 07:15:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nics
+[2023-07-27 07:15:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qsm-forward
+[2023-07-27 07:15:30] INFO root fetch - processPackages [qsm-forward]: New version: [0.9] Old Version: [0.8]
+[2023-07-27 07:15:30] INFO root fetch - processPackages [vaal]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-07-27 07:15:30] INFO root fetch - processPackages [filelistener]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-27 07:15:30] INFO root fetch - processPackages [odin-sdk-python]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-27 07:15:30] INFO root fetch - processPackages [botocore-stubs]: New version: [1.31.9] Old Version: [1.31.8]
+[2023-07-27 07:15:30] INFO root fetch - processPackages [nics]: New version: [3.0.0b9] Old Version: [3.0.0b8]
+[2023-07-27 07:15:30] INFO root fetch - processPackages [qsm-forward]: Downloading https://files.pythonhosted.org/packages/65/46/45de4bd58406ad4eba67dd561e259f33a0fcc6af97702924894b9e75b9fb/qsm-forward-0.8.tar.gz
+[2023-07-27 07:15:30] INFO root fetch - processPackages [botocore-stubs]: Downloading https://files.pythonhosted.org/packages/ac/16/62380730e36f433fda5373027da18d6340712312b79b81e6a22a5220385e/botocore_stubs-1.31.8.tar.gz
+[2023-07-27 07:15:30] INFO root fetch - processPackages [vaal]: Downloading https://files.pythonhosted.org/packages/82/9b/79ef6bc7a97abdb55f7a77e38b47beb2b54cfb702a5fdde433888ab28eb8/vaal-1.4.0-py3-none-any.whl
+[2023-07-27 07:15:30] INFO root fetch - processPackages [filelistener]: Downloading https://files.pythonhosted.org/packages/96/69/771ff4d237b4f48929c9ea3beb205516220ae0e09f245a57feb7ac1b1ac9/filelistener-1.0.2.tar.gz
+[2023-07-27 07:15:30] INFO root fetch - processPackages [qsm-forward]: Downloading https://files.pythonhosted.org/packages/96/7b/310a7a2cedda42fe3d293c41def115dce8f20fe7d50a71936aa9052822cd/qsm-forward-0.9.tar.gz
+[2023-07-27 07:15:30] INFO root fetch - processPackages [odin-sdk-python]: Downloading https://files.pythonhosted.org/packages/a2/97/e8a448d7502ff348943da1d34d0d5db45c872b4804b69812e600ed123f64/odin_sdk_python-0.0.3.tar.gz
+[2023-07-27 07:15:30] INFO root fetch - processPackages [botocore-stubs]: Downloading https://files.pythonhosted.org/packages/97/20/37e8ff8e8de5cf7af1f9043316f9b3fdb4a94b501272bb37faf03e026021/botocore_stubs-1.31.9.tar.gz
+[2023-07-27 07:15:30] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/f1/d9/d3c6315c313c7c0ed4f45f0f4f9844444f48f7b841135845d4567de1c12e/nics-3.0.0b8.tar.gz
+[2023-07-27 07:15:30] INFO root fetch - processPackages [qsm-forward]: executing diffoscope
+[2023-07-27 07:15:30] INFO root fetch - processPackages [qsm-forward]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qsm-forward-0.8.tar.gz tmp/qsm-forward-0.9.tar.gz --markdown 20230727/q/qsm-forward/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-27 07:15:30] INFO root fetch - processPackages [botocore-stubs]: executing diffoscope
+[2023-07-27 07:15:30] INFO root fetch - processPackages [botocore-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore_stubs-1.31.8.tar.gz tmp/botocore_stubs-1.31.9.tar.gz --markdown 20230727/b/botocore-stubs/1.31.8-1.31.9/diff.md --exclude *.pyd
+[2023-07-27 07:15:30] INFO root fetch - processPackages [vaal]: Downloading https://files.pythonhosted.org/packages/11/d0/79d71b0b7c7c4236071839a7102a7a358a6d27c8bbcb3cd00182eeb6b2c4/vaal-1.4.1-py3-none-any.whl
+[2023-07-27 07:15:30] INFO root fetch - processPackages [filelistener]: Downloading https://files.pythonhosted.org/packages/04/21/8d5b6440d30712d4a0fe45426ee3f0bf3e8621a248a64a9e4b0f50469ed8/filelistener-1.0.3.tar.gz
+[2023-07-27 07:15:30] INFO root fetch - processPackages [odin-sdk-python]: Downloading https://files.pythonhosted.org/packages/5a/55/8872b2bf0b4f027aad15ff7fb9d29059fe9cc4a31f09467c79e0f319477c/odin_sdk_python-0.0.4.tar.gz
+[2023-07-27 07:15:30] INFO root fetch - processPackages [vaal]: executing diffoscope
+[2023-07-27 07:15:30] INFO root fetch - processPackages [vaal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vaal-1.4.0-py3-none-any.whl.zip tmp/vaal-1.4.1-py3-none-any.whl.zip --markdown 20230727/v/vaal/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-07-27 07:15:30] INFO root fetch - processPackages [filelistener]: executing diffoscope
+[2023-07-27 07:15:30] INFO root fetch - processPackages [filelistener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/filelistener-1.0.2.tar.gz tmp/filelistener-1.0.3.tar.gz --markdown 20230727/f/filelistener/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-27 07:15:30] INFO root fetch - processPackages [odin-sdk-python]: executing diffoscope
+[2023-07-27 07:15:30] INFO root fetch - processPackages [odin-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odin_sdk_python-0.0.3.tar.gz tmp/odin_sdk_python-0.0.4.tar.gz --markdown 20230727/o/odin-sdk-python/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-27 07:15:31] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/f8/7e/6c904517628a53cd275e4feadefd5f8a901829bbbb5137ce7c1ee2f09c14/nics-3.0.0b9.tar.gz
+[2023-07-27 07:15:31] INFO root fetch - processPackages [nics]: executing diffoscope
+[2023-07-27 07:15:31] INFO root fetch - processPackages [nics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nics-3.0.0b8.tar.gz tmp/nics-3.0.0b9.tar.gz --markdown 20230727/n/nics/3.0.0b8-3.0.0b9/diff.md --exclude *.pyd
+[2023-07-27 07:15:31] INFO root fetch - processPackages [qsm-forward]: Remove: archive file [/home/abi/fetcher/tmp/qsm-forward-0.8.tar.gz]
+[2023-07-27 07:15:31] INFO root fetch - processPackages [qsm-forward]: Remove: archive file [/home/abi/fetcher/tmp/qsm-forward-0.9.tar.gz]
+[2023-07-27 07:15:31] INFO root fetch - main [MainThread]: End processing [qsm-forward]: success
+[2023-07-27 07:15:31] INFO root fetch - processPackages [filelistener]: Remove: archive file [/home/abi/fetcher/tmp/filelistener-1.0.2.tar.gz]
+[2023-07-27 07:15:31] INFO root fetch - processPackages [filelistener]: Remove: archive file [/home/abi/fetcher/tmp/filelistener-1.0.3.tar.gz]
+[2023-07-27 07:15:31] INFO root fetch - main [MainThread]: End processing [filelistener]: success
+[2023-07-27 07:15:31] INFO root fetch - processPackages [botocore-stubs]: Remove: archive file [/home/abi/fetcher/tmp/botocore_stubs-1.31.8.tar.gz]
+[2023-07-27 07:15:31] INFO root fetch - processPackages [botocore-stubs]: Remove: archive file [/home/abi/fetcher/tmp/botocore_stubs-1.31.9.tar.gz]
+[2023-07-27 07:15:32] INFO root fetch - main [MainThread]: End processing [botocore-stubs]: success
+[2023-07-27 07:15:32] INFO root fetch - processPackages [vaal]: Remove: archive file [/home/abi/fetcher/tmp/vaal-1.4.0-py3-none-any.whl.zip]
+[2023-07-27 07:15:32] INFO root fetch - processPackages [vaal]: Remove: archive file [/home/abi/fetcher/tmp/vaal-1.4.1-py3-none-any.whl.zip]
+[2023-07-27 07:15:32] INFO root fetch - main [MainThread]: End processing [vaal]: success
+[2023-07-27 07:15:32] INFO root fetch - processPackages [odin-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/odin_sdk_python-0.0.3.tar.gz]
+[2023-07-27 07:15:32] INFO root fetch - processPackages [odin-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/odin_sdk_python-0.0.4.tar.gz]
+[2023-07-27 07:15:32] INFO root fetch - main [MainThread]: End processing [odin-sdk-python]: success
+[2023-07-27 07:15:32] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-3.0.0b8.tar.gz]
+[2023-07-27 07:15:32] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-3.0.0b9.tar.gz]
+[2023-07-27 07:15:32] INFO root fetch - main [MainThread]: End processing [nics]: success
+[2023-07-27 07:15:32] INFO root fetch - main [MainThread]: Store serial: [19054813]
