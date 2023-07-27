@@ -19770,3 +19770,169 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-07-27 10:51:44] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.7.7.15.3.6.tar.gz]
 [2023-07-27 10:51:44] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
 [2023-07-27 10:51:44] INFO root fetch - main [MainThread]: Store serial: [19057508]
+[2023-07-27 10:56:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19057508]
+[2023-07-27 10:56:53] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-07-27 10:56:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gitstats-abilian
+[2023-07-27 10:56:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: promptlabs
+[2023-07-27 10:56:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lsst-pex-config
+[2023-07-27 10:56:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lsst-ctrl-bps-parsl
+[2023-07-27 10:56:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lsst-ctrl-bps-htcondor
+[2023-07-27 10:56:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lsst-ctrl-bps-panda
+[2023-07-27 10:56:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mass-analytics
+[2023-07-27 10:56:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tfp-nightly
+[2023-07-27 10:56:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: peewee-aio
+[2023-07-27 10:56:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: astro-metadata-translator
+[2023-07-27 10:56:53] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-07-27 10:56:53] INFO root fetch - processPackages [astro-metadata-translator]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-07-27 10:56:53] INFO root fetch - processPackages [gitstats-abilian]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-27 10:56:53] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-07-27 10:56:53] INFO root fetch - processPackages [promptlabs]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-27 10:56:53] INFO root fetch - processPackages [mass-analytics]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-27 10:56:53] INFO root fetch - processPackages [lsst-ctrl-bps-panda]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-07-27 10:56:53] INFO root fetch - processPackages [lsst-pex-config]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-07-27 10:56:53] INFO root fetch - processPackages [peewee-aio]: New version: [1.7.3] Old Version: [1.7.2]
+[2023-07-27 10:56:53] INFO root fetch - processPackages [mass-analytics]: Downloading https://files.pythonhosted.org/packages/50/68/0e88d56222aaa0168e3bdb6139eed83fd048a7c77d2f15ca419eb1bf5888/mass_analytics-1.0.8.tar.gz
+[2023-07-27 10:56:53] INFO root fetch - processPackages [gitstats-abilian]: Downloading https://files.pythonhosted.org/packages/13/bd/c96f4304eb2003c93b27766a89b2b04641fa3f52f55f201dfdcebc1180fe/gitstats_abilian-1.0.4.tar.gz
+[2023-07-27 10:56:53] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2023-07-27 10:56:53] INFO root fetch - processPackages [promptlabs]: Downloading https://files.pythonhosted.org/packages/50/a0/4c95e0762673505c98adc4403961210802915448d1c6bdc587a94b044412/promptlabs-0.0.3.tar.gz
+[2023-07-27 10:56:53] INFO root fetch - processPackages [peewee-aio]: Downloading https://files.pythonhosted.org/packages/1a/b5/dd9e10c16a8c75e0c5bf8edfa67e523f5bfeb4d14c5f69b22a48641c5a40/peewee_aio-1.7.2.tar.gz
+[2023-07-27 10:56:53] INFO root fetch - processPackages [astro-metadata-translator]: Downloading https://files.pythonhosted.org/packages/88/0f/ddf4d690ba71629b94ef331c1dcf381615f5fa0220cfb725331d64d70fe9/astro-metadata-translator-26.0.0a20230400.tar.gz
+[2023-07-27 10:56:54] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: Downloading https://files.pythonhosted.org/packages/35/8c/c122879a959643f033a579ff1b13d2b33ec6c21551ffa1629264c6d3561a/lsst-ctrl-bps-parsl-26.0.0a20230400.tar.gz
+[2023-07-27 10:56:54] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: Downloading https://files.pythonhosted.org/packages/9c/29/1a3392502c8a25f2eb2fabe112e03edaf4de2d8396df282510856200f6a7/lsst-ctrl-bps-htcondor-26.0.0a20230400.tar.gz
+[2023-07-27 10:56:54] INFO root fetch - processPackages [lsst-pex-config]: Downloading https://files.pythonhosted.org/packages/d7/0c/0464eaef88f46db58e9972a38d5221f68038faa115510c0cb95799422145/lsst-pex-config-26.0.0a20230400.tar.gz
+[2023-07-27 10:56:54] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/be/16/ebf16b1094e104257af6265eee53833e4f737ef6d11426d959009fa9952a/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl
+[2023-07-27 10:56:54] INFO root fetch - processPackages [lsst-ctrl-bps-panda]: Downloading https://files.pythonhosted.org/packages/a0/22/0b893c9cd95d92d19da99d597013f1dd89c378a4a37bd4122e57406ac7c5/lsst-ctrl-bps-panda-26.0.0a20230400.tar.gz
+[2023-07-27 10:56:54] INFO root fetch - processPackages [gitstats-abilian]: Downloading https://files.pythonhosted.org/packages/e6/9f/cbb4635a08ec728072dea00f55a3a4c5362374b3895ab57268dea6e6c119/gitstats_abilian-1.0.5.tar.gz
+[2023-07-27 10:56:54] INFO root fetch - processPackages [mass-analytics]: Downloading https://files.pythonhosted.org/packages/91/ed/69a1a184aaad7267ed67f71d0b45cf1555f76f61df527a0a80e49919a420/mass_analytics-1.0.9.tar.gz
+[2023-07-27 10:56:54] INFO root fetch - processPackages [promptlabs]: Downloading https://files.pythonhosted.org/packages/ba/6c/28a34168e57cc39b9b11075e08d74419e1eb06c29fd5bddc9d60eb9ce690/promptlabs-0.0.4.tar.gz
+[2023-07-27 10:56:54] INFO root fetch - processPackages [peewee-aio]: Downloading https://files.pythonhosted.org/packages/f5/95/f0e46a686828dc466585ec9668eff4779febf3d9cedce8b3c6341a609280/peewee_aio-1.7.3.tar.gz
+[2023-07-27 10:56:54] INFO root fetch - processPackages [gitstats-abilian]: executing diffoscope
+[2023-07-27 10:56:54] INFO root fetch - processPackages [gitstats-abilian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitstats_abilian-1.0.4.tar.gz tmp/gitstats_abilian-1.0.5.tar.gz --markdown 20230727/g/gitstats-abilian/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-27 10:56:54] INFO root fetch - processPackages [astro-metadata-translator]: Downloading https://files.pythonhosted.org/packages/f6/a2/6962018c4d5dc18839328422a99767c526540467659fab3d4282192e3763/astro-metadata-translator-26.0.0a20230500.tar.gz
+[2023-07-27 10:56:54] INFO root fetch - processPackages [lsst-pex-config]: Downloading https://files.pythonhosted.org/packages/cb/e7/b5b77ed48e975232d6d946423eca1f7883eb826cf1844d70b96ddddd1696/lsst-pex-config-26.0.0a20230500.tar.gz
+[2023-07-27 10:56:54] INFO root fetch - processPackages [promptlabs]: executing diffoscope
+[2023-07-27 10:56:54] INFO root fetch - processPackages [mass-analytics]: executing diffoscope
+[2023-07-27 10:56:54] INFO root fetch - processPackages [promptlabs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptlabs-0.0.3.tar.gz tmp/promptlabs-0.0.4.tar.gz --markdown 20230727/p/promptlabs/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-27 10:56:54] INFO root fetch - processPackages [mass-analytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mass_analytics-1.0.8.tar.gz tmp/mass_analytics-1.0.9.tar.gz --markdown 20230727/m/mass-analytics/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-27 10:56:54] INFO root fetch - processPackages [astro-metadata-translator]: executing diffoscope
+[2023-07-27 10:56:54] INFO root fetch - processPackages [astro-metadata-translator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astro-metadata-translator-26.0.0a20230400.tar.gz tmp/astro-metadata-translator-26.0.0a20230500.tar.gz --markdown 20230727/a/astro-metadata-translator/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-07-27 10:56:54] INFO root fetch - processPackages [peewee-aio]: executing diffoscope
+[2023-07-27 10:56:54] INFO root fetch - processPackages [peewee-aio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peewee_aio-1.7.2.tar.gz tmp/peewee_aio-1.7.3.tar.gz --markdown 20230727/p/peewee-aio/1.7.2-1.7.3/diff.md --exclude *.pyd
+[2023-07-27 10:56:54] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/f1/98/c1f5a754a26ea1f08e3558803ffb67dd65482de4f6bfadc5415573cd3cb7/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl
+[2023-07-27 10:56:54] INFO root fetch - processPackages [lsst-ctrl-bps-panda]: Downloading https://files.pythonhosted.org/packages/68/73/220eb613172bcce921a4d51c76efc50a37bcd1469c86a7fdd5726300f75b/lsst-ctrl-bps-panda-26.0.0a20230500.tar.gz
+[2023-07-27 10:56:54] INFO root fetch - processPackages [lsst-pex-config]: executing diffoscope
+[2023-07-27 10:56:54] INFO root fetch - processPackages [lsst-pex-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-pex-config-26.0.0a20230400.tar.gz tmp/lsst-pex-config-26.0.0a20230500.tar.gz --markdown 20230727/l/lsst-pex-config/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-07-27 10:56:54] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: Downloading https://files.pythonhosted.org/packages/3c/cc/c973405023d7f2d0de5436529223459d8600f71b8be3454b9262b1ac019c/lsst-ctrl-bps-htcondor-26.0.0a20230500.tar.gz
+[2023-07-27 10:56:54] INFO root fetch - processPackages [lsst-ctrl-bps-panda]: executing diffoscope
+[2023-07-27 10:56:54] INFO root fetch - processPackages [lsst-ctrl-bps-panda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-ctrl-bps-panda-26.0.0a20230400.tar.gz tmp/lsst-ctrl-bps-panda-26.0.0a20230500.tar.gz --markdown 20230727/l/lsst-ctrl-bps-panda/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-07-27 10:56:55] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: Downloading https://files.pythonhosted.org/packages/73/d7/e06e478c242de09a2c5605a32a3c6bc7f4a1e1aca5c81495250b2cc49b28/lsst-ctrl-bps-parsl-26.0.0a20230500.tar.gz
+[2023-07-27 10:56:55] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2023-07-27 10:56:55] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20230727/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/diff.md --exclude *.pyd
+[2023-07-27 10:56:55] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: executing diffoscope
+[2023-07-27 10:56:55] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-ctrl-bps-htcondor-26.0.0a20230400.tar.gz tmp/lsst-ctrl-bps-htcondor-26.0.0a20230500.tar.gz --markdown 20230727/l/lsst-ctrl-bps-htcondor/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-07-27 10:56:55] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: executing diffoscope
+[2023-07-27 10:56:55] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-ctrl-bps-parsl-26.0.0a20230400.tar.gz tmp/lsst-ctrl-bps-parsl-26.0.0a20230500.tar.gz --markdown 20230727/l/lsst-ctrl-bps-parsl/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-07-27 10:56:56] INFO root fetch - processPackages [gitstats-abilian]: Remove: archive file [/home/abi/fetcher/tmp/gitstats_abilian-1.0.4.tar.gz]
+[2023-07-27 10:56:56] INFO root fetch - processPackages [gitstats-abilian]: Remove: archive file [/home/abi/fetcher/tmp/gitstats_abilian-1.0.5.tar.gz]
+[2023-07-27 10:56:56] INFO root fetch - processPackages [gitstats-abilian]: Start processing: checktoxicity
+[2023-07-27 10:56:56] INFO root fetch - main [MainThread]: End processing [gitstats-abilian]: success
+[2023-07-27 10:56:56] INFO root fetch - processPackages [checktoxicity]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-27 10:56:56] INFO root fetch - processPackages [promptlabs]: Remove: archive file [/home/abi/fetcher/tmp/promptlabs-0.0.3.tar.gz]
+[2023-07-27 10:56:56] INFO root fetch - processPackages [promptlabs]: Remove: archive file [/home/abi/fetcher/tmp/promptlabs-0.0.4.tar.gz]
+[2023-07-27 10:56:56] INFO root fetch - processPackages [promptlabs]: Start processing: lsst-utils
+[2023-07-27 10:56:56] INFO root fetch - main [MainThread]: End processing [promptlabs]: success
+[2023-07-27 10:56:56] INFO root fetch - processPackages [lsst-utils]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-07-27 10:56:56] INFO root fetch - processPackages [peewee-aio]: Remove: archive file [/home/abi/fetcher/tmp/peewee_aio-1.7.2.tar.gz]
+[2023-07-27 10:56:56] INFO root fetch - processPackages [peewee-aio]: Remove: archive file [/home/abi/fetcher/tmp/peewee_aio-1.7.3.tar.gz]
+[2023-07-27 10:56:56] INFO root fetch - processPackages [peewee-aio]: Start processing: lsst-ctrl-bps
+[2023-07-27 10:56:56] INFO root fetch - main [MainThread]: End processing [peewee-aio]: success
+[2023-07-27 10:56:56] INFO root fetch - processPackages [checktoxicity]: Downloading https://files.pythonhosted.org/packages/d2/23/5b6f0e406abf1e6ddebae34dd3083b8ffe051bd54a91cbc5d59991d8719b/checktoxicity-0.1.1.tar.gz
+[2023-07-27 10:56:56] INFO root fetch - processPackages [lsst-ctrl-bps]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-07-27 10:56:56] INFO root fetch - processPackages [lsst-utils]: Downloading https://files.pythonhosted.org/packages/95/d2/5d16674a9fbd9d5c6dd08502fdaf2392373a5ee644f82312b6433f0688b3/lsst-utils-26.0.0a20230400.tar.gz
+[2023-07-27 10:56:56] INFO root fetch - processPackages [mass-analytics]: Remove: archive file [/home/abi/fetcher/tmp/mass_analytics-1.0.8.tar.gz]
+[2023-07-27 10:56:56] INFO root fetch - processPackages [mass-analytics]: Remove: archive file [/home/abi/fetcher/tmp/mass_analytics-1.0.9.tar.gz]
+[2023-07-27 10:56:56] INFO root fetch - processPackages [mass-analytics]: Start processing: pdr-sapphire-wrapper
+[2023-07-27 10:56:56] INFO root fetch - main [MainThread]: End processing [mass-analytics]: success
+[2023-07-27 10:56:57] INFO root fetch - processPackages [pdr-sapphire-wrapper]: New version: [0.1.2] Old Version: [0.1.0]
+[2023-07-27 10:56:57] INFO root fetch - processPackages [astro-metadata-translator]: Remove: archive file [/home/abi/fetcher/tmp/astro-metadata-translator-26.0.0a20230400.tar.gz]
+[2023-07-27 10:56:57] INFO root fetch - processPackages [astro-metadata-translator]: Remove: archive file [/home/abi/fetcher/tmp/astro-metadata-translator-26.0.0a20230500.tar.gz]
+[2023-07-27 10:56:57] INFO root fetch - processPackages [astro-metadata-translator]: Start processing: navalmartin-mir-aws-utils
+[2023-07-27 10:56:57] INFO root fetch - main [MainThread]: End processing [astro-metadata-translator]: success
+[2023-07-27 10:56:57] INFO root fetch - processPackages [lsst-ctrl-bps]: Downloading https://files.pythonhosted.org/packages/3f/25/dd5788122d831e91f7a5b6df98e8e2d65df587d64b2a7e8e703b9f85d293/lsst-ctrl-bps-26.0.0a20230400.tar.gz
+[2023-07-27 10:56:57] INFO root fetch - processPackages [navalmartin-mir-aws-utils]: New version: [0.0.9] Old Version: [0.0.34]
+[2023-07-27 10:56:57] INFO root fetch - processPackages [checktoxicity]: Downloading https://files.pythonhosted.org/packages/7c/73/ac8e7f0d04fdd2fd92ca890ed7e45417764cbd983b17dd07e9193f547cb3/checktoxicity-0.1.2.tar.gz
+[2023-07-27 10:56:57] INFO root fetch - processPackages [lsst-ctrl-bps-panda]: Remove: archive file [/home/abi/fetcher/tmp/lsst-ctrl-bps-panda-26.0.0a20230400.tar.gz]
+[2023-07-27 10:56:57] INFO root fetch - processPackages [lsst-ctrl-bps-panda]: Remove: archive file [/home/abi/fetcher/tmp/lsst-ctrl-bps-panda-26.0.0a20230500.tar.gz]
+[2023-07-27 10:56:57] INFO root fetch - processPackages [lsst-ctrl-bps-panda]: Start processing: lsst-pipe-base
+[2023-07-27 10:56:57] INFO root fetch - main [MainThread]: End processing [lsst-ctrl-bps-panda]: success
+[2023-07-27 10:56:57] INFO root fetch - processPackages [pdr-sapphire-wrapper]: Downloading https://files.pythonhosted.org/packages/01/11/91dee72bffbace937f8dfe75f04174da82ddb9b7d8caa41bc17c8e682e1c/pdr-sapphire-wrapper-0.1.0.tar.gz
+[2023-07-27 10:56:57] INFO root fetch - processPackages [lsst-utils]: Downloading https://files.pythonhosted.org/packages/72/74/81575ebd50afb9ebc10787897207947703ae9d32205910da14de85cdef05/lsst-utils-26.0.0a20230500.tar.gz
+[2023-07-27 10:56:57] INFO root fetch - processPackages [checktoxicity]: executing diffoscope
+[2023-07-27 10:56:57] INFO root fetch - processPackages [checktoxicity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checktoxicity-0.1.1.tar.gz tmp/checktoxicity-0.1.2.tar.gz --markdown 20230727/c/checktoxicity/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-27 10:56:57] INFO root fetch - processPackages [lsst-pex-config]: Remove: archive file [/home/abi/fetcher/tmp/lsst-pex-config-26.0.0a20230400.tar.gz]
+[2023-07-27 10:56:57] INFO root fetch - processPackages [lsst-pex-config]: Remove: archive file [/home/abi/fetcher/tmp/lsst-pex-config-26.0.0a20230500.tar.gz]
+[2023-07-27 10:56:57] INFO root fetch - processPackages [lsst-pex-config]: Start processing: grooveshop-django-api
+[2023-07-27 10:56:57] INFO root fetch - main [MainThread]: End processing [lsst-pex-config]: success
+[2023-07-27 10:56:57] INFO root fetch - processPackages [lsst-pipe-base]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-07-27 10:56:57] WARNING root fetch - processPackages [pdr-sapphire-wrapper]: Skipping package: exceeds size limit 17978356>=10485760
+[2023-07-27 10:56:57] INFO root fetch - processPackages [pdr-sapphire-wrapper]: Start processing: lsst-ctrl-mpexec
+[2023-07-27 10:56:57] INFO root fetch - main [MainThread]: End processing [pdr-sapphire-wrapper] error
+[2023-07-27 10:56:57] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: Remove: archive file [/home/abi/fetcher/tmp/lsst-ctrl-bps-htcondor-26.0.0a20230400.tar.gz]
+[2023-07-27 10:56:57] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: Remove: archive file [/home/abi/fetcher/tmp/lsst-ctrl-bps-htcondor-26.0.0a20230500.tar.gz]
+[2023-07-27 10:56:57] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: Start processing: extendable-pydantic
+[2023-07-27 10:56:57] INFO root fetch - main [MainThread]: End processing [lsst-ctrl-bps-htcondor]: success
+[2023-07-27 10:56:57] INFO root fetch - processPackages [grooveshop-django-api]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-27 10:56:57] INFO root fetch - processPackages [navalmartin-mir-aws-utils]: Downloading https://files.pythonhosted.org/packages/96/97/fa3dfa9c5b75643c386c419824fa60c91840270f6d0de0de1a8a4310a080/navalmartin_mir_aws_utils-0.0.34.tar.gz
+[2023-07-27 10:56:57] INFO root fetch - processPackages [lsst-utils]: executing diffoscope
+[2023-07-27 10:56:57] INFO root fetch - processPackages [lsst-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-utils-26.0.0a20230400.tar.gz tmp/lsst-utils-26.0.0a20230500.tar.gz --markdown 20230727/l/lsst-utils/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-07-27 10:56:57] INFO root fetch - processPackages [extendable-pydantic]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-27 10:56:57] INFO root fetch - processPackages [lsst-ctrl-mpexec]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-07-27 10:56:57] INFO root fetch - processPackages [grooveshop-django-api]: Downloading https://files.pythonhosted.org/packages/7c/05/702d0b999089cbba05fb2a44df6137f08b4131b5f2ad2108ee9243768254/grooveshop_django_api-0.9.1.tar.gz
+[2023-07-27 10:56:57] INFO root fetch - processPackages [extendable-pydantic]: Downloading https://files.pythonhosted.org/packages/b9/2f/9ff196b143a2a3e441b5f4342c38536e09268ae496ef152dc57a6f877efd/extendable_pydantic-1.0.0.tar.gz
+[2023-07-27 10:56:57] WARNING root fetch - processPackages [grooveshop-django-api]: Skipping package: exceeds size limit 13886455>=10485760
+[2023-07-27 10:56:57] INFO root fetch - main [MainThread]: End processing [grooveshop-django-api] error
+[2023-07-27 10:56:57] INFO root fetch - processPackages [lsst-pipe-base]: Downloading https://files.pythonhosted.org/packages/4a/2a/d7e53c7284052c1d3edb447a5c44734c2eb2276c39ac6857f02d9a0e77d3/lsst-pipe-base-26.0.0a20230400.tar.gz
+[2023-07-27 10:56:57] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: Remove: archive file [/home/abi/fetcher/tmp/lsst-ctrl-bps-parsl-26.0.0a20230400.tar.gz]
+[2023-07-27 10:56:57] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: Remove: archive file [/home/abi/fetcher/tmp/lsst-ctrl-bps-parsl-26.0.0a20230500.tar.gz]
+[2023-07-27 10:56:57] INFO root fetch - main [MainThread]: End processing [lsst-ctrl-bps-parsl]: success
+[2023-07-27 10:56:57] INFO root fetch - processPackages [lsst-ctrl-bps]: Downloading https://files.pythonhosted.org/packages/74/ca/f9dbc4fb6958267f1ee9ce347a76bcb3d1dcb671ceaf427711055ab6c67c/lsst-ctrl-bps-26.0.0a20230500.tar.gz
+[2023-07-27 10:56:57] INFO root fetch - processPackages [navalmartin-mir-aws-utils]: Downloading https://files.pythonhosted.org/packages/de/f2/244dec2c48d5578424e8f0fb82c2f85844a0f0dbbfa4cfe21c326ba1a274/navalmartin_mir_aws_utils-0.0.9.tar.gz
+[2023-07-27 10:56:57] INFO root fetch - processPackages [extendable-pydantic]: Downloading https://files.pythonhosted.org/packages/c2/c3/37bbef70059f7c653a186a4dd65c688be849ca27c54227b888ecddfab953/extendable_pydantic-1.0.1.tar.gz
+[2023-07-27 10:56:57] INFO root fetch - processPackages [lsst-ctrl-mpexec]: Downloading https://files.pythonhosted.org/packages/7d/95/1fd49d0ac8149861738d465629d14648e00335b6f27b60edea825d22869f/lsst-ctrl-mpexec-26.0.0a20230400.tar.gz
+[2023-07-27 10:56:57] INFO root fetch - processPackages [navalmartin-mir-aws-utils]: executing diffoscope
+[2023-07-27 10:56:57] INFO root fetch - processPackages [navalmartin-mir-aws-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/navalmartin_mir_aws_utils-0.0.34.tar.gz tmp/navalmartin_mir_aws_utils-0.0.9.tar.gz --markdown 20230727/n/navalmartin-mir-aws-utils/0.0.34-0.0.9/diff.md --exclude *.pyd
+[2023-07-27 10:56:57] INFO root fetch - processPackages [extendable-pydantic]: executing diffoscope
+[2023-07-27 10:56:57] INFO root fetch - processPackages [extendable-pydantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extendable_pydantic-1.0.0.tar.gz tmp/extendable_pydantic-1.0.1.tar.gz --markdown 20230727/e/extendable-pydantic/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-27 10:56:57] INFO root fetch - processPackages [lsst-ctrl-bps]: executing diffoscope
+[2023-07-27 10:56:57] INFO root fetch - processPackages [lsst-ctrl-bps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-ctrl-bps-26.0.0a20230400.tar.gz tmp/lsst-ctrl-bps-26.0.0a20230500.tar.gz --markdown 20230727/l/lsst-ctrl-bps/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-07-27 10:56:58] INFO root fetch - processPackages [lsst-pipe-base]: Downloading https://files.pythonhosted.org/packages/43/b8/e01f76a3da14b328fd43a97c36653216b676c2f3b0fd8c71e30d4ff1132e/lsst-pipe-base-26.0.0a20230500.tar.gz
+[2023-07-27 10:56:58] INFO root fetch - processPackages [lsst-ctrl-mpexec]: Downloading https://files.pythonhosted.org/packages/61/b7/81e5f821fadf907a5b8aba51baef7441e1a4b2d1899448ea4c15512f8b33/lsst-ctrl-mpexec-26.0.0a20230500.tar.gz
+[2023-07-27 10:56:58] INFO root fetch - processPackages [lsst-pipe-base]: executing diffoscope
+[2023-07-27 10:56:58] INFO root fetch - processPackages [lsst-pipe-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-pipe-base-26.0.0a20230400.tar.gz tmp/lsst-pipe-base-26.0.0a20230500.tar.gz --markdown 20230727/l/lsst-pipe-base/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-07-27 10:56:58] INFO root fetch - processPackages [lsst-ctrl-mpexec]: executing diffoscope
+[2023-07-27 10:56:58] INFO root fetch - processPackages [lsst-ctrl-mpexec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-ctrl-mpexec-26.0.0a20230400.tar.gz tmp/lsst-ctrl-mpexec-26.0.0a20230500.tar.gz --markdown 20230727/l/lsst-ctrl-mpexec/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-07-27 10:56:58] INFO root fetch - processPackages [checktoxicity]: Remove: archive file [/home/abi/fetcher/tmp/checktoxicity-0.1.1.tar.gz]
+[2023-07-27 10:56:58] INFO root fetch - processPackages [checktoxicity]: Remove: archive file [/home/abi/fetcher/tmp/checktoxicity-0.1.2.tar.gz]
+[2023-07-27 10:56:58] INFO root fetch - main [MainThread]: End processing [checktoxicity]: success
+[2023-07-27 10:56:59] INFO root fetch - processPackages [lsst-utils]: Remove: archive file [/home/abi/fetcher/tmp/lsst-utils-26.0.0a20230400.tar.gz]
+[2023-07-27 10:56:59] INFO root fetch - processPackages [lsst-utils]: Remove: archive file [/home/abi/fetcher/tmp/lsst-utils-26.0.0a20230500.tar.gz]
+[2023-07-27 10:56:59] INFO root fetch - main [MainThread]: End processing [lsst-utils]: success
+[2023-07-27 10:56:59] INFO root fetch - processPackages [navalmartin-mir-aws-utils]: Remove: archive file [/home/abi/fetcher/tmp/navalmartin_mir_aws_utils-0.0.34.tar.gz]
+[2023-07-27 10:56:59] INFO root fetch - processPackages [navalmartin-mir-aws-utils]: Remove: archive file [/home/abi/fetcher/tmp/navalmartin_mir_aws_utils-0.0.9.tar.gz]
+[2023-07-27 10:56:59] INFO root fetch - main [MainThread]: End processing [navalmartin-mir-aws-utils]: success
+[2023-07-27 10:56:59] INFO root fetch - processPackages [extendable-pydantic]: Remove: archive file [/home/abi/fetcher/tmp/extendable_pydantic-1.0.0.tar.gz]
+[2023-07-27 10:56:59] INFO root fetch - processPackages [extendable-pydantic]: Remove: archive file [/home/abi/fetcher/tmp/extendable_pydantic-1.0.1.tar.gz]
+[2023-07-27 10:56:59] INFO root fetch - main [MainThread]: End processing [extendable-pydantic]: success
+[2023-07-27 10:56:59] INFO root fetch - processPackages [lsst-ctrl-bps]: Remove: archive file [/home/abi/fetcher/tmp/lsst-ctrl-bps-26.0.0a20230400.tar.gz]
+[2023-07-27 10:56:59] INFO root fetch - processPackages [lsst-ctrl-bps]: Remove: archive file [/home/abi/fetcher/tmp/lsst-ctrl-bps-26.0.0a20230500.tar.gz]
+[2023-07-27 10:56:59] INFO root fetch - main [MainThread]: End processing [lsst-ctrl-bps]: success
+[2023-07-27 10:57:00] INFO root fetch - processPackages [lsst-ctrl-mpexec]: Remove: archive file [/home/abi/fetcher/tmp/lsst-ctrl-mpexec-26.0.0a20230400.tar.gz]
+[2023-07-27 10:57:00] INFO root fetch - processPackages [lsst-ctrl-mpexec]: Remove: archive file [/home/abi/fetcher/tmp/lsst-ctrl-mpexec-26.0.0a20230500.tar.gz]
+[2023-07-27 10:57:00] INFO root fetch - main [MainThread]: End processing [lsst-ctrl-mpexec]: success
+[2023-07-27 10:57:00] INFO root fetch - processPackages [lsst-pipe-base]: Remove: archive file [/home/abi/fetcher/tmp/lsst-pipe-base-26.0.0a20230400.tar.gz]
+[2023-07-27 10:57:00] INFO root fetch - processPackages [lsst-pipe-base]: Remove: archive file [/home/abi/fetcher/tmp/lsst-pipe-base-26.0.0a20230500.tar.gz]
+[2023-07-27 10:57:00] INFO root fetch - main [MainThread]: End processing [lsst-pipe-base]: success
+[2023-07-27 10:57:03] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip]
+[2023-07-27 10:57:03] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
+[2023-07-27 10:57:03] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2023-07-27 10:57:03] INFO root fetch - main [MainThread]: Store serial: [19057566]
