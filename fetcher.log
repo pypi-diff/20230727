@@ -11717,3 +11717,94 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-27 06:01:56] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.type_safe_api-0.19.9.tar.gz]
 [2023-07-27 06:01:56] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.type-safe-api]: success
 [2023-07-27 06:01:56] INFO root fetch - main [MainThread]: Store serial: [19054467]
+[2023-07-27 06:07:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19054467]
+[2023-07-27 06:07:05] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-27 06:07:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aws-prototyping-sdk.type-safe-api
+[2023-07-27 06:07:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xj-user
+[2023-07-27 06:07:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openai-function
+[2023-07-27 06:07:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: red_utils
+[2023-07-27 06:07:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chromedriver-binary
+[2023-07-27 06:07:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-l10n-ro-stock-account
+[2023-07-27 06:07:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: chromedriver-binary
+[2023-07-27 06:07:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lazyinit
+[2023-07-27 06:07:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: multisig-ci
+[2023-07-27 06:07:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tsgettoolbox
+[2023-07-27 06:07:05] INFO root fetch - processPackages [multisig-ci]: New version: [0.6.5] Old Version: [0.6.4]
+[2023-07-27 06:07:05] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: New version: [0.19.9] Old Version: [0.19.8]
+[2023-07-27 06:07:05] INFO root fetch - processPackages [openai-function]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-27 06:07:05] INFO root fetch - processPackages [odoo14-addon-l10n-ro-stock-account]: New version: [14.0.8.9.0] Old Version: [14.0.8.8.0]
+[2023-07-27 06:07:05] INFO root fetch - processPackages [red_utils]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-27 06:07:05] INFO root fetch - processPackages [lazyinit]: New version: [0.0.267] Old Version: [0.0.265]
+[2023-07-27 06:07:05] INFO root fetch - processPackages [chromedriver-binary]: New version: [99.0.4844.51.0] Old Version: [99.0.4844.35.0]
+[2023-07-27 06:07:05] INFO root fetch - processPackages [chromedriver-binary]: New version: [99.0.4844.51.0] Old Version: [99.0.4844.35.0]
+[2023-07-27 06:07:05] INFO root fetch - processPackages [tsgettoolbox]: New version: [9.14.5.8] Old Version: [9.13.5.8]
+[2023-07-27 06:07:05] INFO root fetch - processPackages [xj-user]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-07-27 06:07:05] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: Downloading https://files.pythonhosted.org/packages/ce/60/72043fc0e30f8705240241169b3b70906aceae84a2a19822234ae4fa038d/aws_prototyping_sdk.type_safe_api-0.19.8.tar.gz
+[2023-07-27 06:07:05] INFO root fetch - processPackages [multisig-ci]: Downloading https://files.pythonhosted.org/packages/01/5b/01eec14a11182da69109674839cce73a29529ea7f621decaf911dc537aef/multisig_ci-0.6.4.tar.gz
+[2023-07-27 06:07:05] INFO root fetch - processPackages [openai-function]: Downloading https://files.pythonhosted.org/packages/7a/77/8f4f3ea4de786fb5fcb2c32b0b5ea5068bdf591b3c82ac5567acf3742e83/openai_function-0.1.3.tar.gz
+[2023-07-27 06:07:05] INFO root fetch - processPackages [lazyinit]: Downloading https://files.pythonhosted.org/packages/20/5c/7eebd52718a2a6129c35730251f97333c6a4d29496ceca0bcae8eb814d68/lazyinit-0.0.265.tar.gz
+[2023-07-27 06:07:05] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/50/a2/f36a3d2f2aa37ccc496e5f81d594f06e3965b836712da14b4b01d2f05ca8/chromedriver-binary-99.0.4844.35.0.tar.gz
+[2023-07-27 06:07:05] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/50/a2/f36a3d2f2aa37ccc496e5f81d594f06e3965b836712da14b4b01d2f05ca8/chromedriver-binary-99.0.4844.35.0.tar.gz
+[2023-07-27 06:07:05] INFO root fetch - processPackages [tsgettoolbox]: Downloading https://files.pythonhosted.org/packages/fc/dd/bda5da91cda89fa91dc5b7a7fd21d076cab7b03b7f254bde7fc31549e3cf/tsgettoolbox-9.13.5.8.tar.gz
+[2023-07-27 06:07:05] INFO root fetch - processPackages [xj-user]: Downloading https://files.pythonhosted.org/packages/26/be/e0d28eecf05fff47ab8dc5bf0e46eff90f3cee3ae03596f052698e5df93d/xj_user-1.2.98.tar.gz
+[2023-07-27 06:07:05] INFO root fetch - processPackages [odoo14-addon-l10n-ro-stock-account]: Downloading https://files.pythonhosted.org/packages/0f/5d/d918bf77c81d780e04aaa723a0d6bab36ff9c1a8391c699159e60b57fed7/odoo14_addon_l10n_ro_stock_account-14.0.8.8.0-py3-none-any.whl
+[2023-07-27 06:07:06] INFO root fetch - processPackages [red_utils]: Downloading https://files.pythonhosted.org/packages/60/ce/ef9c4b5695a4ad77b8594016b5e4ea7ae1027d99962b16dbab8248f05219/red_utils-0.1.5.tar.gz
+[2023-07-27 06:07:06] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: Downloading https://files.pythonhosted.org/packages/f4/27/5047b871b36882879776010666de606ac6b0119b47d0cac24792b8cc5991/aws_prototyping_sdk.type_safe_api-0.19.9.tar.gz
+[2023-07-27 06:07:06] INFO root fetch - processPackages [openai-function]: Downloading https://files.pythonhosted.org/packages/e3/9c/a4fafbcd47173467cd8425fa67ec3264424e00c87e55cfd3846192bf0626/openai_function-0.1.4.tar.gz
+[2023-07-27 06:07:06] INFO root fetch - processPackages [lazyinit]: Downloading https://files.pythonhosted.org/packages/71/5d/9b79604f19a934f23ee68d35ff4a784120ffcecbe100f40086af738d06b2/lazyinit-0.0.267.tar.gz
+[2023-07-27 06:07:06] INFO root fetch - processPackages [xj-user]: Downloading https://files.pythonhosted.org/packages/f9/79/9b7536f52cd2a21b092678ce5bc888a17a7c527cef9ae891d864354f2e5c/xj_user-1.2.99.tar.gz
+[2023-07-27 06:07:06] INFO root fetch - processPackages [multisig-ci]: Downloading https://files.pythonhosted.org/packages/6c/c1/83657fe20020e77b608de8e14b1a08c99b3464b70b1e1745a2a47743f66f/multisig_ci-0.6.5.tar.gz
+[2023-07-27 06:07:06] INFO root fetch - processPackages [tsgettoolbox]: Downloading https://files.pythonhosted.org/packages/74/fa/372cffb2c2b7ef8edf6ffb440c7e8c42f5cd5d7c129e12b6b3c8a803eaa5/tsgettoolbox-9.14.5.8.tar.gz
+[2023-07-27 06:07:06] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/d9/eb/3bd2a308b9e6f7441fbed7b759578bddade2cb983bb4ffe7fc3777863314/chromedriver-binary-99.0.4844.51.0.tar.gz
+[2023-07-27 06:07:06] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/d9/eb/3bd2a308b9e6f7441fbed7b759578bddade2cb983bb4ffe7fc3777863314/chromedriver-binary-99.0.4844.51.0.tar.gz
+[2023-07-27 06:07:06] INFO root fetch - processPackages [red_utils]: Downloading https://files.pythonhosted.org/packages/95/26/b2ed72743af36cd008dba50918b136441087c95395672f712c81bc600ce6/red_utils-0.1.6.tar.gz
+[2023-07-27 06:07:06] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: executing diffoscope
+[2023-07-27 06:07:06] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.type_safe_api-0.19.8.tar.gz tmp/aws_prototyping_sdk.type_safe_api-0.19.9.tar.gz --markdown 20230727/a/aws-prototyping-sdk.type-safe-api/0.19.8-0.19.9/diff.md --exclude *.pyd
+[2023-07-27 06:07:06] INFO root fetch - processPackages [openai-function]: executing diffoscope
+[2023-07-27 06:07:06] INFO root fetch - processPackages [openai-function]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_function-0.1.3.tar.gz tmp/openai_function-0.1.4.tar.gz --markdown 20230727/o/openai-function/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-27 06:07:06] INFO root fetch - processPackages [odoo14-addon-l10n-ro-stock-account]: Downloading https://files.pythonhosted.org/packages/d9/f6/d390d7dd65ffcd4da3cac5c58908ec5c165437c5ec74857d9717dbb5b740/odoo14_addon_l10n_ro_stock_account-14.0.8.9.0-py3-none-any.whl
+[2023-07-27 06:07:06] INFO root fetch - processPackages [xj-user]: executing diffoscope
+[2023-07-27 06:07:06] INFO root fetch - processPackages [xj-user]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_user-1.2.98.tar.gz tmp/xj_user-1.2.99.tar.gz --markdown 20230727/x/xj-user/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-07-27 06:07:06] INFO root fetch - processPackages [lazyinit]: executing diffoscope
+[2023-07-27 06:07:06] INFO root fetch - processPackages [lazyinit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazyinit-0.0.265.tar.gz tmp/lazyinit-0.0.267.tar.gz --markdown 20230727/l/lazyinit/0.0.265-0.0.267/diff.md --exclude *.pyd
+[2023-07-27 06:07:06] INFO root fetch - processPackages [chromedriver-binary]: executing diffoscope
+[2023-07-27 06:07:06] INFO root fetch - processPackages [chromedriver-binary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromedriver-binary-99.0.4844.35.0.tar.gz tmp/chromedriver-binary-99.0.4844.51.0.tar.gz --markdown 20230727/c/chromedriver-binary/99.0.4844.35.0-99.0.4844.51.0/diff.md --exclude *.pyd
+[2023-07-27 06:07:06] INFO root fetch - processPackages [chromedriver-binary]: executing diffoscope
+[2023-07-27 06:07:06] INFO root fetch - processPackages [chromedriver-binary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromedriver-binary-99.0.4844.35.0.tar.gz tmp/chromedriver-binary-99.0.4844.51.0.tar.gz --markdown 20230727/c/chromedriver-binary/99.0.4844.35.0-99.0.4844.51.0/diff.md --exclude *.pyd
+[2023-07-27 06:07:06] INFO root fetch - processPackages [tsgettoolbox]: executing diffoscope
+[2023-07-27 06:07:06] INFO root fetch - processPackages [tsgettoolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsgettoolbox-9.13.5.8.tar.gz tmp/tsgettoolbox-9.14.5.8.tar.gz --markdown 20230727/t/tsgettoolbox/9.13.5.8-9.14.5.8/diff.md --exclude *.pyd
+[2023-07-27 06:07:06] INFO root fetch - processPackages [multisig-ci]: executing diffoscope
+[2023-07-27 06:07:06] INFO root fetch - processPackages [multisig-ci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multisig_ci-0.6.4.tar.gz tmp/multisig_ci-0.6.5.tar.gz --markdown 20230727/m/multisig-ci/0.6.4-0.6.5/diff.md --exclude *.pyd
+[2023-07-27 06:07:06] INFO root fetch - processPackages [odoo14-addon-l10n-ro-stock-account]: executing diffoscope
+[2023-07-27 06:07:06] INFO root fetch - processPackages [odoo14-addon-l10n-ro-stock-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_ro_stock_account-14.0.8.8.0-py3-none-any.whl.zip tmp/odoo14_addon_l10n_ro_stock_account-14.0.8.9.0-py3-none-any.whl.zip --markdown 20230727/o/odoo14-addon-l10n-ro-stock-account/14.0.8.8.0-14.0.8.9.0/diff.md --exclude *.pyd
+[2023-07-27 06:07:07] INFO root fetch - processPackages [red_utils]: executing diffoscope
+[2023-07-27 06:07:07] INFO root fetch - processPackages [red_utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/red_utils-0.1.5.tar.gz tmp/red_utils-0.1.6.tar.gz --markdown 20230727/r/red_utils/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-27 06:07:07] INFO root fetch - processPackages [openai-function]: Remove: archive file [/home/abi/fetcher/tmp/openai_function-0.1.3.tar.gz]
+[2023-07-27 06:07:07] INFO root fetch - processPackages [openai-function]: Remove: archive file [/home/abi/fetcher/tmp/openai_function-0.1.4.tar.gz]
+[2023-07-27 06:07:07] INFO root fetch - main [MainThread]: End processing [openai-function]: success
+[2023-07-27 06:07:08] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.type_safe_api-0.19.8.tar.gz]
+[2023-07-27 06:07:08] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.type_safe_api-0.19.9.tar.gz]
+[2023-07-27 06:07:08] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.type-safe-api]: success
+[2023-07-27 06:07:08] INFO root fetch - processPackages [chromedriver-binary]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-binary-99.0.4844.35.0.tar.gz]
+[2023-07-27 06:07:08] INFO root fetch - processPackages [chromedriver-binary]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-binary-99.0.4844.51.0.tar.gz]
+[2023-07-27 06:07:08] INFO root fetch - main [MainThread]: End processing [chromedriver-binary]: success
+[2023-07-27 06:07:08] INFO root fetch - main [MainThread]: End processing [chromedriver-binary]: success
+[2023-07-27 06:07:08] INFO root fetch - processPackages [tsgettoolbox]: Remove: archive file [/home/abi/fetcher/tmp/tsgettoolbox-9.13.5.8.tar.gz]
+[2023-07-27 06:07:08] INFO root fetch - processPackages [tsgettoolbox]: Remove: archive file [/home/abi/fetcher/tmp/tsgettoolbox-9.14.5.8.tar.gz]
+[2023-07-27 06:07:08] INFO root fetch - main [MainThread]: End processing [tsgettoolbox]: success
+[2023-07-27 06:07:08] INFO root fetch - processPackages [multisig-ci]: Remove: archive file [/home/abi/fetcher/tmp/multisig_ci-0.6.4.tar.gz]
+[2023-07-27 06:07:08] INFO root fetch - processPackages [multisig-ci]: Remove: archive file [/home/abi/fetcher/tmp/multisig_ci-0.6.5.tar.gz]
+[2023-07-27 06:07:08] INFO root fetch - main [MainThread]: End processing [multisig-ci]: success
+[2023-07-27 06:07:08] INFO root fetch - processPackages [xj-user]: Remove: archive file [/home/abi/fetcher/tmp/xj_user-1.2.98.tar.gz]
+[2023-07-27 06:07:08] INFO root fetch - processPackages [xj-user]: Remove: archive file [/home/abi/fetcher/tmp/xj_user-1.2.99.tar.gz]
+[2023-07-27 06:07:08] INFO root fetch - main [MainThread]: End processing [xj-user]: success
+[2023-07-27 06:07:08] INFO root fetch - processPackages [odoo14-addon-l10n-ro-stock-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_ro_stock_account-14.0.8.8.0-py3-none-any.whl.zip]
+[2023-07-27 06:07:08] INFO root fetch - processPackages [odoo14-addon-l10n-ro-stock-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_ro_stock_account-14.0.8.9.0-py3-none-any.whl.zip]
+[2023-07-27 06:07:08] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-ro-stock-account]: success
+[2023-07-27 06:07:08] INFO root fetch - processPackages [lazyinit]: Remove: archive file [/home/abi/fetcher/tmp/lazyinit-0.0.265.tar.gz]
+[2023-07-27 06:07:08] INFO root fetch - processPackages [lazyinit]: Remove: archive file [/home/abi/fetcher/tmp/lazyinit-0.0.267.tar.gz]
+[2023-07-27 06:07:08] INFO root fetch - main [MainThread]: End processing [lazyinit]: success
+[2023-07-27 06:07:10] INFO root fetch - processPackages [red_utils]: Remove: archive file [/home/abi/fetcher/tmp/red_utils-0.1.5.tar.gz]
+[2023-07-27 06:07:10] INFO root fetch - processPackages [red_utils]: Remove: archive file [/home/abi/fetcher/tmp/red_utils-0.1.6.tar.gz]
+[2023-07-27 06:07:10] INFO root fetch - main [MainThread]: End processing [red_utils]: success
+[2023-07-27 06:07:10] INFO root fetch - main [MainThread]: Store serial: [19054493]
