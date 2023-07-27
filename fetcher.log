@@ -19649,3 +19649,124 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-07-27 10:46:27] INFO root fetch - processPackages [piperider]: Remove: archive file [/home/abi/fetcher/tmp/piperider-0.9.0rc1.tar.gz]
 [2023-07-27 10:46:27] INFO root fetch - main [MainThread]: End processing [piperider]: success
 [2023-07-27 10:46:27] INFO root fetch - main [MainThread]: Store serial: [19057466]
+[2023-07-27 10:51:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19057466]
+[2023-07-27 10:51:35] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-27 10:51:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bqscales
+[2023-07-27 10:51:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: decentriq-platform
+[2023-07-27 10:51:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: falconz
+[2023-07-27 10:51:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xj-thread
+[2023-07-27 10:51:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rebotics-sdk
+[2023-07-27 10:51:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: planetmapper
+[2023-07-27 10:51:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: MeUtils
+[2023-07-27 10:51:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ultraspy
+[2023-07-27 10:51:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pytbai
+[2023-07-27 10:51:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyhpo
+[2023-07-27 10:51:36] INFO root fetch - processPackages [rebotics-sdk]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-27 10:51:36] INFO root fetch - processPackages [falconz]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-07-27 10:51:36] INFO root fetch - processPackages [bqscales]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-07-27 10:51:36] INFO root fetch - processPackages [ultraspy]: New version: [1.2] Old Version: [1.1]
+[2023-07-27 10:51:36] INFO root fetch - processPackages [pyhpo]: New version: [3.2.1] Old Version: [3.2.0]
+[2023-07-27 10:51:36] INFO root fetch - processPackages [pytbai]: New version: [1.4.0] Old Version: [1.3.8]
+[2023-07-27 10:51:36] INFO root fetch - processPackages [planetmapper]: New version: [1.8.0] Old Version: [1.7.7]
+[2023-07-27 10:51:36] INFO root fetch - processPackages [decentriq-platform]: New version: [0.9.1] Old Version: [0.9.0rc2]
+[2023-07-27 10:51:36] INFO root fetch - processPackages [xj-thread]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-07-27 10:51:36] INFO root fetch - processPackages [MeUtils]: New version: [2023.7.7.15.3.6] Old Version: [2023.7.6.9.18.40]
+[2023-07-27 10:51:36] INFO root fetch - processPackages [rebotics-sdk]: Downloading https://files.pythonhosted.org/packages/51/65/08d641bf16e8c340b76e15f57bf4c36d7254f98e49c96a1ac85a040f86b0/rebotics_sdk-0.9.0.tar.gz
+[2023-07-27 10:51:36] INFO root fetch - processPackages [decentriq-platform]: Downloading https://files.pythonhosted.org/packages/8b/c1/695a0f73f216e20fbf9a98a63235989a07b60ced292eb67c210593fda34a/decentriq-platform-0.9.0rc2.tar.gz
+[2023-07-27 10:51:36] INFO root fetch - processPackages [falconz]: Downloading https://files.pythonhosted.org/packages/b6/a5/7badfed0d8050fea3c5d20034dcf0d3fcf8858ef2c2ed922eb3643eebc1c/falconz-2.0.0.tar.gz
+[2023-07-27 10:51:36] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/03/c2/0074fedd9218c4324bec9cdbb7bc5f7c2c839ea18d1079a715c0d495a660/MeUtils-2023.7.6.9.18.40.tar.gz
+[2023-07-27 10:51:36] INFO root fetch - processPackages [pytbai]: Downloading https://files.pythonhosted.org/packages/9a/2b/f8d594e8dd207d8838be448a4579b5f4304b973f4a0f10d8e4f271f18074/pytbai-1.3.8.tar.gz
+[2023-07-27 10:51:36] INFO root fetch - processPackages [xj-thread]: Downloading https://files.pythonhosted.org/packages/d0/40/892813003a2b082a6e0c2667824534711f1cf8fdfc940df20ba978459e48/xj_thread-1.2.98.tar.gz
+[2023-07-27 10:51:36] INFO root fetch - processPackages [bqscales]: Downloading https://files.pythonhosted.org/packages/46/d1/737cbaa2d1a9da2386fd0dd3b514bb0bafafe52d3e898614324719ce0ef1/bqscales-0.3.2.tar.gz
+[2023-07-27 10:51:36] INFO root fetch - processPackages [ultraspy]: Downloading https://files.pythonhosted.org/packages/a5/90/bb337f9e13eb845ad339621e4a337cc6ca61e62a53b666b4c1d5bf6adc2a/ultraspy-1.1.tar.gz
+[2023-07-27 10:51:36] INFO root fetch - processPackages [pyhpo]: Downloading https://files.pythonhosted.org/packages/e1/4d/8749119c75a86161ee4b90b4ea497699aca111983eecdcb5061bb245fb89/pyhpo-3.2.0.tar.gz
+[2023-07-27 10:51:36] INFO root fetch - processPackages [planetmapper]: Downloading https://files.pythonhosted.org/packages/27/4a/09fa99e8b49dc063923f5f34ca19a87de296600b6fddf5a3449cbe90899f/planetmapper-1.7.7.tar.gz
+[2023-07-27 10:51:37] WARNING root fetch - processPackages [bqscales]: Skipping package: exceeds size limit 46613670>=10485760
+[2023-07-27 10:51:37] INFO root fetch - processPackages [bqscales]: Start processing: biliarchiver
+[2023-07-27 10:51:37] INFO root fetch - main [MainThread]: End processing [bqscales] error
+[2023-07-27 10:51:37] WARNING root fetch - processPackages [pyhpo]: Skipping package: exceeds size limit 13357044>=10485760
+[2023-07-27 10:51:37] INFO root fetch - processPackages [pyhpo]: Start processing: jupyterlab-s3-browser-uccps
+[2023-07-27 10:51:37] INFO root fetch - main [MainThread]: End processing [pyhpo] error
+[2023-07-27 10:51:37] INFO root fetch - processPackages [biliarchiver]: New version: [0.0.9] Old Version: [0.0.33]
+[2023-07-27 10:51:37] INFO root fetch - processPackages [jupyterlab-s3-browser-uccps]: New version: [0.10.4] Old Version: [0.10.3]
+[2023-07-27 10:51:37] INFO root fetch - processPackages [rebotics-sdk]: Downloading https://files.pythonhosted.org/packages/3a/af/a2aa77307cf3fac9701095f738d855d74af3c987de0ec7d7a1d8b75aee7f/rebotics_sdk-0.9.1.tar.gz
+[2023-07-27 10:51:37] INFO root fetch - processPackages [xj-thread]: Downloading https://files.pythonhosted.org/packages/fc/75/4ed5778921ea61c4cdd8fe2c5f8b0a37873dc9cc5b9f507a3240f0380e69/xj_thread-1.2.99.tar.gz
+[2023-07-27 10:51:38] INFO root fetch - processPackages [pytbai]: Downloading https://files.pythonhosted.org/packages/ee/87/e6d932f76e55def78b6cd02cb0f856ba69a0d78e36700b65ddb318e60af9/pytbai-1.4.0.tar.gz
+[2023-07-27 10:51:38] INFO root fetch - processPackages [planetmapper]: Downloading https://files.pythonhosted.org/packages/21/fa/dc2ba3e34aafb7ba91b8d27a6e516631e38847821f9b694151c3b3629ba1/planetmapper-1.8.0.tar.gz
+[2023-07-27 10:51:38] INFO root fetch - processPackages [jupyterlab-s3-browser-uccps]: Downloading https://files.pythonhosted.org/packages/32/a3/4c2f8cead8340d96c889fb0d9fac243df7b0a64f1d021bfb9e961717364f/jupyterlab_s3_browser_uccps-0.10.3.tar.gz
+[2023-07-27 10:51:38] INFO root fetch - processPackages [falconz]: Downloading https://files.pythonhosted.org/packages/1e/81/fb00d282da35def4d4034618fcd27c011242864849ed51f006bfdcb80411/falconz-2.0.1.tar.gz
+[2023-07-27 10:51:38] INFO root fetch - processPackages [biliarchiver]: Downloading https://files.pythonhosted.org/packages/92/71/3af1dd4fc3e9747b80ecc6e34dce6c0453d5988e9150adba6aa563132d16/biliarchiver-0.0.33.tar.gz
+[2023-07-27 10:51:38] INFO root fetch - processPackages [ultraspy]: Downloading https://files.pythonhosted.org/packages/9d/9b/9f7765256697dcd6267713afc94ed72b2b875ccfe93b40f23ae78779da35/ultraspy-1.2.tar.gz
+[2023-07-27 10:51:38] INFO root fetch - processPackages [decentriq-platform]: Downloading https://files.pythonhosted.org/packages/69/7c/b6c9a006e306cc15917be3102e43763687fbce0bf34b98d63390c4fadf94/decentriq-platform-0.9.1.tar.gz
+[2023-07-27 10:51:38] INFO root fetch - processPackages [rebotics-sdk]: executing diffoscope
+[2023-07-27 10:51:38] INFO root fetch - processPackages [rebotics-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rebotics_sdk-0.9.0.tar.gz tmp/rebotics_sdk-0.9.1.tar.gz --markdown 20230727/r/rebotics-sdk/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-27 10:51:38] INFO root fetch - processPackages [xj-thread]: executing diffoscope
+[2023-07-27 10:51:38] INFO root fetch - processPackages [xj-thread]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_thread-1.2.98.tar.gz tmp/xj_thread-1.2.99.tar.gz --markdown 20230727/x/xj-thread/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-07-27 10:51:38] INFO root fetch - processPackages [planetmapper]: executing diffoscope
+[2023-07-27 10:51:38] INFO root fetch - processPackages [planetmapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/planetmapper-1.7.7.tar.gz tmp/planetmapper-1.8.0.tar.gz --markdown 20230727/p/planetmapper/1.7.7-1.8.0/diff.md --exclude *.pyd
+[2023-07-27 10:51:38] INFO root fetch - processPackages [falconz]: executing diffoscope
+[2023-07-27 10:51:38] INFO root fetch - processPackages [falconz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/falconz-2.0.0.tar.gz tmp/falconz-2.0.1.tar.gz --markdown 20230727/f/falconz/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-07-27 10:51:38] INFO root fetch - processPackages [pytbai]: executing diffoscope
+[2023-07-27 10:51:38] INFO root fetch - processPackages [pytbai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytbai-1.3.8.tar.gz tmp/pytbai-1.4.0.tar.gz --markdown 20230727/p/pytbai/1.3.8-1.4.0/diff.md --exclude *.pyd
+[2023-07-27 10:51:38] INFO root fetch - processPackages [ultraspy]: executing diffoscope
+[2023-07-27 10:51:38] INFO root fetch - processPackages [ultraspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultraspy-1.1.tar.gz tmp/ultraspy-1.2.tar.gz --markdown 20230727/u/ultraspy/1.1-1.2/diff.md --exclude *.pyd
+[2023-07-27 10:51:38] INFO root fetch - processPackages [jupyterlab-s3-browser-uccps]: Downloading https://files.pythonhosted.org/packages/73/74/295f3ec8757f8b6b50de8f8d138fe0e9d54aab725c8904b66c3eb99affd8/jupyterlab_s3_browser_uccps-0.10.4.tar.gz
+[2023-07-27 10:51:38] INFO root fetch - processPackages [biliarchiver]: Downloading https://files.pythonhosted.org/packages/75/6f/a07bee6d23ed240047e737c1e393aadca816e9e1cc7c1aaa81457a4885da/biliarchiver-0.0.9.tar.gz
+[2023-07-27 10:51:38] INFO root fetch - processPackages [decentriq-platform]: executing diffoscope
+[2023-07-27 10:51:38] INFO root fetch - processPackages [decentriq-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decentriq-platform-0.9.0rc2.tar.gz tmp/decentriq-platform-0.9.1.tar.gz --markdown 20230727/d/decentriq-platform/0.9.0rc2-0.9.1/diff.md --exclude *.pyd
+[2023-07-27 10:51:38] INFO root fetch - processPackages [jupyterlab-s3-browser-uccps]: executing diffoscope
+[2023-07-27 10:51:38] INFO root fetch - processPackages [jupyterlab-s3-browser-uccps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_s3_browser_uccps-0.10.3.tar.gz tmp/jupyterlab_s3_browser_uccps-0.10.4.tar.gz --markdown 20230727/j/jupyterlab-s3-browser-uccps/0.10.3-0.10.4/diff.md --exclude *.pyd
+[2023-07-27 10:51:38] INFO root fetch - processPackages [biliarchiver]: executing diffoscope
+[2023-07-27 10:51:38] INFO root fetch - processPackages [biliarchiver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biliarchiver-0.0.33.tar.gz tmp/biliarchiver-0.0.9.tar.gz --markdown 20230727/b/biliarchiver/0.0.33-0.0.9/diff.md --exclude *.pyd
+[2023-07-27 10:51:39] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/1e/99/2f228a790c6fc15f93482f3f0fa7bbad95d15d6e0aa883c7919fe4a66c95/MeUtils-2023.7.7.15.3.6.tar.gz
+[2023-07-27 10:51:40] INFO root fetch - processPackages [MeUtils]: executing diffoscope
+[2023-07-27 10:51:40] INFO root fetch - processPackages [MeUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeUtils-2023.7.6.9.18.40.tar.gz tmp/MeUtils-2023.7.7.15.3.6.tar.gz --markdown 20230727/M/MeUtils/2023.7.6.9.18.40-2023.7.7.15.3.6/diff.md --exclude *.pyd
+[2023-07-27 10:51:40] INFO root fetch - processPackages [biliarchiver]: Remove: archive file [/home/abi/fetcher/tmp/biliarchiver-0.0.33.tar.gz]
+[2023-07-27 10:51:40] INFO root fetch - processPackages [biliarchiver]: Remove: archive file [/home/abi/fetcher/tmp/biliarchiver-0.0.9.tar.gz]
+[2023-07-27 10:51:40] INFO root fetch - processPackages [biliarchiver]: Start processing: odoo-addon-project-stock
+[2023-07-27 10:51:40] INFO root fetch - main [MainThread]: End processing [biliarchiver]: success
+[2023-07-27 10:51:40] INFO root fetch - processPackages [falconz]: Remove: archive file [/home/abi/fetcher/tmp/falconz-2.0.0.tar.gz]
+[2023-07-27 10:51:40] INFO root fetch - processPackages [falconz]: Remove: archive file [/home/abi/fetcher/tmp/falconz-2.0.1.tar.gz]
+[2023-07-27 10:51:40] INFO root fetch - processPackages [falconz]: Start processing: chichicha
+[2023-07-27 10:51:40] INFO root fetch - main [MainThread]: End processing [falconz]: success
+[2023-07-27 10:51:40] INFO root fetch - processPackages [chichicha]: New version: [2.1.7.1] Old Version: [1.1.1.2]
+[2023-07-27 10:51:40] INFO root fetch - processPackages [rebotics-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rebotics_sdk-0.9.0.tar.gz]
+[2023-07-27 10:51:40] INFO root fetch - processPackages [rebotics-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rebotics_sdk-0.9.1.tar.gz]
+[2023-07-27 10:51:40] INFO root fetch - main [MainThread]: End processing [rebotics-sdk]: success
+[2023-07-27 10:51:40] INFO root fetch - processPackages [odoo-addon-project-stock]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.7]
+[2023-07-27 10:51:40] INFO root fetch - processPackages [chichicha]: Downloading https://files.pythonhosted.org/packages/34/ab/f8edc7295a34e614dd2bc342b0950ef7deb70609528a39a4e8f2fa776065/chichicha-1.1.1.2.tar.gz
+[2023-07-27 10:51:40] INFO root fetch - processPackages [pytbai]: Remove: archive file [/home/abi/fetcher/tmp/pytbai-1.3.8.tar.gz]
+[2023-07-27 10:51:40] INFO root fetch - processPackages [pytbai]: Remove: archive file [/home/abi/fetcher/tmp/pytbai-1.4.0.tar.gz]
+[2023-07-27 10:51:40] INFO root fetch - main [MainThread]: End processing [pytbai]: success
+[2023-07-27 10:51:40] INFO root fetch - processPackages [xj-thread]: Remove: archive file [/home/abi/fetcher/tmp/xj_thread-1.2.98.tar.gz]
+[2023-07-27 10:51:40] INFO root fetch - processPackages [xj-thread]: Remove: archive file [/home/abi/fetcher/tmp/xj_thread-1.2.99.tar.gz]
+[2023-07-27 10:51:40] INFO root fetch - main [MainThread]: End processing [xj-thread]: success
+[2023-07-27 10:51:41] INFO root fetch - processPackages [odoo-addon-project-stock]: Downloading https://files.pythonhosted.org/packages/32/65/b53de68bd901694d43d131ff6c562f94d76adc078c7ab7e83b218ef52b19/odoo_addon_project_stock-16.0.1.0.0.7-py3-none-any.whl
+[2023-07-27 10:51:41] INFO root fetch - processPackages [decentriq-platform]: Remove: archive file [/home/abi/fetcher/tmp/decentriq-platform-0.9.0rc2.tar.gz]
+[2023-07-27 10:51:41] INFO root fetch - processPackages [decentriq-platform]: Remove: archive file [/home/abi/fetcher/tmp/decentriq-platform-0.9.1.tar.gz]
+[2023-07-27 10:51:41] INFO root fetch - main [MainThread]: End processing [decentriq-platform]: success
+[2023-07-27 10:51:41] INFO root fetch - processPackages [planetmapper]: Remove: archive file [/home/abi/fetcher/tmp/planetmapper-1.7.7.tar.gz]
+[2023-07-27 10:51:41] INFO root fetch - processPackages [planetmapper]: Remove: archive file [/home/abi/fetcher/tmp/planetmapper-1.8.0.tar.gz]
+[2023-07-27 10:51:41] INFO root fetch - main [MainThread]: End processing [planetmapper]: success
+[2023-07-27 10:51:41] INFO root fetch - processPackages [chichicha]: Downloading https://files.pythonhosted.org/packages/83/6a/0b0d4cdcc230647bdaaec7970ff06e49f65749778ee80dff48c7afbb660e/chichicha-2.1.7.1-py3-none-any.whl
+[2023-07-27 10:51:41] INFO root fetch - processPackages [chichicha]: executing diffoscope
+[2023-07-27 10:51:41] INFO root fetch - processPackages [chichicha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chichicha-1.1.1.2.tar.gz tmp/chichicha-2.1.7.1-py3-none-any.whl.zip --markdown 20230727/c/chichicha/1.1.1.2-2.1.7.1/diff.md --exclude *.pyd
+[2023-07-27 10:51:41] INFO root fetch - processPackages [odoo-addon-project-stock]: Downloading https://files.pythonhosted.org/packages/4c/10/88ec244822f452bd89812c5e54804f2d631a7e6a6f0710e4451c8828413c/odoo_addon_project_stock-16.0.1.0.0.9-py3-none-any.whl
+[2023-07-27 10:51:41] INFO root fetch - processPackages [odoo-addon-project-stock]: executing diffoscope
+[2023-07-27 10:51:41] INFO root fetch - processPackages [odoo-addon-project-stock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_project_stock-16.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_project_stock-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20230727/o/odoo-addon-project-stock/16.0.1.0.0.7-16.0.1.0.0.9/diff.md --exclude *.pyd
+[2023-07-27 10:51:41] INFO root fetch - processPackages [jupyterlab-s3-browser-uccps]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_s3_browser_uccps-0.10.3.tar.gz]
+[2023-07-27 10:51:41] INFO root fetch - processPackages [jupyterlab-s3-browser-uccps]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_s3_browser_uccps-0.10.4.tar.gz]
+[2023-07-27 10:51:41] INFO root fetch - main [MainThread]: End processing [jupyterlab-s3-browser-uccps]: success
+[2023-07-27 10:51:42] INFO root fetch - processPackages [chichicha]: Remove: archive file [/home/abi/fetcher/tmp/chichicha-1.1.1.2.tar.gz]
+[2023-07-27 10:51:42] INFO root fetch - processPackages [chichicha]: Remove: archive file [/home/abi/fetcher/tmp/chichicha-2.1.7.1-py3-none-any.whl.zip]
+[2023-07-27 10:51:42] INFO root fetch - main [MainThread]: End processing [chichicha]: success
+[2023-07-27 10:51:42] INFO root fetch - processPackages [odoo-addon-project-stock]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_stock-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2023-07-27 10:51:42] INFO root fetch - processPackages [odoo-addon-project-stock]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_stock-16.0.1.0.0.9-py3-none-any.whl.zip]
+[2023-07-27 10:51:42] INFO root fetch - main [MainThread]: End processing [odoo-addon-project-stock]: success
+[2023-07-27 10:51:43] INFO root fetch - processPackages [ultraspy]: Remove: archive file [/home/abi/fetcher/tmp/ultraspy-1.1.tar.gz]
+[2023-07-27 10:51:43] INFO root fetch - processPackages [ultraspy]: Remove: archive file [/home/abi/fetcher/tmp/ultraspy-1.2.tar.gz]
+[2023-07-27 10:51:43] INFO root fetch - main [MainThread]: End processing [ultraspy]: success
+[2023-07-27 10:51:44] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.7.6.9.18.40.tar.gz]
+[2023-07-27 10:51:44] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.7.7.15.3.6.tar.gz]
+[2023-07-27 10:51:44] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
+[2023-07-27 10:51:44] INFO root fetch - main [MainThread]: Store serial: [19057508]
