@@ -16222,3 +16222,78 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-27 08:24:36] INFO root fetch - processPackages [muffin-peewee-aio]: Remove: archive file [/home/abi/fetcher/tmp/muffin-peewee-aio-0.9.6.tar.gz]
 [2023-07-27 08:24:36] INFO root fetch - main [MainThread]: End processing [muffin-peewee-aio]: success
 [2023-07-27 08:24:36] INFO root fetch - main [MainThread]: Store serial: [19056003]
+[2023-07-27 08:29:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19056003]
+[2023-07-27 08:29:45] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-27 08:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: promptlabs
+[2023-07-27 08:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pushsource
+[2023-07-27 08:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: destinynet
+[2023-07-27 08:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-07-27 08:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: plugwise
+[2023-07-27 08:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: morm
+[2023-07-27 08:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mycolormap
+[2023-07-27 08:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pbrm
+[2023-07-27 08:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: audio-toolkit
+[2023-07-27 08:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gentopia
+[2023-07-27 08:29:45] INFO root fetch - processPackages [morm]: New version: [1.4.5] Old Version: [1.4.4]
+[2023-07-27 08:29:45] INFO root fetch - processPackages [promptlabs]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-27 08:29:45] INFO root fetch - processPackages [destinynet]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-27 08:29:45] WARNING root fetch - processPackages [mycolormap]: Skipping, unable to determine old version
+[2023-07-27 08:29:45] INFO root fetch - main [MainThread]: End processing [mycolormap] error
+[2023-07-27 08:29:45] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-27 08:29:45] INFO root fetch - processPackages [plugwise]: New version: [0.9.4a9] Old Version: [0.9.4a8]
+[2023-07-27 08:29:45] INFO root fetch - processPackages [pushsource]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-07-27 08:29:45] INFO root fetch - processPackages [pbrm]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-27 08:29:45] WARNING root fetch - processPackages [audio-toolkit]: Skipping, unable to determine old version
+[2023-07-27 08:29:45] INFO root fetch - main [MainThread]: End processing [audio-toolkit] error
+[2023-07-27 08:29:45] WARNING root fetch - processPackages [gentopia]: Skipping, unable to determine old version
+[2023-07-27 08:29:45] INFO root fetch - main [MainThread]: End processing [gentopia] error
+[2023-07-27 08:29:45] INFO root fetch - processPackages [morm]: Downloading https://files.pythonhosted.org/packages/4e/e7/065c7980a92b5a278355d169ae5db37a33bd9c20bef513af3f319844d659/morm-1.4.4-py3-none-any.whl
+[2023-07-27 08:29:45] INFO root fetch - processPackages [promptlabs]: Downloading https://files.pythonhosted.org/packages/5c/c4/8b98b5793809f1505c4480cbab207a6e2eaa205a983bb0282552168cec85/promptlabs-0.0.2.tar.gz
+[2023-07-27 08:29:45] INFO root fetch - processPackages [destinynet]: Downloading https://files.pythonhosted.org/packages/25/70/cf0664eab890682fa13fb73b48efeadc80d791bc37be28d0cbe347916747/destinynet-0.1.0.tar.gz
+[2023-07-27 08:29:45] INFO root fetch - processPackages [pbrm]: Downloading https://files.pythonhosted.org/packages/d5/55/9457affd885b613636da7a35bc4840e8f1c6a5404205ac084e5a60308fb4/pbrm-0.0.4.tar.gz
+[2023-07-27 08:29:45] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/67/44/1dba32653c7525f0fbd8908ad6d202d1043a5fcb6cf364972a4c23bffeac/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz
+[2023-07-27 08:29:46] INFO root fetch - processPackages [plugwise]: Downloading https://files.pythonhosted.org/packages/9f/eb/88773e492984c980bc342942239d3bd6eee77c3dc052d35d25e42e2137a6/plugwise-0.9.4a8.tar.gz
+[2023-07-27 08:29:46] INFO root fetch - processPackages [pushsource]: Downloading https://files.pythonhosted.org/packages/58/de/89de756c0eaaa15a4eb489f78c581a4fdab1206049088d6e82c204c0de2b/pushsource-2.8.0.tar.gz
+[2023-07-27 08:29:46] INFO root fetch - processPackages [morm]: Downloading https://files.pythonhosted.org/packages/22/1b/c2ad6c682875695d2c25919832b1179998a4b3924a7edd0b81b4d7e62b48/morm-1.4.5-py3-none-any.whl
+[2023-07-27 08:29:46] INFO root fetch - processPackages [promptlabs]: Downloading https://files.pythonhosted.org/packages/50/a0/4c95e0762673505c98adc4403961210802915448d1c6bdc587a94b044412/promptlabs-0.0.3.tar.gz
+[2023-07-27 08:29:46] INFO root fetch - processPackages [destinynet]: Downloading https://files.pythonhosted.org/packages/9e/46/04cfb9bed5b159bc4fefeba291864e6314af987444e84d767474231766a7/destinynet-0.1.1.tar.gz
+[2023-07-27 08:29:46] INFO root fetch - processPackages [promptlabs]: executing diffoscope
+[2023-07-27 08:29:46] INFO root fetch - processPackages [promptlabs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptlabs-0.0.2.tar.gz tmp/promptlabs-0.0.3.tar.gz --markdown 20230727/p/promptlabs/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-27 08:29:46] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/49/e5/a2d418e8a59e46c739ecaa72adebcb65d676b8149513d576b8cd05d6324e/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz
+[2023-07-27 08:29:46] INFO root fetch - processPackages [morm]: executing diffoscope
+[2023-07-27 08:29:46] INFO root fetch - processPackages [morm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morm-1.4.4-py3-none-any.whl.zip tmp/morm-1.4.5-py3-none-any.whl.zip --markdown 20230727/m/morm/1.4.4-1.4.5/diff.md --exclude *.pyd
+[2023-07-27 08:29:46] INFO root fetch - processPackages [pbrm]: Downloading https://files.pythonhosted.org/packages/cc/3a/cfcde49f0d34af2439ad86ecfec5027103aac081f10d7b510aae10953b27/pbrm-0.0.5.tar.gz
+[2023-07-27 08:29:46] INFO root fetch - processPackages [destinynet]: executing diffoscope
+[2023-07-27 08:29:46] INFO root fetch - processPackages [destinynet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/destinynet-0.1.0.tar.gz tmp/destinynet-0.1.1.tar.gz --markdown 20230727/d/destinynet/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-27 08:29:46] INFO root fetch - processPackages [plugwise]: Downloading https://files.pythonhosted.org/packages/ec/fd/45b5a2ee424806593e900234e26bf62ae0c3582ac99cadfa9477e6719004/plugwise-0.9.4a9.tar.gz
+[2023-07-27 08:29:46] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-07-27 08:29:46] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230727/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-27 08:29:46] INFO root fetch - processPackages [pbrm]: executing diffoscope
+[2023-07-27 08:29:46] INFO root fetch - processPackages [pbrm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pbrm-0.0.4.tar.gz tmp/pbrm-0.0.5.tar.gz --markdown 20230727/p/pbrm/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-27 08:29:46] INFO root fetch - processPackages [plugwise]: executing diffoscope
+[2023-07-27 08:29:46] INFO root fetch - processPackages [plugwise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plugwise-0.9.4a8.tar.gz tmp/plugwise-0.9.4a9.tar.gz --markdown 20230727/p/plugwise/0.9.4a8-0.9.4a9/diff.md --exclude *.pyd
+[2023-07-27 08:29:47] INFO root fetch - processPackages [pushsource]: Downloading https://files.pythonhosted.org/packages/b2/3c/5e5a3f952ff711fb7ae8258cfbbd02ec112b5c51cc8745d6e8fd7b8b8cbb/pushsource-2.9.0.tar.gz
+[2023-07-27 08:29:47] INFO root fetch - processPackages [pushsource]: executing diffoscope
+[2023-07-27 08:29:47] INFO root fetch - processPackages [pushsource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pushsource-2.8.0.tar.gz tmp/pushsource-2.9.0.tar.gz --markdown 20230727/p/pushsource/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-07-27 08:29:47] INFO root fetch - processPackages [promptlabs]: Remove: archive file [/home/abi/fetcher/tmp/promptlabs-0.0.2.tar.gz]
+[2023-07-27 08:29:47] INFO root fetch - processPackages [promptlabs]: Remove: archive file [/home/abi/fetcher/tmp/promptlabs-0.0.3.tar.gz]
+[2023-07-27 08:29:47] INFO root fetch - main [MainThread]: End processing [promptlabs]: success
+[2023-07-27 08:29:47] INFO root fetch - processPackages [destinynet]: Remove: archive file [/home/abi/fetcher/tmp/destinynet-0.1.0.tar.gz]
+[2023-07-27 08:29:47] INFO root fetch - processPackages [destinynet]: Remove: archive file [/home/abi/fetcher/tmp/destinynet-0.1.1.tar.gz]
+[2023-07-27 08:29:47] INFO root fetch - main [MainThread]: End processing [destinynet]: success
+[2023-07-27 08:29:47] INFO root fetch - processPackages [pbrm]: Remove: archive file [/home/abi/fetcher/tmp/pbrm-0.0.4.tar.gz]
+[2023-07-27 08:29:47] INFO root fetch - processPackages [pbrm]: Remove: archive file [/home/abi/fetcher/tmp/pbrm-0.0.5.tar.gz]
+[2023-07-27 08:29:47] INFO root fetch - main [MainThread]: End processing [pbrm]: success
+[2023-07-27 08:29:47] INFO root fetch - processPackages [morm]: Remove: archive file [/home/abi/fetcher/tmp/morm-1.4.4-py3-none-any.whl.zip]
+[2023-07-27 08:29:47] INFO root fetch - processPackages [morm]: Remove: archive file [/home/abi/fetcher/tmp/morm-1.4.5-py3-none-any.whl.zip]
+[2023-07-27 08:29:47] INFO root fetch - main [MainThread]: End processing [morm]: success
+[2023-07-27 08:29:47] INFO root fetch - processPackages [plugwise]: Remove: archive file [/home/abi/fetcher/tmp/plugwise-0.9.4a8.tar.gz]
+[2023-07-27 08:29:47] INFO root fetch - processPackages [plugwise]: Remove: archive file [/home/abi/fetcher/tmp/plugwise-0.9.4a9.tar.gz]
+[2023-07-27 08:29:47] INFO root fetch - main [MainThread]: End processing [plugwise]: success
+[2023-07-27 08:29:47] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz]
+[2023-07-27 08:29:47] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz]
+[2023-07-27 08:29:47] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-07-27 08:29:48] INFO root fetch - processPackages [pushsource]: Remove: archive file [/home/abi/fetcher/tmp/pushsource-2.8.0.tar.gz]
+[2023-07-27 08:29:48] INFO root fetch - processPackages [pushsource]: Remove: archive file [/home/abi/fetcher/tmp/pushsource-2.9.0.tar.gz]
+[2023-07-27 08:29:48] INFO root fetch - main [MainThread]: End processing [pushsource]: success
+[2023-07-27 08:29:48] INFO root fetch - main [MainThread]: Store serial: [19056041]
