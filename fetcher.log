@@ -11808,3 +11808,39 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-27 06:07:10] INFO root fetch - processPackages [red_utils]: Remove: archive file [/home/abi/fetcher/tmp/red_utils-0.1.6.tar.gz]
 [2023-07-27 06:07:10] INFO root fetch - main [MainThread]: End processing [red_utils]: success
 [2023-07-27 06:07:10] INFO root fetch - main [MainThread]: Store serial: [19054493]
+[2023-07-27 06:12:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19054493]
+[2023-07-27 06:12:19] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-27 06:12:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: conpacks
+[2023-07-27 06:12:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ssd1306-plus
+[2023-07-27 06:12:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: typedhtml
+[2023-07-27 06:12:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: youtube-transcriber
+[2023-07-27 06:12:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: WinDbg-Copilot
+[2023-07-27 06:12:19] INFO root fetch - processPackages [typedhtml]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-27 06:12:19] WARNING root fetch - processPackages [ssd1306-plus]: Skipping, unable to determine old version
+[2023-07-27 06:12:19] INFO root fetch - main [MainThread]: End processing [ssd1306-plus] error
+[2023-07-27 06:12:19] INFO root fetch - processPackages [conpacks]: New version: [0.0.1.1] Old Version: [0.0.1]
+[2023-07-27 06:12:19] WARNING root fetch - processPackages [youtube-transcriber]: Skipping, unable to determine old version
+[2023-07-27 06:12:19] INFO root fetch - main [MainThread]: End processing [youtube-transcriber] error
+[2023-07-27 06:12:19] INFO root fetch - processPackages [WinDbg-Copilot]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-27 06:12:19] INFO root fetch - processPackages [conpacks]: Downloading https://files.pythonhosted.org/packages/b9/55/275c38bbc6bfe8e2b0969a916d07540b8d077f058d2e9704624f421d14f6/conpacks-0.0.1.tar.gz
+[2023-07-27 06:12:19] INFO root fetch - processPackages [typedhtml]: Downloading https://files.pythonhosted.org/packages/ce/67/54d84b17300faa8fc34c3a9d2fff5e13ef6c1bdf5baa18d2c3f1efb91a9a/typedhtml-0.1.4.tar.gz
+[2023-07-27 06:12:19] INFO root fetch - processPackages [WinDbg-Copilot]: Downloading https://files.pythonhosted.org/packages/71/ea/d2f007dd070009549069b211e1e744fff2561aa857f0710bebd2ec2846f9/windbg_copilot-1.0.8.tar.gz
+[2023-07-27 06:12:20] INFO root fetch - processPackages [conpacks]: Downloading https://files.pythonhosted.org/packages/fe/cf/b8d2458e2c4e74f7aaa7dddb8bfaef19ca1623b6c982bf23d974502fb09e/conpacks-0.0.1.1.tar.gz
+[2023-07-27 06:12:20] INFO root fetch - processPackages [typedhtml]: Downloading https://files.pythonhosted.org/packages/cb/dd/a4bcf5ab4dd452b5714849d89c4c3196a3cd6188b25682188ada183bc71f/typedhtml-0.1.5.tar.gz
+[2023-07-27 06:12:20] INFO root fetch - processPackages [WinDbg-Copilot]: Downloading https://files.pythonhosted.org/packages/98/4d/f4ca3fba186c8dbb546368432f218fe011dcaffda000df1ec41915ec520d/windbg_copilot-1.0.9.tar.gz
+[2023-07-27 06:12:20] INFO root fetch - processPackages [conpacks]: executing diffoscope
+[2023-07-27 06:12:20] INFO root fetch - processPackages [conpacks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conpacks-0.0.1.tar.gz tmp/conpacks-0.0.1.1.tar.gz --markdown 20230727/c/conpacks/0.0.1-0.0.1.1/diff.md --exclude *.pyd
+[2023-07-27 06:12:20] INFO root fetch - processPackages [typedhtml]: executing diffoscope
+[2023-07-27 06:12:20] INFO root fetch - processPackages [typedhtml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typedhtml-0.1.4.tar.gz tmp/typedhtml-0.1.5.tar.gz --markdown 20230727/t/typedhtml/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-27 06:12:20] INFO root fetch - processPackages [WinDbg-Copilot]: executing diffoscope
+[2023-07-27 06:12:20] INFO root fetch - processPackages [WinDbg-Copilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windbg_copilot-1.0.8.tar.gz tmp/windbg_copilot-1.0.9.tar.gz --markdown 20230727/W/WinDbg-Copilot/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-27 06:12:20] INFO root fetch - processPackages [conpacks]: Remove: archive file [/home/abi/fetcher/tmp/conpacks-0.0.1.tar.gz]
+[2023-07-27 06:12:21] INFO root fetch - processPackages [conpacks]: Remove: archive file [/home/abi/fetcher/tmp/conpacks-0.0.1.1.tar.gz]
+[2023-07-27 06:12:21] INFO root fetch - main [MainThread]: End processing [conpacks]: success
+[2023-07-27 06:12:21] INFO root fetch - processPackages [WinDbg-Copilot]: Remove: archive file [/home/abi/fetcher/tmp/windbg_copilot-1.0.8.tar.gz]
+[2023-07-27 06:12:21] INFO root fetch - processPackages [WinDbg-Copilot]: Remove: archive file [/home/abi/fetcher/tmp/windbg_copilot-1.0.9.tar.gz]
+[2023-07-27 06:12:21] INFO root fetch - main [MainThread]: End processing [WinDbg-Copilot]: success
+[2023-07-27 06:12:21] INFO root fetch - processPackages [typedhtml]: Remove: archive file [/home/abi/fetcher/tmp/typedhtml-0.1.4.tar.gz]
+[2023-07-27 06:12:21] INFO root fetch - processPackages [typedhtml]: Remove: archive file [/home/abi/fetcher/tmp/typedhtml-0.1.5.tar.gz]
+[2023-07-27 06:12:21] INFO root fetch - main [MainThread]: End processing [typedhtml]: success
+[2023-07-27 06:12:21] INFO root fetch - main [MainThread]: Store serial: [19054516]
