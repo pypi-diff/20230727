@@ -18560,3 +18560,268 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-27 10:04:05] ERROR root fetch - processPackages [mkdocs-material]: Timeout during execution of pkgdiff
 [2023-07-27 10:04:05] INFO root fetch - main [MainThread]: End processing [mkdocs-material] error
 [2023-07-27 10:04:05] INFO root fetch - main [MainThread]: Store serial: [19056995]
+[2023-07-27 10:09:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19056995]
+[2023-07-27 10:09:16] INFO root fetch - main [MainThread]: Found 26 changed packages
+[2023-07-27 10:09:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: icetcore
+[2023-07-27 10:09:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytknet
+[2023-07-27 10:09:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: voxio
+[2023-07-27 10:09:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: luminal
+[2023-07-27 10:09:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vnpy-icetcore
+[2023-07-27 10:09:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: AsyncChatPractice
+[2023-07-27 10:09:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kobo-md
+[2023-07-27 10:09:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: spark-calibration
+[2023-07-27 10:09:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pytransform3d
+[2023-07-27 10:09:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mecord-cli
+[2023-07-27 10:09:16] INFO root fetch - processPackages [voxio]: New version: [1.0.0] Old Version: [0.1.2]
+[2023-07-27 10:09:16] WARNING root fetch - processPackages [pytknet]: Skipping, unable to determine old version
+[2023-07-27 10:09:16] INFO root fetch - processPackages [pytknet]: Start processing: ikjbot
+[2023-07-27 10:09:16] INFO root fetch - main [MainThread]: End processing [pytknet] error
+[2023-07-27 10:09:16] WARNING root fetch - processPackages [vnpy-icetcore]: Skipping, unable to determine old version
+[2023-07-27 10:09:16] INFO root fetch - processPackages [vnpy-icetcore]: Start processing: volcengine-python-sdk
+[2023-07-27 10:09:16] INFO root fetch - main [MainThread]: End processing [vnpy-icetcore] error
+[2023-07-27 10:09:16] INFO root fetch - processPackages [kobo-md]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-27 10:09:16] INFO root fetch - processPackages [pytransform3d]: New version: [3.3.0] Old Version: [3.2.0]
+[2023-07-27 10:09:17] INFO root fetch - processPackages [icetcore]: New version: [6.2.9] Old Version: [6.2.8]
+[2023-07-27 10:09:17] INFO root fetch - processPackages [AsyncChatPractice]: New version: [0.1.1] Old Version: [0.1]
+[2023-07-27 10:09:17] WARNING root fetch - processPackages [spark-calibration]: Skipping, unable to determine old version
+[2023-07-27 10:09:17] INFO root fetch - processPackages [spark-calibration]: Start processing: nonebot-adapter-villa
+[2023-07-27 10:09:17] INFO root fetch - main [MainThread]: End processing [spark-calibration] error
+[2023-07-27 10:09:17] INFO root fetch - processPackages [mecord-cli]: New version: [0.1.93] Old Version: [0.1.92]
+[2023-07-27 10:09:17] WARNING root fetch - processPackages [luminal]: Skipping, unable to determine old version
+[2023-07-27 10:09:17] INFO root fetch - processPackages [luminal]: Start processing: windmill-api
+[2023-07-27 10:09:17] INFO root fetch - main [MainThread]: End processing [luminal] error
+[2023-07-27 10:09:17] WARNING root fetch - processPackages [ikjbot]: Skipping, unable to determine old version
+[2023-07-27 10:09:17] INFO root fetch - processPackages [ikjbot]: Start processing: wmill
+[2023-07-27 10:09:17] INFO root fetch - main [MainThread]: End processing [ikjbot] error
+[2023-07-27 10:09:17] INFO root fetch - processPackages [volcengine-python-sdk]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-27 10:09:17] INFO root fetch - processPackages [nonebot-adapter-villa]: New version: [0.6.4] Old Version: [0.6.3]
+[2023-07-27 10:09:17] INFO root fetch - processPackages [wmill]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-07-27 10:09:17] INFO root fetch - processPackages [windmill-api]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-07-27 10:09:17] INFO root fetch - processPackages [voxio]: Downloading https://files.pythonhosted.org/packages/3b/29/186ea306c897a730aeed2587933cc1f776db7e20686794912e84c0474f86/voxio-0.1.2.tar.gz
+[2023-07-27 10:09:17] INFO root fetch - processPackages [AsyncChatPractice]: Downloading https://files.pythonhosted.org/packages/a5/da/0204ee85e545f5a359712bf8fb37a904fe1c96a3564e7b10b4720ecf2918/AsyncChatPractice-0.1-py2.py3-none-any.whl
+[2023-07-27 10:09:17] INFO root fetch - processPackages [kobo-md]: Downloading https://files.pythonhosted.org/packages/f8/63/7fc99d2210dcb8fe2742aded7a352c351c91b251d6999387b016f5e48635/kobo-md-0.1.2.tar.gz
+[2023-07-27 10:09:17] INFO root fetch - processPackages [mecord-cli]: Downloading https://files.pythonhosted.org/packages/40/bc/413164f3bcd073095b0f1f366504141e7dcf0b3c79fc79231c57fd9986fe/mecord-cli-0.1.92.tar.gz
+[2023-07-27 10:09:17] INFO root fetch - processPackages [volcengine-python-sdk]: Downloading https://files.pythonhosted.org/packages/ff/75/e607b174f4efc875809400aaf720dd84ad23c6cf463baaa0667f9f458263/volcengine-python-sdk-1.0.8.tar.gz
+[2023-07-27 10:09:17] INFO root fetch - processPackages [nonebot-adapter-villa]: Downloading https://files.pythonhosted.org/packages/11/09/87259832bb80991c78ca27dd4040f7de1ca12f40df0951d63c87aa0cec28/nonebot_adapter_villa-0.6.3.tar.gz
+[2023-07-27 10:09:17] INFO root fetch - processPackages [pytransform3d]: Downloading https://files.pythonhosted.org/packages/cb/2f/233b4e503f2794d2619b162bc474e0d2fa55539a7c8b01a72cbf55dc8310/pytransform3d-3.2.0.tar.gz
+[2023-07-27 10:09:17] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/bd/de/5d29ca258adee967295dbf926ab306c480527c234336f0725d4c2bc1d718/windmill_api-1.98.0.tar.gz
+[2023-07-27 10:09:17] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/6d/91/6b6052c80b8d367e051cc2905d1d921bf9a11f63e27a0f802b5c1277aa20/wmill-1.98.0.tar.gz
+[2023-07-27 10:09:17] INFO root fetch - processPackages [icetcore]: executing diffoscope
+[2023-07-27 10:09:17] INFO root fetch - processPackages [icetcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icetcore-6.2.8-py3-none-any.whl.zip tmp/icetcore-6.2.9.tar.gz --markdown 20230727/i/icetcore/6.2.8-6.2.9/diff.md --exclude *.pyd
+[2023-07-27 10:09:17] INFO root fetch - processPackages [voxio]: Downloading https://files.pythonhosted.org/packages/ab/3f/b511d767a32a473d4d167f6602fd53706bc2b46c40ce7f06f3a5e54b90e0/voxio-1.0.0.tar.gz
+[2023-07-27 10:09:17] INFO root fetch - processPackages [AsyncChatPractice]: Downloading https://files.pythonhosted.org/packages/e0/3e/d36a468e03684febe0649dd67d231e52aea9cc551a0a8e31d47e1e174fce/AsyncChatPractice-0.1.1-py2.py3-none-any.whl
+[2023-07-27 10:09:17] INFO root fetch - processPackages [kobo-md]: Downloading https://files.pythonhosted.org/packages/5a/83/90adfe0d74738663c69b6114b906a1f5a2fb9659d6a398502da9d0fa95fb/kobo-md-0.1.3.tar.gz
+[2023-07-27 10:09:17] INFO root fetch - processPackages [mecord-cli]: Downloading https://files.pythonhosted.org/packages/2e/c5/8971fdb24dd4414be8ca55038c0f2a63121c6ef334e562916dce92c12895/mecord-cli-0.1.93.tar.gz
+[2023-07-27 10:09:17] INFO root fetch - processPackages [nonebot-adapter-villa]: Downloading https://files.pythonhosted.org/packages/70/c5/bd1f4337bf7d116d23014e21c204fd33aa5dea3b74f9f6e11fbf996c0d87/nonebot_adapter_villa-0.6.4.tar.gz
+[2023-07-27 10:09:17] INFO root fetch - processPackages [pytransform3d]: Downloading https://files.pythonhosted.org/packages/93/7d/34066c8ab7c078d5c870ccf3fabd2a0c8eba25cb19247f925960e11a7df6/pytransform3d-3.3.0.tar.gz
+[2023-07-27 10:09:18] INFO root fetch - processPackages [voxio]: executing diffoscope
+[2023-07-27 10:09:18] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/f1/d1/eb5b4c7d25f969fc3603441c8e90a5a8e00688be43ce0631166287977a65/wmill-1.99.0.tar.gz
+[2023-07-27 10:09:18] INFO root fetch - processPackages [voxio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voxio-0.1.2.tar.gz tmp/voxio-1.0.0.tar.gz --markdown 20230727/v/voxio/0.1.2-1.0.0/diff.md --exclude *.pyd
+[2023-07-27 10:09:18] INFO root fetch - processPackages [volcengine-python-sdk]: Downloading https://files.pythonhosted.org/packages/53/6e/bc2e8996b329c0459547989d687871830a3d17036f25d8455e66ffe3b1a8/volcengine-python-sdk-1.0.9.tar.gz
+[2023-07-27 10:09:18] INFO root fetch - processPackages [AsyncChatPractice]: executing diffoscope
+[2023-07-27 10:09:18] INFO root fetch - processPackages [AsyncChatPractice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AsyncChatPractice-0.1-py2.py3-none-any.whl.zip tmp/AsyncChatPractice-0.1.1-py2.py3-none-any.whl.zip --markdown 20230727/A/AsyncChatPractice/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-07-27 10:09:18] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/32/94/9431b41ce6b9c2670fbc125624f7ebc3d186482c80c271e3d7acde511319/windmill_api-1.99.0.tar.gz
+[2023-07-27 10:09:18] INFO root fetch - processPackages [kobo-md]: executing diffoscope
+[2023-07-27 10:09:18] INFO root fetch - processPackages [kobo-md]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kobo-md-0.1.2.tar.gz tmp/kobo-md-0.1.3.tar.gz --markdown 20230727/k/kobo-md/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-27 10:09:18] INFO root fetch - processPackages [mecord-cli]: executing diffoscope
+[2023-07-27 10:09:18] INFO root fetch - processPackages [nonebot-adapter-villa]: executing diffoscope
+[2023-07-27 10:09:18] INFO root fetch - processPackages [nonebot-adapter-villa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_adapter_villa-0.6.3.tar.gz tmp/nonebot_adapter_villa-0.6.4.tar.gz --markdown 20230727/n/nonebot-adapter-villa/0.6.3-0.6.4/diff.md --exclude *.pyd
+[2023-07-27 10:09:18] INFO root fetch - processPackages [mecord-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mecord-cli-0.1.92.tar.gz tmp/mecord-cli-0.1.93.tar.gz --markdown 20230727/m/mecord-cli/0.1.92-0.1.93/diff.md --exclude *.pyd
+[2023-07-27 10:09:18] INFO root fetch - processPackages [windmill-api]: executing diffoscope
+[2023-07-27 10:09:18] INFO root fetch - processPackages [wmill]: executing diffoscope
+[2023-07-27 10:09:18] INFO root fetch - processPackages [windmill-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windmill_api-1.98.0.tar.gz tmp/windmill_api-1.99.0.tar.gz --markdown 20230727/w/windmill-api/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-07-27 10:09:18] INFO root fetch - processPackages [wmill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill-1.98.0.tar.gz tmp/wmill-1.99.0.tar.gz --markdown 20230727/w/wmill/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-07-27 10:09:18] INFO root fetch - processPackages [volcengine-python-sdk]: executing diffoscope
+[2023-07-27 10:09:18] INFO root fetch - processPackages [volcengine-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volcengine-python-sdk-1.0.8.tar.gz tmp/volcengine-python-sdk-1.0.9.tar.gz --markdown 20230727/v/volcengine-python-sdk/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-27 10:09:18] INFO root fetch - processPackages [pytransform3d]: executing diffoscope
+[2023-07-27 10:09:18] INFO root fetch - processPackages [pytransform3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytransform3d-3.2.0.tar.gz tmp/pytransform3d-3.3.0.tar.gz --markdown 20230727/p/pytransform3d/3.2.0-3.3.0/diff.md --exclude *.pyd
+[2023-07-27 10:09:18] ERROR root fetch - processPackages [icetcore]: Diffoscope failed: time="2023-07-27T10:09:17+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['zipinfo {}']' returned non-zero exit status 9.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 252, in compare_details
+    differences.extend(zipinfo_differences(self, other))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 127, in zipinfo_differences
+    zipinfo = Difference.from_operation(Zipinfo, file.path, other.path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid start byte
+
+[2023-07-27 10:09:18] INFO root fetch - processPackages [icetcore]: Start processing: wmill-pg
+[2023-07-27 10:09:18] INFO root fetch - main [MainThread]: End processing [icetcore] error
+[2023-07-27 10:09:19] INFO root fetch - processPackages [wmill-pg]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-07-27 10:09:19] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/a1/22/f7655b5ea090afc59651b874c61bf7bea4694e3fa9720a46058fa34c71ef/wmill_pg-1.98.0.tar.gz
+[2023-07-27 10:09:19] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/26/ac/296bc5f7193d111c826ef99b60bf75fe1605158a73d728a5fad8aa771331/wmill_pg-1.99.0.tar.gz
+[2023-07-27 10:09:19] INFO root fetch - processPackages [wmill-pg]: executing diffoscope
+[2023-07-27 10:09:19] INFO root fetch - processPackages [wmill-pg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill_pg-1.98.0.tar.gz tmp/wmill_pg-1.99.0.tar.gz --markdown 20230727/w/wmill-pg/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-07-27 10:09:19] INFO root fetch - processPackages [voxio]: Remove: archive file [/home/abi/fetcher/tmp/voxio-0.1.2.tar.gz]
+[2023-07-27 10:09:19] INFO root fetch - processPackages [voxio]: Remove: archive file [/home/abi/fetcher/tmp/voxio-1.0.0.tar.gz]
+[2023-07-27 10:09:19] INFO root fetch - processPackages [voxio]: Start processing: jupyterlab-tpt
+[2023-07-27 10:09:19] INFO root fetch - main [MainThread]: End processing [voxio]: success
+[2023-07-27 10:09:19] INFO root fetch - processPackages [jupyterlab-tpt]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-07-27 10:09:19] INFO root fetch - processPackages [kobo-md]: Remove: archive file [/home/abi/fetcher/tmp/kobo-md-0.1.2.tar.gz]
+[2023-07-27 10:09:19] INFO root fetch - processPackages [kobo-md]: Remove: archive file [/home/abi/fetcher/tmp/kobo-md-0.1.3.tar.gz]
+[2023-07-27 10:09:19] INFO root fetch - processPackages [kobo-md]: Start processing: json-matcher
+[2023-07-27 10:09:19] INFO root fetch - main [MainThread]: End processing [kobo-md]: success
+[2023-07-27 10:09:19] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.98.0.tar.gz]
+[2023-07-27 10:09:19] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.99.0.tar.gz]
+[2023-07-27 10:09:19] INFO root fetch - processPackages [wmill]: Start processing: alibabacloud-xrengine20230313
+[2023-07-27 10:09:19] INFO root fetch - main [MainThread]: End processing [wmill]: success
+[2023-07-27 10:09:19] INFO root fetch - processPackages [AsyncChatPractice]: Remove: archive file [/home/abi/fetcher/tmp/AsyncChatPractice-0.1-py2.py3-none-any.whl.zip]
+[2023-07-27 10:09:19] INFO root fetch - processPackages [AsyncChatPractice]: Remove: archive file [/home/abi/fetcher/tmp/AsyncChatPractice-0.1.1-py2.py3-none-any.whl.zip]
+[2023-07-27 10:09:20] INFO root fetch - processPackages [AsyncChatPractice]: Start processing: pytknet
+[2023-07-27 10:09:20] INFO root fetch - main [MainThread]: End processing [AsyncChatPractice]: success
+[2023-07-27 10:09:20] INFO root fetch - processPackages [alibabacloud-xrengine20230313]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-27 10:09:20] INFO root fetch - processPackages [nonebot-adapter-villa]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_adapter_villa-0.6.3.tar.gz]
+[2023-07-27 10:09:20] INFO root fetch - processPackages [nonebot-adapter-villa]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_adapter_villa-0.6.4.tar.gz]
+[2023-07-27 10:09:20] INFO root fetch - processPackages [nonebot-adapter-villa]: Start processing: odoo-somconnexio-python-client
+[2023-07-27 10:09:20] INFO root fetch - main [MainThread]: End processing [nonebot-adapter-villa]: success
+[2023-07-27 10:09:20] INFO root fetch - processPackages [json-matcher]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-27 10:09:20] WARNING root fetch - processPackages [pytknet]: Skipping, unable to determine old version
+[2023-07-27 10:09:20] INFO root fetch - processPackages [pytknet]: Start processing: pyglove
+[2023-07-27 10:09:20] INFO root fetch - main [MainThread]: End processing [pytknet] error
+[2023-07-27 10:09:20] INFO root fetch - processPackages [odoo-somconnexio-python-client]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-27 10:09:20] INFO root fetch - processPackages [mecord-cli]: Remove: archive file [/home/abi/fetcher/tmp/mecord-cli-0.1.92.tar.gz]
+[2023-07-27 10:09:20] INFO root fetch - processPackages [mecord-cli]: Remove: archive file [/home/abi/fetcher/tmp/mecord-cli-0.1.93.tar.gz]
+[2023-07-27 10:09:20] INFO root fetch - processPackages [mecord-cli]: Start processing: chapyter
+[2023-07-27 10:09:20] INFO root fetch - main [MainThread]: End processing [mecord-cli]: success
+[2023-07-27 10:09:20] INFO root fetch - processPackages [jupyterlab-tpt]: Downloading https://files.pythonhosted.org/packages/45/c1/88be71de0c29a92da6737980a064266ee3ab6cf5e4f023c3a37ebd87782c/jupyterlab_tpt-0.3.1.tar.gz
+[2023-07-27 10:09:20] INFO root fetch - processPackages [pyglove]: New version: [0.4.2.dev20230727] Old Version: [0.4.1.dev20230726]
+[2023-07-27 10:09:20] INFO root fetch - processPackages [chapyter]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-27 10:09:20] INFO root fetch - processPackages [alibabacloud-xrengine20230313]: Downloading https://files.pythonhosted.org/packages/d9/62/d4a30a9fa8e8761197945b16d2bfc7bcfc3f13c289075d21ea8a7b2d7d07/alibabacloud_xrengine20230313-1.0.1.tar.gz
+[2023-07-27 10:09:20] INFO root fetch - processPackages [json-matcher]: Downloading https://files.pythonhosted.org/packages/e5/15/43fe7405fb6da36247a2dbc55f35ec9cf868984a7d92c7763e02315954fb/json_matcher-0.0.8.tar.gz
+[2023-07-27 10:09:20] INFO root fetch - processPackages [chapyter]: Downloading https://files.pythonhosted.org/packages/22/ef/783ff45417a0d0cc2f8e4e104f7abef5825663377cc91af770b8906d5ef6/chapyter-0.2.0.tar.gz
+[2023-07-27 10:09:20] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/5c/1a/98731d15ed4b3bcb0449fc9112c326d79bf352b93da1a2d8f636088cc82c/pyglove-0.4.1.dev20230726.tar.gz
+[2023-07-27 10:09:20] INFO root fetch - processPackages [odoo-somconnexio-python-client]: Downloading https://files.pythonhosted.org/packages/7c/b2/c90cc8ba26aa5ea738b48d84041866034780c193542b40b8a5154dcf91e4/odoo-somconnexio-python-client-0.1.8.tar.gz
+[2023-07-27 10:09:20] INFO root fetch - processPackages [alibabacloud-xrengine20230313]: Downloading https://files.pythonhosted.org/packages/9f/18/8d88c17630f3e339bfdd8ab0b9549d4deb28ed3644277b9123d8653f9b78/alibabacloud_xrengine20230313-1.0.2.tar.gz
+[2023-07-27 10:09:20] INFO root fetch - processPackages [alibabacloud-xrengine20230313]: executing diffoscope
+[2023-07-27 10:09:20] INFO root fetch - processPackages [alibabacloud-xrengine20230313]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_xrengine20230313-1.0.1.tar.gz tmp/alibabacloud_xrengine20230313-1.0.2.tar.gz --markdown 20230727/a/alibabacloud-xrengine20230313/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-27 10:09:20] INFO root fetch - processPackages [json-matcher]: Downloading https://files.pythonhosted.org/packages/1f/1d/852418689afe55eb3daccb4db88ce3d8fb091c63557897a602427f7599f4/json_matcher-0.0.9.tar.gz
+[2023-07-27 10:09:20] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/b1/d5/681b366882f4ea392cd05ee75a5b6c5eb8fa2ef43f206654fa2a6f836ae6/pyglove-0.4.2.dev20230727.tar.gz
+[2023-07-27 10:09:20] INFO root fetch - processPackages [jupyterlab-tpt]: Downloading https://files.pythonhosted.org/packages/ac/e6/a51dd7729c0e03ce3e15ab456ccc721ff61016155e2f78746a0dde850574/jupyterlab_tpt-0.4.0.tar.gz
+[2023-07-27 10:09:20] INFO root fetch - processPackages [chapyter]: Downloading https://files.pythonhosted.org/packages/e8/3d/c06f708d91c38d135c441f26d6793cec36e5b38b2e8394237283c0283391/chapyter-0.3.0.tar.gz
+[2023-07-27 10:09:20] INFO root fetch - processPackages [pytransform3d]: Remove: archive file [/home/abi/fetcher/tmp/pytransform3d-3.2.0.tar.gz]
+[2023-07-27 10:09:20] INFO root fetch - processPackages [pytransform3d]: Remove: archive file [/home/abi/fetcher/tmp/pytransform3d-3.3.0.tar.gz]
+[2023-07-27 10:09:20] INFO root fetch - processPackages [pytransform3d]: Start processing: mecord-cli
+[2023-07-27 10:09:21] INFO root fetch - main [MainThread]: End processing [pytransform3d]: success
+[2023-07-27 10:09:21] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.98.0.tar.gz]
+[2023-07-27 10:09:21] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.99.0.tar.gz]
+[2023-07-27 10:09:21] INFO root fetch - processPackages [wmill-pg]: Start processing: tf-nightly
+[2023-07-27 10:09:21] INFO root fetch - main [MainThread]: End processing [wmill-pg]: success
+[2023-07-27 10:09:21] INFO root fetch - processPackages [json-matcher]: executing diffoscope
+[2023-07-27 10:09:21] INFO root fetch - processPackages [mecord-cli]: New version: [0.1.93] Old Version: [0.1.92]
+[2023-07-27 10:09:21] INFO root fetch - processPackages [json-matcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json_matcher-0.0.8.tar.gz tmp/json_matcher-0.0.9.tar.gz --markdown 20230727/j/json-matcher/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-27 10:09:21] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2023-07-27 10:09:21] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.4.1.dev20230726.tar.gz tmp/pyglove-0.4.2.dev20230727.tar.gz --markdown 20230727/p/pyglove/0.4.1.dev20230726-0.4.2.dev20230727/diff.md --exclude *.pyd
+[2023-07-27 10:09:21] INFO root fetch - processPackages [chapyter]: executing diffoscope
+[2023-07-27 10:09:21] INFO root fetch - processPackages [chapyter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chapyter-0.2.0.tar.gz tmp/chapyter-0.3.0.tar.gz --markdown 20230727/c/chapyter/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-27 10:09:21] INFO root fetch - processPackages [odoo-somconnexio-python-client]: Downloading https://files.pythonhosted.org/packages/db/ae/1fbdff028cdf00431a3a68d4c040a09f21c473f177e26349f6c55b50095f/odoo-somconnexio-python-client-0.1.9.tar.gz
+[2023-07-27 10:09:21] INFO root fetch - processPackages [mecord-cli]: Downloading https://files.pythonhosted.org/packages/40/bc/413164f3bcd073095b0f1f366504141e7dcf0b3c79fc79231c57fd9986fe/mecord-cli-0.1.92.tar.gz
+[2023-07-27 10:09:21] INFO root fetch - processPackages [tf-nightly]: New version: [2.14.0.dev20230727] Old Version: [2.14.0.dev20230726]
+[2023-07-27 10:09:21] INFO root fetch - processPackages [jupyterlab-tpt]: executing diffoscope
+[2023-07-27 10:09:21] INFO root fetch - processPackages [jupyterlab-tpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_tpt-0.3.1.tar.gz tmp/jupyterlab_tpt-0.4.0.tar.gz --markdown 20230727/j/jupyterlab-tpt/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-07-27 10:09:21] INFO root fetch - processPackages [odoo-somconnexio-python-client]: executing diffoscope
+[2023-07-27 10:09:21] INFO root fetch - processPackages [odoo-somconnexio-python-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo-somconnexio-python-client-0.1.8.tar.gz tmp/odoo-somconnexio-python-client-0.1.9.tar.gz --markdown 20230727/o/odoo-somconnexio-python-client/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-27 10:09:21] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/56/84/d2942059dd0b8e23f4e7d961b7f2e9691ca2f6a5753560467a02c935b87e/tf_nightly-2.14.0.dev20230726-cp39-cp39-win_amd64.whl
+[2023-07-27 10:09:21] INFO root fetch - processPackages [mecord-cli]: Downloading https://files.pythonhosted.org/packages/2e/c5/8971fdb24dd4414be8ca55038c0f2a63121c6ef334e562916dce92c12895/mecord-cli-0.1.93.tar.gz
+[2023-07-27 10:09:21] INFO root fetch - processPackages [mecord-cli]: executing diffoscope
+[2023-07-27 10:09:21] INFO root fetch - processPackages [mecord-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mecord-cli-0.1.92.tar.gz tmp/mecord-cli-0.1.93.tar.gz --markdown 20230727/m/mecord-cli/0.1.92-0.1.93/diff.md --exclude *.pyd
+[2023-07-27 10:09:21] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/28/0f/c6b79caf1bc0a9cc958713187b0ebec40080bc514a2a14a1533d5f0c5748/tf_nightly-2.14.0.dev20230727-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-27 10:09:22] WARNING root fetch - processPackages [tf-nightly]: Skipping package: exceeds size limit 489245645>=10485760
+[2023-07-27 10:09:22] INFO root fetch - processPackages [tf-nightly]: Start processing: odoo-addon-stock-inventory-count-to-zero
+[2023-07-27 10:09:22] INFO root fetch - main [MainThread]: End processing [tf-nightly] error
+[2023-07-27 10:09:22] WARNING root fetch - processPackages [odoo-addon-stock-inventory-count-to-zero]: Skipping, unable to determine old version
+[2023-07-27 10:09:22] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-inventory-count-to-zero] error
+[2023-07-27 10:09:22] INFO root fetch - processPackages [alibabacloud-xrengine20230313]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_xrengine20230313-1.0.1.tar.gz]
+[2023-07-27 10:09:22] INFO root fetch - processPackages [alibabacloud-xrengine20230313]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_xrengine20230313-1.0.2.tar.gz]
+[2023-07-27 10:09:22] INFO root fetch - main [MainThread]: End processing [alibabacloud-xrengine20230313]: success
+[2023-07-27 10:09:22] INFO root fetch - processPackages [json-matcher]: Remove: archive file [/home/abi/fetcher/tmp/json_matcher-0.0.8.tar.gz]
+[2023-07-27 10:09:22] INFO root fetch - processPackages [json-matcher]: Remove: archive file [/home/abi/fetcher/tmp/json_matcher-0.0.9.tar.gz]
+[2023-07-27 10:09:22] INFO root fetch - main [MainThread]: End processing [json-matcher]: success
+[2023-07-27 10:09:22] INFO root fetch - processPackages [odoo-somconnexio-python-client]: Remove: archive file [/home/abi/fetcher/tmp/odoo-somconnexio-python-client-0.1.8.tar.gz]
+[2023-07-27 10:09:22] INFO root fetch - processPackages [odoo-somconnexio-python-client]: Remove: archive file [/home/abi/fetcher/tmp/odoo-somconnexio-python-client-0.1.9.tar.gz]
+[2023-07-27 10:09:22] INFO root fetch - main [MainThread]: End processing [odoo-somconnexio-python-client]: success
+[2023-07-27 10:09:23] INFO root fetch - processPackages [chapyter]: Remove: archive file [/home/abi/fetcher/tmp/chapyter-0.2.0.tar.gz]
+[2023-07-27 10:09:23] INFO root fetch - processPackages [chapyter]: Remove: archive file [/home/abi/fetcher/tmp/chapyter-0.3.0.tar.gz]
+[2023-07-27 10:09:23] INFO root fetch - main [MainThread]: End processing [chapyter]: success
+[2023-07-27 10:09:23] INFO root fetch - processPackages [mecord-cli]: Remove: archive file [/home/abi/fetcher/tmp/mecord-cli-0.1.92.tar.gz]
+[2023-07-27 10:09:23] INFO root fetch - processPackages [mecord-cli]: Remove: archive file [/home/abi/fetcher/tmp/mecord-cli-0.1.93.tar.gz]
+[2023-07-27 10:09:23] INFO root fetch - main [MainThread]: End processing [mecord-cli]: success
+[2023-07-27 10:09:23] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.1.dev20230726.tar.gz]
+[2023-07-27 10:09:23] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.2.dev20230727.tar.gz]
+[2023-07-27 10:09:23] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2023-07-27 10:09:24] INFO root fetch - processPackages [jupyterlab-tpt]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_tpt-0.3.1.tar.gz]
+[2023-07-27 10:09:24] INFO root fetch - processPackages [jupyterlab-tpt]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_tpt-0.4.0.tar.gz]
+[2023-07-27 10:09:24] INFO root fetch - main [MainThread]: End processing [jupyterlab-tpt]: success
+[2023-07-27 10:09:28] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.98.0.tar.gz]
+[2023-07-27 10:09:28] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.99.0.tar.gz]
+[2023-07-27 10:09:28] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
+[2023-07-27 10:09:32] INFO root fetch - processPackages [volcengine-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/volcengine-python-sdk-1.0.8.tar.gz]
+[2023-07-27 10:09:32] INFO root fetch - processPackages [volcengine-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/volcengine-python-sdk-1.0.9.tar.gz]
+[2023-07-27 10:09:32] INFO root fetch - main [MainThread]: End processing [volcengine-python-sdk]: success
+[2023-07-27 10:09:32] INFO root fetch - main [MainThread]: Store serial: [19057081]
