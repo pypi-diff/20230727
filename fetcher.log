@@ -7436,3 +7436,47 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-27 03:44:26] INFO root fetch - processPackages [aws-lambda-stream]: Remove: archive file [/home/abi/fetcher/tmp/aws_lambda_stream-1.0.9.tar.gz]
 [2023-07-27 03:44:26] INFO root fetch - main [MainThread]: End processing [aws-lambda-stream]: success
 [2023-07-27 03:44:26] INFO root fetch - main [MainThread]: Store serial: [19052972]
+[2023-07-27 03:49:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19052972]
+[2023-07-27 03:49:34] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-27 03:49:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytomography
+[2023-07-27 03:49:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: UploadHub
+[2023-07-27 03:49:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fundaml
+[2023-07-27 03:49:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kestrel-lang
+[2023-07-27 03:49:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mkdocs-pymdownx-material-extras
+[2023-07-27 03:49:35] INFO root fetch - processPackages [fundaml]: New version: [0.1.37] Old Version: [0.1.36]
+[2023-07-27 03:49:35] INFO root fetch - processPackages [pytomography]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-07-27 03:49:35] INFO root fetch - processPackages [kestrel-lang]: New version: [1.7.3] Old Version: [1.7.2]
+[2023-07-27 03:49:35] INFO root fetch - processPackages [mkdocs-pymdownx-material-extras]: New version: [2.5] Old Version: [2.4.3]
+[2023-07-27 03:49:35] INFO root fetch - processPackages [UploadHub]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-27 03:49:35] INFO root fetch - processPackages [fundaml]: Downloading https://files.pythonhosted.org/packages/a7/20/81e6daf443ddacc54aa2604dff5861d32b8e947dba2d0681cbaef21eeece/fundaml-0.1.36.tar.gz
+[2023-07-27 03:49:35] INFO root fetch - processPackages [kestrel-lang]: Downloading https://files.pythonhosted.org/packages/e0/55/eccad285479c6e9fded96dbadce4761d008f68fdec4432bf968bd5d42766/kestrel-lang-1.7.2.tar.gz
+[2023-07-27 03:49:35] INFO root fetch - processPackages [UploadHub]: Downloading https://files.pythonhosted.org/packages/c6/a9/d3697c57592806bc49340cdc79f91c43a49111fe3f4d224a52eeae80f144/UploadHub-0.0.3.tar.gz
+[2023-07-27 03:49:35] INFO root fetch - processPackages [pytomography]: Downloading https://files.pythonhosted.org/packages/77/5b/ae5abe1173f9ec98c9eb659ed029d840801f16a8ae4c4f135a8c5ab7a368/pytomography-0.7.0.tar.gz
+[2023-07-27 03:49:35] INFO root fetch - processPackages [mkdocs-pymdownx-material-extras]: Downloading https://files.pythonhosted.org/packages/a8/47/49a2d2f87f6236b83aa2032145e705ce67332a8c07b431bd9930594450a0/mkdocs_pymdownx_material_extras-2.4.3.tar.gz
+[2023-07-27 03:49:35] WARNING root fetch - processPackages [pytomography]: Skipping package: exceeds size limit 18511010>=10485760
+[2023-07-27 03:49:35] INFO root fetch - main [MainThread]: End processing [pytomography] error
+[2023-07-27 03:49:35] INFO root fetch - processPackages [fundaml]: Downloading https://files.pythonhosted.org/packages/ad/27/ad14334cf84120390c4f4023d4c48be150d858ffac449a932e0a8c86aa36/fundaml-0.1.37.tar.gz
+[2023-07-27 03:49:35] INFO root fetch - processPackages [fundaml]: executing diffoscope
+[2023-07-27 03:49:35] INFO root fetch - processPackages [fundaml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fundaml-0.1.36.tar.gz tmp/fundaml-0.1.37.tar.gz --markdown 20230727/f/fundaml/0.1.36-0.1.37/diff.md --exclude *.pyd
+[2023-07-27 03:49:35] INFO root fetch - processPackages [kestrel-lang]: Downloading https://files.pythonhosted.org/packages/8a/da/455411b33544478b21b3b81fb12b5a09f9d8fe4af9067036b4e010c2934a/kestrel-lang-1.7.3.tar.gz
+[2023-07-27 03:49:35] INFO root fetch - processPackages [UploadHub]: Downloading https://files.pythonhosted.org/packages/a4/70/0d7ec95d533c71090385ed34bc8bf6c4af59de17514e98aa54a779bea58e/UploadHub-0.0.4.tar.gz
+[2023-07-27 03:49:35] INFO root fetch - processPackages [mkdocs-pymdownx-material-extras]: Downloading https://files.pythonhosted.org/packages/63/ac/2539b3d0dce14a02690eecb1e5e83a7891b9b41c4881181f701699af8604/mkdocs_pymdownx_material_extras-2.5.tar.gz
+[2023-07-27 03:49:35] INFO root fetch - processPackages [UploadHub]: executing diffoscope
+[2023-07-27 03:49:35] INFO root fetch - processPackages [UploadHub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UploadHub-0.0.3.tar.gz tmp/UploadHub-0.0.4.tar.gz --markdown 20230727/U/UploadHub/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-27 03:49:35] INFO root fetch - processPackages [mkdocs-pymdownx-material-extras]: executing diffoscope
+[2023-07-27 03:49:35] INFO root fetch - processPackages [mkdocs-pymdownx-material-extras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs_pymdownx_material_extras-2.4.3.tar.gz tmp/mkdocs_pymdownx_material_extras-2.5.tar.gz --markdown 20230727/m/mkdocs-pymdownx-material-extras/2.4.3-2.5/diff.md --exclude *.pyd
+[2023-07-27 03:49:35] INFO root fetch - processPackages [kestrel-lang]: executing diffoscope
+[2023-07-27 03:49:35] INFO root fetch - processPackages [kestrel-lang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kestrel-lang-1.7.2.tar.gz tmp/kestrel-lang-1.7.3.tar.gz --markdown 20230727/k/kestrel-lang/1.7.2-1.7.3/diff.md --exclude *.pyd
+[2023-07-27 03:49:36] INFO root fetch - processPackages [fundaml]: Remove: archive file [/home/abi/fetcher/tmp/fundaml-0.1.36.tar.gz]
+[2023-07-27 03:49:36] INFO root fetch - processPackages [fundaml]: Remove: archive file [/home/abi/fetcher/tmp/fundaml-0.1.37.tar.gz]
+[2023-07-27 03:49:36] INFO root fetch - main [MainThread]: End processing [fundaml]: success
+[2023-07-27 03:49:36] INFO root fetch - processPackages [UploadHub]: Remove: archive file [/home/abi/fetcher/tmp/UploadHub-0.0.3.tar.gz]
+[2023-07-27 03:49:36] INFO root fetch - processPackages [UploadHub]: Remove: archive file [/home/abi/fetcher/tmp/UploadHub-0.0.4.tar.gz]
+[2023-07-27 03:49:36] INFO root fetch - main [MainThread]: End processing [UploadHub]: success
+[2023-07-27 03:49:36] INFO root fetch - processPackages [mkdocs-pymdownx-material-extras]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_pymdownx_material_extras-2.4.3.tar.gz]
+[2023-07-27 03:49:36] INFO root fetch - processPackages [mkdocs-pymdownx-material-extras]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_pymdownx_material_extras-2.5.tar.gz]
+[2023-07-27 03:49:36] INFO root fetch - main [MainThread]: End processing [mkdocs-pymdownx-material-extras]: success
+[2023-07-27 03:49:37] INFO root fetch - processPackages [kestrel-lang]: Remove: archive file [/home/abi/fetcher/tmp/kestrel-lang-1.7.2.tar.gz]
+[2023-07-27 03:49:37] INFO root fetch - processPackages [kestrel-lang]: Remove: archive file [/home/abi/fetcher/tmp/kestrel-lang-1.7.3.tar.gz]
+[2023-07-27 03:49:37] INFO root fetch - main [MainThread]: End processing [kestrel-lang]: success
+[2023-07-27 03:49:37] INFO root fetch - main [MainThread]: Store serial: [19052987]
