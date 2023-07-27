@@ -19553,3 +19553,99 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-07-27 10:41:13] INFO root fetch - processPackages [cwltool]: Remove: archive file [/home/abi/fetcher/tmp/cwltool-3.1.20230624081518.tar.gz]
 [2023-07-27 10:41:13] INFO root fetch - main [MainThread]: End processing [cwltool]: success
 [2023-07-27 10:41:13] INFO root fetch - main [MainThread]: Store serial: [19057429]
+[2023-07-27 10:46:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19057429]
+[2023-07-27 10:46:22] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-27 10:46:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: radicalpy
+[2023-07-27 10:46:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: falconz
+[2023-07-27 10:46:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jnt-django-admin-tools
+[2023-07-27 10:46:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: peewee-aio
+[2023-07-27 10:46:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: llama2-wrapper
+[2023-07-27 10:46:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: navalmartin-mir-aws-utils
+[2023-07-27 10:46:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gdal2numpy
+[2023-07-27 10:46:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nonebot-plugin-makemidi
+[2023-07-27 10:46:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nwa-stdlib
+[2023-07-27 10:46:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: piperider
+[2023-07-27 10:46:22] INFO root fetch - processPackages [peewee-aio]: New version: [1.7.2] Old Version: [1.7.1]
+[2023-07-27 10:46:22] INFO root fetch - processPackages [navalmartin-mir-aws-utils]: New version: [0.0.9] Old Version: [0.0.33]
+[2023-07-27 10:46:22] INFO root fetch - processPackages [llama2-wrapper]: New version: [0.1.2] Old Version: [0.1.0]
+[2023-07-27 10:46:22] INFO root fetch - processPackages [radicalpy]: New version: [0.6.4] Old Version: [0.6.3]
+[2023-07-27 10:46:23] WARNING root fetch - processPackages [falconz]: Skipping, unable to determine old version
+[2023-07-27 10:46:23] INFO root fetch - processPackages [falconz]: Start processing: chatllm
+[2023-07-27 10:46:23] INFO root fetch - main [MainThread]: End processing [falconz] error
+[2023-07-27 10:46:23] INFO root fetch - processPackages [gdal2numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-27 10:46:23] INFO root fetch - processPackages [jnt-django-admin-tools]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-27 10:46:23] INFO root fetch - processPackages [piperider]: New version: [0.9.0rc1] Old Version: [0.9.0]
+[2023-07-27 10:46:23] INFO root fetch - processPackages [nonebot-plugin-makemidi]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-27 10:46:23] INFO root fetch - processPackages [nwa-stdlib]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-07-27 10:46:23] INFO root fetch - processPackages [chatllm]: New version: [2023.7.4.13.43.50] Old Version: [2023.7.4.12.13.14]
+[2023-07-27 10:46:23] INFO root fetch - processPackages [gdal2numpy]: Downloading https://files.pythonhosted.org/packages/8b/c7/c38f143f5db75454a9df08f7ff287cb3de46fb5f10139def0fcb92a15404/gdal2numpy-0.0.98.tar.gz
+[2023-07-27 10:46:23] INFO root fetch - processPackages [peewee-aio]: Downloading https://files.pythonhosted.org/packages/83/c6/02324da4f6bcf1eb51add25ce1b1ecc1687ca297f7637842c86f8c1a9331/peewee_aio-1.7.1.tar.gz
+[2023-07-27 10:46:23] INFO root fetch - processPackages [navalmartin-mir-aws-utils]: Downloading https://files.pythonhosted.org/packages/be/0b/0b4ee40226d2cc112ab90e5b6c78d59a3badb346287eafe0e574fc8b8f2a/navalmartin_mir_aws_utils-0.0.33.tar.gz
+[2023-07-27 10:46:23] INFO root fetch - processPackages [piperider]: Downloading https://files.pythonhosted.org/packages/a4/50/e24b00f8c9eee6add2d234812268358dd31efb1c7692b89e4f2abcf53b3a/piperider-0.9.0.tar.gz
+[2023-07-27 10:46:23] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/ac/15/d8015b5ea1834f5c18e47edecc9b74875a43e81a49b4b2b2372660959ee1/chatllm-2023.7.4.12.13.14.tar.gz
+[2023-07-27 10:46:23] INFO root fetch - processPackages [radicalpy]: Downloading https://files.pythonhosted.org/packages/90/96/4d8e74807cfb3bf33550dcd7af614e1de4ddd9906bdb172a047957ef7652/radicalpy-0.6.3.tar.gz
+[2023-07-27 10:46:23] INFO root fetch - processPackages [jnt-django-admin-tools]: Downloading https://files.pythonhosted.org/packages/fe/6b/b3063a4bb824d4ebe91cc69ca6a29126b8ee3e65e124b4a3226ec325534a/jnt-django-admin-tools-0.9.8.tar.gz
+[2023-07-27 10:46:23] INFO root fetch - processPackages [nwa-stdlib]: Downloading https://files.pythonhosted.org/packages/28/58/f89d52a95263a47f0a7f9f978f5ae24888f77a7255f01f580036e322d465/nwa_stdlib-1.4.8.tar.gz
+[2023-07-27 10:46:23] WARNING root fetch - processPackages [chatllm]: Skipping package: exceeds size limit 11352041>=10485760
+[2023-07-27 10:46:23] INFO root fetch - processPackages [chatllm]: Start processing: bqscales
+[2023-07-27 10:46:23] INFO root fetch - main [MainThread]: End processing [chatllm] error
+[2023-07-27 10:46:23] INFO root fetch - processPackages [nonebot-plugin-makemidi]: Downloading https://files.pythonhosted.org/packages/fe/e0/9f129f0db7fb81e8c6db15916f22350f7926fbf9d0a1db0ae129850a0d21/nonebot_plugin_makemidi-0.1.8.tar.gz
+[2023-07-27 10:46:23] INFO root fetch - processPackages [llama2-wrapper]: Downloading https://files.pythonhosted.org/packages/a2/73/e3dfd6ece57921d7c516f3bee34774b1466e9d49b57aa21c3c064da43656/llama2_wrapper-0.1.2.tar.gz
+[2023-07-27 10:46:23] INFO root fetch - processPackages [gdal2numpy]: Downloading https://files.pythonhosted.org/packages/67/ee/9c755bd5249fc9dc6a1dd773cb241c19b8df83a94fc0674017b57bd19e20/gdal2numpy-0.0.99.tar.gz
+[2023-07-27 10:46:23] INFO root fetch - processPackages [bqscales]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-07-27 10:46:23] INFO root fetch - processPackages [llama2-wrapper]: executing diffoscope
+[2023-07-27 10:46:23] INFO root fetch - processPackages [llama2-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama2_wrapper-0.1.0.tar.gz tmp/llama2_wrapper-0.1.2.tar.gz --markdown 20230727/l/llama2-wrapper/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2023-07-27 10:46:23] INFO root fetch - processPackages [navalmartin-mir-aws-utils]: Downloading https://files.pythonhosted.org/packages/de/f2/244dec2c48d5578424e8f0fb82c2f85844a0f0dbbfa4cfe21c326ba1a274/navalmartin_mir_aws_utils-0.0.9.tar.gz
+[2023-07-27 10:46:23] INFO root fetch - processPackages [peewee-aio]: Downloading https://files.pythonhosted.org/packages/1a/b5/dd9e10c16a8c75e0c5bf8edfa67e523f5bfeb4d14c5f69b22a48641c5a40/peewee_aio-1.7.2.tar.gz
+[2023-07-27 10:46:23] INFO root fetch - processPackages [gdal2numpy]: executing diffoscope
+[2023-07-27 10:46:23] INFO root fetch - processPackages [gdal2numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdal2numpy-0.0.98.tar.gz tmp/gdal2numpy-0.0.99.tar.gz --markdown 20230727/g/gdal2numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-27 10:46:23] INFO root fetch - processPackages [radicalpy]: Downloading https://files.pythonhosted.org/packages/95/ba/a444863815b7eaa64dd438c6504ebbbcc3e4e05c8c214c3174968b69164d/radicalpy-0.6.4.tar.gz
+[2023-07-27 10:46:23] INFO root fetch - processPackages [piperider]: Downloading https://files.pythonhosted.org/packages/7a/f9/9cc8461c7b00069da016c58db04f6c975e2adf28d9cbd443a882dd7396de/piperider-0.9.0rc1.tar.gz
+[2023-07-27 10:46:23] INFO root fetch - processPackages [navalmartin-mir-aws-utils]: executing diffoscope
+[2023-07-27 10:46:23] INFO root fetch - processPackages [navalmartin-mir-aws-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/navalmartin_mir_aws_utils-0.0.33.tar.gz tmp/navalmartin_mir_aws_utils-0.0.9.tar.gz --markdown 20230727/n/navalmartin-mir-aws-utils/0.0.33-0.0.9/diff.md --exclude *.pyd
+[2023-07-27 10:46:23] INFO root fetch - processPackages [nwa-stdlib]: Downloading https://files.pythonhosted.org/packages/f6/0f/4cbe30b8075add59d8a126c9bb95b40e2fe8e884c459014ddc2dafaa8e54/nwa_stdlib-1.4.9.tar.gz
+[2023-07-27 10:46:23] INFO root fetch - processPackages [bqscales]: Downloading https://files.pythonhosted.org/packages/46/d1/737cbaa2d1a9da2386fd0dd3b514bb0bafafe52d3e898614324719ce0ef1/bqscales-0.3.2.tar.gz
+[2023-07-27 10:46:24] INFO root fetch - processPackages [radicalpy]: executing diffoscope
+[2023-07-27 10:46:24] INFO root fetch - processPackages [radicalpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radicalpy-0.6.3.tar.gz tmp/radicalpy-0.6.4.tar.gz --markdown 20230727/r/radicalpy/0.6.3-0.6.4/diff.md --exclude *.pyd
+[2023-07-27 10:46:24] INFO root fetch - processPackages [peewee-aio]: executing diffoscope
+[2023-07-27 10:46:24] INFO root fetch - processPackages [peewee-aio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peewee_aio-1.7.1.tar.gz tmp/peewee_aio-1.7.2.tar.gz --markdown 20230727/p/peewee-aio/1.7.1-1.7.2/diff.md --exclude *.pyd
+[2023-07-27 10:46:24] WARNING root fetch - processPackages [bqscales]: Skipping package: exceeds size limit 46613670>=10485760
+[2023-07-27 10:46:24] INFO root fetch - main [MainThread]: End processing [bqscales] error
+[2023-07-27 10:46:24] INFO root fetch - processPackages [nwa-stdlib]: executing diffoscope
+[2023-07-27 10:46:24] INFO root fetch - processPackages [nwa-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwa_stdlib-1.4.8.tar.gz tmp/nwa_stdlib-1.4.9.tar.gz --markdown 20230727/n/nwa-stdlib/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-07-27 10:46:24] INFO root fetch - processPackages [jnt-django-admin-tools]: Downloading https://files.pythonhosted.org/packages/4a/8d/8e85ee009bdc218cfc4fd6b6e009852d5ac3c4e5ec6b7a1b22fc185c7451/jnt-django-admin-tools-0.9.9.tar.gz
+[2023-07-27 10:46:24] INFO root fetch - processPackages [piperider]: executing diffoscope
+[2023-07-27 10:46:24] INFO root fetch - processPackages [piperider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piperider-0.9.0.tar.gz tmp/piperider-0.9.0rc1.tar.gz --markdown 20230727/p/piperider/0.9.0-0.9.0rc1/diff.md --exclude *.pyd
+[2023-07-27 10:46:24] INFO root fetch - processPackages [nonebot-plugin-makemidi]: Downloading https://files.pythonhosted.org/packages/26/9a/06bcbe10cc298026811268a11f52b081872678f1b8bfd6121446ee890cf5/nonebot_plugin_makemidi-0.1.9.tar.gz
+[2023-07-27 10:46:24] INFO root fetch - processPackages [jnt-django-admin-tools]: executing diffoscope
+[2023-07-27 10:46:24] INFO root fetch - processPackages [jnt-django-admin-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jnt-django-admin-tools-0.9.8.tar.gz tmp/jnt-django-admin-tools-0.9.9.tar.gz --markdown 20230727/j/jnt-django-admin-tools/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-27 10:46:25] INFO root fetch - processPackages [nonebot-plugin-makemidi]: executing diffoscope
+[2023-07-27 10:46:25] INFO root fetch - processPackages [nonebot-plugin-makemidi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_makemidi-0.1.8.tar.gz tmp/nonebot_plugin_makemidi-0.1.9.tar.gz --markdown 20230727/n/nonebot-plugin-makemidi/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-27 10:46:25] INFO root fetch - processPackages [llama2-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/llama2_wrapper-0.1.0.tar.gz]
+[2023-07-27 10:46:25] INFO root fetch - processPackages [llama2-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/llama2_wrapper-0.1.2.tar.gz]
+[2023-07-27 10:46:25] INFO root fetch - main [MainThread]: End processing [llama2-wrapper]: success
+[2023-07-27 10:46:25] INFO root fetch - processPackages [gdal2numpy]: Remove: archive file [/home/abi/fetcher/tmp/gdal2numpy-0.0.98.tar.gz]
+[2023-07-27 10:46:25] INFO root fetch - processPackages [gdal2numpy]: Remove: archive file [/home/abi/fetcher/tmp/gdal2numpy-0.0.99.tar.gz]
+[2023-07-27 10:46:25] INFO root fetch - main [MainThread]: End processing [gdal2numpy]: success
+[2023-07-27 10:46:25] INFO root fetch - processPackages [navalmartin-mir-aws-utils]: Remove: archive file [/home/abi/fetcher/tmp/navalmartin_mir_aws_utils-0.0.33.tar.gz]
+[2023-07-27 10:46:25] INFO root fetch - processPackages [navalmartin-mir-aws-utils]: Remove: archive file [/home/abi/fetcher/tmp/navalmartin_mir_aws_utils-0.0.9.tar.gz]
+[2023-07-27 10:46:25] INFO root fetch - main [MainThread]: End processing [navalmartin-mir-aws-utils]: success
+[2023-07-27 10:46:25] INFO root fetch - processPackages [peewee-aio]: Remove: archive file [/home/abi/fetcher/tmp/peewee_aio-1.7.1.tar.gz]
+[2023-07-27 10:46:25] INFO root fetch - processPackages [peewee-aio]: Remove: archive file [/home/abi/fetcher/tmp/peewee_aio-1.7.2.tar.gz]
+[2023-07-27 10:46:25] INFO root fetch - main [MainThread]: End processing [peewee-aio]: success
+[2023-07-27 10:46:25] INFO root fetch - processPackages [radicalpy]: Remove: archive file [/home/abi/fetcher/tmp/radicalpy-0.6.3.tar.gz]
+[2023-07-27 10:46:25] INFO root fetch - processPackages [radicalpy]: Remove: archive file [/home/abi/fetcher/tmp/radicalpy-0.6.4.tar.gz]
+[2023-07-27 10:46:26] INFO root fetch - main [MainThread]: End processing [radicalpy]: success
+[2023-07-27 10:46:26] INFO root fetch - processPackages [nwa-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nwa_stdlib-1.4.8.tar.gz]
+[2023-07-27 10:46:26] INFO root fetch - processPackages [nwa-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nwa_stdlib-1.4.9.tar.gz]
+[2023-07-27 10:46:26] INFO root fetch - main [MainThread]: End processing [nwa-stdlib]: success
+[2023-07-27 10:46:26] INFO root fetch - processPackages [nonebot-plugin-makemidi]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_makemidi-0.1.8.tar.gz]
+[2023-07-27 10:46:26] INFO root fetch - processPackages [nonebot-plugin-makemidi]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_makemidi-0.1.9.tar.gz]
+[2023-07-27 10:46:26] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-makemidi]: success
+[2023-07-27 10:46:26] INFO root fetch - processPackages [jnt-django-admin-tools]: Remove: archive file [/home/abi/fetcher/tmp/jnt-django-admin-tools-0.9.8.tar.gz]
+[2023-07-27 10:46:26] INFO root fetch - processPackages [jnt-django-admin-tools]: Remove: archive file [/home/abi/fetcher/tmp/jnt-django-admin-tools-0.9.9.tar.gz]
+[2023-07-27 10:46:26] INFO root fetch - main [MainThread]: End processing [jnt-django-admin-tools]: success
+[2023-07-27 10:46:27] INFO root fetch - processPackages [piperider]: Remove: archive file [/home/abi/fetcher/tmp/piperider-0.9.0.tar.gz]
+[2023-07-27 10:46:27] INFO root fetch - processPackages [piperider]: Remove: archive file [/home/abi/fetcher/tmp/piperider-0.9.0rc1.tar.gz]
+[2023-07-27 10:46:27] INFO root fetch - main [MainThread]: End processing [piperider]: success
+[2023-07-27 10:46:27] INFO root fetch - main [MainThread]: Store serial: [19057466]
