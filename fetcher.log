@@ -22846,3 +22846,107 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-27 13:01:15] INFO root fetch - processPackages [tortoise-api]: Remove: archive file [/home/abi/fetcher/tmp/tortoise-api-0.2.1.tar.gz]
 [2023-07-27 13:01:15] INFO root fetch - main [MainThread]: End processing [tortoise-api]: success
 [2023-07-27 13:01:15] INFO root fetch - main [MainThread]: Store serial: [19058757]
+[2023-07-27 13:06:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19058757]
+[2023-07-27 13:06:24] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-27 13:06:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dataclasses-avroschema
+[2023-07-27 13:06:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lesscode-utils
+[2023-07-27 13:06:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dl-plus
+[2023-07-27 13:06:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-webstack
+[2023-07-27 13:06:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fast-bert
+[2023-07-27 13:06:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ipetsc
+[2023-07-27 13:06:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: microlearn-gen-course
+[2023-07-27 13:06:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ag-llama-api-s
+[2023-07-27 13:06:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Products.urban
+[2023-07-27 13:06:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pywikibot
+[2023-07-27 13:06:25] INFO root fetch - processPackages [fast-bert]: New version: [2.0.9] Old Version: [2.0.7]
+[2023-07-27 13:06:25] INFO root fetch - processPackages [dataclasses-avroschema]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-27 13:06:25] INFO root fetch - processPackages [Products.urban]: New version: [2.6.4] Old Version: [2.6.3]
+[2023-07-27 13:06:25] INFO root fetch - processPackages [ag-llama-api-s]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-27 13:06:25] INFO root fetch - processPackages [dl-plus]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-07-27 13:06:25] INFO root fetch - processPackages [microlearn-gen-course]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-27 13:06:25] WARNING root fetch - processPackages [ipetsc]: Skipping, unable to determine old version
+[2023-07-27 13:06:25] INFO root fetch - processPackages [ipetsc]: Start processing: django-olympus
+[2023-07-27 13:06:25] INFO root fetch - main [MainThread]: End processing [ipetsc] error
+[2023-07-27 13:06:25] INFO root fetch - processPackages [lesscode-utils]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-27 13:06:25] INFO root fetch - processPackages [django-webstack]: New version: [1.3.6.1] Old Version: [1.3.6]
+[2023-07-27 13:06:25] INFO root fetch - processPackages [pywikibot]: New version: [8.3.0] Old Version: [8.2.0]
+[2023-07-27 13:06:25] INFO root fetch - processPackages [django-olympus]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-27 13:06:25] INFO root fetch - processPackages [fast-bert]: Downloading https://files.pythonhosted.org/packages/0e/f7/2d369db944bac167265fd7e75a77e562ca01dced9e934c86f10c7808e3d7/fast_bert-2.0.7.tar.gz
+[2023-07-27 13:06:25] INFO root fetch - processPackages [lesscode-utils]: Downloading https://files.pythonhosted.org/packages/f6/0c/2674b4b125ed692da753914dfb77b1585abef09ecc652e664392f26b82d6/lesscode_utils-0.0.8.tar.gz
+[2023-07-27 13:06:25] INFO root fetch - processPackages [django-webstack]: Downloading https://files.pythonhosted.org/packages/54/b7/19e89bb1d83d9cf70f90c9b2bbeaed206130a76cfb07f45a3cc6bdceaa37/django-webstack-1.3.6.tar.gz
+[2023-07-27 13:06:25] INFO root fetch - processPackages [pywikibot]: Downloading https://files.pythonhosted.org/packages/e3/39/e33be38997644bbf64ecf3caece86166835b63c941f106ba1eeecaae9f7e/pywikibot-8.2.0.tar.gz
+[2023-07-27 13:06:25] INFO root fetch - processPackages [dataclasses-avroschema]: Downloading https://files.pythonhosted.org/packages/a5/fb/8ce4dad6fb68b86160ad36f9005f6f7f73f9fb007b588515fbe5a9d73588/dataclasses-avroschema-0.8.0.tar.gz
+[2023-07-27 13:06:25] INFO root fetch - processPackages [ag-llama-api-s]: Downloading https://files.pythonhosted.org/packages/bd/99/d6ab7ac295655f2534b83432084d03b03a010c74c2d1d47273e59a8d3308/ag_llama_api_s-0.0.4.tar.gz
+[2023-07-27 13:06:25] INFO root fetch - processPackages [Products.urban]: Downloading https://files.pythonhosted.org/packages/70/3e/caae007c5dbb7339aa758f55c856477244aa743c19e23abc15485bb27b20/Products.urban-2.6.3.tar.gz
+[2023-07-27 13:06:25] INFO root fetch - processPackages [microlearn-gen-course]: Downloading https://files.pythonhosted.org/packages/9a/93/86eaecda1c8177bd5a48a88594ecf2f9d3fd0e7c8929ca452db88be13e59/microlearn_gen_course-0.0.4.tar.gz
+[2023-07-27 13:06:25] INFO root fetch - processPackages [dl-plus]: Downloading https://files.pythonhosted.org/packages/87/4e/4251fb4a57b0bc5b5ae79aebef0477fd6331c7237ebb4ed304b786368454/dl-plus-0.5.0.tar.gz
+[2023-07-27 13:06:25] INFO root fetch - processPackages [django-olympus]: Downloading https://files.pythonhosted.org/packages/a5/50/2a7b4af289d33ca7d71443b12cfa93290fefdb0b0f378c4e9edec83b39ba/django-olympus-0.0.4.tar.gz
+[2023-07-27 13:06:25] WARNING root fetch - processPackages [Products.urban]: Skipping package: exceeds size limit 22166506>=10485760
+[2023-07-27 13:06:25] INFO root fetch - processPackages [Products.urban]: Start processing: lakaodi
+[2023-07-27 13:06:25] INFO root fetch - main [MainThread]: End processing [Products.urban] error
+[2023-07-27 13:06:25] INFO root fetch - processPackages [fast-bert]: Downloading https://files.pythonhosted.org/packages/c9/d9/a17bbc8960f41c0ab61b1c7efd421eb2122c771bca7cfbae0d51db6f548e/fast_bert-2.0.9.tar.gz
+[2023-07-27 13:06:26] INFO root fetch - processPackages [lesscode-utils]: Downloading https://files.pythonhosted.org/packages/bc/9a/1d07f1121fb39c72396bc71511135f407e314dc626a3fb88ff75f1827718/lesscode_utils-0.0.9.tar.gz
+[2023-07-27 13:06:26] INFO root fetch - processPackages [dataclasses-avroschema]: Downloading https://files.pythonhosted.org/packages/d7/da/865deccd18dc91b8b341a76779391cca2ea3b77382020e10d3c3f44e53d3/dataclasses-avroschema-0.9.0.tar.gz
+[2023-07-27 13:06:26] WARNING root fetch - processPackages [lakaodi]: Skipping, unable to determine old version
+[2023-07-27 13:06:26] INFO root fetch - processPackages [lakaodi]: Start processing: s1290080-learn
+[2023-07-27 13:06:26] INFO root fetch - main [MainThread]: End processing [lakaodi] error
+[2023-07-27 13:06:26] INFO root fetch - processPackages [lesscode-utils]: executing diffoscope
+[2023-07-27 13:06:26] INFO root fetch - processPackages [lesscode-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lesscode_utils-0.0.8.tar.gz tmp/lesscode_utils-0.0.9.tar.gz --markdown 20230727/l/lesscode-utils/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-27 13:06:26] INFO root fetch - processPackages [fast-bert]: executing diffoscope
+[2023-07-27 13:06:26] INFO root fetch - processPackages [fast-bert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast_bert-2.0.7.tar.gz tmp/fast_bert-2.0.9.tar.gz --markdown 20230727/f/fast-bert/2.0.7-2.0.9/diff.md --exclude *.pyd
+[2023-07-27 13:06:26] INFO root fetch - processPackages [django-webstack]: Downloading https://files.pythonhosted.org/packages/6e/67/914db63ef4aeefe36bd7aacc0c055fed46e28bd04bb9dea03a1d2732b312/django-webstack-1.3.6.1.tar.gz
+[2023-07-27 13:06:26] INFO root fetch - processPackages [pywikibot]: Downloading https://files.pythonhosted.org/packages/cf/97/caeb5d2dc62c7ec5d50bcc2e311602c869e32f5112e3d484a5951308c272/pywikibot-8.3.0.tar.gz
+[2023-07-27 13:06:26] INFO root fetch - processPackages [microlearn-gen-course]: Downloading https://files.pythonhosted.org/packages/36/c9/36e84f33e28fc15f10b454723ad4c08904dd191d89a8b3c0c37870f12785/microlearn_gen_course-0.0.5.tar.gz
+[2023-07-27 13:06:26] INFO root fetch - processPackages [ag-llama-api-s]: Downloading https://files.pythonhosted.org/packages/b1/a9/f5004de2d8b9885995d695acb28be9391e712e18cf598f92220d6bc10253/ag_llama_api_s-0.0.5.tar.gz
+[2023-07-27 13:06:26] INFO root fetch - processPackages [django-olympus]: Downloading https://files.pythonhosted.org/packages/2e/93/5cc3d88ac9579798b09e3bdc70d3dbbb06a6ed8f8a7356921dd64a27dfcc/django-olympus-0.0.5.tar.gz
+[2023-07-27 13:06:26] INFO root fetch - processPackages [s1290080-learn]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-27 13:06:26] INFO root fetch - processPackages [microlearn-gen-course]: executing diffoscope
+[2023-07-27 13:06:26] INFO root fetch - processPackages [microlearn-gen-course]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microlearn_gen_course-0.0.4.tar.gz tmp/microlearn_gen_course-0.0.5.tar.gz --markdown 20230727/m/microlearn-gen-course/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-27 13:06:26] INFO root fetch - processPackages [django-webstack]: executing diffoscope
+[2023-07-27 13:06:26] INFO root fetch - processPackages [django-webstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-webstack-1.3.6.tar.gz tmp/django-webstack-1.3.6.1.tar.gz --markdown 20230727/d/django-webstack/1.3.6-1.3.6.1/diff.md --exclude *.pyd
+[2023-07-27 13:06:26] INFO root fetch - processPackages [pywikibot]: executing diffoscope
+[2023-07-27 13:06:26] INFO root fetch - processPackages [pywikibot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywikibot-8.2.0.tar.gz tmp/pywikibot-8.3.0.tar.gz --markdown 20230727/p/pywikibot/8.2.0-8.3.0/diff.md --exclude *.pyd
+[2023-07-27 13:06:26] INFO root fetch - processPackages [dl-plus]: Downloading https://files.pythonhosted.org/packages/d4/06/fc37c140002299797e17f3e70113354fe359d75ddf3afe4db1fba0fbbef3/dl-plus-0.6.0.tar.gz
+[2023-07-27 13:06:26] INFO root fetch - processPackages [ag-llama-api-s]: executing diffoscope
+[2023-07-27 13:06:26] INFO root fetch - processPackages [ag-llama-api-s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ag_llama_api_s-0.0.4.tar.gz tmp/ag_llama_api_s-0.0.5.tar.gz --markdown 20230727/a/ag-llama-api-s/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-27 13:06:26] INFO root fetch - processPackages [django-olympus]: executing diffoscope
+[2023-07-27 13:06:26] INFO root fetch - processPackages [django-olympus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-olympus-0.0.4.tar.gz tmp/django-olympus-0.0.5.tar.gz --markdown 20230727/d/django-olympus/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-27 13:06:26] INFO root fetch - processPackages [dataclasses-avroschema]: executing diffoscope
+[2023-07-27 13:06:26] INFO root fetch - processPackages [dataclasses-avroschema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataclasses-avroschema-0.8.0.tar.gz tmp/dataclasses-avroschema-0.9.0.tar.gz --markdown 20230727/d/dataclasses-avroschema/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-27 13:06:26] INFO root fetch - processPackages [dl-plus]: executing diffoscope
+[2023-07-27 13:06:26] INFO root fetch - processPackages [dl-plus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dl-plus-0.5.0.tar.gz tmp/dl-plus-0.6.0.tar.gz --markdown 20230727/d/dl-plus/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-07-27 13:06:26] INFO root fetch - processPackages [s1290080-learn]: Downloading https://files.pythonhosted.org/packages/08/2e/7d8b41cad0533fcfa4f18497b0635d6c86668b14789ff8c3dd5451572d3c/s1290080_learn-1.0.0.tar.gz
+[2023-07-27 13:06:26] INFO root fetch - processPackages [s1290080-learn]: Downloading https://files.pythonhosted.org/packages/22/6f/b3b7741a452b20d95957cafdc8fc0f7902380a97e110f39cc22170e060e2/s1290080_learn-1.0.1.tar.gz
+[2023-07-27 13:06:27] INFO root fetch - processPackages [s1290080-learn]: executing diffoscope
+[2023-07-27 13:06:27] INFO root fetch - processPackages [s1290080-learn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s1290080_learn-1.0.0.tar.gz tmp/s1290080_learn-1.0.1.tar.gz --markdown 20230727/s/s1290080-learn/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-27 13:06:27] INFO root fetch - processPackages [lesscode-utils]: Remove: archive file [/home/abi/fetcher/tmp/lesscode_utils-0.0.8.tar.gz]
+[2023-07-27 13:06:27] INFO root fetch - processPackages [lesscode-utils]: Remove: archive file [/home/abi/fetcher/tmp/lesscode_utils-0.0.9.tar.gz]
+[2023-07-27 13:06:27] INFO root fetch - main [MainThread]: End processing [lesscode-utils]: success
+[2023-07-27 13:06:27] INFO root fetch - processPackages [django-olympus]: Remove: archive file [/home/abi/fetcher/tmp/django-olympus-0.0.4.tar.gz]
+[2023-07-27 13:06:27] INFO root fetch - processPackages [django-olympus]: Remove: archive file [/home/abi/fetcher/tmp/django-olympus-0.0.5.tar.gz]
+[2023-07-27 13:06:27] INFO root fetch - main [MainThread]: End processing [django-olympus]: success
+[2023-07-27 13:06:28] INFO root fetch - processPackages [microlearn-gen-course]: Remove: archive file [/home/abi/fetcher/tmp/microlearn_gen_course-0.0.4.tar.gz]
+[2023-07-27 13:06:28] INFO root fetch - processPackages [microlearn-gen-course]: Remove: archive file [/home/abi/fetcher/tmp/microlearn_gen_course-0.0.5.tar.gz]
+[2023-07-27 13:06:28] INFO root fetch - main [MainThread]: End processing [microlearn-gen-course]: success
+[2023-07-27 13:06:28] INFO root fetch - processPackages [fast-bert]: Remove: archive file [/home/abi/fetcher/tmp/fast_bert-2.0.7.tar.gz]
+[2023-07-27 13:06:28] INFO root fetch - processPackages [fast-bert]: Remove: archive file [/home/abi/fetcher/tmp/fast_bert-2.0.9.tar.gz]
+[2023-07-27 13:06:28] INFO root fetch - main [MainThread]: End processing [fast-bert]: success
+[2023-07-27 13:06:28] INFO root fetch - processPackages [dl-plus]: Remove: archive file [/home/abi/fetcher/tmp/dl-plus-0.5.0.tar.gz]
+[2023-07-27 13:06:28] INFO root fetch - processPackages [dl-plus]: Remove: archive file [/home/abi/fetcher/tmp/dl-plus-0.6.0.tar.gz]
+[2023-07-27 13:06:28] INFO root fetch - main [MainThread]: End processing [dl-plus]: success
+[2023-07-27 13:06:28] INFO root fetch - processPackages [ag-llama-api-s]: Remove: archive file [/home/abi/fetcher/tmp/ag_llama_api_s-0.0.4.tar.gz]
+[2023-07-27 13:06:28] INFO root fetch - processPackages [ag-llama-api-s]: Remove: archive file [/home/abi/fetcher/tmp/ag_llama_api_s-0.0.5.tar.gz]
+[2023-07-27 13:06:28] INFO root fetch - main [MainThread]: End processing [ag-llama-api-s]: success
+[2023-07-27 13:06:28] INFO root fetch - processPackages [dataclasses-avroschema]: Remove: archive file [/home/abi/fetcher/tmp/dataclasses-avroschema-0.8.0.tar.gz]
+[2023-07-27 13:06:28] INFO root fetch - processPackages [dataclasses-avroschema]: Remove: archive file [/home/abi/fetcher/tmp/dataclasses-avroschema-0.9.0.tar.gz]
+[2023-07-27 13:06:28] INFO root fetch - main [MainThread]: End processing [dataclasses-avroschema]: success
+[2023-07-27 13:06:28] INFO root fetch - processPackages [django-webstack]: Remove: archive file [/home/abi/fetcher/tmp/django-webstack-1.3.6.tar.gz]
+[2023-07-27 13:06:28] INFO root fetch - processPackages [django-webstack]: Remove: archive file [/home/abi/fetcher/tmp/django-webstack-1.3.6.1.tar.gz]
+[2023-07-27 13:06:28] INFO root fetch - main [MainThread]: End processing [django-webstack]: success
+[2023-07-27 13:06:28] INFO root fetch - processPackages [s1290080-learn]: Remove: archive file [/home/abi/fetcher/tmp/s1290080_learn-1.0.0.tar.gz]
+[2023-07-27 13:06:28] INFO root fetch - processPackages [s1290080-learn]: Remove: archive file [/home/abi/fetcher/tmp/s1290080_learn-1.0.1.tar.gz]
+[2023-07-27 13:06:28] INFO root fetch - main [MainThread]: End processing [s1290080-learn]: success
+[2023-07-27 13:06:29] INFO root fetch - processPackages [pywikibot]: Remove: archive file [/home/abi/fetcher/tmp/pywikibot-8.2.0.tar.gz]
+[2023-07-27 13:06:29] INFO root fetch - processPackages [pywikibot]: Remove: archive file [/home/abi/fetcher/tmp/pywikibot-8.3.0.tar.gz]
+[2023-07-27 13:06:29] INFO root fetch - main [MainThread]: End processing [pywikibot]: success
+[2023-07-27 13:06:29] INFO root fetch - main [MainThread]: Store serial: [19058799]
