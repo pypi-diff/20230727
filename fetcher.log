@@ -19417,3 +19417,139 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-07-27 10:35:56] INFO root fetch - processPackages [smartchart]: Remove: archive file [/home/abi/fetcher/tmp/smartchart-6.6.8.3.tar.gz]
 [2023-07-27 10:35:56] INFO root fetch - main [MainThread]: End processing [smartchart]: success
 [2023-07-27 10:35:56] INFO root fetch - main [MainThread]: Store serial: [19057362]
+[2023-07-27 10:41:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19057362]
+[2023-07-27 10:41:05] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-27 10:41:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: min-max-heap
+[2023-07-27 10:41:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gitstats-abilian
+[2023-07-27 10:41:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: binsize
+[2023-07-27 10:41:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chatllm
+[2023-07-27 10:41:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: crop-utils
+[2023-07-27 10:41:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: magnetocaloric
+[2023-07-27 10:41:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: plugin-pb-python
+[2023-07-27 10:41:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tf-estimator-nightly
+[2023-07-27 10:41:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gitaudit
+[2023-07-27 10:41:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: llama2-wrapper
+[2023-07-27 10:41:05] INFO root fetch - processPackages [gitstats-abilian]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-27 10:41:05] INFO root fetch - processPackages [chatllm]: New version: [2023.7.4.13.43.50] Old Version: [2023.7.4.12.13.14]
+[2023-07-27 10:41:05] INFO root fetch - processPackages [llama2-wrapper]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-27 10:41:05] INFO root fetch - processPackages [binsize]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-27 10:41:05] INFO root fetch - processPackages [min-max-heap]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-27 10:41:05] INFO root fetch - processPackages [magnetocaloric]: New version: [1.2.0] Old Version: [1.1.9]
+[2023-07-27 10:41:05] INFO root fetch - processPackages [crop-utils]: New version: [4.3.9] Old Version: [4.3.8]
+[2023-07-27 10:41:05] INFO root fetch - processPackages [gitaudit]: New version: [0.9.0] Old Version: [0.8.8]
+[2023-07-27 10:41:05] INFO root fetch - processPackages [plugin-pb-python]: New version: [0.0.12] Old Version: [0.0.11]
+[2023-07-27 10:41:05] INFO root fetch - processPackages [tf-estimator-nightly]: New version: [2.9.0.dev2022033108] Old Version: [2.9.0.dev2022033008]
+[2023-07-27 10:41:05] INFO root fetch - processPackages [gitaudit]: Downloading https://files.pythonhosted.org/packages/2d/30/e3485fc05b26e6d8d4ef8c4523b201e1e9c27c1f31908756f521ca2c8274/gitaudit-0.8.8.tar.gz
+[2023-07-27 10:41:05] INFO root fetch - processPackages [gitstats-abilian]: Downloading https://files.pythonhosted.org/packages/84/8b/9c585f03cdf4772acce3ab981d53427509412466c1285a849f13dbcc6ef3/gitstats_abilian-1.0.3.tar.gz
+[2023-07-27 10:41:05] INFO root fetch - processPackages [min-max-heap]: Downloading https://files.pythonhosted.org/packages/e9/46/6366f345d7b962a055c7b213eda13a70782fa05c69d010d27ac32eda8172/min_max_heap-1.0.0.tar.gz
+[2023-07-27 10:41:05] INFO root fetch - processPackages [crop-utils]: Downloading https://files.pythonhosted.org/packages/22/56/d0b2dd9920e6fe4f62d3ab8e2d0cf3b5ad1cc731be1ca6f441973d21f295/crop_utils-4.3.8.tar.gz
+[2023-07-27 10:41:05] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/31/a0/5e1b898e43043b32d95e8719e2eb127692fd8261edbdad4801876a46893f/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl
+[2023-07-27 10:41:05] INFO root fetch - processPackages [binsize]: Downloading https://files.pythonhosted.org/packages/3d/39/855d24d99855742a2ece391201fdc188e5a4f4774f94aa9d42228168cce0/binsize-0.1.2.tar.gz
+[2023-07-27 10:41:05] INFO root fetch - processPackages [llama2-wrapper]: Downloading https://files.pythonhosted.org/packages/7b/4a/2a038ded9e7f5bcbc195ab4c06c25720a976451ebef77861e43d3501a641/llama2_wrapper-0.1.0.tar.gz
+[2023-07-27 10:41:05] INFO root fetch - processPackages [magnetocaloric]: Downloading https://files.pythonhosted.org/packages/d9/9b/590f4be39ebe80107966571c7d22b69a4b275b5daad550e56cd4819eae70/magnetocaloric-1.1.9.tar.gz
+[2023-07-27 10:41:05] INFO root fetch - processPackages [plugin-pb-python]: Downloading https://files.pythonhosted.org/packages/3d/1c/342053c941fa3baf6f488f48de3bfb97fa0649cbf70c9db49d0cd598aa0e/plugin-pb-python-0.0.11.tar.gz
+[2023-07-27 10:41:05] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/ac/15/d8015b5ea1834f5c18e47edecc9b74875a43e81a49b4b2b2372660959ee1/chatllm-2023.7.4.12.13.14.tar.gz
+[2023-07-27 10:41:05] WARNING root fetch - processPackages [chatllm]: Skipping package: exceeds size limit 11352041>=10485760
+[2023-07-27 10:41:05] INFO root fetch - processPackages [chatllm]: Start processing: tiledb-jupyter-bioimg
+[2023-07-27 10:41:05] INFO root fetch - main [MainThread]: End processing [chatllm] error
+[2023-07-27 10:41:05] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/1c/b6/fe4f7077ae036fd90bf9dfdc09b52cf611b857e7a26c3bc44a2e76c94af2/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl
+[2023-07-27 10:41:05] INFO root fetch - processPackages [gitstats-abilian]: Downloading https://files.pythonhosted.org/packages/13/bd/c96f4304eb2003c93b27766a89b2b04641fa3f52f55f201dfdcebc1180fe/gitstats_abilian-1.0.4.tar.gz
+[2023-07-27 10:41:06] INFO root fetch - processPackages [tiledb-jupyter-bioimg]: New version: [0.1.4a3] Old Version: [0.1.4a2]
+[2023-07-27 10:41:06] INFO root fetch - processPackages [min-max-heap]: Downloading https://files.pythonhosted.org/packages/5c/65/f8cf0c27b273b0c1f21f45b46da2ad26b110e98ea8376effe42ced6f49d6/min_max_heap-1.0.1.tar.gz
+[2023-07-27 10:41:06] ERROR root fetch - processPackages [llama2-wrapper]: Unable to fetch info: No such project/version 'llama2-wrapper' 0.1.1
+[2023-07-27 10:41:06] INFO root fetch - processPackages [llama2-wrapper]: Start processing: invest-life
+[2023-07-27 10:41:06] INFO root fetch - main [MainThread]: End processing [llama2-wrapper] error
+[2023-07-27 10:41:06] INFO root fetch - processPackages [gitaudit]: Downloading https://files.pythonhosted.org/packages/6d/54/70a010633ae2008eb8086ae94d16bdd384331aa2117faa3e29f8ccfbfd59/gitaudit-0.9.0.tar.gz
+[2023-07-27 10:41:06] INFO root fetch - processPackages [crop-utils]: Downloading https://files.pythonhosted.org/packages/27/40/ef68352cb4ad7de3352fed810faa37e39cb6c5876f544f03b617ed149174/crop_utils-4.3.9.tar.gz
+[2023-07-27 10:41:06] INFO root fetch - processPackages [invest-life]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-27 10:41:06] INFO root fetch - processPackages [binsize]: Downloading https://files.pythonhosted.org/packages/37/3f/268cb0091c7230811bb54e46ef7235d86bd987003f550017ca50c3a1e8f8/binsize-0.1.3.tar.gz
+[2023-07-27 10:41:06] INFO root fetch - processPackages [plugin-pb-python]: Downloading https://files.pythonhosted.org/packages/32/26/dc1598e159bcdacb3ed30ea9a358b4bda20b4b4648dfbce9347263a7487d/plugin-pb-python-0.0.12.tar.gz
+[2023-07-27 10:41:06] INFO root fetch - processPackages [tiledb-jupyter-bioimg]: Downloading https://files.pythonhosted.org/packages/0a/e9/a3e5163223edfe4a8f04da01750eca5a0ac19650733eb45b0d0f2e1e9b0e/tiledb_jupyter_bioimg-0.1.4a2.tar.gz
+[2023-07-27 10:41:06] INFO root fetch - processPackages [min-max-heap]: executing diffoscope
+[2023-07-27 10:41:06] INFO root fetch - processPackages [min-max-heap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/min_max_heap-1.0.0.tar.gz tmp/min_max_heap-1.0.1.tar.gz --markdown 20230727/m/min-max-heap/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-27 10:41:06] INFO root fetch - processPackages [gitstats-abilian]: executing diffoscope
+[2023-07-27 10:41:06] INFO root fetch - processPackages [gitstats-abilian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitstats_abilian-1.0.3.tar.gz tmp/gitstats_abilian-1.0.4.tar.gz --markdown 20230727/g/gitstats-abilian/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-27 10:41:06] INFO root fetch - processPackages [magnetocaloric]: Downloading https://files.pythonhosted.org/packages/0e/e8/e7bd50daf3b8cad99ee2585c1ae2f53c95af9ce16527fdcc9c2af8faf674/magnetocaloric-1.2.0.tar.gz
+[2023-07-27 10:41:06] INFO root fetch - processPackages [invest-life]: Downloading https://files.pythonhosted.org/packages/be/43/73d4e041d2b26f36f1e04f02e065a8b58fe73c132a304da6715671c781d9/invest_life-0.0.3.tar.gz
+[2023-07-27 10:41:06] INFO root fetch - processPackages [tf-estimator-nightly]: executing diffoscope
+[2023-07-27 10:41:06] INFO root fetch - processPackages [tf-estimator-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip --markdown 20230727/t/tf-estimator-nightly/2.9.0.dev2022033008-2.9.0.dev2022033108/diff.md --exclude *.pyd
+[2023-07-27 10:41:06] INFO root fetch - processPackages [crop-utils]: executing diffoscope
+[2023-07-27 10:41:06] INFO root fetch - processPackages [crop-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crop_utils-4.3.8.tar.gz tmp/crop_utils-4.3.9.tar.gz --markdown 20230727/c/crop-utils/4.3.8-4.3.9/diff.md --exclude *.pyd
+[2023-07-27 10:41:06] INFO root fetch - processPackages [gitaudit]: executing diffoscope
+[2023-07-27 10:41:06] INFO root fetch - processPackages [gitaudit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitaudit-0.8.8.tar.gz tmp/gitaudit-0.9.0.tar.gz --markdown 20230727/g/gitaudit/0.8.8-0.9.0/diff.md --exclude *.pyd
+[2023-07-27 10:41:06] INFO root fetch - processPackages [binsize]: executing diffoscope
+[2023-07-27 10:41:06] INFO root fetch - processPackages [binsize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/binsize-0.1.2.tar.gz tmp/binsize-0.1.3.tar.gz --markdown 20230727/b/binsize/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-27 10:41:06] INFO root fetch - processPackages [magnetocaloric]: executing diffoscope
+[2023-07-27 10:41:06] INFO root fetch - processPackages [magnetocaloric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magnetocaloric-1.1.9.tar.gz tmp/magnetocaloric-1.2.0.tar.gz --markdown 20230727/m/magnetocaloric/1.1.9-1.2.0/diff.md --exclude *.pyd
+[2023-07-27 10:41:06] INFO root fetch - processPackages [plugin-pb-python]: executing diffoscope
+[2023-07-27 10:41:06] INFO root fetch - processPackages [plugin-pb-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plugin-pb-python-0.0.11.tar.gz tmp/plugin-pb-python-0.0.12.tar.gz --markdown 20230727/p/plugin-pb-python/0.0.11-0.0.12/diff.md --exclude *.pyd
+[2023-07-27 10:41:06] INFO root fetch - processPackages [invest-life]: Downloading https://files.pythonhosted.org/packages/79/1c/fbacad65b1c70cdfc913b6d503b809463c04b6761f8e444d213796b21781/invest_life-0.0.4.tar.gz
+[2023-07-27 10:41:06] INFO root fetch - processPackages [tiledb-jupyter-bioimg]: Downloading https://files.pythonhosted.org/packages/00/83/db6c99be8c8a36814ff74aa004246e4af1e4431db231f81298fdf38ca842/tiledb_jupyter_bioimg-0.1.4a3.tar.gz
+[2023-07-27 10:41:06] INFO root fetch - processPackages [invest-life]: executing diffoscope
+[2023-07-27 10:41:06] INFO root fetch - processPackages [invest-life]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invest_life-0.0.3.tar.gz tmp/invest_life-0.0.4.tar.gz --markdown 20230727/i/invest-life/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-27 10:41:06] INFO root fetch - processPackages [tiledb-jupyter-bioimg]: executing diffoscope
+[2023-07-27 10:41:06] INFO root fetch - processPackages [tiledb-jupyter-bioimg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tiledb_jupyter_bioimg-0.1.4a2.tar.gz tmp/tiledb_jupyter_bioimg-0.1.4a3.tar.gz --markdown 20230727/t/tiledb-jupyter-bioimg/0.1.4a2-0.1.4a3/diff.md --exclude *.pyd
+[2023-07-27 10:41:07] INFO root fetch - processPackages [min-max-heap]: Remove: archive file [/home/abi/fetcher/tmp/min_max_heap-1.0.0.tar.gz]
+[2023-07-27 10:41:07] INFO root fetch - processPackages [min-max-heap]: Remove: archive file [/home/abi/fetcher/tmp/min_max_heap-1.0.1.tar.gz]
+[2023-07-27 10:41:07] INFO root fetch - processPackages [min-max-heap]: Start processing: streamlit-antd-components
+[2023-07-27 10:41:07] INFO root fetch - main [MainThread]: End processing [min-max-heap]: success
+[2023-07-27 10:41:07] INFO root fetch - processPackages [streamlit-antd-components]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-27 10:41:07] INFO root fetch - processPackages [plugin-pb-python]: Remove: archive file [/home/abi/fetcher/tmp/plugin-pb-python-0.0.11.tar.gz]
+[2023-07-27 10:41:07] INFO root fetch - processPackages [plugin-pb-python]: Remove: archive file [/home/abi/fetcher/tmp/plugin-pb-python-0.0.12.tar.gz]
+[2023-07-27 10:41:07] INFO root fetch - processPackages [plugin-pb-python]: Start processing: pdr-sapphire-wrapper
+[2023-07-27 10:41:07] INFO root fetch - main [MainThread]: End processing [plugin-pb-python]: success
+[2023-07-27 10:41:08] INFO root fetch - processPackages [gitstats-abilian]: Remove: archive file [/home/abi/fetcher/tmp/gitstats_abilian-1.0.3.tar.gz]
+[2023-07-27 10:41:08] INFO root fetch - processPackages [gitstats-abilian]: Remove: archive file [/home/abi/fetcher/tmp/gitstats_abilian-1.0.4.tar.gz]
+[2023-07-27 10:41:08] INFO root fetch - processPackages [gitstats-abilian]: Start processing: cwltool
+[2023-07-27 10:41:08] INFO root fetch - main [MainThread]: End processing [gitstats-abilian]: success
+[2023-07-27 10:41:08] INFO root fetch - processPackages [crop-utils]: Remove: archive file [/home/abi/fetcher/tmp/crop_utils-4.3.8.tar.gz]
+[2023-07-27 10:41:08] INFO root fetch - processPackages [crop-utils]: Remove: archive file [/home/abi/fetcher/tmp/crop_utils-4.3.9.tar.gz]
+[2023-07-27 10:41:08] INFO root fetch - processPackages [crop-utils]: Start processing: audio-toolkit
+[2023-07-27 10:41:08] INFO root fetch - main [MainThread]: End processing [crop-utils]: success
+[2023-07-27 10:41:08] INFO root fetch - processPackages [cwltool]: New version: [3.1.20230624081518] Old Version: [3.1.20230601100705]
+[2023-07-27 10:41:08] WARNING root fetch - processPackages [pdr-sapphire-wrapper]: Skipping, unable to determine old version
+[2023-07-27 10:41:08] INFO root fetch - processPackages [pdr-sapphire-wrapper]: Start processing: tff-nightly
+[2023-07-27 10:41:08] INFO root fetch - main [MainThread]: End processing [pdr-sapphire-wrapper] error
+[2023-07-27 10:41:08] INFO root fetch - processPackages [streamlit-antd-components]: Downloading https://files.pythonhosted.org/packages/71/a4/69b2b5d35db7fea0b23623f5a3e30bf4d55ea7a3508199af446c0d2727ee/streamlit_antd_components-0.1.8-py3-none-any.whl
+[2023-07-27 10:41:08] WARNING root fetch - processPackages [audio-toolkit]: Skipping, unable to determine old version
+[2023-07-27 10:41:08] INFO root fetch - main [MainThread]: End processing [audio-toolkit] error
+[2023-07-27 10:41:08] INFO root fetch - processPackages [gitaudit]: Remove: archive file [/home/abi/fetcher/tmp/gitaudit-0.8.8.tar.gz]
+[2023-07-27 10:41:08] INFO root fetch - processPackages [gitaudit]: Remove: archive file [/home/abi/fetcher/tmp/gitaudit-0.9.0.tar.gz]
+[2023-07-27 10:41:08] INFO root fetch - main [MainThread]: End processing [gitaudit]: success
+[2023-07-27 10:41:08] INFO root fetch - processPackages [tff-nightly]: New version: [0.0.1.dev20230726] Old Version: [0.0.1.dev20230725]
+[2023-07-27 10:41:08] INFO root fetch - processPackages [magnetocaloric]: Remove: archive file [/home/abi/fetcher/tmp/magnetocaloric-1.1.9.tar.gz]
+[2023-07-27 10:41:08] INFO root fetch - processPackages [magnetocaloric]: Remove: archive file [/home/abi/fetcher/tmp/magnetocaloric-1.2.0.tar.gz]
+[2023-07-27 10:41:08] INFO root fetch - main [MainThread]: End processing [magnetocaloric]: success
+[2023-07-27 10:41:08] INFO root fetch - processPackages [invest-life]: Remove: archive file [/home/abi/fetcher/tmp/invest_life-0.0.3.tar.gz]
+[2023-07-27 10:41:08] INFO root fetch - processPackages [invest-life]: Remove: archive file [/home/abi/fetcher/tmp/invest_life-0.0.4.tar.gz]
+[2023-07-27 10:41:08] INFO root fetch - main [MainThread]: End processing [invest-life]: success
+[2023-07-27 10:41:08] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/fa/28/095b1b8de278097c26a4ace8eed3bc6a52014a88c74e39901cd6388cbf9f/tff_nightly-0.0.1.dev20230725-py2.py3-none-any.whl
+[2023-07-27 10:41:08] INFO root fetch - processPackages [binsize]: Remove: archive file [/home/abi/fetcher/tmp/binsize-0.1.2.tar.gz]
+[2023-07-27 10:41:08] INFO root fetch - processPackages [binsize]: Remove: archive file [/home/abi/fetcher/tmp/binsize-0.1.3.tar.gz]
+[2023-07-27 10:41:08] INFO root fetch - main [MainThread]: End processing [binsize]: success
+[2023-07-27 10:41:08] INFO root fetch - processPackages [cwltool]: Downloading https://files.pythonhosted.org/packages/28/84/1a22e454bebf6329eb4900efa0d1e222d17ea84cd98390aeaf26a6ad3c3b/cwltool-3.1.20230601100705.tar.gz
+[2023-07-27 10:41:08] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip]
+[2023-07-27 10:41:08] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip]
+[2023-07-27 10:41:08] INFO root fetch - main [MainThread]: End processing [tf-estimator-nightly]: success
+[2023-07-27 10:41:08] INFO root fetch - processPackages [tiledb-jupyter-bioimg]: Remove: archive file [/home/abi/fetcher/tmp/tiledb_jupyter_bioimg-0.1.4a2.tar.gz]
+[2023-07-27 10:41:08] INFO root fetch - processPackages [tiledb-jupyter-bioimg]: Remove: archive file [/home/abi/fetcher/tmp/tiledb_jupyter_bioimg-0.1.4a3.tar.gz]
+[2023-07-27 10:41:08] INFO root fetch - main [MainThread]: End processing [tiledb-jupyter-bioimg]: success
+[2023-07-27 10:41:08] INFO root fetch - processPackages [cwltool]: Downloading https://files.pythonhosted.org/packages/54/2b/36d285fe4f8688f985c4defbdaed38f6778901ab9d6a519f84523d3fdb43/cwltool-3.1.20230624081518.tar.gz
+[2023-07-27 10:41:08] INFO root fetch - processPackages [streamlit-antd-components]: Downloading https://files.pythonhosted.org/packages/a4/6d/93d46527a663779644fc308a9bffea09ee1a318133b3689c37fd0c59de10/streamlit_antd_components-0.1.9-py3-none-any.whl
+[2023-07-27 10:41:08] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/8e/fa/b90adaf1bd460754dbc58d31c1894ab690496e057d002efd93b8aa9a9a50/tff_nightly-0.0.1.dev20230726-py2.py3-none-any.whl
+[2023-07-27 10:41:09] INFO root fetch - processPackages [cwltool]: executing diffoscope
+[2023-07-27 10:41:09] INFO root fetch - processPackages [cwltool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cwltool-3.1.20230601100705.tar.gz tmp/cwltool-3.1.20230624081518.tar.gz --markdown 20230727/c/cwltool/3.1.20230601100705-3.1.20230624081518/diff.md --exclude *.pyd
+[2023-07-27 10:41:09] INFO root fetch - processPackages [tff-nightly]: executing diffoscope
+[2023-07-27 10:41:09] INFO root fetch - processPackages [tff-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tff_nightly-0.0.1.dev20230725-py2.py3-none-any.whl.zip tmp/tff_nightly-0.0.1.dev20230726-py2.py3-none-any.whl.zip --markdown 20230727/t/tff-nightly/0.0.1.dev20230725-0.0.1.dev20230726/diff.md --exclude *.pyd
+[2023-07-27 10:41:09] INFO root fetch - processPackages [streamlit-antd-components]: executing diffoscope
+[2023-07-27 10:41:09] INFO root fetch - processPackages [streamlit-antd-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_antd_components-0.1.8-py3-none-any.whl.zip tmp/streamlit_antd_components-0.1.9-py3-none-any.whl.zip --markdown 20230727/s/streamlit-antd-components/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-27 10:41:11] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230725-py2.py3-none-any.whl.zip]
+[2023-07-27 10:41:11] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230726-py2.py3-none-any.whl.zip]
+[2023-07-27 10:41:11] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
+[2023-07-27 10:41:11] INFO root fetch - processPackages [streamlit-antd-components]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_antd_components-0.1.8-py3-none-any.whl.zip]
+[2023-07-27 10:41:11] INFO root fetch - processPackages [streamlit-antd-components]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_antd_components-0.1.9-py3-none-any.whl.zip]
+[2023-07-27 10:41:11] INFO root fetch - main [MainThread]: End processing [streamlit-antd-components]: success
+[2023-07-27 10:41:13] INFO root fetch - processPackages [cwltool]: Remove: archive file [/home/abi/fetcher/tmp/cwltool-3.1.20230601100705.tar.gz]
+[2023-07-27 10:41:13] INFO root fetch - processPackages [cwltool]: Remove: archive file [/home/abi/fetcher/tmp/cwltool-3.1.20230624081518.tar.gz]
+[2023-07-27 10:41:13] INFO root fetch - main [MainThread]: End processing [cwltool]: success
+[2023-07-27 10:41:13] INFO root fetch - main [MainThread]: Store serial: [19057429]
