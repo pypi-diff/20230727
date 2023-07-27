@@ -22023,3 +22023,85 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-27 12:17:57] INFO root fetch - processPackages [OpenFisca-France-Local]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca-France-Local-6.0.0.tar.gz]
 [2023-07-27 12:17:57] INFO root fetch - main [MainThread]: End processing [OpenFisca-France-Local]: success
 [2023-07-27 12:17:57] INFO root fetch - main [MainThread]: Store serial: [19058397]
+[2023-07-27 12:23:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19058397]
+[2023-07-27 12:23:12] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-27 12:23:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cycode
+[2023-07-27 12:23:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-adapter-villa
+[2023-07-27 12:23:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: test-library-sina
+[2023-07-27 12:23:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cfstack
+[2023-07-27 12:23:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cfstack
+[2023-07-27 12:23:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: salure-helpers-task-scheduler
+[2023-07-27 12:23:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: beehiiv
+[2023-07-27 12:23:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: axabc
+[2023-07-27 12:23:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: metrapy
+[2023-07-27 12:23:12] INFO root fetch - processPackages [metrapy]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-27 12:23:12] INFO root fetch - processPackages [cfstack]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-27 12:23:12] INFO root fetch - processPackages [cfstack]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-27 12:23:12] INFO root fetch - processPackages [axabc]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-27 12:23:12] INFO root fetch - processPackages [nonebot-adapter-villa]: New version: [0.6.5] Old Version: [0.6.4]
+[2023-07-27 12:23:12] INFO root fetch - processPackages [test-library-sina]: New version: [1.2.1] Old Version: [1.2]
+[2023-07-27 12:23:12] INFO root fetch - processPackages [salure-helpers-task-scheduler]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-07-27 12:23:12] INFO root fetch - processPackages [beehiiv]: New version: [0.2] Old Version: [0.1b0]
+[2023-07-27 12:23:12] INFO root fetch - processPackages [cycode]: New version: [0.2.6.dev9] Old Version: [0.2.6.dev8]
+[2023-07-27 12:23:12] INFO root fetch - processPackages [salure-helpers-task-scheduler]: Downloading https://files.pythonhosted.org/packages/3b/8c/ec81bcae6ea2e027b12366a713b9c7e0f0398a1440a3cac7af40003e2d9c/salure_helpers_task_scheduler-1.1.2.tar.gz
+[2023-07-27 12:23:12] INFO root fetch - processPackages [metrapy]: Downloading https://files.pythonhosted.org/packages/4c/19/4d936c5fdc7c8370f99620fe6d7ae3f86e286f584d03db48a5551c2a2855/metrapy-0.1.1.tar.gz
+[2023-07-27 12:23:12] INFO root fetch - processPackages [test-library-sina]: Downloading https://files.pythonhosted.org/packages/96/2f/166cecd90e8d2c64d73004f641643ed0db6780c33e547c9220ba059deeab/test-library-sina-1.2.tar.gz
+[2023-07-27 12:23:12] INFO root fetch - processPackages [nonebot-adapter-villa]: Downloading https://files.pythonhosted.org/packages/70/c5/bd1f4337bf7d116d23014e21c204fd33aa5dea3b74f9f6e11fbf996c0d87/nonebot_adapter_villa-0.6.4.tar.gz
+[2023-07-27 12:23:12] INFO root fetch - processPackages [axabc]: Downloading https://files.pythonhosted.org/packages/41/c5/b797e58b17775ec27f68316c932448dfa73c089804cd7a559dea828dcd85/axabc-0.0.8.tar.gz
+[2023-07-27 12:23:12] INFO root fetch - processPackages [cycode]: Downloading https://files.pythonhosted.org/packages/40/cb/51280bbe25b1f60e412ee842e5db8968a9feb054f5ae158e200945dfb88b/cycode-0.2.6.dev8.tar.gz
+[2023-07-27 12:23:12] INFO root fetch - processPackages [cfstack]: Downloading https://files.pythonhosted.org/packages/54/a1/d60fa6d612bf32d4ee7fd77f71b3b17a224ca1d7febc983734c824fafab6/cfstack-1.1.8.tar.gz
+[2023-07-27 12:23:12] INFO root fetch - processPackages [cfstack]: Downloading https://files.pythonhosted.org/packages/54/a1/d60fa6d612bf32d4ee7fd77f71b3b17a224ca1d7febc983734c824fafab6/cfstack-1.1.8.tar.gz
+[2023-07-27 12:23:12] INFO root fetch - processPackages [beehiiv]: Downloading https://files.pythonhosted.org/packages/8e/90/f43cccdbf20d4e58fe5e8e6c5c2e8f5973fbabed3091eef47275a01f8857/beehiiv-0.1b0.tar.gz
+[2023-07-27 12:23:12] INFO root fetch - processPackages [test-library-sina]: Downloading https://files.pythonhosted.org/packages/63/99/4ff5c241719da7dff3ade20e4b7035101b0e5e85aedb49f384ca687f8eeb/test_library_sina-1.2.1-py3-none-any.whl
+[2023-07-27 12:23:13] INFO root fetch - processPackages [axabc]: Downloading https://files.pythonhosted.org/packages/60/61/87ebd4434765200cd248acf948bf78aef84ae73165a7cb8854e4f5a4f66d/axabc-0.0.9.tar.gz
+[2023-07-27 12:23:13] INFO root fetch - processPackages [cycode]: Downloading https://files.pythonhosted.org/packages/43/8f/bc3f9b68e32f000f61eb48472d3882d83ee7f5529bfb88ef231e64e45b51/cycode-0.2.6.dev9.tar.gz
+[2023-07-27 12:23:13] INFO root fetch - processPackages [salure-helpers-task-scheduler]: Downloading https://files.pythonhosted.org/packages/c8/d8/9e3d8a1225bc72b855ed305d6adb29220d192b179f2a94c9b9f4fb05ad76/salure_helpers_task_scheduler-1.1.3.tar.gz
+[2023-07-27 12:23:13] INFO root fetch - processPackages [metrapy]: Downloading https://files.pythonhosted.org/packages/34/c5/6f10a801fe8f2878a23e6eed54ebc5e97706dfadef116d2324fcf5d158cc/metrapy-0.1.2.tar.gz
+[2023-07-27 12:23:13] INFO root fetch - processPackages [test-library-sina]: executing diffoscope
+[2023-07-27 12:23:13] INFO root fetch - processPackages [test-library-sina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test-library-sina-1.2.tar.gz tmp/test_library_sina-1.2.1-py3-none-any.whl.zip --markdown 20230727/t/test-library-sina/1.2-1.2.1/diff.md --exclude *.pyd
+[2023-07-27 12:23:13] INFO root fetch - processPackages [nonebot-adapter-villa]: Downloading https://files.pythonhosted.org/packages/32/32/2c74290c5bf4000395faaf81bc2d33b942d46ca5b2f602d56c94bdeefc62/nonebot_adapter_villa-0.6.5.tar.gz
+[2023-07-27 12:23:13] INFO root fetch - processPackages [cfstack]: Downloading https://files.pythonhosted.org/packages/a7/6d/57b08557a2bcd9b11ea42cd789625eb391134560eb28a049f444aed4c531/cfstack-1.1.9.tar.gz
+[2023-07-27 12:23:13] INFO root fetch - processPackages [cfstack]: Downloading https://files.pythonhosted.org/packages/a7/6d/57b08557a2bcd9b11ea42cd789625eb391134560eb28a049f444aed4c531/cfstack-1.1.9.tar.gz
+[2023-07-27 12:23:13] INFO root fetch - processPackages [axabc]: executing diffoscope
+[2023-07-27 12:23:13] INFO root fetch - processPackages [axabc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/axabc-0.0.8.tar.gz tmp/axabc-0.0.9.tar.gz --markdown 20230727/a/axabc/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-27 12:23:13] INFO root fetch - processPackages [cycode]: executing diffoscope
+[2023-07-27 12:23:13] INFO root fetch - processPackages [cycode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cycode-0.2.6.dev8.tar.gz tmp/cycode-0.2.6.dev9.tar.gz --markdown 20230727/c/cycode/0.2.6.dev8-0.2.6.dev9/diff.md --exclude *.pyd
+[2023-07-27 12:23:13] INFO root fetch - processPackages [metrapy]: executing diffoscope
+[2023-07-27 12:23:13] INFO root fetch - processPackages [metrapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metrapy-0.1.1.tar.gz tmp/metrapy-0.1.2.tar.gz --markdown 20230727/m/metrapy/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-27 12:23:13] INFO root fetch - processPackages [nonebot-adapter-villa]: executing diffoscope
+[2023-07-27 12:23:13] INFO root fetch - processPackages [nonebot-adapter-villa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_adapter_villa-0.6.4.tar.gz tmp/nonebot_adapter_villa-0.6.5.tar.gz --markdown 20230727/n/nonebot-adapter-villa/0.6.4-0.6.5/diff.md --exclude *.pyd
+[2023-07-27 12:23:13] INFO root fetch - processPackages [cfstack]: executing diffoscope
+[2023-07-27 12:23:13] INFO root fetch - processPackages [cfstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfstack-1.1.8.tar.gz tmp/cfstack-1.1.9.tar.gz --markdown 20230727/c/cfstack/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-27 12:23:13] INFO root fetch - processPackages [cfstack]: executing diffoscope
+[2023-07-27 12:23:13] INFO root fetch - processPackages [cfstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfstack-1.1.8.tar.gz tmp/cfstack-1.1.9.tar.gz --markdown 20230727/c/cfstack/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-27 12:23:13] INFO root fetch - processPackages [salure-helpers-task-scheduler]: executing diffoscope
+[2023-07-27 12:23:13] INFO root fetch - processPackages [salure-helpers-task-scheduler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/salure_helpers_task_scheduler-1.1.2.tar.gz tmp/salure_helpers_task_scheduler-1.1.3.tar.gz --markdown 20230727/s/salure-helpers-task-scheduler/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-07-27 12:23:13] INFO root fetch - processPackages [beehiiv]: Downloading https://files.pythonhosted.org/packages/d3/cd/6073fc3fbde040e30d87c7da962175d4946a6a27014ec63bd98f232eb04a/beehiiv-0.2.tar.gz
+[2023-07-27 12:23:13] INFO root fetch - processPackages [beehiiv]: executing diffoscope
+[2023-07-27 12:23:13] INFO root fetch - processPackages [beehiiv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beehiiv-0.1b0.tar.gz tmp/beehiiv-0.2.tar.gz --markdown 20230727/b/beehiiv/0.1b0-0.2/diff.md --exclude *.pyd
+[2023-07-27 12:23:14] INFO root fetch - processPackages [test-library-sina]: Remove: archive file [/home/abi/fetcher/tmp/test-library-sina-1.2.tar.gz]
+[2023-07-27 12:23:14] INFO root fetch - processPackages [test-library-sina]: Remove: archive file [/home/abi/fetcher/tmp/test_library_sina-1.2.1-py3-none-any.whl.zip]
+[2023-07-27 12:23:14] INFO root fetch - main [MainThread]: End processing [test-library-sina]: success
+[2023-07-27 12:23:14] INFO root fetch - processPackages [axabc]: Remove: archive file [/home/abi/fetcher/tmp/axabc-0.0.8.tar.gz]
+[2023-07-27 12:23:14] INFO root fetch - processPackages [axabc]: Remove: archive file [/home/abi/fetcher/tmp/axabc-0.0.9.tar.gz]
+[2023-07-27 12:23:14] INFO root fetch - main [MainThread]: End processing [axabc]: success
+[2023-07-27 12:23:14] INFO root fetch - processPackages [salure-helpers-task-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/salure_helpers_task_scheduler-1.1.2.tar.gz]
+[2023-07-27 12:23:14] INFO root fetch - processPackages [salure-helpers-task-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/salure_helpers_task_scheduler-1.1.3.tar.gz]
+[2023-07-27 12:23:14] INFO root fetch - main [MainThread]: End processing [salure-helpers-task-scheduler]: success
+[2023-07-27 12:23:15] INFO root fetch - processPackages [cfstack]: Remove: archive file [/home/abi/fetcher/tmp/cfstack-1.1.8.tar.gz]
+[2023-07-27 12:23:15] INFO root fetch - processPackages [cfstack]: Remove: archive file [/home/abi/fetcher/tmp/cfstack-1.1.9.tar.gz]
+[2023-07-27 12:23:15] INFO root fetch - main [MainThread]: End processing [cfstack]: success
+[2023-07-27 12:23:15] INFO root fetch - processPackages [metrapy]: Remove: archive file [/home/abi/fetcher/tmp/metrapy-0.1.1.tar.gz]
+[2023-07-27 12:23:15] INFO root fetch - processPackages [metrapy]: Remove: archive file [/home/abi/fetcher/tmp/metrapy-0.1.2.tar.gz]
+[2023-07-27 12:23:15] INFO root fetch - main [MainThread]: End processing [metrapy]: success
+[2023-07-27 12:23:15] INFO root fetch - processPackages [nonebot-adapter-villa]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_adapter_villa-0.6.4.tar.gz]
+[2023-07-27 12:23:15] INFO root fetch - processPackages [nonebot-adapter-villa]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_adapter_villa-0.6.5.tar.gz]
+[2023-07-27 12:23:15] INFO root fetch - main [MainThread]: End processing [nonebot-adapter-villa]: success
+[2023-07-27 12:23:15] INFO root fetch - main [MainThread]: End processing [cfstack]: success
+[2023-07-27 12:23:15] INFO root fetch - processPackages [beehiiv]: Remove: archive file [/home/abi/fetcher/tmp/beehiiv-0.1b0.tar.gz]
+[2023-07-27 12:23:15] INFO root fetch - processPackages [beehiiv]: Remove: archive file [/home/abi/fetcher/tmp/beehiiv-0.2.tar.gz]
+[2023-07-27 12:23:15] INFO root fetch - main [MainThread]: End processing [beehiiv]: success
+[2023-07-27 12:23:15] INFO root fetch - processPackages [cycode]: Remove: archive file [/home/abi/fetcher/tmp/cycode-0.2.6.dev8.tar.gz]
+[2023-07-27 12:23:15] INFO root fetch - processPackages [cycode]: Remove: archive file [/home/abi/fetcher/tmp/cycode-0.2.6.dev9.tar.gz]
+[2023-07-27 12:23:15] INFO root fetch - main [MainThread]: End processing [cycode]: success
+[2023-07-27 12:23:15] INFO root fetch - main [MainThread]: Store serial: [19058444]
