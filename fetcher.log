@@ -12367,3 +12367,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-27 06:43:46] INFO root fetch - processPackages [odoo14-addon-pos-product-template]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_pos_product_template-14.0.1.0.4.dev1-py3-none-any.whl.zip]
 [2023-07-27 06:43:46] INFO root fetch - main [MainThread]: End processing [odoo14-addon-pos-product-template]: success
 [2023-07-27 06:43:46] INFO root fetch - main [MainThread]: Store serial: [19054645]
+[2023-07-27 06:48:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19054645]
+[2023-07-27 06:48:55] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-27 06:48:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lbt-dragonfly
+[2023-07-27 06:48:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pycampus
+[2023-07-27 06:48:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: policyengine-us
+[2023-07-27 06:48:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: langchain-experimental
+[2023-07-27 06:48:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rouskinhf
+[2023-07-27 06:48:55] INFO root fetch - processPackages [langchain-experimental]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-27 06:48:55] INFO root fetch - processPackages [pycampus]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-27 06:48:55] INFO root fetch - processPackages [rouskinhf]: New version: [0.2.3] Old Version: [0.2.1]
+[2023-07-27 06:48:55] INFO root fetch - processPackages [policyengine-us]: New version: [0.393.0] Old Version: [0.392.0]
+[2023-07-27 06:48:55] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-07-27 06:48:55] INFO root fetch - processPackages [langchain-experimental]: Downloading https://files.pythonhosted.org/packages/4f/c4/f7411aaea046256f61b3a16f256c2dadd7fea7c06e9df2e5e1028b07f462/langchain_experimental-0.0.4.tar.gz
+[2023-07-27 06:48:55] INFO root fetch - processPackages [rouskinhf]: Downloading https://files.pythonhosted.org/packages/5b/26/d1a14c39a627bc2bbf6667bdfbedc9712046beaad9f5a8163b27071efb2f/rouskinhf-0.2.1.tar.gz
+[2023-07-27 06:48:55] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/4f/d6/569175dd49c21698e6af1c517552a9b550ad96a505742449db7c4e52d35e/policyengine-us-0.392.0.tar.gz
+[2023-07-27 06:48:55] INFO root fetch - processPackages [pycampus]: Downloading https://files.pythonhosted.org/packages/16/5c/73fa60787094ee2d6aac92753aad186ba5856f3526adafc2a8a38c579bde/pycampus-0.1.2.tar.gz
+[2023-07-27 06:48:55] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/be/ae/7267dfd241a0641f3fbadea4128db5ffa29609911cadb5fc4840656bb44a/lbt-dragonfly-0.9.98.tar.gz
+[2023-07-27 06:48:55] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/b4/08/0ca46e9f7eef7b2cce7f0c6110106c42aa35a79bd88110559177f64d733a/lbt-dragonfly-0.9.99.tar.gz
+[2023-07-27 06:48:55] INFO root fetch - processPackages [langchain-experimental]: Downloading https://files.pythonhosted.org/packages/cc/ef/2889ed67b34567e0df6c7d819981d0e14b58fb73d18eb4a39f3fa9db2640/langchain_experimental-0.0.5.tar.gz
+[2023-07-27 06:48:55] INFO root fetch - processPackages [rouskinhf]: Downloading https://files.pythonhosted.org/packages/ba/1f/0d337fabd21df45f521c6fbb35221d86d9fe0bb1d1484a0151937b9c51ed/rouskinhf-0.2.3.tar.gz
+[2023-07-27 06:48:55] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2023-07-27 06:48:55] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20230727/l/lbt-dragonfly/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-07-27 06:48:55] INFO root fetch - processPackages [pycampus]: Downloading https://files.pythonhosted.org/packages/57/e4/d9a56e2f828322dc670c29520172dab0ca4cd16372017e58acdde9d8055e/pycampus-0.1.3.tar.gz
+[2023-07-27 06:48:55] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/a7/27/ac9bc0e7431f945e3f209139cdb95f1a0f8f42df6abc43cb62a26a9c9cb5/policyengine-us-0.393.0.tar.gz
+[2023-07-27 06:48:55] INFO root fetch - processPackages [langchain-experimental]: executing diffoscope
+[2023-07-27 06:48:55] INFO root fetch - processPackages [langchain-experimental]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_experimental-0.0.4.tar.gz tmp/langchain_experimental-0.0.5.tar.gz --markdown 20230727/l/langchain-experimental/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-27 06:48:55] INFO root fetch - processPackages [rouskinhf]: executing diffoscope
+[2023-07-27 06:48:55] INFO root fetch - processPackages [rouskinhf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rouskinhf-0.2.1.tar.gz tmp/rouskinhf-0.2.3.tar.gz --markdown 20230727/r/rouskinhf/0.2.1-0.2.3/diff.md --exclude *.pyd
+[2023-07-27 06:48:55] INFO root fetch - processPackages [pycampus]: executing diffoscope
+[2023-07-27 06:48:55] INFO root fetch - processPackages [pycampus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycampus-0.1.2.tar.gz tmp/pycampus-0.1.3.tar.gz --markdown 20230727/p/pycampus/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-27 06:48:56] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-07-27 06:48:56] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.392.0.tar.gz tmp/policyengine-us-0.393.0.tar.gz --markdown 20230727/p/policyengine-us/0.392.0-0.393.0/diff.md --exclude *.pyd
+[2023-07-27 06:48:56] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.98.tar.gz]
+[2023-07-27 06:48:56] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.99.tar.gz]
+[2023-07-27 06:48:56] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2023-07-27 06:48:56] INFO root fetch - processPackages [pycampus]: Remove: archive file [/home/abi/fetcher/tmp/pycampus-0.1.2.tar.gz]
+[2023-07-27 06:48:56] INFO root fetch - processPackages [pycampus]: Remove: archive file [/home/abi/fetcher/tmp/pycampus-0.1.3.tar.gz]
+[2023-07-27 06:48:56] INFO root fetch - main [MainThread]: End processing [pycampus]: success
+[2023-07-27 06:48:56] INFO root fetch - processPackages [rouskinhf]: Remove: archive file [/home/abi/fetcher/tmp/rouskinhf-0.2.1.tar.gz]
+[2023-07-27 06:48:56] INFO root fetch - processPackages [rouskinhf]: Remove: archive file [/home/abi/fetcher/tmp/rouskinhf-0.2.3.tar.gz]
+[2023-07-27 06:48:56] INFO root fetch - main [MainThread]: End processing [rouskinhf]: success
+[2023-07-27 06:48:57] INFO root fetch - processPackages [langchain-experimental]: Remove: archive file [/home/abi/fetcher/tmp/langchain_experimental-0.0.4.tar.gz]
+[2023-07-27 06:48:57] INFO root fetch - processPackages [langchain-experimental]: Remove: archive file [/home/abi/fetcher/tmp/langchain_experimental-0.0.5.tar.gz]
+[2023-07-27 06:48:57] INFO root fetch - main [MainThread]: End processing [langchain-experimental]: success
+[2023-07-27 06:49:26] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.392.0.tar.gz]
+[2023-07-27 06:49:26] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.393.0.tar.gz]
+[2023-07-27 06:49:26] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-07-27 06:49:26] INFO root fetch - main [MainThread]: Store serial: [19054660]
