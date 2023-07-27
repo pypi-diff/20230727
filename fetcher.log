@@ -21486,3 +21486,98 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-07-27 11:56:26] INFO root fetch - processPackages [finesse]: Remove: archive file [/home/abi/fetcher/tmp/finesse-3.0a8.tar.gz]
 [2023-07-27 11:56:26] INFO root fetch - main [MainThread]: End processing [finesse]: success
 [2023-07-27 11:56:26] INFO root fetch - main [MainThread]: Store serial: [19058148]
+[2023-07-27 12:01:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19058148]
+[2023-07-27 12:01:38] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-27 12:01:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: swagger-coverage
+[2023-07-27 12:01:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bg-reports-sdk
+[2023-07-27 12:01:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tortoise-api-model
+[2023-07-27 12:01:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openvino-model-api
+[2023-07-27 12:01:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openi-beta
+[2023-07-27 12:01:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: test-library-sina
+[2023-07-27 12:01:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: luminesce-sdk-preview
+[2023-07-27 12:01:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: xhac
+[2023-07-27 12:01:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: clouder
+[2023-07-27 12:01:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: plucogen
+[2023-07-27 12:01:39] INFO root fetch - processPackages [swagger-coverage]: New version: [3.2.0] Old Version: [3.1.0]
+[2023-07-27 12:01:39] INFO root fetch - processPackages [openvino-model-api]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-27 12:01:39] INFO root fetch - processPackages [tortoise-api-model]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-27 12:01:39] INFO root fetch - processPackages [openi-beta]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-07-27 12:01:39] WARNING root fetch - processPackages [bg-reports-sdk]: Skipping, unable to determine old version
+[2023-07-27 12:01:39] INFO root fetch - processPackages [test-library-sina]: New version: [1.2] Old Version: [0.2]
+[2023-07-27 12:01:39] INFO root fetch - processPackages [bg-reports-sdk]: Start processing: pymeili
+[2023-07-27 12:01:39] INFO root fetch - main [MainThread]: End processing [bg-reports-sdk] error
+[2023-07-27 12:01:39] INFO root fetch - processPackages [clouder]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-27 12:01:39] INFO root fetch - processPackages [xhac]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-27 12:01:39] WARNING root fetch - processPackages [plucogen]: Skipping, unable to determine old version
+[2023-07-27 12:01:39] INFO root fetch - processPackages [plucogen]: Start processing: qalita
+[2023-07-27 12:01:39] INFO root fetch - main [MainThread]: End processing [plucogen] error
+[2023-07-27 12:01:39] INFO root fetch - processPackages [luminesce-sdk-preview]: New version: [1.9.92] Old Version: [1.9.88]
+[2023-07-27 12:01:39] INFO root fetch - processPackages [pymeili]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-27 12:01:39] INFO root fetch - processPackages [test-library-sina]: Downloading https://files.pythonhosted.org/packages/40/65/acf2307b0ddf40a6141e2c3b3731fc34774ed4192bdde68820ee54e3ce79/test-library-sina-0.2.tar.gz
+[2023-07-27 12:01:39] INFO root fetch - processPackages [pymeili]: Downloading https://files.pythonhosted.org/packages/ac/f4/6956276e04581064ee47117044df67abd1e15b55a5de8bda43bb784fabff/pymeili-0.1.5.tar.gz
+[2023-07-27 12:01:39] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/d3/7b/a9c3e829fb03ae79379224fe34adb99d80c6dbfc5f00ccc44cf429d34f61/luminesce-sdk-preview-1.9.88.tar.gz
+[2023-07-27 12:01:39] INFO root fetch - processPackages [swagger-coverage]: Downloading https://files.pythonhosted.org/packages/f6/de/2ae371fa3ade761ff0d8f9da99d08166ab144eac2b199e495b470c18ab11/swagger-coverage-3.1.0.tar.gz
+[2023-07-27 12:01:39] INFO root fetch - processPackages [xhac]: Downloading https://files.pythonhosted.org/packages/92/06/8faee4a63a9e8a37c6f574be0e09de9e3a21e39aac05da3f81bd214885c8/xhac-0.1.1-py3-none-any.whl
+[2023-07-27 12:01:39] INFO root fetch - processPackages [tortoise-api-model]: Downloading https://files.pythonhosted.org/packages/07/b7/36fccd0972cbfd311502fce380186459cb441738ba63e648a4c403d5a1e1/tortoise_api_model-0.0.3.tar.gz
+[2023-07-27 12:01:39] INFO root fetch - processPackages [qalita]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-27 12:01:39] INFO root fetch - processPackages [openi-beta]: Downloading https://files.pythonhosted.org/packages/79/3e/54fd95f18625d79a905ddc3fc4f4056832fb3736973c45ed74219e0a7828/openi-beta-2.0.3.tar.gz
+[2023-07-27 12:01:39] WARNING root fetch - processPackages [swagger-coverage]: Skipping package: exceeds size limit 16281467>=10485760
+[2023-07-27 12:01:39] INFO root fetch - main [MainThread]: End processing [swagger-coverage] error
+[2023-07-27 12:01:39] INFO root fetch - processPackages [openvino-model-api]: Downloading https://files.pythonhosted.org/packages/af/3b/634e4c7856f12137ea38f9362d73bfe9ce04111e2d5239122635e10b7c5d/openvino_model_api-0.1.3.tar.gz
+[2023-07-27 12:01:39] INFO root fetch - processPackages [clouder]: Downloading https://files.pythonhosted.org/packages/34/45/b2e3c0ca9fa26134275c74a11ca2a8530b81957499a0dec314f84ddbc4bf/clouder-0.0.3.tar.gz
+[2023-07-27 12:01:39] INFO root fetch - processPackages [qalita]: Downloading https://files.pythonhosted.org/packages/44/70/8f7408a84e22c14b5106c760c49de206293dd740246f0917417b443513f5/qalita-1.0.8.tar.gz
+[2023-07-27 12:01:39] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/b4/a1/29e30342ad6b0ee5f31f57c9ebeee25c12a4805f3f972e1908bf31abd599/luminesce-sdk-preview-1.9.92.tar.gz
+[2023-07-27 12:01:39] INFO root fetch - processPackages [test-library-sina]: Downloading https://files.pythonhosted.org/packages/96/2f/166cecd90e8d2c64d73004f641643ed0db6780c33e547c9220ba059deeab/test-library-sina-1.2.tar.gz
+[2023-07-27 12:01:39] INFO root fetch - processPackages [xhac]: Downloading https://files.pythonhosted.org/packages/60/16/8aed921c89ae45d2238b7b05684f70c10fedc1f2afbcec01e9176ab217e4/xhac-0.1.2-py3-none-any.whl
+[2023-07-27 12:01:39] INFO root fetch - processPackages [pymeili]: Downloading https://files.pythonhosted.org/packages/0c/0c/802bbee96c05b11de72e082a2ca025e608379cdae4102d7275eb98a04f2a/pymeili-0.1.6.tar.gz
+[2023-07-27 12:01:39] INFO root fetch - processPackages [tortoise-api-model]: Downloading https://files.pythonhosted.org/packages/3a/72/3bbfa78240ffcf49b24ace5e2f146ed52ace530ea723fcdc7583dd3656b0/tortoise_api_model-0.0.4.tar.gz
+[2023-07-27 12:01:40] INFO root fetch - processPackages [clouder]: Downloading https://files.pythonhosted.org/packages/dc/7f/60aedb95d57ed49d997b64effd3fdb9af25a3169423734fa64123ce358c7/clouder-0.0.4.tar.gz
+[2023-07-27 12:01:40] INFO root fetch - processPackages [openvino-model-api]: Downloading https://files.pythonhosted.org/packages/3c/a2/03f87bf7d2080735e35e44e572897c26601778c2dab8ec4f6d08bf134e45/openvino_model_api-0.1.4.tar.gz
+[2023-07-27 12:01:40] INFO root fetch - processPackages [openi-beta]: Downloading https://files.pythonhosted.org/packages/17/88/169ee7fabb53230b4fbde2461074deb4dc2c76dae8176815a99812a2a045/openi-beta-2.0.4.tar.gz
+[2023-07-27 12:01:40] INFO root fetch - processPackages [luminesce-sdk-preview]: executing diffoscope
+[2023-07-27 12:01:40] INFO root fetch - processPackages [luminesce-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce-sdk-preview-1.9.88.tar.gz tmp/luminesce-sdk-preview-1.9.92.tar.gz --markdown 20230727/l/luminesce-sdk-preview/1.9.88-1.9.92/diff.md --exclude *.pyd
+[2023-07-27 12:01:40] INFO root fetch - processPackages [pymeili]: executing diffoscope
+[2023-07-27 12:01:40] INFO root fetch - processPackages [pymeili]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymeili-0.1.5.tar.gz tmp/pymeili-0.1.6.tar.gz --markdown 20230727/p/pymeili/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-27 12:01:40] INFO root fetch - processPackages [tortoise-api-model]: executing diffoscope
+[2023-07-27 12:01:40] INFO root fetch - processPackages [tortoise-api-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tortoise_api_model-0.0.3.tar.gz tmp/tortoise_api_model-0.0.4.tar.gz --markdown 20230727/t/tortoise-api-model/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-27 12:01:40] INFO root fetch - processPackages [test-library-sina]: executing diffoscope
+[2023-07-27 12:01:40] INFO root fetch - processPackages [test-library-sina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test-library-sina-0.2.tar.gz tmp/test-library-sina-1.2.tar.gz --markdown 20230727/t/test-library-sina/0.2-1.2/diff.md --exclude *.pyd
+[2023-07-27 12:01:40] INFO root fetch - processPackages [qalita]: Downloading https://files.pythonhosted.org/packages/da/48/73734853dacf5e8303d3249b3e98ecdd87870c5cb76d43ea71f2b2b86024/qalita-1.0.9.tar.gz
+[2023-07-27 12:01:40] INFO root fetch - processPackages [xhac]: executing diffoscope
+[2023-07-27 12:01:40] INFO root fetch - processPackages [xhac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xhac-0.1.1-py3-none-any.whl.zip tmp/xhac-0.1.2-py3-none-any.whl.zip --markdown 20230727/x/xhac/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-27 12:01:40] INFO root fetch - processPackages [openvino-model-api]: executing diffoscope
+[2023-07-27 12:01:40] INFO root fetch - processPackages [openvino-model-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openvino_model_api-0.1.3.tar.gz tmp/openvino_model_api-0.1.4.tar.gz --markdown 20230727/o/openvino-model-api/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-27 12:01:40] INFO root fetch - processPackages [openi-beta]: executing diffoscope
+[2023-07-27 12:01:40] INFO root fetch - processPackages [openi-beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openi-beta-2.0.3.tar.gz tmp/openi-beta-2.0.4.tar.gz --markdown 20230727/o/openi-beta/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-07-27 12:01:40] INFO root fetch - processPackages [clouder]: executing diffoscope
+[2023-07-27 12:01:40] INFO root fetch - processPackages [clouder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clouder-0.0.3.tar.gz tmp/clouder-0.0.4.tar.gz --markdown 20230727/c/clouder/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-27 12:01:40] INFO root fetch - processPackages [qalita]: executing diffoscope
+[2023-07-27 12:01:40] INFO root fetch - processPackages [qalita]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qalita-1.0.8.tar.gz tmp/qalita-1.0.9.tar.gz --markdown 20230727/q/qalita/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-27 12:01:41] INFO root fetch - processPackages [test-library-sina]: Remove: archive file [/home/abi/fetcher/tmp/test-library-sina-0.2.tar.gz]
+[2023-07-27 12:01:41] INFO root fetch - processPackages [test-library-sina]: Remove: archive file [/home/abi/fetcher/tmp/test-library-sina-1.2.tar.gz]
+[2023-07-27 12:01:41] INFO root fetch - main [MainThread]: End processing [test-library-sina]: success
+[2023-07-27 12:01:41] INFO root fetch - processPackages [pymeili]: Remove: archive file [/home/abi/fetcher/tmp/pymeili-0.1.5.tar.gz]
+[2023-07-27 12:01:41] INFO root fetch - processPackages [pymeili]: Remove: archive file [/home/abi/fetcher/tmp/pymeili-0.1.6.tar.gz]
+[2023-07-27 12:01:41] INFO root fetch - main [MainThread]: End processing [pymeili]: success
+[2023-07-27 12:01:41] INFO root fetch - processPackages [openvino-model-api]: Remove: archive file [/home/abi/fetcher/tmp/openvino_model_api-0.1.3.tar.gz]
+[2023-07-27 12:01:41] INFO root fetch - processPackages [openvino-model-api]: Remove: archive file [/home/abi/fetcher/tmp/openvino_model_api-0.1.4.tar.gz]
+[2023-07-27 12:01:41] INFO root fetch - main [MainThread]: End processing [openvino-model-api]: success
+[2023-07-27 12:01:41] INFO root fetch - processPackages [tortoise-api-model]: Remove: archive file [/home/abi/fetcher/tmp/tortoise_api_model-0.0.3.tar.gz]
+[2023-07-27 12:01:41] INFO root fetch - processPackages [tortoise-api-model]: Remove: archive file [/home/abi/fetcher/tmp/tortoise_api_model-0.0.4.tar.gz]
+[2023-07-27 12:01:41] INFO root fetch - main [MainThread]: End processing [tortoise-api-model]: success
+[2023-07-27 12:01:41] INFO root fetch - processPackages [qalita]: Remove: archive file [/home/abi/fetcher/tmp/qalita-1.0.8.tar.gz]
+[2023-07-27 12:01:41] INFO root fetch - processPackages [qalita]: Remove: archive file [/home/abi/fetcher/tmp/qalita-1.0.9.tar.gz]
+[2023-07-27 12:01:41] INFO root fetch - main [MainThread]: End processing [qalita]: success
+[2023-07-27 12:01:41] INFO root fetch - processPackages [xhac]: Remove: archive file [/home/abi/fetcher/tmp/xhac-0.1.1-py3-none-any.whl.zip]
+[2023-07-27 12:01:41] INFO root fetch - processPackages [xhac]: Remove: archive file [/home/abi/fetcher/tmp/xhac-0.1.2-py3-none-any.whl.zip]
+[2023-07-27 12:01:41] INFO root fetch - main [MainThread]: End processing [xhac]: success
+[2023-07-27 12:01:41] INFO root fetch - processPackages [openi-beta]: Remove: archive file [/home/abi/fetcher/tmp/openi-beta-2.0.3.tar.gz]
+[2023-07-27 12:01:41] INFO root fetch - processPackages [openi-beta]: Remove: archive file [/home/abi/fetcher/tmp/openi-beta-2.0.4.tar.gz]
+[2023-07-27 12:01:41] INFO root fetch - main [MainThread]: End processing [openi-beta]: success
+[2023-07-27 12:01:41] INFO root fetch - processPackages [clouder]: Remove: archive file [/home/abi/fetcher/tmp/clouder-0.0.3.tar.gz]
+[2023-07-27 12:01:41] INFO root fetch - processPackages [clouder]: Remove: archive file [/home/abi/fetcher/tmp/clouder-0.0.4.tar.gz]
+[2023-07-27 12:01:41] INFO root fetch - main [MainThread]: End processing [clouder]: success
+[2023-07-27 12:01:42] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.88.tar.gz]
+[2023-07-27 12:01:42] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.92.tar.gz]
+[2023-07-27 12:01:42] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
+[2023-07-27 12:01:42] INFO root fetch - main [MainThread]: Store serial: [19058188]
