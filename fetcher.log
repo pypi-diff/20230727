@@ -10869,3 +10869,120 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-27 05:03:52] INFO root fetch - processPackages [genicam]: Remove: archive file [/home/abi/fetcher/tmp/genicam-1.3.0-cp39-cp39-win_amd64.whl.zip]
 [2023-07-27 05:03:52] INFO root fetch - main [MainThread]: End processing [genicam]: success
 [2023-07-27 05:03:52] INFO root fetch - main [MainThread]: Store serial: [19054100]
+[2023-07-27 05:08:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19054100]
+[2023-07-27 05:09:04] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-27 05:09:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stdflow
+[2023-07-27 05:09:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alibabacloud-resourcemanager20200331-py2
+[2023-07-27 05:09:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Ibp2py
+[2023-07-27 05:09:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alibabacloud-resourcemanager20200331
+[2023-07-27 05:09:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pycampus
+[2023-07-27 05:09:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zlgsendcan
+[2023-07-27 05:09:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aliyun-python-sdk-resourcemanager
+[2023-07-27 05:09:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: text-office
+[2023-07-27 05:09:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addon-l10n-es-cooperator
+[2023-07-27 05:09:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dorado
+[2023-07-27 05:09:04] WARNING root fetch - processPackages [pycampus]: Skipping, unable to determine old version
+[2023-07-27 05:09:04] INFO root fetch - processPackages [pycampus]: Start processing: odoo14-addons-oca-cooperative
+[2023-07-27 05:09:04] INFO root fetch - main [MainThread]: End processing [pycampus] error
+[2023-07-27 05:09:04] INFO root fetch - processPackages [aliyun-python-sdk-resourcemanager]: New version: [1.2.6] Old Version: [1.2.5]
+[2023-07-27 05:09:04] INFO root fetch - processPackages [alibabacloud-resourcemanager20200331]: New version: [2.1.6] Old Version: [2.1.5]
+[2023-07-27 05:09:04] INFO root fetch - processPackages [Ibp2py]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-27 05:09:04] INFO root fetch - processPackages [alibabacloud-resourcemanager20200331-py2]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-07-27 05:09:04] INFO root fetch - processPackages [stdflow]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-27 05:09:04] INFO root fetch - processPackages [text-office]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-07-27 05:09:04] INFO root fetch - processPackages [zlgsendcan]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-07-27 05:09:04] INFO root fetch - processPackages [odoo14-addon-l10n-es-cooperator]: New version: [14.0.0.1.1.dev2] Old Version: [14.0.0.1.1]
+[2023-07-27 05:09:05] INFO root fetch - processPackages [dorado]: New version: [2.0.6.dev99] Old Version: [2.0.6.dev97]
+[2023-07-27 05:09:05] INFO root fetch - processPackages [odoo14-addons-oca-cooperative]: New version: [14.0.20230717.0] Old Version: [14.0.20230622.0]
+[2023-07-27 05:09:05] INFO root fetch - processPackages [zlgsendcan]: Downloading https://files.pythonhosted.org/packages/95/26/f6acb4b206a2febb0370fe407c9ca1cd4db3367ac8bc5e630d34dc752eb4/zlgsendcan-1.1.7.tar.gz
+[2023-07-27 05:09:05] INFO root fetch - processPackages [alibabacloud-resourcemanager20200331]: Downloading https://files.pythonhosted.org/packages/27/f9/1439de5ecb521976b15727d228ff295c7637e8d8dd45a7740375e3f22b04/alibabacloud_resourcemanager20200331-2.1.5.tar.gz
+[2023-07-27 05:09:05] INFO root fetch - processPackages [stdflow]: Downloading https://files.pythonhosted.org/packages/1f/29/db5fe9d4676b949b9a763a88748217fccfe3d7f726bb4459e20a130e8b43/stdflow-0.0.5.tar.gz
+[2023-07-27 05:09:05] INFO root fetch - processPackages [aliyun-python-sdk-resourcemanager]: Downloading https://files.pythonhosted.org/packages/73/f0/72b9c321d8a3e048c5b0886fc82116d7131fce9265dade73dafc9759c16d/aliyun-python-sdk-resourcemanager-1.2.5.tar.gz
+[2023-07-27 05:09:05] INFO root fetch - processPackages [alibabacloud-resourcemanager20200331-py2]: Downloading https://files.pythonhosted.org/packages/8b/25/50000fae445a9b36a61770c42ae65370d96010e53583950b9097e29616df/alibabacloud_resourcemanager20200331_py2-1.1.4.tar.gz
+[2023-07-27 05:09:05] INFO root fetch - processPackages [odoo14-addon-l10n-es-cooperator]: Downloading https://files.pythonhosted.org/packages/b6/06/295344a9be6abd500cd8490db5ded0f5e1d95933ff69d6485bf4a687d2c5/odoo14_addon_l10n_es_cooperator-14.0.0.1.1-py3-none-any.whl
+[2023-07-27 05:09:05] INFO root fetch - processPackages [dorado]: Downloading https://files.pythonhosted.org/packages/28/c3/25ec9324622ba0dd720edcd3809a1c623c162133d247d2e22790624c723b/dorado-2.0.6.dev97.tar.gz
+[2023-07-27 05:09:05] INFO root fetch - processPackages [odoo14-addons-oca-cooperative]: Downloading https://files.pythonhosted.org/packages/61/a1/719ca8c202ddaafabbb78e0566ab2df37cc2e0bee923b8ef800477c1de6f/odoo14_addons_oca_cooperative-14.0.20230622.0-py3-none-any.whl
+[2023-07-27 05:09:05] INFO root fetch - processPackages [text-office]: Downloading https://files.pythonhosted.org/packages/ed/88/a4295e5c5ec8614d3afc3ad1d040e4c23208d62e7f378538c57a5881dcb1/text-office-0.2.9.tar.gz
+[2023-07-27 05:09:05] INFO root fetch - processPackages [Ibp2py]: Downloading https://files.pythonhosted.org/packages/ab/64/be914bd00b68b80f1607c3ebe66d8385b7d1a12aac3e1b6ec27b708cd622/Ibp2py-1.0.1.tar.gz
+[2023-07-27 05:09:05] INFO root fetch - processPackages [zlgsendcan]: Downloading https://files.pythonhosted.org/packages/8c/9f/f8bb275e8046a9509d3ee694839228eccb89d3e5e3791e978652fe47bb93/zlgsendcan-1.1.8.tar.gz
+[2023-07-27 05:09:05] INFO root fetch - processPackages [stdflow]: Downloading https://files.pythonhosted.org/packages/5a/33/6e5153603470c41b92a8c59703dbf91abddf9edff5a271331124f97a73b0/stdflow-0.0.6.tar.gz
+[2023-07-27 05:09:05] INFO root fetch - processPackages [alibabacloud-resourcemanager20200331]: Downloading https://files.pythonhosted.org/packages/fa/95/593515d5beebd7754ed776eb024a64f4b4d8b98fa1c9246113f5c3db5187/alibabacloud_resourcemanager20200331-2.1.6.tar.gz
+[2023-07-27 05:09:05] INFO root fetch - processPackages [aliyun-python-sdk-resourcemanager]: Downloading https://files.pythonhosted.org/packages/0c/bf/4f6cf7b76f4cc342a9709eefc69f35c5f5ee0eb41d21ecb03d30ae3a6040/aliyun-python-sdk-resourcemanager-1.2.6.tar.gz
+[2023-07-27 05:09:05] INFO root fetch - processPackages [odoo14-addons-oca-cooperative]: Downloading https://files.pythonhosted.org/packages/d5/cb/adf581c3119dad438f5d1c223355f448259a644987c8cab53b53d96b8730/odoo14_addons_oca_cooperative-14.0.20230717.0-py3-none-any.whl
+[2023-07-27 05:09:05] INFO root fetch - processPackages [Ibp2py]: Downloading https://files.pythonhosted.org/packages/01/88/5b61d762c4d5cc5685e14d7d5448c07457d9d7c36a836af69d318d1d7f5c/Ibp2py-1.0.2.tar.gz
+[2023-07-27 05:09:05] INFO root fetch - processPackages [zlgsendcan]: executing diffoscope
+[2023-07-27 05:09:05] INFO root fetch - processPackages [zlgsendcan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zlgsendcan-1.1.7.tar.gz tmp/zlgsendcan-1.1.8.tar.gz --markdown 20230727/z/zlgsendcan/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-07-27 05:09:05] INFO root fetch - processPackages [stdflow]: executing diffoscope
+[2023-07-27 05:09:05] INFO root fetch - processPackages [stdflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stdflow-0.0.5.tar.gz tmp/stdflow-0.0.6.tar.gz --markdown 20230727/s/stdflow/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-27 05:09:05] INFO root fetch - processPackages [alibabacloud-resourcemanager20200331-py2]: Downloading https://files.pythonhosted.org/packages/91/2f/6dec8278607bf0bcf03327fbe721da6ad5d587e672b1d407482627ca416c/alibabacloud_resourcemanager20200331_py2-1.1.5.tar.gz
+[2023-07-27 05:09:06] INFO root fetch - processPackages [text-office]: Downloading https://files.pythonhosted.org/packages/1d/0a/2cc31041db37f5e31d7210aaf0c973f13a2f7ed601ba803a213698bef333/text-office-0.3.0.tar.gz
+[2023-07-27 05:09:06] INFO root fetch - processPackages [odoo14-addon-l10n-es-cooperator]: Downloading https://files.pythonhosted.org/packages/48/7a/7161dd5c3ab749f4948a1d749a44e99b83ef381c3a3b6126804e4084fb63/odoo14_addon_l10n_es_cooperator-14.0.0.1.1.dev2-py3-none-any.whl
+[2023-07-27 05:09:06] INFO root fetch - processPackages [aliyun-python-sdk-resourcemanager]: executing diffoscope
+[2023-07-27 05:09:06] INFO root fetch - processPackages [aliyun-python-sdk-resourcemanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-resourcemanager-1.2.5.tar.gz tmp/aliyun-python-sdk-resourcemanager-1.2.6.tar.gz --markdown 20230727/a/aliyun-python-sdk-resourcemanager/1.2.5-1.2.6/diff.md --exclude *.pyd
+[2023-07-27 05:09:06] INFO root fetch - processPackages [odoo14-addons-oca-cooperative]: executing diffoscope
+[2023-07-27 05:09:06] INFO root fetch - processPackages [odoo14-addons-oca-cooperative]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_cooperative-14.0.20230622.0-py3-none-any.whl.zip tmp/odoo14_addons_oca_cooperative-14.0.20230717.0-py3-none-any.whl.zip --markdown 20230727/o/odoo14-addons-oca-cooperative/14.0.20230622.0-14.0.20230717.0/diff.md --exclude *.pyd
+[2023-07-27 05:09:06] INFO root fetch - processPackages [dorado]: Downloading https://files.pythonhosted.org/packages/b9/2e/854512bc2085bd5738d74bd4b50e4a958e43ee3e802999c5402e429e6030/dorado-2.0.6.dev99.tar.gz
+[2023-07-27 05:09:06] INFO root fetch - processPackages [alibabacloud-resourcemanager20200331]: executing diffoscope
+[2023-07-27 05:09:06] INFO root fetch - processPackages [alibabacloud-resourcemanager20200331]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_resourcemanager20200331-2.1.5.tar.gz tmp/alibabacloud_resourcemanager20200331-2.1.6.tar.gz --markdown 20230727/a/alibabacloud-resourcemanager20200331/2.1.5-2.1.6/diff.md --exclude *.pyd
+[2023-07-27 05:09:06] INFO root fetch - processPackages [Ibp2py]: executing diffoscope
+[2023-07-27 05:09:06] INFO root fetch - processPackages [Ibp2py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Ibp2py-1.0.1.tar.gz tmp/Ibp2py-1.0.2.tar.gz --markdown 20230727/I/Ibp2py/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-27 05:09:06] INFO root fetch - processPackages [alibabacloud-resourcemanager20200331-py2]: executing diffoscope
+[2023-07-27 05:09:06] INFO root fetch - processPackages [alibabacloud-resourcemanager20200331-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_resourcemanager20200331_py2-1.1.4.tar.gz tmp/alibabacloud_resourcemanager20200331_py2-1.1.5.tar.gz --markdown 20230727/a/alibabacloud-resourcemanager20200331-py2/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-07-27 05:09:06] INFO root fetch - processPackages [odoo14-addon-l10n-es-cooperator]: executing diffoscope
+[2023-07-27 05:09:06] INFO root fetch - processPackages [odoo14-addon-l10n-es-cooperator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_es_cooperator-14.0.0.1.1-py3-none-any.whl.zip tmp/odoo14_addon_l10n_es_cooperator-14.0.0.1.1.dev2-py3-none-any.whl.zip --markdown 20230727/o/odoo14-addon-l10n-es-cooperator/14.0.0.1.1-14.0.0.1.1.dev2/diff.md --exclude *.pyd
+[2023-07-27 05:09:06] INFO root fetch - processPackages [text-office]: executing diffoscope
+[2023-07-27 05:09:06] INFO root fetch - processPackages [text-office]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text-office-0.2.9.tar.gz tmp/text-office-0.3.0.tar.gz --markdown 20230727/t/text-office/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2023-07-27 05:09:06] INFO root fetch - processPackages [dorado]: executing diffoscope
+[2023-07-27 05:09:06] INFO root fetch - processPackages [dorado]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dorado-2.0.6.dev97.tar.gz tmp/dorado-2.0.6.dev99.tar.gz --markdown 20230727/d/dorado/2.0.6.dev97-2.0.6.dev99/diff.md --exclude *.pyd
+[2023-07-27 05:09:07] INFO root fetch - processPackages [zlgsendcan]: Remove: archive file [/home/abi/fetcher/tmp/zlgsendcan-1.1.7.tar.gz]
+[2023-07-27 05:09:07] INFO root fetch - processPackages [zlgsendcan]: Remove: archive file [/home/abi/fetcher/tmp/zlgsendcan-1.1.8.tar.gz]
+[2023-07-27 05:09:07] INFO root fetch - processPackages [zlgsendcan]: Start processing: waveforms
+[2023-07-27 05:09:07] INFO root fetch - main [MainThread]: End processing [zlgsendcan]: success
+[2023-07-27 05:09:07] INFO root fetch - processPackages [odoo14-addons-oca-cooperative]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_cooperative-14.0.20230622.0-py3-none-any.whl.zip]
+[2023-07-27 05:09:07] INFO root fetch - processPackages [odoo14-addons-oca-cooperative]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_cooperative-14.0.20230717.0-py3-none-any.whl.zip]
+[2023-07-27 05:09:07] INFO root fetch - processPackages [odoo14-addons-oca-cooperative]: Start processing: edge-pptx
+[2023-07-27 05:09:07] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-cooperative]: success
+[2023-07-27 05:09:07] INFO root fetch - processPackages [stdflow]: Remove: archive file [/home/abi/fetcher/tmp/stdflow-0.0.5.tar.gz]
+[2023-07-27 05:09:07] INFO root fetch - processPackages [stdflow]: Remove: archive file [/home/abi/fetcher/tmp/stdflow-0.0.6.tar.gz]
+[2023-07-27 05:09:07] INFO root fetch - processPackages [stdflow]: Start processing: csapptools
+[2023-07-27 05:09:07] INFO root fetch - main [MainThread]: End processing [stdflow]: success
+[2023-07-27 05:09:07] WARNING root fetch - processPackages [edge-pptx]: Skipping, unable to determine old version
+[2023-07-27 05:09:07] INFO root fetch - main [MainThread]: End processing [edge-pptx] error
+[2023-07-27 05:09:07] INFO root fetch - processPackages [waveforms]: New version: [1.6.6] Old Version: [1.6.5]
+[2023-07-27 05:09:07] INFO root fetch - processPackages [csapptools]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-27 05:09:07] INFO root fetch - processPackages [text-office]: Remove: archive file [/home/abi/fetcher/tmp/text-office-0.2.9.tar.gz]
+[2023-07-27 05:09:07] INFO root fetch - processPackages [text-office]: Remove: archive file [/home/abi/fetcher/tmp/text-office-0.3.0.tar.gz]
+[2023-07-27 05:09:07] INFO root fetch - main [MainThread]: End processing [text-office]: success
+[2023-07-27 05:09:07] INFO root fetch - processPackages [Ibp2py]: Remove: archive file [/home/abi/fetcher/tmp/Ibp2py-1.0.1.tar.gz]
+[2023-07-27 05:09:07] INFO root fetch - processPackages [Ibp2py]: Remove: archive file [/home/abi/fetcher/tmp/Ibp2py-1.0.2.tar.gz]
+[2023-07-27 05:09:07] INFO root fetch - main [MainThread]: End processing [Ibp2py]: success
+[2023-07-27 05:09:07] INFO root fetch - processPackages [alibabacloud-resourcemanager20200331]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_resourcemanager20200331-2.1.5.tar.gz]
+[2023-07-27 05:09:07] INFO root fetch - processPackages [alibabacloud-resourcemanager20200331]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_resourcemanager20200331-2.1.6.tar.gz]
+[2023-07-27 05:09:07] INFO root fetch - main [MainThread]: End processing [alibabacloud-resourcemanager20200331]: success
+[2023-07-27 05:09:07] INFO root fetch - processPackages [alibabacloud-resourcemanager20200331-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_resourcemanager20200331_py2-1.1.4.tar.gz]
+[2023-07-27 05:09:07] INFO root fetch - processPackages [odoo14-addon-l10n-es-cooperator]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_es_cooperator-14.0.0.1.1-py3-none-any.whl.zip]
+[2023-07-27 05:09:07] INFO root fetch - processPackages [waveforms]: Downloading https://files.pythonhosted.org/packages/d2/94/d91980aeaf7a5b7e8a737a32afbf1389be929922966d22d3da586b446a87/waveforms-1.6.5.tar.gz
+[2023-07-27 05:09:07] INFO root fetch - processPackages [alibabacloud-resourcemanager20200331-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_resourcemanager20200331_py2-1.1.5.tar.gz]
+[2023-07-27 05:09:07] INFO root fetch - processPackages [odoo14-addon-l10n-es-cooperator]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_es_cooperator-14.0.0.1.1.dev2-py3-none-any.whl.zip]
+[2023-07-27 05:09:07] INFO root fetch - main [MainThread]: End processing [alibabacloud-resourcemanager20200331-py2]: success
+[2023-07-27 05:09:07] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-es-cooperator]: success
+[2023-07-27 05:09:07] INFO root fetch - processPackages [csapptools]: Downloading https://files.pythonhosted.org/packages/83/0a/5aa9782581317d5d9702189ac73855e21d59b86a8bdb6df42c70676bfcba/csapptools-1.0.0.tar.gz
+[2023-07-27 05:09:08] INFO root fetch - processPackages [dorado]: Remove: archive file [/home/abi/fetcher/tmp/dorado-2.0.6.dev97.tar.gz]
+[2023-07-27 05:09:08] INFO root fetch - processPackages [dorado]: Remove: archive file [/home/abi/fetcher/tmp/dorado-2.0.6.dev99.tar.gz]
+[2023-07-27 05:09:08] INFO root fetch - main [MainThread]: End processing [dorado]: success
+[2023-07-27 05:09:08] INFO root fetch - processPackages [csapptools]: Downloading https://files.pythonhosted.org/packages/92/4f/9b728576001a80dd9da03751493d936d13a7fb5c41722f8aa75726bfebc9/csapptools-1.0.1.tar.gz
+[2023-07-27 05:09:08] INFO root fetch - processPackages [waveforms]: Downloading https://files.pythonhosted.org/packages/eb/eb/8a740d0ca83c6473d963c7cf844d82c3d7b7280da0115fb685aca50bdf0c/waveforms-1.6.6.tar.gz
+[2023-07-27 05:09:08] INFO root fetch - processPackages [aliyun-python-sdk-resourcemanager]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-resourcemanager-1.2.5.tar.gz]
+[2023-07-27 05:09:08] INFO root fetch - processPackages [aliyun-python-sdk-resourcemanager]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-resourcemanager-1.2.6.tar.gz]
+[2023-07-27 05:09:08] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-resourcemanager]: success
+[2023-07-27 05:09:08] INFO root fetch - processPackages [csapptools]: executing diffoscope
+[2023-07-27 05:09:08] INFO root fetch - processPackages [csapptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csapptools-1.0.0.tar.gz tmp/csapptools-1.0.1.tar.gz --markdown 20230727/c/csapptools/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-27 05:09:08] INFO root fetch - processPackages [waveforms]: executing diffoscope
+[2023-07-27 05:09:08] INFO root fetch - processPackages [waveforms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waveforms-1.6.5.tar.gz tmp/waveforms-1.6.6.tar.gz --markdown 20230727/w/waveforms/1.6.5-1.6.6/diff.md --exclude *.pyd
+[2023-07-27 05:09:09] INFO root fetch - processPackages [csapptools]: Remove: archive file [/home/abi/fetcher/tmp/csapptools-1.0.0.tar.gz]
+[2023-07-27 05:09:09] INFO root fetch - processPackages [csapptools]: Remove: archive file [/home/abi/fetcher/tmp/csapptools-1.0.1.tar.gz]
+[2023-07-27 05:09:09] INFO root fetch - main [MainThread]: End processing [csapptools]: success
+[2023-07-27 05:09:09] INFO root fetch - processPackages [waveforms]: Remove: archive file [/home/abi/fetcher/tmp/waveforms-1.6.5.tar.gz]
+[2023-07-27 05:09:09] INFO root fetch - processPackages [waveforms]: Remove: archive file [/home/abi/fetcher/tmp/waveforms-1.6.6.tar.gz]
+[2023-07-27 05:09:09] INFO root fetch - main [MainThread]: End processing [waveforms]: success
+[2023-07-27 05:09:09] INFO root fetch - main [MainThread]: Store serial: [19054144]
