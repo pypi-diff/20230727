@@ -11883,3 +11883,60 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-27 06:17:31] INFO root fetch - processPackages [oganesson]: Remove: archive file [/home/abi/fetcher/tmp/oganesson-0.1.9.tar.gz]
 [2023-07-27 06:17:31] INFO root fetch - main [MainThread]: End processing [oganesson]: success
 [2023-07-27 06:17:31] INFO root fetch - main [MainThread]: Store serial: [19054527]
+[2023-07-27 06:22:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19054527]
+[2023-07-27 06:22:39] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-27 06:22:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autopack-tools
+[2023-07-27 06:22:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: multisig-ci
+[2023-07-27 06:22:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sciline
+[2023-07-27 06:22:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ssd1306-plus
+[2023-07-27 06:22:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jsonargparse
+[2023-07-27 06:22:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: omniunibot
+[2023-07-27 06:22:39] INFO root fetch - processPackages [autopack-tools]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-27 06:22:39] INFO root fetch - processPackages [multisig-ci]: New version: [0.6.6] Old Version: [0.6.5]
+[2023-07-27 06:22:39] INFO root fetch - processPackages [ssd1306-plus]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-27 06:22:39] INFO root fetch - processPackages [sciline]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-27 06:22:39] INFO root fetch - processPackages [jsonargparse]: New version: [4.9.0] Old Version: [4.8.0.dev2]
+[2023-07-27 06:22:39] INFO root fetch - processPackages [omniunibot]: New version: [0.0.7.post1] Old Version: [0.0.6]
+[2023-07-27 06:22:39] INFO root fetch - processPackages [multisig-ci]: Downloading https://files.pythonhosted.org/packages/6c/c1/83657fe20020e77b608de8e14b1a08c99b3464b70b1e1745a2a47743f66f/multisig_ci-0.6.5.tar.gz
+[2023-07-27 06:22:39] INFO root fetch - processPackages [autopack-tools]: Downloading https://files.pythonhosted.org/packages/85/1c/9b899707b87c5f480c09eaf4eaca5ab2a06c484f6dcbc33cfb67e7e898e1/autopack_tools-0.4.0.tar.gz
+[2023-07-27 06:22:40] INFO root fetch - processPackages [ssd1306-plus]: Downloading https://files.pythonhosted.org/packages/0c/68/e21750ae1f2c59932ec35df95eae226f3b0b8682217f012a7864e81c5983/ssd1306_plus-0.0.1.tar.gz
+[2023-07-27 06:22:40] INFO root fetch - processPackages [sciline]: Downloading https://files.pythonhosted.org/packages/ec/55/addd8bf57b0508936f4e2da5ac685d06653f2f1ed0a75c7a8561c36d3e64/sciline-0.0.1.tar.gz
+[2023-07-27 06:22:40] INFO root fetch - processPackages [omniunibot]: Downloading https://files.pythonhosted.org/packages/09/da/60d12eb52796f4a0dfb8242e26f0ad0125cb1f253fdfa44dcd36ca722128/omniunibot-0.0.6.tar.gz
+[2023-07-27 06:22:40] INFO root fetch - processPackages [jsonargparse]: Downloading https://files.pythonhosted.org/packages/16/9b/6278a964472d726663deec1a73e681b459dd3cf253683239e2ed27c01622/jsonargparse-4.8.0.dev2.tar.gz
+[2023-07-27 06:22:40] INFO root fetch - processPackages [multisig-ci]: Downloading https://files.pythonhosted.org/packages/2b/89/9ac13691863a54e3cd1a2057ef420d3bcfebb0cf477207435fa4ac85747e/multisig_ci-0.6.6.tar.gz
+[2023-07-27 06:22:40] INFO root fetch - processPackages [autopack-tools]: Downloading https://files.pythonhosted.org/packages/de/ed/0708a796732e22e91c856a4cd6cc47f44d34178ea6cd749584d1e86cbf51/autopack_tools-0.4.1.tar.gz
+[2023-07-27 06:22:40] INFO root fetch - processPackages [ssd1306-plus]: Downloading https://files.pythonhosted.org/packages/16/52/a398abeac46114aa008a32dd4073a19e1f4582303ecd522f2cc8e202ea06/ssd1306_plus-0.0.2.tar.gz
+[2023-07-27 06:22:40] INFO root fetch - processPackages [multisig-ci]: executing diffoscope
+[2023-07-27 06:22:40] INFO root fetch - processPackages [multisig-ci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multisig_ci-0.6.5.tar.gz tmp/multisig_ci-0.6.6.tar.gz --markdown 20230727/m/multisig-ci/0.6.5-0.6.6/diff.md --exclude *.pyd
+[2023-07-27 06:22:40] INFO root fetch - processPackages [sciline]: Downloading https://files.pythonhosted.org/packages/7d/5f/d52ec3e049b03bc6e810821c1e167551f1f6f21fd765549feacab0e4eb6d/sciline-0.0.2.tar.gz
+[2023-07-27 06:22:40] INFO root fetch - processPackages [autopack-tools]: executing diffoscope
+[2023-07-27 06:22:40] INFO root fetch - processPackages [autopack-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopack_tools-0.4.0.tar.gz tmp/autopack_tools-0.4.1.tar.gz --markdown 20230727/a/autopack-tools/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-27 06:22:40] INFO root fetch - processPackages [ssd1306-plus]: executing diffoscope
+[2023-07-27 06:22:40] INFO root fetch - processPackages [ssd1306-plus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssd1306_plus-0.0.1.tar.gz tmp/ssd1306_plus-0.0.2.tar.gz --markdown 20230727/s/ssd1306-plus/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-27 06:22:40] INFO root fetch - processPackages [omniunibot]: Downloading https://files.pythonhosted.org/packages/60/06/cf8bc1fa942db19d71a320039bf76ecd50c8b72aeb4f10297643dd37cc25/omniunibot-0.0.7.post1.tar.gz
+[2023-07-27 06:22:40] INFO root fetch - processPackages [sciline]: executing diffoscope
+[2023-07-27 06:22:40] INFO root fetch - processPackages [sciline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sciline-0.0.1.tar.gz tmp/sciline-0.0.2.tar.gz --markdown 20230727/s/sciline/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-27 06:22:40] INFO root fetch - processPackages [omniunibot]: executing diffoscope
+[2023-07-27 06:22:40] INFO root fetch - processPackages [omniunibot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omniunibot-0.0.6.tar.gz tmp/omniunibot-0.0.7.post1.tar.gz --markdown 20230727/o/omniunibot/0.0.6-0.0.7.post1/diff.md --exclude *.pyd
+[2023-07-27 06:22:40] INFO root fetch - processPackages [jsonargparse]: Downloading https://files.pythonhosted.org/packages/4b/46/493ba47ed28265c51702c94daf00111d2b5a5ade193250ac089165563e58/jsonargparse-4.9.0.tar.gz
+[2023-07-27 06:22:41] INFO root fetch - processPackages [jsonargparse]: executing diffoscope
+[2023-07-27 06:22:41] INFO root fetch - processPackages [jsonargparse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonargparse-4.8.0.dev2.tar.gz tmp/jsonargparse-4.9.0.tar.gz --markdown 20230727/j/jsonargparse/4.8.0.dev2-4.9.0/diff.md --exclude *.pyd
+[2023-07-27 06:22:41] INFO root fetch - processPackages [multisig-ci]: Remove: archive file [/home/abi/fetcher/tmp/multisig_ci-0.6.5.tar.gz]
+[2023-07-27 06:22:41] INFO root fetch - processPackages [multisig-ci]: Remove: archive file [/home/abi/fetcher/tmp/multisig_ci-0.6.6.tar.gz]
+[2023-07-27 06:22:41] INFO root fetch - main [MainThread]: End processing [multisig-ci]: success
+[2023-07-27 06:22:41] INFO root fetch - processPackages [autopack-tools]: Remove: archive file [/home/abi/fetcher/tmp/autopack_tools-0.4.0.tar.gz]
+[2023-07-27 06:22:41] INFO root fetch - processPackages [autopack-tools]: Remove: archive file [/home/abi/fetcher/tmp/autopack_tools-0.4.1.tar.gz]
+[2023-07-27 06:22:41] INFO root fetch - main [MainThread]: End processing [autopack-tools]: success
+[2023-07-27 06:22:41] INFO root fetch - processPackages [ssd1306-plus]: Remove: archive file [/home/abi/fetcher/tmp/ssd1306_plus-0.0.1.tar.gz]
+[2023-07-27 06:22:41] INFO root fetch - processPackages [ssd1306-plus]: Remove: archive file [/home/abi/fetcher/tmp/ssd1306_plus-0.0.2.tar.gz]
+[2023-07-27 06:22:41] INFO root fetch - main [MainThread]: End processing [ssd1306-plus]: success
+[2023-07-27 06:22:41] INFO root fetch - processPackages [sciline]: Remove: archive file [/home/abi/fetcher/tmp/sciline-0.0.1.tar.gz]
+[2023-07-27 06:22:41] INFO root fetch - processPackages [sciline]: Remove: archive file [/home/abi/fetcher/tmp/sciline-0.0.2.tar.gz]
+[2023-07-27 06:22:41] INFO root fetch - main [MainThread]: End processing [sciline]: success
+[2023-07-27 06:22:41] INFO root fetch - processPackages [omniunibot]: Remove: archive file [/home/abi/fetcher/tmp/omniunibot-0.0.6.tar.gz]
+[2023-07-27 06:22:41] INFO root fetch - processPackages [omniunibot]: Remove: archive file [/home/abi/fetcher/tmp/omniunibot-0.0.7.post1.tar.gz]
+[2023-07-27 06:22:41] INFO root fetch - main [MainThread]: End processing [omniunibot]: success
+[2023-07-27 06:22:42] INFO root fetch - processPackages [jsonargparse]: Remove: archive file [/home/abi/fetcher/tmp/jsonargparse-4.8.0.dev2.tar.gz]
+[2023-07-27 06:22:42] INFO root fetch - processPackages [jsonargparse]: Remove: archive file [/home/abi/fetcher/tmp/jsonargparse-4.9.0.tar.gz]
+[2023-07-27 06:22:42] INFO root fetch - main [MainThread]: End processing [jsonargparse]: success
+[2023-07-27 06:22:42] INFO root fetch - main [MainThread]: Store serial: [19054546]
