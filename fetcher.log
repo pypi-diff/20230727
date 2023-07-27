@@ -3468,3 +3468,107 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-27 02:57:58] INFO root fetch - processPackages [csvm]: Remove: archive file [/home/abi/fetcher/tmp/csvm-0.0.2.tar.gz]
 [2023-07-27 02:57:58] INFO root fetch - main [MainThread]: End processing [csvm]: success
 [2023-07-27 02:57:58] INFO root fetch - main [MainThread]: Store serial: [19051564]
+[2023-07-27 03:03:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19051564]
+[2023-07-27 03:03:06] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-27 03:03:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ezui
+[2023-07-27 03:03:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: agentgpt
+[2023-07-27 03:03:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: detprocess
+[2023-07-27 03:03:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: garth
+[2023-07-27 03:03:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: neon-mq-connector
+[2023-07-27 03:03:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-oci
+[2023-07-27 03:03:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mh-logger
+[2023-07-27 03:03:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mh-logger
+[2023-07-27 03:03:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mh-logger
+[2023-07-27 03:03:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mh-logger
+[2023-07-27 03:03:07] INFO root fetch - processPackages [mh-logger]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-27 03:03:07] INFO root fetch - processPackages [mh-logger]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-27 03:03:07] WARNING root fetch - processPackages [ezui]: Skipping, unable to determine old version
+[2023-07-27 03:03:07] INFO root fetch - processPackages [ezui]: Start processing: mh-logger
+[2023-07-27 03:03:07] INFO root fetch - main [MainThread]: End processing [ezui] error
+[2023-07-27 03:03:07] INFO root fetch - processPackages [garth]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-27 03:03:07] INFO root fetch - processPackages [mh-logger]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-27 03:03:07] INFO root fetch - processPackages [pulumi-oci]: New version: [1.5.0a1690410363] Old Version: [1.5.0]
+[2023-07-27 03:03:07] INFO root fetch - processPackages [neon-mq-connector]: New version: [0.7.1a2] Old Version: [0.7.1a1]
+[2023-07-27 03:03:07] INFO root fetch - processPackages [mh-logger]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-27 03:03:07] WARNING root fetch - processPackages [agentgpt]: Skipping, unable to determine old version
+[2023-07-27 03:03:07] INFO root fetch - processPackages [agentgpt]: Start processing: mh-logger
+[2023-07-27 03:03:07] INFO root fetch - main [MainThread]: End processing [agentgpt] error
+[2023-07-27 03:03:07] INFO root fetch - processPackages [detprocess]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-07-27 03:03:07] INFO root fetch - processPackages [mh-logger]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-27 03:03:07] INFO root fetch - processPackages [mh-logger]: Downloading https://files.pythonhosted.org/packages/5c/85/44c33be9d40271452cbb29b27e3197c73933f0ff9e799d240e1dbd0d53c6/mh-logger-0.0.8.tar.gz
+[2023-07-27 03:03:07] INFO root fetch - processPackages [mh-logger]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-27 03:03:07] INFO root fetch - processPackages [garth]: Downloading https://files.pythonhosted.org/packages/7b/d6/a2ed78e24f39dedc1715bedd4cfe170de5b6b49dfd8fc5e33ab20d724d99/garth-0.2.4.tar.gz
+[2023-07-27 03:03:07] INFO root fetch - processPackages [neon-mq-connector]: Downloading https://files.pythonhosted.org/packages/f6/b0/3a6b9869532e8571a7116eed35ace4ee95ea5484c57fb2d31d97ce76de57/neon_mq_connector-0.7.1a1.tar.gz
+[2023-07-27 03:03:07] INFO root fetch - processPackages [mh-logger]: Downloading https://files.pythonhosted.org/packages/5c/85/44c33be9d40271452cbb29b27e3197c73933f0ff9e799d240e1dbd0d53c6/mh-logger-0.0.8.tar.gz
+[2023-07-27 03:03:07] INFO root fetch - processPackages [mh-logger]: Downloading https://files.pythonhosted.org/packages/5c/85/44c33be9d40271452cbb29b27e3197c73933f0ff9e799d240e1dbd0d53c6/mh-logger-0.0.8.tar.gz
+[2023-07-27 03:03:07] INFO root fetch - processPackages [pulumi-oci]: Downloading https://files.pythonhosted.org/packages/1e/ef/7198692e165e4828eb899060e7c08e3dbed282e86a7ca22179d07cd523da/pulumi_oci-1.5.0.tar.gz
+[2023-07-27 03:03:07] INFO root fetch - processPackages [mh-logger]: Downloading https://files.pythonhosted.org/packages/5c/85/44c33be9d40271452cbb29b27e3197c73933f0ff9e799d240e1dbd0d53c6/mh-logger-0.0.8.tar.gz
+[2023-07-27 03:03:07] INFO root fetch - processPackages [mh-logger]: Downloading https://files.pythonhosted.org/packages/5c/85/44c33be9d40271452cbb29b27e3197c73933f0ff9e799d240e1dbd0d53c6/mh-logger-0.0.8.tar.gz
+[2023-07-27 03:03:07] INFO root fetch - processPackages [mh-logger]: Downloading https://files.pythonhosted.org/packages/5c/85/44c33be9d40271452cbb29b27e3197c73933f0ff9e799d240e1dbd0d53c6/mh-logger-0.0.8.tar.gz
+[2023-07-27 03:03:07] INFO root fetch - processPackages [detprocess]: Downloading https://files.pythonhosted.org/packages/0a/5c/920d595d8faa3d456e0896bbc2153be9778f3e05ba1c2628be69b7efdb5c/detprocess-0.3.3.tar.gz
+[2023-07-27 03:03:07] INFO root fetch - processPackages [neon-mq-connector]: Downloading https://files.pythonhosted.org/packages/3f/3c/bac853c26ff136057f473734abe205079c53822ac0f601e554679867073b/neon_mq_connector-0.7.1a2.tar.gz
+[2023-07-27 03:03:07] INFO root fetch - processPackages [garth]: Downloading https://files.pythonhosted.org/packages/29/6b/ff6b9a49fc0d68070015a3ef1bdfe3db3baa22b8834d672c801b8f2f4a7f/garth-0.2.5.tar.gz
+[2023-07-27 03:03:07] INFO root fetch - processPackages [detprocess]: Downloading https://files.pythonhosted.org/packages/6f/55/8efff82ff2a1e3f4289a21003044550b02534c4b96fecf0a66a01c1631a5/detprocess-0.3.4.tar.gz
+[2023-07-27 03:03:08] INFO root fetch - processPackages [neon-mq-connector]: executing diffoscope
+[2023-07-27 03:03:08] INFO root fetch - processPackages [neon-mq-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_mq_connector-0.7.1a1.tar.gz tmp/neon_mq_connector-0.7.1a2.tar.gz --markdown 20230727/n/neon-mq-connector/0.7.1a1-0.7.1a2/diff.md --exclude *.pyd
+[2023-07-27 03:03:08] INFO root fetch - processPackages [detprocess]: executing diffoscope
+[2023-07-27 03:03:08] INFO root fetch - processPackages [detprocess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/detprocess-0.3.3.tar.gz tmp/detprocess-0.3.4.tar.gz --markdown 20230727/d/detprocess/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-07-27 03:03:08] INFO root fetch - processPackages [garth]: executing diffoscope
+[2023-07-27 03:03:08] INFO root fetch - processPackages [garth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garth-0.2.4.tar.gz tmp/garth-0.2.5.tar.gz --markdown 20230727/g/garth/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-27 03:03:08] INFO root fetch - processPackages [mh-logger]: Downloading https://files.pythonhosted.org/packages/13/03/c574cda800547b0af3c5e708e88ab145d1c96bb13d2252342d45ac679ed8/mh-logger-0.0.9.tar.gz
+[2023-07-27 03:03:08] INFO root fetch - processPackages [mh-logger]: Downloading https://files.pythonhosted.org/packages/13/03/c574cda800547b0af3c5e708e88ab145d1c96bb13d2252342d45ac679ed8/mh-logger-0.0.9.tar.gz
+[2023-07-27 03:03:08] INFO root fetch - processPackages [mh-logger]: Downloading https://files.pythonhosted.org/packages/13/03/c574cda800547b0af3c5e708e88ab145d1c96bb13d2252342d45ac679ed8/mh-logger-0.0.9.tar.gz
+[2023-07-27 03:03:08] INFO root fetch - processPackages [mh-logger]: Downloading https://files.pythonhosted.org/packages/13/03/c574cda800547b0af3c5e708e88ab145d1c96bb13d2252342d45ac679ed8/mh-logger-0.0.9.tar.gz
+[2023-07-27 03:03:08] INFO root fetch - processPackages [mh-logger]: Downloading https://files.pythonhosted.org/packages/13/03/c574cda800547b0af3c5e708e88ab145d1c96bb13d2252342d45ac679ed8/mh-logger-0.0.9.tar.gz
+[2023-07-27 03:03:08] INFO root fetch - processPackages [mh-logger]: Downloading https://files.pythonhosted.org/packages/13/03/c574cda800547b0af3c5e708e88ab145d1c96bb13d2252342d45ac679ed8/mh-logger-0.0.9.tar.gz
+[2023-07-27 03:03:08] INFO root fetch - processPackages [mh-logger]: executing diffoscope
+[2023-07-27 03:03:08] INFO root fetch - processPackages [mh-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mh-logger-0.0.8.tar.gz tmp/mh-logger-0.0.9.tar.gz --markdown 20230727/m/mh-logger/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-27 03:03:08] INFO root fetch - processPackages [mh-logger]: executing diffoscope
+[2023-07-27 03:03:08] INFO root fetch - processPackages [mh-logger]: executing diffoscope
+[2023-07-27 03:03:08] INFO root fetch - processPackages [mh-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mh-logger-0.0.8.tar.gz tmp/mh-logger-0.0.9.tar.gz --markdown 20230727/m/mh-logger/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-27 03:03:08] INFO root fetch - processPackages [mh-logger]: executing diffoscope
+[2023-07-27 03:03:08] INFO root fetch - processPackages [mh-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mh-logger-0.0.8.tar.gz tmp/mh-logger-0.0.9.tar.gz --markdown 20230727/m/mh-logger/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-27 03:03:08] INFO root fetch - processPackages [mh-logger]: executing diffoscope
+[2023-07-27 03:03:08] INFO root fetch - processPackages [mh-logger]: executing diffoscope
+[2023-07-27 03:03:08] INFO root fetch - processPackages [mh-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mh-logger-0.0.8.tar.gz tmp/mh-logger-0.0.9.tar.gz --markdown 20230727/m/mh-logger/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-27 03:03:08] INFO root fetch - processPackages [mh-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mh-logger-0.0.8.tar.gz tmp/mh-logger-0.0.9.tar.gz --markdown 20230727/m/mh-logger/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-27 03:03:08] INFO root fetch - processPackages [mh-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mh-logger-0.0.8.tar.gz tmp/mh-logger-0.0.9.tar.gz --markdown 20230727/m/mh-logger/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-27 03:03:08] INFO root fetch - processPackages [pulumi-oci]: Downloading https://files.pythonhosted.org/packages/81/45/73de49a21de522ea1a30ab0e9e918d54e49503b2ce4b13efeaafc5c226e5/pulumi_oci-1.5.0a1690410363.tar.gz
+[2023-07-27 03:03:09] INFO root fetch - processPackages [pulumi-oci]: executing diffoscope
+[2023-07-27 03:03:09] INFO root fetch - processPackages [pulumi-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_oci-1.5.0.tar.gz tmp/pulumi_oci-1.5.0a1690410363.tar.gz --markdown 20230727/p/pulumi-oci/1.5.0-1.5.0a1690410363/diff.md --exclude *.pyd
+[2023-07-27 03:03:09] INFO root fetch - processPackages [neon-mq-connector]: Remove: archive file [/home/abi/fetcher/tmp/neon_mq_connector-0.7.1a1.tar.gz]
+[2023-07-27 03:03:09] INFO root fetch - processPackages [neon-mq-connector]: Remove: archive file [/home/abi/fetcher/tmp/neon_mq_connector-0.7.1a2.tar.gz]
+[2023-07-27 03:03:09] INFO root fetch - processPackages [neon-mq-connector]: Start processing: mh-logger
+[2023-07-27 03:03:09] INFO root fetch - main [MainThread]: End processing [neon-mq-connector]: success
+[2023-07-27 03:03:09] INFO root fetch - processPackages [mh-logger]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-27 03:03:09] INFO root fetch - processPackages [detprocess]: Remove: archive file [/home/abi/fetcher/tmp/detprocess-0.3.3.tar.gz]
+[2023-07-27 03:03:09] INFO root fetch - processPackages [detprocess]: Remove: archive file [/home/abi/fetcher/tmp/detprocess-0.3.4.tar.gz]
+[2023-07-27 03:03:09] INFO root fetch - processPackages [detprocess]: Start processing: agentgpt
+[2023-07-27 03:03:09] INFO root fetch - main [MainThread]: End processing [detprocess]: success
+[2023-07-27 03:03:09] WARNING root fetch - processPackages [agentgpt]: Skipping, unable to determine old version
+[2023-07-27 03:03:09] INFO root fetch - processPackages [agentgpt]: Start processing: Ibp2py
+[2023-07-27 03:03:09] INFO root fetch - main [MainThread]: End processing [agentgpt] error
+[2023-07-27 03:03:09] INFO root fetch - processPackages [mh-logger]: executing diffoscope
+[2023-07-27 03:03:09] INFO root fetch - processPackages [mh-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mh-logger-0.0.8.tar.gz tmp/mh-logger-0.0.9.tar.gz --markdown 20230727/m/mh-logger/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-27 03:03:09] INFO root fetch - processPackages [garth]: Remove: archive file [/home/abi/fetcher/tmp/garth-0.2.4.tar.gz]
+[2023-07-27 03:03:09] INFO root fetch - processPackages [garth]: Remove: archive file [/home/abi/fetcher/tmp/garth-0.2.5.tar.gz]
+[2023-07-27 03:03:09] INFO root fetch - main [MainThread]: End processing [garth]: success
+[2023-07-27 03:03:09] WARNING root fetch - processPackages [Ibp2py]: Skipping, unable to determine old version
+[2023-07-27 03:03:09] INFO root fetch - main [MainThread]: End processing [Ibp2py] error
+[2023-07-27 03:03:09] INFO root fetch - processPackages [mh-logger]: Remove: archive file [/home/abi/fetcher/tmp/mh-logger-0.0.8.tar.gz]
+[2023-07-27 03:03:09] INFO root fetch - processPackages [mh-logger]: Remove: archive file [/home/abi/fetcher/tmp/mh-logger-0.0.9.tar.gz]
+[2023-07-27 03:03:09] INFO root fetch - main [MainThread]: End processing [mh-logger]: success
+[2023-07-27 03:03:10] INFO root fetch - main [MainThread]: End processing [mh-logger]: success
+[2023-07-27 03:03:10] INFO root fetch - main [MainThread]: End processing [mh-logger]: success
+[2023-07-27 03:03:10] INFO root fetch - main [MainThread]: End processing [mh-logger]: success
+[2023-07-27 03:03:10] INFO root fetch - main [MainThread]: End processing [mh-logger]: success
+[2023-07-27 03:03:10] INFO root fetch - main [MainThread]: End processing [mh-logger]: success
+[2023-07-27 03:03:10] ERROR root fetch - processPackages [mh-logger]: Diffoscope failed: time="2023-07-27T03:03:09+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/mh-logger-0.0.8.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/mh-logger-0.0.9.tar.gz: No such file or directory
+
+[2023-07-27 03:03:10] INFO root fetch - main [MainThread]: End processing [mh-logger] error
+[2023-07-27 03:03:30] INFO root fetch - processPackages [pulumi-oci]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_oci-1.5.0.tar.gz]
+[2023-07-27 03:03:30] INFO root fetch - processPackages [pulumi-oci]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_oci-1.5.0a1690410363.tar.gz]
+[2023-07-27 03:03:30] INFO root fetch - main [MainThread]: End processing [pulumi-oci]: success
+[2023-07-27 03:03:30] INFO root fetch - main [MainThread]: Store serial: [19051614]
