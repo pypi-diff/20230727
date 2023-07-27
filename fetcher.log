@@ -17059,3 +17059,182 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-27 09:01:59] INFO root fetch - processPackages [py-pure-client]: Remove: archive file [/home/abi/fetcher/tmp/py-pure-client-1.9.0.tar.gz]
 [2023-07-27 09:01:59] INFO root fetch - main [MainThread]: End processing [py-pure-client]: success
 [2023-07-27 09:01:59] INFO root fetch - main [MainThread]: Store serial: [19056362]
+[2023-07-27 09:07:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19056362]
+[2023-07-27 09:07:08] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-07-27 09:07:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zoviz
+[2023-07-27 09:07:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wpcsys
+[2023-07-27 09:07:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: seqio-nightly
+[2023-07-27 09:07:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: peewee-aio
+[2023-07-27 09:07:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bcmd
+[2023-07-27 09:07:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: muffin-peewee-aio
+[2023-07-27 09:07:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gpthistory
+[2023-07-27 09:07:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: garth
+[2023-07-27 09:07:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: eodc
+[2023-07-27 09:07:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cfx-address
+[2023-07-27 09:07:08] INFO root fetch - processPackages [bcmd]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-27 09:07:08] INFO root fetch - processPackages [garth]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-07-27 09:07:08] INFO root fetch - processPackages [peewee-aio]: New version: [1.7.0] Old Version: [1.6.0]
+[2023-07-27 09:07:08] INFO root fetch - processPackages [eodc]: New version: [2023.7.0] Old Version: [2023.6.9]
+[2023-07-27 09:07:08] INFO root fetch - processPackages [zoviz]: New version: [0.4.99] Old Version: [0.4.98]
+[2023-07-27 09:07:08] INFO root fetch - processPackages [muffin-peewee-aio]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-07-27 09:07:08] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2023-07-27 09:07:09] INFO root fetch - processPackages [cfx-address]: New version: [1.0.1] Old Version: [1.0.0b9]
+[2023-07-27 09:07:09] INFO root fetch - processPackages [gpthistory]: New version: [0.3] Old Version: [0.2]
+[2023-07-27 09:07:09] INFO root fetch - processPackages [wpcsys]: New version: [2.1.7] Old Version: [2.1.6]
+[2023-07-27 09:07:09] INFO root fetch - processPackages [garth]: Downloading https://files.pythonhosted.org/packages/29/6b/ff6b9a49fc0d68070015a3ef1bdfe3db3baa22b8834d672c801b8f2f4a7f/garth-0.2.5.tar.gz
+[2023-07-27 09:07:09] INFO root fetch - processPackages [bcmd]: Downloading https://files.pythonhosted.org/packages/14/bb/4ff93028b64c93970c4b76f5b7cfe73c743a936ed7a9653b9166cfab7d40/bcmd-0.0.8.tar.gz
+[2023-07-27 09:07:09] INFO root fetch - processPackages [zoviz]: Downloading https://files.pythonhosted.org/packages/39/01/118ff39e3e5bc58e05756a517d2b426abe032aa3420d27e3000aaac3b14a/zoviz-0.4.98.tar.gz
+[2023-07-27 09:07:09] INFO root fetch - processPackages [muffin-peewee-aio]: Downloading https://files.pythonhosted.org/packages/5b/d5/a636e8a8df10fc477e69a4d9d0bfb35ec2c82b689e08e2981018efdbc040/muffin-peewee-aio-0.9.5.tar.gz
+[2023-07-27 09:07:09] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/43/a0/f60ad514b6f8534fa5ba8cc5fcc2a8f2e32e7d06d2dbfd43b12c2cb29931/seqio-nightly-0.0.8.dev20220906.tar.gz
+[2023-07-27 09:07:09] INFO root fetch - processPackages [eodc]: Downloading https://files.pythonhosted.org/packages/c5/83/63873bbcccf7bb07f0a25f386840631889a5c10e88af7af1eb0baeb16508/eodc-2023.6.9.tar.gz
+[2023-07-27 09:07:09] INFO root fetch - processPackages [cfx-address]: Downloading https://files.pythonhosted.org/packages/54/9f/cc39c355b6a9ea4349347c0545566bf5e7a631b2d79c33a713dd43446993/cfx-address-1.0.0b9.tar.gz
+[2023-07-27 09:07:09] INFO root fetch - processPackages [peewee-aio]: Downloading https://files.pythonhosted.org/packages/62/4f/c6b0977c49f04e4cd780cb93e5971183b09991c794ef3b4e4386a9038170/peewee_aio-1.6.0.tar.gz
+[2023-07-27 09:07:09] INFO root fetch - processPackages [gpthistory]: Downloading https://files.pythonhosted.org/packages/f3/e4/9555258ac2797462514daba414b9031757ccb162e527b053b4ecbb40a663/gpthistory-0.2.tar.gz
+[2023-07-27 09:07:09] INFO root fetch - processPackages [wpcsys]: Downloading https://files.pythonhosted.org/packages/35/2b/4010921c5b052e5c01691d235f7befcd3a24a56b42c9a537399bf127575c/wpcsys-2.1.6.tar.gz
+[2023-07-27 09:07:09] INFO root fetch - processPackages [bcmd]: Downloading https://files.pythonhosted.org/packages/3b/fe/3525534e0b5966e860bd44d83a8fd9b36b7f3431bf8abe081ed29fe6de12/bcmd-0.0.9.tar.gz
+[2023-07-27 09:07:09] INFO root fetch - processPackages [zoviz]: Downloading https://files.pythonhosted.org/packages/4b/9a/dea269ed1403497e3e963b49e4d08cdc0e831c8642e0f505481d42cdc405/zoviz-0.4.99.tar.gz
+[2023-07-27 09:07:09] INFO root fetch - processPackages [muffin-peewee-aio]: Downloading https://files.pythonhosted.org/packages/39/ad/8d3dd8e528325c72abcd5e16c902b2a6a2b3ec882e5710e06cdbbcbd1a4b/muffin-peewee-aio-0.9.6.tar.gz
+[2023-07-27 09:07:09] INFO root fetch - processPackages [garth]: Downloading https://files.pythonhosted.org/packages/fc/94/f16fd528c301a1cb688de282c5f1d8957b1b2aa70d8a3cabf62e8d884c97/garth-0.2.6.tar.gz
+[2023-07-27 09:07:09] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/2a/76/25f4c7602cdd724deac948a914e454756abfad2119a525c06d9ce341b918/seqio-nightly-0.0.8.dev20220907.tar.gz
+[2023-07-27 09:07:09] INFO root fetch - processPackages [eodc]: Downloading https://files.pythonhosted.org/packages/8f/28/39ea9e15a4796a296e29c30bdaae30b8f9251161e5e36288b43d56720a4c/eodc-2023.7.0.tar.gz
+[2023-07-27 09:07:09] INFO root fetch - processPackages [bcmd]: executing diffoscope
+[2023-07-27 09:07:09] INFO root fetch - processPackages [bcmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bcmd-0.0.8.tar.gz tmp/bcmd-0.0.9.tar.gz --markdown 20230727/b/bcmd/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-27 09:07:09] INFO root fetch - processPackages [muffin-peewee-aio]: executing diffoscope
+[2023-07-27 09:07:09] INFO root fetch - processPackages [muffin-peewee-aio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muffin-peewee-aio-0.9.5.tar.gz tmp/muffin-peewee-aio-0.9.6.tar.gz --markdown 20230727/m/muffin-peewee-aio/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-07-27 09:07:09] INFO root fetch - processPackages [zoviz]: executing diffoscope
+[2023-07-27 09:07:09] INFO root fetch - processPackages [zoviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zoviz-0.4.98.tar.gz tmp/zoviz-0.4.99.tar.gz --markdown 20230727/z/zoviz/0.4.98-0.4.99/diff.md --exclude *.pyd
+[2023-07-27 09:07:09] INFO root fetch - processPackages [peewee-aio]: Downloading https://files.pythonhosted.org/packages/e3/c4/1fabfa40ca309b02fd56fd7ddf63f325d6ee91004bfc714ad15c780c440c/peewee_aio-1.7.0.tar.gz
+[2023-07-27 09:07:09] INFO root fetch - processPackages [gpthistory]: Downloading https://files.pythonhosted.org/packages/31/63/031944763671aa8b4d69bc15517568f7940b2b96b0860628ad769dea7eaa/gpthistory-0.3.tar.gz
+[2023-07-27 09:07:09] INFO root fetch - processPackages [garth]: executing diffoscope
+[2023-07-27 09:07:09] INFO root fetch - processPackages [garth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garth-0.2.5.tar.gz tmp/garth-0.2.6.tar.gz --markdown 20230727/g/garth/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-07-27 09:07:09] INFO root fetch - processPackages [cfx-address]: Downloading https://files.pythonhosted.org/packages/f4/7d/f1ab5b0b193939a5239dda8418c0ceadc68416df2935665702a3bcb8cc9a/cfx-address-1.0.1.tar.gz
+[2023-07-27 09:07:10] INFO root fetch - processPackages [eodc]: executing diffoscope
+[2023-07-27 09:07:10] INFO root fetch - processPackages [eodc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodc-2023.6.9.tar.gz tmp/eodc-2023.7.0.tar.gz --markdown 20230727/e/eodc/2023.6.9-2023.7.0/diff.md --exclude *.pyd
+[2023-07-27 09:07:10] INFO root fetch - processPackages [peewee-aio]: executing diffoscope
+[2023-07-27 09:07:10] INFO root fetch - processPackages [peewee-aio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peewee_aio-1.6.0.tar.gz tmp/peewee_aio-1.7.0.tar.gz --markdown 20230727/p/peewee-aio/1.6.0-1.7.0/diff.md --exclude *.pyd
+[2023-07-27 09:07:10] INFO root fetch - processPackages [cfx-address]: executing diffoscope
+[2023-07-27 09:07:10] INFO root fetch - processPackages [cfx-address]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfx-address-1.0.0b9.tar.gz tmp/cfx-address-1.0.1.tar.gz --markdown 20230727/c/cfx-address/1.0.0b9-1.0.1/diff.md --exclude *.pyd
+[2023-07-27 09:07:10] INFO root fetch - processPackages [gpthistory]: executing diffoscope
+[2023-07-27 09:07:10] INFO root fetch - processPackages [gpthistory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpthistory-0.2.tar.gz tmp/gpthistory-0.3.tar.gz --markdown 20230727/g/gpthistory/0.2-0.3/diff.md --exclude *.pyd
+[2023-07-27 09:07:10] INFO root fetch - processPackages [wpcsys]: Downloading https://files.pythonhosted.org/packages/6e/b9/2bc33cbcc0bea5e2680a36b0db188cc850dc1901578c26470e5608f8ef32/wpcsys-2.1.7.tar.gz
+[2023-07-27 09:07:10] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2023-07-27 09:07:10] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20230727/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/diff.md --exclude *.pyd
+[2023-07-27 09:07:10] INFO root fetch - processPackages [wpcsys]: executing diffoscope
+[2023-07-27 09:07:10] INFO root fetch - processPackages [wpcsys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wpcsys-2.1.6.tar.gz tmp/wpcsys-2.1.7.tar.gz --markdown 20230727/w/wpcsys/2.1.6-2.1.7/diff.md --exclude *.pyd
+[2023-07-27 09:07:11] INFO root fetch - processPackages [zoviz]: Remove: archive file [/home/abi/fetcher/tmp/zoviz-0.4.98.tar.gz]
+[2023-07-27 09:07:11] INFO root fetch - processPackages [zoviz]: Remove: archive file [/home/abi/fetcher/tmp/zoviz-0.4.99.tar.gz]
+[2023-07-27 09:07:11] INFO root fetch - processPackages [zoviz]: Start processing: rapyuta-io
+[2023-07-27 09:07:11] INFO root fetch - main [MainThread]: End processing [zoviz]: success
+[2023-07-27 09:07:11] INFO root fetch - processPackages [muffin-peewee-aio]: Remove: archive file [/home/abi/fetcher/tmp/muffin-peewee-aio-0.9.5.tar.gz]
+[2023-07-27 09:07:11] INFO root fetch - processPackages [muffin-peewee-aio]: Remove: archive file [/home/abi/fetcher/tmp/muffin-peewee-aio-0.9.6.tar.gz]
+[2023-07-27 09:07:11] INFO root fetch - processPackages [muffin-peewee-aio]: Start processing: xj-user
+[2023-07-27 09:07:11] INFO root fetch - main [MainThread]: End processing [muffin-peewee-aio]: success
+[2023-07-27 09:07:11] INFO root fetch - processPackages [rapyuta-io]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-07-27 09:07:11] INFO root fetch - processPackages [bcmd]: Remove: archive file [/home/abi/fetcher/tmp/bcmd-0.0.8.tar.gz]
+[2023-07-27 09:07:11] INFO root fetch - processPackages [bcmd]: Remove: archive file [/home/abi/fetcher/tmp/bcmd-0.0.9.tar.gz]
+[2023-07-27 09:07:11] INFO root fetch - processPackages [bcmd]: Start processing: s1280247-learn
+[2023-07-27 09:07:11] INFO root fetch - main [MainThread]: End processing [bcmd]: success
+[2023-07-27 09:07:11] INFO root fetch - processPackages [xj-user]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-07-27 09:07:11] INFO root fetch - processPackages [peewee-aio]: Remove: archive file [/home/abi/fetcher/tmp/peewee_aio-1.6.0.tar.gz]
+[2023-07-27 09:07:11] INFO root fetch - processPackages [peewee-aio]: Remove: archive file [/home/abi/fetcher/tmp/peewee_aio-1.7.0.tar.gz]
+[2023-07-27 09:07:11] INFO root fetch - processPackages [peewee-aio]: Start processing: gpthistory
+[2023-07-27 09:07:11] INFO root fetch - main [MainThread]: End processing [peewee-aio]: success
+[2023-07-27 09:07:11] INFO root fetch - processPackages [eodc]: Remove: archive file [/home/abi/fetcher/tmp/eodc-2023.6.9.tar.gz]
+[2023-07-27 09:07:11] INFO root fetch - processPackages [eodc]: Remove: archive file [/home/abi/fetcher/tmp/eodc-2023.7.0.tar.gz]
+[2023-07-27 09:07:11] INFO root fetch - processPackages [eodc]: Start processing: pglive
+[2023-07-27 09:07:11] INFO root fetch - main [MainThread]: End processing [eodc]: success
+[2023-07-27 09:07:11] INFO root fetch - processPackages [gpthistory]: New version: [0.3] Old Version: [0.2]
+[2023-07-27 09:07:11] INFO root fetch - processPackages [xj-user]: Downloading https://files.pythonhosted.org/packages/26/be/e0d28eecf05fff47ab8dc5bf0e46eff90f3cee3ae03596f052698e5df93d/xj_user-1.2.98.tar.gz
+[2023-07-27 09:07:11] WARNING root fetch - processPackages [s1280247-learn]: Skipping, unable to determine old version
+[2023-07-27 09:07:11] INFO root fetch - processPackages [s1280247-learn]: Start processing: core-models
+[2023-07-27 09:07:11] INFO root fetch - main [MainThread]: End processing [s1280247-learn] error
+[2023-07-27 09:07:11] INFO root fetch - processPackages [core-models]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-27 09:07:11] INFO root fetch - processPackages [pglive]: New version: [0.6.7] Old Version: [0.6.6]
+[2023-07-27 09:07:11] INFO root fetch - processPackages [rapyuta-io]: Downloading https://files.pythonhosted.org/packages/67/02/59f86c280c54042af4ecb002fcfc39ceff9b53739dcf21a426d74d7a9c4d/rapyuta_io-1.8.0.tar.gz
+[2023-07-27 09:07:11] INFO root fetch - processPackages [cfx-address]: Remove: archive file [/home/abi/fetcher/tmp/cfx-address-1.0.0b9.tar.gz]
+[2023-07-27 09:07:11] INFO root fetch - processPackages [cfx-address]: Remove: archive file [/home/abi/fetcher/tmp/cfx-address-1.0.1.tar.gz]
+[2023-07-27 09:07:11] INFO root fetch - processPackages [cfx-address]: Start processing: honeybee-schema
+[2023-07-27 09:07:11] INFO root fetch - main [MainThread]: End processing [cfx-address]: success
+[2023-07-27 09:07:11] INFO root fetch - processPackages [gpthistory]: Remove: archive file [/home/abi/fetcher/tmp/gpthistory-0.2.tar.gz]
+[2023-07-27 09:07:11] INFO root fetch - processPackages [gpthistory]: Remove: archive file [/home/abi/fetcher/tmp/gpthistory-0.3.tar.gz]
+[2023-07-27 09:07:11] INFO root fetch - processPackages [gpthistory]: Start processing: yuan-cheng-package
+[2023-07-27 09:07:11] INFO root fetch - main [MainThread]: End processing [gpthistory]: success
+[2023-07-27 09:07:11] INFO root fetch - processPackages [garth]: Remove: archive file [/home/abi/fetcher/tmp/garth-0.2.5.tar.gz]
+[2023-07-27 09:07:11] INFO root fetch - processPackages [garth]: Remove: archive file [/home/abi/fetcher/tmp/garth-0.2.6.tar.gz]
+[2023-07-27 09:07:11] INFO root fetch - processPackages [garth]: Start processing: imgio
+[2023-07-27 09:07:11] INFO root fetch - main [MainThread]: End processing [garth]: success
+[2023-07-27 09:07:11] INFO root fetch - processPackages [gpthistory]: Downloading https://files.pythonhosted.org/packages/f3/e4/9555258ac2797462514daba414b9031757ccb162e527b053b4ecbb40a663/gpthistory-0.2.tar.gz
+[2023-07-27 09:07:11] INFO root fetch - processPackages [core-models]: Downloading https://files.pythonhosted.org/packages/53/f4/fe06cb6dd2c956f5b85d452cb80388d1ff71a831abf67c10e34415968e45/core_models-0.1.6.tar.gz
+[2023-07-27 09:07:11] INFO root fetch - processPackages [honeybee-schema]: New version: [1.9.0] Old Version: [1.8.2]
+[2023-07-27 09:07:11] INFO root fetch - processPackages [xj-user]: Downloading https://files.pythonhosted.org/packages/f9/79/9b7536f52cd2a21b092678ce5bc888a17a7c527cef9ae891d864354f2e5c/xj_user-1.2.99.tar.gz
+[2023-07-27 09:07:12] INFO root fetch - processPackages [imgio]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-27 09:07:12] INFO root fetch - processPackages [pglive]: Downloading https://files.pythonhosted.org/packages/22/9a/02048e2c437c895ffadf35ed8cc45a86543223dcf07cc02b4790c60ab07b/pglive-0.6.6.tar.gz
+[2023-07-27 09:07:12] WARNING root fetch - processPackages [yuan-cheng-package]: Skipping, unable to determine old version
+[2023-07-27 09:07:12] INFO root fetch - processPackages [yuan-cheng-package]: Start processing: langchain-wenxin
+[2023-07-27 09:07:12] INFO root fetch - main [MainThread]: End processing [yuan-cheng-package] error
+[2023-07-27 09:07:12] INFO root fetch - processPackages [gpthistory]: Downloading https://files.pythonhosted.org/packages/31/63/031944763671aa8b4d69bc15517568f7940b2b96b0860628ad769dea7eaa/gpthistory-0.3.tar.gz
+[2023-07-27 09:07:12] INFO root fetch - processPackages [xj-user]: executing diffoscope
+[2023-07-27 09:07:12] INFO root fetch - processPackages [xj-user]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_user-1.2.98.tar.gz tmp/xj_user-1.2.99.tar.gz --markdown 20230727/x/xj-user/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-07-27 09:07:12] INFO root fetch - processPackages [core-models]: Downloading https://files.pythonhosted.org/packages/00/3c/06185151892cde7654ed785b8a79ce42cfc5abf7b3101b8f32c6ffa29291/core_models-0.1.7.tar.gz
+[2023-07-27 09:07:12] INFO root fetch - processPackages [langchain-wenxin]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-07-27 09:07:12] INFO root fetch - processPackages [gpthistory]: executing diffoscope
+[2023-07-27 09:07:12] INFO root fetch - processPackages [gpthistory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpthistory-0.2.tar.gz tmp/gpthistory-0.3.tar.gz --markdown 20230727/g/gpthistory/0.2-0.3/diff.md --exclude *.pyd
+[2023-07-27 09:07:12] INFO root fetch - processPackages [rapyuta-io]: Downloading https://files.pythonhosted.org/packages/d6/1a/bf8c9a45e74553defd42531896dcf8ac512fc4aa421683452a683aae00a4/rapyuta_io-1.9.0.tar.gz
+[2023-07-27 09:07:12] INFO root fetch - processPackages [honeybee-schema]: Downloading https://files.pythonhosted.org/packages/b6/d5/bf0be74dc6858ed71e31a0de0ea2ccd2088e3f14cb469f0983e6ed41ff8b/honeybee-schema-1.8.2.tar.gz
+[2023-07-27 09:07:12] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220906.tar.gz]
+[2023-07-27 09:07:12] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220907.tar.gz]
+[2023-07-27 09:07:12] INFO root fetch - processPackages [seqio-nightly]: Start processing: openai-wrapper
+[2023-07-27 09:07:12] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2023-07-27 09:07:12] INFO root fetch - processPackages [imgio]: Downloading https://files.pythonhosted.org/packages/d2/2d/292152df283c82c2a617fc98af182d8e2e68886318a4e9f5a3e12844e6d6/imgio-1.0.0.tar.gz
+[2023-07-27 09:07:12] INFO root fetch - processPackages [core-models]: executing diffoscope
+[2023-07-27 09:07:12] INFO root fetch - processPackages [core-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_models-0.1.6.tar.gz tmp/core_models-0.1.7.tar.gz --markdown 20230727/c/core-models/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-27 09:07:12] INFO root fetch - processPackages [pglive]: Downloading https://files.pythonhosted.org/packages/bd/23/65fe853b7a952fb8fdd1d850bf61d4d657dbc3d732d537dbc08dfe02fe56/pglive-0.6.7.tar.gz
+[2023-07-27 09:07:12] INFO root fetch - processPackages [wpcsys]: Remove: archive file [/home/abi/fetcher/tmp/wpcsys-2.1.6.tar.gz]
+[2023-07-27 09:07:12] INFO root fetch - processPackages [wpcsys]: Remove: archive file [/home/abi/fetcher/tmp/wpcsys-2.1.7.tar.gz]
+[2023-07-27 09:07:12] INFO root fetch - main [MainThread]: End processing [wpcsys]: success
+[2023-07-27 09:07:12] INFO root fetch - processPackages [openai-wrapper]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-07-27 09:07:12] INFO root fetch - processPackages [langchain-wenxin]: Downloading https://files.pythonhosted.org/packages/fc/f1/0993830451830b924d62d81a59cd8a909ad3590624710555b73334105490/langchain_wenxin-0.8.2.tar.gz
+[2023-07-27 09:07:12] INFO root fetch - processPackages [rapyuta-io]: executing diffoscope
+[2023-07-27 09:07:12] INFO root fetch - processPackages [rapyuta-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapyuta_io-1.8.0.tar.gz tmp/rapyuta_io-1.9.0.tar.gz --markdown 20230727/r/rapyuta-io/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-27 09:07:12] INFO root fetch - processPackages [openai-wrapper]: Downloading https://files.pythonhosted.org/packages/63/8c/13e8a2a6513d5f0eb62d8981ed66741eeae1f00742990c2ce4733a0edcea/openai_wrapper-0.6.2.tar.gz
+[2023-07-27 09:07:12] INFO root fetch - processPackages [pglive]: executing diffoscope
+[2023-07-27 09:07:12] INFO root fetch - processPackages [pglive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pglive-0.6.6.tar.gz tmp/pglive-0.6.7.tar.gz --markdown 20230727/p/pglive/0.6.6-0.6.7/diff.md --exclude *.pyd
+[2023-07-27 09:07:12] INFO root fetch - processPackages [honeybee-schema]: Downloading https://files.pythonhosted.org/packages/92/90/db8badad5360ad071d8b0ec05d97398810bfa812481842174c19e7edec4f/honeybee-schema-1.9.0.tar.gz
+[2023-07-27 09:07:12] INFO root fetch - processPackages [imgio]: Downloading https://files.pythonhosted.org/packages/43/f0/b38c46653990ac9e78d78dabb6e73e5ebab4e049a1d00036808c278e66c8/imgio-1.1.0.tar.gz
+[2023-07-27 09:07:12] INFO root fetch - processPackages [langchain-wenxin]: Downloading https://files.pythonhosted.org/packages/d0/bf/e6821c05624d247baa944643dc0d304f60bb6021f3cd5ebff8f38376bdb8/langchain_wenxin-0.8.3.tar.gz
+[2023-07-27 09:07:13] INFO root fetch - processPackages [openai-wrapper]: Downloading https://files.pythonhosted.org/packages/9c/67/04916301d106635a1343a2c601414838b90e41db716f80c91c3e47095621/openai_wrapper-0.6.3.tar.gz
+[2023-07-27 09:07:13] INFO root fetch - processPackages [honeybee-schema]: executing diffoscope
+[2023-07-27 09:07:13] INFO root fetch - processPackages [honeybee-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-schema-1.8.2.tar.gz tmp/honeybee-schema-1.9.0.tar.gz --markdown 20230727/h/honeybee-schema/1.8.2-1.9.0/diff.md --exclude *.pyd
+[2023-07-27 09:07:13] INFO root fetch - processPackages [langchain-wenxin]: executing diffoscope
+[2023-07-27 09:07:13] INFO root fetch - processPackages [langchain-wenxin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_wenxin-0.8.2.tar.gz tmp/langchain_wenxin-0.8.3.tar.gz --markdown 20230727/l/langchain-wenxin/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-07-27 09:07:13] INFO root fetch - processPackages [imgio]: executing diffoscope
+[2023-07-27 09:07:13] INFO root fetch - processPackages [imgio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imgio-1.0.0.tar.gz tmp/imgio-1.1.0.tar.gz --markdown 20230727/i/imgio/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-27 09:07:13] INFO root fetch - processPackages [openai-wrapper]: executing diffoscope
+[2023-07-27 09:07:13] INFO root fetch - processPackages [openai-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_wrapper-0.6.2.tar.gz tmp/openai_wrapper-0.6.3.tar.gz --markdown 20230727/o/openai-wrapper/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-07-27 09:07:13] INFO root fetch - processPackages [gpthistory]: Remove: archive file [/home/abi/fetcher/tmp/gpthistory-0.2.tar.gz]
+[2023-07-27 09:07:13] INFO root fetch - processPackages [gpthistory]: Remove: archive file [/home/abi/fetcher/tmp/gpthistory-0.3.tar.gz]
+[2023-07-27 09:07:13] INFO root fetch - main [MainThread]: End processing [gpthistory]: success
+[2023-07-27 09:07:13] INFO root fetch - processPackages [xj-user]: Remove: archive file [/home/abi/fetcher/tmp/xj_user-1.2.98.tar.gz]
+[2023-07-27 09:07:13] INFO root fetch - processPackages [xj-user]: Remove: archive file [/home/abi/fetcher/tmp/xj_user-1.2.99.tar.gz]
+[2023-07-27 09:07:13] INFO root fetch - main [MainThread]: End processing [xj-user]: success
+[2023-07-27 09:07:14] INFO root fetch - processPackages [core-models]: Remove: archive file [/home/abi/fetcher/tmp/core_models-0.1.6.tar.gz]
+[2023-07-27 09:07:14] INFO root fetch - processPackages [core-models]: Remove: archive file [/home/abi/fetcher/tmp/core_models-0.1.7.tar.gz]
+[2023-07-27 09:07:14] INFO root fetch - main [MainThread]: End processing [core-models]: success
+[2023-07-27 09:07:14] INFO root fetch - processPackages [rapyuta-io]: Remove: archive file [/home/abi/fetcher/tmp/rapyuta_io-1.8.0.tar.gz]
+[2023-07-27 09:07:14] INFO root fetch - processPackages [rapyuta-io]: Remove: archive file [/home/abi/fetcher/tmp/rapyuta_io-1.9.0.tar.gz]
+[2023-07-27 09:07:14] INFO root fetch - main [MainThread]: End processing [rapyuta-io]: success
+[2023-07-27 09:07:14] INFO root fetch - processPackages [langchain-wenxin]: Remove: archive file [/home/abi/fetcher/tmp/langchain_wenxin-0.8.2.tar.gz]
+[2023-07-27 09:07:14] INFO root fetch - processPackages [langchain-wenxin]: Remove: archive file [/home/abi/fetcher/tmp/langchain_wenxin-0.8.3.tar.gz]
+[2023-07-27 09:07:14] INFO root fetch - main [MainThread]: End processing [langchain-wenxin]: success
+[2023-07-27 09:07:14] INFO root fetch - processPackages [pglive]: Remove: archive file [/home/abi/fetcher/tmp/pglive-0.6.6.tar.gz]
+[2023-07-27 09:07:14] INFO root fetch - processPackages [pglive]: Remove: archive file [/home/abi/fetcher/tmp/pglive-0.6.7.tar.gz]
+[2023-07-27 09:07:14] INFO root fetch - main [MainThread]: End processing [pglive]: success
+[2023-07-27 09:07:14] INFO root fetch - processPackages [openai-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/openai_wrapper-0.6.2.tar.gz]
+[2023-07-27 09:07:14] INFO root fetch - processPackages [openai-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/openai_wrapper-0.6.3.tar.gz]
+[2023-07-27 09:07:14] INFO root fetch - main [MainThread]: End processing [openai-wrapper]: success
+[2023-07-27 09:07:14] INFO root fetch - processPackages [imgio]: Remove: archive file [/home/abi/fetcher/tmp/imgio-1.0.0.tar.gz]
+[2023-07-27 09:07:14] INFO root fetch - processPackages [imgio]: Remove: archive file [/home/abi/fetcher/tmp/imgio-1.1.0.tar.gz]
+[2023-07-27 09:07:14] INFO root fetch - main [MainThread]: End processing [imgio]: success
+[2023-07-27 09:10:13] ERROR root fetch - processPackages [honeybee-schema]: Timeout during execution of pkgdiff
+[2023-07-27 09:10:13] INFO root fetch - main [MainThread]: End processing [honeybee-schema] error
+[2023-07-27 09:10:13] INFO root fetch - main [MainThread]: Store serial: [19056439]
