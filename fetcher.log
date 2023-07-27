@@ -11844,3 +11844,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-27 06:12:21] INFO root fetch - processPackages [typedhtml]: Remove: archive file [/home/abi/fetcher/tmp/typedhtml-0.1.5.tar.gz]
 [2023-07-27 06:12:21] INFO root fetch - main [MainThread]: End processing [typedhtml]: success
 [2023-07-27 06:12:21] INFO root fetch - main [MainThread]: Store serial: [19054516]
+[2023-07-27 06:17:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19054516]
+[2023-07-27 06:17:29] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-27 06:17:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lite-fastapi-local
+[2023-07-27 06:17:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oganesson
+[2023-07-27 06:17:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kobo-md
+[2023-07-27 06:17:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Ibp2py
+[2023-07-27 06:17:29] INFO root fetch - processPackages [kobo-md]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-27 06:17:29] INFO root fetch - processPackages [Ibp2py]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-27 06:17:29] INFO root fetch - processPackages [oganesson]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-27 06:17:29] INFO root fetch - processPackages [lite-fastapi-local]: New version: [0.0.43] Old Version: [0.0.42]
+[2023-07-27 06:17:29] INFO root fetch - processPackages [kobo-md]: Downloading https://files.pythonhosted.org/packages/8a/55/bace7556421593f32e304c4da519b310994a0a9130297ed1d19a117f7ee9/kobo-md-0.1.1.tar.gz
+[2023-07-27 06:17:29] INFO root fetch - processPackages [lite-fastapi-local]: Downloading https://files.pythonhosted.org/packages/5f/ed/5f4addb503d1624a6737c8234c277a32f41fcd63c67739a1762e64d228cc/lite_fastapi_local-0.0.42.tar.gz
+[2023-07-27 06:17:29] INFO root fetch - processPackages [oganesson]: Downloading https://files.pythonhosted.org/packages/5a/16/eb08948b07191480b03a8bfac4c5f9a14865543131abac8c609c459a3005/oganesson-0.1.8.tar.gz
+[2023-07-27 06:17:30] INFO root fetch - processPackages [Ibp2py]: Downloading https://files.pythonhosted.org/packages/ab/64/be914bd00b68b80f1607c3ebe66d8385b7d1a12aac3e1b6ec27b708cd622/Ibp2py-1.0.1.tar.gz
+[2023-07-27 06:17:30] INFO root fetch - processPackages [Ibp2py]: Downloading https://files.pythonhosted.org/packages/01/88/5b61d762c4d5cc5685e14d7d5448c07457d9d7c36a836af69d318d1d7f5c/Ibp2py-1.0.2.tar.gz
+[2023-07-27 06:17:30] INFO root fetch - processPackages [lite-fastapi-local]: Downloading https://files.pythonhosted.org/packages/19/15/45e29315228eba485a06289e5be69dff0cc5dd53105580d41a33f2798222/lite_fastapi_local-0.0.43.tar.gz
+[2023-07-27 06:17:30] INFO root fetch - processPackages [kobo-md]: Downloading https://files.pythonhosted.org/packages/f8/63/7fc99d2210dcb8fe2742aded7a352c351c91b251d6999387b016f5e48635/kobo-md-0.1.2.tar.gz
+[2023-07-27 06:17:30] INFO root fetch - processPackages [Ibp2py]: executing diffoscope
+[2023-07-27 06:17:30] INFO root fetch - processPackages [Ibp2py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Ibp2py-1.0.1.tar.gz tmp/Ibp2py-1.0.2.tar.gz --markdown 20230727/I/Ibp2py/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-27 06:17:30] INFO root fetch - processPackages [oganesson]: Downloading https://files.pythonhosted.org/packages/0e/b0/0bf47252cc54184d446e9d6f6d65b1704e58cddd08024db40a08c09c3252/oganesson-0.1.9.tar.gz
+[2023-07-27 06:17:30] INFO root fetch - processPackages [lite-fastapi-local]: executing diffoscope
+[2023-07-27 06:17:30] INFO root fetch - processPackages [lite-fastapi-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lite_fastapi_local-0.0.42.tar.gz tmp/lite_fastapi_local-0.0.43.tar.gz --markdown 20230727/l/lite-fastapi-local/0.0.42-0.0.43/diff.md --exclude *.pyd
+[2023-07-27 06:17:30] INFO root fetch - processPackages [kobo-md]: executing diffoscope
+[2023-07-27 06:17:30] INFO root fetch - processPackages [kobo-md]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kobo-md-0.1.1.tar.gz tmp/kobo-md-0.1.2.tar.gz --markdown 20230727/k/kobo-md/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-27 06:17:30] INFO root fetch - processPackages [oganesson]: executing diffoscope
+[2023-07-27 06:17:30] INFO root fetch - processPackages [oganesson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oganesson-0.1.8.tar.gz tmp/oganesson-0.1.9.tar.gz --markdown 20230727/o/oganesson/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-27 06:17:31] INFO root fetch - processPackages [Ibp2py]: Remove: archive file [/home/abi/fetcher/tmp/Ibp2py-1.0.1.tar.gz]
+[2023-07-27 06:17:31] INFO root fetch - processPackages [Ibp2py]: Remove: archive file [/home/abi/fetcher/tmp/Ibp2py-1.0.2.tar.gz]
+[2023-07-27 06:17:31] INFO root fetch - main [MainThread]: End processing [Ibp2py]: success
+[2023-07-27 06:17:31] INFO root fetch - processPackages [lite-fastapi-local]: Remove: archive file [/home/abi/fetcher/tmp/lite_fastapi_local-0.0.42.tar.gz]
+[2023-07-27 06:17:31] INFO root fetch - processPackages [lite-fastapi-local]: Remove: archive file [/home/abi/fetcher/tmp/lite_fastapi_local-0.0.43.tar.gz]
+[2023-07-27 06:17:31] INFO root fetch - main [MainThread]: End processing [lite-fastapi-local]: success
+[2023-07-27 06:17:31] INFO root fetch - processPackages [kobo-md]: Remove: archive file [/home/abi/fetcher/tmp/kobo-md-0.1.1.tar.gz]
+[2023-07-27 06:17:31] INFO root fetch - processPackages [kobo-md]: Remove: archive file [/home/abi/fetcher/tmp/kobo-md-0.1.2.tar.gz]
+[2023-07-27 06:17:31] INFO root fetch - main [MainThread]: End processing [kobo-md]: success
+[2023-07-27 06:17:31] INFO root fetch - processPackages [oganesson]: Remove: archive file [/home/abi/fetcher/tmp/oganesson-0.1.8.tar.gz]
+[2023-07-27 06:17:31] INFO root fetch - processPackages [oganesson]: Remove: archive file [/home/abi/fetcher/tmp/oganesson-0.1.9.tar.gz]
+[2023-07-27 06:17:31] INFO root fetch - main [MainThread]: End processing [oganesson]: success
+[2023-07-27 06:17:31] INFO root fetch - main [MainThread]: Store serial: [19054527]
