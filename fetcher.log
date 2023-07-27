@@ -20910,3 +20910,80 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-07-27 11:29:47] INFO root fetch - processPackages [data-engineering-pulumi-components]: Remove: archive file [/home/abi/fetcher/tmp/data-engineering-pulumi-components-0.4.1.dev7.tar.gz]
 [2023-07-27 11:29:47] INFO root fetch - main [MainThread]: End processing [data-engineering-pulumi-components]: success
 [2023-07-27 11:29:47] INFO root fetch - main [MainThread]: Store serial: [19057922]
+[2023-07-27 11:34:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19057922]
+[2023-07-27 11:34:56] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-27 11:34:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chatllm
+[2023-07-27 11:34:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: simpa
+[2023-07-27 11:34:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: invest-life
+[2023-07-27 11:34:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: amazon-products-scraper
+[2023-07-27 11:34:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gpcc
+[2023-07-27 11:34:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: syngen
+[2023-07-27 11:34:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zit
+[2023-07-27 11:34:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-webstack
+[2023-07-27 11:34:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Open-SESAME-Battery
+[2023-07-27 11:34:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lycoris-lora
+[2023-07-27 11:34:56] INFO root fetch - processPackages [zit]: New version: [0.0.3a9] Old Version: [0.0.3a8]
+[2023-07-27 11:34:56] INFO root fetch - processPackages [syngen]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-27 11:34:56] INFO root fetch - processPackages [amazon-products-scraper]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-27 11:34:56] INFO root fetch - processPackages [simpa]: New version: [0.8.9] Old Version: [0.8.7]
+[2023-07-27 11:34:56] INFO root fetch - processPackages [invest-life]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-27 11:34:56] WARNING root fetch - processPackages [Open-SESAME-Battery]: Skipping, unable to determine old version
+[2023-07-27 11:34:56] INFO root fetch - main [MainThread]: End processing [Open-SESAME-Battery] error
+[2023-07-27 11:34:57] WARNING root fetch - processPackages [gpcc]: Skipping, unable to determine old version
+[2023-07-27 11:34:57] INFO root fetch - main [MainThread]: End processing [gpcc] error
+[2023-07-27 11:34:57] INFO root fetch - processPackages [django-webstack]: New version: [1.3.4.1] Old Version: [1.3.4]
+[2023-07-27 11:34:57] INFO root fetch - processPackages [chatllm]: New version: [2023.7.4.13.43.50] Old Version: [2023.7.4.12.13.14]
+[2023-07-27 11:34:57] INFO root fetch - processPackages [lycoris-lora]: New version: [1.8.2] Old Version: [1.8.1.dev3]
+[2023-07-27 11:34:57] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/ac/15/d8015b5ea1834f5c18e47edecc9b74875a43e81a49b4b2b2372660959ee1/chatllm-2023.7.4.12.13.14.tar.gz
+[2023-07-27 11:34:57] INFO root fetch - processPackages [amazon-products-scraper]: Downloading https://files.pythonhosted.org/packages/2e/c4/7af9243ac375e5f5cc91abf2213538647ec3fce1ac826cab6041dabc7625/amazon_products_scraper-0.0.3.tar.gz
+[2023-07-27 11:34:57] INFO root fetch - processPackages [invest-life]: Downloading https://files.pythonhosted.org/packages/79/1c/fbacad65b1c70cdfc913b6d503b809463c04b6761f8e444d213796b21781/invest_life-0.0.4.tar.gz
+[2023-07-27 11:34:57] INFO root fetch - processPackages [django-webstack]: Downloading https://files.pythonhosted.org/packages/18/e7/abb12887041386bab8295a06859654551459ac6714da69550e67e3aa0c49/django-webstack-1.3.4.tar.gz
+[2023-07-27 11:34:57] INFO root fetch - processPackages [zit]: Downloading https://files.pythonhosted.org/packages/9d/b1/feab52c6188b15e420bc52c41b2e6bca0dbd342cf5b12a4e575ae0726fee/zit-0.0.3a8.tar.gz
+[2023-07-27 11:34:57] WARNING root fetch - processPackages [chatllm]: Skipping package: exceeds size limit 11352041>=10485760
+[2023-07-27 11:34:57] INFO root fetch - main [MainThread]: End processing [chatllm] error
+[2023-07-27 11:34:57] INFO root fetch - processPackages [syngen]: Downloading https://files.pythonhosted.org/packages/d1/5c/1a07748f97870290d6219c56768425459aa1519f941153183894348fc83a/syngen-0.1.8.tar.gz
+[2023-07-27 11:34:57] INFO root fetch - processPackages [simpa]: Downloading https://files.pythonhosted.org/packages/82/2c/82b592acbdcf57c9d119bbd72bd9de32113331e9119c11bde1a4160da282/simpa-0.8.7.tar.gz
+[2023-07-27 11:34:57] INFO root fetch - processPackages [lycoris-lora]: Downloading https://files.pythonhosted.org/packages/d6/f2/31aa11032e79d971f1aae3f1ddc718c29cd670719e1c99bd5b235892abd5/lycoris_lora-1.8.1.dev3.tar.gz
+[2023-07-27 11:34:57] INFO root fetch - processPackages [amazon-products-scraper]: Downloading https://files.pythonhosted.org/packages/12/e8/6d83d06a426efa526214de716074cd40a26e143450c0fe18dd4fcfc167bb/amazon_products_scraper-0.0.4.tar.gz
+[2023-07-27 11:34:57] INFO root fetch - processPackages [invest-life]: Downloading https://files.pythonhosted.org/packages/52/9d/15f7ff74a44cf6379b9f1ec50ed95c71d6f7aa3a0d737ee851dc5e77a884/invest_life-0.0.5.tar.gz
+[2023-07-27 11:34:57] INFO root fetch - processPackages [zit]: Downloading https://files.pythonhosted.org/packages/0b/29/dd47bcd69f0c0c4481944f323918be890bb8afe3b32336f509edfc597748/zit-0.0.3a9.tar.gz
+[2023-07-27 11:34:57] INFO root fetch - processPackages [invest-life]: executing diffoscope
+[2023-07-27 11:34:57] INFO root fetch - processPackages [invest-life]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invest_life-0.0.4.tar.gz tmp/invest_life-0.0.5.tar.gz --markdown 20230727/i/invest-life/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-27 11:34:57] INFO root fetch - processPackages [simpa]: Downloading https://files.pythonhosted.org/packages/b8/55/1066db6725e52399479f5a0792e14506581ed4e798cc9fd29db36d227ab8/simpa-0.8.9.tar.gz
+[2023-07-27 11:34:57] INFO root fetch - processPackages [amazon-products-scraper]: executing diffoscope
+[2023-07-27 11:34:57] INFO root fetch - processPackages [amazon-products-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amazon_products_scraper-0.0.3.tar.gz tmp/amazon_products_scraper-0.0.4.tar.gz --markdown 20230727/a/amazon-products-scraper/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-27 11:34:57] INFO root fetch - processPackages [zit]: executing diffoscope
+[2023-07-27 11:34:57] INFO root fetch - processPackages [zit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zit-0.0.3a8.tar.gz tmp/zit-0.0.3a9.tar.gz --markdown 20230727/z/zit/0.0.3a8-0.0.3a9/diff.md --exclude *.pyd
+[2023-07-27 11:34:57] INFO root fetch - processPackages [simpa]: executing diffoscope
+[2023-07-27 11:34:57] INFO root fetch - processPackages [simpa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simpa-0.8.7.tar.gz tmp/simpa-0.8.9.tar.gz --markdown 20230727/s/simpa/0.8.7-0.8.9/diff.md --exclude *.pyd
+[2023-07-27 11:34:57] INFO root fetch - processPackages [lycoris-lora]: Downloading https://files.pythonhosted.org/packages/02/47/da4c50825a9a79e56c9315880940f48f20b1ebb2a0f78c7a7c1b37fcfd2e/lycoris_lora-1.8.2.tar.gz
+[2023-07-27 11:34:57] INFO root fetch - processPackages [syngen]: Downloading https://files.pythonhosted.org/packages/1c/ec/09634635304cfe54bd538c9f136477113b28b8b56e10596aec3cf678573a/syngen-0.1.9.tar.gz
+[2023-07-27 11:34:58] INFO root fetch - processPackages [lycoris-lora]: executing diffoscope
+[2023-07-27 11:34:58] INFO root fetch - processPackages [lycoris-lora]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lycoris_lora-1.8.1.dev3.tar.gz tmp/lycoris_lora-1.8.2.tar.gz --markdown 20230727/l/lycoris-lora/1.8.1.dev3-1.8.2/diff.md --exclude *.pyd
+[2023-07-27 11:34:58] INFO root fetch - processPackages [django-webstack]: Downloading https://files.pythonhosted.org/packages/5f/b9/630a7847b11e582fb6d2b166eb637daf256fb2052806a9827e8722462a84/django-webstack-1.3.4.1.tar.gz
+[2023-07-27 11:34:58] INFO root fetch - processPackages [syngen]: executing diffoscope
+[2023-07-27 11:34:58] INFO root fetch - processPackages [syngen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syngen-0.1.8.tar.gz tmp/syngen-0.1.9.tar.gz --markdown 20230727/s/syngen/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-27 11:34:58] INFO root fetch - processPackages [django-webstack]: executing diffoscope
+[2023-07-27 11:34:58] INFO root fetch - processPackages [django-webstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-webstack-1.3.4.tar.gz tmp/django-webstack-1.3.4.1.tar.gz --markdown 20230727/d/django-webstack/1.3.4-1.3.4.1/diff.md --exclude *.pyd
+[2023-07-27 11:34:59] INFO root fetch - processPackages [amazon-products-scraper]: Remove: archive file [/home/abi/fetcher/tmp/amazon_products_scraper-0.0.3.tar.gz]
+[2023-07-27 11:34:59] INFO root fetch - processPackages [amazon-products-scraper]: Remove: archive file [/home/abi/fetcher/tmp/amazon_products_scraper-0.0.4.tar.gz]
+[2023-07-27 11:34:59] INFO root fetch - main [MainThread]: End processing [amazon-products-scraper]: success
+[2023-07-27 11:34:59] INFO root fetch - processPackages [zit]: Remove: archive file [/home/abi/fetcher/tmp/zit-0.0.3a8.tar.gz]
+[2023-07-27 11:34:59] INFO root fetch - processPackages [zit]: Remove: archive file [/home/abi/fetcher/tmp/zit-0.0.3a9.tar.gz]
+[2023-07-27 11:34:59] INFO root fetch - main [MainThread]: End processing [zit]: success
+[2023-07-27 11:34:59] INFO root fetch - processPackages [invest-life]: Remove: archive file [/home/abi/fetcher/tmp/invest_life-0.0.4.tar.gz]
+[2023-07-27 11:34:59] INFO root fetch - processPackages [invest-life]: Remove: archive file [/home/abi/fetcher/tmp/invest_life-0.0.5.tar.gz]
+[2023-07-27 11:34:59] INFO root fetch - main [MainThread]: End processing [invest-life]: success
+[2023-07-27 11:34:59] INFO root fetch - processPackages [lycoris-lora]: Remove: archive file [/home/abi/fetcher/tmp/lycoris_lora-1.8.1.dev3.tar.gz]
+[2023-07-27 11:34:59] INFO root fetch - processPackages [lycoris-lora]: Remove: archive file [/home/abi/fetcher/tmp/lycoris_lora-1.8.2.tar.gz]
+[2023-07-27 11:34:59] INFO root fetch - main [MainThread]: End processing [lycoris-lora]: success
+[2023-07-27 11:34:59] INFO root fetch - processPackages [syngen]: Remove: archive file [/home/abi/fetcher/tmp/syngen-0.1.8.tar.gz]
+[2023-07-27 11:34:59] INFO root fetch - processPackages [syngen]: Remove: archive file [/home/abi/fetcher/tmp/syngen-0.1.9.tar.gz]
+[2023-07-27 11:34:59] INFO root fetch - main [MainThread]: End processing [syngen]: success
+[2023-07-27 11:35:00] INFO root fetch - processPackages [django-webstack]: Remove: archive file [/home/abi/fetcher/tmp/django-webstack-1.3.4.tar.gz]
+[2023-07-27 11:35:00] INFO root fetch - processPackages [django-webstack]: Remove: archive file [/home/abi/fetcher/tmp/django-webstack-1.3.4.1.tar.gz]
+[2023-07-27 11:35:00] INFO root fetch - main [MainThread]: End processing [django-webstack]: success
+[2023-07-27 11:35:00] INFO root fetch - processPackages [simpa]: Remove: archive file [/home/abi/fetcher/tmp/simpa-0.8.7.tar.gz]
+[2023-07-27 11:35:00] INFO root fetch - processPackages [simpa]: Remove: archive file [/home/abi/fetcher/tmp/simpa-0.8.9.tar.gz]
+[2023-07-27 11:35:00] INFO root fetch - main [MainThread]: End processing [simpa]: success
+[2023-07-27 11:35:00] INFO root fetch - main [MainThread]: Store serial: [19057954]
