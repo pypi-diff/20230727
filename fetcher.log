@@ -22741,3 +22741,108 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-27 12:56:02] INFO root fetch - processPackages [kopf]: Remove: archive file [/home/abi/fetcher/tmp/kopf-1.36.2.tar.gz]
 [2023-07-27 12:56:02] INFO root fetch - main [MainThread]: End processing [kopf]: success
 [2023-07-27 12:56:02] INFO root fetch - main [MainThread]: Store serial: [19058721]
+[2023-07-27 13:01:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19058721]
+[2023-07-27 13:01:10] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-27 13:01:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-webstack
+[2023-07-27 13:01:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: testflows.github.runners
+[2023-07-27 13:01:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-dkron
+[2023-07-27 13:01:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mds-cashbook-media
+[2023-07-27 13:01:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: oarepo-vocabularies
+[2023-07-27 13:01:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: secrets-vault
+[2023-07-27 13:01:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: convocations
+[2023-07-27 13:01:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pysmiles
+[2023-07-27 13:01:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: graia-broadcast
+[2023-07-27 13:01:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: noether
+[2023-07-27 13:01:11] INFO root fetch - processPackages [noether]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-27 13:01:11] INFO root fetch - processPackages [testflows.github.runners]: New version: [1.2.230727.1105704] Old Version: [1.2.230727.1031300]
+[2023-07-27 13:01:11] INFO root fetch - processPackages [secrets-vault]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-27 13:01:11] INFO root fetch - processPackages [pysmiles]: New version: [1.1.1] Old Version: [1.0.2]
+[2023-07-27 13:01:11] INFO root fetch - processPackages [django-dkron]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-27 13:01:11] INFO root fetch - processPackages [mds-cashbook-media]: New version: [6.8.4] Old Version: [6.0.4]
+[2023-07-27 13:01:11] INFO root fetch - processPackages [graia-broadcast]: New version: [0.9.0] Old Version: [0.8.9]
+[2023-07-27 13:01:11] INFO root fetch - processPackages [django-webstack]: New version: [1.3.6] Old Version: [1.3.5]
+[2023-07-27 13:01:11] INFO root fetch - processPackages [oarepo-vocabularies]: New version: [2.0.8] Old Version: [2.0.7]
+[2023-07-27 13:01:11] INFO root fetch - processPackages [convocations]: New version: [0.9] Old Version: [0.8]
+[2023-07-27 13:01:11] INFO root fetch - processPackages [testflows.github.runners]: Downloading https://files.pythonhosted.org/packages/82/c1/acb43224f235e26687a3fb8e478383bc95fd94f7685cd53d92bf2beaa0c8/testflows.github.runners-1.2.230727.1031300.tar.gz
+[2023-07-27 13:01:11] INFO root fetch - processPackages [mds-cashbook-media]: Downloading https://files.pythonhosted.org/packages/7a/fb/d4b16a0117da19d1403eb3f4c324e8258ba906472a73cef049695a815d94/mds_cashbook_media-6.0.4.tar.gz
+[2023-07-27 13:01:11] INFO root fetch - processPackages [django-webstack]: Downloading https://files.pythonhosted.org/packages/64/8b/97550e253289c741c807f2e1b975b818e3aff121e7d77f5a337175fcd1de/django-webstack-1.3.5.tar.gz
+[2023-07-27 13:01:11] INFO root fetch - processPackages [secrets-vault]: Downloading https://files.pythonhosted.org/packages/44/aa/4a5d2ca64a6d79c980853ede4e669938583170de17f4c192bcf92500ff1f/secrets-vault-0.1.8.tar.gz
+[2023-07-27 13:01:11] INFO root fetch - processPackages [noether]: Downloading https://files.pythonhosted.org/packages/79/e0/6054a1cec33a3a2ffb562a28fa60ad6b87c86a37d21e2b86ec38db09aad3/noether-1.0.0.tar.gz
+[2023-07-27 13:01:11] INFO root fetch - processPackages [oarepo-vocabularies]: Downloading https://files.pythonhosted.org/packages/c8/85/d226a87c13bac2b8adbbc3209ced5c7c91f172401dce35ad52a4026cc59a/oarepo-vocabularies-2.0.7.tar.gz
+[2023-07-27 13:01:11] INFO root fetch - processPackages [django-dkron]: Downloading https://files.pythonhosted.org/packages/dc/ef/104c1c7f351f96508665bd35b1ddf24eb404bc7fb40f785f4b4db9f85dc7/django-dkron-1.1.1.tar.gz
+[2023-07-27 13:01:11] INFO root fetch - processPackages [pysmiles]: Downloading https://files.pythonhosted.org/packages/f5/da/9e773c0e0fae7cfa4e9cd8e42ad178ac78fe83095334f24500783718c702/pysmiles-1.0.2.tar.gz
+[2023-07-27 13:01:11] INFO root fetch - processPackages [convocations]: Downloading https://files.pythonhosted.org/packages/89/ce/2d19543b26d195805bdab5420c20f93e8f3d5f6a9954648589996718fcb0/convocations-0.8.tar.gz
+[2023-07-27 13:01:11] INFO root fetch - processPackages [graia-broadcast]: Downloading https://files.pythonhosted.org/packages/0e/73/12db803a0653fdb1df3662b25ed789d44aa87dfe7ca86424e2a23b073b79/graia-broadcast-0.8.9.tar.gz
+[2023-07-27 13:01:11] INFO root fetch - processPackages [mds-cashbook-media]: Downloading https://files.pythonhosted.org/packages/dc/70/941b61d8540a096044224c152a995212a3293d62fb9b4674e7cc38477644/mds_cashbook_media-6.8.4.tar.gz
+[2023-07-27 13:01:11] INFO root fetch - processPackages [testflows.github.runners]: Downloading https://files.pythonhosted.org/packages/8c/59/b7cef3f4d5bf45f47423bd041aa0507f857ea65cf89bb76e4cdcf0974dae/testflows.github.runners-1.2.230727.1105704.tar.gz
+[2023-07-27 13:01:12] INFO root fetch - processPackages [secrets-vault]: Downloading https://files.pythonhosted.org/packages/fb/07/bc2a1662dc0ed7e174bb078e2e2535276a28379ec2bf1cf7223faba5a988/secrets-vault-0.1.9.tar.gz
+[2023-07-27 13:01:12] INFO root fetch - processPackages [oarepo-vocabularies]: Downloading https://files.pythonhosted.org/packages/fb/2d/b70fc2116fca8ab4e5bde924c172a421f6f3c158320375063e55d04b39bd/oarepo-vocabularies-2.0.8.tar.gz
+[2023-07-27 13:01:12] INFO root fetch - processPackages [noether]: Downloading https://files.pythonhosted.org/packages/4a/f8/37a770fbd22594f6fee5c4b506516b2c3be594be4757c47635a1f8d9cefa/noether-1.0.1.tar.gz
+[2023-07-27 13:01:12] INFO root fetch - processPackages [mds-cashbook-media]: executing diffoscope
+[2023-07-27 13:01:12] INFO root fetch - processPackages [mds-cashbook-media]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mds_cashbook_media-6.0.4.tar.gz tmp/mds_cashbook_media-6.8.4.tar.gz --markdown 20230727/m/mds-cashbook-media/6.0.4-6.8.4/diff.md --exclude *.pyd
+[2023-07-27 13:01:12] INFO root fetch - processPackages [django-dkron]: Downloading https://files.pythonhosted.org/packages/a1/95/8c2325ebfe7e8acc24bb5d65810782634061dac8271250fdb95de4228136/django-dkron-1.1.2.tar.gz
+[2023-07-27 13:01:12] INFO root fetch - processPackages [secrets-vault]: executing diffoscope
+[2023-07-27 13:01:12] INFO root fetch - processPackages [secrets-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secrets-vault-0.1.8.tar.gz tmp/secrets-vault-0.1.9.tar.gz --markdown 20230727/s/secrets-vault/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-27 13:01:12] INFO root fetch - processPackages [pysmiles]: Downloading https://files.pythonhosted.org/packages/7d/c7/f19ce8cf285e612a6733b6f665f5e541955dae8e20123cc70ec549e2b422/pysmiles-1.1.1.tar.gz
+[2023-07-27 13:01:12] INFO root fetch - processPackages [django-webstack]: Downloading https://files.pythonhosted.org/packages/54/b7/19e89bb1d83d9cf70f90c9b2bbeaed206130a76cfb07f45a3cc6bdceaa37/django-webstack-1.3.6.tar.gz
+[2023-07-27 13:01:12] INFO root fetch - processPackages [convocations]: Downloading https://files.pythonhosted.org/packages/90/d1/1369957dcb347a73705514eb53550d2f2c602373a0719cbd1796c4a74827/convocations-0.9.tar.gz
+[2023-07-27 13:01:12] INFO root fetch - processPackages [oarepo-vocabularies]: executing diffoscope
+[2023-07-27 13:01:12] INFO root fetch - processPackages [oarepo-vocabularies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-vocabularies-2.0.7.tar.gz tmp/oarepo-vocabularies-2.0.8.tar.gz --markdown 20230727/o/oarepo-vocabularies/2.0.7-2.0.8/diff.md --exclude *.pyd
+[2023-07-27 13:01:12] INFO root fetch - processPackages [testflows.github.runners]: executing diffoscope
+[2023-07-27 13:01:12] INFO root fetch - processPackages [testflows.github.runners]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testflows.github.runners-1.2.230727.1031300.tar.gz tmp/testflows.github.runners-1.2.230727.1105704.tar.gz --markdown 20230727/t/testflows.github.runners/1.2.230727.1031300-1.2.230727.1105704/diff.md --exclude *.pyd
+[2023-07-27 13:01:12] INFO root fetch - processPackages [django-dkron]: executing diffoscope
+[2023-07-27 13:01:12] INFO root fetch - processPackages [django-dkron]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-dkron-1.1.1.tar.gz tmp/django-dkron-1.1.2.tar.gz --markdown 20230727/d/django-dkron/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-27 13:01:12] INFO root fetch - processPackages [graia-broadcast]: Downloading https://files.pythonhosted.org/packages/bb/b6/1e12c5c4c947738dd16cc772420e87e8482984dcf5e94bc92fe2ae57c0cf/graia-broadcast-0.9.0.tar.gz
+[2023-07-27 13:01:12] INFO root fetch - processPackages [noether]: executing diffoscope
+[2023-07-27 13:01:12] INFO root fetch - processPackages [noether]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/noether-1.0.0.tar.gz tmp/noether-1.0.1.tar.gz --markdown 20230727/n/noether/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-27 13:01:12] INFO root fetch - processPackages [convocations]: executing diffoscope
+[2023-07-27 13:01:12] INFO root fetch - processPackages [convocations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/convocations-0.8.tar.gz tmp/convocations-0.9.tar.gz --markdown 20230727/c/convocations/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-27 13:01:12] INFO root fetch - processPackages [pysmiles]: executing diffoscope
+[2023-07-27 13:01:12] INFO root fetch - processPackages [pysmiles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysmiles-1.0.2.tar.gz tmp/pysmiles-1.1.1.tar.gz --markdown 20230727/p/pysmiles/1.0.2-1.1.1/diff.md --exclude *.pyd
+[2023-07-27 13:01:12] INFO root fetch - processPackages [django-webstack]: executing diffoscope
+[2023-07-27 13:01:12] INFO root fetch - processPackages [django-webstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-webstack-1.3.5.tar.gz tmp/django-webstack-1.3.6.tar.gz --markdown 20230727/d/django-webstack/1.3.5-1.3.6/diff.md --exclude *.pyd
+[2023-07-27 13:01:12] INFO root fetch - processPackages [graia-broadcast]: executing diffoscope
+[2023-07-27 13:01:12] INFO root fetch - processPackages [graia-broadcast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graia-broadcast-0.8.9.tar.gz tmp/graia-broadcast-0.9.0.tar.gz --markdown 20230727/g/graia-broadcast/0.8.9-0.9.0/diff.md --exclude *.pyd
+[2023-07-27 13:01:13] INFO root fetch - processPackages [mds-cashbook-media]: Remove: archive file [/home/abi/fetcher/tmp/mds_cashbook_media-6.0.4.tar.gz]
+[2023-07-27 13:01:13] INFO root fetch - processPackages [mds-cashbook-media]: Remove: archive file [/home/abi/fetcher/tmp/mds_cashbook_media-6.8.4.tar.gz]
+[2023-07-27 13:01:13] INFO root fetch - processPackages [mds-cashbook-media]: Start processing: tortoise-api
+[2023-07-27 13:01:13] INFO root fetch - main [MainThread]: End processing [mds-cashbook-media]: success
+[2023-07-27 13:01:13] INFO root fetch - processPackages [tortoise-api]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-27 13:01:13] INFO root fetch - processPackages [secrets-vault]: Remove: archive file [/home/abi/fetcher/tmp/secrets-vault-0.1.8.tar.gz]
+[2023-07-27 13:01:13] INFO root fetch - processPackages [secrets-vault]: Remove: archive file [/home/abi/fetcher/tmp/secrets-vault-0.1.9.tar.gz]
+[2023-07-27 13:01:13] INFO root fetch - processPackages [secrets-vault]: Start processing: ag-llama-api-s
+[2023-07-27 13:01:13] INFO root fetch - main [MainThread]: End processing [secrets-vault]: success
+[2023-07-27 13:01:13] ERROR root fetch - processPackages [ag-llama-api-s]: Unable to get metadata: No such project 'ag-llama-api-s'
+[2023-07-27 13:01:13] INFO root fetch - main [MainThread]: End processing [ag-llama-api-s] error
+[2023-07-27 13:01:14] INFO root fetch - processPackages [django-dkron]: Remove: archive file [/home/abi/fetcher/tmp/django-dkron-1.1.1.tar.gz]
+[2023-07-27 13:01:14] INFO root fetch - processPackages [django-dkron]: Remove: archive file [/home/abi/fetcher/tmp/django-dkron-1.1.2.tar.gz]
+[2023-07-27 13:01:14] INFO root fetch - main [MainThread]: End processing [django-dkron]: success
+[2023-07-27 13:01:14] INFO root fetch - processPackages [tortoise-api]: Downloading https://files.pythonhosted.org/packages/23/c7/63ad6b989f161f16d2ce4f8348c9b683dc4499c319178b5e3871423c273b/tortoise-api-0.2.0.tar.gz
+[2023-07-27 13:01:14] INFO root fetch - processPackages [testflows.github.runners]: Remove: archive file [/home/abi/fetcher/tmp/testflows.github.runners-1.2.230727.1031300.tar.gz]
+[2023-07-27 13:01:14] INFO root fetch - processPackages [testflows.github.runners]: Remove: archive file [/home/abi/fetcher/tmp/testflows.github.runners-1.2.230727.1105704.tar.gz]
+[2023-07-27 13:01:14] INFO root fetch - main [MainThread]: End processing [testflows.github.runners]: success
+[2023-07-27 13:01:14] INFO root fetch - processPackages [oarepo-vocabularies]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-vocabularies-2.0.7.tar.gz]
+[2023-07-27 13:01:14] INFO root fetch - processPackages [oarepo-vocabularies]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-vocabularies-2.0.8.tar.gz]
+[2023-07-27 13:01:14] INFO root fetch - main [MainThread]: End processing [oarepo-vocabularies]: success
+[2023-07-27 13:01:14] INFO root fetch - processPackages [graia-broadcast]: Remove: archive file [/home/abi/fetcher/tmp/graia-broadcast-0.8.9.tar.gz]
+[2023-07-27 13:01:14] INFO root fetch - processPackages [graia-broadcast]: Remove: archive file [/home/abi/fetcher/tmp/graia-broadcast-0.9.0.tar.gz]
+[2023-07-27 13:01:14] INFO root fetch - main [MainThread]: End processing [graia-broadcast]: success
+[2023-07-27 13:01:14] INFO root fetch - processPackages [noether]: Remove: archive file [/home/abi/fetcher/tmp/noether-1.0.0.tar.gz]
+[2023-07-27 13:01:14] INFO root fetch - processPackages [noether]: Remove: archive file [/home/abi/fetcher/tmp/noether-1.0.1.tar.gz]
+[2023-07-27 13:01:14] INFO root fetch - main [MainThread]: End processing [noether]: success
+[2023-07-27 13:01:14] INFO root fetch - processPackages [tortoise-api]: Downloading https://files.pythonhosted.org/packages/e8/b0/70903c4497ad3ee2949febadf892adde8544423451843e2721cd311f4b1b/tortoise-api-0.2.1.tar.gz
+[2023-07-27 13:01:14] INFO root fetch - processPackages [pysmiles]: Remove: archive file [/home/abi/fetcher/tmp/pysmiles-1.0.2.tar.gz]
+[2023-07-27 13:01:14] INFO root fetch - processPackages [pysmiles]: Remove: archive file [/home/abi/fetcher/tmp/pysmiles-1.1.1.tar.gz]
+[2023-07-27 13:01:14] INFO root fetch - main [MainThread]: End processing [pysmiles]: success
+[2023-07-27 13:01:14] INFO root fetch - processPackages [django-webstack]: Remove: archive file [/home/abi/fetcher/tmp/django-webstack-1.3.5.tar.gz]
+[2023-07-27 13:01:14] INFO root fetch - processPackages [django-webstack]: Remove: archive file [/home/abi/fetcher/tmp/django-webstack-1.3.6.tar.gz]
+[2023-07-27 13:01:14] INFO root fetch - main [MainThread]: End processing [django-webstack]: success
+[2023-07-27 13:01:14] INFO root fetch - processPackages [convocations]: Remove: archive file [/home/abi/fetcher/tmp/convocations-0.8.tar.gz]
+[2023-07-27 13:01:14] INFO root fetch - processPackages [convocations]: Remove: archive file [/home/abi/fetcher/tmp/convocations-0.9.tar.gz]
+[2023-07-27 13:01:14] INFO root fetch - main [MainThread]: End processing [convocations]: success
+[2023-07-27 13:01:14] INFO root fetch - processPackages [tortoise-api]: executing diffoscope
+[2023-07-27 13:01:14] INFO root fetch - processPackages [tortoise-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tortoise-api-0.2.0.tar.gz tmp/tortoise-api-0.2.1.tar.gz --markdown 20230727/t/tortoise-api/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-27 13:01:15] INFO root fetch - processPackages [tortoise-api]: Remove: archive file [/home/abi/fetcher/tmp/tortoise-api-0.2.0.tar.gz]
+[2023-07-27 13:01:15] INFO root fetch - processPackages [tortoise-api]: Remove: archive file [/home/abi/fetcher/tmp/tortoise-api-0.2.1.tar.gz]
+[2023-07-27 13:01:15] INFO root fetch - main [MainThread]: End processing [tortoise-api]: success
+[2023-07-27 13:01:15] INFO root fetch - main [MainThread]: Store serial: [19058757]
