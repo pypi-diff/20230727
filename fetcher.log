@@ -12626,3 +12626,81 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-27 06:59:55] INFO root fetch - processPackages [red_utils]: Remove: archive file [/home/abi/fetcher/tmp/red_utils-0.1.7.tar.gz]
 [2023-07-27 06:59:55] INFO root fetch - main [MainThread]: End processing [red_utils]: success
 [2023-07-27 06:59:55] INFO root fetch - main [MainThread]: Store serial: [19054721]
+[2023-07-27 07:04:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19054721]
+[2023-07-27 07:05:04] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-27 07:05:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: RocketSim
+[2023-07-27 07:05:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: echoss-s3handler
+[2023-07-27 07:05:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: contentalchemy
+[2023-07-27 07:05:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zcbot-url-parser
+[2023-07-27 07:05:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pycampus
+[2023-07-27 07:05:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: python-dbusmock
+[2023-07-27 07:05:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wow-ai-ml
+[2023-07-27 07:05:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mypy-boto3-builder
+[2023-07-27 07:05:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rapid-pe
+[2023-07-27 07:05:04] INFO root fetch - processPackages [echoss-s3handler]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-27 07:05:04] INFO root fetch - processPackages [RocketSim]: New version: [1.3.0a1] Old Version: [0.3.0]
+[2023-07-27 07:05:04] INFO root fetch - processPackages [zcbot-url-parser]: New version: [1.0.1] Old Version: [0.0.4]
+[2023-07-27 07:05:04] INFO root fetch - processPackages [pycampus]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-27 07:05:04] WARNING root fetch - processPackages [contentalchemy]: Skipping, unable to determine old version
+[2023-07-27 07:05:04] INFO root fetch - main [MainThread]: End processing [contentalchemy] error
+[2023-07-27 07:05:04] INFO root fetch - processPackages [wow-ai-ml]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-07-27 07:05:04] INFO root fetch - processPackages [python-dbusmock]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-27 07:05:04] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.1.dev20230726] Old Version: [0.1.1.dev20230725]
+[2023-07-27 07:05:04] INFO root fetch - processPackages [pycampus]: Downloading https://files.pythonhosted.org/packages/16/5c/73fa60787094ee2d6aac92753aad186ba5856f3526adafc2a8a38c579bde/pycampus-0.1.2.tar.gz
+[2023-07-27 07:05:04] INFO root fetch - processPackages [mypy-boto3-builder]: New version: [7.9.2] Old Version: [7.9.1]
+[2023-07-27 07:05:04] INFO root fetch - processPackages [echoss-s3handler]: Downloading https://files.pythonhosted.org/packages/0e/10/7f1706445d5b8826f4131d145a2635f54f61148a1faf6adf0ec61aae1549/echoss_s3handler-0.0.1.tar.gz
+[2023-07-27 07:05:04] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/fd/e9/f9380a8cd474e7d6fceef00bcba250f63be8eb27ba9948b45b3c96457a03/rapid_pe-0.1.1.dev20230725.tar.gz
+[2023-07-27 07:05:04] INFO root fetch - processPackages [wow-ai-ml]: Downloading https://files.pythonhosted.org/packages/19/0c/3e92533919f9140686a7fdbeb80585490a7651ff08672d339593f92414e0/wow_ai_ml-0.2.7.tar.gz
+[2023-07-27 07:05:04] INFO root fetch - processPackages [zcbot-url-parser]: Downloading https://files.pythonhosted.org/packages/75/dc/0f9a9153289b517d958fa212db42bb95b56e9a25488c440f67ecc451bef6/zcbot-url-parser-0.0.4.tar.gz
+[2023-07-27 07:05:04] INFO root fetch - processPackages [RocketSim]: Downloading https://files.pythonhosted.org/packages/ce/13/dcc5b3870659bb87c4d9fd560d434ceb7cf2da62449b2ad8ea80cb0468d3/rocketsim-0.3.0.tar.gz
+[2023-07-27 07:05:04] INFO root fetch - processPackages [python-dbusmock]: Downloading https://files.pythonhosted.org/packages/a2/5d/0f948b52b745f25ecf818aa25a19e821f0eb9d2a7d9a1265b87dc0fd0895/python-dbusmock-0.9.1.tar.gz
+[2023-07-27 07:05:04] INFO root fetch - processPackages [pycampus]: Downloading https://files.pythonhosted.org/packages/57/e4/d9a56e2f828322dc670c29520172dab0ca4cd16372017e58acdde9d8055e/pycampus-0.1.3.tar.gz
+[2023-07-27 07:05:05] INFO root fetch - processPackages [mypy-boto3-builder]: Downloading https://files.pythonhosted.org/packages/ee/11/341b105bf6345e78400793dd64c53ee46392936cabff33772d368be4ab89/mypy-boto3-builder-7.9.1.tar.gz
+[2023-07-27 07:05:05] INFO root fetch - processPackages [echoss-s3handler]: Downloading https://files.pythonhosted.org/packages/2f/6d/47e22aa7b3244e629af29a376c8b6031bccc1711246746e216f9e4591d3a/echoss_s3handler-0.0.2.tar.gz
+[2023-07-27 07:05:05] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/37/44/01dd3dc93c5572f8cfffa54d8f1d96d69356adee1582610554fbbc86d556/rapid_pe-0.1.1.dev20230726.tar.gz
+[2023-07-27 07:05:05] INFO root fetch - processPackages [wow-ai-ml]: Downloading https://files.pythonhosted.org/packages/39/b1/f1bc3a281b4f6f7eeccdf77ffb88793b21784ca60b3a65c4ff17668b0474/wow_ai_ml-0.2.8.tar.gz
+[2023-07-27 07:05:05] INFO root fetch - processPackages [RocketSim]: Downloading https://files.pythonhosted.org/packages/86/93/053b81b545dcf410fcdce8daaa1219df03d7e3b7907737b399175d057ecd/RocketSim-1.3.0a1-cp34-abi3-win_amd64.whl
+[2023-07-27 07:05:05] INFO root fetch - processPackages [pycampus]: executing diffoscope
+[2023-07-27 07:05:05] INFO root fetch - processPackages [pycampus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycampus-0.1.2.tar.gz tmp/pycampus-0.1.3.tar.gz --markdown 20230727/p/pycampus/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-27 07:05:05] INFO root fetch - processPackages [zcbot-url-parser]: Downloading https://files.pythonhosted.org/packages/63/8b/1167c63fe271ff5a895a6f33461383a23f5ac78d383d55b56a20b9d429c6/zcbot-url-parser-1.0.1.tar.gz
+[2023-07-27 07:05:05] INFO root fetch - processPackages [wow-ai-ml]: executing diffoscope
+[2023-07-27 07:05:05] INFO root fetch - processPackages [wow-ai-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wow_ai_ml-0.2.7.tar.gz tmp/wow_ai_ml-0.2.8.tar.gz --markdown 20230727/w/wow-ai-ml/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-07-27 07:05:05] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2023-07-27 07:05:05] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.1.dev20230725.tar.gz tmp/rapid_pe-0.1.1.dev20230726.tar.gz --markdown 20230727/r/rapid-pe/0.1.1.dev20230725-0.1.1.dev20230726/diff.md --exclude *.pyd
+[2023-07-27 07:05:05] INFO root fetch - processPackages [echoss-s3handler]: executing diffoscope
+[2023-07-27 07:05:05] INFO root fetch - processPackages [echoss-s3handler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/echoss_s3handler-0.0.1.tar.gz tmp/echoss_s3handler-0.0.2.tar.gz --markdown 20230727/e/echoss-s3handler/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-27 07:05:05] INFO root fetch - processPackages [RocketSim]: executing diffoscope
+[2023-07-27 07:05:05] INFO root fetch - processPackages [RocketSim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rocketsim-0.3.0.tar.gz tmp/RocketSim-1.3.0a1-cp34-abi3-win_amd64.whl.zip --markdown 20230727/R/RocketSim/0.3.0-1.3.0a1/diff.md --exclude *.pyd
+[2023-07-27 07:05:05] INFO root fetch - processPackages [zcbot-url-parser]: executing diffoscope
+[2023-07-27 07:05:05] INFO root fetch - processPackages [zcbot-url-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zcbot-url-parser-0.0.4.tar.gz tmp/zcbot-url-parser-1.0.1.tar.gz --markdown 20230727/z/zcbot-url-parser/0.0.4-1.0.1/diff.md --exclude *.pyd
+[2023-07-27 07:05:05] INFO root fetch - processPackages [python-dbusmock]: Downloading https://files.pythonhosted.org/packages/03/43/0be27027ed686f003d639554f25fd84157a7bb88baa96d7381a15b78aa02/python-dbusmock-0.9.2.tar.gz
+[2023-07-27 07:05:05] INFO root fetch - processPackages [mypy-boto3-builder]: Downloading https://files.pythonhosted.org/packages/fe/ae/2a0da74f6827713d434b6fdb09c80ff83f450cffa43c5b8811492236e7ac/mypy-boto3-builder-7.9.2.tar.gz
+[2023-07-27 07:05:05] INFO root fetch - processPackages [python-dbusmock]: executing diffoscope
+[2023-07-27 07:05:05] INFO root fetch - processPackages [python-dbusmock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-dbusmock-0.9.1.tar.gz tmp/python-dbusmock-0.9.2.tar.gz --markdown 20230727/p/python-dbusmock/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-27 07:05:06] INFO root fetch - processPackages [echoss-s3handler]: Remove: archive file [/home/abi/fetcher/tmp/echoss_s3handler-0.0.1.tar.gz]
+[2023-07-27 07:05:06] INFO root fetch - processPackages [echoss-s3handler]: Remove: archive file [/home/abi/fetcher/tmp/echoss_s3handler-0.0.2.tar.gz]
+[2023-07-27 07:05:06] INFO root fetch - main [MainThread]: End processing [echoss-s3handler]: success
+[2023-07-27 07:05:06] INFO root fetch - processPackages [wow-ai-ml]: Remove: archive file [/home/abi/fetcher/tmp/wow_ai_ml-0.2.7.tar.gz]
+[2023-07-27 07:05:06] INFO root fetch - processPackages [wow-ai-ml]: Remove: archive file [/home/abi/fetcher/tmp/wow_ai_ml-0.2.8.tar.gz]
+[2023-07-27 07:05:06] INFO root fetch - main [MainThread]: End processing [wow-ai-ml]: success
+[2023-07-27 07:05:06] INFO root fetch - processPackages [pycampus]: Remove: archive file [/home/abi/fetcher/tmp/pycampus-0.1.2.tar.gz]
+[2023-07-27 07:05:06] INFO root fetch - processPackages [pycampus]: Remove: archive file [/home/abi/fetcher/tmp/pycampus-0.1.3.tar.gz]
+[2023-07-27 07:05:06] INFO root fetch - main [MainThread]: End processing [pycampus]: success
+[2023-07-27 07:05:06] INFO root fetch - processPackages [mypy-boto3-builder]: executing diffoscope
+[2023-07-27 07:05:06] INFO root fetch - processPackages [mypy-boto3-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-builder-7.9.1.tar.gz tmp/mypy-boto3-builder-7.9.2.tar.gz --markdown 20230727/m/mypy-boto3-builder/7.9.1-7.9.2/diff.md --exclude *.pyd
+[2023-07-27 07:05:06] INFO root fetch - processPackages [RocketSim]: Remove: archive file [/home/abi/fetcher/tmp/rocketsim-0.3.0.tar.gz]
+[2023-07-27 07:05:06] INFO root fetch - processPackages [RocketSim]: Remove: archive file [/home/abi/fetcher/tmp/RocketSim-1.3.0a1-cp34-abi3-win_amd64.whl.zip]
+[2023-07-27 07:05:06] INFO root fetch - main [MainThread]: End processing [RocketSim]: success
+[2023-07-27 07:05:06] INFO root fetch - processPackages [zcbot-url-parser]: Remove: archive file [/home/abi/fetcher/tmp/zcbot-url-parser-0.0.4.tar.gz]
+[2023-07-27 07:05:06] INFO root fetch - processPackages [zcbot-url-parser]: Remove: archive file [/home/abi/fetcher/tmp/zcbot-url-parser-1.0.1.tar.gz]
+[2023-07-27 07:05:06] INFO root fetch - main [MainThread]: End processing [zcbot-url-parser]: success
+[2023-07-27 07:05:06] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230725.tar.gz]
+[2023-07-27 07:05:06] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230726.tar.gz]
+[2023-07-27 07:05:06] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2023-07-27 07:05:06] INFO root fetch - processPackages [python-dbusmock]: Remove: archive file [/home/abi/fetcher/tmp/python-dbusmock-0.9.1.tar.gz]
+[2023-07-27 07:05:06] INFO root fetch - processPackages [python-dbusmock]: Remove: archive file [/home/abi/fetcher/tmp/python-dbusmock-0.9.2.tar.gz]
+[2023-07-27 07:05:06] INFO root fetch - main [MainThread]: End processing [python-dbusmock]: success
+[2023-07-27 07:05:08] INFO root fetch - processPackages [mypy-boto3-builder]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-builder-7.9.1.tar.gz]
+[2023-07-27 07:05:08] INFO root fetch - processPackages [mypy-boto3-builder]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-builder-7.9.2.tar.gz]
+[2023-07-27 07:05:08] INFO root fetch - main [MainThread]: End processing [mypy-boto3-builder]: success
+[2023-07-27 07:05:08] INFO root fetch - main [MainThread]: Store serial: [19054748]
