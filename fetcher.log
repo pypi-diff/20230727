@@ -19153,3 +19153,143 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-07-27 10:25:22] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.99.0.tar.gz]
 [2023-07-27 10:25:22] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
 [2023-07-27 10:25:22] INFO root fetch - main [MainThread]: Store serial: [19057207]
+[2023-07-27 10:30:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19057207]
+[2023-07-27 10:30:31] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-27 10:30:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: searchads-api
+[2023-07-27 10:30:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: struqture-py
+[2023-07-27 10:30:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: malwareDetector
+[2023-07-27 10:30:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: TCFile
+[2023-07-27 10:30:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: smart-vector
+[2023-07-27 10:30:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: molgenis-emx2-pyclient
+[2023-07-27 10:30:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: datumaro
+[2023-07-27 10:30:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: assisted-service-client
+[2023-07-27 10:30:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pydork
+[2023-07-27 10:30:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: amazonproducts
+[2023-07-27 10:30:32] INFO root fetch - processPackages [TCFile]: New version: [2023.7] Old Version: [2023.4.1]
+[2023-07-27 10:30:32] INFO root fetch - processPackages [struqture-py]: New version: [1.4.0a2] Old Version: [1.3.1]
+[2023-07-27 10:30:32] INFO root fetch - processPackages [searchads-api]: New version: [1.7.9] Old Version: [1.7.8]
+[2023-07-27 10:30:32] INFO root fetch - processPackages [malwareDetector]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-27 10:30:32] INFO root fetch - processPackages [smart-vector]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-27 10:30:32] INFO root fetch - processPackages [pydork]: New version: [1.1.4] Old Version: [1.1.2]
+[2023-07-27 10:30:32] INFO root fetch - processPackages [datumaro]: New version: [1.4.1] Old Version: [1.4.0rc4]
+[2023-07-27 10:30:32] WARNING root fetch - processPackages [amazonproducts]: Skipping, unable to determine old version
+[2023-07-27 10:30:32] INFO root fetch - processPackages [amazonproducts]: Start processing: gdal2numpy
+[2023-07-27 10:30:32] INFO root fetch - main [MainThread]: End processing [amazonproducts] error
+[2023-07-27 10:30:32] INFO root fetch - processPackages [molgenis-emx2-pyclient]: New version: [8.209.1] Old Version: [8.209.0]
+[2023-07-27 10:30:32] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2023-07-27 10:30:32] INFO root fetch - processPackages [gdal2numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-27 10:30:32] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/a5/ee/a5837c5427b0689f863021f5d65c42ff9d4ae267905a751492653198b2dc/assisted_service_client-2.9.0.post8-py3-none-any.whl
+[2023-07-27 10:30:32] INFO root fetch - processPackages [TCFile]: Downloading https://files.pythonhosted.org/packages/25/02/92dfa15a7d7cc4521b8a9b04bdcd271e73595008025f5bee5bc610cd28fa/TCFile-2023.4.1.tar.gz
+[2023-07-27 10:30:32] INFO root fetch - processPackages [gdal2numpy]: Downloading https://files.pythonhosted.org/packages/8b/c7/c38f143f5db75454a9df08f7ff287cb3de46fb5f10139def0fcb92a15404/gdal2numpy-0.0.98.tar.gz
+[2023-07-27 10:30:32] INFO root fetch - processPackages [malwareDetector]: Downloading https://files.pythonhosted.org/packages/d2/a0/7afc3adf01117cdf6cbb5c77107dd4071797094780c2b0e2268d92b2cae9/malwareDetector-0.1.0.tar.gz
+[2023-07-27 10:30:32] INFO root fetch - processPackages [searchads-api]: Downloading https://files.pythonhosted.org/packages/a4/53/233c1420f5459ac92a73e423e57ac68df70c69f94dc74b2be1853e0937b4/searchads_api-1.7.8.tar.gz
+[2023-07-27 10:30:32] INFO root fetch - processPackages [struqture-py]: Downloading https://files.pythonhosted.org/packages/22/c8/1651552884b2bbc8cb11af5e5eb82283d7ec2969d9312a1cf16ded510690/struqture_py-1.3.1.tar.gz
+[2023-07-27 10:30:32] INFO root fetch - processPackages [smart-vector]: Downloading https://files.pythonhosted.org/packages/4a/a9/adfb4bf3b75eb13035b1efe1c30052640662863ade0794cd79db12b887f7/smart_vector-1.1.1.tar.gz
+[2023-07-27 10:30:32] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Downloading https://files.pythonhosted.org/packages/53/df/e645b612846321ec8c7c15cd2b80dbd19b744010442df73004272f7b7ae1/molgenis_emx2_pyclient-8.209.0.tar.gz
+[2023-07-27 10:30:32] INFO root fetch - processPackages [datumaro]: Downloading https://files.pythonhosted.org/packages/4b/54/eb3319faa58f57f2a7573b56b073fe8ec7fd78f28b8ba5610b2a90cb74c8/datumaro-1.4.0rc4.tar.gz
+[2023-07-27 10:30:32] INFO root fetch - processPackages [pydork]: Downloading https://files.pythonhosted.org/packages/ff/b0/24db6c0492e1f9e652fa6086a65925890b42b42991f6551e864a3927839d/pydork-1.1.2.tar.gz
+[2023-07-27 10:30:32] WARNING root fetch - processPackages [smart-vector]: Skipping package: exceeds size limit 10898754>=10485760
+[2023-07-27 10:30:32] INFO root fetch - processPackages [smart-vector]: Start processing: reytool
+[2023-07-27 10:30:32] INFO root fetch - main [MainThread]: End processing [smart-vector] error
+[2023-07-27 10:30:32] INFO root fetch - processPackages [gdal2numpy]: Downloading https://files.pythonhosted.org/packages/67/ee/9c755bd5249fc9dc6a1dd773cb241c19b8df83a94fc0674017b57bd19e20/gdal2numpy-0.0.99.tar.gz
+[2023-07-27 10:30:32] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/f6/90/2599b3c134ea21c06d22f83dd1dfac6801d974b9aa0958f008fb332e5b4d/assisted_service_client-2.9.0.post9-py3-none-any.whl
+[2023-07-27 10:30:32] INFO root fetch - processPackages [reytool]: New version: [0.99] Old Version: [0.98]
+[2023-07-27 10:30:32] INFO root fetch - processPackages [malwareDetector]: Downloading https://files.pythonhosted.org/packages/47/2a/c76f75665817ca0d82f37d2ac6932f4c8e2820e048da9c51b86b9957f75b/malwareDetector-0.1.1.tar.gz
+[2023-07-27 10:30:32] INFO root fetch - processPackages [TCFile]: Downloading https://files.pythonhosted.org/packages/14/88/32b1d2dcedd95af5d91ca7759b9ecfbf373c1e001a537bd72d5bde74be64/tcfile-2023.7.tar.gz
+[2023-07-27 10:30:32] INFO root fetch - processPackages [searchads-api]: Downloading https://files.pythonhosted.org/packages/63/cf/0fd76428245cdb777a4ad8883f09ad2fa8776122f1558b280622640059b1/searchads_api-1.7.9.tar.gz
+[2023-07-27 10:30:33] INFO root fetch - processPackages [gdal2numpy]: executing diffoscope
+[2023-07-27 10:30:33] INFO root fetch - processPackages [gdal2numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdal2numpy-0.0.98.tar.gz tmp/gdal2numpy-0.0.99.tar.gz --markdown 20230727/g/gdal2numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-27 10:30:33] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Downloading https://files.pythonhosted.org/packages/50/02/736258997f937f44d661549ffb8c27baa29dc6f1c1b6158e92880a86077e/molgenis_emx2_pyclient-8.209.1.tar.gz
+[2023-07-27 10:30:33] INFO root fetch - processPackages [pydork]: Downloading https://files.pythonhosted.org/packages/e0/24/ef24eac4b0734704e87c386295616a534761baa2057ce93ae483d542f0c1/pydork-1.1.4.tar.gz
+[2023-07-27 10:30:33] INFO root fetch - processPackages [struqture-py]: Downloading https://files.pythonhosted.org/packages/31/0a/1d2b8973d36a8ed28fbad07738b1eb96ec0181bfb468ec3f4d7a568a1934/struqture_py-1.4.0a2.tar.gz
+[2023-07-27 10:30:33] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2023-07-27 10:30:33] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20230727/a/assisted-service-client/2.9.0.post8-2.9.0.post9/diff.md --exclude *.pyd
+[2023-07-27 10:30:33] INFO root fetch - processPackages [datumaro]: Downloading https://files.pythonhosted.org/packages/a8/34/b15c06ecb461acd906dbd320b03ca0b295f6ce09180106f15764b157453b/datumaro-1.4.1.tar.gz
+[2023-07-27 10:30:33] INFO root fetch - processPackages [malwareDetector]: executing diffoscope
+[2023-07-27 10:30:33] INFO root fetch - processPackages [malwareDetector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/malwareDetector-0.1.0.tar.gz tmp/malwareDetector-0.1.1.tar.gz --markdown 20230727/m/malwareDetector/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-27 10:30:33] INFO root fetch - processPackages [TCFile]: executing diffoscope
+[2023-07-27 10:30:33] INFO root fetch - processPackages [TCFile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TCFile-2023.4.1.tar.gz tmp/tcfile-2023.7.tar.gz --markdown 20230727/T/TCFile/2023.4.1-2023.7/diff.md --exclude *.pyd
+[2023-07-27 10:30:33] INFO root fetch - processPackages [molgenis-emx2-pyclient]: executing diffoscope
+[2023-07-27 10:30:33] INFO root fetch - processPackages [molgenis-emx2-pyclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molgenis_emx2_pyclient-8.209.0.tar.gz tmp/molgenis_emx2_pyclient-8.209.1.tar.gz --markdown 20230727/m/molgenis-emx2-pyclient/8.209.0-8.209.1/diff.md --exclude *.pyd
+[2023-07-27 10:30:33] INFO root fetch - processPackages [pydork]: executing diffoscope
+[2023-07-27 10:30:33] INFO root fetch - processPackages [pydork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydork-1.1.2.tar.gz tmp/pydork-1.1.4.tar.gz --markdown 20230727/p/pydork/1.1.2-1.1.4/diff.md --exclude *.pyd
+[2023-07-27 10:30:33] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f7/1b/12dc89a309309c9361d59a38462b453a322b261239fade997e196d798838/reytool-0.98-py3-none-any.whl
+[2023-07-27 10:30:33] INFO root fetch - processPackages [struqture-py]: executing diffoscope
+[2023-07-27 10:30:33] INFO root fetch - processPackages [struqture-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/struqture_py-1.3.1.tar.gz tmp/struqture_py-1.4.0a2.tar.gz --markdown 20230727/s/struqture-py/1.3.1-1.4.0a2/diff.md --exclude *.pyd
+[2023-07-27 10:30:33] INFO root fetch - processPackages [searchads-api]: executing diffoscope
+[2023-07-27 10:30:33] INFO root fetch - processPackages [searchads-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/searchads_api-1.7.8.tar.gz tmp/searchads_api-1.7.9.tar.gz --markdown 20230727/s/searchads-api/1.7.8-1.7.9/diff.md --exclude *.pyd
+[2023-07-27 10:30:33] INFO root fetch - processPackages [datumaro]: executing diffoscope
+[2023-07-27 10:30:33] INFO root fetch - processPackages [datumaro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datumaro-1.4.0rc4.tar.gz tmp/datumaro-1.4.1.tar.gz --markdown 20230727/d/datumaro/1.4.0rc4-1.4.1/diff.md --exclude *.pyd
+[2023-07-27 10:30:33] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f3/55/5da881836b0a141d1b9cfbb9118f95b0a7873ba578976b4a1a7cf3718b49/reytool-0.99-py3-none-any.whl
+[2023-07-27 10:30:33] INFO root fetch - processPackages [reytool]: executing diffoscope
+[2023-07-27 10:30:33] INFO root fetch - processPackages [reytool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reytool-0.98-py3-none-any.whl.zip tmp/reytool-0.99-py3-none-any.whl.zip --markdown 20230727/r/reytool/0.98-0.99/diff.md --exclude *.pyd
+[2023-07-27 10:30:35] INFO root fetch - processPackages [gdal2numpy]: Remove: archive file [/home/abi/fetcher/tmp/gdal2numpy-0.0.98.tar.gz]
+[2023-07-27 10:30:35] INFO root fetch - processPackages [gdal2numpy]: Remove: archive file [/home/abi/fetcher/tmp/gdal2numpy-0.0.99.tar.gz]
+[2023-07-27 10:30:35] INFO root fetch - processPackages [gdal2numpy]: Start processing: pydantic-numpy
+[2023-07-27 10:30:35] INFO root fetch - main [MainThread]: End processing [gdal2numpy]: success
+[2023-07-27 10:30:35] INFO root fetch - processPackages [pydantic-numpy]: New version: [3.1.2] Old Version: [3.1.1]
+[2023-07-27 10:30:35] INFO root fetch - processPackages [malwareDetector]: Remove: archive file [/home/abi/fetcher/tmp/malwareDetector-0.1.0.tar.gz]
+[2023-07-27 10:30:35] INFO root fetch - processPackages [malwareDetector]: Remove: archive file [/home/abi/fetcher/tmp/malwareDetector-0.1.1.tar.gz]
+[2023-07-27 10:30:35] INFO root fetch - processPackages [malwareDetector]: Start processing: pulumi-opsgenie
+[2023-07-27 10:30:35] INFO root fetch - main [MainThread]: End processing [malwareDetector]: success
+[2023-07-27 10:30:35] INFO root fetch - processPackages [TCFile]: Remove: archive file [/home/abi/fetcher/tmp/TCFile-2023.4.1.tar.gz]
+[2023-07-27 10:30:35] INFO root fetch - processPackages [TCFile]: Remove: archive file [/home/abi/fetcher/tmp/tcfile-2023.7.tar.gz]
+[2023-07-27 10:30:35] INFO root fetch - processPackages [TCFile]: Start processing: AIBridge
+[2023-07-27 10:30:35] INFO root fetch - main [MainThread]: End processing [TCFile]: success
+[2023-07-27 10:30:35] WARNING root fetch - processPackages [AIBridge]: Skipping, unable to determine old version
+[2023-07-27 10:30:35] INFO root fetch - processPackages [AIBridge]: Start processing: ftmq
+[2023-07-27 10:30:35] INFO root fetch - main [MainThread]: End processing [AIBridge] error
+[2023-07-27 10:30:35] INFO root fetch - processPackages [ftmq]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-27 10:30:35] INFO root fetch - processPackages [searchads-api]: Remove: archive file [/home/abi/fetcher/tmp/searchads_api-1.7.8.tar.gz]
+[2023-07-27 10:30:35] INFO root fetch - processPackages [searchads-api]: Remove: archive file [/home/abi/fetcher/tmp/searchads_api-1.7.9.tar.gz]
+[2023-07-27 10:30:35] INFO root fetch - processPackages [searchads-api]: Start processing: terraform-backend-s3-bucket
+[2023-07-27 10:30:35] INFO root fetch - main [MainThread]: End processing [searchads-api]: success
+[2023-07-27 10:30:35] INFO root fetch - processPackages [terraform-backend-s3-bucket]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-27 10:30:35] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Remove: archive file [/home/abi/fetcher/tmp/molgenis_emx2_pyclient-8.209.0.tar.gz]
+[2023-07-27 10:30:35] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Remove: archive file [/home/abi/fetcher/tmp/molgenis_emx2_pyclient-8.209.1.tar.gz]
+[2023-07-27 10:30:35] INFO root fetch - main [MainThread]: End processing [molgenis-emx2-pyclient]: success
+[2023-07-27 10:30:35] INFO root fetch - processPackages [pydantic-numpy]: Downloading https://files.pythonhosted.org/packages/65/b9/9b771a6dafc697e96adf62152a83c417182eadbd766b1c4d046880d230cf/pydantic_numpy-3.1.1.tar.gz
+[2023-07-27 10:30:35] INFO root fetch - processPackages [terraform-backend-s3-bucket]: Downloading https://files.pythonhosted.org/packages/c8/d0/f24de56a6375142a732a6a63a2870145dbda0f949c19b7e1b44fe223b748/terraform-backend-s3-bucket-0.0.8.tar.gz
+[2023-07-27 10:30:36] INFO root fetch - processPackages [ftmq]: Downloading https://files.pythonhosted.org/packages/38/2e/b9b4d57ff6876ca276190121ccbdb24b664abbe8e65844485bd094a750f7/ftmq-0.1.3.tar.gz
+[2023-07-27 10:30:36] INFO root fetch - processPackages [pydork]: Remove: archive file [/home/abi/fetcher/tmp/pydork-1.1.2.tar.gz]
+[2023-07-27 10:30:36] INFO root fetch - processPackages [pydork]: Remove: archive file [/home/abi/fetcher/tmp/pydork-1.1.4.tar.gz]
+[2023-07-27 10:30:36] INFO root fetch - main [MainThread]: End processing [pydork]: success
+[2023-07-27 10:30:36] INFO root fetch - processPackages [terraform-backend-s3-bucket]: Downloading https://files.pythonhosted.org/packages/cb/5e/264cab254692a82c02a6b4183994138c7fbe1b9f89a8df282e61342ed3ee/terraform-backend-s3-bucket-0.0.9.tar.gz
+[2023-07-27 10:30:36] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.98-py3-none-any.whl.zip]
+[2023-07-27 10:30:36] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.99-py3-none-any.whl.zip]
+[2023-07-27 10:30:36] INFO root fetch - main [MainThread]: End processing [reytool]: success
+[2023-07-27 10:30:36] INFO root fetch - processPackages [pydantic-numpy]: Downloading https://files.pythonhosted.org/packages/14/f2/c8b11d04a92ccecfe2370433a4c466a375e72dda490c6d9306eadbb64f9a/pydantic_numpy-3.1.2.tar.gz
+[2023-07-27 10:30:36] INFO root fetch - processPackages [ftmq]: Downloading https://files.pythonhosted.org/packages/5b/c7/9f75ca6d95455a4745fd0240775a3438f487d9772f67cfea14b836b8dbe7/ftmq-0.1.4.tar.gz
+[2023-07-27 10:30:36] INFO root fetch - processPackages [terraform-backend-s3-bucket]: executing diffoscope
+[2023-07-27 10:30:36] INFO root fetch - processPackages [terraform-backend-s3-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terraform-backend-s3-bucket-0.0.8.tar.gz tmp/terraform-backend-s3-bucket-0.0.9.tar.gz --markdown 20230727/t/terraform-backend-s3-bucket/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-27 10:30:36] INFO root fetch - processPackages [ftmq]: executing diffoscope
+[2023-07-27 10:30:36] INFO root fetch - processPackages [ftmq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ftmq-0.1.3.tar.gz tmp/ftmq-0.1.4.tar.gz --markdown 20230727/f/ftmq/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-27 10:30:36] INFO root fetch - processPackages [pydantic-numpy]: executing diffoscope
+[2023-07-27 10:30:36] INFO root fetch - processPackages [pydantic-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_numpy-3.1.1.tar.gz tmp/pydantic_numpy-3.1.2.tar.gz --markdown 20230727/p/pydantic-numpy/3.1.1-3.1.2/diff.md --exclude *.pyd
+[2023-07-27 10:30:36] INFO root fetch - processPackages [pulumi-opsgenie]: New version: [1.3.0a1690445476] Old Version: [1.3.0a1690263963]
+[2023-07-27 10:30:36] INFO root fetch - processPackages [pulumi-opsgenie]: Downloading https://files.pythonhosted.org/packages/8a/64/04f02a22b3049bff9ffe1803430d7955db0471f9b0ec33341e75e956b66f/pulumi_opsgenie-1.3.0a1690263963.tar.gz
+[2023-07-27 10:30:37] INFO root fetch - processPackages [pulumi-opsgenie]: Downloading https://files.pythonhosted.org/packages/49/f4/4f502d926677e18a140a8097946c90a26a24fa7a9691a7d049a943d9481b/pulumi_opsgenie-1.3.0a1690445476.tar.gz
+[2023-07-27 10:30:37] INFO root fetch - processPackages [pulumi-opsgenie]: executing diffoscope
+[2023-07-27 10:30:37] INFO root fetch - processPackages [pulumi-opsgenie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_opsgenie-1.3.0a1690263963.tar.gz tmp/pulumi_opsgenie-1.3.0a1690445476.tar.gz --markdown 20230727/p/pulumi-opsgenie/1.3.0a1690263963-1.3.0a1690445476/diff.md --exclude *.pyd
+[2023-07-27 10:30:37] INFO root fetch - processPackages [terraform-backend-s3-bucket]: Remove: archive file [/home/abi/fetcher/tmp/terraform-backend-s3-bucket-0.0.8.tar.gz]
+[2023-07-27 10:30:37] INFO root fetch - processPackages [terraform-backend-s3-bucket]: Remove: archive file [/home/abi/fetcher/tmp/terraform-backend-s3-bucket-0.0.9.tar.gz]
+[2023-07-27 10:30:37] INFO root fetch - main [MainThread]: End processing [terraform-backend-s3-bucket]: success
+[2023-07-27 10:30:37] INFO root fetch - processPackages [ftmq]: Remove: archive file [/home/abi/fetcher/tmp/ftmq-0.1.3.tar.gz]
+[2023-07-27 10:30:37] INFO root fetch - processPackages [ftmq]: Remove: archive file [/home/abi/fetcher/tmp/ftmq-0.1.4.tar.gz]
+[2023-07-27 10:30:37] INFO root fetch - main [MainThread]: End processing [ftmq]: success
+[2023-07-27 10:30:38] INFO root fetch - processPackages [pydantic-numpy]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_numpy-3.1.1.tar.gz]
+[2023-07-27 10:30:38] INFO root fetch - processPackages [pydantic-numpy]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_numpy-3.1.2.tar.gz]
+[2023-07-27 10:30:38] INFO root fetch - main [MainThread]: End processing [pydantic-numpy]: success
+[2023-07-27 10:30:38] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip]
+[2023-07-27 10:30:38] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip]
+[2023-07-27 10:30:38] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2023-07-27 10:30:38] INFO root fetch - processPackages [datumaro]: Remove: archive file [/home/abi/fetcher/tmp/datumaro-1.4.0rc4.tar.gz]
+[2023-07-27 10:30:38] INFO root fetch - processPackages [datumaro]: Remove: archive file [/home/abi/fetcher/tmp/datumaro-1.4.1.tar.gz]
+[2023-07-27 10:30:38] INFO root fetch - main [MainThread]: End processing [datumaro]: success
+[2023-07-27 10:30:38] INFO root fetch - processPackages [pulumi-opsgenie]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opsgenie-1.3.0a1690263963.tar.gz]
+[2023-07-27 10:30:38] INFO root fetch - processPackages [pulumi-opsgenie]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opsgenie-1.3.0a1690445476.tar.gz]
+[2023-07-27 10:30:38] INFO root fetch - main [MainThread]: End processing [pulumi-opsgenie]: success
+[2023-07-27 10:30:39] INFO root fetch - processPackages [struqture-py]: Remove: archive file [/home/abi/fetcher/tmp/struqture_py-1.3.1.tar.gz]
+[2023-07-27 10:30:39] INFO root fetch - processPackages [struqture-py]: Remove: archive file [/home/abi/fetcher/tmp/struqture_py-1.4.0a2.tar.gz]
+[2023-07-27 10:30:39] INFO root fetch - main [MainThread]: End processing [struqture-py]: success
+[2023-07-27 10:30:39] INFO root fetch - main [MainThread]: Store serial: [19057289]
