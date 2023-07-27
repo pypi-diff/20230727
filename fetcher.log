@@ -21281,3 +21281,124 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-07-27 11:45:34] INFO root fetch - processPackages [jupyterlab-nodeeditor]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_nodeeditor-1.0.7.tar.gz]
 [2023-07-27 11:45:34] INFO root fetch - main [MainThread]: End processing [jupyterlab-nodeeditor]: success
 [2023-07-27 11:45:34] INFO root fetch - main [MainThread]: Store serial: [19058065]
+[2023-07-27 11:50:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19058065]
+[2023-07-27 11:50:43] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-27 11:50:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: amazon-scrape
+[2023-07-27 11:50:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yeref
+[2023-07-27 11:50:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fyers-test-api
+[2023-07-27 11:50:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gitopenlib
+[2023-07-27 11:50:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: visiongraph
+[2023-07-27 11:50:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: numerous.sdk
+[2023-07-27 11:50:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: httpconcurrent
+[2023-07-27 11:50:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: wirepas-gateway
+[2023-07-27 11:50:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pdr-sapphire-wrapper
+[2023-07-27 11:50:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: media-processing-lib
+[2023-07-27 11:50:43] INFO root fetch - processPackages [visiongraph]: New version: [0.1.48.1] Old Version: [0.1.48]
+[2023-07-27 11:50:43] INFO root fetch - processPackages [numerous.sdk]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-27 11:50:43] INFO root fetch - processPackages [wirepas-gateway]: New version: [1.4.3rc4] Old Version: [1.4.2rc1]
+[2023-07-27 11:50:43] INFO root fetch - processPackages [pdr-sapphire-wrapper]: New version: [0.1.7] Old Version: [0.1.5]
+[2023-07-27 11:50:43] INFO root fetch - processPackages [httpconcurrent]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-27 11:50:43] WARNING root fetch - processPackages [fyers-test-api]: Skipping, unable to determine old version
+[2023-07-27 11:50:43] INFO root fetch - processPackages [fyers-test-api]: Start processing: OpenGeode-core
+[2023-07-27 11:50:43] INFO root fetch - main [MainThread]: End processing [fyers-test-api] error
+[2023-07-27 11:50:43] INFO root fetch - processPackages [media-processing-lib]: New version: [0.63] Old Version: [0.62]
+[2023-07-27 11:50:43] INFO root fetch - processPackages [amazon-scrape]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-27 11:50:43] INFO root fetch - processPackages [yeref]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-27 11:50:43] INFO root fetch - processPackages [gitopenlib]: New version: [0.2.8.28] Old Version: [0.2.7.28]
+[2023-07-27 11:50:43] INFO root fetch - processPackages [OpenGeode-core]: New version: [9.10.4] Old Version: [14.4.5rc1]
+[2023-07-27 11:50:43] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/b0/b0/909fe6a3b78d0f6ac51f68676b3211c8db161827cbcd18d88fca04fd4ea2/yeref-0.2.8.tar.gz
+[2023-07-27 11:50:43] INFO root fetch - processPackages [gitopenlib]: Downloading https://files.pythonhosted.org/packages/48/74/590f5be409b770795c16d674e400c8995a8061e00d4e779cd4a7be76b06d/gitopenlib-0.2.7.28.tar.gz
+[2023-07-27 11:50:43] INFO root fetch - processPackages [visiongraph]: Downloading https://files.pythonhosted.org/packages/48/ab/e3673ce37af513e18730483679a72e5c0f3c005504573145099b18d25df3/visiongraph-0.1.48-py3-none-any.whl
+[2023-07-27 11:50:43] INFO root fetch - processPackages [pdr-sapphire-wrapper]: Downloading https://files.pythonhosted.org/packages/2a/2b/23166f21d4a63f3bdcef70801799aee527647ec23af3860996486e796986/pdr-sapphire-wrapper-0.1.5.tar.gz
+[2023-07-27 11:50:43] INFO root fetch - processPackages [wirepas-gateway]: Downloading https://files.pythonhosted.org/packages/0b/12/46495471b8a157a1fd872e229163085d6d3fb28110c5c8534b2b70792de1/wirepas_gateway-1.4.2rc1.tar.gz
+[2023-07-27 11:50:43] INFO root fetch - processPackages [httpconcurrent]: Downloading https://files.pythonhosted.org/packages/06/96/0dba384c4646d030189f3269fbdfc045105e95268925038f7067cb7c7ab2/httpconcurrent-0.1.0.tar.gz
+[2023-07-27 11:50:43] WARNING root fetch - processPackages [pdr-sapphire-wrapper]: Skipping package: exceeds size limit 17978917>=10485760
+[2023-07-27 11:50:43] INFO root fetch - processPackages [pdr-sapphire-wrapper]: Start processing: axabc
+[2023-07-27 11:50:43] INFO root fetch - main [MainThread]: End processing [pdr-sapphire-wrapper] error
+[2023-07-27 11:50:43] INFO root fetch - processPackages [numerous.sdk]: Downloading https://files.pythonhosted.org/packages/c5/19/eb5f9aae5084b96359e6dc09800409c59b897f0ca6465db254d85a753429/numerous.sdk-0.8.0.tar.gz
+[2023-07-27 11:50:43] INFO root fetch - processPackages [amazon-scrape]: Downloading https://files.pythonhosted.org/packages/8d/a7/74b40763913d2cf97495a4016120ef3cf12f28b3e4a859eed88555ddf207/amazon_scrape-0.0.1.tar.gz
+[2023-07-27 11:50:43] INFO root fetch - processPackages [media-processing-lib]: Downloading https://files.pythonhosted.org/packages/09/8c/349a3880f35c4af8106c84af3a2dc9b15b1e8cbc3d05284e3477ab29f7ce/media-processing-lib-0.62.tar.gz
+[2023-07-27 11:50:44] INFO root fetch - processPackages [axabc]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-27 11:50:44] INFO root fetch - processPackages [OpenGeode-core]: Downloading https://files.pythonhosted.org/packages/f9/ec/e4d0f1d15e8538997e8d008a140bd2e2e0722fbab0d000684e8934ef03b8/OpenGeode_core-14.4.5rc1-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-27 11:50:44] INFO root fetch - processPackages [gitopenlib]: Downloading https://files.pythonhosted.org/packages/95/54/4a4292733061b582887b760f5ab036ac4b7f126b55956419de3015c0a1fa/gitopenlib-0.2.8.28.tar.gz
+[2023-07-27 11:50:44] INFO root fetch - processPackages [axabc]: Downloading https://files.pythonhosted.org/packages/41/c5/b797e58b17775ec27f68316c932448dfa73c089804cd7a559dea828dcd85/axabc-0.0.8.tar.gz
+[2023-07-27 11:50:44] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/50/99/66805a69f7cda19e4f2694ce8433b49220c99c3c330adad82223a3aa368e/yeref-0.2.9.tar.gz
+[2023-07-27 11:50:44] WARNING root fetch - processPackages [OpenGeode-core]: Skipping package: exceeds size limit 14141223>=10485760
+[2023-07-27 11:50:44] INFO root fetch - processPackages [OpenGeode-core]: Start processing: analogic-framework
+[2023-07-27 11:50:44] INFO root fetch - main [MainThread]: End processing [OpenGeode-core] error
+[2023-07-27 11:50:44] INFO root fetch - processPackages [visiongraph]: Downloading https://files.pythonhosted.org/packages/dc/2a/2427e44aa64dd81f2009be85492f121f0383225cb1349e9d1a9b62043068/visiongraph-0.1.48.1-py3-none-any.whl
+[2023-07-27 11:50:44] INFO root fetch - processPackages [analogic-framework]: New version: [4.1.3] Old Version: [4.1.2]
+[2023-07-27 11:50:44] INFO root fetch - processPackages [gitopenlib]: executing diffoscope
+[2023-07-27 11:50:44] INFO root fetch - processPackages [gitopenlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitopenlib-0.2.7.28.tar.gz tmp/gitopenlib-0.2.8.28.tar.gz --markdown 20230727/g/gitopenlib/0.2.7.28-0.2.8.28/diff.md --exclude *.pyd
+[2023-07-27 11:50:44] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2023-07-27 11:50:44] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.2.8.tar.gz tmp/yeref-0.2.9.tar.gz --markdown 20230727/y/yeref/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-27 11:50:44] INFO root fetch - processPackages [amazon-scrape]: Downloading https://files.pythonhosted.org/packages/9e/93/6a1ea9b2f181fdc5dcc75b02a50a44ed865ccc61fa17c2e7394f3d60cd96/amazon_scrape-0.0.2.tar.gz
+[2023-07-27 11:50:44] INFO root fetch - processPackages [httpconcurrent]: Downloading https://files.pythonhosted.org/packages/e4/3f/0496007952d97a8626ac20c7ebaafd8b15aab73262d54ec2888f6fd082c8/httpconcurrent-0.2.0.tar.gz
+[2023-07-27 11:50:44] INFO root fetch - processPackages [wirepas-gateway]: Downloading https://files.pythonhosted.org/packages/0c/7a/f1685f20a4f5bbb4e5f099c1ab9b1b8e77e7a5615b0a0ae94338ab72db52/wirepas_gateway-1.4.3rc4.tar.gz
+[2023-07-27 11:50:44] INFO root fetch - processPackages [visiongraph]: executing diffoscope
+[2023-07-27 11:50:44] INFO root fetch - processPackages [visiongraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visiongraph-0.1.48-py3-none-any.whl.zip tmp/visiongraph-0.1.48.1-py3-none-any.whl.zip --markdown 20230727/v/visiongraph/0.1.48-0.1.48.1/diff.md --exclude *.pyd
+[2023-07-27 11:50:44] INFO root fetch - processPackages [axabc]: Downloading https://files.pythonhosted.org/packages/60/61/87ebd4434765200cd248acf948bf78aef84ae73165a7cb8854e4f5a4f66d/axabc-0.0.9.tar.gz
+[2023-07-27 11:50:44] INFO root fetch - processPackages [amazon-scrape]: executing diffoscope
+[2023-07-27 11:50:44] INFO root fetch - processPackages [amazon-scrape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amazon_scrape-0.0.1.tar.gz tmp/amazon_scrape-0.0.2.tar.gz --markdown 20230727/a/amazon-scrape/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-27 11:50:44] INFO root fetch - processPackages [httpconcurrent]: executing diffoscope
+[2023-07-27 11:50:44] INFO root fetch - processPackages [httpconcurrent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/httpconcurrent-0.1.0.tar.gz tmp/httpconcurrent-0.2.0.tar.gz --markdown 20230727/h/httpconcurrent/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-27 11:50:44] INFO root fetch - processPackages [media-processing-lib]: Downloading https://files.pythonhosted.org/packages/b0/67/863038d3f8da03887f0c58f446a27e34f9d5f06c1e33dc912946d39d8e65/media-processing-lib-0.63.tar.gz
+[2023-07-27 11:50:44] INFO root fetch - processPackages [axabc]: executing diffoscope
+[2023-07-27 11:50:44] INFO root fetch - processPackages [axabc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/axabc-0.0.8.tar.gz tmp/axabc-0.0.9.tar.gz --markdown 20230727/a/axabc/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-27 11:50:44] INFO root fetch - processPackages [analogic-framework]: Downloading https://files.pythonhosted.org/packages/7c/16/48e906ba45b7b6d852f2fc3d30b54e207614430815bf6d0f49a3d784ca00/analogic-framework-4.1.2.tar.gz
+[2023-07-27 11:50:44] INFO root fetch - processPackages [media-processing-lib]: executing diffoscope
+[2023-07-27 11:50:44] INFO root fetch - processPackages [media-processing-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/media-processing-lib-0.62.tar.gz tmp/media-processing-lib-0.63.tar.gz --markdown 20230727/m/media-processing-lib/0.62-0.63/diff.md --exclude *.pyd
+[2023-07-27 11:50:44] INFO root fetch - processPackages [wirepas-gateway]: executing diffoscope
+[2023-07-27 11:50:44] INFO root fetch - processPackages [wirepas-gateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wirepas_gateway-1.4.2rc1.tar.gz tmp/wirepas_gateway-1.4.3rc4.tar.gz --markdown 20230727/w/wirepas-gateway/1.4.2rc1-1.4.3rc4/diff.md --exclude *.pyd
+[2023-07-27 11:50:45] INFO root fetch - processPackages [numerous.sdk]: Downloading https://files.pythonhosted.org/packages/89/b1/8a2eaf2d3b5e5114385f9f271a9de81af8376e58d63490ec17de7acb2de6/numerous.sdk-0.9.0.tar.gz
+[2023-07-27 11:50:45] INFO root fetch - processPackages [analogic-framework]: Downloading https://files.pythonhosted.org/packages/e9/66/e2e34e738bd1f24244768097ba9ed8b2bd613284d7f0990afe0c65bc1fc9/analogic-framework-4.1.3.tar.gz
+[2023-07-27 11:50:45] INFO root fetch - processPackages [analogic-framework]: executing diffoscope
+[2023-07-27 11:50:45] INFO root fetch - processPackages [analogic-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/analogic-framework-4.1.2.tar.gz tmp/analogic-framework-4.1.3.tar.gz --markdown 20230727/a/analogic-framework/4.1.2-4.1.3/diff.md --exclude *.pyd
+[2023-07-27 11:50:45] INFO root fetch - processPackages [numerous.sdk]: executing diffoscope
+[2023-07-27 11:50:45] INFO root fetch - processPackages [numerous.sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numerous.sdk-0.8.0.tar.gz tmp/numerous.sdk-0.9.0.tar.gz --markdown 20230727/n/numerous.sdk/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-27 11:50:45] INFO root fetch - processPackages [gitopenlib]: Remove: archive file [/home/abi/fetcher/tmp/gitopenlib-0.2.7.28.tar.gz]
+[2023-07-27 11:50:45] INFO root fetch - processPackages [gitopenlib]: Remove: archive file [/home/abi/fetcher/tmp/gitopenlib-0.2.8.28.tar.gz]
+[2023-07-27 11:50:45] INFO root fetch - processPackages [gitopenlib]: Start processing: webshareproxy
+[2023-07-27 11:50:45] INFO root fetch - main [MainThread]: End processing [gitopenlib]: success
+[2023-07-27 11:50:46] WARNING root fetch - processPackages [webshareproxy]: Skipping, unable to determine old version
+[2023-07-27 11:50:46] INFO root fetch - processPackages [webshareproxy]: Start processing: amazon-scrape
+[2023-07-27 11:50:46] INFO root fetch - main [MainThread]: End processing [webshareproxy] error
+[2023-07-27 11:50:46] INFO root fetch - processPackages [axabc]: Remove: archive file [/home/abi/fetcher/tmp/axabc-0.0.8.tar.gz]
+[2023-07-27 11:50:46] INFO root fetch - processPackages [axabc]: Remove: archive file [/home/abi/fetcher/tmp/axabc-0.0.9.tar.gz]
+[2023-07-27 11:50:46] INFO root fetch - processPackages [axabc]: Start processing: bg-reports-sdk
+[2023-07-27 11:50:46] INFO root fetch - main [MainThread]: End processing [axabc]: success
+[2023-07-27 11:50:46] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.2.8.tar.gz]
+[2023-07-27 11:50:46] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.2.9.tar.gz]
+[2023-07-27 11:50:46] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2023-07-27 11:50:46] INFO root fetch - processPackages [amazon-scrape]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-27 11:50:46] WARNING root fetch - processPackages [bg-reports-sdk]: Skipping, unable to determine old version
+[2023-07-27 11:50:46] INFO root fetch - main [MainThread]: End processing [bg-reports-sdk] error
+[2023-07-27 11:50:46] INFO root fetch - processPackages [amazon-scrape]: Remove: archive file [/home/abi/fetcher/tmp/amazon_scrape-0.0.1.tar.gz]
+[2023-07-27 11:50:46] INFO root fetch - processPackages [amazon-scrape]: Remove: archive file [/home/abi/fetcher/tmp/amazon_scrape-0.0.2.tar.gz]
+[2023-07-27 11:50:46] INFO root fetch - main [MainThread]: End processing [amazon-scrape]: success
+[2023-07-27 11:50:46] INFO root fetch - processPackages [httpconcurrent]: Remove: archive file [/home/abi/fetcher/tmp/httpconcurrent-0.1.0.tar.gz]
+[2023-07-27 11:50:46] INFO root fetch - processPackages [httpconcurrent]: Remove: archive file [/home/abi/fetcher/tmp/httpconcurrent-0.2.0.tar.gz]
+[2023-07-27 11:50:46] INFO root fetch - main [MainThread]: End processing [httpconcurrent]: success
+[2023-07-27 11:50:46] INFO root fetch - processPackages [amazon-scrape]: Downloading https://files.pythonhosted.org/packages/9e/93/6a1ea9b2f181fdc5dcc75b02a50a44ed865ccc61fa17c2e7394f3d60cd96/amazon_scrape-0.0.2.tar.gz
+[2023-07-27 11:50:46] INFO root fetch - processPackages [wirepas-gateway]: Remove: archive file [/home/abi/fetcher/tmp/wirepas_gateway-1.4.2rc1.tar.gz]
+[2023-07-27 11:50:46] INFO root fetch - processPackages [wirepas-gateway]: Remove: archive file [/home/abi/fetcher/tmp/wirepas_gateway-1.4.3rc4.tar.gz]
+[2023-07-27 11:50:46] INFO root fetch - main [MainThread]: End processing [wirepas-gateway]: success
+[2023-07-27 11:50:46] INFO root fetch - processPackages [media-processing-lib]: Remove: archive file [/home/abi/fetcher/tmp/media-processing-lib-0.62.tar.gz]
+[2023-07-27 11:50:46] INFO root fetch - processPackages [media-processing-lib]: Remove: archive file [/home/abi/fetcher/tmp/media-processing-lib-0.63.tar.gz]
+[2023-07-27 11:50:46] INFO root fetch - main [MainThread]: End processing [media-processing-lib]: success
+[2023-07-27 11:50:46] INFO root fetch - processPackages [amazon-scrape]: Downloading https://files.pythonhosted.org/packages/ba/57/62d7c079a6ea7651fa6d7886c790544542facfa2c15ec3ef584f0ba0f81d/amazon_scrape-0.0.3.tar.gz
+[2023-07-27 11:50:46] INFO root fetch - processPackages [amazon-scrape]: executing diffoscope
+[2023-07-27 11:50:46] INFO root fetch - processPackages [amazon-scrape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amazon_scrape-0.0.2.tar.gz tmp/amazon_scrape-0.0.3.tar.gz --markdown 20230727/a/amazon-scrape/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-27 11:50:46] INFO root fetch - processPackages [numerous.sdk]: Remove: archive file [/home/abi/fetcher/tmp/numerous.sdk-0.8.0.tar.gz]
+[2023-07-27 11:50:46] INFO root fetch - processPackages [numerous.sdk]: Remove: archive file [/home/abi/fetcher/tmp/numerous.sdk-0.9.0.tar.gz]
+[2023-07-27 11:50:46] INFO root fetch - main [MainThread]: End processing [numerous.sdk]: success
+[2023-07-27 11:50:47] INFO root fetch - processPackages [visiongraph]: Remove: archive file [/home/abi/fetcher/tmp/visiongraph-0.1.48-py3-none-any.whl.zip]
+[2023-07-27 11:50:47] INFO root fetch - processPackages [visiongraph]: Remove: archive file [/home/abi/fetcher/tmp/visiongraph-0.1.48.1-py3-none-any.whl.zip]
+[2023-07-27 11:50:47] INFO root fetch - main [MainThread]: End processing [visiongraph]: success
+[2023-07-27 11:50:47] INFO root fetch - processPackages [amazon-scrape]: Remove: archive file [/home/abi/fetcher/tmp/amazon_scrape-0.0.2.tar.gz]
+[2023-07-27 11:50:47] INFO root fetch - processPackages [amazon-scrape]: Remove: archive file [/home/abi/fetcher/tmp/amazon_scrape-0.0.3.tar.gz]
+[2023-07-27 11:50:47] INFO root fetch - main [MainThread]: End processing [amazon-scrape]: success
+[2023-07-27 11:50:48] INFO root fetch - processPackages [analogic-framework]: Remove: archive file [/home/abi/fetcher/tmp/analogic-framework-4.1.2.tar.gz]
+[2023-07-27 11:50:48] INFO root fetch - processPackages [analogic-framework]: Remove: archive file [/home/abi/fetcher/tmp/analogic-framework-4.1.3.tar.gz]
+[2023-07-27 11:50:48] INFO root fetch - main [MainThread]: End processing [analogic-framework]: success
+[2023-07-27 11:50:48] INFO root fetch - main [MainThread]: Store serial: [19058119]
