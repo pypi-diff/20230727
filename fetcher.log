@@ -15887,3 +15887,114 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-27 08:08:47] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.99.tar.gz]
 [2023-07-27 08:08:47] INFO root fetch - main [MainThread]: End processing [cloud-governance]: success
 [2023-07-27 08:08:47] INFO root fetch - main [MainThread]: Store serial: [19055892]
+[2023-07-27 08:13:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19055892]
+[2023-07-27 08:13:55] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-27 08:13:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: teslajsonpy
+[2023-07-27 08:13:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sparkpipelineframework
+[2023-07-27 08:13:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: markdown-worker
+[2023-07-27 08:13:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: minlog
+[2023-07-27 08:13:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: akwlkata
+[2023-07-27 08:13:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vcorelib
+[2023-07-27 08:13:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: langchain-serve
+[2023-07-27 08:13:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: glypniro
+[2023-07-27 08:13:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ibm-watson-machine-learning
+[2023-07-27 08:13:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pulumi-opnsense
+[2023-07-27 08:13:55] INFO root fetch - processPackages [minlog]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-27 08:13:55] INFO root fetch - processPackages [markdown-worker]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-27 08:13:55] INFO root fetch - processPackages [akwlkata]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-27 08:13:55] INFO root fetch - processPackages [pulumi-opnsense]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-27 08:13:55] INFO root fetch - processPackages [glypniro]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-27 08:13:55] INFO root fetch - processPackages [ibm-watson-machine-learning]: New version: [1.0.99] Old Version: [1.0.96]
+[2023-07-27 08:13:55] INFO root fetch - processPackages [teslajsonpy]: New version: [3.9.2] Old Version: [3.9.0]
+[2023-07-27 08:13:55] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-07-27 08:13:55] INFO root fetch - processPackages [sparkpipelineframework]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-27 08:13:55] INFO root fetch - processPackages [vcorelib]: New version: [2.4.2] Old Version: [2.4.1]
+[2023-07-27 08:13:56] INFO root fetch - processPackages [minlog]: Downloading https://files.pythonhosted.org/packages/39/f6/d2114712f32f71416fff25e4b3d387fc232e836d2a229b488f22b9b54cb2/minlog-0.3.0.tar.gz
+[2023-07-27 08:13:56] INFO root fetch - processPackages [pulumi-opnsense]: Downloading https://files.pythonhosted.org/packages/18/c2/2a392d31e38292e1ddc3ee28da9ae895a3613d9910829282c389305f0780/pulumi_opnsense-0.0.98.tar.gz
+[2023-07-27 08:13:56] INFO root fetch - processPackages [glypniro]: Downloading https://files.pythonhosted.org/packages/4e/94/e6cb388baba9c40a568ef96bb296a94f38546f43845eb573b7d7e81ae5f0/glypniro-0.1.4.tar.gz
+[2023-07-27 08:13:56] INFO root fetch - processPackages [akwlkata]: Downloading https://files.pythonhosted.org/packages/e9/71/f1279341adffad467fd5736e0d07dcdb4be72fc85f44eebe829d89759519/akwlkata-1.0.1.tar.gz
+[2023-07-27 08:13:56] INFO root fetch - processPackages [ibm-watson-machine-learning]: Downloading https://files.pythonhosted.org/packages/58/40/a775ffda5d16f4fbab37ee9184852d0b9f96e7d7b19db541f8a51082509e/ibm_watson_machine_learning-1.0.96.tar.gz
+[2023-07-27 08:13:56] INFO root fetch - processPackages [markdown-worker]: Downloading https://files.pythonhosted.org/packages/7d/df/7173aa96c00c240e15f89c3ef04152aefb1ac749aaaeccf685f9ce8a9061/markdown_worker-0.0.1.tar.gz
+[2023-07-27 08:13:56] INFO root fetch - processPackages [langchain-serve]: Downloading https://files.pythonhosted.org/packages/b7/44/08a32d4d65d7aed7bf8a2e8d59c7c72ac5c5538be8c3e735a588d5ccf69b/langchain-serve-0.0.9.dev22.tar.gz
+[2023-07-27 08:13:56] INFO root fetch - processPackages [sparkpipelineframework]: Downloading https://files.pythonhosted.org/packages/3d/fa/3e08b2f10d000fdf155b4cd13d8eff184aebe669f7c3ae2d74a9de28c473/sparkpipelineframework-1.0.98.tar.gz
+[2023-07-27 08:13:56] INFO root fetch - processPackages [vcorelib]: Downloading https://files.pythonhosted.org/packages/9d/61/395c6646e9e4bf265ce4979cbaba6c13d6c7b0bb22cec89c136816365f8e/vcorelib-2.4.1.tar.gz
+[2023-07-27 08:13:56] INFO root fetch - processPackages [teslajsonpy]: Downloading https://files.pythonhosted.org/packages/75/3f/812728469ab35007426cb02e57ce5d9dc2b0f976d7ec14ce228d3adeac03/teslajsonpy-3.9.0.tar.gz
+[2023-07-27 08:13:56] INFO root fetch - processPackages [pulumi-opnsense]: Downloading https://files.pythonhosted.org/packages/26/c6/62f6b59e906de41e2ada54f6bf54879d9b02b29f45ee32e6414707ba98c0/pulumi_opnsense-0.0.99.tar.gz
+[2023-07-27 08:13:56] INFO root fetch - processPackages [minlog]: Downloading https://files.pythonhosted.org/packages/38/2a/deda40d7f3ec4653af1a83be53184b46b2497def27adb15395d691b5b17c/minlog-0.3.1.tar.gz
+[2023-07-27 08:13:56] INFO root fetch - processPackages [ibm-watson-machine-learning]: Downloading https://files.pythonhosted.org/packages/48/45/3f32e9a705a7e6bf8b19591a86cc7099b54ca88fcf8660798dff04d4e6c2/ibm_watson_machine_learning-1.0.99.tar.gz
+[2023-07-27 08:13:56] INFO root fetch - processPackages [glypniro]: Downloading https://files.pythonhosted.org/packages/73/d6/c2cf9f08198cc4c7c99f99684e63e55f27214bc64120fa55ff21b442b25c/glypniro-0.1.5.tar.gz
+[2023-07-27 08:13:56] INFO root fetch - processPackages [akwlkata]: Downloading https://files.pythonhosted.org/packages/5f/c7/17747b436e4de100fd1f56efcdcc55de8c202f93f62eebc98f7caf18ac28/akwlkata-1.0.2.tar.gz
+[2023-07-27 08:13:56] INFO root fetch - processPackages [pulumi-opnsense]: executing diffoscope
+[2023-07-27 08:13:56] INFO root fetch - processPackages [pulumi-opnsense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_opnsense-0.0.98.tar.gz tmp/pulumi_opnsense-0.0.99.tar.gz --markdown 20230727/p/pulumi-opnsense/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-27 08:13:56] INFO root fetch - processPackages [minlog]: executing diffoscope
+[2023-07-27 08:13:56] INFO root fetch - processPackages [minlog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minlog-0.3.0.tar.gz tmp/minlog-0.3.1.tar.gz --markdown 20230727/m/minlog/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-27 08:13:56] INFO root fetch - processPackages [markdown-worker]: Downloading https://files.pythonhosted.org/packages/f3/67/46bfcf727598c1a3bac679aa4d481811e244dd0610b4cf21f8fdcf435c77/markdown_worker-0.0.2.tar.gz
+[2023-07-27 08:13:56] INFO root fetch - processPackages [glypniro]: executing diffoscope
+[2023-07-27 08:13:56] INFO root fetch - processPackages [glypniro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glypniro-0.1.4.tar.gz tmp/glypniro-0.1.5.tar.gz --markdown 20230727/g/glypniro/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-27 08:13:56] INFO root fetch - processPackages [akwlkata]: executing diffoscope
+[2023-07-27 08:13:56] INFO root fetch - processPackages [akwlkata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akwlkata-1.0.1.tar.gz tmp/akwlkata-1.0.2.tar.gz --markdown 20230727/a/akwlkata/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-27 08:13:56] INFO root fetch - processPackages [vcorelib]: Downloading https://files.pythonhosted.org/packages/f7/f0/a3e8690f06c930311265f1d381a721efd17ecfb3a39de25a4e768ea2fb49/vcorelib-2.4.2.tar.gz
+[2023-07-27 08:13:56] INFO root fetch - processPackages [ibm-watson-machine-learning]: executing diffoscope
+[2023-07-27 08:13:56] INFO root fetch - processPackages [ibm-watson-machine-learning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibm_watson_machine_learning-1.0.96.tar.gz tmp/ibm_watson_machine_learning-1.0.99.tar.gz --markdown 20230727/i/ibm-watson-machine-learning/1.0.96-1.0.99/diff.md --exclude *.pyd
+[2023-07-27 08:13:56] INFO root fetch - processPackages [markdown-worker]: executing diffoscope
+[2023-07-27 08:13:56] INFO root fetch - processPackages [markdown-worker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/markdown_worker-0.0.1.tar.gz tmp/markdown_worker-0.0.2.tar.gz --markdown 20230727/m/markdown-worker/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-27 08:13:56] INFO root fetch - processPackages [teslajsonpy]: Downloading https://files.pythonhosted.org/packages/51/f8/7f2004968ed381680629d1173d0c183bcf540573b774817e43950bfc4e4e/teslajsonpy-3.9.2.tar.gz
+[2023-07-27 08:13:57] INFO root fetch - processPackages [sparkpipelineframework]: Downloading https://files.pythonhosted.org/packages/ed/e9/5708be80e63dcc98716549cd991b88c536e6028a551e0fea36d6fbb67d3e/sparkpipelineframework-1.0.99.tar.gz
+[2023-07-27 08:13:57] INFO root fetch - processPackages [vcorelib]: executing diffoscope
+[2023-07-27 08:13:57] INFO root fetch - processPackages [vcorelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vcorelib-2.4.1.tar.gz tmp/vcorelib-2.4.2.tar.gz --markdown 20230727/v/vcorelib/2.4.1-2.4.2/diff.md --exclude *.pyd
+[2023-07-27 08:13:57] INFO root fetch - processPackages [teslajsonpy]: executing diffoscope
+[2023-07-27 08:13:57] INFO root fetch - processPackages [teslajsonpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teslajsonpy-3.9.0.tar.gz tmp/teslajsonpy-3.9.2.tar.gz --markdown 20230727/t/teslajsonpy/3.9.0-3.9.2/diff.md --exclude *.pyd
+[2023-07-27 08:13:57] INFO root fetch - processPackages [sparkpipelineframework]: executing diffoscope
+[2023-07-27 08:13:57] INFO root fetch - processPackages [sparkpipelineframework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparkpipelineframework-1.0.98.tar.gz tmp/sparkpipelineframework-1.0.99.tar.gz --markdown 20230727/s/sparkpipelineframework/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-27 08:13:57] INFO root fetch - processPackages [langchain-serve]: Downloading https://files.pythonhosted.org/packages/51/a3/7492d3c89e7181c3fb783593129a3de459021071c2e7075f0050494b2de4/langchain-serve-0.0.9.dev9.tar.gz
+[2023-07-27 08:13:57] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-07-27 08:13:57] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230727/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-07-27 08:13:58] INFO root fetch - processPackages [minlog]: Remove: archive file [/home/abi/fetcher/tmp/minlog-0.3.0.tar.gz]
+[2023-07-27 08:13:58] INFO root fetch - processPackages [minlog]: Remove: archive file [/home/abi/fetcher/tmp/minlog-0.3.1.tar.gz]
+[2023-07-27 08:13:58] INFO root fetch - processPackages [minlog]: Start processing: cdk8s
+[2023-07-27 08:13:58] INFO root fetch - main [MainThread]: End processing [minlog]: success
+[2023-07-27 08:13:58] INFO root fetch - processPackages [cdk8s]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-07-27 08:13:58] INFO root fetch - processPackages [akwlkata]: Remove: archive file [/home/abi/fetcher/tmp/akwlkata-1.0.1.tar.gz]
+[2023-07-27 08:13:58] INFO root fetch - processPackages [akwlkata]: Remove: archive file [/home/abi/fetcher/tmp/akwlkata-1.0.2.tar.gz]
+[2023-07-27 08:13:58] INFO root fetch - processPackages [akwlkata]: Start processing: pyg-nightly
+[2023-07-27 08:13:58] INFO root fetch - main [MainThread]: End processing [akwlkata]: success
+[2023-07-27 08:13:58] INFO root fetch - processPackages [pulumi-opnsense]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opnsense-0.0.98.tar.gz]
+[2023-07-27 08:13:58] INFO root fetch - processPackages [pulumi-opnsense]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opnsense-0.0.99.tar.gz]
+[2023-07-27 08:13:58] INFO root fetch - processPackages [pyg-nightly]: New version: [2.4.0.dev20230726] Old Version: [2.4.0.dev20230725]
+[2023-07-27 08:13:58] INFO root fetch - main [MainThread]: End processing [pulumi-opnsense]: success
+[2023-07-27 08:13:58] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/7d/c5/592391e50b273450851cb1dd87401069971eead9d407a9d5c5ec13704f65/cdk8s-2.8.0.tar.gz
+[2023-07-27 08:13:58] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/7d/de/238a1628c7b972a13834dc8ac20fc07539c90e75444e70acd6393b83c4ae/pyg_nightly-2.4.0.dev20230725.tar.gz
+[2023-07-27 08:13:58] INFO root fetch - processPackages [glypniro]: Remove: archive file [/home/abi/fetcher/tmp/glypniro-0.1.4.tar.gz]
+[2023-07-27 08:13:58] INFO root fetch - processPackages [glypniro]: Remove: archive file [/home/abi/fetcher/tmp/glypniro-0.1.5.tar.gz]
+[2023-07-27 08:13:58] INFO root fetch - main [MainThread]: End processing [glypniro]: success
+[2023-07-27 08:13:58] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/3b/6d/920a6a9be9d1576059ced41c1fd11a3f7214589f1add4c7d3da2290b1198/cdk8s-2.9.0.tar.gz
+[2023-07-27 08:13:58] INFO root fetch - processPackages [markdown-worker]: Remove: archive file [/home/abi/fetcher/tmp/markdown_worker-0.0.1.tar.gz]
+[2023-07-27 08:13:58] INFO root fetch - processPackages [markdown-worker]: Remove: archive file [/home/abi/fetcher/tmp/markdown_worker-0.0.2.tar.gz]
+[2023-07-27 08:13:58] INFO root fetch - main [MainThread]: End processing [markdown-worker]: success
+[2023-07-27 08:13:59] INFO root fetch - processPackages [cdk8s]: executing diffoscope
+[2023-07-27 08:13:59] INFO root fetch - processPackages [cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-2.8.0.tar.gz tmp/cdk8s-2.9.0.tar.gz --markdown 20230727/c/cdk8s/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-07-27 08:13:59] INFO root fetch - processPackages [teslajsonpy]: Remove: archive file [/home/abi/fetcher/tmp/teslajsonpy-3.9.0.tar.gz]
+[2023-07-27 08:13:59] INFO root fetch - processPackages [teslajsonpy]: Remove: archive file [/home/abi/fetcher/tmp/teslajsonpy-3.9.2.tar.gz]
+[2023-07-27 08:13:59] INFO root fetch - main [MainThread]: End processing [teslajsonpy]: success
+[2023-07-27 08:13:59] INFO root fetch - processPackages [vcorelib]: Remove: archive file [/home/abi/fetcher/tmp/vcorelib-2.4.1.tar.gz]
+[2023-07-27 08:13:59] INFO root fetch - processPackages [vcorelib]: Remove: archive file [/home/abi/fetcher/tmp/vcorelib-2.4.2.tar.gz]
+[2023-07-27 08:13:59] INFO root fetch - main [MainThread]: End processing [vcorelib]: success
+[2023-07-27 08:13:59] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/89/a8/65eaca09094f95cfb077e830c305f90b4e6c31860b96d93438b07c6bb82f/pyg_nightly-2.4.0.dev20230726.tar.gz
+[2023-07-27 08:13:59] INFO root fetch - processPackages [langchain-serve]: Remove: archive file [/home/abi/fetcher/tmp/langchain-serve-0.0.9.dev22.tar.gz]
+[2023-07-27 08:13:59] INFO root fetch - processPackages [langchain-serve]: Remove: archive file [/home/abi/fetcher/tmp/langchain-serve-0.0.9.dev9.tar.gz]
+[2023-07-27 08:13:59] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-07-27 08:13:59] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2023-07-27 08:13:59] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.4.0.dev20230725.tar.gz tmp/pyg_nightly-2.4.0.dev20230726.tar.gz --markdown 20230727/p/pyg-nightly/2.4.0.dev20230725-2.4.0.dev20230726/diff.md --exclude *.pyd
+[2023-07-27 08:14:00] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.8.0.tar.gz]
+[2023-07-27 08:14:00] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.9.0.tar.gz]
+[2023-07-27 08:14:00] INFO root fetch - main [MainThread]: End processing [cdk8s]: success
+[2023-07-27 08:14:01] INFO root fetch - processPackages [sparkpipelineframework]: Remove: archive file [/home/abi/fetcher/tmp/sparkpipelineframework-1.0.98.tar.gz]
+[2023-07-27 08:14:01] INFO root fetch - processPackages [sparkpipelineframework]: Remove: archive file [/home/abi/fetcher/tmp/sparkpipelineframework-1.0.99.tar.gz]
+[2023-07-27 08:14:01] INFO root fetch - main [MainThread]: End processing [sparkpipelineframework]: success
+[2023-07-27 08:14:03] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230725.tar.gz]
+[2023-07-27 08:14:03] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230726.tar.gz]
+[2023-07-27 08:14:03] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2023-07-27 08:14:03] INFO root fetch - processPackages [ibm-watson-machine-learning]: Remove: archive file [/home/abi/fetcher/tmp/ibm_watson_machine_learning-1.0.96.tar.gz]
+[2023-07-27 08:14:03] INFO root fetch - processPackages [ibm-watson-machine-learning]: Remove: archive file [/home/abi/fetcher/tmp/ibm_watson_machine_learning-1.0.99.tar.gz]
+[2023-07-27 08:14:03] INFO root fetch - main [MainThread]: End processing [ibm-watson-machine-learning]: success
+[2023-07-27 08:14:03] INFO root fetch - main [MainThread]: Store serial: [19055925]
