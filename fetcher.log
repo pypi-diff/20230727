@@ -7046,3 +7046,91 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-27 03:25:39] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2023-07-27 03:25:39] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2023-07-27 03:25:39] INFO root fetch - main [MainThread]: Store serial: [19052679]
+[2023-07-27 03:30:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19052679]
+[2023-07-27 03:30:47] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-27 03:30:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: masterpass
+[2023-07-27 03:30:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: beehiiv
+[2023-07-27 03:30:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bioregistry
+[2023-07-27 03:30:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rsoup
+[2023-07-27 03:30:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hugedict
+[2023-07-27 03:30:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: robot-awe
+[2023-07-27 03:30:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kube-ops
+[2023-07-27 03:30:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ez-cqrs
+[2023-07-27 03:30:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hdlib
+[2023-07-27 03:30:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: deepdog
+[2023-07-27 03:30:48] INFO root fetch - processPackages [hugedict]: New version: [2.9.2] Old Version: [2.9.1]
+[2023-07-27 03:30:48] INFO root fetch - processPackages [masterpass]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-27 03:30:48] INFO root fetch - processPackages [ez-cqrs]: New version: [1.4.3] Old Version: [1.4.1]
+[2023-07-27 03:30:48] WARNING root fetch - processPackages [robot-awe]: Skipping, unable to determine old version
+[2023-07-27 03:30:48] INFO root fetch - processPackages [robot-awe]: Start processing: klu
+[2023-07-27 03:30:48] INFO root fetch - main [MainThread]: End processing [robot-awe] error
+[2023-07-27 03:30:48] INFO root fetch - processPackages [hdlib]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-27 03:30:48] INFO root fetch - processPackages [deepdog]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-07-27 03:30:48] INFO root fetch - processPackages [kube-ops]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-27 03:30:48] WARNING root fetch - processPackages [beehiiv]: Skipping, unable to determine old version
+[2023-07-27 03:30:48] INFO root fetch - main [MainThread]: End processing [beehiiv] error
+[2023-07-27 03:30:48] INFO root fetch - processPackages [rsoup]: New version: [3.1.2] Old Version: [3.1.1]
+[2023-07-27 03:30:48] INFO root fetch - processPackages [bioregistry]: New version: [0.9.9] Old Version: [0.9.87]
+[2023-07-27 03:30:48] INFO root fetch - processPackages [ez-cqrs]: Downloading https://files.pythonhosted.org/packages/5f/2a/1b01fa26f456f9a86f43bd2c5103bb0708be784e6a14da127d1b1c8eb308/ez_cqrs-1.4.1.tar.gz
+[2023-07-27 03:30:48] INFO root fetch - processPackages [rsoup]: Downloading https://files.pythonhosted.org/packages/d5/06/a90de8ef421a391bab82afd1bc803321e2d4e813e723942f4c1a4d2f1df4/rsoup-3.1.1.tar.gz
+[2023-07-27 03:30:48] INFO root fetch - processPackages [hugedict]: Downloading https://files.pythonhosted.org/packages/d9/ec/67623f8628a4bcad24dd3709e5b462a7b8edc3186d0970efc26ec8dcfcaa/hugedict-2.9.1-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-27 03:30:48] INFO root fetch - processPackages [klu]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-27 03:30:48] INFO root fetch - processPackages [masterpass]: Downloading https://files.pythonhosted.org/packages/99/4d/278436d592112716917fe429e24ecdd14e0a1d0ddb403748bbe19487e66b/masterpass-0.2.2.tar.gz
+[2023-07-27 03:30:48] INFO root fetch - processPackages [kube-ops]: Downloading https://files.pythonhosted.org/packages/de/97/aec4957fef380f0fd99efcf5165c7e8aa2c4486d73bd9a25b33464f356d1/kube_ops-1.0.2-py3-none-any.whl
+[2023-07-27 03:30:48] INFO root fetch - processPackages [bioregistry]: Downloading https://files.pythonhosted.org/packages/ef/76/89f0b1eaf7bca11c64faf2d286fe5551b0ca10bee4246b88d9fbf1fa742b/bioregistry-0.9.87.tar.gz
+[2023-07-27 03:30:48] INFO root fetch - processPackages [deepdog]: Downloading https://files.pythonhosted.org/packages/e3/51/ead3d37a0bee0ea064fceb99d07c2cf04294335471b3d4b7358e3c6e6d34/deepdog-0.7.2.tar.gz
+[2023-07-27 03:30:48] INFO root fetch - processPackages [hdlib]: Downloading https://files.pythonhosted.org/packages/6a/d4/78124a57a16f28b81c29ebadb1d944da4036a6dfe15f864cb83f92734536/hdlib-0.1.8.tar.gz
+[2023-07-27 03:30:48] INFO root fetch - processPackages [ez-cqrs]: Downloading https://files.pythonhosted.org/packages/65/c8/cd008972bdc9a388522bcf3dd7570e557673cc6005d7d001c7dd7fd79e69/ez_cqrs-1.4.3.tar.gz
+[2023-07-27 03:30:48] INFO root fetch - processPackages [rsoup]: Downloading https://files.pythonhosted.org/packages/b2/d7/da36436cbcaf0263dbe809c161c24147d189b4c7514e17a47dc83203b0ce/rsoup-3.1.2.tar.gz
+[2023-07-27 03:30:48] INFO root fetch - processPackages [klu]: Downloading https://files.pythonhosted.org/packages/b1/c9/2a9f4e78c580680c6a16d7ae54190d553fdb30b0f46c56ca7d168d55eb41/klu-0.1.8.tar.gz
+[2023-07-27 03:30:48] INFO root fetch - processPackages [ez-cqrs]: executing diffoscope
+[2023-07-27 03:30:48] INFO root fetch - processPackages [ez-cqrs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ez_cqrs-1.4.1.tar.gz tmp/ez_cqrs-1.4.3.tar.gz --markdown 20230727/e/ez-cqrs/1.4.1-1.4.3/diff.md --exclude *.pyd
+[2023-07-27 03:30:48] INFO root fetch - processPackages [rsoup]: executing diffoscope
+[2023-07-27 03:30:48] INFO root fetch - processPackages [rsoup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rsoup-3.1.1.tar.gz tmp/rsoup-3.1.2.tar.gz --markdown 20230727/r/rsoup/3.1.1-3.1.2/diff.md --exclude *.pyd
+[2023-07-27 03:30:48] INFO root fetch - processPackages [masterpass]: Downloading https://files.pythonhosted.org/packages/95/e7/c6b6103c7f88830c9966b96fc303a59c237241d4e1c6b1bb66ebfe884d36/masterpass-0.2.3.tar.gz
+[2023-07-27 03:30:49] INFO root fetch - processPackages [deepdog]: Downloading https://files.pythonhosted.org/packages/d9/41/ee741312ab40fc7ee8a89c7f825281cf8dc1182fc46ba9241bdf03b047d3/deepdog-0.7.3.tar.gz
+[2023-07-27 03:30:49] INFO root fetch - processPackages [kube-ops]: Downloading https://files.pythonhosted.org/packages/ad/66/9aacd3fb193ad317daf4c24f84a1b018234818a2415ef180608e58429547/kube_ops-1.0.3-py3-none-any.whl
+[2023-07-27 03:30:49] INFO root fetch - processPackages [hdlib]: Downloading https://files.pythonhosted.org/packages/a0/38/971d00b524e637ed6f7130b8f9a857bc0a94cebacafc90fd971fe43c10c9/hdlib-0.1.9.tar.gz
+[2023-07-27 03:30:49] INFO root fetch - processPackages [masterpass]: executing diffoscope
+[2023-07-27 03:30:49] INFO root fetch - processPackages [masterpass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/masterpass-0.2.2.tar.gz tmp/masterpass-0.2.3.tar.gz --markdown 20230727/m/masterpass/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-27 03:30:49] INFO root fetch - processPackages [deepdog]: executing diffoscope
+[2023-07-27 03:30:49] INFO root fetch - processPackages [deepdog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepdog-0.7.2.tar.gz tmp/deepdog-0.7.3.tar.gz --markdown 20230727/d/deepdog/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-07-27 03:30:49] INFO root fetch - processPackages [kube-ops]: executing diffoscope
+[2023-07-27 03:30:49] INFO root fetch - processPackages [kube-ops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kube_ops-1.0.2-py3-none-any.whl.zip tmp/kube_ops-1.0.3-py3-none-any.whl.zip --markdown 20230727/k/kube-ops/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-27 03:30:49] INFO root fetch - processPackages [hdlib]: executing diffoscope
+[2023-07-27 03:30:49] INFO root fetch - processPackages [hdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdlib-0.1.8.tar.gz tmp/hdlib-0.1.9.tar.gz --markdown 20230727/h/hdlib/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-27 03:30:49] INFO root fetch - processPackages [bioregistry]: executing diffoscope
+[2023-07-27 03:30:49] INFO root fetch - processPackages [bioregistry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioregistry-0.9.87.tar.gz tmp/bioregistry-0.9.9.tar.gz --markdown 20230727/b/bioregistry/0.9.87-0.9.9/diff.md --exclude *.pyd
+[2023-07-27 03:30:49] INFO root fetch - processPackages [klu]: Downloading https://files.pythonhosted.org/packages/a5/9b/b497ef7ded62e9d7c34c96061b12e0d3adc6ad653f66589eaebfac32f3fd/klu-0.1.9.tar.gz
+[2023-07-27 03:30:49] INFO root fetch - processPackages [hugedict]: Downloading https://files.pythonhosted.org/packages/92/61/4109a9c0c7bb01eefb965b5b386abacc7d6a554e4c79c6de0bdcb1d32d8a/hugedict-2.9.2-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-27 03:30:49] INFO root fetch - processPackages [klu]: executing diffoscope
+[2023-07-27 03:30:49] INFO root fetch - processPackages [klu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/klu-0.1.8.tar.gz tmp/klu-0.1.9.tar.gz --markdown 20230727/k/klu/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-27 03:30:50] INFO root fetch - processPackages [ez-cqrs]: Remove: archive file [/home/abi/fetcher/tmp/ez_cqrs-1.4.1.tar.gz]
+[2023-07-27 03:30:50] INFO root fetch - processPackages [ez-cqrs]: Remove: archive file [/home/abi/fetcher/tmp/ez_cqrs-1.4.3.tar.gz]
+[2023-07-27 03:30:50] INFO root fetch - main [MainThread]: End processing [ez-cqrs]: success
+[2023-07-27 03:30:50] INFO root fetch - processPackages [hugedict]: executing diffoscope
+[2023-07-27 03:30:50] INFO root fetch - processPackages [hugedict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hugedict-2.9.1-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/hugedict-2.9.2-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230727/h/hugedict/2.9.1-2.9.2/diff.md --exclude *.pyd
+[2023-07-27 03:30:50] INFO root fetch - processPackages [masterpass]: Remove: archive file [/home/abi/fetcher/tmp/masterpass-0.2.2.tar.gz]
+[2023-07-27 03:30:50] INFO root fetch - processPackages [masterpass]: Remove: archive file [/home/abi/fetcher/tmp/masterpass-0.2.3.tar.gz]
+[2023-07-27 03:30:50] INFO root fetch - main [MainThread]: End processing [masterpass]: success
+[2023-07-27 03:30:50] INFO root fetch - processPackages [deepdog]: Remove: archive file [/home/abi/fetcher/tmp/deepdog-0.7.2.tar.gz]
+[2023-07-27 03:30:50] INFO root fetch - processPackages [deepdog]: Remove: archive file [/home/abi/fetcher/tmp/deepdog-0.7.3.tar.gz]
+[2023-07-27 03:30:50] INFO root fetch - main [MainThread]: End processing [deepdog]: success
+[2023-07-27 03:30:50] INFO root fetch - processPackages [rsoup]: Remove: archive file [/home/abi/fetcher/tmp/rsoup-3.1.1.tar.gz]
+[2023-07-27 03:30:50] INFO root fetch - processPackages [rsoup]: Remove: archive file [/home/abi/fetcher/tmp/rsoup-3.1.2.tar.gz]
+[2023-07-27 03:30:50] INFO root fetch - main [MainThread]: End processing [rsoup]: success
+[2023-07-27 03:30:50] INFO root fetch - processPackages [hdlib]: Remove: archive file [/home/abi/fetcher/tmp/hdlib-0.1.8.tar.gz]
+[2023-07-27 03:30:50] INFO root fetch - processPackages [hdlib]: Remove: archive file [/home/abi/fetcher/tmp/hdlib-0.1.9.tar.gz]
+[2023-07-27 03:30:50] INFO root fetch - main [MainThread]: End processing [hdlib]: success
+[2023-07-27 03:30:50] INFO root fetch - processPackages [kube-ops]: Remove: archive file [/home/abi/fetcher/tmp/kube_ops-1.0.2-py3-none-any.whl.zip]
+[2023-07-27 03:30:50] INFO root fetch - processPackages [kube-ops]: Remove: archive file [/home/abi/fetcher/tmp/kube_ops-1.0.3-py3-none-any.whl.zip]
+[2023-07-27 03:30:50] INFO root fetch - main [MainThread]: End processing [kube-ops]: success
+[2023-07-27 03:30:50] INFO root fetch - processPackages [klu]: Remove: archive file [/home/abi/fetcher/tmp/klu-0.1.8.tar.gz]
+[2023-07-27 03:30:50] INFO root fetch - processPackages [klu]: Remove: archive file [/home/abi/fetcher/tmp/klu-0.1.9.tar.gz]
+[2023-07-27 03:30:50] INFO root fetch - main [MainThread]: End processing [klu]: success
+[2023-07-27 03:31:33] INFO root fetch - processPackages [hugedict]: Remove: archive file [/home/abi/fetcher/tmp/hugedict-2.9.1-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-27 03:31:33] INFO root fetch - processPackages [hugedict]: Remove: archive file [/home/abi/fetcher/tmp/hugedict-2.9.2-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-27 03:31:33] INFO root fetch - main [MainThread]: End processing [hugedict]: success
+[2023-07-27 03:33:49] ERROR root fetch - processPackages [bioregistry]: Timeout during execution of pkgdiff
+[2023-07-27 03:33:49] INFO root fetch - main [MainThread]: End processing [bioregistry] error
+[2023-07-27 03:33:49] INFO root fetch - main [MainThread]: Store serial: [19052847]
