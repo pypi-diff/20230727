@@ -7480,3 +7480,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-27 03:49:37] INFO root fetch - processPackages [kestrel-lang]: Remove: archive file [/home/abi/fetcher/tmp/kestrel-lang-1.7.3.tar.gz]
 [2023-07-27 03:49:37] INFO root fetch - main [MainThread]: End processing [kestrel-lang]: success
 [2023-07-27 03:49:37] INFO root fetch - main [MainThread]: Store serial: [19052987]
+[2023-07-27 03:54:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19052987]
+[2023-07-27 03:54:45] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-27 03:54:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cl-testrail
+[2023-07-27 03:54:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: paddleocr-convert
+[2023-07-27 03:54:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: VNPT
+[2023-07-27 03:54:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: edc-next-appointment
+[2023-07-27 03:54:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: otter-service
+[2023-07-27 03:54:45] WARNING root fetch - processPackages [VNPT]: Skipping, unable to determine old version
+[2023-07-27 03:54:45] INFO root fetch - main [MainThread]: End processing [VNPT] error
+[2023-07-27 03:54:45] INFO root fetch - processPackages [paddleocr-convert]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-27 03:54:45] WARNING root fetch - processPackages [edc-next-appointment]: Skipping, unable to determine old version
+[2023-07-27 03:54:45] INFO root fetch - main [MainThread]: End processing [edc-next-appointment] error
+[2023-07-27 03:54:45] WARNING root fetch - processPackages [cl-testrail]: Skipping, unable to determine old version
+[2023-07-27 03:54:45] INFO root fetch - main [MainThread]: End processing [cl-testrail] error
+[2023-07-27 03:54:45] INFO root fetch - processPackages [otter-service]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-27 03:54:45] INFO root fetch - processPackages [otter-service]: Downloading https://files.pythonhosted.org/packages/b9/ba/6551c70a4a4b011cdb473e01569522f55d2ee7e22d53d5874bb20531b912/otter_service-0.2.8.tar.gz
+[2023-07-27 03:54:45] INFO root fetch - processPackages [paddleocr-convert]: Downloading https://files.pythonhosted.org/packages/b6/e5/3f5c704bd5f685e408daab7d6b81a4bece240b527480fc358ab602b94fcb/paddleocr_convert-0.0.8-py3-none-any.whl
+[2023-07-27 03:54:46] INFO root fetch - processPackages [otter-service]: Downloading https://files.pythonhosted.org/packages/fe/9b/6c765b06c984000c5a4e4b056f64bab0e80d6770ae7c10cba66127624997/otter_service-0.2.9.tar.gz
+[2023-07-27 03:54:46] INFO root fetch - processPackages [otter-service]: executing diffoscope
+[2023-07-27 03:54:46] INFO root fetch - processPackages [otter-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otter_service-0.2.8.tar.gz tmp/otter_service-0.2.9.tar.gz --markdown 20230727/o/otter-service/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-27 03:54:46] INFO root fetch - processPackages [paddleocr-convert]: Downloading https://files.pythonhosted.org/packages/c3/bd/a9b1929a499f90e6b5992840327d1d3b74da4cf7b31bbdf4609f700a2648/paddleocr_convert-0.0.9-py3-none-any.whl
+[2023-07-27 03:54:46] INFO root fetch - processPackages [paddleocr-convert]: executing diffoscope
+[2023-07-27 03:54:46] INFO root fetch - processPackages [paddleocr-convert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paddleocr_convert-0.0.8-py3-none-any.whl.zip tmp/paddleocr_convert-0.0.9-py3-none-any.whl.zip --markdown 20230727/p/paddleocr-convert/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-27 03:54:47] INFO root fetch - processPackages [otter-service]: Remove: archive file [/home/abi/fetcher/tmp/otter_service-0.2.8.tar.gz]
+[2023-07-27 03:54:47] INFO root fetch - processPackages [otter-service]: Remove: archive file [/home/abi/fetcher/tmp/otter_service-0.2.9.tar.gz]
+[2023-07-27 03:54:47] INFO root fetch - main [MainThread]: End processing [otter-service]: success
+[2023-07-27 03:54:47] INFO root fetch - processPackages [paddleocr-convert]: Remove: archive file [/home/abi/fetcher/tmp/paddleocr_convert-0.0.8-py3-none-any.whl.zip]
+[2023-07-27 03:54:47] INFO root fetch - processPackages [paddleocr-convert]: Remove: archive file [/home/abi/fetcher/tmp/paddleocr_convert-0.0.9-py3-none-any.whl.zip]
+[2023-07-27 03:54:47] INFO root fetch - main [MainThread]: End processing [paddleocr-convert]: success
+[2023-07-27 03:54:47] INFO root fetch - main [MainThread]: Store serial: [19053008]
