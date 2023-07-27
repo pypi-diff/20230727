@@ -18061,3 +18061,149 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-27 09:42:16] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.99.tar.gz]
 [2023-07-27 09:42:16] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-07-27 09:42:16] INFO root fetch - main [MainThread]: Store serial: [19056798]
+[2023-07-27 09:47:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19056798]
+[2023-07-27 09:47:24] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-07-27 09:47:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: AsyncChatPractice
+[2023-07-27 09:47:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: honeybee-radiance-postprocess
+[2023-07-27 09:47:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kafkaproducerself
+[2023-07-27 09:47:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yandexcloud
+[2023-07-27 09:47:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mobio-cli
+[2023-07-27 09:47:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: logger-local
+[2023-07-27 09:47:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tfq-nightly
+[2023-07-27 09:47:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: stretchable
+[2023-07-27 09:47:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: prime-dagster-airbyte
+[2023-07-27 09:47:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bioat
+[2023-07-27 09:47:25] INFO root fetch - processPackages [yandexcloud]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-07-27 09:47:25] INFO root fetch - processPackages [tfq-nightly]: New version: [0.7.3.dev20230726] Old Version: [0.7.3.dev20230725]
+[2023-07-27 09:47:25] WARNING root fetch - processPackages [AsyncChatPractice]: Skipping, unable to determine old version
+[2023-07-27 09:47:25] INFO root fetch - processPackages [AsyncChatPractice]: Start processing: cns
+[2023-07-27 09:47:25] INFO root fetch - main [MainThread]: End processing [AsyncChatPractice] error
+[2023-07-27 09:47:25] INFO root fetch - processPackages [mobio-cli]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-27 09:47:25] INFO root fetch - processPackages [logger-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-27 09:47:25] WARNING root fetch - processPackages [stretchable]: Skipping, unable to determine old version
+[2023-07-27 09:47:25] INFO root fetch - processPackages [stretchable]: Start processing: bbat
+[2023-07-27 09:47:25] INFO root fetch - main [MainThread]: End processing [stretchable] error
+[2023-07-27 09:47:25] WARNING root fetch - processPackages [prime-dagster-airbyte]: Skipping, unable to determine old version
+[2023-07-27 09:47:25] INFO root fetch - processPackages [prime-dagster-airbyte]: Start processing: slack-react
+[2023-07-27 09:47:25] INFO root fetch - main [MainThread]: End processing [prime-dagster-airbyte] error
+[2023-07-27 09:47:25] INFO root fetch - processPackages [bioat]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-27 09:47:25] INFO root fetch - processPackages [honeybee-radiance-postprocess]: New version: [0.4.99] Old Version: [0.4.98]
+[2023-07-27 09:47:25] INFO root fetch - processPackages [kafkaproducerself]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-27 09:47:25] INFO root fetch - processPackages [slack-react]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-27 09:47:25] WARNING root fetch - processPackages [cns]: Skipping, unable to determine old version
+[2023-07-27 09:47:25] INFO root fetch - processPackages [cns]: Start processing: slack-react
+[2023-07-27 09:47:25] INFO root fetch - main [MainThread]: End processing [cns] error
+[2023-07-27 09:47:25] INFO root fetch - processPackages [tfq-nightly]: Downloading https://files.pythonhosted.org/packages/85/66/267c389626e1333a84125b069b9a002b3c66ec2472306828278a8900f7ff/tfq_nightly-0.7.3.dev20230725-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-27 09:47:25] INFO root fetch - processPackages [bbat]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-27 09:47:25] INFO root fetch - processPackages [yandexcloud]: Downloading https://files.pythonhosted.org/packages/76/3b/1649bfb2078286e8152c6e1bba2e34340ec1d2135c6ede304fed08ff6f42/yandexcloud-0.98.0.tar.gz
+[2023-07-27 09:47:25] INFO root fetch - processPackages [slack-react]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-27 09:47:25] INFO root fetch - processPackages [mobio-cli]: Downloading https://files.pythonhosted.org/packages/ce/5d/79e9122a8080972f458e3ac15b712784247f3773365f9da52e645a32319e/mobio-cli-1.0.5.tar.gz
+[2023-07-27 09:47:25] INFO root fetch - processPackages [slack-react]: Downloading https://files.pythonhosted.org/packages/01/6e/a567cb079c56c3391c2e64bc6521ed3a7ca7c5f52263649d8707ae54929a/slack-react-0.2.1.tar.gz
+[2023-07-27 09:47:25] INFO root fetch - processPackages [kafkaproducerself]: Downloading https://files.pythonhosted.org/packages/7f/f6/5ced7e66aae556a455442355794512ec7bc7f869f3865127be5608d730e3/kafkaproducerself-0.0.4.tar.gz
+[2023-07-27 09:47:25] INFO root fetch - processPackages [honeybee-radiance-postprocess]: Downloading https://files.pythonhosted.org/packages/b6/91/e656cf214b08dde444b27576e74fc06004fa6bbc0d5f04f1d6514eb05429/honeybee-radiance-postprocess-0.4.98.tar.gz
+[2023-07-27 09:47:25] WARNING root fetch - processPackages [tfq-nightly]: Skipping package: exceeds size limit 10807265>=10485760
+[2023-07-27 09:47:25] INFO root fetch - processPackages [tfq-nightly]: Start processing: bridgecrew
+[2023-07-27 09:47:25] INFO root fetch - main [MainThread]: End processing [tfq-nightly] error
+[2023-07-27 09:47:25] INFO root fetch - processPackages [logger-local]: Downloading https://files.pythonhosted.org/packages/21/e1/7a45a748162f16f488c16187a0b07c25201df5531bf12da29ff61c6d7db5/logger-local-0.0.8.tar.gz
+[2023-07-27 09:47:25] INFO root fetch - processPackages [bioat]: Downloading https://files.pythonhosted.org/packages/7b/af/c026e8407e70cb12116b41622227811212badf5b7bf7f4054e2c7b84e335/bioat-0.2.4.tar.gz
+[2023-07-27 09:47:25] INFO root fetch - processPackages [bridgecrew]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-07-27 09:47:25] INFO root fetch - processPackages [slack-react]: Downloading https://files.pythonhosted.org/packages/6b/1b/f0c5e3610c4c6f765a8354d0212e78de528a33d8aab04dbafe97274c66c0/slack-react-0.3.1.tar.gz
+[2023-07-27 09:47:25] INFO root fetch - processPackages [bbat]: Downloading https://files.pythonhosted.org/packages/84/3e/912771aea9341c07bd9544b68c0991e6fffcf40c1614418949eb4f2460e6/bbat-0.1.0.tar.gz
+[2023-07-27 09:47:25] INFO root fetch - processPackages [mobio-cli]: Downloading https://files.pythonhosted.org/packages/f3/62/45a289ce9bbfb3acff0a690a8cd66d1d22a05b8a0a2ce332005876e05862/mobio-cli-1.0.6.tar.gz
+[2023-07-27 09:47:25] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/c1/70/3267f94d196f9213b2b44a429d64b71cb1f9f3d812687dd74ff8a983a588/bridgecrew-2.3.98.tar.gz
+[2023-07-27 09:47:25] INFO root fetch - processPackages [slack-react]: Downloading https://files.pythonhosted.org/packages/82/5d/6d32ac102dbf803ea48435aa0fe02a2cd988ecc9714983d01164069c0e94/slack-react-0.2.2.tar.gz
+[2023-07-27 09:47:26] INFO root fetch - processPackages [yandexcloud]: Downloading https://files.pythonhosted.org/packages/2f/1f/b188f3c823e00c4f3114cbe85a4db73a89c7317f9bbc6634a6021521a9ab/yandexcloud-0.99.0.tar.gz
+[2023-07-27 09:47:26] INFO root fetch - processPackages [honeybee-radiance-postprocess]: Downloading https://files.pythonhosted.org/packages/e0/41/5be881e0724bb4d271ee5bb707666eff4c4b9ca79bc8c67f7316687d2f67/honeybee-radiance-postprocess-0.4.99.tar.gz
+[2023-07-27 09:47:26] INFO root fetch - processPackages [slack-react]: executing diffoscope
+[2023-07-27 09:47:26] INFO root fetch - processPackages [slack-react]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slack-react-0.2.1.tar.gz tmp/slack-react-0.2.2.tar.gz --markdown 20230727/s/slack-react/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-27 09:47:26] INFO root fetch - processPackages [logger-local]: Downloading https://files.pythonhosted.org/packages/2d/a9/d7815ae572e09b03370b309ad1bf127cf7c8f4c91b3ddd26fd0043a2e559/logger-local-0.0.9.tar.gz
+[2023-07-27 09:47:26] INFO root fetch - processPackages [bioat]: Downloading https://files.pythonhosted.org/packages/24/05/40cb4a7d7c80752020d9b18ba8970437074de3d1b58c1a1138296476ffc8/bioat-0.2.5.tar.gz
+[2023-07-27 09:47:26] INFO root fetch - processPackages [mobio-cli]: executing diffoscope
+[2023-07-27 09:47:26] INFO root fetch - processPackages [mobio-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mobio-cli-1.0.5.tar.gz tmp/mobio-cli-1.0.6.tar.gz --markdown 20230727/m/mobio-cli/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-27 09:47:26] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/9e/6b/ea9cdf20d73a8621ab1f56b3ee95c8fe6b3e23cb8cd7a0f75ec041c3f16f/bridgecrew-2.3.99.tar.gz
+[2023-07-27 09:47:26] INFO root fetch - processPackages [bbat]: Downloading https://files.pythonhosted.org/packages/88/32/42877456c644500496d4524503146562326c1bbd7af064c9a979af8aa096/bbat-0.2.0.tar.gz
+[2023-07-27 09:47:26] INFO root fetch - processPackages [yandexcloud]: executing diffoscope
+[2023-07-27 09:47:26] INFO root fetch - processPackages [yandexcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yandexcloud-0.98.0.tar.gz tmp/yandexcloud-0.99.0.tar.gz --markdown 20230727/y/yandexcloud/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-07-27 09:47:26] INFO root fetch - processPackages [honeybee-radiance-postprocess]: executing diffoscope
+[2023-07-27 09:47:26] INFO root fetch - processPackages [honeybee-radiance-postprocess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-radiance-postprocess-0.4.98.tar.gz tmp/honeybee-radiance-postprocess-0.4.99.tar.gz --markdown 20230727/h/honeybee-radiance-postprocess/0.4.98-0.4.99/diff.md --exclude *.pyd
+[2023-07-27 09:47:26] INFO root fetch - processPackages [logger-local]: executing diffoscope
+[2023-07-27 09:47:26] INFO root fetch - processPackages [logger-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logger-local-0.0.8.tar.gz tmp/logger-local-0.0.9.tar.gz --markdown 20230727/l/logger-local/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-27 09:47:26] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2023-07-27 09:47:26] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-2.3.98.tar.gz tmp/bridgecrew-2.3.99.tar.gz --markdown 20230727/b/bridgecrew/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-07-27 09:47:26] INFO root fetch - processPackages [slack-react]: Downloading https://files.pythonhosted.org/packages/9c/3e/3fdbdae4315fcff853c3e58a99a2e4146965135b9d97cea38840b40b98f3/slack-react-0.3.2.tar.gz
+[2023-07-27 09:47:26] INFO root fetch - processPackages [kafkaproducerself]: Downloading https://files.pythonhosted.org/packages/26/d8/e8e54dbd5a2118d7d8328f704eaae78abe07e738bd93d60cf7486222a3a3/kafkaproducerself-0.0.5.tar.gz
+[2023-07-27 09:47:26] INFO root fetch - processPackages [bbat]: executing diffoscope
+[2023-07-27 09:47:26] INFO root fetch - processPackages [bbat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bbat-0.1.0.tar.gz tmp/bbat-0.2.0.tar.gz --markdown 20230727/b/bbat/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-27 09:47:26] INFO root fetch - processPackages [bioat]: executing diffoscope
+[2023-07-27 09:47:26] INFO root fetch - processPackages [bioat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioat-0.2.4.tar.gz tmp/bioat-0.2.5.tar.gz --markdown 20230727/b/bioat/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-27 09:47:26] INFO root fetch - processPackages [slack-react]: executing diffoscope
+[2023-07-27 09:47:26] INFO root fetch - processPackages [slack-react]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slack-react-0.3.1.tar.gz tmp/slack-react-0.3.2.tar.gz --markdown 20230727/s/slack-react/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-27 09:47:26] INFO root fetch - processPackages [kafkaproducerself]: executing diffoscope
+[2023-07-27 09:47:26] INFO root fetch - processPackages [kafkaproducerself]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kafkaproducerself-0.0.4.tar.gz tmp/kafkaproducerself-0.0.5.tar.gz --markdown 20230727/k/kafkaproducerself/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-27 09:47:27] INFO root fetch - processPackages [slack-react]: Remove: archive file [/home/abi/fetcher/tmp/slack-react-0.2.1.tar.gz]
+[2023-07-27 09:47:27] INFO root fetch - processPackages [slack-react]: Remove: archive file [/home/abi/fetcher/tmp/slack-react-0.2.2.tar.gz]
+[2023-07-27 09:47:27] INFO root fetch - processPackages [slack-react]: Start processing: commonX
+[2023-07-27 09:47:27] INFO root fetch - main [MainThread]: End processing [slack-react]: success
+[2023-07-27 09:47:28] INFO root fetch - processPackages [mobio-cli]: Remove: archive file [/home/abi/fetcher/tmp/mobio-cli-1.0.5.tar.gz]
+[2023-07-27 09:47:28] INFO root fetch - processPackages [mobio-cli]: Remove: archive file [/home/abi/fetcher/tmp/mobio-cli-1.0.6.tar.gz]
+[2023-07-27 09:47:28] INFO root fetch - processPackages [mobio-cli]: Start processing: hust-login
+[2023-07-27 09:47:28] INFO root fetch - main [MainThread]: End processing [mobio-cli]: success
+[2023-07-27 09:47:28] INFO root fetch - processPackages [commonX]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-07-27 09:47:28] INFO root fetch - processPackages [honeybee-radiance-postprocess]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-radiance-postprocess-0.4.98.tar.gz]
+[2023-07-27 09:47:28] INFO root fetch - processPackages [honeybee-radiance-postprocess]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-radiance-postprocess-0.4.99.tar.gz]
+[2023-07-27 09:47:28] INFO root fetch - processPackages [honeybee-radiance-postprocess]: Start processing: dimtown-spider
+[2023-07-27 09:47:28] INFO root fetch - main [MainThread]: End processing [honeybee-radiance-postprocess]: success
+[2023-07-27 09:47:28] INFO root fetch - processPackages [hust-login]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-27 09:47:28] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.98.tar.gz]
+[2023-07-27 09:47:28] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.99.tar.gz]
+[2023-07-27 09:47:28] INFO root fetch - processPackages [bridgecrew]: Start processing: slack-react
+[2023-07-27 09:47:28] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2023-07-27 09:47:28] INFO root fetch - processPackages [logger-local]: Remove: archive file [/home/abi/fetcher/tmp/logger-local-0.0.8.tar.gz]
+[2023-07-27 09:47:28] INFO root fetch - processPackages [logger-local]: Remove: archive file [/home/abi/fetcher/tmp/logger-local-0.0.9.tar.gz]
+[2023-07-27 09:47:28] INFO root fetch - main [MainThread]: End processing [logger-local]: success
+[2023-07-27 09:47:28] INFO root fetch - processPackages [dimtown-spider]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-27 09:47:28] INFO root fetch - processPackages [slack-react]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-27 09:47:28] INFO root fetch - processPackages [bbat]: Remove: archive file [/home/abi/fetcher/tmp/bbat-0.1.0.tar.gz]
+[2023-07-27 09:47:28] INFO root fetch - processPackages [bbat]: Remove: archive file [/home/abi/fetcher/tmp/bbat-0.2.0.tar.gz]
+[2023-07-27 09:47:28] INFO root fetch - main [MainThread]: End processing [bbat]: success
+[2023-07-27 09:47:28] INFO root fetch - processPackages [commonX]: Downloading https://files.pythonhosted.org/packages/e7/06/4dfecf829d8c8c970e7740f9ec39b1a80e7089972dbae79d7cbf1a8c618e/commonX-0.5.2.tar.gz
+[2023-07-27 09:47:28] INFO root fetch - processPackages [hust-login]: Downloading https://files.pythonhosted.org/packages/f6/ca/8f7bb9e1d02e2721fe8c18fbdbe32531a52decdbe6fe9e8e8573737ac9c7/hust_login-1.0.1-py3.11.egg
+[2023-07-27 09:47:28] INFO root fetch - processPackages [slack-react]: Remove: archive file [/home/abi/fetcher/tmp/slack-react-0.3.1.tar.gz]
+[2023-07-27 09:47:28] INFO root fetch - processPackages [slack-react]: Remove: archive file [/home/abi/fetcher/tmp/slack-react-0.3.2.tar.gz]
+[2023-07-27 09:47:28] INFO root fetch - main [MainThread]: End processing [slack-react]: success
+[2023-07-27 09:47:28] INFO root fetch - processPackages [bioat]: Remove: archive file [/home/abi/fetcher/tmp/bioat-0.2.4.tar.gz]
+[2023-07-27 09:47:28] INFO root fetch - processPackages [bioat]: Remove: archive file [/home/abi/fetcher/tmp/bioat-0.2.5.tar.gz]
+[2023-07-27 09:47:28] INFO root fetch - main [MainThread]: End processing [bioat]: success
+[2023-07-27 09:47:28] INFO root fetch - processPackages [slack-react]: Downloading https://files.pythonhosted.org/packages/9c/3e/3fdbdae4315fcff853c3e58a99a2e4146965135b9d97cea38840b40b98f3/slack-react-0.3.2.tar.gz
+[2023-07-27 09:47:28] INFO root fetch - processPackages [dimtown-spider]: Downloading https://files.pythonhosted.org/packages/7a/2c/ef830639637bb3e0ec658a34709a06c0cdde0bed752e34309ac0270dc77a/dimtown_spider-0.0.1.tar.gz
+[2023-07-27 09:47:28] INFO root fetch - processPackages [slack-react]: executing diffoscope
+[2023-07-27 09:47:28] INFO root fetch - processPackages [slack-react]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slack-react-0.3.1.tar.gz tmp/slack-react-0.3.2.tar.gz --markdown 20230727/s/slack-react/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-27 09:47:28] INFO root fetch - processPackages [commonX]: Downloading https://files.pythonhosted.org/packages/e4/e7/f422d98c35c48adff93d7815fd26fa1d24604201e7427c715b0b33440747/commonX-0.5.3.tar.gz
+[2023-07-27 09:47:28] INFO root fetch - processPackages [hust-login]: Downloading https://files.pythonhosted.org/packages/22/01/e9754ac55c04a6063168890b0bc7e2aa36d81844934f0d9eae29f23385e1/hust_login-1.0.2.tar.gz
+[2023-07-27 09:47:28] INFO root fetch - processPackages [dimtown-spider]: Downloading https://files.pythonhosted.org/packages/df/57/6787339594cb6ff86a09bdf4797f2a1d9465de3080b617095f0631108d6b/dimtown_spider-0.0.2.tar.gz
+[2023-07-27 09:47:28] INFO root fetch - processPackages [commonX]: executing diffoscope
+[2023-07-27 09:47:28] INFO root fetch - processPackages [commonX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/commonX-0.5.2.tar.gz tmp/commonX-0.5.3.tar.gz --markdown 20230727/c/commonX/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-07-27 09:47:28] INFO root fetch - processPackages [hust-login]: executing diffoscope
+[2023-07-27 09:47:28] INFO root fetch - processPackages [hust-login]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hust_login-1.0.1-py3.11.egg tmp/hust_login-1.0.2.tar.gz --markdown 20230727/h/hust-login/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-27 09:47:28] INFO root fetch - processPackages [dimtown-spider]: executing diffoscope
+[2023-07-27 09:47:28] INFO root fetch - processPackages [dimtown-spider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dimtown_spider-0.0.1.tar.gz tmp/dimtown_spider-0.0.2.tar.gz --markdown 20230727/d/dimtown-spider/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-27 09:47:29] ERROR root fetch - processPackages [slack-react]: Diffoscope failed: time="2023-07-27T09:47:28+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/slack-react-0.3.1.tar.gz: No such file or directory
+
+[2023-07-27 09:47:29] INFO root fetch - main [MainThread]: End processing [slack-react] error
+[2023-07-27 09:47:29] INFO root fetch - processPackages [hust-login]: Remove: archive file [/home/abi/fetcher/tmp/hust_login-1.0.1-py3.11.egg]
+[2023-07-27 09:47:29] INFO root fetch - processPackages [hust-login]: Remove: archive file [/home/abi/fetcher/tmp/hust_login-1.0.2.tar.gz]
+[2023-07-27 09:47:29] INFO root fetch - main [MainThread]: End processing [hust-login]: success
+[2023-07-27 09:47:29] INFO root fetch - processPackages [dimtown-spider]: Remove: archive file [/home/abi/fetcher/tmp/dimtown_spider-0.0.1.tar.gz]
+[2023-07-27 09:47:29] INFO root fetch - processPackages [dimtown-spider]: Remove: archive file [/home/abi/fetcher/tmp/dimtown_spider-0.0.2.tar.gz]
+[2023-07-27 09:47:29] INFO root fetch - main [MainThread]: End processing [dimtown-spider]: success
+[2023-07-27 09:47:30] INFO root fetch - processPackages [commonX]: Remove: archive file [/home/abi/fetcher/tmp/commonX-0.5.2.tar.gz]
+[2023-07-27 09:47:30] INFO root fetch - processPackages [commonX]: Remove: archive file [/home/abi/fetcher/tmp/commonX-0.5.3.tar.gz]
+[2023-07-27 09:47:30] INFO root fetch - main [MainThread]: End processing [commonX]: success
+[2023-07-27 09:47:31] INFO root fetch - processPackages [yandexcloud]: Remove: archive file [/home/abi/fetcher/tmp/yandexcloud-0.98.0.tar.gz]
+[2023-07-27 09:47:31] INFO root fetch - processPackages [yandexcloud]: Remove: archive file [/home/abi/fetcher/tmp/yandexcloud-0.99.0.tar.gz]
+[2023-07-27 09:47:31] INFO root fetch - main [MainThread]: End processing [yandexcloud]: success
+[2023-07-27 09:47:32] INFO root fetch - processPackages [kafkaproducerself]: Remove: archive file [/home/abi/fetcher/tmp/kafkaproducerself-0.0.4.tar.gz]
+[2023-07-27 09:47:32] INFO root fetch - processPackages [kafkaproducerself]: Remove: archive file [/home/abi/fetcher/tmp/kafkaproducerself-0.0.5.tar.gz]
+[2023-07-27 09:47:32] INFO root fetch - main [MainThread]: End processing [kafkaproducerself]: success
+[2023-07-27 09:47:32] INFO root fetch - main [MainThread]: Store serial: [19056858]
