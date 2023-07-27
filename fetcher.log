@@ -21807,3 +21807,111 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-27 12:07:26] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2023-07-27 12:07:26] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
 [2023-07-27 12:07:26] INFO root fetch - main [MainThread]: Store serial: [19058248]
+[2023-07-27 12:12:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19058248]
+[2023-07-27 12:12:34] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-27 12:12:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-opsgenie
+[2023-07-27 12:12:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: OpenGeode-GeosciencesIO
+[2023-07-27 12:12:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: localstack-core
+[2023-07-27 12:12:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: my-weather-forecast
+[2023-07-27 12:12:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openi-beta
+[2023-07-27 12:12:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xj-enroll
+[2023-07-27 12:12:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hydromt-wflow
+[2023-07-27 12:12:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jcloud
+[2023-07-27 12:12:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ansys-sphinx-theme
+[2023-07-27 12:12:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: axabc
+[2023-07-27 12:12:34] INFO root fetch - processPackages [hydromt-wflow]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-07-27 12:12:34] WARNING root fetch - processPackages [my-weather-forecast]: Skipping, unable to determine old version
+[2023-07-27 12:12:34] INFO root fetch - processPackages [my-weather-forecast]: Start processing: spark-calibration
+[2023-07-27 12:12:34] INFO root fetch - main [MainThread]: End processing [my-weather-forecast] error
+[2023-07-27 12:12:34] INFO root fetch - processPackages [jcloud]: New version: [0.2.9.dev4] Old Version: [0.2.9.dev3]
+[2023-07-27 12:12:34] INFO root fetch - processPackages [openi-beta]: New version: [2.0.6] Old Version: [2.0.5]
+[2023-07-27 12:12:34] INFO root fetch - processPackages [axabc]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-27 12:12:34] INFO root fetch - processPackages [ansys-sphinx-theme]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-27 12:12:34] INFO root fetch - processPackages [pulumi-opsgenie]: New version: [1.3.0a1690445476] Old Version: [1.3.0a1690263963]
+[2023-07-27 12:12:34] INFO root fetch - processPackages [xj-enroll]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-27 12:12:34] INFO root fetch - processPackages [localstack-core]: New version: [2.2.1.dev20230727100820] Old Version: [2.2.1.dev20230727072358]
+[2023-07-27 12:12:34] INFO root fetch - processPackages [OpenGeode-GeosciencesIO]: New version: [4.2.1rc1] Old Version: [4.2.0rc2]
+[2023-07-27 12:12:34] INFO root fetch - processPackages [jcloud]: Downloading https://files.pythonhosted.org/packages/1e/e9/2ee85f52ab6322d4a54c8cb7ecb15a40c220f775204569488ec63ad4e395/jcloud-0.2.9.dev3.tar.gz
+[2023-07-27 12:12:34] WARNING root fetch - processPackages [spark-calibration]: Skipping, unable to determine old version
+[2023-07-27 12:12:34] INFO root fetch - processPackages [spark-calibration]: Start processing: python-coiote
+[2023-07-27 12:12:34] INFO root fetch - main [MainThread]: End processing [spark-calibration] error
+[2023-07-27 12:12:34] INFO root fetch - processPackages [openi-beta]: Downloading https://files.pythonhosted.org/packages/ad/28/5b409936740b48efd67f1f0082b14b94f39a73d945d9c76401b56de84f9c/openi-beta-2.0.5.tar.gz
+[2023-07-27 12:12:34] INFO root fetch - processPackages [pulumi-opsgenie]: Downloading https://files.pythonhosted.org/packages/8a/64/04f02a22b3049bff9ffe1803430d7955db0471f9b0ec33341e75e956b66f/pulumi_opsgenie-1.3.0a1690263963.tar.gz
+[2023-07-27 12:12:34] INFO root fetch - processPackages [axabc]: Downloading https://files.pythonhosted.org/packages/41/c5/b797e58b17775ec27f68316c932448dfa73c089804cd7a559dea828dcd85/axabc-0.0.8.tar.gz
+[2023-07-27 12:12:34] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/32/c4/93c6838be5345ec53fa135e80663836d2546b04b078d8a8ba746395d9074/localstack-core-2.2.1.dev20230727072358.tar.gz
+[2023-07-27 12:12:34] INFO root fetch - processPackages [hydromt-wflow]: Downloading https://files.pythonhosted.org/packages/32/a1/5b5dd14b0cf01aed3e00a4c90f0147ffd9e62e8b6dccdb7e6272b01973bf/hydromt_wflow-0.2.1.tar.gz
+[2023-07-27 12:12:35] INFO root fetch - processPackages [python-coiote]: New version: [2.6.0] Old Version: [2.5.0]
+[2023-07-27 12:12:35] INFO root fetch - processPackages [xj-enroll]: Downloading https://files.pythonhosted.org/packages/5f/55/043c01a1a9d5f4d1bc26501f84e1b44b3f001a7d69f9bfbcf23c512659ae/xj_enroll-1.0.98.tar.gz
+[2023-07-27 12:12:35] INFO root fetch - processPackages [ansys-sphinx-theme]: Downloading https://files.pythonhosted.org/packages/ff/ed/eaba1d94eb6e4d850323103f8bcfc9d37f4b4ca7bc8061fe45c76ddf50a3/ansys-sphinx-theme-0.9.8.tar.gz
+[2023-07-27 12:12:35] INFO root fetch - processPackages [OpenGeode-GeosciencesIO]: Downloading https://files.pythonhosted.org/packages/e1/12/26d7ac7b5f22f65cf085f42e46591d7d84a25603963106901823511e9e75/OpenGeode_GeosciencesIO-4.2.0rc2-cp39-cp39-win_amd64.whl
+[2023-07-27 12:12:35] INFO root fetch - processPackages [python-coiote]: Downloading https://files.pythonhosted.org/packages/f8/99/c7307ad93f3ade1a6bd330a3ef7490ad6dd2d2e77034e943b0dd52b480f5/python-coiote-2.5.0.tar.gz
+[2023-07-27 12:12:35] INFO root fetch - processPackages [jcloud]: Downloading https://files.pythonhosted.org/packages/bb/b0/d7ca100ca332b39b692bce70264e0ab3f4134daafc57ab3b397666234d61/jcloud-0.2.9.dev4.tar.gz
+[2023-07-27 12:12:35] INFO root fetch - processPackages [axabc]: Downloading https://files.pythonhosted.org/packages/60/61/87ebd4434765200cd248acf948bf78aef84ae73165a7cb8854e4f5a4f66d/axabc-0.0.9.tar.gz
+[2023-07-27 12:12:35] INFO root fetch - processPackages [pulumi-opsgenie]: Downloading https://files.pythonhosted.org/packages/49/f4/4f502d926677e18a140a8097946c90a26a24fa7a9691a7d049a943d9481b/pulumi_opsgenie-1.3.0a1690445476.tar.gz
+[2023-07-27 12:12:35] INFO root fetch - processPackages [openi-beta]: Downloading https://files.pythonhosted.org/packages/d9/a6/741eb676b58a5456d7959c65a30208818b7ce75df75a328cea57776c8c0e/openi-beta-2.0.6.tar.gz
+[2023-07-27 12:12:35] INFO root fetch - processPackages [hydromt-wflow]: Downloading https://files.pythonhosted.org/packages/e4/af/a281e97a8a463b120eb3133158f6c895261ef9c62c68eaeb1e43297b25e9/hydromt_wflow-0.3.0.tar.gz
+[2023-07-27 12:12:35] INFO root fetch - processPackages [axabc]: executing diffoscope
+[2023-07-27 12:12:35] INFO root fetch - processPackages [axabc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/axabc-0.0.8.tar.gz tmp/axabc-0.0.9.tar.gz --markdown 20230727/a/axabc/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-27 12:12:35] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/13/b5/9d7ed94315db25ba34081db1579a4be40a35f07e11a3f89ef5570186046b/localstack-core-2.2.1.dev20230727100820.tar.gz
+[2023-07-27 12:12:35] INFO root fetch - processPackages [jcloud]: executing diffoscope
+[2023-07-27 12:12:35] INFO root fetch - processPackages [jcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jcloud-0.2.9.dev3.tar.gz tmp/jcloud-0.2.9.dev4.tar.gz --markdown 20230727/j/jcloud/0.2.9.dev3-0.2.9.dev4/diff.md --exclude *.pyd
+[2023-07-27 12:12:35] INFO root fetch - processPackages [OpenGeode-GeosciencesIO]: Downloading https://files.pythonhosted.org/packages/93/4e/54cf89f1bb820f890081bdba9bdcbacd70a58ee05fbc47f268c068e3d6ac/OpenGeode_GeosciencesIO-4.2.1rc1-cp39-cp39-win_amd64.whl
+[2023-07-27 12:12:35] INFO root fetch - processPackages [xj-enroll]: Downloading https://files.pythonhosted.org/packages/10/ba/d433d5e19456323afc65c6931bf6856d7357d50aca4073aa4b8c1dd1dd4b/xj_enroll-1.0.99.tar.gz
+[2023-07-27 12:12:35] INFO root fetch - processPackages [pulumi-opsgenie]: executing diffoscope
+[2023-07-27 12:12:35] INFO root fetch - processPackages [pulumi-opsgenie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_opsgenie-1.3.0a1690263963.tar.gz tmp/pulumi_opsgenie-1.3.0a1690445476.tar.gz --markdown 20230727/p/pulumi-opsgenie/1.3.0a1690263963-1.3.0a1690445476/diff.md --exclude *.pyd
+[2023-07-27 12:12:35] INFO root fetch - processPackages [ansys-sphinx-theme]: Downloading https://files.pythonhosted.org/packages/70/5b/157d8b6bf61c537f299e3cf927537b5c17116cd0a7b718eae284558b48e3/ansys-sphinx-theme-0.9.9.tar.gz
+[2023-07-27 12:12:35] INFO root fetch - processPackages [openi-beta]: executing diffoscope
+[2023-07-27 12:12:35] INFO root fetch - processPackages [openi-beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openi-beta-2.0.5.tar.gz tmp/openi-beta-2.0.6.tar.gz --markdown 20230727/o/openi-beta/2.0.5-2.0.6/diff.md --exclude *.pyd
+[2023-07-27 12:12:35] INFO root fetch - processPackages [hydromt-wflow]: executing diffoscope
+[2023-07-27 12:12:35] INFO root fetch - processPackages [hydromt-wflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hydromt_wflow-0.2.1.tar.gz tmp/hydromt_wflow-0.3.0.tar.gz --markdown 20230727/h/hydromt-wflow/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-07-27 12:12:35] INFO root fetch - processPackages [python-coiote]: Downloading https://files.pythonhosted.org/packages/80/01/bb6d6eeb9af9bcfd192539bb2569dc08c22dd3010fb07d7c7b07d829d4fc/python-coiote-2.6.0.tar.gz
+[2023-07-27 12:12:36] INFO root fetch - processPackages [OpenGeode-GeosciencesIO]: executing diffoscope
+[2023-07-27 12:12:36] INFO root fetch - processPackages [python-coiote]: executing diffoscope
+[2023-07-27 12:12:36] INFO root fetch - processPackages [OpenGeode-GeosciencesIO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenGeode_GeosciencesIO-4.2.0rc2-cp39-cp39-win_amd64.whl.zip tmp/OpenGeode_GeosciencesIO-4.2.1rc1-cp39-cp39-win_amd64.whl.zip --markdown 20230727/O/OpenGeode-GeosciencesIO/4.2.0rc2-4.2.1rc1/diff.md --exclude *.pyd
+[2023-07-27 12:12:36] INFO root fetch - processPackages [python-coiote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-coiote-2.5.0.tar.gz tmp/python-coiote-2.6.0.tar.gz --markdown 20230727/p/python-coiote/2.5.0-2.6.0/diff.md --exclude *.pyd
+[2023-07-27 12:12:36] INFO root fetch - processPackages [ansys-sphinx-theme]: executing diffoscope
+[2023-07-27 12:12:36] INFO root fetch - processPackages [ansys-sphinx-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys-sphinx-theme-0.9.8.tar.gz tmp/ansys-sphinx-theme-0.9.9.tar.gz --markdown 20230727/a/ansys-sphinx-theme/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-27 12:12:36] INFO root fetch - processPackages [xj-enroll]: executing diffoscope
+[2023-07-27 12:12:36] INFO root fetch - processPackages [xj-enroll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_enroll-1.0.98.tar.gz tmp/xj_enroll-1.0.99.tar.gz --markdown 20230727/x/xj-enroll/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-27 12:12:36] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-07-27 12:12:36] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.2.1.dev20230727072358.tar.gz tmp/localstack-core-2.2.1.dev20230727100820.tar.gz --markdown 20230727/l/localstack-core/2.2.1.dev20230727072358-2.2.1.dev20230727100820/diff.md --exclude *.pyd
+[2023-07-27 12:12:36] INFO root fetch - processPackages [axabc]: Remove: archive file [/home/abi/fetcher/tmp/axabc-0.0.8.tar.gz]
+[2023-07-27 12:12:36] INFO root fetch - processPackages [axabc]: Remove: archive file [/home/abi/fetcher/tmp/axabc-0.0.9.tar.gz]
+[2023-07-27 12:12:36] INFO root fetch - processPackages [axabc]: Start processing: hezar
+[2023-07-27 12:12:36] INFO root fetch - main [MainThread]: End processing [axabc]: success
+[2023-07-27 12:12:37] INFO root fetch - processPackages [hezar]: New version: [0.16.0] Old Version: [0.15.0]
+[2023-07-27 12:12:37] INFO root fetch - processPackages [jcloud]: Remove: archive file [/home/abi/fetcher/tmp/jcloud-0.2.9.dev3.tar.gz]
+[2023-07-27 12:12:37] INFO root fetch - processPackages [jcloud]: Remove: archive file [/home/abi/fetcher/tmp/jcloud-0.2.9.dev4.tar.gz]
+[2023-07-27 12:12:37] INFO root fetch - main [MainThread]: End processing [jcloud]: success
+[2023-07-27 12:12:37] INFO root fetch - processPackages [hezar]: Downloading https://files.pythonhosted.org/packages/47/29/c9771bdabff05bbc13057108677af8c0141348fff12a3fbd99a80215a999/hezar-0.15.0.tar.gz
+[2023-07-27 12:12:37] INFO root fetch - processPackages [openi-beta]: Remove: archive file [/home/abi/fetcher/tmp/openi-beta-2.0.5.tar.gz]
+[2023-07-27 12:12:37] INFO root fetch - processPackages [openi-beta]: Remove: archive file [/home/abi/fetcher/tmp/openi-beta-2.0.6.tar.gz]
+[2023-07-27 12:12:37] INFO root fetch - main [MainThread]: End processing [openi-beta]: success
+[2023-07-27 12:12:37] INFO root fetch - processPackages [hydromt-wflow]: Remove: archive file [/home/abi/fetcher/tmp/hydromt_wflow-0.2.1.tar.gz]
+[2023-07-27 12:12:37] INFO root fetch - processPackages [hydromt-wflow]: Remove: archive file [/home/abi/fetcher/tmp/hydromt_wflow-0.3.0.tar.gz]
+[2023-07-27 12:12:37] INFO root fetch - main [MainThread]: End processing [hydromt-wflow]: success
+[2023-07-27 12:12:37] INFO root fetch - processPackages [pulumi-opsgenie]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opsgenie-1.3.0a1690263963.tar.gz]
+[2023-07-27 12:12:37] INFO root fetch - processPackages [pulumi-opsgenie]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opsgenie-1.3.0a1690445476.tar.gz]
+[2023-07-27 12:12:37] INFO root fetch - main [MainThread]: End processing [pulumi-opsgenie]: success
+[2023-07-27 12:12:37] INFO root fetch - processPackages [ansys-sphinx-theme]: Remove: archive file [/home/abi/fetcher/tmp/ansys-sphinx-theme-0.9.8.tar.gz]
+[2023-07-27 12:12:37] INFO root fetch - processPackages [ansys-sphinx-theme]: Remove: archive file [/home/abi/fetcher/tmp/ansys-sphinx-theme-0.9.9.tar.gz]
+[2023-07-27 12:12:37] INFO root fetch - main [MainThread]: End processing [ansys-sphinx-theme]: success
+[2023-07-27 12:12:37] INFO root fetch - processPackages [xj-enroll]: Remove: archive file [/home/abi/fetcher/tmp/xj_enroll-1.0.98.tar.gz]
+[2023-07-27 12:12:37] INFO root fetch - processPackages [xj-enroll]: Remove: archive file [/home/abi/fetcher/tmp/xj_enroll-1.0.99.tar.gz]
+[2023-07-27 12:12:37] INFO root fetch - main [MainThread]: End processing [xj-enroll]: success
+[2023-07-27 12:12:37] INFO root fetch - processPackages [python-coiote]: Remove: archive file [/home/abi/fetcher/tmp/python-coiote-2.5.0.tar.gz]
+[2023-07-27 12:12:37] INFO root fetch - processPackages [python-coiote]: Remove: archive file [/home/abi/fetcher/tmp/python-coiote-2.6.0.tar.gz]
+[2023-07-27 12:12:37] INFO root fetch - main [MainThread]: End processing [python-coiote]: success
+[2023-07-27 12:12:37] INFO root fetch - processPackages [hezar]: Downloading https://files.pythonhosted.org/packages/de/10/f0605c66cf2d4003dbb86800c7af9f96a9b4bfcfe711e7ad67823dacec97/hezar-0.16.0.tar.gz
+[2023-07-27 12:12:38] INFO root fetch - processPackages [hezar]: executing diffoscope
+[2023-07-27 12:12:38] INFO root fetch - processPackages [hezar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hezar-0.15.0.tar.gz tmp/hezar-0.16.0.tar.gz --markdown 20230727/h/hezar/0.15.0-0.16.0/diff.md --exclude *.pyd
+[2023-07-27 12:12:38] INFO root fetch - processPackages [OpenGeode-GeosciencesIO]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_GeosciencesIO-4.2.0rc2-cp39-cp39-win_amd64.whl.zip]
+[2023-07-27 12:12:38] INFO root fetch - processPackages [OpenGeode-GeosciencesIO]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_GeosciencesIO-4.2.1rc1-cp39-cp39-win_amd64.whl.zip]
+[2023-07-27 12:12:38] INFO root fetch - main [MainThread]: End processing [OpenGeode-GeosciencesIO]: success
+[2023-07-27 12:12:38] INFO root fetch - processPackages [hezar]: Remove: archive file [/home/abi/fetcher/tmp/hezar-0.15.0.tar.gz]
+[2023-07-27 12:12:38] INFO root fetch - processPackages [hezar]: Remove: archive file [/home/abi/fetcher/tmp/hezar-0.16.0.tar.gz]
+[2023-07-27 12:12:38] INFO root fetch - main [MainThread]: End processing [hezar]: success
+[2023-07-27 12:12:40] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.2.1.dev20230727072358.tar.gz]
+[2023-07-27 12:12:40] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.2.1.dev20230727100820.tar.gz]
+[2023-07-27 12:12:40] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-07-27 12:12:40] INFO root fetch - main [MainThread]: Store serial: [19058298]
