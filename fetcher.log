@@ -20300,3 +20300,190 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-07-27 11:08:28] INFO root fetch - processPackages [pyfaust-torch]: Remove: archive file [/home/abi/fetcher/tmp/pyfaust_torch-3.39.0-cp310-cp310-macosx_10_9_x86_64.whl.zip]
 [2023-07-27 11:08:28] INFO root fetch - main [MainThread]: End processing [pyfaust-torch]: success
 [2023-07-27 11:08:28] INFO root fetch - main [MainThread]: Store serial: [19057693]
+[2023-07-27 11:13:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19057693]
+[2023-07-27 11:13:45] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-07-27 11:13:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: shareddata
+[2023-07-27 11:13:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llama2-wrapper
+[2023-07-27 11:13:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyre-check-nightly
+[2023-07-27 11:13:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: avnet-scotty
+[2023-07-27 11:13:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: plateauutils
+[2023-07-27 11:13:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bqx
+[2023-07-27 11:13:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: udata-hydra
+[2023-07-27 11:13:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: stdflow
+[2023-07-27 11:13:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: c2cwsgiutils
+[2023-07-27 11:13:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lsst-daf-butler
+[2023-07-27 11:13:45] INFO root fetch - processPackages [bqx]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-07-27 11:13:45] INFO root fetch - processPackages [stdflow]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-27 11:13:45] INFO root fetch - processPackages [c2cwsgiutils]: New version: [6.0.0.dev99] Old Version: [6.0.0.dev97]
+[2023-07-27 11:13:45] INFO root fetch - processPackages [udata-hydra]: New version: [2.0.0.dev956] Old Version: [2.0.0.dev919]
+[2023-07-27 11:13:45] INFO root fetch - processPackages [llama2-wrapper]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-27 11:13:45] INFO root fetch - processPackages [plateauutils]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-27 11:13:45] INFO root fetch - processPackages [lsst-daf-butler]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-07-27 11:13:45] INFO root fetch - processPackages [avnet-scotty]: New version: [2023.7] Old Version: [2023.6]
+[2023-07-27 11:13:45] INFO root fetch - processPackages [shareddata]: New version: [2.1.4] Old Version: [2.1.3]
+[2023-07-27 11:13:45] INFO root fetch - processPackages [c2cwsgiutils]: Downloading https://files.pythonhosted.org/packages/7e/19/e64dc0870291f601e6d1f041424eef5a28112c1c9b7be627a7f01c80ebab/c2cwsgiutils-6.0.0.dev97.tar.gz
+[2023-07-27 11:13:45] INFO root fetch - processPackages [pyre-check-nightly]: New version: [0.0.101690447013] Old Version: [0.0.101690369866]
+[2023-07-27 11:13:46] INFO root fetch - processPackages [stdflow]: Downloading https://files.pythonhosted.org/packages/37/2b/dc718c9a789aae941c5744468c42fa99c1ca83c6fc824add3debc6df543d/stdflow-0.0.8.tar.gz
+[2023-07-27 11:13:46] INFO root fetch - processPackages [bqx]: Downloading https://files.pythonhosted.org/packages/3f/16/7c3f66179d65200dde46eb98dc3e9d5b0ce60dc632223d125fb6c4e97172/bqx-0.4.1.tar.gz
+[2023-07-27 11:13:46] INFO root fetch - processPackages [llama2-wrapper]: Downloading https://files.pythonhosted.org/packages/a2/73/e3dfd6ece57921d7c516f3bee34774b1466e9d49b57aa21c3c064da43656/llama2_wrapper-0.1.2.tar.gz
+[2023-07-27 11:13:46] INFO root fetch - processPackages [plateauutils]: Downloading https://files.pythonhosted.org/packages/76/d0/b8406d3c4945207c5c243aead4c6db23ef8eb98d09e564940d3c0872d490/plateauutils-0.0.2.tar.gz
+[2023-07-27 11:13:46] INFO root fetch - processPackages [shareddata]: Downloading https://files.pythonhosted.org/packages/18/76/905572e091e69d6cfaa07c9b0f56ba8f6917f7687af00d6239ef8f78c61a/shareddata-2.1.3.tar.gz
+[2023-07-27 11:13:46] INFO root fetch - processPackages [lsst-daf-butler]: Downloading https://files.pythonhosted.org/packages/dc/b1/9f18559a0567653c67511c02f80d8778d9d0fd3e9873efffb923379924eb/lsst-daf-butler-26.0.0a20230400.tar.gz
+[2023-07-27 11:13:46] INFO root fetch - processPackages [avnet-scotty]: Downloading https://files.pythonhosted.org/packages/1c/62/916aefd387d4cb50a0b226a6b64aec002596ad1375f685b595ff9390b5f9/avnet-scotty-2023.6.tar.gz
+[2023-07-27 11:13:46] INFO root fetch - processPackages [pyre-check-nightly]: Downloading https://files.pythonhosted.org/packages/f2/f4/158c0506a74f9f7b9e0b4a7a8559c2e1af8b721b47b747aeef6b1847c0af/pyre-check-nightly-0.0.101690369866.tar.gz
+[2023-07-27 11:13:46] INFO root fetch - processPackages [udata-hydra]: Downloading https://files.pythonhosted.org/packages/da/ff/189bea85d99b6b0682ebc110ecc2dfbd2a2de5571ca19e3df0d4089bab00/udata_hydra-2.0.0.dev919.tar.gz
+[2023-07-27 11:13:46] INFO root fetch - processPackages [c2cwsgiutils]: Downloading https://files.pythonhosted.org/packages/bc/fc/caed9a3b8aa535ab83ce1fdf048ce861e9039ac24958fa3ddf9049b3f2b6/c2cwsgiutils-6.0.0.dev99.tar.gz
+[2023-07-27 11:13:46] INFO root fetch - processPackages [stdflow]: Downloading https://files.pythonhosted.org/packages/93/a7/7a92845fb1a7092159c2fbc2b23c0b733e7c93e5cd012f6538ca900ea3b6/stdflow-0.0.9-py3-none-any.whl
+[2023-07-27 11:13:46] WARNING root fetch - processPackages [pyre-check-nightly]: Skipping package: exceeds size limit 23777583>=10485760
+[2023-07-27 11:13:46] INFO root fetch - processPackages [pyre-check-nightly]: Start processing: trigger-count
+[2023-07-27 11:13:46] INFO root fetch - main [MainThread]: End processing [pyre-check-nightly] error
+[2023-07-27 11:13:46] INFO root fetch - processPackages [trigger-count]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-27 11:13:46] INFO root fetch - processPackages [bqx]: Downloading https://files.pythonhosted.org/packages/78/78/f43b194eec1c34ba323eafff886165cb5287027697370f29effee2afe592/bqx-0.4.2.tar.gz
+[2023-07-27 11:13:46] INFO root fetch - processPackages [c2cwsgiutils]: executing diffoscope
+[2023-07-27 11:13:46] INFO root fetch - processPackages [c2cwsgiutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cwsgiutils-6.0.0.dev97.tar.gz tmp/c2cwsgiutils-6.0.0.dev99.tar.gz --markdown 20230727/c/c2cwsgiutils/6.0.0.dev97-6.0.0.dev99/diff.md --exclude *.pyd
+[2023-07-27 11:13:46] INFO root fetch - processPackages [stdflow]: executing diffoscope
+[2023-07-27 11:13:46] INFO root fetch - processPackages [stdflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stdflow-0.0.8.tar.gz tmp/stdflow-0.0.9-py3-none-any.whl.zip --markdown 20230727/s/stdflow/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-27 11:13:46] INFO root fetch - processPackages [llama2-wrapper]: Downloading https://files.pythonhosted.org/packages/e1/34/955924387b1f0898be3a2fc2f7af00a3fbf4ff178da38416cdab9c0e15e1/llama2_wrapper-0.1.3.tar.gz
+[2023-07-27 11:13:46] INFO root fetch - processPackages [bqx]: executing diffoscope
+[2023-07-27 11:13:46] INFO root fetch - processPackages [bqx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bqx-0.4.1.tar.gz tmp/bqx-0.4.2.tar.gz --markdown 20230727/b/bqx/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-07-27 11:13:46] INFO root fetch - processPackages [shareddata]: Downloading https://files.pythonhosted.org/packages/49/a8/bcf8b49cbebc61695cbbd1a89fec09e0f012b605f076b56f54d6c23707af/shareddata-2.1.4.tar.gz
+[2023-07-27 11:13:46] INFO root fetch - processPackages [plateauutils]: Downloading https://files.pythonhosted.org/packages/1b/73/94b59385f1f2ee73b269c9ec385c081242736bd1c171e6a0a4889fb70b03/plateauutils-0.0.3.tar.gz
+[2023-07-27 11:13:46] INFO root fetch - processPackages [avnet-scotty]: Downloading https://files.pythonhosted.org/packages/6c/67/dcafae0e81cf0c1412d3a58bf7b101ad65eb53334406d3363680f1701e32/avnet-scotty-2023.7.tar.gz
+[2023-07-27 11:13:46] INFO root fetch - processPackages [lsst-daf-butler]: Downloading https://files.pythonhosted.org/packages/63/f1/05460b4cbb11577f16194d576ae8d564636b13a457f218b01be5e8977fcc/lsst-daf-butler-26.0.0a20230500.tar.gz
+[2023-07-27 11:13:46] INFO root fetch - processPackages [llama2-wrapper]: executing diffoscope
+[2023-07-27 11:13:46] INFO root fetch - processPackages [llama2-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama2_wrapper-0.1.2.tar.gz tmp/llama2_wrapper-0.1.3.tar.gz --markdown 20230727/l/llama2-wrapper/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-27 11:13:46] INFO root fetch - processPackages [udata-hydra]: Downloading https://files.pythonhosted.org/packages/e5/8b/9a25046aee4ab7924b7ab415cd3f8ad3b59a453a7971b688f17c6077f874/udata_hydra-2.0.0.dev956.tar.gz
+[2023-07-27 11:13:46] INFO root fetch - processPackages [trigger-count]: Downloading https://files.pythonhosted.org/packages/7a/82/dba081ccd7f9c4fd71f3466850cb766136e7c007c6d43101eb596aac1f32/trigger_count-0.1.8.tar.gz
+[2023-07-27 11:13:46] INFO root fetch - processPackages [shareddata]: executing diffoscope
+[2023-07-27 11:13:46] INFO root fetch - processPackages [shareddata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shareddata-2.1.3.tar.gz tmp/shareddata-2.1.4.tar.gz --markdown 20230727/s/shareddata/2.1.3-2.1.4/diff.md --exclude *.pyd
+[2023-07-27 11:13:46] INFO root fetch - processPackages [avnet-scotty]: executing diffoscope
+[2023-07-27 11:13:46] INFO root fetch - processPackages [plateauutils]: executing diffoscope
+[2023-07-27 11:13:46] INFO root fetch - processPackages [avnet-scotty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avnet-scotty-2023.6.tar.gz tmp/avnet-scotty-2023.7.tar.gz --markdown 20230727/a/avnet-scotty/2023.6-2023.7/diff.md --exclude *.pyd
+[2023-07-27 11:13:46] INFO root fetch - processPackages [plateauutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plateauutils-0.0.2.tar.gz tmp/plateauutils-0.0.3.tar.gz --markdown 20230727/p/plateauutils/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-27 11:13:47] INFO root fetch - processPackages [lsst-daf-butler]: executing diffoscope
+[2023-07-27 11:13:47] INFO root fetch - processPackages [lsst-daf-butler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-daf-butler-26.0.0a20230400.tar.gz tmp/lsst-daf-butler-26.0.0a20230500.tar.gz --markdown 20230727/l/lsst-daf-butler/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-07-27 11:13:47] INFO root fetch - processPackages [udata-hydra]: executing diffoscope
+[2023-07-27 11:13:47] INFO root fetch - processPackages [udata-hydra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udata_hydra-2.0.0.dev919.tar.gz tmp/udata_hydra-2.0.0.dev956.tar.gz --markdown 20230727/u/udata-hydra/2.0.0.dev919-2.0.0.dev956/diff.md --exclude *.pyd
+[2023-07-27 11:13:47] INFO root fetch - processPackages [trigger-count]: Downloading https://files.pythonhosted.org/packages/2c/85/41067601037776196eb489197d97b65d5d99267ba4008f59efd801303843/trigger_count-0.1.9.tar.gz
+[2023-07-27 11:13:47] INFO root fetch - processPackages [trigger-count]: executing diffoscope
+[2023-07-27 11:13:47] INFO root fetch - processPackages [trigger-count]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trigger_count-0.1.8.tar.gz tmp/trigger_count-0.1.9.tar.gz --markdown 20230727/t/trigger-count/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-27 11:13:47] INFO root fetch - processPackages [stdflow]: Remove: archive file [/home/abi/fetcher/tmp/stdflow-0.0.8.tar.gz]
+[2023-07-27 11:13:47] INFO root fetch - processPackages [stdflow]: Remove: archive file [/home/abi/fetcher/tmp/stdflow-0.0.9-py3-none-any.whl.zip]
+[2023-07-27 11:13:47] INFO root fetch - processPackages [stdflow]: Start processing: unified-planning
+[2023-07-27 11:13:47] INFO root fetch - main [MainThread]: End processing [stdflow]: success
+[2023-07-27 11:13:48] INFO root fetch - processPackages [unified-planning]: New version: [1.0.0.6.dev1] Old Version: [1.0.0.33.dev1]
+[2023-07-27 11:13:48] INFO root fetch - processPackages [unified-planning]: Downloading https://files.pythonhosted.org/packages/81/54/4a25334b747dbccb8476fa5bd0320d4bf3fe65df89bbc7f45cd2fe2c1c3c/unified_planning-1.0.0.33.dev1.tar.gz
+[2023-07-27 11:13:48] INFO root fetch - processPackages [bqx]: Remove: archive file [/home/abi/fetcher/tmp/bqx-0.4.1.tar.gz]
+[2023-07-27 11:13:48] INFO root fetch - processPackages [bqx]: Remove: archive file [/home/abi/fetcher/tmp/bqx-0.4.2.tar.gz]
+[2023-07-27 11:13:48] INFO root fetch - processPackages [bqx]: Start processing: Hefesto
+[2023-07-27 11:13:48] INFO root fetch - main [MainThread]: End processing [bqx]: success
+[2023-07-27 11:13:48] INFO root fetch - processPackages [llama2-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/llama2_wrapper-0.1.2.tar.gz]
+[2023-07-27 11:13:48] INFO root fetch - processPackages [llama2-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/llama2_wrapper-0.1.3.tar.gz]
+[2023-07-27 11:13:48] INFO root fetch - processPackages [llama2-wrapper]: Start processing: ricco
+[2023-07-27 11:13:48] INFO root fetch - main [MainThread]: End processing [llama2-wrapper]: success
+[2023-07-27 11:13:48] INFO root fetch - processPackages [Hefesto]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-07-27 11:13:48] INFO root fetch - processPackages [ricco]: New version: [1.2.0] Old Version: [1.1.2]
+[2023-07-27 11:13:48] INFO root fetch - processPackages [c2cwsgiutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cwsgiutils-6.0.0.dev97.tar.gz]
+[2023-07-27 11:13:48] INFO root fetch - processPackages [c2cwsgiutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cwsgiutils-6.0.0.dev99.tar.gz]
+[2023-07-27 11:13:48] INFO root fetch - processPackages [c2cwsgiutils]: Start processing: stdflow
+[2023-07-27 11:13:48] INFO root fetch - main [MainThread]: End processing [c2cwsgiutils]: success
+[2023-07-27 11:13:48] INFO root fetch - processPackages [avnet-scotty]: Remove: archive file [/home/abi/fetcher/tmp/avnet-scotty-2023.6.tar.gz]
+[2023-07-27 11:13:48] INFO root fetch - processPackages [avnet-scotty]: Remove: archive file [/home/abi/fetcher/tmp/avnet-scotty-2023.7.tar.gz]
+[2023-07-27 11:13:48] INFO root fetch - processPackages [avnet-scotty]: Start processing: pdr-sapphire-wrapper
+[2023-07-27 11:13:48] INFO root fetch - main [MainThread]: End processing [avnet-scotty]: success
+[2023-07-27 11:13:48] INFO root fetch - processPackages [pdr-sapphire-wrapper]: New version: [0.1.4] Old Version: [0.1.2]
+[2023-07-27 11:13:48] INFO root fetch - processPackages [plateauutils]: Remove: archive file [/home/abi/fetcher/tmp/plateauutils-0.0.2.tar.gz]
+[2023-07-27 11:13:48] INFO root fetch - processPackages [plateauutils]: Remove: archive file [/home/abi/fetcher/tmp/plateauutils-0.0.3.tar.gz]
+[2023-07-27 11:13:48] INFO root fetch - processPackages [plateauutils]: Start processing: aibridge-test
+[2023-07-27 11:13:48] INFO root fetch - main [MainThread]: End processing [plateauutils]: success
+[2023-07-27 11:13:48] WARNING root fetch - processPackages [aibridge-test]: Skipping, unable to determine old version
+[2023-07-27 11:13:48] INFO root fetch - processPackages [aibridge-test]: Start processing: corporate-reputation
+[2023-07-27 11:13:48] INFO root fetch - main [MainThread]: End processing [aibridge-test] error
+[2023-07-27 11:13:48] INFO root fetch - processPackages [stdflow]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-27 11:13:48] INFO root fetch - processPackages [corporate-reputation]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-27 11:13:48] INFO root fetch - processPackages [trigger-count]: Remove: archive file [/home/abi/fetcher/tmp/trigger_count-0.1.8.tar.gz]
+[2023-07-27 11:13:48] INFO root fetch - processPackages [trigger-count]: Remove: archive file [/home/abi/fetcher/tmp/trigger_count-0.1.9.tar.gz]
+[2023-07-27 11:13:48] INFO root fetch - processPackages [trigger-count]: Start processing: openmodule-test
+[2023-07-27 11:13:48] INFO root fetch - main [MainThread]: End processing [trigger-count]: success
+[2023-07-27 11:13:48] INFO root fetch - processPackages [udata-hydra]: Remove: archive file [/home/abi/fetcher/tmp/udata_hydra-2.0.0.dev919.tar.gz]
+[2023-07-27 11:13:48] INFO root fetch - processPackages [udata-hydra]: Remove: archive file [/home/abi/fetcher/tmp/udata_hydra-2.0.0.dev956.tar.gz]
+[2023-07-27 11:13:48] INFO root fetch - processPackages [udata-hydra]: Start processing: openmodule
+[2023-07-27 11:13:48] INFO root fetch - main [MainThread]: End processing [udata-hydra]: success
+[2023-07-27 11:13:48] INFO root fetch - processPackages [unified-planning]: Downloading https://files.pythonhosted.org/packages/4b/89/1a7921a8b2b4f3dc61cc55714316c320e1ee5c16f956a55ccb771ecf1d28/unified_planning-1.0.0.6.dev1.tar.gz
+[2023-07-27 11:13:48] INFO root fetch - processPackages [shareddata]: Remove: archive file [/home/abi/fetcher/tmp/shareddata-2.1.3.tar.gz]
+[2023-07-27 11:13:48] INFO root fetch - processPackages [shareddata]: Remove: archive file [/home/abi/fetcher/tmp/shareddata-2.1.4.tar.gz]
+[2023-07-27 11:13:48] INFO root fetch - processPackages [shareddata]: Start processing: openmodule-commands
+[2023-07-27 11:13:48] INFO root fetch - main [MainThread]: End processing [shareddata]: success
+[2023-07-27 11:13:48] INFO root fetch - processPackages [stdflow]: Downloading https://files.pythonhosted.org/packages/37/2b/dc718c9a789aae941c5744468c42fa99c1ca83c6fc824add3debc6df543d/stdflow-0.0.8.tar.gz
+[2023-07-27 11:13:48] INFO root fetch - processPackages [openmodule-test]: New version: [9.1.0] Old Version: [9.0.0rc9]
+[2023-07-27 11:13:48] INFO root fetch - processPackages [pdr-sapphire-wrapper]: Downloading https://files.pythonhosted.org/packages/10/1a/3844f0ccf7ee0742f863afb9e5530152fcaf0f73c65be15ed3117043ae6b/pdr-sapphire-wrapper-0.1.2.tar.gz
+[2023-07-27 11:13:48] INFO root fetch - processPackages [openmodule]: New version: [9.1.0] Old Version: [9.0.0rc9]
+[2023-07-27 11:13:48] INFO root fetch - processPackages [corporate-reputation]: Downloading https://files.pythonhosted.org/packages/a1/b9/caf463a14802d27e342eb4d3d3e9722d6da16bbe294d89b7420b7592c149/corporate_reputation-0.8.0.tar.gz
+[2023-07-27 11:13:48] INFO root fetch - processPackages [Hefesto]: Downloading https://files.pythonhosted.org/packages/53/9f/7476cd4564bd67c74547fe53f3aa5772000fc506b1c36ba56b0db037b8a2/Hefesto-0.4.5.tar.gz
+[2023-07-27 11:13:48] WARNING root fetch - processPackages [pdr-sapphire-wrapper]: Skipping package: exceeds size limit 17978400>=10485760
+[2023-07-27 11:13:48] INFO root fetch - processPackages [pdr-sapphire-wrapper]: Start processing: xj-thread
+[2023-07-27 11:13:48] INFO root fetch - main [MainThread]: End processing [pdr-sapphire-wrapper] error
+[2023-07-27 11:13:49] INFO root fetch - processPackages [openmodule-commands]: New version: [12.1.0] Old Version: [12.0.0rc1]
+[2023-07-27 11:13:49] INFO root fetch - processPackages [ricco]: Downloading https://files.pythonhosted.org/packages/0b/d4/03391044957e6264c37b1acec79f6f9cf85285fc155db8bc2896e71962b1/ricco-1.1.2.tar.gz
+[2023-07-27 11:13:49] INFO root fetch - processPackages [xj-thread]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-07-27 11:13:49] INFO root fetch - processPackages [unified-planning]: executing diffoscope
+[2023-07-27 11:13:49] INFO root fetch - processPackages [unified-planning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unified_planning-1.0.0.33.dev1.tar.gz tmp/unified_planning-1.0.0.6.dev1.tar.gz --markdown 20230727/u/unified-planning/1.0.0.33.dev1-1.0.0.6.dev1/diff.md --exclude *.pyd
+[2023-07-27 11:13:49] INFO root fetch - processPackages [openmodule-test]: Downloading https://files.pythonhosted.org/packages/98/2f/98fb439a0bb34c0be8268557d0c25ccf1102d6a23607c74e2376f8471efd/openmodule_test-9.0.0rc9.tar.gz
+[2023-07-27 11:13:49] INFO root fetch - processPackages [openmodule]: Downloading https://files.pythonhosted.org/packages/e3/bb/f041c5d77c5d10fd7137b23ff92757f6931cf24143d6794c63caaa775755/openmodule-9.0.0rc9.tar.gz
+[2023-07-27 11:13:49] INFO root fetch - processPackages [xj-thread]: Downloading https://files.pythonhosted.org/packages/d0/40/892813003a2b082a6e0c2667824534711f1cf8fdfc940df20ba978459e48/xj_thread-1.2.98.tar.gz
+[2023-07-27 11:13:49] INFO root fetch - processPackages [stdflow]: Downloading https://files.pythonhosted.org/packages/93/a7/7a92845fb1a7092159c2fbc2b23c0b733e7c93e5cd012f6538ca900ea3b6/stdflow-0.0.9-py3-none-any.whl
+[2023-07-27 11:13:49] INFO root fetch - processPackages [openmodule-commands]: Downloading https://files.pythonhosted.org/packages/05/69/236dfffb5c886bac6d431edd0339f10ef76f0a34b17d8e1d8cd635cf188a/openmodule_commands-12.0.0rc1.tar.gz
+[2023-07-27 11:13:49] INFO root fetch - processPackages [corporate-reputation]: Downloading https://files.pythonhosted.org/packages/ed/6c/a3d03b3414917feb6d88e475b974255d5625409b12849677ac549720cd68/corporate_reputation-0.9.0.tar.gz
+[2023-07-27 11:13:49] INFO root fetch - processPackages [Hefesto]: Downloading https://files.pythonhosted.org/packages/00/7b/2e2daf158547dc764e81c717628e7bec50cf9bc2069e8648449120ff9dbd/Hefesto-0.4.6.tar.gz
+[2023-07-27 11:13:49] INFO root fetch - processPackages [stdflow]: executing diffoscope
+[2023-07-27 11:13:49] INFO root fetch - processPackages [stdflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stdflow-0.0.8.tar.gz tmp/stdflow-0.0.9-py3-none-any.whl.zip --markdown 20230727/s/stdflow/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-27 11:13:49] INFO root fetch - processPackages [ricco]: Downloading https://files.pythonhosted.org/packages/e2/b5/a07ff2e68d4d24e461725737a34ee4965d441f257da8023d7b710ea2a05f/ricco-1.2.0.tar.gz
+[2023-07-27 11:13:49] INFO root fetch - processPackages [Hefesto]: executing diffoscope
+[2023-07-27 11:13:49] INFO root fetch - processPackages [Hefesto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Hefesto-0.4.5.tar.gz tmp/Hefesto-0.4.6.tar.gz --markdown 20230727/H/Hefesto/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-07-27 11:13:49] INFO root fetch - processPackages [xj-thread]: Downloading https://files.pythonhosted.org/packages/fc/75/4ed5778921ea61c4cdd8fe2c5f8b0a37873dc9cc5b9f507a3240f0380e69/xj_thread-1.2.99.tar.gz
+[2023-07-27 11:13:49] INFO root fetch - processPackages [corporate-reputation]: executing diffoscope
+[2023-07-27 11:13:49] INFO root fetch - processPackages [corporate-reputation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/corporate_reputation-0.8.0.tar.gz tmp/corporate_reputation-0.9.0.tar.gz --markdown 20230727/c/corporate-reputation/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-27 11:13:49] INFO root fetch - processPackages [openmodule-test]: Downloading https://files.pythonhosted.org/packages/39/cc/7362aa9f98216bb93757efcda7a44a06d4f86bc1d828b0f6775240dae0d3/openmodule_test-9.1.0.tar.gz
+[2023-07-27 11:13:49] INFO root fetch - processPackages [openmodule]: Downloading https://files.pythonhosted.org/packages/a6/3c/48ccf044ba1edc8806c136901666ecc29542b5bf8b40ee6194dbc2abd0fe/openmodule-9.1.0.tar.gz
+[2023-07-27 11:13:49] INFO root fetch - processPackages [xj-thread]: executing diffoscope
+[2023-07-27 11:13:49] INFO root fetch - processPackages [xj-thread]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_thread-1.2.98.tar.gz tmp/xj_thread-1.2.99.tar.gz --markdown 20230727/x/xj-thread/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-07-27 11:13:49] INFO root fetch - processPackages [ricco]: executing diffoscope
+[2023-07-27 11:13:49] INFO root fetch - processPackages [ricco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ricco-1.1.2.tar.gz tmp/ricco-1.2.0.tar.gz --markdown 20230727/r/ricco/1.1.2-1.2.0/diff.md --exclude *.pyd
+[2023-07-27 11:13:49] INFO root fetch - processPackages [openmodule-test]: executing diffoscope
+[2023-07-27 11:13:49] INFO root fetch - processPackages [openmodule-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmodule_test-9.0.0rc9.tar.gz tmp/openmodule_test-9.1.0.tar.gz --markdown 20230727/o/openmodule-test/9.0.0rc9-9.1.0/diff.md --exclude *.pyd
+[2023-07-27 11:13:49] INFO root fetch - processPackages [openmodule-commands]: Downloading https://files.pythonhosted.org/packages/c9/73/171d16013f8c48496ea86cc8d110f9aa3827afab1285206c7cfc9261c57d/openmodule_commands-12.1.0.tar.gz
+[2023-07-27 11:13:49] INFO root fetch - processPackages [openmodule]: executing diffoscope
+[2023-07-27 11:13:49] INFO root fetch - processPackages [openmodule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmodule-9.0.0rc9.tar.gz tmp/openmodule-9.1.0.tar.gz --markdown 20230727/o/openmodule/9.0.0rc9-9.1.0/diff.md --exclude *.pyd
+[2023-07-27 11:13:50] INFO root fetch - processPackages [openmodule-commands]: executing diffoscope
+[2023-07-27 11:13:50] INFO root fetch - processPackages [openmodule-commands]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmodule_commands-12.0.0rc1.tar.gz tmp/openmodule_commands-12.1.0.tar.gz --markdown 20230727/o/openmodule-commands/12.0.0rc1-12.1.0/diff.md --exclude *.pyd
+[2023-07-27 11:13:50] INFO root fetch - processPackages [stdflow]: Remove: archive file [/home/abi/fetcher/tmp/stdflow-0.0.8.tar.gz]
+[2023-07-27 11:13:50] INFO root fetch - processPackages [stdflow]: Remove: archive file [/home/abi/fetcher/tmp/stdflow-0.0.9-py3-none-any.whl.zip]
+[2023-07-27 11:13:50] INFO root fetch - main [MainThread]: End processing [stdflow]: success
+[2023-07-27 11:13:50] INFO root fetch - processPackages [Hefesto]: Remove: archive file [/home/abi/fetcher/tmp/Hefesto-0.4.5.tar.gz]
+[2023-07-27 11:13:50] INFO root fetch - processPackages [Hefesto]: Remove: archive file [/home/abi/fetcher/tmp/Hefesto-0.4.6.tar.gz]
+[2023-07-27 11:13:50] INFO root fetch - main [MainThread]: End processing [Hefesto]: success
+[2023-07-27 11:13:51] INFO root fetch - processPackages [lsst-daf-butler]: Remove: archive file [/home/abi/fetcher/tmp/lsst-daf-butler-26.0.0a20230400.tar.gz]
+[2023-07-27 11:13:51] INFO root fetch - processPackages [lsst-daf-butler]: Remove: archive file [/home/abi/fetcher/tmp/lsst-daf-butler-26.0.0a20230500.tar.gz]
+[2023-07-27 11:13:51] INFO root fetch - main [MainThread]: End processing [lsst-daf-butler]: success
+[2023-07-27 11:13:51] INFO root fetch - processPackages [corporate-reputation]: Remove: archive file [/home/abi/fetcher/tmp/corporate_reputation-0.8.0.tar.gz]
+[2023-07-27 11:13:51] INFO root fetch - processPackages [corporate-reputation]: Remove: archive file [/home/abi/fetcher/tmp/corporate_reputation-0.9.0.tar.gz]
+[2023-07-27 11:13:51] INFO root fetch - main [MainThread]: End processing [corporate-reputation]: success
+[2023-07-27 11:13:51] INFO root fetch - processPackages [openmodule-test]: Remove: archive file [/home/abi/fetcher/tmp/openmodule_test-9.0.0rc9.tar.gz]
+[2023-07-27 11:13:51] INFO root fetch - processPackages [openmodule-test]: Remove: archive file [/home/abi/fetcher/tmp/openmodule_test-9.1.0.tar.gz]
+[2023-07-27 11:13:51] INFO root fetch - main [MainThread]: End processing [openmodule-test]: success
+[2023-07-27 11:13:51] INFO root fetch - processPackages [xj-thread]: Remove: archive file [/home/abi/fetcher/tmp/xj_thread-1.2.98.tar.gz]
+[2023-07-27 11:13:51] INFO root fetch - processPackages [xj-thread]: Remove: archive file [/home/abi/fetcher/tmp/xj_thread-1.2.99.tar.gz]
+[2023-07-27 11:13:51] INFO root fetch - main [MainThread]: End processing [xj-thread]: success
+[2023-07-27 11:13:51] INFO root fetch - processPackages [openmodule-commands]: Remove: archive file [/home/abi/fetcher/tmp/openmodule_commands-12.0.0rc1.tar.gz]
+[2023-07-27 11:13:51] INFO root fetch - processPackages [openmodule-commands]: Remove: archive file [/home/abi/fetcher/tmp/openmodule_commands-12.1.0.tar.gz]
+[2023-07-27 11:13:51] INFO root fetch - main [MainThread]: End processing [openmodule-commands]: success
+[2023-07-27 11:13:51] INFO root fetch - processPackages [ricco]: Remove: archive file [/home/abi/fetcher/tmp/ricco-1.1.2.tar.gz]
+[2023-07-27 11:13:51] INFO root fetch - processPackages [ricco]: Remove: archive file [/home/abi/fetcher/tmp/ricco-1.2.0.tar.gz]
+[2023-07-27 11:13:51] INFO root fetch - main [MainThread]: End processing [ricco]: success
+[2023-07-27 11:13:51] INFO root fetch - processPackages [openmodule]: Remove: archive file [/home/abi/fetcher/tmp/openmodule-9.0.0rc9.tar.gz]
+[2023-07-27 11:13:51] INFO root fetch - processPackages [openmodule]: Remove: archive file [/home/abi/fetcher/tmp/openmodule-9.1.0.tar.gz]
+[2023-07-27 11:13:51] INFO root fetch - main [MainThread]: End processing [openmodule]: success
+[2023-07-27 11:13:52] INFO root fetch - processPackages [unified-planning]: Remove: archive file [/home/abi/fetcher/tmp/unified_planning-1.0.0.33.dev1.tar.gz]
+[2023-07-27 11:13:52] INFO root fetch - processPackages [unified-planning]: Remove: archive file [/home/abi/fetcher/tmp/unified_planning-1.0.0.6.dev1.tar.gz]
+[2023-07-27 11:13:52] INFO root fetch - main [MainThread]: End processing [unified-planning]: success
+[2023-07-27 11:13:52] INFO root fetch - main [MainThread]: Store serial: [19057759]
