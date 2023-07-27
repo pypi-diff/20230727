@@ -15755,3 +15755,75 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-27 07:58:23] INFO root fetch - processPackages [pami]: Remove: archive file [/home/abi/fetcher/tmp/pami-2023.7.7.tar.gz]
 [2023-07-27 07:58:23] INFO root fetch - main [MainThread]: End processing [pami]: success
 [2023-07-27 07:58:23] INFO root fetch - main [MainThread]: Store serial: [19055811]
+[2023-07-27 08:03:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19055811]
+[2023-07-27 08:03:32] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-27 08:03:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spiderx
+[2023-07-27 08:03:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kube-ops
+[2023-07-27 08:03:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wow-ai-ml
+[2023-07-27 08:03:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: deforum
+[2023-07-27 08:03:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: layernext-enterprise
+[2023-07-27 08:03:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: raga-cli
+[2023-07-27 08:03:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: contentalchemy
+[2023-07-27 08:03:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: honeybee-energy
+[2023-07-27 08:03:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: easyofd
+[2023-07-27 08:03:32] INFO root fetch - processPackages [contentalchemy]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-27 08:03:32] WARNING root fetch - processPackages [layernext-enterprise]: Skipping, unable to determine old version
+[2023-07-27 08:03:32] INFO root fetch - main [MainThread]: End processing [layernext-enterprise] error
+[2023-07-27 08:03:33] INFO root fetch - processPackages [raga-cli]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-27 08:03:33] INFO root fetch - processPackages [deforum]: New version: [0.1.1] Old Version: [0.1]
+[2023-07-27 08:03:33] INFO root fetch - processPackages [spiderx]: New version: [1.8.9] Old Version: [1.8.2]
+[2023-07-27 08:03:33] INFO root fetch - processPackages [kube-ops]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-27 08:03:33] INFO root fetch - processPackages [wow-ai-ml]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-07-27 08:03:33] WARNING root fetch - processPackages [easyofd]: Skipping, unable to determine old version
+[2023-07-27 08:03:33] INFO root fetch - main [MainThread]: End processing [easyofd] error
+[2023-07-27 08:03:33] INFO root fetch - processPackages [honeybee-energy]: New version: [1.99.9] Old Version: [1.99.8]
+[2023-07-27 08:03:33] INFO root fetch - processPackages [spiderx]: Downloading https://files.pythonhosted.org/packages/0a/38/bdc5166668af43c8d8fb12955ee54797392b7e8d7c1bc7aa8180d6cf526b/spiderx-1.8.2.tar.gz
+[2023-07-27 08:03:33] INFO root fetch - processPackages [raga-cli]: Downloading https://files.pythonhosted.org/packages/c1/53/cc5efcf41c4c05eaf29e5d7b8e275ee146724fb17f1e1bfe092f13ca72ff/raga-cli-0.1.8.tar.gz
+[2023-07-27 08:03:33] INFO root fetch - processPackages [contentalchemy]: Downloading https://files.pythonhosted.org/packages/58/c6/81bc5af8b7160bf00e5f87f9b2b94a9bd3374359203c81a44de1c24d3cca/contentalchemy-0.1.1.tar.gz
+[2023-07-27 08:03:33] INFO root fetch - processPackages [kube-ops]: Downloading https://files.pythonhosted.org/packages/ad/66/9aacd3fb193ad317daf4c24f84a1b018234818a2415ef180608e58429547/kube_ops-1.0.3-py3-none-any.whl
+[2023-07-27 08:03:33] INFO root fetch - processPackages [honeybee-energy]: Downloading https://files.pythonhosted.org/packages/b1/ab/c8fb70e349d71cce95bac52782f7ea0659a6987ed84dd41c7fe2ef40806c/honeybee-energy-1.99.8.tar.gz
+[2023-07-27 08:03:33] INFO root fetch - processPackages [deforum]: Downloading https://files.pythonhosted.org/packages/e0/6c/731fce93c4aadc68931f4dbaa7f88ab62933fca143488464153a43950389/deforum-0.1.tar.gz
+[2023-07-27 08:03:33] INFO root fetch - processPackages [wow-ai-ml]: Downloading https://files.pythonhosted.org/packages/9d/48/791e227e96956f2ec7b8906d51fff0cd17f7e5c5d49273c8c78f464fb795/wow_ai_ml-0.2.9.tar.gz
+[2023-07-27 08:03:33] INFO root fetch - processPackages [raga-cli]: Downloading https://files.pythonhosted.org/packages/3e/dd/43266982ab7fcc72f99fde19db03705a244869f669ae7ae096cbfc9ed3e7/raga-cli-0.1.9.tar.gz
+[2023-07-27 08:03:33] INFO root fetch - processPackages [spiderx]: Downloading https://files.pythonhosted.org/packages/89/1b/9167dbeeaa50aa50ace655fad0bdde6e911624db12636d31909324747f8a/spiderx-1.8.9.tar.gz
+[2023-07-27 08:03:33] INFO root fetch - processPackages [kube-ops]: Downloading https://files.pythonhosted.org/packages/ed/bf/0686bd891b07ac28439e56756573e7eee663a26ce12b1c662d0dbb36d03f/kube_ops-1.0.4-py3-none-any.whl
+[2023-07-27 08:03:33] INFO root fetch - processPackages [honeybee-energy]: Downloading https://files.pythonhosted.org/packages/8d/5e/1bc90eeaf45799cc7d5cda125017c1e4e2cf0ef068cd3db60d971b9596ba/honeybee-energy-1.99.9.tar.gz
+[2023-07-27 08:03:33] INFO root fetch - processPackages [contentalchemy]: Downloading https://files.pythonhosted.org/packages/f9/25/2fae27b584d1bd7f8119c68b691b56ae5d62c244ad96d86d8629b632a9a7/contentalchemy-0.1.2.tar.gz
+[2023-07-27 08:03:33] INFO root fetch - processPackages [deforum]: Downloading https://files.pythonhosted.org/packages/1e/2d/374431bb82914a8af3a3fd04055a281894fdf3ca4143bd526c26ddc4f5a8/deforum-0.1.1-py3-none-any.whl
+[2023-07-27 08:03:33] INFO root fetch - processPackages [wow-ai-ml]: Downloading https://files.pythonhosted.org/packages/8f/1e/efa14cf3ae8c130690016f75c30aa44af44c3ccc9e8ebd6aab803e6aa24d/wow_ai_ml-0.3.0.tar.gz
+[2023-07-27 08:03:33] INFO root fetch - processPackages [raga-cli]: executing diffoscope
+[2023-07-27 08:03:33] INFO root fetch - processPackages [raga-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raga-cli-0.1.8.tar.gz tmp/raga-cli-0.1.9.tar.gz --markdown 20230727/r/raga-cli/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-27 08:03:33] INFO root fetch - processPackages [kube-ops]: executing diffoscope
+[2023-07-27 08:03:33] INFO root fetch - processPackages [kube-ops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kube_ops-1.0.3-py3-none-any.whl.zip tmp/kube_ops-1.0.4-py3-none-any.whl.zip --markdown 20230727/k/kube-ops/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-27 08:03:33] INFO root fetch - processPackages [spiderx]: executing diffoscope
+[2023-07-27 08:03:33] INFO root fetch - processPackages [spiderx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spiderx-1.8.2.tar.gz tmp/spiderx-1.8.9.tar.gz --markdown 20230727/s/spiderx/1.8.2-1.8.9/diff.md --exclude *.pyd
+[2023-07-27 08:03:33] INFO root fetch - processPackages [contentalchemy]: executing diffoscope
+[2023-07-27 08:03:33] INFO root fetch - processPackages [contentalchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contentalchemy-0.1.1.tar.gz tmp/contentalchemy-0.1.2.tar.gz --markdown 20230727/c/contentalchemy/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-27 08:03:33] INFO root fetch - processPackages [deforum]: executing diffoscope
+[2023-07-27 08:03:33] INFO root fetch - processPackages [deforum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deforum-0.1.tar.gz tmp/deforum-0.1.1-py3-none-any.whl.zip --markdown 20230727/d/deforum/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-07-27 08:03:33] INFO root fetch - processPackages [honeybee-energy]: executing diffoscope
+[2023-07-27 08:03:33] INFO root fetch - processPackages [honeybee-energy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-energy-1.99.8.tar.gz tmp/honeybee-energy-1.99.9.tar.gz --markdown 20230727/h/honeybee-energy/1.99.8-1.99.9/diff.md --exclude *.pyd
+[2023-07-27 08:03:33] INFO root fetch - processPackages [wow-ai-ml]: executing diffoscope
+[2023-07-27 08:03:33] INFO root fetch - processPackages [wow-ai-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wow_ai_ml-0.2.9.tar.gz tmp/wow_ai_ml-0.3.0.tar.gz --markdown 20230727/w/wow-ai-ml/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2023-07-27 08:03:35] INFO root fetch - processPackages [contentalchemy]: Remove: archive file [/home/abi/fetcher/tmp/contentalchemy-0.1.1.tar.gz]
+[2023-07-27 08:03:35] INFO root fetch - processPackages [contentalchemy]: Remove: archive file [/home/abi/fetcher/tmp/contentalchemy-0.1.2.tar.gz]
+[2023-07-27 08:03:35] INFO root fetch - main [MainThread]: End processing [contentalchemy]: success
+[2023-07-27 08:03:35] INFO root fetch - processPackages [kube-ops]: Remove: archive file [/home/abi/fetcher/tmp/kube_ops-1.0.3-py3-none-any.whl.zip]
+[2023-07-27 08:03:35] INFO root fetch - processPackages [kube-ops]: Remove: archive file [/home/abi/fetcher/tmp/kube_ops-1.0.4-py3-none-any.whl.zip]
+[2023-07-27 08:03:35] INFO root fetch - main [MainThread]: End processing [kube-ops]: success
+[2023-07-27 08:03:35] INFO root fetch - processPackages [deforum]: Remove: archive file [/home/abi/fetcher/tmp/deforum-0.1.tar.gz]
+[2023-07-27 08:03:35] INFO root fetch - processPackages [deforum]: Remove: archive file [/home/abi/fetcher/tmp/deforum-0.1.1-py3-none-any.whl.zip]
+[2023-07-27 08:03:35] INFO root fetch - main [MainThread]: End processing [deforum]: success
+[2023-07-27 08:03:35] INFO root fetch - processPackages [raga-cli]: Remove: archive file [/home/abi/fetcher/tmp/raga-cli-0.1.8.tar.gz]
+[2023-07-27 08:03:35] INFO root fetch - processPackages [spiderx]: Remove: archive file [/home/abi/fetcher/tmp/spiderx-1.8.2.tar.gz]
+[2023-07-27 08:03:35] INFO root fetch - processPackages [raga-cli]: Remove: archive file [/home/abi/fetcher/tmp/raga-cli-0.1.9.tar.gz]
+[2023-07-27 08:03:35] INFO root fetch - processPackages [spiderx]: Remove: archive file [/home/abi/fetcher/tmp/spiderx-1.8.9.tar.gz]
+[2023-07-27 08:03:35] INFO root fetch - main [MainThread]: End processing [raga-cli]: success
+[2023-07-27 08:03:35] INFO root fetch - main [MainThread]: End processing [spiderx]: success
+[2023-07-27 08:03:35] INFO root fetch - processPackages [wow-ai-ml]: Remove: archive file [/home/abi/fetcher/tmp/wow_ai_ml-0.2.9.tar.gz]
+[2023-07-27 08:03:35] INFO root fetch - processPackages [wow-ai-ml]: Remove: archive file [/home/abi/fetcher/tmp/wow_ai_ml-0.3.0.tar.gz]
+[2023-07-27 08:03:35] INFO root fetch - main [MainThread]: End processing [wow-ai-ml]: success
+[2023-07-27 08:03:35] INFO root fetch - processPackages [honeybee-energy]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-energy-1.99.8.tar.gz]
+[2023-07-27 08:03:35] INFO root fetch - processPackages [honeybee-energy]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-energy-1.99.9.tar.gz]
+[2023-07-27 08:03:35] INFO root fetch - main [MainThread]: End processing [honeybee-energy]: success
+[2023-07-27 08:03:35] INFO root fetch - main [MainThread]: Store serial: [19055866]
