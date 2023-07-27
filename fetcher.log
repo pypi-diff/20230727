@@ -12288,3 +12288,82 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-27 06:38:35] INFO root fetch - processPackages [jupysql-plugin]: Remove: archive file [/home/abi/fetcher/tmp/jupysql_plugin-0.1.9.tar.gz]
 [2023-07-27 06:38:35] INFO root fetch - main [MainThread]: End processing [jupysql-plugin]: success
 [2023-07-27 06:38:35] INFO root fetch - main [MainThread]: Store serial: [19054613]
+[2023-07-27 06:43:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19054613]
+[2023-07-27 06:43:43] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-27 06:43:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: danbi
+[2023-07-27 06:43:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sphractal
+[2023-07-27 06:43:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-pos-product-template
+[2023-07-27 06:43:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dragonfly-radiance
+[2023-07-27 06:43:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pycampus
+[2023-07-27 06:43:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dragonfly-energy
+[2023-07-27 06:43:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: echoss-s3handler
+[2023-07-27 06:43:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dragonfly-uwg
+[2023-07-27 06:43:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: danbi
+[2023-07-27 06:43:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hojichar
+[2023-07-27 06:43:43] INFO root fetch - processPackages [odoo14-addon-pos-product-template]: New version: [14.0.1.0.4.dev1] Old Version: [14.0.1.0.3.dev3]
+[2023-07-27 06:43:43] INFO root fetch - processPackages [danbi]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-07-27 06:43:43] WARNING root fetch - processPackages [echoss-s3handler]: Skipping, unable to determine old version
+[2023-07-27 06:43:43] INFO root fetch - main [MainThread]: End processing [echoss-s3handler] error
+[2023-07-27 06:43:43] INFO root fetch - processPackages [hojichar]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-07-27 06:43:43] INFO root fetch - processPackages [sphractal]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-27 06:43:43] WARNING root fetch - processPackages [pycampus]: Skipping, unable to determine old version
+[2023-07-27 06:43:43] INFO root fetch - main [MainThread]: End processing [pycampus] error
+[2023-07-27 06:43:43] INFO root fetch - processPackages [danbi]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-07-27 06:43:43] INFO root fetch - processPackages [dragonfly-radiance]: New version: [0.2.9] Old Version: [0.2.80]
+[2023-07-27 06:43:43] INFO root fetch - processPackages [dragonfly-uwg]: New version: [0.5.99] Old Version: [0.5.98]
+[2023-07-27 06:43:43] INFO root fetch - processPackages [dragonfly-energy]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-07-27 06:43:43] INFO root fetch - processPackages [danbi]: Downloading https://files.pythonhosted.org/packages/c2/72/22ba0c3509479f69f5ffc3941df78acc0abfcc40698187c42ce4a3ddcc73/danbi-0.2.98.tar.gz
+[2023-07-27 06:43:44] INFO root fetch - processPackages [dragonfly-uwg]: Downloading https://files.pythonhosted.org/packages/a6/3c/7afbd082f170d8d51ed57abdf8bb67058ca404ede70f9d982fd95c8bb807/dragonfly-uwg-0.5.98.tar.gz
+[2023-07-27 06:43:44] INFO root fetch - processPackages [dragonfly-energy]: Downloading https://files.pythonhosted.org/packages/20/4e/115840f938ee254b23bd515351ba786228441464717f8557431f914e75f4/dragonfly-energy-1.9.8.tar.gz
+[2023-07-27 06:43:44] INFO root fetch - processPackages [odoo14-addon-pos-product-template]: Downloading https://files.pythonhosted.org/packages/1b/30/6224fa2967b14367a48bd94ebbd83080df6b2ade4ffc56db0575db2bdf1a/odoo14_addon_pos_product_template-14.0.1.0.3.dev3-py3-none-any.whl
+[2023-07-27 06:43:44] INFO root fetch - processPackages [danbi]: Downloading https://files.pythonhosted.org/packages/c2/72/22ba0c3509479f69f5ffc3941df78acc0abfcc40698187c42ce4a3ddcc73/danbi-0.2.98.tar.gz
+[2023-07-27 06:43:44] INFO root fetch - processPackages [hojichar]: Downloading https://files.pythonhosted.org/packages/a8/5a/d48d1d43422c98a818b0048f580e017d390b3af23144e8f9186567ee912e/hojichar-0.6.0.tar.gz
+[2023-07-27 06:43:44] INFO root fetch - processPackages [dragonfly-radiance]: Downloading https://files.pythonhosted.org/packages/8c/36/a052078d7f4455fc5bd93208d59ac2d3fbbd1bd91e25a58f14a9ba1af64c/dragonfly-radiance-0.2.80.tar.gz
+[2023-07-27 06:43:44] INFO root fetch - processPackages [sphractal]: Downloading https://files.pythonhosted.org/packages/b1/6d/156256fa9e3fa7de2df2059d47e10f9622e16808846d88bf7a096397ad36/sphractal-0.9.0.tar.gz
+[2023-07-27 06:43:44] INFO root fetch - processPackages [danbi]: Downloading https://files.pythonhosted.org/packages/08/67/6ca29911c73cded25c25e0725cecb295a7ffb7284383910591bbccccb9bf/danbi-0.2.99.tar.gz
+[2023-07-27 06:43:44] INFO root fetch - processPackages [dragonfly-uwg]: Downloading https://files.pythonhosted.org/packages/55/b3/3f9a36d82b87f343d4e196e93a8cf3e838b9c80b0849f927d4f3505355af/dragonfly-uwg-0.5.99.tar.gz
+[2023-07-27 06:43:44] INFO root fetch - processPackages [dragonfly-energy]: Downloading https://files.pythonhosted.org/packages/09/b6/c12f13159c5beb3b855a32f792faef162ad37358d2e0d3311cbd68a969db/dragonfly-energy-1.9.9.tar.gz
+[2023-07-27 06:43:44] INFO root fetch - processPackages [danbi]: Downloading https://files.pythonhosted.org/packages/08/67/6ca29911c73cded25c25e0725cecb295a7ffb7284383910591bbccccb9bf/danbi-0.2.99.tar.gz
+[2023-07-27 06:43:44] INFO root fetch - processPackages [dragonfly-radiance]: Downloading https://files.pythonhosted.org/packages/e9/01/706de1a3d81bb520c7a73e10a084040d9e5f37ff57b7defd9715a2c4018e/dragonfly-radiance-0.2.9.tar.gz
+[2023-07-27 06:43:44] INFO root fetch - processPackages [danbi]: executing diffoscope
+[2023-07-27 06:43:44] INFO root fetch - processPackages [danbi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/danbi-0.2.98.tar.gz tmp/danbi-0.2.99.tar.gz --markdown 20230727/d/danbi/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-07-27 06:43:44] INFO root fetch - processPackages [dragonfly-uwg]: executing diffoscope
+[2023-07-27 06:43:44] INFO root fetch - processPackages [dragonfly-uwg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-uwg-0.5.98.tar.gz tmp/dragonfly-uwg-0.5.99.tar.gz --markdown 20230727/d/dragonfly-uwg/0.5.98-0.5.99/diff.md --exclude *.pyd
+[2023-07-27 06:43:44] INFO root fetch - processPackages [danbi]: executing diffoscope
+[2023-07-27 06:43:44] INFO root fetch - processPackages [danbi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/danbi-0.2.98.tar.gz tmp/danbi-0.2.99.tar.gz --markdown 20230727/d/danbi/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-07-27 06:43:44] INFO root fetch - processPackages [dragonfly-radiance]: executing diffoscope
+[2023-07-27 06:43:44] INFO root fetch - processPackages [dragonfly-radiance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-radiance-0.2.80.tar.gz tmp/dragonfly-radiance-0.2.9.tar.gz --markdown 20230727/d/dragonfly-radiance/0.2.80-0.2.9/diff.md --exclude *.pyd
+[2023-07-27 06:43:44] INFO root fetch - processPackages [sphractal]: Downloading https://files.pythonhosted.org/packages/b7/3c/357fa6f2eda84dc8aff5499145b341ad2d8a7162270a504b401c65b633a3/sphractal-0.9.1.tar.gz
+[2023-07-27 06:43:44] INFO root fetch - processPackages [hojichar]: Downloading https://files.pythonhosted.org/packages/65/23/efaae0a24289a2e906bfa5577362a19167fb993beb29cbea51d6d8cff2e8/hojichar-0.6.1.tar.gz
+[2023-07-27 06:43:44] INFO root fetch - processPackages [odoo14-addon-pos-product-template]: Downloading https://files.pythonhosted.org/packages/e9/ec/f84602d304c829de14c36a5c36438bef93c090b8e45363b2ea1a325558e5/odoo14_addon_pos_product_template-14.0.1.0.4.dev1-py3-none-any.whl
+[2023-07-27 06:43:44] INFO root fetch - processPackages [dragonfly-energy]: executing diffoscope
+[2023-07-27 06:43:44] INFO root fetch - processPackages [dragonfly-energy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-energy-1.9.8.tar.gz tmp/dragonfly-energy-1.9.9.tar.gz --markdown 20230727/d/dragonfly-energy/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-07-27 06:43:44] INFO root fetch - processPackages [sphractal]: executing diffoscope
+[2023-07-27 06:43:44] INFO root fetch - processPackages [sphractal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphractal-0.9.0.tar.gz tmp/sphractal-0.9.1.tar.gz --markdown 20230727/s/sphractal/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-27 06:43:44] INFO root fetch - processPackages [hojichar]: executing diffoscope
+[2023-07-27 06:43:44] INFO root fetch - processPackages [hojichar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hojichar-0.6.0.tar.gz tmp/hojichar-0.6.1.tar.gz --markdown 20230727/h/hojichar/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-07-27 06:43:44] INFO root fetch - processPackages [odoo14-addon-pos-product-template]: executing diffoscope
+[2023-07-27 06:43:44] INFO root fetch - processPackages [odoo14-addon-pos-product-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_pos_product_template-14.0.1.0.3.dev3-py3-none-any.whl.zip tmp/odoo14_addon_pos_product_template-14.0.1.0.4.dev1-py3-none-any.whl.zip --markdown 20230727/o/odoo14-addon-pos-product-template/14.0.1.0.3.dev3-14.0.1.0.4.dev1/diff.md --exclude *.pyd
+[2023-07-27 06:43:45] INFO root fetch - processPackages [dragonfly-radiance]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-radiance-0.2.80.tar.gz]
+[2023-07-27 06:43:45] INFO root fetch - processPackages [dragonfly-radiance]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-radiance-0.2.9.tar.gz]
+[2023-07-27 06:43:45] INFO root fetch - main [MainThread]: End processing [dragonfly-radiance]: success
+[2023-07-27 06:43:46] INFO root fetch - processPackages [danbi]: Remove: archive file [/home/abi/fetcher/tmp/danbi-0.2.98.tar.gz]
+[2023-07-27 06:43:46] INFO root fetch - processPackages [danbi]: Remove: archive file [/home/abi/fetcher/tmp/danbi-0.2.99.tar.gz]
+[2023-07-27 06:43:46] INFO root fetch - main [MainThread]: End processing [danbi]: success
+[2023-07-27 06:43:46] INFO root fetch - main [MainThread]: End processing [danbi]: success
+[2023-07-27 06:43:46] INFO root fetch - processPackages [dragonfly-energy]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-energy-1.9.8.tar.gz]
+[2023-07-27 06:43:46] INFO root fetch - processPackages [dragonfly-energy]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-energy-1.9.9.tar.gz]
+[2023-07-27 06:43:46] INFO root fetch - main [MainThread]: End processing [dragonfly-energy]: success
+[2023-07-27 06:43:46] INFO root fetch - processPackages [sphractal]: Remove: archive file [/home/abi/fetcher/tmp/sphractal-0.9.0.tar.gz]
+[2023-07-27 06:43:46] INFO root fetch - processPackages [sphractal]: Remove: archive file [/home/abi/fetcher/tmp/sphractal-0.9.1.tar.gz]
+[2023-07-27 06:43:46] INFO root fetch - main [MainThread]: End processing [sphractal]: success
+[2023-07-27 06:43:46] INFO root fetch - processPackages [dragonfly-uwg]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-uwg-0.5.98.tar.gz]
+[2023-07-27 06:43:46] INFO root fetch - processPackages [dragonfly-uwg]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-uwg-0.5.99.tar.gz]
+[2023-07-27 06:43:46] INFO root fetch - main [MainThread]: End processing [dragonfly-uwg]: success
+[2023-07-27 06:43:46] INFO root fetch - processPackages [hojichar]: Remove: archive file [/home/abi/fetcher/tmp/hojichar-0.6.0.tar.gz]
+[2023-07-27 06:43:46] INFO root fetch - processPackages [hojichar]: Remove: archive file [/home/abi/fetcher/tmp/hojichar-0.6.1.tar.gz]
+[2023-07-27 06:43:46] INFO root fetch - main [MainThread]: End processing [hojichar]: success
+[2023-07-27 06:43:46] INFO root fetch - processPackages [odoo14-addon-pos-product-template]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_pos_product_template-14.0.1.0.3.dev3-py3-none-any.whl.zip]
+[2023-07-27 06:43:46] INFO root fetch - processPackages [odoo14-addon-pos-product-template]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_pos_product_template-14.0.1.0.4.dev1-py3-none-any.whl.zip]
+[2023-07-27 06:43:46] INFO root fetch - main [MainThread]: End processing [odoo14-addon-pos-product-template]: success
+[2023-07-27 06:43:46] INFO root fetch - main [MainThread]: Store serial: [19054645]
