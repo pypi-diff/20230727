@@ -23088,3 +23088,148 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-27 13:11:55] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.99.tar.gz]
 [2023-07-27 13:11:55] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-07-27 13:11:55] INFO root fetch - main [MainThread]: Store serial: [19058853]
+[2023-07-27 13:16:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19058853]
+[2023-07-27 13:17:04] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-27 13:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: signal-ocean
+[2023-07-27 13:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyspex
+[2023-07-27 13:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pdx
+[2023-07-27 13:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mne-pipeline-hd
+[2023-07-27 13:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-webstack
+[2023-07-27 13:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openshift-python-wrapper
+[2023-07-27 13:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lakaodi
+[2023-07-27 13:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ds-caselaw-marklogic-api-client
+[2023-07-27 13:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: libsql-experimental
+[2023-07-27 13:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: femto-admin
+[2023-07-27 13:17:04] INFO root fetch - processPackages [signal-ocean]: New version: [7.1.2] Old Version: [7.1.1]
+[2023-07-27 13:17:04] INFO root fetch - processPackages [pdx]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-07-27 13:17:04] INFO root fetch - processPackages [pyspex]: New version: [1.4.0rc1] Old Version: [1.3.9]
+[2023-07-27 13:17:04] INFO root fetch - processPackages [mne-pipeline-hd]: New version: [0.3.3a0] Old Version: [0.3.2a0]
+[2023-07-27 13:17:04] INFO root fetch - processPackages [openshift-python-wrapper]: New version: [4.9.9.12] Old Version: [4.9.7.12]
+[2023-07-27 13:17:04] INFO root fetch - processPackages [ds-caselaw-marklogic-api-client]: New version: [9.0.0] Old Version: [8.0.0]
+[2023-07-27 13:17:04] INFO root fetch - processPackages [femto-admin]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-27 13:17:04] INFO root fetch - processPackages [lakaodi]: New version: [0.2] Old Version: [0.1]
+[2023-07-27 13:17:04] INFO root fetch - processPackages [django-webstack]: New version: [1.3.6.2] Old Version: [1.3.6.1]
+[2023-07-27 13:17:04] WARNING root fetch - processPackages [libsql-experimental]: Skipping, unable to determine old version
+[2023-07-27 13:17:04] INFO root fetch - processPackages [libsql-experimental]: Start processing: django-surface-theme
+[2023-07-27 13:17:04] INFO root fetch - main [MainThread]: End processing [libsql-experimental] error
+[2023-07-27 13:17:04] INFO root fetch - processPackages [django-surface-theme]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-27 13:17:04] INFO root fetch - processPackages [django-webstack]: Downloading https://files.pythonhosted.org/packages/6e/67/914db63ef4aeefe36bd7aacc0c055fed46e28bd04bb9dea03a1d2732b312/django-webstack-1.3.6.1.tar.gz
+[2023-07-27 13:17:04] INFO root fetch - processPackages [pyspex]: Downloading https://files.pythonhosted.org/packages/c4/b5/bb0f00815b4858a3e7cb34d005f49dcd0b324a01bcae8155ed45837a42e8/pyspex-1.3.9.tar.gz
+[2023-07-27 13:17:04] INFO root fetch - processPackages [signal-ocean]: Downloading https://files.pythonhosted.org/packages/aa/50/aec8925318939524c8c4659c868593a7c5b7d2f84a4e2856a8f62715d751/signal-ocean-7.1.1.tar.gz
+[2023-07-27 13:17:04] INFO root fetch - processPackages [mne-pipeline-hd]: Downloading https://files.pythonhosted.org/packages/34/8c/8229af8cd8712c6dd15fa9cc847bc3c7d085ffe60d862bc51fe80706e82e/mne-pipeline-hd-0.3.2a0.tar.gz
+[2023-07-27 13:17:04] INFO root fetch - processPackages [pdx]: Downloading https://files.pythonhosted.org/packages/19/94/e0b255d12cfdde457ff74f323c1d7abb6307d8bbeacbec4cbd9ce9c22e71/pdx-0.4.0.tar.gz
+[2023-07-27 13:17:05] INFO root fetch - processPackages [femto-admin]: Downloading https://files.pythonhosted.org/packages/19/fe/cd359b9f8904b399d01166d8a1e8b752582ccde91d192f9bf59dabe751a2/femto-admin-0.1.0.tar.gz
+[2023-07-27 13:17:05] INFO root fetch - processPackages [ds-caselaw-marklogic-api-client]: Downloading https://files.pythonhosted.org/packages/5b/8a/0481fc7e5ba3e035cc1653d98c2f46ecd48b306fc79b995ec6af7e7b0f5d/ds_caselaw_marklogic_api_client-8.0.0.tar.gz
+[2023-07-27 13:17:05] INFO root fetch - processPackages [lakaodi]: Downloading https://files.pythonhosted.org/packages/61/4f/3c761a6bd0c01d6d188dc48ca74d4f679acd7557af17c51f9b91a52911d3/lakaodi-0.1.tar.gz
+[2023-07-27 13:17:05] INFO root fetch - processPackages [openshift-python-wrapper]: Downloading https://files.pythonhosted.org/packages/9f/52/8943f0836c823ed0ab894348233d99a219025753e654fa494137828358f9/openshift-python-wrapper-4.9.7.12.tar.gz
+[2023-07-27 13:17:05] INFO root fetch - processPackages [django-surface-theme]: Downloading https://files.pythonhosted.org/packages/99/d0/9f3ea65c29f72561138d2f50ee4c3f8ee3f7f7b97f6e976fe16ca47388df/django-surface-theme-0.0.8.tar.gz
+[2023-07-27 13:17:05] INFO root fetch - processPackages [django-webstack]: Downloading https://files.pythonhosted.org/packages/be/6a/bd4e21f1e65f2cfc34d0498a7c4d1c7ae646842ad0c5609ae12d57575a24/django-webstack-1.3.6.2.tar.gz
+[2023-07-27 13:17:05] INFO root fetch - processPackages [pdx]: Downloading https://files.pythonhosted.org/packages/5c/79/a58d32fbb0c488b42e2f661f89195901df42cb587ecb8c113ce266caac57/pdx-0.5.0.tar.gz
+[2023-07-27 13:17:05] INFO root fetch - processPackages [pyspex]: Downloading https://files.pythonhosted.org/packages/cf/dd/dc703c56a4970cc4139f8661c133a2ab60a42c0363bc442164984025dab0/pyspex-1.4.0rc1.tar.gz
+[2023-07-27 13:17:05] INFO root fetch - processPackages [lakaodi]: Downloading https://files.pythonhosted.org/packages/15/03/9323e8bb580f2b8a0b75db0948b6781287e5e009fa3627fb67bb0d41eca3/lakaodi-0.2.tar.gz
+[2023-07-27 13:17:05] INFO root fetch - processPackages [django-webstack]: executing diffoscope
+[2023-07-27 13:17:05] INFO root fetch - processPackages [django-webstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-webstack-1.3.6.1.tar.gz tmp/django-webstack-1.3.6.2.tar.gz --markdown 20230727/d/django-webstack/1.3.6.1-1.3.6.2/diff.md --exclude *.pyd
+[2023-07-27 13:17:05] INFO root fetch - processPackages [signal-ocean]: Downloading https://files.pythonhosted.org/packages/b9/70/171001d1cea584231deba5bff0df7ed4206c2b4175aa4d46d49e30caf432/signal-ocean-7.1.2.tar.gz
+[2023-07-27 13:17:05] INFO root fetch - processPackages [pdx]: executing diffoscope
+[2023-07-27 13:17:05] INFO root fetch - processPackages [pdx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdx-0.4.0.tar.gz tmp/pdx-0.5.0.tar.gz --markdown 20230727/p/pdx/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-07-27 13:17:05] INFO root fetch - processPackages [lakaodi]: executing diffoscope
+[2023-07-27 13:17:05] INFO root fetch - processPackages [lakaodi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lakaodi-0.1.tar.gz tmp/lakaodi-0.2.tar.gz --markdown 20230727/l/lakaodi/0.1-0.2/diff.md --exclude *.pyd
+[2023-07-27 13:17:05] INFO root fetch - processPackages [ds-caselaw-marklogic-api-client]: Downloading https://files.pythonhosted.org/packages/3c/df/fedd765da0968ca3e553992d6546069c8c5f4dab1b3aa406246988c77909/ds_caselaw_marklogic_api_client-9.0.0.tar.gz
+[2023-07-27 13:17:05] INFO root fetch - processPackages [signal-ocean]: executing diffoscope
+[2023-07-27 13:17:05] INFO root fetch - processPackages [signal-ocean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/signal-ocean-7.1.1.tar.gz tmp/signal-ocean-7.1.2.tar.gz --markdown 20230727/s/signal-ocean/7.1.1-7.1.2/diff.md --exclude *.pyd
+[2023-07-27 13:17:05] INFO root fetch - processPackages [femto-admin]: Downloading https://files.pythonhosted.org/packages/d6/44/38f4e6a916a68f821b2b491149484ba5f21c78b649a0868f57c25fe4a83d/femto-admin-0.1.1.tar.gz
+[2023-07-27 13:17:05] INFO root fetch - processPackages [mne-pipeline-hd]: Downloading https://files.pythonhosted.org/packages/e3/13/dc55bac0aca47370a98371caca70ba4ed2309a5917e67811b9f96fe4c095/mne-pipeline-hd-0.3.3a0.tar.gz
+[2023-07-27 13:17:05] INFO root fetch - processPackages [ds-caselaw-marklogic-api-client]: executing diffoscope
+[2023-07-27 13:17:05] INFO root fetch - processPackages [ds-caselaw-marklogic-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ds_caselaw_marklogic_api_client-8.0.0.tar.gz tmp/ds_caselaw_marklogic_api_client-9.0.0.tar.gz --markdown 20230727/d/ds-caselaw-marklogic-api-client/8.0.0-9.0.0/diff.md --exclude *.pyd
+[2023-07-27 13:17:05] INFO root fetch - processPackages [pyspex]: executing diffoscope
+[2023-07-27 13:17:05] INFO root fetch - processPackages [pyspex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyspex-1.3.9.tar.gz tmp/pyspex-1.4.0rc1.tar.gz --markdown 20230727/p/pyspex/1.3.9-1.4.0rc1/diff.md --exclude *.pyd
+[2023-07-27 13:17:05] INFO root fetch - processPackages [femto-admin]: executing diffoscope
+[2023-07-27 13:17:05] INFO root fetch - processPackages [femto-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/femto-admin-0.1.0.tar.gz tmp/femto-admin-0.1.1.tar.gz --markdown 20230727/f/femto-admin/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-27 13:17:05] INFO root fetch - processPackages [mne-pipeline-hd]: executing diffoscope
+[2023-07-27 13:17:05] INFO root fetch - processPackages [mne-pipeline-hd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mne-pipeline-hd-0.3.2a0.tar.gz tmp/mne-pipeline-hd-0.3.3a0.tar.gz --markdown 20230727/m/mne-pipeline-hd/0.3.2a0-0.3.3a0/diff.md --exclude *.pyd
+[2023-07-27 13:17:06] INFO root fetch - processPackages [openshift-python-wrapper]: Downloading https://files.pythonhosted.org/packages/e7/2c/25381b003b6e49919b5c98f68796af474a0b6fb3e28c46552a6949c6160a/openshift-python-wrapper-4.9.9.12.tar.gz
+[2023-07-27 13:17:06] WARNING root fetch - processPackages [django-surface-theme]: Skipping package: exceeds size limit 31541825>=10485760
+[2023-07-27 13:17:06] INFO root fetch - processPackages [django-surface-theme]: Start processing: amlopsvueelements
+[2023-07-27 13:17:06] INFO root fetch - main [MainThread]: End processing [django-surface-theme] error
+[2023-07-27 13:17:06] INFO root fetch - processPackages [amlopsvueelements]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-27 13:17:06] INFO root fetch - processPackages [openshift-python-wrapper]: executing diffoscope
+[2023-07-27 13:17:06] INFO root fetch - processPackages [openshift-python-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openshift-python-wrapper-4.9.7.12.tar.gz tmp/openshift-python-wrapper-4.9.9.12.tar.gz --markdown 20230727/o/openshift-python-wrapper/4.9.7.12-4.9.9.12/diff.md --exclude *.pyd
+[2023-07-27 13:17:06] INFO root fetch - processPackages [amlopsvueelements]: Downloading https://files.pythonhosted.org/packages/66/c5/7cc4562a9948fa70330c8597948fda7c968a965313e177f21cd9f6e69c15/amlopsvueelements-1.2.8.tar.gz
+[2023-07-27 13:17:06] INFO root fetch - processPackages [lakaodi]: Remove: archive file [/home/abi/fetcher/tmp/lakaodi-0.1.tar.gz]
+[2023-07-27 13:17:06] INFO root fetch - processPackages [lakaodi]: Remove: archive file [/home/abi/fetcher/tmp/lakaodi-0.2.tar.gz]
+[2023-07-27 13:17:06] INFO root fetch - processPackages [lakaodi]: Start processing: fastws
+[2023-07-27 13:17:06] INFO root fetch - main [MainThread]: End processing [lakaodi]: success
+[2023-07-27 13:17:07] INFO root fetch - processPackages [fastws]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-27 13:17:07] INFO root fetch - processPackages [pdx]: Remove: archive file [/home/abi/fetcher/tmp/pdx-0.4.0.tar.gz]
+[2023-07-27 13:17:07] INFO root fetch - processPackages [pdx]: Remove: archive file [/home/abi/fetcher/tmp/pdx-0.5.0.tar.gz]
+[2023-07-27 13:17:07] INFO root fetch - processPackages [pdx]: Start processing: soco-cli
+[2023-07-27 13:17:07] INFO root fetch - main [MainThread]: End processing [pdx]: success
+[2023-07-27 13:17:07] INFO root fetch - processPackages [amlopsvueelements]: Downloading https://files.pythonhosted.org/packages/66/13/78a0a71cbe22ea1ba27617b67cbd09d3dd5db33dcfc03407cadf975cb283/amlopsvueelements-1.2.9.tar.gz
+[2023-07-27 13:17:07] INFO root fetch - processPackages [soco-cli]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-27 13:17:07] INFO root fetch - processPackages [ds-caselaw-marklogic-api-client]: Remove: archive file [/home/abi/fetcher/tmp/ds_caselaw_marklogic_api_client-8.0.0.tar.gz]
+[2023-07-27 13:17:07] INFO root fetch - processPackages [ds-caselaw-marklogic-api-client]: Remove: archive file [/home/abi/fetcher/tmp/ds_caselaw_marklogic_api_client-9.0.0.tar.gz]
+[2023-07-27 13:17:07] INFO root fetch - processPackages [ds-caselaw-marklogic-api-client]: Start processing: lazyinit
+[2023-07-27 13:17:07] INFO root fetch - main [MainThread]: End processing [ds-caselaw-marklogic-api-client]: success
+[2023-07-27 13:17:07] INFO root fetch - processPackages [fastws]: Downloading https://files.pythonhosted.org/packages/ef/3a/e2e14a4fc18684255a69d7b9399f7a7215b5fb1cbb02735aedc52867a466/fastws-0.1.5.tar.gz
+[2023-07-27 13:17:07] INFO root fetch - processPackages [amlopsvueelements]: executing diffoscope
+[2023-07-27 13:17:07] INFO root fetch - processPackages [amlopsvueelements]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amlopsvueelements-1.2.8.tar.gz tmp/amlopsvueelements-1.2.9.tar.gz --markdown 20230727/a/amlopsvueelements/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-27 13:17:07] INFO root fetch - processPackages [lazyinit]: New version: [0.0.268] Old Version: [0.0.267]
+[2023-07-27 13:17:07] INFO root fetch - processPackages [soco-cli]: Downloading https://files.pythonhosted.org/packages/08/77/18dc625b150748a1c5cd44aaf95740bd0a39b53399acd07bf3c461e2b10d/soco-cli-0.4.8.tar.gz
+[2023-07-27 13:17:07] INFO root fetch - processPackages [django-webstack]: Remove: archive file [/home/abi/fetcher/tmp/django-webstack-1.3.6.1.tar.gz]
+[2023-07-27 13:17:07] INFO root fetch - processPackages [django-webstack]: Remove: archive file [/home/abi/fetcher/tmp/django-webstack-1.3.6.2.tar.gz]
+[2023-07-27 13:17:07] INFO root fetch - processPackages [django-webstack]: Start processing: python-copasi
+[2023-07-27 13:17:07] INFO root fetch - main [MainThread]: End processing [django-webstack]: success
+[2023-07-27 13:17:07] INFO root fetch - processPackages [lazyinit]: Downloading https://files.pythonhosted.org/packages/71/5d/9b79604f19a934f23ee68d35ff4a784120ffcecbe100f40086af738d06b2/lazyinit-0.0.267.tar.gz
+[2023-07-27 13:17:07] INFO root fetch - processPackages [python-copasi]: New version: [4.40.278] Old Version: [4.39.272]
+[2023-07-27 13:17:07] INFO root fetch - processPackages [soco-cli]: Downloading https://files.pythonhosted.org/packages/9c/20/022b3752b29a24cf2ab7a66eff45702404292a0de61533d8eeea70de84d0/soco-cli-0.4.9.tar.gz
+[2023-07-27 13:17:07] INFO root fetch - processPackages [femto-admin]: Remove: archive file [/home/abi/fetcher/tmp/femto-admin-0.1.0.tar.gz]
+[2023-07-27 13:17:07] INFO root fetch - processPackages [femto-admin]: Remove: archive file [/home/abi/fetcher/tmp/femto-admin-0.1.1.tar.gz]
+[2023-07-27 13:17:07] INFO root fetch - processPackages [femto-admin]: Start processing: mm-sdk
+[2023-07-27 13:17:07] INFO root fetch - main [MainThread]: End processing [femto-admin]: success
+[2023-07-27 13:17:07] INFO root fetch - processPackages [fastws]: Downloading https://files.pythonhosted.org/packages/e3/65/c4f55240f511cd379f1558531d4d135ec651eb9a50a418b7c265a7b77f36/fastws-0.1.6.tar.gz
+[2023-07-27 13:17:07] INFO root fetch - processPackages [signal-ocean]: Remove: archive file [/home/abi/fetcher/tmp/signal-ocean-7.1.1.tar.gz]
+[2023-07-27 13:17:07] INFO root fetch - processPackages [signal-ocean]: Remove: archive file [/home/abi/fetcher/tmp/signal-ocean-7.1.2.tar.gz]
+[2023-07-27 13:17:07] INFO root fetch - main [MainThread]: End processing [signal-ocean]: success
+[2023-07-27 13:17:07] INFO root fetch - processPackages [lazyinit]: Downloading https://files.pythonhosted.org/packages/0a/b0/036de2f35a1d36cd2e68fd251c9b1edf8163128d9239eac90b5bb13ec8b8/lazyinit-0.0.268.tar.gz
+[2023-07-27 13:17:07] INFO root fetch - processPackages [soco-cli]: executing diffoscope
+[2023-07-27 13:17:07] INFO root fetch - processPackages [soco-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soco-cli-0.4.8.tar.gz tmp/soco-cli-0.4.9.tar.gz --markdown 20230727/s/soco-cli/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-27 13:17:07] INFO root fetch - processPackages [mm-sdk]: New version: [0.1.3] Old Version: [0.1.291]
+[2023-07-27 13:17:07] INFO root fetch - processPackages [pyspex]: Remove: archive file [/home/abi/fetcher/tmp/pyspex-1.3.9.tar.gz]
+[2023-07-27 13:17:07] INFO root fetch - processPackages [pyspex]: Remove: archive file [/home/abi/fetcher/tmp/pyspex-1.4.0rc1.tar.gz]
+[2023-07-27 13:17:07] INFO root fetch - main [MainThread]: End processing [pyspex]: success
+[2023-07-27 13:17:07] INFO root fetch - processPackages [python-copasi]: Downloading https://files.pythonhosted.org/packages/e8/15/de04cd64ec0a6db451fd0c049f65d65012c7954255520017bffaa4640267/python_copasi-4.39.272-pp39-pypy39_pp73-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+[2023-07-27 13:17:08] INFO root fetch - processPackages [lazyinit]: executing diffoscope
+[2023-07-27 13:17:08] INFO root fetch - processPackages [lazyinit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazyinit-0.0.267.tar.gz tmp/lazyinit-0.0.268.tar.gz --markdown 20230727/l/lazyinit/0.0.267-0.0.268/diff.md --exclude *.pyd
+[2023-07-27 13:17:08] INFO root fetch - processPackages [fastws]: executing diffoscope
+[2023-07-27 13:17:08] INFO root fetch - processPackages [fastws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastws-0.1.5.tar.gz tmp/fastws-0.1.6.tar.gz --markdown 20230727/f/fastws/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-27 13:17:08] INFO root fetch - processPackages [mm-sdk]: Downloading https://files.pythonhosted.org/packages/ef/a2/3e42762ef1b3b034c49b32ec222f6b6c571d7ce83d8c11eb7d157c7d9b32/mm_sdk-0.1.291.tar.gz
+[2023-07-27 13:17:08] INFO root fetch - processPackages [mne-pipeline-hd]: Remove: archive file [/home/abi/fetcher/tmp/mne-pipeline-hd-0.3.2a0.tar.gz]
+[2023-07-27 13:17:08] INFO root fetch - processPackages [mne-pipeline-hd]: Remove: archive file [/home/abi/fetcher/tmp/mne-pipeline-hd-0.3.3a0.tar.gz]
+[2023-07-27 13:17:08] INFO root fetch - main [MainThread]: End processing [mne-pipeline-hd]: success
+[2023-07-27 13:17:08] INFO root fetch - processPackages [openshift-python-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/openshift-python-wrapper-4.9.7.12.tar.gz]
+[2023-07-27 13:17:08] INFO root fetch - processPackages [openshift-python-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/openshift-python-wrapper-4.9.9.12.tar.gz]
+[2023-07-27 13:17:08] INFO root fetch - main [MainThread]: End processing [openshift-python-wrapper]: success
+[2023-07-27 13:17:08] INFO root fetch - processPackages [mm-sdk]: Downloading https://files.pythonhosted.org/packages/03/aa/d8c272285a7704066ac4561b833b5144e76c812479a75a91e1eff3bc24af/mm-sdk-0.1.3.tar.gz
+[2023-07-27 13:17:09] INFO root fetch - processPackages [soco-cli]: Remove: archive file [/home/abi/fetcher/tmp/soco-cli-0.4.8.tar.gz]
+[2023-07-27 13:17:09] INFO root fetch - processPackages [soco-cli]: Remove: archive file [/home/abi/fetcher/tmp/soco-cli-0.4.9.tar.gz]
+[2023-07-27 13:17:09] INFO root fetch - main [MainThread]: End processing [soco-cli]: success
+[2023-07-27 13:17:09] INFO root fetch - processPackages [mm-sdk]: executing diffoscope
+[2023-07-27 13:17:09] INFO root fetch - processPackages [mm-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mm_sdk-0.1.291.tar.gz tmp/mm-sdk-0.1.3.tar.gz --markdown 20230727/m/mm-sdk/0.1.291-0.1.3/diff.md --exclude *.pyd
+[2023-07-27 13:17:09] INFO root fetch - processPackages [fastws]: Remove: archive file [/home/abi/fetcher/tmp/fastws-0.1.5.tar.gz]
+[2023-07-27 13:17:09] INFO root fetch - processPackages [fastws]: Remove: archive file [/home/abi/fetcher/tmp/fastws-0.1.6.tar.gz]
+[2023-07-27 13:17:09] INFO root fetch - main [MainThread]: End processing [fastws]: success
+[2023-07-27 13:17:09] INFO root fetch - processPackages [lazyinit]: Remove: archive file [/home/abi/fetcher/tmp/lazyinit-0.0.267.tar.gz]
+[2023-07-27 13:17:09] INFO root fetch - processPackages [lazyinit]: Remove: archive file [/home/abi/fetcher/tmp/lazyinit-0.0.268.tar.gz]
+[2023-07-27 13:17:09] INFO root fetch - main [MainThread]: End processing [lazyinit]: success
+[2023-07-27 13:17:10] INFO root fetch - processPackages [mm-sdk]: Remove: archive file [/home/abi/fetcher/tmp/mm_sdk-0.1.291.tar.gz]
+[2023-07-27 13:17:10] INFO root fetch - processPackages [mm-sdk]: Remove: archive file [/home/abi/fetcher/tmp/mm-sdk-0.1.3.tar.gz]
+[2023-07-27 13:17:10] INFO root fetch - main [MainThread]: End processing [mm-sdk]: success
+[2023-07-27 13:17:13] INFO root fetch - processPackages [amlopsvueelements]: Remove: archive file [/home/abi/fetcher/tmp/amlopsvueelements-1.2.8.tar.gz]
+[2023-07-27 13:17:13] INFO root fetch - processPackages [amlopsvueelements]: Remove: archive file [/home/abi/fetcher/tmp/amlopsvueelements-1.2.9.tar.gz]
+[2023-07-27 13:17:13] INFO root fetch - main [MainThread]: End processing [amlopsvueelements]: success
+[2023-07-27 13:17:13] INFO root fetch - processPackages [python-copasi]: Downloading https://files.pythonhosted.org/packages/cb/f7/d631989031555bacdf90ccf00ced2cca90e2e5348ab7557f1b4567787468/python_copasi-4.40.278-pp39-pypy39_pp73-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+[2023-07-27 13:17:18] INFO root fetch - processPackages [python-copasi]: executing diffoscope
+[2023-07-27 13:17:18] INFO root fetch - processPackages [python-copasi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_copasi-4.39.272-pp39-pypy39_pp73-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip tmp/python_copasi-4.40.278-pp39-pypy39_pp73-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip --markdown 20230727/p/python-copasi/4.39.272-4.40.278/diff.md --exclude *.pyd
+[2023-07-27 13:20:18] ERROR root fetch - processPackages [python-copasi]: Timeout during execution of pkgdiff
+[2023-07-27 13:20:18] INFO root fetch - main [MainThread]: End processing [python-copasi] error
+[2023-07-27 13:20:18] INFO root fetch - main [MainThread]: Store serial: [19058932]
