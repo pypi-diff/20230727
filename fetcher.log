@@ -16130,3 +16130,95 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-27 08:19:24] INFO root fetch - processPackages [tensorneko-util]: Remove: archive file [/home/abi/fetcher/tmp/tensorneko_util-0.3.0.tar.gz]
 [2023-07-27 08:19:24] INFO root fetch - main [MainThread]: End processing [tensorneko-util]: success
 [2023-07-27 08:19:24] INFO root fetch - main [MainThread]: Store serial: [19055968]
+[2023-07-27 08:24:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19055968]
+[2023-07-27 08:24:33] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-27 08:24:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: muffin-peewee-aio
+[2023-07-27 08:24:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: robotframework-imagedetection
+[2023-07-27 08:24:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lbt-dragonfly
+[2023-07-27 08:24:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: morm
+[2023-07-27 08:24:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xjet
+[2023-07-27 08:24:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: proctracer
+[2023-07-27 08:24:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cog2
+[2023-07-27 08:24:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bcmd
+[2023-07-27 08:24:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jupyterlab-s3-browser-uccps
+[2023-07-27 08:24:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xhac
+[2023-07-27 08:24:33] INFO root fetch - processPackages [robotframework-imagedetection]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-27 08:24:33] INFO root fetch - processPackages [muffin-peewee-aio]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-07-27 08:24:33] INFO root fetch - processPackages [morm]: New version: [1.4.4] Old Version: [1.4.3]
+[2023-07-27 08:24:33] INFO root fetch - processPackages [bcmd]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-27 08:24:34] INFO root fetch - processPackages [cog2]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-27 08:24:34] WARNING root fetch - processPackages [xhac]: Skipping, unable to determine old version
+[2023-07-27 08:24:34] INFO root fetch - processPackages [xhac]: Start processing: AMAS-sb
+[2023-07-27 08:24:34] INFO root fetch - main [MainThread]: End processing [xhac] error
+[2023-07-27 08:24:34] INFO root fetch - processPackages [jupyterlab-s3-browser-uccps]: New version: [0.10.3] Old Version: [0.10.2]
+[2023-07-27 08:24:34] INFO root fetch - processPackages [xjet]: New version: [0.1.5] Old Version: [0.1.3]
+[2023-07-27 08:24:34] INFO root fetch - processPackages [proctracer]: New version: [0.0.21] Old Version: [0.0.20]
+[2023-07-27 08:24:34] INFO root fetch - processPackages [AMAS-sb]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-27 08:24:34] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-07-27 08:24:34] INFO root fetch - processPackages [jupyterlab-s3-browser-uccps]: Downloading https://files.pythonhosted.org/packages/05/48/9fab1540d48829c47d678e477518e272161c578b22a99f379d1baa019ca6/jupyterlab_s3_browser_uccps-0.10.2.tar.gz
+[2023-07-27 08:24:34] INFO root fetch - processPackages [bcmd]: Downloading https://files.pythonhosted.org/packages/14/bb/4ff93028b64c93970c4b76f5b7cfe73c743a936ed7a9653b9166cfab7d40/bcmd-0.0.8.tar.gz
+[2023-07-27 08:24:34] INFO root fetch - processPackages [robotframework-imagedetection]: Downloading https://files.pythonhosted.org/packages/4a/13/976425daf56e8aff0ebd8da563c697f40edf31fab709e62c90c4976e5a10/robotframework-imagedetection-0.0.3.tar.gz
+[2023-07-27 08:24:34] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/be/ae/7267dfd241a0641f3fbadea4128db5ffa29609911cadb5fc4840656bb44a/lbt-dragonfly-0.9.98.tar.gz
+[2023-07-27 08:24:34] INFO root fetch - processPackages [morm]: Downloading https://files.pythonhosted.org/packages/ae/48/312d22a9f3f4f0d2af3103a56d0a03609165f5a8b4a5e6483ef331dcee93/morm-1.4.3.tar.gz
+[2023-07-27 08:24:34] INFO root fetch - processPackages [muffin-peewee-aio]: Downloading https://files.pythonhosted.org/packages/5b/d5/a636e8a8df10fc477e69a4d9d0bfb35ec2c82b689e08e2981018efdbc040/muffin-peewee-aio-0.9.5.tar.gz
+[2023-07-27 08:24:34] INFO root fetch - processPackages [cog2]: Downloading https://files.pythonhosted.org/packages/93/46/c7e4f4b4c7cdc87e62ecc881896b986cf40b264ca5c0c572cfd49c5a261d/cog2-0.1.3.tar.gz
+[2023-07-27 08:24:34] INFO root fetch - processPackages [AMAS-sb]: Downloading https://files.pythonhosted.org/packages/49/ee/f63d63c478fa39f5fc20d4738079f88ed4cb74c49fb26a67787cd5cd37b1/AMAS-sb-1.0.0.tar.gz
+[2023-07-27 08:24:34] INFO root fetch - processPackages [xjet]: Downloading https://files.pythonhosted.org/packages/38/08/09ed60ee911270402a65ecebbbcc826d9b46809766483326e42176926cdd/xjet-0.1.3.tar.gz
+[2023-07-27 08:24:34] INFO root fetch - processPackages [proctracer]: Downloading https://files.pythonhosted.org/packages/fe/be/f71757b1e3fadf506d73bf3201d6fc35ca2fadc5cbd3ea544a08b78db095/proctracer-0.0.20.tar.gz
+[2023-07-27 08:24:34] WARNING root fetch - processPackages [AMAS-sb]: Skipping package: exceeds size limit 23188239>=10485760
+[2023-07-27 08:24:34] INFO root fetch - main [MainThread]: End processing [AMAS-sb] error
+[2023-07-27 08:24:34] INFO root fetch - processPackages [bcmd]: Downloading https://files.pythonhosted.org/packages/3b/fe/3525534e0b5966e860bd44d83a8fd9b36b7f3431bf8abe081ed29fe6de12/bcmd-0.0.9.tar.gz
+[2023-07-27 08:24:34] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/b4/08/0ca46e9f7eef7b2cce7f0c6110106c42aa35a79bd88110559177f64d733a/lbt-dragonfly-0.9.99.tar.gz
+[2023-07-27 08:24:34] INFO root fetch - processPackages [robotframework-imagedetection]: Downloading https://files.pythonhosted.org/packages/51/65/e5d90f66bf466eef961cdafb98fdd43ce968a2ad0687dbb4c79ece49614a/robotframework-imagedetection-0.0.4.tar.gz
+[2023-07-27 08:24:34] INFO root fetch - processPackages [cog2]: Downloading https://files.pythonhosted.org/packages/f4/9a/3704c5491eb060e8ba86e5e5ea55d9b40a9621f659e763e41d18bd7a2675/cog2-0.1.4.tar.gz
+[2023-07-27 08:24:34] INFO root fetch - processPackages [jupyterlab-s3-browser-uccps]: Downloading https://files.pythonhosted.org/packages/32/a3/4c2f8cead8340d96c889fb0d9fac243df7b0a64f1d021bfb9e961717364f/jupyterlab_s3_browser_uccps-0.10.3.tar.gz
+[2023-07-27 08:24:34] INFO root fetch - processPackages [bcmd]: executing diffoscope
+[2023-07-27 08:24:34] INFO root fetch - processPackages [bcmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bcmd-0.0.8.tar.gz tmp/bcmd-0.0.9.tar.gz --markdown 20230727/b/bcmd/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-27 08:24:34] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2023-07-27 08:24:34] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20230727/l/lbt-dragonfly/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-07-27 08:24:34] INFO root fetch - processPackages [morm]: Downloading https://files.pythonhosted.org/packages/4e/e7/065c7980a92b5a278355d169ae5db37a33bd9c20bef513af3f319844d659/morm-1.4.4-py3-none-any.whl
+[2023-07-27 08:24:34] INFO root fetch - processPackages [xjet]: Downloading https://files.pythonhosted.org/packages/17/cf/1ff9e862b0ec49539c3f5e58f1f3c8fd227330d2dfca850b122d791b584f/xjet-0.1.5.tar.gz
+[2023-07-27 08:24:34] INFO root fetch - processPackages [proctracer]: Downloading https://files.pythonhosted.org/packages/94/f0/4bfbcb488a47227c19181d5a424ad0e398eba8e3bebb0860c75b17b75660/proctracer-0.0.21.tar.gz
+[2023-07-27 08:24:34] INFO root fetch - processPackages [cog2]: executing diffoscope
+[2023-07-27 08:24:34] INFO root fetch - processPackages [cog2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cog2-0.1.3.tar.gz tmp/cog2-0.1.4.tar.gz --markdown 20230727/c/cog2/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-27 08:24:35] INFO root fetch - processPackages [morm]: executing diffoscope
+[2023-07-27 08:24:35] INFO root fetch - processPackages [morm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morm-1.4.3.tar.gz tmp/morm-1.4.4-py3-none-any.whl.zip --markdown 20230727/m/morm/1.4.3-1.4.4/diff.md --exclude *.pyd
+[2023-07-27 08:24:35] INFO root fetch - processPackages [robotframework-imagedetection]: executing diffoscope
+[2023-07-27 08:24:35] INFO root fetch - processPackages [robotframework-imagedetection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework-imagedetection-0.0.3.tar.gz tmp/robotframework-imagedetection-0.0.4.tar.gz --markdown 20230727/r/robotframework-imagedetection/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-27 08:24:35] INFO root fetch - processPackages [jupyterlab-s3-browser-uccps]: executing diffoscope
+[2023-07-27 08:24:35] INFO root fetch - processPackages [jupyterlab-s3-browser-uccps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_s3_browser_uccps-0.10.2.tar.gz tmp/jupyterlab_s3_browser_uccps-0.10.3.tar.gz --markdown 20230727/j/jupyterlab-s3-browser-uccps/0.10.2-0.10.3/diff.md --exclude *.pyd
+[2023-07-27 08:24:35] INFO root fetch - processPackages [xjet]: executing diffoscope
+[2023-07-27 08:24:35] INFO root fetch - processPackages [xjet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xjet-0.1.3.tar.gz tmp/xjet-0.1.5.tar.gz --markdown 20230727/x/xjet/0.1.3-0.1.5/diff.md --exclude *.pyd
+[2023-07-27 08:24:35] INFO root fetch - processPackages [proctracer]: executing diffoscope
+[2023-07-27 08:24:35] INFO root fetch - processPackages [proctracer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proctracer-0.0.20.tar.gz tmp/proctracer-0.0.21.tar.gz --markdown 20230727/p/proctracer/0.0.20-0.0.21/diff.md --exclude *.pyd
+[2023-07-27 08:24:35] INFO root fetch - processPackages [muffin-peewee-aio]: Downloading https://files.pythonhosted.org/packages/39/ad/8d3dd8e528325c72abcd5e16c902b2a6a2b3ec882e5710e06cdbbcbd1a4b/muffin-peewee-aio-0.9.6.tar.gz
+[2023-07-27 08:24:35] INFO root fetch - processPackages [muffin-peewee-aio]: executing diffoscope
+[2023-07-27 08:24:35] INFO root fetch - processPackages [muffin-peewee-aio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muffin-peewee-aio-0.9.5.tar.gz tmp/muffin-peewee-aio-0.9.6.tar.gz --markdown 20230727/m/muffin-peewee-aio/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-07-27 08:24:36] INFO root fetch - processPackages [bcmd]: Remove: archive file [/home/abi/fetcher/tmp/bcmd-0.0.8.tar.gz]
+[2023-07-27 08:24:36] INFO root fetch - processPackages [bcmd]: Remove: archive file [/home/abi/fetcher/tmp/bcmd-0.0.9.tar.gz]
+[2023-07-27 08:24:36] INFO root fetch - main [MainThread]: End processing [bcmd]: success
+[2023-07-27 08:24:36] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.98.tar.gz]
+[2023-07-27 08:24:36] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.99.tar.gz]
+[2023-07-27 08:24:36] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2023-07-27 08:24:36] INFO root fetch - processPackages [morm]: Remove: archive file [/home/abi/fetcher/tmp/morm-1.4.3.tar.gz]
+[2023-07-27 08:24:36] INFO root fetch - processPackages [morm]: Remove: archive file [/home/abi/fetcher/tmp/morm-1.4.4-py3-none-any.whl.zip]
+[2023-07-27 08:24:36] INFO root fetch - main [MainThread]: End processing [morm]: success
+[2023-07-27 08:24:36] INFO root fetch - processPackages [cog2]: Remove: archive file [/home/abi/fetcher/tmp/cog2-0.1.3.tar.gz]
+[2023-07-27 08:24:36] INFO root fetch - processPackages [cog2]: Remove: archive file [/home/abi/fetcher/tmp/cog2-0.1.4.tar.gz]
+[2023-07-27 08:24:36] INFO root fetch - main [MainThread]: End processing [cog2]: success
+[2023-07-27 08:24:36] INFO root fetch - processPackages [robotframework-imagedetection]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-imagedetection-0.0.3.tar.gz]
+[2023-07-27 08:24:36] INFO root fetch - processPackages [robotframework-imagedetection]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-imagedetection-0.0.4.tar.gz]
+[2023-07-27 08:24:36] INFO root fetch - main [MainThread]: End processing [robotframework-imagedetection]: success
+[2023-07-27 08:24:36] INFO root fetch - processPackages [xjet]: Remove: archive file [/home/abi/fetcher/tmp/xjet-0.1.3.tar.gz]
+[2023-07-27 08:24:36] INFO root fetch - processPackages [xjet]: Remove: archive file [/home/abi/fetcher/tmp/xjet-0.1.5.tar.gz]
+[2023-07-27 08:24:36] INFO root fetch - main [MainThread]: End processing [xjet]: success
+[2023-07-27 08:24:36] INFO root fetch - processPackages [proctracer]: Remove: archive file [/home/abi/fetcher/tmp/proctracer-0.0.20.tar.gz]
+[2023-07-27 08:24:36] INFO root fetch - processPackages [proctracer]: Remove: archive file [/home/abi/fetcher/tmp/proctracer-0.0.21.tar.gz]
+[2023-07-27 08:24:36] INFO root fetch - main [MainThread]: End processing [proctracer]: success
+[2023-07-27 08:24:36] INFO root fetch - processPackages [jupyterlab-s3-browser-uccps]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_s3_browser_uccps-0.10.2.tar.gz]
+[2023-07-27 08:24:36] INFO root fetch - processPackages [jupyterlab-s3-browser-uccps]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_s3_browser_uccps-0.10.3.tar.gz]
+[2023-07-27 08:24:36] INFO root fetch - main [MainThread]: End processing [jupyterlab-s3-browser-uccps]: success
+[2023-07-27 08:24:36] INFO root fetch - processPackages [muffin-peewee-aio]: Remove: archive file [/home/abi/fetcher/tmp/muffin-peewee-aio-0.9.5.tar.gz]
+[2023-07-27 08:24:36] INFO root fetch - processPackages [muffin-peewee-aio]: Remove: archive file [/home/abi/fetcher/tmp/muffin-peewee-aio-0.9.6.tar.gz]
+[2023-07-27 08:24:36] INFO root fetch - main [MainThread]: End processing [muffin-peewee-aio]: success
+[2023-07-27 08:24:36] INFO root fetch - main [MainThread]: Store serial: [19056003]
