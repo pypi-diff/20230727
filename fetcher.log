@@ -15695,3 +15695,63 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-27 07:53:11] INFO root fetch - processPackages [django-jsonform]: Remove: archive file [/home/abi/fetcher/tmp/django-jsonform-2.9.0.tar.gz]
 [2023-07-27 07:53:11] INFO root fetch - main [MainThread]: End processing [django-jsonform]: success
 [2023-07-27 07:53:11] INFO root fetch - main [MainThread]: Store serial: [19055786]
+[2023-07-27 07:58:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19055786]
+[2023-07-27 07:58:20] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-27 07:58:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: promptlabs
+[2023-07-27 07:58:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: libknot
+[2023-07-27 07:58:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aiohttp-deps
+[2023-07-27 07:58:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: minlog
+[2023-07-27 07:58:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stakepy
+[2023-07-27 07:58:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pami
+[2023-07-27 07:58:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kgdata
+[2023-07-27 07:58:20] INFO root fetch - processPackages [libknot]: New version: [3.2.9] Old Version: [3.2.8]
+[2023-07-27 07:58:20] INFO root fetch - processPackages [aiohttp-deps]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-27 07:58:20] WARNING root fetch - processPackages [promptlabs]: Skipping, unable to determine old version
+[2023-07-27 07:58:20] INFO root fetch - main [MainThread]: End processing [promptlabs] error
+[2023-07-27 07:58:20] INFO root fetch - processPackages [stakepy]: New version: [1.0.2] Old Version: [1.0.0]
+[2023-07-27 07:58:20] INFO root fetch - processPackages [minlog]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-27 07:58:20] INFO root fetch - processPackages [aiohttp-deps]: Downloading https://files.pythonhosted.org/packages/44/59/2a4958c4ab74778ff1522792eb9fa38655ef2a3506a5124b40337fc9b2e6/aiohttp_deps-0.3.1.tar.gz
+[2023-07-27 07:58:20] INFO root fetch - processPackages [stakepy]: Downloading https://files.pythonhosted.org/packages/cb/d5/5b43657e210c70d63b538fbe20366388f811a818ab7bb3e17294afcdaf80/stakepy-1.0.0.tar.gz
+[2023-07-27 07:58:20] INFO root fetch - processPackages [minlog]: Downloading https://files.pythonhosted.org/packages/eb/0e/ee60df39b49b5052f3daeca45e18139d9dd070e25efb2bbfc6909fe78017/minlog-0.2.0.tar.gz
+[2023-07-27 07:58:20] INFO root fetch - processPackages [pami]: New version: [2023.7.7] Old Version: [2023.7.27]
+[2023-07-27 07:58:20] INFO root fetch - processPackages [kgdata]: New version: [4.0.1] Old Version: [3.9.2]
+[2023-07-27 07:58:20] INFO root fetch - processPackages [libknot]: Downloading https://files.pythonhosted.org/packages/8f/8e/a845926b50b87ac6a2f255a5f0008b03fcc220aeaf46022f641ac2fcee08/libknot-3.2.8.tar.gz
+[2023-07-27 07:58:20] INFO root fetch - processPackages [pami]: Downloading https://files.pythonhosted.org/packages/c4/1e/4f6134ba1144a36c698d373f199b311c0d1b1c448ae25e4e71dba05a931f/pami-2023.7.27.tar.gz
+[2023-07-27 07:58:20] INFO root fetch - processPackages [aiohttp-deps]: Downloading https://files.pythonhosted.org/packages/72/d5/22099d863718850019bd3e76807aed7a6fe6bd4976a9b1a33f6471e98915/aiohttp_deps-0.3.2.tar.gz
+[2023-07-27 07:58:20] INFO root fetch - processPackages [minlog]: Downloading https://files.pythonhosted.org/packages/39/f6/d2114712f32f71416fff25e4b3d387fc232e836d2a229b488f22b9b54cb2/minlog-0.3.0.tar.gz
+[2023-07-27 07:58:20] INFO root fetch - processPackages [stakepy]: Downloading https://files.pythonhosted.org/packages/51/ee/4bd982d024f8d644a4671ae2d11c03329987f709211fd938174cea8e22fd/stakepy-1.0.2.tar.gz
+[2023-07-27 07:58:20] INFO root fetch - processPackages [kgdata]: Downloading https://files.pythonhosted.org/packages/68/6b/fefc9c73ddff552d605f33696168031be27cad88c66b65f8cd5a4ee09c8b/kgdata-3.9.2.tar.gz
+[2023-07-27 07:58:21] INFO root fetch - processPackages [aiohttp-deps]: executing diffoscope
+[2023-07-27 07:58:21] INFO root fetch - processPackages [aiohttp-deps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiohttp_deps-0.3.1.tar.gz tmp/aiohttp_deps-0.3.2.tar.gz --markdown 20230727/a/aiohttp-deps/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-27 07:58:21] INFO root fetch - processPackages [stakepy]: executing diffoscope
+[2023-07-27 07:58:21] INFO root fetch - processPackages [stakepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stakepy-1.0.0.tar.gz tmp/stakepy-1.0.2.tar.gz --markdown 20230727/s/stakepy/1.0.0-1.0.2/diff.md --exclude *.pyd
+[2023-07-27 07:58:21] INFO root fetch - processPackages [minlog]: executing diffoscope
+[2023-07-27 07:58:21] INFO root fetch - processPackages [minlog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minlog-0.2.0.tar.gz tmp/minlog-0.3.0.tar.gz --markdown 20230727/m/minlog/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-27 07:58:21] INFO root fetch - processPackages [libknot]: Downloading https://files.pythonhosted.org/packages/15/62/959ac6c37cf5cc6f4950bdde09dbba6dd20263f09578fb86c90184b8513b/libknot-3.2.9.tar.gz
+[2023-07-27 07:58:21] INFO root fetch - processPackages [libknot]: executing diffoscope
+[2023-07-27 07:58:21] INFO root fetch - processPackages [libknot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libknot-3.2.8.tar.gz tmp/libknot-3.2.9.tar.gz --markdown 20230727/l/libknot/3.2.8-3.2.9/diff.md --exclude *.pyd
+[2023-07-27 07:58:21] INFO root fetch - processPackages [pami]: Downloading https://files.pythonhosted.org/packages/e5/b5/d3f8f4040d5ecd0e1161e74b0d0aa44917c676425d43137299c53e5096b5/pami-2023.7.7.tar.gz
+[2023-07-27 07:58:21] INFO root fetch - processPackages [kgdata]: Downloading https://files.pythonhosted.org/packages/02/db/c4ea60043ec03cb0e1ead434d45fa0bd1e3eb0f663434a42bf698f5e5da5/kgdata-4.0.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-27 07:58:21] INFO root fetch - processPackages [pami]: executing diffoscope
+[2023-07-27 07:58:21] INFO root fetch - processPackages [pami]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pami-2023.7.27.tar.gz tmp/pami-2023.7.7.tar.gz --markdown 20230727/p/pami/2023.7.27-2023.7.7/diff.md --exclude *.pyd
+[2023-07-27 07:58:21] INFO root fetch - processPackages [stakepy]: Remove: archive file [/home/abi/fetcher/tmp/stakepy-1.0.0.tar.gz]
+[2023-07-27 07:58:21] INFO root fetch - processPackages [stakepy]: Remove: archive file [/home/abi/fetcher/tmp/stakepy-1.0.2.tar.gz]
+[2023-07-27 07:58:21] INFO root fetch - main [MainThread]: End processing [stakepy]: success
+[2023-07-27 07:58:21] INFO root fetch - processPackages [minlog]: Remove: archive file [/home/abi/fetcher/tmp/minlog-0.2.0.tar.gz]
+[2023-07-27 07:58:21] INFO root fetch - processPackages [minlog]: Remove: archive file [/home/abi/fetcher/tmp/minlog-0.3.0.tar.gz]
+[2023-07-27 07:58:21] INFO root fetch - main [MainThread]: End processing [minlog]: success
+[2023-07-27 07:58:22] INFO root fetch - processPackages [aiohttp-deps]: Remove: archive file [/home/abi/fetcher/tmp/aiohttp_deps-0.3.1.tar.gz]
+[2023-07-27 07:58:22] INFO root fetch - processPackages [aiohttp-deps]: Remove: archive file [/home/abi/fetcher/tmp/aiohttp_deps-0.3.2.tar.gz]
+[2023-07-27 07:58:22] INFO root fetch - main [MainThread]: End processing [aiohttp-deps]: success
+[2023-07-27 07:58:22] INFO root fetch - processPackages [libknot]: Remove: archive file [/home/abi/fetcher/tmp/libknot-3.2.8.tar.gz]
+[2023-07-27 07:58:22] INFO root fetch - processPackages [libknot]: Remove: archive file [/home/abi/fetcher/tmp/libknot-3.2.9.tar.gz]
+[2023-07-27 07:58:22] INFO root fetch - main [MainThread]: End processing [libknot]: success
+[2023-07-27 07:58:22] INFO root fetch - processPackages [kgdata]: executing diffoscope
+[2023-07-27 07:58:22] INFO root fetch - processPackages [kgdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kgdata-3.9.2.tar.gz tmp/kgdata-4.0.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230727/k/kgdata/3.9.2-4.0.1/diff.md --exclude *.pyd
+[2023-07-27 07:58:23] INFO root fetch - processPackages [kgdata]: Remove: archive file [/home/abi/fetcher/tmp/kgdata-3.9.2.tar.gz]
+[2023-07-27 07:58:23] INFO root fetch - processPackages [kgdata]: Remove: archive file [/home/abi/fetcher/tmp/kgdata-4.0.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-27 07:58:23] INFO root fetch - main [MainThread]: End processing [kgdata]: success
+[2023-07-27 07:58:23] INFO root fetch - processPackages [pami]: Remove: archive file [/home/abi/fetcher/tmp/pami-2023.7.27.tar.gz]
+[2023-07-27 07:58:23] INFO root fetch - processPackages [pami]: Remove: archive file [/home/abi/fetcher/tmp/pami-2023.7.7.tar.gz]
+[2023-07-27 07:58:23] INFO root fetch - main [MainThread]: End processing [pami]: success
+[2023-07-27 07:58:23] INFO root fetch - main [MainThread]: Store serial: [19055811]
