@@ -16853,3 +16853,85 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-27 08:51:24] INFO root fetch - processPackages [core-models]: Remove: archive file [/home/abi/fetcher/tmp/core_models-0.1.7.tar.gz]
 [2023-07-27 08:51:24] INFO root fetch - main [MainThread]: End processing [core-models]: success
 [2023-07-27 08:51:24] INFO root fetch - main [MainThread]: Store serial: [19056278]
+[2023-07-27 08:56:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19056278]
+[2023-07-27 08:56:33] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-27 08:56:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: neural-amp-modeler
+[2023-07-27 08:56:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ldas
+[2023-07-27 08:56:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: deepchecks
+[2023-07-27 08:56:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: oganesson
+[2023-07-27 08:56:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: botnium
+[2023-07-27 08:56:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pbrm
+[2023-07-27 08:56:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: thetiscore
+[2023-07-27 08:56:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: stigg-api-client
+[2023-07-27 08:56:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: stigg-api-client-v2
+[2023-07-27 08:56:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: paddlepaddle
+[2023-07-27 08:56:33] WARNING root fetch - processPackages [ldas]: Skipping, unable to determine old version
+[2023-07-27 08:56:33] INFO root fetch - processPackages [ldas]: Start processing: garth
+[2023-07-27 08:56:33] INFO root fetch - main [MainThread]: End processing [ldas] error
+[2023-07-27 08:56:33] INFO root fetch - processPackages [pbrm]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-27 08:56:33] INFO root fetch - processPackages [oganesson]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-27 08:56:33] INFO root fetch - processPackages [garth]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-27 08:56:33] INFO root fetch - processPackages [paddlepaddle]: New version: [2.5.0rc1] Old Version: [2.5.0rc0]
+[2023-07-27 08:56:34] INFO root fetch - processPackages [stigg-api-client-v2]: New version: [0.508.0] Old Version: [0.505.1]
+[2023-07-27 08:56:34] INFO root fetch - processPackages [pbrm]: Downloading https://files.pythonhosted.org/packages/a1/f0/accb21feb31e36136bc0e264b93a055ec83ce7ec2a29ae6b21de291ae4c8/pbrm-0.0.6-py3-none-any.whl
+[2023-07-27 08:56:34] INFO root fetch - processPackages [neural-amp-modeler]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-07-27 08:56:34] INFO root fetch - processPackages [botnium]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-27 08:56:34] INFO root fetch - processPackages [stigg-api-client]: New version: [0.508.0] Old Version: [0.505.1]
+[2023-07-27 08:56:34] WARNING root fetch - processPackages [thetiscore]: Skipping, unable to determine old version
+[2023-07-27 08:56:34] INFO root fetch - main [MainThread]: End processing [thetiscore] error
+[2023-07-27 08:56:34] INFO root fetch - processPackages [deepchecks]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-27 08:56:34] INFO root fetch - processPackages [oganesson]: Downloading https://files.pythonhosted.org/packages/5a/16/eb08948b07191480b03a8bfac4c5f9a14865543131abac8c609c459a3005/oganesson-0.1.8.tar.gz
+[2023-07-27 08:56:34] INFO root fetch - processPackages [garth]: Downloading https://files.pythonhosted.org/packages/7b/d6/a2ed78e24f39dedc1715bedd4cfe170de5b6b49dfd8fc5e33ab20d724d99/garth-0.2.4.tar.gz
+[2023-07-27 08:56:34] INFO root fetch - processPackages [botnium]: Downloading https://files.pythonhosted.org/packages/c3/a4/88b35231e24f86cf5f702688fa00bceb3fc446840bcbfc1533ef6cab5c12/botnium-1.0.1.tar.gz
+[2023-07-27 08:56:34] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/5b/58/3f63783ceadbecb92a58283efd13228b9a22e98b27c0155fbb562446020b/stigg_api_client_v2-0.505.1.tar.gz
+[2023-07-27 08:56:34] INFO root fetch - processPackages [paddlepaddle]: Downloading https://files.pythonhosted.org/packages/a3/19/2001a7f4c5f2e8af46d7ba49d75fb2306a37e7cfb037f2ce81f5099671bf/paddlepaddle-2.5.0rc0-cp39-cp39-win_amd64.whl
+[2023-07-27 08:56:34] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/29/22/bbc69af4f09d297c0727427cac856f0250e8e3ffb54a666f9cce1d76095a/stigg_api_client-0.505.1.tar.gz
+[2023-07-27 08:56:34] WARNING root fetch - processPackages [botnium]: Skipping package: exceeds size limit 17083116>=10485760
+[2023-07-27 08:56:34] INFO root fetch - main [MainThread]: End processing [botnium] error
+[2023-07-27 08:56:34] INFO root fetch - processPackages [neural-amp-modeler]: Downloading https://files.pythonhosted.org/packages/b9/26/79daf643f20bf0607534566086171e2c8a94856f02e8b6d080c555928850/neural-amp-modeler-0.7.0.tar.gz
+[2023-07-27 08:56:34] INFO root fetch - processPackages [pbrm]: Downloading https://files.pythonhosted.org/packages/be/fa/b18a66d02e2dd1984f2a5cdf27bd9bc3dab90260b60fa9ca2f0dc924f416/pbrm-0.0.7-py3-none-any.whl
+[2023-07-27 08:56:34] INFO root fetch - processPackages [deepchecks]: Downloading https://files.pythonhosted.org/packages/a6/cc/4ad18eb7dd1a77550fbb2fdb6d0c60769b45944eff49da4931f1524ef20d/deepchecks-0.9.1.tar.gz
+[2023-07-27 08:56:34] INFO root fetch - processPackages [oganesson]: Downloading https://files.pythonhosted.org/packages/0e/b0/0bf47252cc54184d446e9d6f6d65b1704e58cddd08024db40a08c09c3252/oganesson-0.1.9.tar.gz
+[2023-07-27 08:56:34] INFO root fetch - processPackages [garth]: Downloading https://files.pythonhosted.org/packages/29/6b/ff6b9a49fc0d68070015a3ef1bdfe3db3baa22b8834d672c801b8f2f4a7f/garth-0.2.5.tar.gz
+[2023-07-27 08:56:34] INFO root fetch - processPackages [pbrm]: executing diffoscope
+[2023-07-27 08:56:34] INFO root fetch - processPackages [pbrm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pbrm-0.0.6-py3-none-any.whl.zip tmp/pbrm-0.0.7-py3-none-any.whl.zip --markdown 20230727/p/pbrm/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-27 08:56:34] INFO root fetch - processPackages [oganesson]: executing diffoscope
+[2023-07-27 08:56:34] INFO root fetch - processPackages [oganesson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oganesson-0.1.8.tar.gz tmp/oganesson-0.1.9.tar.gz --markdown 20230727/o/oganesson/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-27 08:56:34] INFO root fetch - processPackages [garth]: executing diffoscope
+[2023-07-27 08:56:34] INFO root fetch - processPackages [garth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garth-0.2.4.tar.gz tmp/garth-0.2.5.tar.gz --markdown 20230727/g/garth/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-27 08:56:34] WARNING root fetch - processPackages [paddlepaddle]: Skipping package: exceeds size limit 71400125>=10485760
+[2023-07-27 08:56:34] INFO root fetch - main [MainThread]: End processing [paddlepaddle] error
+[2023-07-27 08:56:34] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/02/cf/6a75960ee03933adbc624761c5e25a9e596c7e5dff713e3a3a91ddf4c287/stigg_api_client_v2-0.508.0.tar.gz
+[2023-07-27 08:56:34] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/c0/da/673985b0400c8da7ea2f71a9a9707e37d1aa0606ee5312da05625d563c5d/stigg_api_client-0.508.0.tar.gz
+[2023-07-27 08:56:34] INFO root fetch - processPackages [neural-amp-modeler]: Downloading https://files.pythonhosted.org/packages/d1/08/cdb7009a2c820748d9579e876efc933e2082e734849be60e6c3fcb8336be/neural-amp-modeler-0.7.1.tar.gz
+[2023-07-27 08:56:34] INFO root fetch - processPackages [stigg-api-client-v2]: executing diffoscope
+[2023-07-27 08:56:34] INFO root fetch - processPackages [stigg-api-client-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client_v2-0.505.1.tar.gz tmp/stigg_api_client_v2-0.508.0.tar.gz --markdown 20230727/s/stigg-api-client-v2/0.505.1-0.508.0/diff.md --exclude *.pyd
+[2023-07-27 08:56:34] INFO root fetch - processPackages [stigg-api-client]: executing diffoscope
+[2023-07-27 08:56:34] INFO root fetch - processPackages [stigg-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client-0.505.1.tar.gz tmp/stigg_api_client-0.508.0.tar.gz --markdown 20230727/s/stigg-api-client/0.505.1-0.508.0/diff.md --exclude *.pyd
+[2023-07-27 08:56:34] INFO root fetch - processPackages [neural-amp-modeler]: executing diffoscope
+[2023-07-27 08:56:34] INFO root fetch - processPackages [neural-amp-modeler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neural-amp-modeler-0.7.0.tar.gz tmp/neural-amp-modeler-0.7.1.tar.gz --markdown 20230727/n/neural-amp-modeler/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-07-27 08:56:35] INFO root fetch - processPackages [deepchecks]: Downloading https://files.pythonhosted.org/packages/eb/30/c76562ae6e60b918f9dceb0c7f07786febcdc4d4520a33df89d40679a041/deepchecks-0.9.2.tar.gz
+[2023-07-27 08:56:35] INFO root fetch - processPackages [pbrm]: Remove: archive file [/home/abi/fetcher/tmp/pbrm-0.0.6-py3-none-any.whl.zip]
+[2023-07-27 08:56:35] INFO root fetch - processPackages [pbrm]: Remove: archive file [/home/abi/fetcher/tmp/pbrm-0.0.7-py3-none-any.whl.zip]
+[2023-07-27 08:56:35] INFO root fetch - main [MainThread]: End processing [pbrm]: success
+[2023-07-27 08:56:36] INFO root fetch - processPackages [oganesson]: Remove: archive file [/home/abi/fetcher/tmp/oganesson-0.1.8.tar.gz]
+[2023-07-27 08:56:36] INFO root fetch - processPackages [oganesson]: Remove: archive file [/home/abi/fetcher/tmp/oganesson-0.1.9.tar.gz]
+[2023-07-27 08:56:36] INFO root fetch - main [MainThread]: End processing [oganesson]: success
+[2023-07-27 08:56:36] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-0.505.1.tar.gz]
+[2023-07-27 08:56:36] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-0.508.0.tar.gz]
+[2023-07-27 08:56:36] INFO root fetch - main [MainThread]: End processing [stigg-api-client]: success
+[2023-07-27 08:56:36] INFO root fetch - processPackages [garth]: Remove: archive file [/home/abi/fetcher/tmp/garth-0.2.4.tar.gz]
+[2023-07-27 08:56:36] INFO root fetch - processPackages [garth]: Remove: archive file [/home/abi/fetcher/tmp/garth-0.2.5.tar.gz]
+[2023-07-27 08:56:36] INFO root fetch - main [MainThread]: End processing [garth]: success
+[2023-07-27 08:56:36] INFO root fetch - processPackages [neural-amp-modeler]: Remove: archive file [/home/abi/fetcher/tmp/neural-amp-modeler-0.7.0.tar.gz]
+[2023-07-27 08:56:36] INFO root fetch - processPackages [neural-amp-modeler]: Remove: archive file [/home/abi/fetcher/tmp/neural-amp-modeler-0.7.1.tar.gz]
+[2023-07-27 08:56:36] INFO root fetch - main [MainThread]: End processing [neural-amp-modeler]: success
+[2023-07-27 08:56:36] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-0.505.1.tar.gz]
+[2023-07-27 08:56:36] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-0.508.0.tar.gz]
+[2023-07-27 08:56:36] INFO root fetch - main [MainThread]: End processing [stigg-api-client-v2]: success
+[2023-07-27 08:56:37] INFO root fetch - processPackages [deepchecks]: executing diffoscope
+[2023-07-27 08:56:37] INFO root fetch - processPackages [deepchecks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepchecks-0.9.1.tar.gz tmp/deepchecks-0.9.2.tar.gz --markdown 20230727/d/deepchecks/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-27 08:56:39] INFO root fetch - processPackages [deepchecks]: Remove: archive file [/home/abi/fetcher/tmp/deepchecks-0.9.1.tar.gz]
+[2023-07-27 08:56:39] INFO root fetch - processPackages [deepchecks]: Remove: archive file [/home/abi/fetcher/tmp/deepchecks-0.9.2.tar.gz]
+[2023-07-27 08:56:39] INFO root fetch - main [MainThread]: End processing [deepchecks]: success
+[2023-07-27 08:56:39] INFO root fetch - main [MainThread]: Store serial: [19056317]
