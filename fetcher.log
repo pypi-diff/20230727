@@ -11378,3 +11378,72 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-27 05:41:07] INFO root fetch - processPackages [pxblat]: Remove: archive file [/home/abi/fetcher/tmp/pxblat-0.3.0.tar.gz]
 [2023-07-27 05:41:07] INFO root fetch - main [MainThread]: End processing [pxblat]: success
 [2023-07-27 05:41:07] INFO root fetch - main [MainThread]: Store serial: [19054340]
+[2023-07-27 05:46:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19054340]
+[2023-07-27 05:46:16] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-27 05:46:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: burlap
+[2023-07-27 05:46:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: merlin-sdk
+[2023-07-27 05:46:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wow-ai-ml
+[2023-07-27 05:46:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zlgsendcan
+[2023-07-27 05:46:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: http-content-parser
+[2023-07-27 05:46:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: meta-core
+[2023-07-27 05:46:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gdrive-bot
+[2023-07-27 05:46:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: benimang
+[2023-07-27 05:46:16] INFO root fetch - processPackages [meta-core]: New version: [3.7.27] Old Version: [3.7.26]
+[2023-07-27 05:46:16] INFO root fetch - processPackages [http-content-parser]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-27 05:46:16] WARNING root fetch - processPackages [gdrive-bot]: Skipping, unable to determine old version
+[2023-07-27 05:46:16] INFO root fetch - main [MainThread]: End processing [gdrive-bot] error
+[2023-07-27 05:46:16] INFO root fetch - processPackages [burlap]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-07-27 05:46:16] INFO root fetch - processPackages [zlgsendcan]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-27 05:46:16] INFO root fetch - processPackages [wow-ai-ml]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-07-27 05:46:16] INFO root fetch - processPackages [merlin-sdk]: New version: [0.9.1] Old Version: [0.9.0.dev0]
+[2023-07-27 05:46:16] INFO root fetch - processPackages [benimang]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-27 05:46:16] INFO root fetch - processPackages [zlgsendcan]: Downloading https://files.pythonhosted.org/packages/8c/9f/f8bb275e8046a9509d3ee694839228eccb89d3e5e3791e978652fe47bb93/zlgsendcan-1.1.8.tar.gz
+[2023-07-27 05:46:16] INFO root fetch - processPackages [burlap]: Downloading https://files.pythonhosted.org/packages/fc/e6/42b063deba5f865cce573d1eb1e76fd2200f51b99bdc7e1797f4d6f0bd45/burlap-0.9.98.tar.gz
+[2023-07-27 05:46:16] INFO root fetch - processPackages [http-content-parser]: Downloading https://files.pythonhosted.org/packages/a5/bd/2caa22d5c0ab4af9bcd884d8ea254cf4bbea1270d45b31831382691dc1fb/http_content_parser-0.0.4.tar.gz
+[2023-07-27 05:46:16] INFO root fetch - processPackages [wow-ai-ml]: Downloading https://files.pythonhosted.org/packages/56/1c/8a00ff7935296a659ef51511683fa31c22344f0b5c86a3041e3ed9a4b18d/wow_ai_ml-0.2.5.tar.gz
+[2023-07-27 05:46:16] INFO root fetch - processPackages [merlin-sdk]: Downloading https://files.pythonhosted.org/packages/a6/93/1ec49bc87e9c3783e78f1047b5a8045a37c626115351da0f603c1ae6a894/merlin-sdk-0.9.0.dev0.tar.gz
+[2023-07-27 05:46:16] INFO root fetch - processPackages [benimang]: Downloading https://files.pythonhosted.org/packages/6c/53/9b86c706ade5f74e42d276d659921701a0cf7c8ba099b489c3958cd88b4f/benimang-0.4.8.tar.gz
+[2023-07-27 05:46:16] INFO root fetch - processPackages [meta-core]: Downloading https://files.pythonhosted.org/packages/4e/6c/acc31742cc72952f37b819f6adeb18ac6962cf012ff178c5416f27821cae/meta-core-3.7.26.tar.gz
+[2023-07-27 05:46:16] INFO root fetch - processPackages [zlgsendcan]: Downloading https://files.pythonhosted.org/packages/d8/33/acd9ab2f691f11b1ee6457dff73da71c4be3f0ecebdf5c4a5fa5a717e6cc/zlgsendcan-1.1.9.tar.gz
+[2023-07-27 05:46:17] INFO root fetch - processPackages [http-content-parser]: Downloading https://files.pythonhosted.org/packages/f0/81/2011b907971942a781f37d3c2887470277542344be041e7e92eae05c5f33/http_content_parser-0.0.5.tar.gz
+[2023-07-27 05:46:17] INFO root fetch - processPackages [wow-ai-ml]: Downloading https://files.pythonhosted.org/packages/d5/d4/e580e5fcd63a6bcf4b8c70db80b8bf2327a36f4f745e19ad63b6c1a20eb4/wow_ai_ml-0.2.6.tar.gz
+[2023-07-27 05:46:17] INFO root fetch - processPackages [http-content-parser]: executing diffoscope
+[2023-07-27 05:46:17] INFO root fetch - processPackages [http-content-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/http_content_parser-0.0.4.tar.gz tmp/http_content_parser-0.0.5.tar.gz --markdown 20230727/h/http-content-parser/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-27 05:46:17] INFO root fetch - processPackages [burlap]: Downloading https://files.pythonhosted.org/packages/6d/48/0c20ab173d12220662092bd17c55c72df1b308b5e4786aa0350813e01931/burlap-0.9.99.tar.gz
+[2023-07-27 05:46:17] INFO root fetch - processPackages [benimang]: Downloading https://files.pythonhosted.org/packages/e6/d8/79c374e4571a77e12f622ba60e902b628a4f241c92211d73f8b66907db49/benimang-0.4.9.tar.gz
+[2023-07-27 05:46:17] INFO root fetch - processPackages [zlgsendcan]: executing diffoscope
+[2023-07-27 05:46:17] INFO root fetch - processPackages [zlgsendcan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zlgsendcan-1.1.8.tar.gz tmp/zlgsendcan-1.1.9.tar.gz --markdown 20230727/z/zlgsendcan/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-27 05:46:17] INFO root fetch - processPackages [benimang]: executing diffoscope
+[2023-07-27 05:46:17] INFO root fetch - processPackages [benimang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benimang-0.4.8.tar.gz tmp/benimang-0.4.9.tar.gz --markdown 20230727/b/benimang/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-27 05:46:17] INFO root fetch - processPackages [wow-ai-ml]: executing diffoscope
+[2023-07-27 05:46:17] INFO root fetch - processPackages [wow-ai-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wow_ai_ml-0.2.5.tar.gz tmp/wow_ai_ml-0.2.6.tar.gz --markdown 20230727/w/wow-ai-ml/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-07-27 05:46:17] INFO root fetch - processPackages [meta-core]: Downloading https://files.pythonhosted.org/packages/1e/60/8ede5a8c4e45f99c73ad8b553e0d93502fe7aeb39b6aea52a603946e07db/meta-core-3.7.27.tar.gz
+[2023-07-27 05:46:17] INFO root fetch - processPackages [merlin-sdk]: Downloading https://files.pythonhosted.org/packages/48/3b/5e6b41bed4feb59823f7fa8ccbf076c977df12a20955a3c783fab418f126/merlin-sdk-0.9.1.tar.gz
+[2023-07-27 05:46:17] INFO root fetch - processPackages [burlap]: executing diffoscope
+[2023-07-27 05:46:17] INFO root fetch - processPackages [burlap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/burlap-0.9.98.tar.gz tmp/burlap-0.9.99.tar.gz --markdown 20230727/b/burlap/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-07-27 05:46:17] INFO root fetch - processPackages [meta-core]: executing diffoscope
+[2023-07-27 05:46:17] INFO root fetch - processPackages [meta-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meta-core-3.7.26.tar.gz tmp/meta-core-3.7.27.tar.gz --markdown 20230727/m/meta-core/3.7.26-3.7.27/diff.md --exclude *.pyd
+[2023-07-27 05:46:17] INFO root fetch - processPackages [merlin-sdk]: executing diffoscope
+[2023-07-27 05:46:17] INFO root fetch - processPackages [merlin-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/merlin-sdk-0.9.0.dev0.tar.gz tmp/merlin-sdk-0.9.1.tar.gz --markdown 20230727/m/merlin-sdk/0.9.0.dev0-0.9.1/diff.md --exclude *.pyd
+[2023-07-27 05:46:18] INFO root fetch - processPackages [zlgsendcan]: Remove: archive file [/home/abi/fetcher/tmp/zlgsendcan-1.1.8.tar.gz]
+[2023-07-27 05:46:18] INFO root fetch - processPackages [zlgsendcan]: Remove: archive file [/home/abi/fetcher/tmp/zlgsendcan-1.1.9.tar.gz]
+[2023-07-27 05:46:18] INFO root fetch - main [MainThread]: End processing [zlgsendcan]: success
+[2023-07-27 05:46:18] INFO root fetch - processPackages [http-content-parser]: Remove: archive file [/home/abi/fetcher/tmp/http_content_parser-0.0.4.tar.gz]
+[2023-07-27 05:46:18] INFO root fetch - processPackages [http-content-parser]: Remove: archive file [/home/abi/fetcher/tmp/http_content_parser-0.0.5.tar.gz]
+[2023-07-27 05:46:18] INFO root fetch - main [MainThread]: End processing [http-content-parser]: success
+[2023-07-27 05:46:18] INFO root fetch - processPackages [wow-ai-ml]: Remove: archive file [/home/abi/fetcher/tmp/wow_ai_ml-0.2.5.tar.gz]
+[2023-07-27 05:46:18] INFO root fetch - processPackages [wow-ai-ml]: Remove: archive file [/home/abi/fetcher/tmp/wow_ai_ml-0.2.6.tar.gz]
+[2023-07-27 05:46:18] INFO root fetch - main [MainThread]: End processing [wow-ai-ml]: success
+[2023-07-27 05:46:18] INFO root fetch - processPackages [benimang]: Remove: archive file [/home/abi/fetcher/tmp/benimang-0.4.8.tar.gz]
+[2023-07-27 05:46:18] INFO root fetch - processPackages [benimang]: Remove: archive file [/home/abi/fetcher/tmp/benimang-0.4.9.tar.gz]
+[2023-07-27 05:46:18] INFO root fetch - main [MainThread]: End processing [benimang]: success
+[2023-07-27 05:46:18] INFO root fetch - processPackages [meta-core]: Remove: archive file [/home/abi/fetcher/tmp/meta-core-3.7.26.tar.gz]
+[2023-07-27 05:46:18] INFO root fetch - processPackages [meta-core]: Remove: archive file [/home/abi/fetcher/tmp/meta-core-3.7.27.tar.gz]
+[2023-07-27 05:46:18] INFO root fetch - main [MainThread]: End processing [meta-core]: success
+[2023-07-27 05:46:19] INFO root fetch - processPackages [burlap]: Remove: archive file [/home/abi/fetcher/tmp/burlap-0.9.98.tar.gz]
+[2023-07-27 05:46:19] INFO root fetch - processPackages [burlap]: Remove: archive file [/home/abi/fetcher/tmp/burlap-0.9.99.tar.gz]
+[2023-07-27 05:46:19] INFO root fetch - main [MainThread]: End processing [burlap]: success
+[2023-07-27 05:46:19] INFO root fetch - processPackages [merlin-sdk]: Remove: archive file [/home/abi/fetcher/tmp/merlin-sdk-0.9.0.dev0.tar.gz]
+[2023-07-27 05:46:19] INFO root fetch - processPackages [merlin-sdk]: Remove: archive file [/home/abi/fetcher/tmp/merlin-sdk-0.9.1.tar.gz]
+[2023-07-27 05:46:19] INFO root fetch - main [MainThread]: End processing [merlin-sdk]: success
+[2023-07-27 05:46:19] INFO root fetch - main [MainThread]: Store serial: [19054364]
