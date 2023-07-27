@@ -15998,3 +15998,135 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-27 08:14:03] INFO root fetch - processPackages [ibm-watson-machine-learning]: Remove: archive file [/home/abi/fetcher/tmp/ibm_watson_machine_learning-1.0.99.tar.gz]
 [2023-07-27 08:14:03] INFO root fetch - main [MainThread]: End processing [ibm-watson-machine-learning]: success
 [2023-07-27 08:14:03] INFO root fetch - main [MainThread]: Store serial: [19055925]
+[2023-07-27 08:19:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19055925]
+[2023-07-27 08:19:12] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-27 08:19:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: langchain-serve
+[2023-07-27 08:19:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bcmd
+[2023-07-27 08:19:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: akwlkata
+[2023-07-27 08:19:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pretext
+[2023-07-27 08:19:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: VNPT
+[2023-07-27 08:19:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sui-brownie
+[2023-07-27 08:19:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: promptlabs
+[2023-07-27 08:19:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hust-login
+[2023-07-27 08:19:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lbt-honeybee
+[2023-07-27 08:19:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tensorneko-util
+[2023-07-27 08:19:13] INFO root fetch - processPackages [VNPT]: New version: [0.5] Old Version: [0.4]
+[2023-07-27 08:19:13] INFO root fetch - processPackages [promptlabs]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-27 08:19:13] INFO root fetch - processPackages [bcmd]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-27 08:19:13] INFO root fetch - processPackages [hust-login]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-27 08:19:13] INFO root fetch - processPackages [akwlkata]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-27 08:19:13] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-07-27 08:19:13] INFO root fetch - processPackages [tensorneko-util]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-07-27 08:19:13] INFO root fetch - processPackages [pretext]: New version: [1.7.3.dev20230727] Old Version: [1.7.3.dev20230726]
+[2023-07-27 08:19:13] INFO root fetch - processPackages [sui-brownie]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-27 08:19:13] INFO root fetch - processPackages [lbt-honeybee]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-07-27 08:19:13] INFO root fetch - processPackages [akwlkata]: Downloading https://files.pythonhosted.org/packages/5f/c7/17747b436e4de100fd1f56efcdcc55de8c202f93f62eebc98f7caf18ac28/akwlkata-1.0.2.tar.gz
+[2023-07-27 08:19:13] INFO root fetch - processPackages [VNPT]: Downloading https://files.pythonhosted.org/packages/1f/40/84fe63d349bbe9f1334066f5b7a9a084a069fe4ef151535ceccca7420809/VNPT-0.4.tar.gz
+[2023-07-27 08:19:13] INFO root fetch - processPackages [bcmd]: Downloading https://files.pythonhosted.org/packages/14/bb/4ff93028b64c93970c4b76f5b7cfe73c743a936ed7a9653b9166cfab7d40/bcmd-0.0.8.tar.gz
+[2023-07-27 08:19:13] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/2f/ef/8db932bc5f6fb8002904e6379203a74b611ff85dc47cfaf3577124fa0465/pretext-1.7.3.dev20230726.tar.gz
+[2023-07-27 08:19:13] INFO root fetch - processPackages [promptlabs]: Downloading https://files.pythonhosted.org/packages/73/50/d0e7a7147a4ab49de52cb3bc9a905e769bf0e42d464bac30e19e18e36a23/promptlabs-0.0.1.tar.gz
+[2023-07-27 08:19:13] INFO root fetch - processPackages [sui-brownie]: Downloading https://files.pythonhosted.org/packages/50/3e/5ed7b5053f28ccb74c0962cdb265bf34683b5b833f0cd6805bbebc053797/sui_brownie-1.1.1-py3-none-any.whl
+[2023-07-27 08:19:13] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/19/59/4901be09b4bc6b97917c58bf3279cb373aa222989b9501e53b4c43213a9e/lbt-honeybee-0.7.98.tar.gz
+[2023-07-27 08:19:13] INFO root fetch - processPackages [hust-login]: Downloading https://files.pythonhosted.org/packages/22/01/e9754ac55c04a6063168890b0bc7e2aa36d81844934f0d9eae29f23385e1/hust_login-1.0.2.tar.gz
+[2023-07-27 08:19:13] INFO root fetch - processPackages [tensorneko-util]: Downloading https://files.pythonhosted.org/packages/bd/38/c60ce4bf1731af72ec5f787e3a7e3d49a46ec313ff199a507bc09948a318/tensorneko_util-0.2.9.tar.gz
+[2023-07-27 08:19:13] INFO root fetch - processPackages [langchain-serve]: Downloading https://files.pythonhosted.org/packages/b7/44/08a32d4d65d7aed7bf8a2e8d59c7c72ac5c5538be8c3e735a588d5ccf69b/langchain-serve-0.0.9.dev22.tar.gz
+[2023-07-27 08:19:13] INFO root fetch - processPackages [bcmd]: Downloading https://files.pythonhosted.org/packages/3b/fe/3525534e0b5966e860bd44d83a8fd9b36b7f3431bf8abe081ed29fe6de12/bcmd-0.0.9.tar.gz
+[2023-07-27 08:19:13] INFO root fetch - processPackages [VNPT]: Downloading https://files.pythonhosted.org/packages/d4/87/0af352823e913540972a274cf9403424e59747ef0563c69a25035f20eee4/VNPT-0.5.tar.gz
+[2023-07-27 08:19:13] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/a2/24/156ec161f44515db7966a68d9cc8aa62da7475128d138541e64b86dd4487/lbt-honeybee-0.7.99.tar.gz
+[2023-07-27 08:19:13] INFO root fetch - processPackages [akwlkata]: Downloading https://files.pythonhosted.org/packages/1b/8d/2da8c645d038b16821ab21143533baeddf04f3924cb9dced56fffee2a4b9/akwlkata-1.0.3.tar.gz
+[2023-07-27 08:19:13] INFO root fetch - processPackages [promptlabs]: Downloading https://files.pythonhosted.org/packages/5c/c4/8b98b5793809f1505c4480cbab207a6e2eaa205a983bb0282552168cec85/promptlabs-0.0.2.tar.gz
+[2023-07-27 08:19:14] INFO root fetch - processPackages [sui-brownie]: Downloading https://files.pythonhosted.org/packages/35/f7/2168203baeed0428b1850f51cb12554d886bd8f32f0a17905d2b74dafd48/sui_brownie-1.1.2-py3-none-any.whl
+[2023-07-27 08:19:14] INFO root fetch - processPackages [bcmd]: executing diffoscope
+[2023-07-27 08:19:14] INFO root fetch - processPackages [bcmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bcmd-0.0.8.tar.gz tmp/bcmd-0.0.9.tar.gz --markdown 20230727/b/bcmd/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-27 08:19:14] INFO root fetch - processPackages [hust-login]: Downloading https://files.pythonhosted.org/packages/bf/90/e0e52dceba11bcf599289a9203c1c768daa9aae8b6d96d2a831568a1f034/hust_login-1.0.3.tar.gz
+[2023-07-27 08:19:14] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/bf/c8/0c6e2be5da9e98f3ef9785b90534561c96614596a7f0aebaa9d36627b045/pretext-1.7.3.dev20230727.tar.gz
+[2023-07-27 08:19:14] INFO root fetch - processPackages [akwlkata]: executing diffoscope
+[2023-07-27 08:19:14] INFO root fetch - processPackages [akwlkata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akwlkata-1.0.2.tar.gz tmp/akwlkata-1.0.3.tar.gz --markdown 20230727/a/akwlkata/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-27 08:19:14] INFO root fetch - processPackages [VNPT]: executing diffoscope
+[2023-07-27 08:19:14] INFO root fetch - processPackages [VNPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VNPT-0.4.tar.gz tmp/VNPT-0.5.tar.gz --markdown 20230727/V/VNPT/0.4-0.5/diff.md --exclude *.pyd
+[2023-07-27 08:19:14] INFO root fetch - processPackages [lbt-honeybee]: executing diffoscope
+[2023-07-27 08:19:14] INFO root fetch - processPackages [lbt-honeybee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-honeybee-0.7.98.tar.gz tmp/lbt-honeybee-0.7.99.tar.gz --markdown 20230727/l/lbt-honeybee/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-07-27 08:19:14] INFO root fetch - processPackages [tensorneko-util]: Downloading https://files.pythonhosted.org/packages/1b/6a/b1472c64467b16499c62b390dbd6b5a8b77cf69f4914f4870ca3489c9f83/tensorneko_util-0.3.0.tar.gz
+[2023-07-27 08:19:14] INFO root fetch - processPackages [promptlabs]: executing diffoscope
+[2023-07-27 08:19:14] INFO root fetch - processPackages [promptlabs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptlabs-0.0.1.tar.gz tmp/promptlabs-0.0.2.tar.gz --markdown 20230727/p/promptlabs/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-27 08:19:14] INFO root fetch - processPackages [hust-login]: executing diffoscope
+[2023-07-27 08:19:14] INFO root fetch - processPackages [hust-login]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hust_login-1.0.2.tar.gz tmp/hust_login-1.0.3.tar.gz --markdown 20230727/h/hust-login/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-27 08:19:14] INFO root fetch - processPackages [langchain-serve]: Downloading https://files.pythonhosted.org/packages/51/a3/7492d3c89e7181c3fb783593129a3de459021071c2e7075f0050494b2de4/langchain-serve-0.0.9.dev9.tar.gz
+[2023-07-27 08:19:14] INFO root fetch - processPackages [sui-brownie]: executing diffoscope
+[2023-07-27 08:19:14] INFO root fetch - processPackages [sui-brownie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sui_brownie-1.1.1-py3-none-any.whl.zip tmp/sui_brownie-1.1.2-py3-none-any.whl.zip --markdown 20230727/s/sui-brownie/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-27 08:19:14] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-07-27 08:19:14] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230727/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-07-27 08:19:14] INFO root fetch - processPackages [tensorneko-util]: executing diffoscope
+[2023-07-27 08:19:14] INFO root fetch - processPackages [tensorneko-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorneko_util-0.2.9.tar.gz tmp/tensorneko_util-0.3.0.tar.gz --markdown 20230727/t/tensorneko-util/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2023-07-27 08:19:14] INFO root fetch - processPackages [pretext]: executing diffoscope
+[2023-07-27 08:19:14] INFO root fetch - processPackages [pretext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretext-1.7.3.dev20230726.tar.gz tmp/pretext-1.7.3.dev20230727.tar.gz --markdown 20230727/p/pretext/1.7.3.dev20230726-1.7.3.dev20230727/diff.md --exclude *.pyd
+[2023-07-27 08:19:15] INFO root fetch - processPackages [promptlabs]: Remove: archive file [/home/abi/fetcher/tmp/promptlabs-0.0.1.tar.gz]
+[2023-07-27 08:19:15] INFO root fetch - processPackages [promptlabs]: Remove: archive file [/home/abi/fetcher/tmp/promptlabs-0.0.2.tar.gz]
+[2023-07-27 08:19:15] INFO root fetch - processPackages [promptlabs]: Start processing: tensorneko
+[2023-07-27 08:19:15] INFO root fetch - main [MainThread]: End processing [promptlabs]: success
+[2023-07-27 08:19:15] INFO root fetch - processPackages [VNPT]: Remove: archive file [/home/abi/fetcher/tmp/VNPT-0.4.tar.gz]
+[2023-07-27 08:19:15] INFO root fetch - processPackages [VNPT]: Remove: archive file [/home/abi/fetcher/tmp/VNPT-0.5.tar.gz]
+[2023-07-27 08:19:15] INFO root fetch - processPackages [VNPT]: Start processing: cdk8s
+[2023-07-27 08:19:15] INFO root fetch - main [MainThread]: End processing [VNPT]: success
+[2023-07-27 08:19:16] INFO root fetch - processPackages [akwlkata]: Remove: archive file [/home/abi/fetcher/tmp/akwlkata-1.0.2.tar.gz]
+[2023-07-27 08:19:16] INFO root fetch - processPackages [akwlkata]: Remove: archive file [/home/abi/fetcher/tmp/akwlkata-1.0.3.tar.gz]
+[2023-07-27 08:19:16] INFO root fetch - processPackages [akwlkata]: Start processing: dragonfly-energy
+[2023-07-27 08:19:16] INFO root fetch - main [MainThread]: End processing [akwlkata]: success
+[2023-07-27 08:19:16] INFO root fetch - processPackages [tensorneko]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-07-27 08:19:16] INFO root fetch - processPackages [bcmd]: Remove: archive file [/home/abi/fetcher/tmp/bcmd-0.0.8.tar.gz]
+[2023-07-27 08:19:16] INFO root fetch - processPackages [bcmd]: Remove: archive file [/home/abi/fetcher/tmp/bcmd-0.0.9.tar.gz]
+[2023-07-27 08:19:16] INFO root fetch - processPackages [bcmd]: Start processing: benimang
+[2023-07-27 08:19:16] INFO root fetch - main [MainThread]: End processing [bcmd]: success
+[2023-07-27 08:19:16] INFO root fetch - processPackages [cdk8s]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-07-27 08:19:16] INFO root fetch - processPackages [dragonfly-energy]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-07-27 08:19:16] INFO root fetch - processPackages [benimang]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-27 08:19:16] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.7.98.tar.gz]
+[2023-07-27 08:19:16] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.7.99.tar.gz]
+[2023-07-27 08:19:16] INFO root fetch - processPackages [lbt-honeybee]: Start processing: libsql
+[2023-07-27 08:19:16] INFO root fetch - main [MainThread]: End processing [lbt-honeybee]: success
+[2023-07-27 08:19:16] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/7d/c5/592391e50b273450851cb1dd87401069971eead9d407a9d5c5ec13704f65/cdk8s-2.8.0.tar.gz
+[2023-07-27 08:19:16] INFO root fetch - processPackages [dragonfly-energy]: Downloading https://files.pythonhosted.org/packages/20/4e/115840f938ee254b23bd515351ba786228441464717f8557431f914e75f4/dragonfly-energy-1.9.8.tar.gz
+[2023-07-27 08:19:16] INFO root fetch - processPackages [hust-login]: Remove: archive file [/home/abi/fetcher/tmp/hust_login-1.0.2.tar.gz]
+[2023-07-27 08:19:16] INFO root fetch - processPackages [hust-login]: Remove: archive file [/home/abi/fetcher/tmp/hust_login-1.0.3.tar.gz]
+[2023-07-27 08:19:16] INFO root fetch - main [MainThread]: End processing [hust-login]: success
+[2023-07-27 08:19:16] INFO root fetch - processPackages [langchain-serve]: Remove: archive file [/home/abi/fetcher/tmp/langchain-serve-0.0.9.dev22.tar.gz]
+[2023-07-27 08:19:16] INFO root fetch - processPackages [langchain-serve]: Remove: archive file [/home/abi/fetcher/tmp/langchain-serve-0.0.9.dev9.tar.gz]
+[2023-07-27 08:19:16] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-07-27 08:19:16] INFO root fetch - processPackages [benimang]: Downloading https://files.pythonhosted.org/packages/6c/53/9b86c706ade5f74e42d276d659921701a0cf7c8ba099b489c3958cd88b4f/benimang-0.4.8.tar.gz
+[2023-07-27 08:19:16] INFO root fetch - processPackages [tensorneko]: Downloading https://files.pythonhosted.org/packages/cc/7e/3e75bbb469b822594d059431dd281962d3c3f09a45d35003efa569723cef/tensorneko-0.2.9.tar.gz
+[2023-07-27 08:19:16] INFO root fetch - processPackages [sui-brownie]: Remove: archive file [/home/abi/fetcher/tmp/sui_brownie-1.1.1-py3-none-any.whl.zip]
+[2023-07-27 08:19:16] INFO root fetch - processPackages [sui-brownie]: Remove: archive file [/home/abi/fetcher/tmp/sui_brownie-1.1.2-py3-none-any.whl.zip]
+[2023-07-27 08:19:16] INFO root fetch - main [MainThread]: End processing [sui-brownie]: success
+[2023-07-27 08:19:16] WARNING root fetch - processPackages [libsql]: Skipping, unable to determine old version
+[2023-07-27 08:19:16] INFO root fetch - main [MainThread]: End processing [libsql] error
+[2023-07-27 08:19:16] INFO root fetch - processPackages [dragonfly-energy]: Downloading https://files.pythonhosted.org/packages/09/b6/c12f13159c5beb3b855a32f792faef162ad37358d2e0d3311cbd68a969db/dragonfly-energy-1.9.9.tar.gz
+[2023-07-27 08:19:16] INFO root fetch - processPackages [benimang]: Downloading https://files.pythonhosted.org/packages/e6/d8/79c374e4571a77e12f622ba60e902b628a4f241c92211d73f8b66907db49/benimang-0.4.9.tar.gz
+[2023-07-27 08:19:16] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/3b/6d/920a6a9be9d1576059ced41c1fd11a3f7214589f1add4c7d3da2290b1198/cdk8s-2.9.0.tar.gz
+[2023-07-27 08:19:16] INFO root fetch - processPackages [benimang]: executing diffoscope
+[2023-07-27 08:19:16] INFO root fetch - processPackages [benimang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benimang-0.4.8.tar.gz tmp/benimang-0.4.9.tar.gz --markdown 20230727/b/benimang/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-27 08:19:16] INFO root fetch - processPackages [dragonfly-energy]: executing diffoscope
+[2023-07-27 08:19:16] INFO root fetch - processPackages [dragonfly-energy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-energy-1.9.8.tar.gz tmp/dragonfly-energy-1.9.9.tar.gz --markdown 20230727/d/dragonfly-energy/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-07-27 08:19:16] INFO root fetch - processPackages [tensorneko]: Downloading https://files.pythonhosted.org/packages/ec/40/ac76f798dcc1e83adeda0d9c5021c228c9bbcdd353855c179f9b650dee1e/tensorneko-0.3.0.tar.gz
+[2023-07-27 08:19:16] INFO root fetch - processPackages [cdk8s]: executing diffoscope
+[2023-07-27 08:19:16] INFO root fetch - processPackages [cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-2.8.0.tar.gz tmp/cdk8s-2.9.0.tar.gz --markdown 20230727/c/cdk8s/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-07-27 08:19:16] INFO root fetch - processPackages [tensorneko]: executing diffoscope
+[2023-07-27 08:19:16] INFO root fetch - processPackages [tensorneko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorneko-0.2.9.tar.gz tmp/tensorneko-0.3.0.tar.gz --markdown 20230727/t/tensorneko/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2023-07-27 08:19:17] INFO root fetch - processPackages [benimang]: Remove: archive file [/home/abi/fetcher/tmp/benimang-0.4.8.tar.gz]
+[2023-07-27 08:19:17] INFO root fetch - processPackages [benimang]: Remove: archive file [/home/abi/fetcher/tmp/benimang-0.4.9.tar.gz]
+[2023-07-27 08:19:17] INFO root fetch - main [MainThread]: End processing [benimang]: success
+[2023-07-27 08:19:18] INFO root fetch - processPackages [dragonfly-energy]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-energy-1.9.8.tar.gz]
+[2023-07-27 08:19:18] INFO root fetch - processPackages [dragonfly-energy]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-energy-1.9.9.tar.gz]
+[2023-07-27 08:19:18] INFO root fetch - main [MainThread]: End processing [dragonfly-energy]: success
+[2023-07-27 08:19:18] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.8.0.tar.gz]
+[2023-07-27 08:19:18] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.9.0.tar.gz]
+[2023-07-27 08:19:18] INFO root fetch - main [MainThread]: End processing [cdk8s]: success
+[2023-07-27 08:19:18] INFO root fetch - processPackages [tensorneko]: Remove: archive file [/home/abi/fetcher/tmp/tensorneko-0.2.9.tar.gz]
+[2023-07-27 08:19:18] INFO root fetch - processPackages [tensorneko]: Remove: archive file [/home/abi/fetcher/tmp/tensorneko-0.3.0.tar.gz]
+[2023-07-27 08:19:18] INFO root fetch - main [MainThread]: End processing [tensorneko]: success
+[2023-07-27 08:19:19] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.7.3.dev20230726.tar.gz]
+[2023-07-27 08:19:19] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.7.3.dev20230727.tar.gz]
+[2023-07-27 08:19:19] INFO root fetch - main [MainThread]: End processing [pretext]: success
+[2023-07-27 08:19:24] INFO root fetch - processPackages [tensorneko-util]: Remove: archive file [/home/abi/fetcher/tmp/tensorneko_util-0.2.9.tar.gz]
+[2023-07-27 08:19:24] INFO root fetch - processPackages [tensorneko-util]: Remove: archive file [/home/abi/fetcher/tmp/tensorneko_util-0.3.0.tar.gz]
+[2023-07-27 08:19:24] INFO root fetch - main [MainThread]: End processing [tensorneko-util]: success
+[2023-07-27 08:19:24] INFO root fetch - main [MainThread]: Store serial: [19055968]
