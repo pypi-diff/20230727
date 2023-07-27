@@ -7134,3 +7134,192 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-27 03:33:49] ERROR root fetch - processPackages [bioregistry]: Timeout during execution of pkgdiff
 [2023-07-27 03:33:49] INFO root fetch - main [MainThread]: End processing [bioregistry] error
 [2023-07-27 03:33:49] INFO root fetch - main [MainThread]: Store serial: [19052847]
+[2023-07-27 03:39:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19052847]
+[2023-07-27 03:39:07] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-07-27 03:39:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: klu
+[2023-07-27 03:39:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: baselibs
+[2023-07-27 03:39:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nbdev-stdlib
+[2023-07-27 03:39:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nbdev-numpy
+[2023-07-27 03:39:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: libquery-extensions
+[2023-07-27 03:39:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mh-logger
+[2023-07-27 03:39:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: scratch-getdata
+[2023-07-27 03:39:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: waypoint-extraction
+[2023-07-27 03:39:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nbdev-pandas
+[2023-07-27 03:39:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dataclass-binder
+[2023-07-27 03:39:08] INFO root fetch - processPackages [scratch-getdata]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-07-27 03:39:08] INFO root fetch - processPackages [klu]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-27 03:39:08] INFO root fetch - processPackages [mh-logger]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-27 03:39:08] INFO root fetch - processPackages [baselibs]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-27 03:39:08] WARNING root fetch - processPackages [waypoint-extraction]: Skipping, unable to determine old version
+[2023-07-27 03:39:08] INFO root fetch - processPackages [waypoint-extraction]: Start processing: skillshare-downloader
+[2023-07-27 03:39:08] INFO root fetch - main [MainThread]: End processing [waypoint-extraction] error
+[2023-07-27 03:39:08] INFO root fetch - processPackages [dataclass-binder]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-27 03:39:08] INFO root fetch - processPackages [libquery-extensions]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-27 03:39:08] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-27 03:39:08] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-27 03:39:08] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-27 03:39:08] INFO root fetch - processPackages [skillshare-downloader]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-27 03:39:08] INFO root fetch - processPackages [klu]: Downloading https://files.pythonhosted.org/packages/b1/c9/2a9f4e78c580680c6a16d7ae54190d553fdb30b0f46c56ca7d168d55eb41/klu-0.1.8.tar.gz
+[2023-07-27 03:39:08] INFO root fetch - processPackages [scratch-getdata]: Downloading https://files.pythonhosted.org/packages/26/92/0919bb61984f002d69a1bf733b78309ad8cdcb077ea0868ebe4b40ead2ef/scratch-getdata-1.0.7.tar.gz
+[2023-07-27 03:39:08] INFO root fetch - processPackages [mh-logger]: Downloading https://files.pythonhosted.org/packages/5c/85/44c33be9d40271452cbb29b27e3197c73933f0ff9e799d240e1dbd0d53c6/mh-logger-0.0.8.tar.gz
+[2023-07-27 03:39:08] INFO root fetch - processPackages [baselibs]: Downloading https://files.pythonhosted.org/packages/c5/bd/c371449878ffbc74e0200fc8b4d7495536edcf530a0854a3b1d2ea75a4bf/baselibs-0.1.1.tar.gz
+[2023-07-27 03:39:08] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/e8/48/ed43dbfa0bd5ca86a6a3f6ae0500b0cffb413b2c3f118e82da24ef3488f1/nbdev-stdlib-0.0.98.tar.gz
+[2023-07-27 03:39:08] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/73/28/26429c7dd7dcf4c45025b55facc2688943de2ab2ec4851cc073f81f31e65/nbdev-numpy-0.0.98.tar.gz
+[2023-07-27 03:39:08] INFO root fetch - processPackages [dataclass-binder]: Downloading https://files.pythonhosted.org/packages/92/2e/34ea146ea12c28084ed4483471a67e8eeaeda02ba38413f29b446ba52752/dataclass_binder-0.3.1.tar.gz
+[2023-07-27 03:39:08] INFO root fetch - processPackages [libquery-extensions]: Downloading https://files.pythonhosted.org/packages/f2/42/4e45ac2064ed720c09a44745091f2d4b1c06194ecfe0e72fe8147da21e73/libquery_extensions-0.1.0.tar.gz
+[2023-07-27 03:39:08] INFO root fetch - processPackages [skillshare-downloader]: Downloading https://files.pythonhosted.org/packages/54/a5/e1ef8c7eaea501baa602605fbbf250a1334f90987a02a1f039aee941e337/skillshare_downloader-0.2.1.tar.gz
+[2023-07-27 03:39:08] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/e4/e4/cd3df65f7d13a8e8dfa1592e08d78574793d38384b1c92993ce920dcd0df/nbdev-pandas-0.0.98.tar.gz
+[2023-07-27 03:39:08] INFO root fetch - processPackages [scratch-getdata]: Downloading https://files.pythonhosted.org/packages/c8/ab/3fd1b9d689ac803b8511ab4d2d58f5d974b09d8dec414d3a2e24220f3cbc/scratch-getdata-1.0.8.tar.gz
+[2023-07-27 03:39:09] INFO root fetch - processPackages [klu]: Downloading https://files.pythonhosted.org/packages/a5/9b/b497ef7ded62e9d7c34c96061b12e0d3adc6ad653f66589eaebfac32f3fd/klu-0.1.9.tar.gz
+[2023-07-27 03:39:09] INFO root fetch - processPackages [mh-logger]: Downloading https://files.pythonhosted.org/packages/13/03/c574cda800547b0af3c5e708e88ab145d1c96bb13d2252342d45ac679ed8/mh-logger-0.0.9.tar.gz
+[2023-07-27 03:39:09] INFO root fetch - processPackages [baselibs]: Downloading https://files.pythonhosted.org/packages/1a/a8/752c65a6731385c84db2c5cdbdd04ffec5799779ca0db76b5eb8d93b7d28/baselibs-0.1.2.tar.gz
+[2023-07-27 03:39:09] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/ea/78/0c0ef1d69ad517e7123dd810dda3cf8c0863af031c2cbb78ac3dae878b48/nbdev-numpy-0.0.99.tar.gz
+[2023-07-27 03:39:09] INFO root fetch - processPackages [libquery-extensions]: Downloading https://files.pythonhosted.org/packages/0c/f2/0ecb2a3d503fb835e664e365a6e8fbcda5278ada52e86e701c99aa05bfb4/libquery_extensions-0.1.1.tar.gz
+[2023-07-27 03:39:09] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/9b/0f/42944508859f820e43bf894814c5e9dbc7920a0caceef1828a31a9e5b599/nbdev-stdlib-0.0.99.tar.gz
+[2023-07-27 03:39:09] INFO root fetch - processPackages [dataclass-binder]: Downloading https://files.pythonhosted.org/packages/55/58/67c8d5f3e9716190b8e73d0c7a00cf4079f9cc6fa80f4279acb46ea5bf04/dataclass_binder-0.3.2.tar.gz
+[2023-07-27 03:39:09] INFO root fetch - processPackages [scratch-getdata]: executing diffoscope
+[2023-07-27 03:39:09] INFO root fetch - processPackages [scratch-getdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scratch-getdata-1.0.7.tar.gz tmp/scratch-getdata-1.0.8.tar.gz --markdown 20230727/s/scratch-getdata/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-07-27 03:39:09] INFO root fetch - processPackages [klu]: executing diffoscope
+[2023-07-27 03:39:09] INFO root fetch - processPackages [klu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/klu-0.1.8.tar.gz tmp/klu-0.1.9.tar.gz --markdown 20230727/k/klu/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-27 03:39:09] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/cf/b5/493c8e89c5cb4fcc7db248f99868f931ca6389f6e411e63c97bb22c6f1b0/nbdev-pandas-0.0.99.tar.gz
+[2023-07-27 03:39:09] INFO root fetch - processPackages [mh-logger]: executing diffoscope
+[2023-07-27 03:39:09] INFO root fetch - processPackages [mh-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mh-logger-0.0.8.tar.gz tmp/mh-logger-0.0.9.tar.gz --markdown 20230727/m/mh-logger/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-27 03:39:09] INFO root fetch - processPackages [skillshare-downloader]: Downloading https://files.pythonhosted.org/packages/43/f9/01e186c2ed29d779e16d528c9142963a0acd3428a2b106def564923e9b6d/skillshare_downloader-0.2.2.tar.gz
+[2023-07-27 03:39:09] INFO root fetch - processPackages [baselibs]: executing diffoscope
+[2023-07-27 03:39:09] INFO root fetch - processPackages [baselibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baselibs-0.1.1.tar.gz tmp/baselibs-0.1.2.tar.gz --markdown 20230727/b/baselibs/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-27 03:39:09] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-07-27 03:39:09] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230727/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-27 03:39:09] INFO root fetch - processPackages [libquery-extensions]: executing diffoscope
+[2023-07-27 03:39:09] INFO root fetch - processPackages [libquery-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libquery_extensions-0.1.0.tar.gz tmp/libquery_extensions-0.1.1.tar.gz --markdown 20230727/l/libquery-extensions/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-27 03:39:09] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-07-27 03:39:09] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230727/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-27 03:39:09] INFO root fetch - processPackages [dataclass-binder]: executing diffoscope
+[2023-07-27 03:39:09] INFO root fetch - processPackages [dataclass-binder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataclass_binder-0.3.1.tar.gz tmp/dataclass_binder-0.3.2.tar.gz --markdown 20230727/d/dataclass-binder/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-27 03:39:09] INFO root fetch - processPackages [skillshare-downloader]: executing diffoscope
+[2023-07-27 03:39:09] INFO root fetch - processPackages [skillshare-downloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skillshare_downloader-0.2.1.tar.gz tmp/skillshare_downloader-0.2.2.tar.gz --markdown 20230727/s/skillshare-downloader/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-27 03:39:09] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-07-27 03:39:09] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230727/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-27 03:39:10] INFO root fetch - processPackages [scratch-getdata]: Remove: archive file [/home/abi/fetcher/tmp/scratch-getdata-1.0.7.tar.gz]
+[2023-07-27 03:39:10] INFO root fetch - processPackages [scratch-getdata]: Remove: archive file [/home/abi/fetcher/tmp/scratch-getdata-1.0.8.tar.gz]
+[2023-07-27 03:39:10] INFO root fetch - processPackages [scratch-getdata]: Start processing: scrunch
+[2023-07-27 03:39:10] INFO root fetch - main [MainThread]: End processing [scratch-getdata]: success
+[2023-07-27 03:39:10] INFO root fetch - processPackages [mh-logger]: Remove: archive file [/home/abi/fetcher/tmp/mh-logger-0.0.8.tar.gz]
+[2023-07-27 03:39:10] INFO root fetch - processPackages [mh-logger]: Remove: archive file [/home/abi/fetcher/tmp/mh-logger-0.0.9.tar.gz]
+[2023-07-27 03:39:10] INFO root fetch - processPackages [mh-logger]: Start processing: nbdev-pytorch
+[2023-07-27 03:39:10] INFO root fetch - main [MainThread]: End processing [mh-logger]: success
+[2023-07-27 03:39:10] INFO root fetch - processPackages [scrunch]: New version: [6.5.2013.post1690419248] Old Version: [6.5.2012.post1690413109]
+[2023-07-27 03:39:10] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-27 03:39:11] INFO root fetch - processPackages [scrunch]: Downloading https://files.pythonhosted.org/packages/cf/56/e4a21a9687146b8e2740d854f4939c2bc46d580b47c3ab8f8c6c2b686f5f/scrunch-6.5.2012.post1690413109.tar.gz
+[2023-07-27 03:39:11] INFO root fetch - processPackages [dataclass-binder]: Remove: archive file [/home/abi/fetcher/tmp/dataclass_binder-0.3.1.tar.gz]
+[2023-07-27 03:39:11] INFO root fetch - processPackages [dataclass-binder]: Remove: archive file [/home/abi/fetcher/tmp/dataclass_binder-0.3.2.tar.gz]
+[2023-07-27 03:39:11] INFO root fetch - processPackages [dataclass-binder]: Start processing: edc-subject-dashboard
+[2023-07-27 03:39:11] INFO root fetch - main [MainThread]: End processing [dataclass-binder]: success
+[2023-07-27 03:39:11] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/f8/45/4613a0137d296a1960d76ded45b0af15a8fd578bf48df103c50675b49136/nbdev-pytorch-0.0.98.tar.gz
+[2023-07-27 03:39:11] INFO root fetch - processPackages [klu]: Remove: archive file [/home/abi/fetcher/tmp/klu-0.1.8.tar.gz]
+[2023-07-27 03:39:11] INFO root fetch - processPackages [klu]: Remove: archive file [/home/abi/fetcher/tmp/klu-0.1.9.tar.gz]
+[2023-07-27 03:39:11] INFO root fetch - processPackages [klu]: Start processing: shipper-shippy
+[2023-07-27 03:39:11] INFO root fetch - main [MainThread]: End processing [klu]: success
+[2023-07-27 03:39:11] INFO root fetch - processPackages [edc-subject-dashboard]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-27 03:39:11] INFO root fetch - processPackages [shipper-shippy]: New version: [2.18.1] Old Version: [2.18.0]
+[2023-07-27 03:39:11] INFO root fetch - processPackages [skillshare-downloader]: Remove: archive file [/home/abi/fetcher/tmp/skillshare_downloader-0.2.1.tar.gz]
+[2023-07-27 03:39:11] INFO root fetch - processPackages [skillshare-downloader]: Remove: archive file [/home/abi/fetcher/tmp/skillshare_downloader-0.2.2.tar.gz]
+[2023-07-27 03:39:11] INFO root fetch - processPackages [skillshare-downloader]: Start processing: nbdev-scipy
+[2023-07-27 03:39:11] INFO root fetch - main [MainThread]: End processing [skillshare-downloader]: success
+[2023-07-27 03:39:11] INFO root fetch - processPackages [baselibs]: Remove: archive file [/home/abi/fetcher/tmp/baselibs-0.1.1.tar.gz]
+[2023-07-27 03:39:11] INFO root fetch - processPackages [baselibs]: Remove: archive file [/home/abi/fetcher/tmp/baselibs-0.1.2.tar.gz]
+[2023-07-27 03:39:11] INFO root fetch - processPackages [baselibs]: Start processing: sanic-useragent
+[2023-07-27 03:39:11] INFO root fetch - main [MainThread]: End processing [baselibs]: success
+[2023-07-27 03:39:11] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.98.tar.gz]
+[2023-07-27 03:39:11] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.99.tar.gz]
+[2023-07-27 03:39:11] INFO root fetch - processPackages [nbdev-pandas]: Start processing: edc-test-utils
+[2023-07-27 03:39:11] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-07-27 03:39:11] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-27 03:39:11] INFO root fetch - processPackages [libquery-extensions]: Remove: archive file [/home/abi/fetcher/tmp/libquery_extensions-0.1.0.tar.gz]
+[2023-07-27 03:39:11] INFO root fetch - processPackages [libquery-extensions]: Remove: archive file [/home/abi/fetcher/tmp/libquery_extensions-0.1.1.tar.gz]
+[2023-07-27 03:39:11] INFO root fetch - processPackages [libquery-extensions]: Start processing: stakepy
+[2023-07-27 03:39:11] INFO root fetch - main [MainThread]: End processing [libquery-extensions]: success
+[2023-07-27 03:39:11] INFO root fetch - processPackages [sanic-useragent]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-27 03:39:11] INFO root fetch - processPackages [shipper-shippy]: Downloading https://files.pythonhosted.org/packages/ee/e2/89712045c5a840b3c88246b59f1582f497d33270b7a4c6d896aed2eea82d/shipper-shippy-2.18.0.tar.gz
+[2023-07-27 03:39:11] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.98.tar.gz]
+[2023-07-27 03:39:11] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.99.tar.gz]
+[2023-07-27 03:39:11] INFO root fetch - processPackages [nbdev-stdlib]: Start processing: glypniro
+[2023-07-27 03:39:11] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-07-27 03:39:11] INFO root fetch - processPackages [edc-test-utils]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-27 03:39:11] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.98.tar.gz]
+[2023-07-27 03:39:11] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.99.tar.gz]
+[2023-07-27 03:39:11] INFO root fetch - processPackages [nbdev-numpy]: Start processing: edc-visit-schedule
+[2023-07-27 03:39:11] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-07-27 03:39:11] WARNING root fetch - processPackages [stakepy]: Skipping, unable to determine old version
+[2023-07-27 03:39:11] INFO root fetch - processPackages [stakepy]: Start processing: nbdev-sphinx
+[2023-07-27 03:39:11] INFO root fetch - main [MainThread]: End processing [stakepy] error
+[2023-07-27 03:39:11] INFO root fetch - processPackages [glypniro]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-27 03:39:11] INFO root fetch - processPackages [edc-subject-dashboard]: Downloading https://files.pythonhosted.org/packages/e2/de/4ac899f759846a1ffcc6a6347a85e786c1b637d41680d2cae0a6c2007b55/edc_subject_dashboard-0.3.8-py3-none-any.whl
+[2023-07-27 03:39:11] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/b0/37/5921f26bef4d07ebb5599f7ccb4d57ab1a847950edaa615ebcf9ef228690/nbdev-pytorch-0.0.99.tar.gz
+[2023-07-27 03:39:11] INFO root fetch - processPackages [scrunch]: Downloading https://files.pythonhosted.org/packages/4e/7c/82109ea99116af4e6ba92ef5a0637fba30b70971ba171ad154e8108d679a/scrunch-6.5.2013.post1690419248.tar.gz
+[2023-07-27 03:39:11] INFO root fetch - processPackages [edc-visit-schedule]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-27 03:39:11] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/94/a7/9596b1506d5fc0b0ceb265f8bbd5e0919fc146eb6df0916b4e546e9f074f/nbdev-scipy-0.0.98.tar.gz
+[2023-07-27 03:39:11] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-27 03:39:11] INFO root fetch - processPackages [sanic-useragent]: Downloading https://files.pythonhosted.org/packages/59/aa/1858e99f487a5b6aea1a4267cf1b44fd4420f480ab5980a417c24bc6ba21/sanic_useragent-0.1.3-py3-none-any.whl
+[2023-07-27 03:39:11] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-07-27 03:39:11] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230727/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-27 03:39:11] INFO root fetch - processPackages [scrunch]: executing diffoscope
+[2023-07-27 03:39:11] INFO root fetch - processPackages [scrunch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrunch-6.5.2012.post1690413109.tar.gz tmp/scrunch-6.5.2013.post1690419248.tar.gz --markdown 20230727/s/scrunch/6.5.2012.post1690413109-6.5.2013.post1690419248/diff.md --exclude *.pyd
+[2023-07-27 03:39:11] INFO root fetch - processPackages [edc-test-utils]: Downloading https://files.pythonhosted.org/packages/88/77/6830dd4f3853661a4058f77baf647d89588609ed3a08c34e32d75f9dbc47/edc_test_utils-0.3.8-py3-none-any.whl
+[2023-07-27 03:39:11] INFO root fetch - processPackages [glypniro]: Downloading https://files.pythonhosted.org/packages/45/55/0917ce139bf0856574b921b5bf5760773117db443cf24cb668be981892f6/glypniro-0.1.1.tar.gz
+[2023-07-27 03:39:11] INFO root fetch - processPackages [shipper-shippy]: Downloading https://files.pythonhosted.org/packages/f5/87/d239fabc50412dffb20853793f3138d39a94cb0bcfcd5cc6eabb1499e746/shipper-shippy-2.18.1.tar.gz
+[2023-07-27 03:39:11] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/50/26/1673892b3686c404af92c390906ab3bac81806c424381e82dedac6477190/nbdev-sphinx-0.0.98.tar.gz
+[2023-07-27 03:39:11] INFO root fetch - processPackages [edc-visit-schedule]: Downloading https://files.pythonhosted.org/packages/55/62/08b5eb66559fe5f11493a7403cf1549605588ac96f1433e68190de33a591/edc_visit_schedule-0.3.8-py3-none-any.whl
+[2023-07-27 03:39:11] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/d4/25/482f9160692bdd2d374401b19f8b4700ae91c179761991cee076e37aae0d/nbdev-scipy-0.0.99.tar.gz
+[2023-07-27 03:39:11] INFO root fetch - processPackages [shipper-shippy]: executing diffoscope
+[2023-07-27 03:39:11] INFO root fetch - processPackages [shipper-shippy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shipper-shippy-2.18.0.tar.gz tmp/shipper-shippy-2.18.1.tar.gz --markdown 20230727/s/shipper-shippy/2.18.0-2.18.1/diff.md --exclude *.pyd
+[2023-07-27 03:39:12] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-07-27 03:39:12] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230727/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-27 03:39:12] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/55/5e/ba946430b849ba8f51f4047dad2bb2417fbc794da9bb8301308347bb6207/nbdev-sphinx-0.0.99.tar.gz
+[2023-07-27 03:39:12] INFO root fetch - processPackages [edc-subject-dashboard]: Downloading https://files.pythonhosted.org/packages/dc/b2/f27cfd5946aaa1c7ae940b84f419cae29f450e721aac2786e84e4a456a12/edc_subject_dashboard-0.3.9-py3-none-any.whl
+[2023-07-27 03:39:12] INFO root fetch - processPackages [sanic-useragent]: Downloading https://files.pythonhosted.org/packages/50/17/48cce33ad8b4d325b39ff2ce7bbff9e6c301fa3b1bcdd54b8ecabf509ef0/sanic_useragent-0.1.4-py3-none-any.whl
+[2023-07-27 03:39:12] INFO root fetch - processPackages [edc-test-utils]: Downloading https://files.pythonhosted.org/packages/85/4d/0b5aa585370e88312de5b4663f06fab953d5798e3516907e3eccc76abae6/edc_test_utils-0.3.9-py3-none-any.whl
+[2023-07-27 03:39:12] INFO root fetch - processPackages [glypniro]: Downloading https://files.pythonhosted.org/packages/54/4e/63258abb3314cc88cee980c4d1c542ea5a531b8aba12fa040ff27bdc8b0e/glypniro-0.1.2.tar.gz
+[2023-07-27 03:39:12] INFO root fetch - processPackages [edc-visit-schedule]: Downloading https://files.pythonhosted.org/packages/d5/72/3df1323c5292ddeb8587bdab58504a97371317f435cce78a6e93a1c6561a/edc_visit_schedule-0.3.9-py3-none-any.whl
+[2023-07-27 03:39:12] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-07-27 03:39:12] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230727/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-27 03:39:12] INFO root fetch - processPackages [sanic-useragent]: executing diffoscope
+[2023-07-27 03:39:12] INFO root fetch - processPackages [sanic-useragent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sanic_useragent-0.1.3-py3-none-any.whl.zip tmp/sanic_useragent-0.1.4-py3-none-any.whl.zip --markdown 20230727/s/sanic-useragent/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-27 03:39:12] INFO root fetch - processPackages [edc-subject-dashboard]: executing diffoscope
+[2023-07-27 03:39:12] INFO root fetch - processPackages [edc-subject-dashboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_subject_dashboard-0.3.8-py3-none-any.whl.zip tmp/edc_subject_dashboard-0.3.9-py3-none-any.whl.zip --markdown 20230727/e/edc-subject-dashboard/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-27 03:39:12] INFO root fetch - processPackages [glypniro]: executing diffoscope
+[2023-07-27 03:39:12] INFO root fetch - processPackages [glypniro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glypniro-0.1.1.tar.gz tmp/glypniro-0.1.2.tar.gz --markdown 20230727/g/glypniro/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-27 03:39:12] INFO root fetch - processPackages [edc-test-utils]: executing diffoscope
+[2023-07-27 03:39:12] INFO root fetch - processPackages [edc-test-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_test_utils-0.3.8-py3-none-any.whl.zip tmp/edc_test_utils-0.3.9-py3-none-any.whl.zip --markdown 20230727/e/edc-test-utils/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-27 03:39:12] INFO root fetch - processPackages [edc-visit-schedule]: executing diffoscope
+[2023-07-27 03:39:12] INFO root fetch - processPackages [edc-visit-schedule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_visit_schedule-0.3.8-py3-none-any.whl.zip tmp/edc_visit_schedule-0.3.9-py3-none-any.whl.zip --markdown 20230727/e/edc-visit-schedule/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-27 03:39:12] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.98.tar.gz]
+[2023-07-27 03:39:12] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.99.tar.gz]
+[2023-07-27 03:39:12] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-07-27 03:39:13] INFO root fetch - processPackages [scrunch]: Remove: archive file [/home/abi/fetcher/tmp/scrunch-6.5.2012.post1690413109.tar.gz]
+[2023-07-27 03:39:13] INFO root fetch - processPackages [scrunch]: Remove: archive file [/home/abi/fetcher/tmp/scrunch-6.5.2013.post1690419248.tar.gz]
+[2023-07-27 03:39:13] INFO root fetch - main [MainThread]: End processing [scrunch]: success
+[2023-07-27 03:39:13] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.98.tar.gz]
+[2023-07-27 03:39:13] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.99.tar.gz]
+[2023-07-27 03:39:13] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-07-27 03:39:13] INFO root fetch - processPackages [shipper-shippy]: Remove: archive file [/home/abi/fetcher/tmp/shipper-shippy-2.18.0.tar.gz]
+[2023-07-27 03:39:13] INFO root fetch - processPackages [shipper-shippy]: Remove: archive file [/home/abi/fetcher/tmp/shipper-shippy-2.18.1.tar.gz]
+[2023-07-27 03:39:13] INFO root fetch - main [MainThread]: End processing [shipper-shippy]: success
+[2023-07-27 03:39:13] INFO root fetch - processPackages [sanic-useragent]: Remove: archive file [/home/abi/fetcher/tmp/sanic_useragent-0.1.3-py3-none-any.whl.zip]
+[2023-07-27 03:39:13] INFO root fetch - processPackages [sanic-useragent]: Remove: archive file [/home/abi/fetcher/tmp/sanic_useragent-0.1.4-py3-none-any.whl.zip]
+[2023-07-27 03:39:13] INFO root fetch - main [MainThread]: End processing [sanic-useragent]: success
+[2023-07-27 03:39:13] INFO root fetch - processPackages [glypniro]: Remove: archive file [/home/abi/fetcher/tmp/glypniro-0.1.1.tar.gz]
+[2023-07-27 03:39:13] INFO root fetch - processPackages [glypniro]: Remove: archive file [/home/abi/fetcher/tmp/glypniro-0.1.2.tar.gz]
+[2023-07-27 03:39:13] INFO root fetch - main [MainThread]: End processing [glypniro]: success
+[2023-07-27 03:39:13] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.98.tar.gz]
+[2023-07-27 03:39:13] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.99.tar.gz]
+[2023-07-27 03:39:13] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-07-27 03:39:13] INFO root fetch - processPackages [edc-test-utils]: Remove: archive file [/home/abi/fetcher/tmp/edc_test_utils-0.3.8-py3-none-any.whl.zip]
+[2023-07-27 03:39:13] INFO root fetch - processPackages [edc-test-utils]: Remove: archive file [/home/abi/fetcher/tmp/edc_test_utils-0.3.9-py3-none-any.whl.zip]
+[2023-07-27 03:39:13] INFO root fetch - main [MainThread]: End processing [edc-test-utils]: success
+[2023-07-27 03:39:13] INFO root fetch - processPackages [edc-subject-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/edc_subject_dashboard-0.3.8-py3-none-any.whl.zip]
+[2023-07-27 03:39:13] INFO root fetch - processPackages [edc-subject-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/edc_subject_dashboard-0.3.9-py3-none-any.whl.zip]
+[2023-07-27 03:39:13] INFO root fetch - main [MainThread]: End processing [edc-subject-dashboard]: success
+[2023-07-27 03:39:14] INFO root fetch - processPackages [edc-visit-schedule]: Remove: archive file [/home/abi/fetcher/tmp/edc_visit_schedule-0.3.8-py3-none-any.whl.zip]
+[2023-07-27 03:39:14] INFO root fetch - processPackages [edc-visit-schedule]: Remove: archive file [/home/abi/fetcher/tmp/edc_visit_schedule-0.3.9-py3-none-any.whl.zip]
+[2023-07-27 03:39:14] INFO root fetch - main [MainThread]: End processing [edc-visit-schedule]: success
+[2023-07-27 03:39:14] INFO root fetch - main [MainThread]: Store serial: [19052919]
