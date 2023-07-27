@@ -1,0 +1,762 @@
+# Comparing `tmp/threemystic_cloud_data_client-0.1.43.tar.gz` & `tmp/threemystic_cloud_data_client-0.1.44.tar.gz`
+
+## Comparing `threemystic_cloud_data_client-0.1.43.tar` & `threemystic_cloud_data_client-0.1.44.tar`
+
+### file list
+
+```diff
+@@ -1,50 +1,50 @@
+--rw-r--r--   0        0        0      212 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.43/threemystic_cloud_data_client/__main__.py
+--rw-r--r--   0        0        0       49 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.43/threemystic_cloud_data_client/__version__.py
+--rw-r--r--   0        0        0     3895 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.43/threemystic_cloud_data_client/cloud_data_client.py
+--rw-r--r--   0        0        0     4150 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.43/threemystic_cloud_data_client/cli/__init__.py
+--rw-r--r--   0        0        0     2950 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.43/threemystic_cloud_data_client/cli/actions/base_class/base.py
+--rw-r--r--   0        0        0      702 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.43/threemystic_cloud_data_client/cli/actions/config/__init__.py
+--rw-r--r--   0        0        0      568 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.43/threemystic_cloud_data_client/cloud_providers/aws/__init__.py
+--rw-r--r--   0        0        0      260 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.43/threemystic_cloud_data_client/cloud_providers/aws/base_class/base.py
+--rw-r--r--   0        0        0      325 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.43/threemystic_cloud_data_client/cloud_providers/aws/client/__init__.py
+--rw-r--r--   0        0        0     5035 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.43/threemystic_cloud_data_client/cloud_providers/aws/client/actions/database.py
+--rw-r--r--   0        0        0     2130 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.43/threemystic_cloud_data_client/cloud_providers/aws/client/actions/datawarehouse.py
+--rw-r--r--   0        0        0     1901 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.43/threemystic_cloud_data_client/cloud_providers/aws/client/actions/dns.py
+--rw-r--r--   0        0        0     2711 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.43/threemystic_cloud_data_client/cloud_providers/aws/client/actions/memorydb.py
+--rw-r--r--   0        0        0    17957 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.43/threemystic_cloud_data_client/cloud_providers/aws/client/actions/vm.py
+--rw-r--r--   0        0        0     1539 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.43/threemystic_cloud_data_client/cloud_providers/aws/client/actions/vmimage.py
+--rw-r--r--   0        0        0    11199 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.43/threemystic_cloud_data_client/cloud_providers/aws/client/actions/vmss.py
+--rw-r--r--   0        0        0     5189 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.43/threemystic_cloud_data_client/cloud_providers/aws/client/actions/base_class/base.py
+--rw-r--r--   0        0        0     3032 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.43/threemystic_cloud_data_client/cloud_providers/aws/config/step_1.py
+--rw-r--r--   0        0        0      443 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.43/threemystic_cloud_data_client/cloud_providers/aws/config/base_class/base.py
+--rw-r--r--   0        0        0      583 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.43/threemystic_cloud_data_client/cloud_providers/azure/__init__.py
+--rw-r--r--   0        0        0      264 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.43/threemystic_cloud_data_client/cloud_providers/azure/base_class/base.py
+--rw-r--r--   0        0        0      331 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.43/threemystic_cloud_data_client/cloud_providers/azure/client/__init__.py
+--rw-r--r--   0        0        0    23320 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.43/threemystic_cloud_data_client/cloud_providers/azure/client/actions/budget.py
+--rw-r--r--   0        0        0     4629 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.43/threemystic_cloud_data_client/cloud_providers/azure/client/actions/certificates.py
+--rw-r--r--   0        0        0     5358 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.43/threemystic_cloud_data_client/cloud_providers/azure/client/actions/cloudstorage.py
+--rw-r--r--   0        0        0    11867 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.43/threemystic_cloud_data_client/cloud_providers/azure/client/actions/database.py
+--rw-r--r--   0        0        0     2315 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.43/threemystic_cloud_data_client/cloud_providers/azure/client/actions/datawarehouse.py
+--rw-r--r--   0        0        0    10067 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.43/threemystic_cloud_data_client/cloud_providers/azure/client/actions/dns.py
+--rw-r--r--   0        0        0     1691 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.43/threemystic_cloud_data_client/cloud_providers/azure/client/actions/memorydb.py
+--rw-r--r--   0        0        0     5647 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.43/threemystic_cloud_data_client/cloud_providers/azure/client/actions/secrets.py
+--rw-r--r--   0        0        0    13040 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.43/threemystic_cloud_data_client/cloud_providers/azure/client/actions/storage.py
+--rw-r--r--   0        0        0    13572 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.43/threemystic_cloud_data_client/cloud_providers/azure/client/actions/vm.py
+--rw-r--r--   0        0        0     3094 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.43/threemystic_cloud_data_client/cloud_providers/azure/client/actions/vmimage.py
+--rw-r--r--   0        0        0     3092 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.43/threemystic_cloud_data_client/cloud_providers/azure/client/actions/vmss.py
+--rw-r--r--   0        0        0      986 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.43/threemystic_cloud_data_client/cloud_providers/azure/client/actions/base_class/base.py
+--rw-r--r--   0        0        0     2917 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.43/threemystic_cloud_data_client/cloud_providers/azure/config/step_1.py
+--rw-r--r--   0        0        0      445 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.43/threemystic_cloud_data_client/cloud_providers/azure/config/base_class/base.py
+--rw-r--r--   0        0        0     8657 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.43/threemystic_cloud_data_client/cloud_providers/base_class/base.py
+--rw-r--r--   0        0        0    11922 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.43/threemystic_cloud_data_client/cloud_providers/base_class/base_client.py
+--rw-r--r--   0        0        0    22664 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.43/threemystic_cloud_data_client/cloud_providers/base_class/base_data.py
+--rw-r--r--   0        0        0      593 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.43/threemystic_cloud_data_client/cloud_providers/general/__init__.py
+--rw-r--r--   0        0        0     4709 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.43/threemystic_cloud_data_client/cloud_providers/general/config/step_1.py
+--rw-r--r--   0        0        0    14025 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.43/threemystic_cloud_data_client/cloud_providers/general/config/step_2.py
+--rw-r--r--   0        0        0      396 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.43/threemystic_cloud_data_client/cloud_providers/general/config/base_class/base.py
+--rw-r--r--   0        0        0     1799 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.43/.gitignore
+--rw-r--r--   0        0        0     1068 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.43/LICENSE
+--rw-r--r--   0        0        0     2715 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.43/README.md
+--rw-r--r--   0        0        0      692 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.43/hatch.toml
+--rw-r--r--   0        0        0     3783 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.43/pyproject.toml
+--rw-r--r--   0        0        0     4677 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.43/PKG-INFO
++-rw-r--r--   0        0        0      212 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.44/threemystic_cloud_data_client/__main__.py
++-rw-r--r--   0        0        0       49 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.44/threemystic_cloud_data_client/__version__.py
++-rw-r--r--   0        0        0     3895 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.44/threemystic_cloud_data_client/cloud_data_client.py
++-rw-r--r--   0        0        0     4150 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.44/threemystic_cloud_data_client/cli/__init__.py
++-rw-r--r--   0        0        0     2950 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.44/threemystic_cloud_data_client/cli/actions/base_class/base.py
++-rw-r--r--   0        0        0      702 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.44/threemystic_cloud_data_client/cli/actions/config/__init__.py
++-rw-r--r--   0        0        0      568 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.44/threemystic_cloud_data_client/cloud_providers/aws/__init__.py
++-rw-r--r--   0        0        0      260 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.44/threemystic_cloud_data_client/cloud_providers/aws/base_class/base.py
++-rw-r--r--   0        0        0      325 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.44/threemystic_cloud_data_client/cloud_providers/aws/client/__init__.py
++-rw-r--r--   0        0        0     5035 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.44/threemystic_cloud_data_client/cloud_providers/aws/client/actions/database.py
++-rw-r--r--   0        0        0     2130 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.44/threemystic_cloud_data_client/cloud_providers/aws/client/actions/datawarehouse.py
++-rw-r--r--   0        0        0     1901 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.44/threemystic_cloud_data_client/cloud_providers/aws/client/actions/dns.py
++-rw-r--r--   0        0        0     2711 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.44/threemystic_cloud_data_client/cloud_providers/aws/client/actions/memorydb.py
++-rw-r--r--   0        0        0    17957 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.44/threemystic_cloud_data_client/cloud_providers/aws/client/actions/vm.py
++-rw-r--r--   0        0        0     1539 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.44/threemystic_cloud_data_client/cloud_providers/aws/client/actions/vmimage.py
++-rw-r--r--   0        0        0    11199 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.44/threemystic_cloud_data_client/cloud_providers/aws/client/actions/vmss.py
++-rw-r--r--   0        0        0     6615 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.44/threemystic_cloud_data_client/cloud_providers/aws/client/actions/base_class/base.py
++-rw-r--r--   0        0        0     3032 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.44/threemystic_cloud_data_client/cloud_providers/aws/config/step_1.py
++-rw-r--r--   0        0        0      443 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.44/threemystic_cloud_data_client/cloud_providers/aws/config/base_class/base.py
++-rw-r--r--   0        0        0      583 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.44/threemystic_cloud_data_client/cloud_providers/azure/__init__.py
++-rw-r--r--   0        0        0      264 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.44/threemystic_cloud_data_client/cloud_providers/azure/base_class/base.py
++-rw-r--r--   0        0        0      331 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.44/threemystic_cloud_data_client/cloud_providers/azure/client/__init__.py
++-rw-r--r--   0        0        0    23320 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.44/threemystic_cloud_data_client/cloud_providers/azure/client/actions/budget.py
++-rw-r--r--   0        0        0     4629 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.44/threemystic_cloud_data_client/cloud_providers/azure/client/actions/certificates.py
++-rw-r--r--   0        0        0     5358 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.44/threemystic_cloud_data_client/cloud_providers/azure/client/actions/cloudstorage.py
++-rw-r--r--   0        0        0    11867 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.44/threemystic_cloud_data_client/cloud_providers/azure/client/actions/database.py
++-rw-r--r--   0        0        0     2315 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.44/threemystic_cloud_data_client/cloud_providers/azure/client/actions/datawarehouse.py
++-rw-r--r--   0        0        0    10067 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.44/threemystic_cloud_data_client/cloud_providers/azure/client/actions/dns.py
++-rw-r--r--   0        0        0     1691 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.44/threemystic_cloud_data_client/cloud_providers/azure/client/actions/memorydb.py
++-rw-r--r--   0        0        0     5647 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.44/threemystic_cloud_data_client/cloud_providers/azure/client/actions/secrets.py
++-rw-r--r--   0        0        0    13040 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.44/threemystic_cloud_data_client/cloud_providers/azure/client/actions/storage.py
++-rw-r--r--   0        0        0    13572 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.44/threemystic_cloud_data_client/cloud_providers/azure/client/actions/vm.py
++-rw-r--r--   0        0        0     3094 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.44/threemystic_cloud_data_client/cloud_providers/azure/client/actions/vmimage.py
++-rw-r--r--   0        0        0     3092 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.44/threemystic_cloud_data_client/cloud_providers/azure/client/actions/vmss.py
++-rw-r--r--   0        0        0      986 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.44/threemystic_cloud_data_client/cloud_providers/azure/client/actions/base_class/base.py
++-rw-r--r--   0        0        0     2917 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.44/threemystic_cloud_data_client/cloud_providers/azure/config/step_1.py
++-rw-r--r--   0        0        0      445 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.44/threemystic_cloud_data_client/cloud_providers/azure/config/base_class/base.py
++-rw-r--r--   0        0        0     8657 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.44/threemystic_cloud_data_client/cloud_providers/base_class/base.py
++-rw-r--r--   0        0        0    11922 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.44/threemystic_cloud_data_client/cloud_providers/base_class/base_client.py
++-rw-r--r--   0        0        0    22664 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.44/threemystic_cloud_data_client/cloud_providers/base_class/base_data.py
++-rw-r--r--   0        0        0      593 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.44/threemystic_cloud_data_client/cloud_providers/general/__init__.py
++-rw-r--r--   0        0        0     4709 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.44/threemystic_cloud_data_client/cloud_providers/general/config/step_1.py
++-rw-r--r--   0        0        0    14025 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.44/threemystic_cloud_data_client/cloud_providers/general/config/step_2.py
++-rw-r--r--   0        0        0      396 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.44/threemystic_cloud_data_client/cloud_providers/general/config/base_class/base.py
++-rw-r--r--   0        0        0     1799 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.44/.gitignore
++-rw-r--r--   0        0        0     1068 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.44/LICENSE
++-rw-r--r--   0        0        0     2715 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.44/README.md
++-rw-r--r--   0        0        0      692 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.44/hatch.toml
++-rw-r--r--   0        0        0     3783 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.44/pyproject.toml
++-rw-r--r--   0        0        0     4677 2020-02-02 00:00:00.000000 threemystic_cloud_data_client-0.1.44/PKG-INFO
+```
+
+### Comparing `threemystic_cloud_data_client-0.1.43/threemystic_cloud_data_client/cloud_data_client.py` & `threemystic_cloud_data_client-0.1.44/threemystic_cloud_data_client/cloud_data_client.py`
+
+ * *Files identical despite different names*
+
+### Comparing `threemystic_cloud_data_client-0.1.43/threemystic_cloud_data_client/cli/__init__.py` & `threemystic_cloud_data_client-0.1.44/threemystic_cloud_data_client/cli/__init__.py`
+
+ * *Files identical despite different names*
+
+### Comparing `threemystic_cloud_data_client-0.1.43/threemystic_cloud_data_client/cli/actions/base_class/base.py` & `threemystic_cloud_data_client-0.1.44/threemystic_cloud_data_client/cli/actions/base_class/base.py`
+
+ * *Files identical despite different names*
+
+### Comparing `threemystic_cloud_data_client-0.1.43/threemystic_cloud_data_client/cli/actions/config/__init__.py` & `threemystic_cloud_data_client-0.1.44/threemystic_cloud_data_client/cli/actions/config/__init__.py`
+
+ * *Files identical despite different names*
+
+### Comparing `threemystic_cloud_data_client-0.1.43/threemystic_cloud_data_client/cloud_providers/aws/__init__.py` & `threemystic_cloud_data_client-0.1.44/threemystic_cloud_data_client/cloud_providers/aws/__init__.py`
+
+ * *Files identical despite different names*
+
+### Comparing `threemystic_cloud_data_client-0.1.43/threemystic_cloud_data_client/cloud_providers/aws/client/actions/database.py` & `threemystic_cloud_data_client-0.1.44/threemystic_cloud_data_client/cloud_providers/aws/client/actions/database.py`
+
+ * *Files identical despite different names*
+
+### Comparing `threemystic_cloud_data_client-0.1.43/threemystic_cloud_data_client/cloud_providers/aws/client/actions/datawarehouse.py` & `threemystic_cloud_data_client-0.1.44/threemystic_cloud_data_client/cloud_providers/aws/client/actions/datawarehouse.py`
+
+ * *Files identical despite different names*
+
+### Comparing `threemystic_cloud_data_client-0.1.43/threemystic_cloud_data_client/cloud_providers/aws/client/actions/dns.py` & `threemystic_cloud_data_client-0.1.44/threemystic_cloud_data_client/cloud_providers/aws/client/actions/dns.py`
+
+ * *Files identical despite different names*
+
+### Comparing `threemystic_cloud_data_client-0.1.43/threemystic_cloud_data_client/cloud_providers/aws/client/actions/memorydb.py` & `threemystic_cloud_data_client-0.1.44/threemystic_cloud_data_client/cloud_providers/aws/client/actions/memorydb.py`
+
+ * *Files identical despite different names*
+
+### Comparing `threemystic_cloud_data_client-0.1.43/threemystic_cloud_data_client/cloud_providers/aws/client/actions/vm.py` & `threemystic_cloud_data_client-0.1.44/threemystic_cloud_data_client/cloud_providers/aws/client/actions/vm.py`
+
+ * *Files identical despite different names*
+
+### Comparing `threemystic_cloud_data_client-0.1.43/threemystic_cloud_data_client/cloud_providers/aws/client/actions/vmimage.py` & `threemystic_cloud_data_client-0.1.44/threemystic_cloud_data_client/cloud_providers/aws/client/actions/vmimage.py`
+
+ * *Files identical despite different names*
+
+### Comparing `threemystic_cloud_data_client-0.1.43/threemystic_cloud_data_client/cloud_providers/aws/client/actions/vmss.py` & `threemystic_cloud_data_client-0.1.44/threemystic_cloud_data_client/cloud_providers/aws/client/actions/vmss.py`
+
+ * *Files identical despite different names*
+
+### Comparing `threemystic_cloud_data_client-0.1.43/threemystic_cloud_data_client/cloud_providers/aws/client/actions/base_class/base.py` & `threemystic_cloud_data_client-0.1.44/threemystic_cloud_data_client/cloud_providers/azure/client/actions/cloudstorage.py`
+
+ * *Files 24% similar despite different names*
+
+```diff
+@@ -1,149 +1,99 @@
+-from threemystic_cloud_data_client.cloud_providers.base_class.base_data import cloud_data_client_provider_base_data as base
+-from abc import abstractmethod
++from threemystic_cloud_data_client.cloud_providers.azure.client.actions.base_class.base import cloud_data_client_azure_client_action_base as base
+ import asyncio
++from azure.mgmt.storage import StorageManagementClient
++from azure.mgmt.monitor import MonitorManagementClient
++from decimal import Decimal, ROUND_HALF_UP
+ 
+-class cloud_data_client_aws_client_action_base(base):
++class cloud_data_client_azure_client_action(base):
+   def __init__(self, *args, **kwargs):
+-    super().__init__(provider= "aws", *args, **kwargs)
+-
+-  @property
+-  def auto_region_resourcebytype(self, *args, **kwargs):
+-    if hasattr(self, "_auto_region_resourcebytype"):
+-      return self._auto_region_resourcebytype
+-    
+-    return []
+-  
+-  @auto_region_resourcebytype.setter
+-  def auto_region_resourcebytype(self, value, *args, **kwargs):
+-    self._auto_region_resourcebytype = value
+-
+-  @property  
+-  def resource_group_filter(self, *args, **kwargs):
+-    if hasattr(self, "_resource_group_filter"):
+-      return self._resource_group_filter
+-    
+-    return []
+-  
+-  @resource_group_filter.setter
+-  def resource_group_filter(self, value, *args, **kwargs):
+-    self._resource_group_filter = value
+-  
+-  @property
+-  def arn_lambda(self, *args, **kwargs):
+-    if hasattr(self, "_arn_lambda"):
+-      return self._arn_lambda
+-    
+-    return lambda item: None
+-  
+-  @arn_lambda.setter
+-  def arn_lambda(self, value, *args, **kwargs):
+-    self._arn_lambda = value
+-  
+-  @property
+-  def data_id_name(self):
+-    if hasattr(self, "_data_id_name"):
+-      return self._data_id_name
+-    
+-    return None
+-  
+-  @data_id_name.setter
+-  def data_id_name(self, value):
+-    self._data_id_name = value
+-
+-  def get_accounts(self, *args, **kwargs):
+-
+-    return self.get_cloud_client().get_accounts()
+-  
+-  @abstractmethod
+-  async def _process_account_data_region(self, account, region, resource_groups, loop, *args, **kwargs):
+-    pass
+-  
+-  async def _process_account_region(self, account, region, loop, *args, **kwargs):
+-    resource_groups = self.__process_account_region_rg(account= account, region= region, loop= loop)
+-    return await self._process_account_data_region(
+-      account= account,
+-      region= region,
+-      resource_groups= resource_groups if resource_groups is not None else {}, 
+-      loop= loop,
+-      **kwargs
+-    )
+-
+-  def __process_account_region_rg(self, account, region, loop, *args, **kwargs):
+-    rg_client = self.get_cloud_client().get_boto_client(
+-        client= "resource-groups",
+-        account= account,
+-        region= region
+-    )
+-
+-    resource_groups_by_resource = {}
+-    
+-    if self.resource_group_filter is None:
+-      return resource_groups_by_resource
+-    
+-    if len(self.resource_group_filter) < 1:
+-      return resource_groups_by_resource
+-
+-    resource_groups = self.get_cloud_client().get_resource_groups(account=account, region=region, rg_client=rg_client)
+-    
+-    if len(resource_groups) > 0:
+-      for filter_item in self.resource_group_filter:
+-        for resource_id, groups in self.get_cloud_client().get_resource_group_from_resource(account=account, region=region, rg_client=rg_client, resource_groups=resource_groups, filters_resource=[filter_item]).items():
+-          resource_id = resource_id.lower()
+-          if resource_id not in resource_groups_by_resource:
+-            resource_groups_by_resource[resource_id] = groups
+-            continue
+-
+-          resource_groups_by_resource[resource_id] += groups
++    super().__init__(
++      data_action="cloudstorage", 
++      logger_name= "cloud_data_client_azure_client_action_cloudstorage",
++      *args, **kwargs)
++  
++  
++  async def _process_account_data_storage_size(self, client, account, storage_account, **kwargs):
++      try:
++        storage_account_id= self.get_cloud_client().get_resource_id(resource= storage_account)
++        storage_size = self.get_cloud_client().sdk_request(
++          tenant= self.get_cloud_client().get_tenant_id(tenant= account, is_account= True), 
++          lambda_sdk_command=lambda: client.metrics.list(
++            resource_uri= storage_account_id,
++            timespan= f'{self.get_common().helper_type().datetime().get_iso_datetime(dt= (self.get_data_start() - self.get_common().helper_type().datetime().time_delta(days= 1)))}/{self.get_common().helper_type().datetime().get_iso_datetime(dt= self.get_data_start())}',
++            interval= "PT1H",
++            metricnames= "UsedCapacity"
++          )
++        )
++        interval_count = 0
++        sum_storage = Decimal(0.0)
++        
++        for interval_value in storage_size.value:
++          for ts in interval_value.timeseries:
++            for data in ts.data:
++              if data.average is not None:
++                sum_storage += Decimal(data.average)
++              interval_count += 1
++        
++        return Decimal(sum_storage/interval_count).quantize(Decimal('0'), ROUND_HALF_UP)
++      except Exception as err:
++        return None
++        
++  async def _process_account_data_blob_containers(self, client:StorageManagementClient, account, storage_account, **kwargs):
++      try:
++        resource_group= self.get_cloud_client().get_resource_group_from_resource(resource= storage_account)
++        storage_account_name= self.get_cloud_client().get_resource_name_from_resource(resource= storage_account)
++        return [self.get_cloud_client().serialize_resource(resource= item) for item in self.get_cloud_client().sdk_request(
++          tenant= self.get_cloud_client().get_tenant_id(tenant= account, is_account= True), 
++          lambda_sdk_command=lambda: client.blob_containers.list(resource_group_name= resource_group, account_name= storage_account_name)
++        )]
++      except:
++        return []
+       
+-      return resource_groups_by_resource
+-
+-  async def _process_account_data(self, account, loop, *args, **kwargs):
+-
+-    regions = self.get_cloud_client().get_accounts_regions_costexplorer(
+-      accounts= [account],
+-      services= self.auto_region_resourcebytype
+-    ) if self.auto_region_resourcebytype is not None else {self.get_cloud_client().get_account_id(account= account): []}
+-
+-    return_data = {
+-      "account": account,
+-      "data": [  ]
+-    }
+-    if self.get_cloud_client().get_account_id(account= account) not in regions:
+-      return return_data
+-
+-    region_tasks = []
+-    for region in regions[self.get_cloud_client().get_account_id(account= account)]:
+-      region_tasks.append(loop.create_task(self._process_account_region(account=account, region=region, loop=loop, **kwargs)))
++  async def _process_storage_account_by_page(self, client:StorageManagementClient, account, **kwargs):
++      
++      process_object = []
++      for _, page in self.get_cloud_client().sdk_request(
++          tenant= self.get_cloud_client().get_tenant_id(tenant= account, is_account= True), 
++          lambda_sdk_command=lambda: enumerate(client.storage_accounts.list().by_page())
++        ):
++        for storage_account in page:
++          for blob_container in await self._process_account_data_blob_containers(client= client, account= account, storage_account= storage_account):
++            process_object.append({
++              "container": blob_container,
++              "storage_account": storage_account
++            })
++          process_object.append({
++            "container": None,
++            "storage_account": storage_account
++          })
++      
++      return process_object
+ 
+-    if len(region_tasks)>0:
+-      await asyncio.wait(region_tasks)
+-    
+-    for region_task in region_tasks:
+-      if region_task.result() is None:
+-        continue
++  async def _process_account_data(self, account, loop, **kwargs):
+ 
+-      for item in region_task.result().get("data"):
+-        resource_arn = self.arn_lambda(
++    client = StorageManagementClient(credential= self.get_cloud_client().get_tenant_credential(tenant= self.get_cloud_client().get_tenant_id(tenant= account, is_account= True)), subscription_id= self.get_cloud_client().get_account_id(account= account))
++    monitor_client = MonitorManagementClient(credential= self.get_cloud_client().get_tenant_credential(tenant= self.get_cloud_client().get_tenant_id(tenant= account, is_account= True)), subscription_id= self.get_cloud_client().get_account_id(account= account))
++    process_object = await self._process_storage_account_by_page(client= client, account= account)
++      
++    return {
++        "account": account,
++        "data": [ self.get_common().helper_type().dictionary().merge_dictionary([
++          {},
++          await self.get_base_return_data(
++            account= self.get_cloud_client().serialize_resource(resource= account),
++            resource_id= self.get_cloud_client().get_resource_id(resource= item.get("container") if item.get("container") is not None else item.get("storage_account")),
++            resource = item.get("container"),
++            region= self.get_cloud_client().get_resource_location(resource= item.get("storage_account")),
++            resource_groups= [self.get_cloud_client().get_resource_group_from_resource(resource= item.get("storage_account"))],
++          ),
+           {
+-            "region": region_task.result().get("region"),
+-            "account_id": self.get_cloud_client().get_account_id(account= account),
+-            "resource_id": item.get(self.data_id_name),
+-            "raw_item": item
+-          }
+-        )
+-        return_data["data"].append(
+-          self.get_common().helper_type().dictionary().merge_dictionary([
+-            {},
+-            await self.get_base_return_data(
++            "extra_storage_account": item.get("storage_account")
++          },
++          { "extra_storageaccount_bytes_24hours": await self._process_account_data_storage_size(
++              client= monitor_client,
+               account= account,
+-              resource_id= resource_arn,
+-              resource= item,
+-              region= region_task.result().get("region"),
+-              resource_groups= region_task.result().get("resource_groups").get(resource_arn) if region_task.result().get("resource_groups").get(resource_arn) is not None else [],
+-            ),
+-            {
+-              "extra_id_only": item.get(self.data_id_name)
+-            }
+-          ])
+-        )
+-    return return_data
++              storage_account= item.get("storage_account")
++            ) 
++          } if item.get("container") is None else {}
++        ]) for item in process_object]
++    }
+```
+
+### Comparing `threemystic_cloud_data_client-0.1.43/threemystic_cloud_data_client/cloud_providers/aws/config/step_1.py` & `threemystic_cloud_data_client-0.1.44/threemystic_cloud_data_client/cloud_providers/aws/config/step_1.py`
+
+ * *Files identical despite different names*
+
+### Comparing `threemystic_cloud_data_client-0.1.43/threemystic_cloud_data_client/cloud_providers/azure/__init__.py` & `threemystic_cloud_data_client-0.1.44/threemystic_cloud_data_client/cloud_providers/azure/__init__.py`
+
+ * *Files identical despite different names*
+
+### Comparing `threemystic_cloud_data_client-0.1.43/threemystic_cloud_data_client/cloud_providers/azure/client/actions/budget.py` & `threemystic_cloud_data_client-0.1.44/threemystic_cloud_data_client/cloud_providers/azure/client/actions/budget.py`
+
+ * *Files identical despite different names*
+
+### Comparing `threemystic_cloud_data_client-0.1.43/threemystic_cloud_data_client/cloud_providers/azure/client/actions/certificates.py` & `threemystic_cloud_data_client-0.1.44/threemystic_cloud_data_client/cloud_providers/azure/client/actions/certificates.py`
+
+ * *Files identical despite different names*
+
+### Comparing `threemystic_cloud_data_client-0.1.43/threemystic_cloud_data_client/cloud_providers/azure/client/actions/cloudstorage.py` & `threemystic_cloud_data_client-0.1.44/threemystic_cloud_data_client/cloud_providers/azure/client/actions/secrets.py`
+
+ * *Files 24% similar despite different names*
+
+```diff
+@@ -1,99 +1,110 @@
+ from threemystic_cloud_data_client.cloud_providers.azure.client.actions.base_class.base import cloud_data_client_azure_client_action_base as base
+ import asyncio
+-from azure.mgmt.storage import StorageManagementClient
+-from azure.mgmt.monitor import MonitorManagementClient
+-from decimal import Decimal, ROUND_HALF_UP
++from azure.mgmt.keyvault import KeyVaultManagementClient
++from azure.keyvault.secrets import SecretClient
++from azure.keyvault.keys import KeyClient
++from azure.keyvault.administration import KeyVaultAccessControlClient
++
+ 
+ class cloud_data_client_azure_client_action(base):
+   def __init__(self, *args, **kwargs):
+     super().__init__(
+-      data_action="cloudstorage", 
+-      logger_name= "cloud_data_client_azure_client_action_cloudstorage",
++      data_action="secrets", 
++      logger_name= "cloud_data_client_azure_client_action_secrets",
+       *args, **kwargs)
+   
+-  
+-  async def _process_account_data_storage_size(self, client, account, storage_account, **kwargs):
+-      try:
+-        storage_account_id= self.get_cloud_client().get_resource_id(resource= storage_account)
+-        storage_size = self.get_cloud_client().sdk_request(
++  async def __process_get_resources_key_vault_access_key(self, account, key_vault, *args, **kwargs):    
++    try:
++      client = KeyVaultAccessControlClient(vault_url= f'https://{key_vault}.vault.azure.net/', credential= self.get_cloud_client().get_tenant_credential(tenant= self.get_cloud_client().get_tenant_id(tenant= account, is_account= True)), subscription_id= self.get_cloud_client().get_account_id(account= account))
++      
++      # oid = print(self.get_cloud_client().get_tenant_credential_full(tenant= self.get_cloud_client().get_tenant_id(tenant= account, is_account= True)).get("jwt").get("oid"))
++
++
++      return [ key for key in self.get_cloud_client().sdk_request(
+           tenant= self.get_cloud_client().get_tenant_id(tenant= account, is_account= True), 
+-          lambda_sdk_command=lambda: client.metrics.list(
+-            resource_uri= storage_account_id,
+-            timespan= f'{self.get_common().helper_type().datetime().get_iso_datetime(dt= (self.get_data_start() - self.get_common().helper_type().datetime().time_delta(days= 1)))}/{self.get_common().helper_type().datetime().get_iso_datetime(dt= self.get_data_start())}',
+-            interval= "PT1H",
+-            metricnames= "UsedCapacity"
+-          )
++          lambda_sdk_command=lambda: client.list_properties_of_keys()
+         )
+-        interval_count = 0
+-        sum_storage = Decimal(0.0)
+-        
+-        for interval_value in storage_size.value:
+-          for ts in interval_value.timeseries:
+-            for data in ts.data:
+-              if data.average is not None:
+-                sum_storage += Decimal(data.average)
+-              interval_count += 1
+-        
+-        return Decimal(sum_storage/interval_count).quantize(Decimal('0'), ROUND_HALF_UP)
+-      except Exception as err:
+-        return None
+-        
+-  async def _process_account_data_blob_containers(self, client:StorageManagementClient, account, storage_account, **kwargs):
+-      try:
+-        resource_group= self.get_cloud_client().get_resource_group_from_resource(resource= storage_account)
+-        storage_account_name= self.get_cloud_client().get_resource_name_from_resource(resource= storage_account)
+-        return [self.get_cloud_client().serialize_resource(resource= item) for item in self.get_cloud_client().sdk_request(
+-          tenant= self.get_cloud_client().get_tenant_id(tenant= account, is_account= True), 
+-          lambda_sdk_command=lambda: client.blob_containers.list(resource_group_name= resource_group, account_name= storage_account_name)
+-        )]
+-      except:
+-        return []
+-      
+-  async def _process_storage_account_by_page(self, client:StorageManagementClient, account, **kwargs):
++      ]
++           
++    except Exception as err:
++      return []
++    
++  async def __process_get_resources_key_vault_keys(self, account, key_vault, *args, **kwargs):    
++    try:
++      client = KeyClient(vault_url= f'https://{key_vault}.vault.azure.net/', credential= self.get_cloud_client().get_tenant_credential(tenant= self.get_cloud_client().get_tenant_id(tenant= account, is_account= True)), subscription_id= self.get_cloud_client().get_account_id(account= account))
+       
+-      process_object = []
+-      for _, page in self.get_cloud_client().sdk_request(
++      return [ key for key in self.get_cloud_client().sdk_request(
+           tenant= self.get_cloud_client().get_tenant_id(tenant= account, is_account= True), 
+-          lambda_sdk_command=lambda: enumerate(client.storage_accounts.list().by_page())
+-        ):
+-        for storage_account in page:
+-          for blob_container in await self._process_account_data_blob_containers(client= client, account= account, storage_account= storage_account):
+-            process_object.append({
+-              "container": blob_container,
+-              "storage_account": storage_account
+-            })
+-          process_object.append({
+-            "container": None,
+-            "storage_account": storage_account
+-          })
+-      
+-      return process_object
++          lambda_sdk_command=lambda: client.list_properties_of_keys()
++        )
++      ]
++           
++    except Exception as err:
++      return []
++    
++  async def __process_get_resources_key_vault_secrets(self, account, key_vault, *args, **kwargs):    
++    try:
++      client = SecretClient(vault_url= f'https://{key_vault}.vault.azure.net/', credential= self.get_cloud_client().get_tenant_credential(tenant= self.get_cloud_client().get_tenant_id(tenant= account, is_account= True)), subscription_id= self.get_cloud_client().get_account_id(account= account))
++    
+ 
+-  async def _process_account_data(self, account, loop, **kwargs):
++      return [ secret for secret in self.get_cloud_client().sdk_request(
++          tenant= self.get_cloud_client().get_tenant_id(tenant= account, is_account= True), 
++          lambda_sdk_command=lambda: client.list_properties_of_secrets()
++        )
++      ]
++           
++    except Exception as err:
++      return []
++    
++  async def __process_get_resources_key_vaults(self, account, *args, **kwargs):    
++    try:
++      client = KeyVaultManagementClient(credential= self.get_cloud_client().get_tenant_credential(tenant= self.get_cloud_client().get_tenant_id(tenant= account, is_account= True)), subscription_id= self.get_cloud_client().get_account_id(account= account))
++    
+ 
+-    client = StorageManagementClient(credential= self.get_cloud_client().get_tenant_credential(tenant= self.get_cloud_client().get_tenant_id(tenant= account, is_account= True)), subscription_id= self.get_cloud_client().get_account_id(account= account))
+-    monitor_client = MonitorManagementClient(credential= self.get_cloud_client().get_tenant_credential(tenant= self.get_cloud_client().get_tenant_id(tenant= account, is_account= True)), subscription_id= self.get_cloud_client().get_account_id(account= account))
+-    process_object = await self._process_storage_account_by_page(client= client, account= account)
+-      
++      return { self.get_cloud_client().get_resource_id(resource= kv):kv for kv in self.get_cloud_client().sdk_request(
++          tenant= self.get_cloud_client().get_tenant_id(tenant= account, is_account= True), 
++          lambda_sdk_command=lambda: client.vaults.list()
++        )
++      }
++           
++    except Exception as err:
++      return {} 
++
++  
++  async def _process_account_data(self, account, loop, *args, **kwargs):
++    
++    # print(account)
++    
++    # keyvaults = await self.__process_get_resources_key_vaults(account= account)
++
++    # for kv in keyvaults.values():
++    #   print(self.get_cloud_client().serialize_resource(resource= kv))
++    #   break
++    
+     return {
+         "account": account,
+-        "data": [ self.get_common().helper_type().dictionary().merge_dictionary([
+-          {},
+-          await self.get_base_return_data(
+-            account= self.get_cloud_client().serialize_resource(resource= account),
+-            resource_id= self.get_cloud_client().get_resource_id(resource= item.get("container") if item.get("container") is not None else item.get("storage_account")),
+-            resource = item.get("container"),
+-            region= self.get_cloud_client().get_resource_location(resource= item.get("storage_account")),
+-            resource_groups= [self.get_cloud_client().get_resource_group_from_resource(resource= item.get("storage_account"))],
+-          ),
+-          {
+-            "extra_storage_account": item.get("storage_account")
+-          },
+-          { "extra_storageaccount_bytes_24hours": await self._process_account_data_storage_size(
+-              client= monitor_client,
+-              account= account,
+-              storage_account= item.get("storage_account")
+-            ) 
+-          } if item.get("container") is None else {}
+-        ]) for item in process_object]
++        "data": [
++          #  self.get_common().helper_type().dictionary().merge_dictionary([
++          #   {},
++          #   await self.get_base_return_data(
++          #     account= self.get_cloud_client().serialize_resource(resource= account),
++          #     resource_id= self.get_cloud_client().get_resource_id(resource= item),
++          #     resource= item,
++          #     region= self.get_cloud_client().get_resource_location(resource= item),
++          #     resource_groups= [self.get_cloud_client().get_resource_group_from_resource(resource= item)],
++          #   ),
++          #   {
++          #     "extra_resource": self.get_cloud_client().serialize_resource(tasks["resource"].result().get(self.get_cloud_client().get_resource_id(resource= item))),
++          #     "extra_availability_set": tasks["availability_sets"].result().get(self.get_cloud_client().get_resource_id(resource= item)),
++          #     "extra_nics": tasks["nics"].result().get(self.get_cloud_client().get_resource_id(resource= item)),
++          #     "extra_load_balancers": await self._process_account_data_get_vm_load_balancers(
++          #       vm_nics= tasks["nics"].result().get(self.get_cloud_client().get_resource_id(resource= item)),
++          #       load_balancers_by_nics = tasks["load_balancers"].result()
++          #     ),
++          #   },
++          # ]) for item in self.get_cloud_client().sdk_request(
++          #  tenant= self.get_cloud_client().get_tenant_id(tenant= account, is_account= True), 
++          #  lambda_sdk_command=lambda: client.virtual_machines.list_all()
++          # )
++        ]
+     }
+```
+
+### Comparing `threemystic_cloud_data_client-0.1.43/threemystic_cloud_data_client/cloud_providers/azure/client/actions/database.py` & `threemystic_cloud_data_client-0.1.44/threemystic_cloud_data_client/cloud_providers/azure/client/actions/database.py`
+
+ * *Files identical despite different names*
+
+### Comparing `threemystic_cloud_data_client-0.1.43/threemystic_cloud_data_client/cloud_providers/azure/client/actions/datawarehouse.py` & `threemystic_cloud_data_client-0.1.44/threemystic_cloud_data_client/cloud_providers/azure/client/actions/datawarehouse.py`
+
+ * *Files identical despite different names*
+
+### Comparing `threemystic_cloud_data_client-0.1.43/threemystic_cloud_data_client/cloud_providers/azure/client/actions/dns.py` & `threemystic_cloud_data_client-0.1.44/threemystic_cloud_data_client/cloud_providers/azure/client/actions/dns.py`
+
+ * *Files identical despite different names*
+
+### Comparing `threemystic_cloud_data_client-0.1.43/threemystic_cloud_data_client/cloud_providers/azure/client/actions/memorydb.py` & `threemystic_cloud_data_client-0.1.44/threemystic_cloud_data_client/cloud_providers/azure/client/actions/memorydb.py`
+
+ * *Files identical despite different names*
+
+### Comparing `threemystic_cloud_data_client-0.1.43/threemystic_cloud_data_client/cloud_providers/azure/client/actions/storage.py` & `threemystic_cloud_data_client-0.1.44/threemystic_cloud_data_client/cloud_providers/azure/client/actions/storage.py`
+
+ * *Files identical despite different names*
+
+### Comparing `threemystic_cloud_data_client-0.1.43/threemystic_cloud_data_client/cloud_providers/azure/client/actions/vm.py` & `threemystic_cloud_data_client-0.1.44/threemystic_cloud_data_client/cloud_providers/azure/client/actions/vm.py`
+
+ * *Files identical despite different names*
+
+### Comparing `threemystic_cloud_data_client-0.1.43/threemystic_cloud_data_client/cloud_providers/azure/client/actions/vmimage.py` & `threemystic_cloud_data_client-0.1.44/threemystic_cloud_data_client/cloud_providers/azure/client/actions/vmimage.py`
+
+ * *Files identical despite different names*
+
+### Comparing `threemystic_cloud_data_client-0.1.43/threemystic_cloud_data_client/cloud_providers/azure/client/actions/vmss.py` & `threemystic_cloud_data_client-0.1.44/threemystic_cloud_data_client/cloud_providers/azure/client/actions/vmss.py`
+
+ * *Files identical despite different names*
+
+### Comparing `threemystic_cloud_data_client-0.1.43/threemystic_cloud_data_client/cloud_providers/azure/client/actions/base_class/base.py` & `threemystic_cloud_data_client-0.1.44/threemystic_cloud_data_client/cloud_providers/azure/client/actions/base_class/base.py`
+
+ * *Files identical despite different names*
+
+### Comparing `threemystic_cloud_data_client-0.1.43/threemystic_cloud_data_client/cloud_providers/azure/config/step_1.py` & `threemystic_cloud_data_client-0.1.44/threemystic_cloud_data_client/cloud_providers/azure/config/step_1.py`
+
+ * *Files identical despite different names*
+
+### Comparing `threemystic_cloud_data_client-0.1.43/threemystic_cloud_data_client/cloud_providers/base_class/base.py` & `threemystic_cloud_data_client-0.1.44/threemystic_cloud_data_client/cloud_providers/base_class/base.py`
+
+ * *Files identical despite different names*
+
+### Comparing `threemystic_cloud_data_client-0.1.43/threemystic_cloud_data_client/cloud_providers/base_class/base_client.py` & `threemystic_cloud_data_client-0.1.44/threemystic_cloud_data_client/cloud_providers/base_class/base_client.py`
+
+ * *Files identical despite different names*
+
+### Comparing `threemystic_cloud_data_client-0.1.43/threemystic_cloud_data_client/cloud_providers/base_class/base_data.py` & `threemystic_cloud_data_client-0.1.44/threemystic_cloud_data_client/cloud_providers/base_class/base_data.py`
+
+ * *Files identical despite different names*
+
+### Comparing `threemystic_cloud_data_client-0.1.43/threemystic_cloud_data_client/cloud_providers/general/__init__.py` & `threemystic_cloud_data_client-0.1.44/threemystic_cloud_data_client/cloud_providers/general/__init__.py`
+
+ * *Files identical despite different names*
+
+### Comparing `threemystic_cloud_data_client-0.1.43/threemystic_cloud_data_client/cloud_providers/general/config/step_1.py` & `threemystic_cloud_data_client-0.1.44/threemystic_cloud_data_client/cloud_providers/general/config/step_1.py`
+
+ * *Files identical despite different names*
+
+### Comparing `threemystic_cloud_data_client-0.1.43/threemystic_cloud_data_client/cloud_providers/general/config/step_2.py` & `threemystic_cloud_data_client-0.1.44/threemystic_cloud_data_client/cloud_providers/general/config/step_2.py`
+
+ * *Files identical despite different names*
+
+### Comparing `threemystic_cloud_data_client-0.1.43/.gitignore` & `threemystic_cloud_data_client-0.1.44/.gitignore`
+
+ * *Files identical despite different names*
+
+### Comparing `threemystic_cloud_data_client-0.1.43/LICENSE` & `threemystic_cloud_data_client-0.1.44/LICENSE`
+
+ * *Files identical despite different names*
+
+### Comparing `threemystic_cloud_data_client-0.1.43/README.md` & `threemystic_cloud_data_client-0.1.44/README.md`
+
+ * *Files identical despite different names*
+
+### Comparing `threemystic_cloud_data_client-0.1.43/hatch.toml` & `threemystic_cloud_data_client-0.1.44/hatch.toml`
+
+ * *Files identical despite different names*
+
+### Comparing `threemystic_cloud_data_client-0.1.43/pyproject.toml` & `threemystic_cloud_data_client-0.1.44/pyproject.toml`
+
+ * *Files 2% similar despite different names*
+
+```diff
+@@ -24,15 +24,15 @@
+   "Programming Language :: Python :: 3.11",
+   "Programming Language :: Python :: Implementation :: CPython",
+   "Programming Language :: Python :: Implementation :: PyPy",
+ ]
+ dependencies = [
+   "colorama; platform_system == 'Windows'",
+   "threemystic-common >= 0.1.17",
+-  "threemystic-cloud-client >= 0.1.52",
++  "threemystic-cloud-client >= 0.1.53",
+   "typing-extensions >= 4.4.0",
+   "asyncio >= 3.4.3",
+   "tqdm >= 4.65.0",
+   "azure-mgmt-compute >= 29",
+   "azure-mgmt-cosmosdb >= 9",
+   "azure-mgmt-costmanagement >= 4",
+   "azure-mgmt-dns >= 8",
+```
+
+### Comparing `threemystic_cloud_data_client-0.1.43/PKG-INFO` & `threemystic_cloud_data_client-0.1.44/PKG-INFO`
+
+ * *Files 0% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ Metadata-Version: 2.1
+ Name: threemystic-cloud-data-client
+-Version: 0.1.43
++Version: 0.1.44
+ Summary: A tool for collecting data from various cloud providers
+ Project-URL: Homepage, https://github.com/3MysticApes/3mystic_cloud_data_client
+ Project-URL: Bug Tracker, https://github.com/3MysticApes/3mystic_cloud_data_client/issues
+ Author: Ron Truex
+ License-Expression: MIT
+ License-File: LICENSE
+ Classifier: License :: OSI Approved :: MIT License
+@@ -35,15 +35,15 @@
+ Requires-Dist: azure-mgmt-redis>=14
+ Requires-Dist: azure-mgmt-resourcegraph>=8
+ Requires-Dist: azure-mgmt-sql>=3
+ Requires-Dist: azure-mgmt-sqlvirtualmachine>=0.6
+ Requires-Dist: azure-mgmt-subscription>=3
+ Requires-Dist: azure-mgmt-synapse>=2
+ Requires-Dist: colorama; platform_system == 'Windows'
+-Requires-Dist: threemystic-cloud-client>=0.1.52
++Requires-Dist: threemystic-cloud-client>=0.1.53
+ Requires-Dist: threemystic-common>=0.1.17
+ Requires-Dist: tqdm>=4.65.0
+ Requires-Dist: typing-extensions>=4.4.0
+ Description-Content-Type: text/markdown
+ 
+ # 3mystic_cloud_data_client
+ A set of scripts to help uniformly pull data from the cloud providers for various resources.
+```
+
