@@ -12415,3 +12415,63 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-27 06:49:26] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.393.0.tar.gz]
 [2023-07-27 06:49:26] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2023-07-27 06:49:26] INFO root fetch - main [MainThread]: Store serial: [19054660]
+[2023-07-27 06:54:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19054660]
+[2023-07-27 06:54:35] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-27 06:54:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: danbi
+[2023-07-27 06:54:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sudulunu
+[2023-07-27 06:54:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-project-sequence
+[2023-07-27 06:54:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jupyterlab-s3-browser-uccps
+[2023-07-27 06:54:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addons-oca-project
+[2023-07-27 06:54:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openai-function
+[2023-07-27 06:54:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyrandonaut
+[2023-07-27 06:54:35] INFO root fetch - processPackages [pyrandonaut]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-27 06:54:35] INFO root fetch - processPackages [odoo-addons-oca-project]: New version: [16.0.20230726.0] Old Version: [16.0.20230724.0]
+[2023-07-27 06:54:35] INFO root fetch - processPackages [danbi]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-07-27 06:54:35] INFO root fetch - processPackages [openai-function]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-27 06:54:35] WARNING root fetch - processPackages [jupyterlab-s3-browser-uccps]: Skipping, unable to determine old version
+[2023-07-27 06:54:35] INFO root fetch - main [MainThread]: End processing [jupyterlab-s3-browser-uccps] error
+[2023-07-27 06:54:35] INFO root fetch - processPackages [sudulunu]: New version: [0.1.0] Old Version: [0.0.3]
+[2023-07-27 06:54:35] INFO root fetch - processPackages [odoo-addon-project-sequence]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2023-07-27 06:54:35] INFO root fetch - processPackages [odoo-addon-project-sequence]: Downloading https://files.pythonhosted.org/packages/08/7d/560da866685ecc00d77b5137ced48e0b30138cf416311aea7141e491defe/odoo_addon_project_sequence-16.0.1.0.0.2-py3-none-any.whl
+[2023-07-27 06:54:35] INFO root fetch - processPackages [openai-function]: Downloading https://files.pythonhosted.org/packages/e3/9c/a4fafbcd47173467cd8425fa67ec3264424e00c87e55cfd3846192bf0626/openai_function-0.1.4.tar.gz
+[2023-07-27 06:54:35] INFO root fetch - processPackages [pyrandonaut]: Downloading https://files.pythonhosted.org/packages/49/1c/3e7360eb841fa653a7a758f03cc45c6687ab135de365baf1ffa622c4612b/pyrandonaut-0.1.6.tar.gz
+[2023-07-27 06:54:35] INFO root fetch - processPackages [odoo-addons-oca-project]: Downloading https://files.pythonhosted.org/packages/38/d4/9f6414388a0a7a4d3c48895c8a8dc0845a18a1fcef5dcd3fd58e9292a5e2/odoo_addons_oca_project-16.0.20230724.0-py3-none-any.whl
+[2023-07-27 06:54:35] INFO root fetch - processPackages [sudulunu]: Downloading https://files.pythonhosted.org/packages/1b/e7/3b0cc1913855294d4fef05ded6e86bf7812a7979dbeba0305d0a50c9f328/sudulunu-0.0.3.tar.gz
+[2023-07-27 06:54:35] INFO root fetch - processPackages [danbi]: Downloading https://files.pythonhosted.org/packages/c2/72/22ba0c3509479f69f5ffc3941df78acc0abfcc40698187c42ce4a3ddcc73/danbi-0.2.98.tar.gz
+[2023-07-27 06:54:35] INFO root fetch - processPackages [odoo-addon-project-sequence]: Downloading https://files.pythonhosted.org/packages/0b/a4/0509871628de1876df96beed46e03a4b23169f28b09bccfa16a058265bbc/odoo_addon_project_sequence-16.0.1.0.0.3-py3-none-any.whl
+[2023-07-27 06:54:35] INFO root fetch - processPackages [openai-function]: Downloading https://files.pythonhosted.org/packages/1f/7c/34f70c480aa0abc5b5953792c89c52bfd82a947254f7470ba45006ae48d5/openai_function-0.1.5.tar.gz
+[2023-07-27 06:54:35] INFO root fetch - processPackages [pyrandonaut]: Downloading https://files.pythonhosted.org/packages/a2/2f/938830b712fabdf1dccd62eae67b753b3b7f6d12dc9b05e369bb05adf9b7/pyrandonaut-0.1.7.tar.gz
+[2023-07-27 06:54:35] INFO root fetch - processPackages [odoo-addons-oca-project]: Downloading https://files.pythonhosted.org/packages/20/13/ee5bd755564b8faeeb29ffb7a381ed67f59339d18935999356f870acc403/odoo_addons_oca_project-16.0.20230726.0-py3-none-any.whl
+[2023-07-27 06:54:35] INFO root fetch - processPackages [sudulunu]: Downloading https://files.pythonhosted.org/packages/d8/d5/0012c4b5ca5d54fdab335bc1f3905b00c75cc8166dd9a541980d90a2b8a0/sudulunu-0.1.0.tar.gz
+[2023-07-27 06:54:36] INFO root fetch - processPackages [odoo-addon-project-sequence]: executing diffoscope
+[2023-07-27 06:54:36] INFO root fetch - processPackages [odoo-addon-project-sequence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_project_sequence-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_project_sequence-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230727/o/odoo-addon-project-sequence/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-07-27 06:54:36] INFO root fetch - processPackages [danbi]: Downloading https://files.pythonhosted.org/packages/08/67/6ca29911c73cded25c25e0725cecb295a7ffb7284383910591bbccccb9bf/danbi-0.2.99.tar.gz
+[2023-07-27 06:54:36] INFO root fetch - processPackages [odoo-addons-oca-project]: executing diffoscope
+[2023-07-27 06:54:36] INFO root fetch - processPackages [odoo-addons-oca-project]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_project-16.0.20230724.0-py3-none-any.whl.zip tmp/odoo_addons_oca_project-16.0.20230726.0-py3-none-any.whl.zip --markdown 20230727/o/odoo-addons-oca-project/16.0.20230724.0-16.0.20230726.0/diff.md --exclude *.pyd
+[2023-07-27 06:54:36] INFO root fetch - processPackages [sudulunu]: executing diffoscope
+[2023-07-27 06:54:36] INFO root fetch - processPackages [sudulunu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sudulunu-0.0.3.tar.gz tmp/sudulunu-0.1.0.tar.gz --markdown 20230727/s/sudulunu/0.0.3-0.1.0/diff.md --exclude *.pyd
+[2023-07-27 06:54:36] INFO root fetch - processPackages [openai-function]: executing diffoscope
+[2023-07-27 06:54:36] INFO root fetch - processPackages [openai-function]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_function-0.1.4.tar.gz tmp/openai_function-0.1.5.tar.gz --markdown 20230727/o/openai-function/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-27 06:54:36] INFO root fetch - processPackages [pyrandonaut]: executing diffoscope
+[2023-07-27 06:54:36] INFO root fetch - processPackages [pyrandonaut]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrandonaut-0.1.6.tar.gz tmp/pyrandonaut-0.1.7.tar.gz --markdown 20230727/p/pyrandonaut/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-27 06:54:36] INFO root fetch - processPackages [danbi]: executing diffoscope
+[2023-07-27 06:54:36] INFO root fetch - processPackages [danbi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/danbi-0.2.98.tar.gz tmp/danbi-0.2.99.tar.gz --markdown 20230727/d/danbi/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-07-27 06:54:37] INFO root fetch - processPackages [odoo-addons-oca-project]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_project-16.0.20230724.0-py3-none-any.whl.zip]
+[2023-07-27 06:54:37] INFO root fetch - processPackages [odoo-addons-oca-project]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_project-16.0.20230726.0-py3-none-any.whl.zip]
+[2023-07-27 06:54:37] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-project]: success
+[2023-07-27 06:54:37] INFO root fetch - processPackages [pyrandonaut]: Remove: archive file [/home/abi/fetcher/tmp/pyrandonaut-0.1.6.tar.gz]
+[2023-07-27 06:54:37] INFO root fetch - processPackages [pyrandonaut]: Remove: archive file [/home/abi/fetcher/tmp/pyrandonaut-0.1.7.tar.gz]
+[2023-07-27 06:54:37] INFO root fetch - main [MainThread]: End processing [pyrandonaut]: success
+[2023-07-27 06:54:37] INFO root fetch - processPackages [odoo-addon-project-sequence]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_sequence-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-07-27 06:54:37] INFO root fetch - processPackages [odoo-addon-project-sequence]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_sequence-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-07-27 06:54:37] INFO root fetch - main [MainThread]: End processing [odoo-addon-project-sequence]: success
+[2023-07-27 06:54:37] INFO root fetch - processPackages [openai-function]: Remove: archive file [/home/abi/fetcher/tmp/openai_function-0.1.4.tar.gz]
+[2023-07-27 06:54:37] INFO root fetch - processPackages [openai-function]: Remove: archive file [/home/abi/fetcher/tmp/openai_function-0.1.5.tar.gz]
+[2023-07-27 06:54:37] INFO root fetch - main [MainThread]: End processing [openai-function]: success
+[2023-07-27 06:54:37] INFO root fetch - processPackages [sudulunu]: Remove: archive file [/home/abi/fetcher/tmp/sudulunu-0.0.3.tar.gz]
+[2023-07-27 06:54:37] INFO root fetch - processPackages [sudulunu]: Remove: archive file [/home/abi/fetcher/tmp/sudulunu-0.1.0.tar.gz]
+[2023-07-27 06:54:37] INFO root fetch - main [MainThread]: End processing [sudulunu]: success
+[2023-07-27 06:54:37] INFO root fetch - processPackages [danbi]: Remove: archive file [/home/abi/fetcher/tmp/danbi-0.2.98.tar.gz]
+[2023-07-27 06:54:37] INFO root fetch - processPackages [danbi]: Remove: archive file [/home/abi/fetcher/tmp/danbi-0.2.99.tar.gz]
+[2023-07-27 06:54:37] INFO root fetch - main [MainThread]: End processing [danbi]: success
+[2023-07-27 06:54:37] INFO root fetch - main [MainThread]: Store serial: [19054684]
