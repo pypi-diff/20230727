@@ -18374,3 +18374,189 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-27 09:55:45] ERROR root fetch - processPackages [mkdocs-material]: Timeout during execution of pkgdiff
 [2023-07-27 09:55:45] INFO root fetch - main [MainThread]: End processing [mkdocs-material] error
 [2023-07-27 09:55:45] INFO root fetch - main [MainThread]: Store serial: [19056932]
+[2023-07-27 10:00:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19056932]
+[2023-07-27 10:01:04] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-07-27 10:01:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lbt-dragonfly
+[2023-07-27 10:01:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aspose-zip
+[2023-07-27 10:01:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: onnxruntime-cann
+[2023-07-27 10:01:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pydlmeta
+[2023-07-27 10:01:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dimtown-spider
+[2023-07-27 10:01:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: OpenFisca-France-Data
+[2023-07-27 10:01:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nonebot-plugin-nonememe
+[2023-07-27 10:01:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gitstats-abilian
+[2023-07-27 10:01:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ghga-event-schemas
+[2023-07-27 10:01:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mkdocs-material
+[2023-07-27 10:01:04] INFO root fetch - processPackages [pydlmeta]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-27 10:01:04] INFO root fetch - processPackages [onnxruntime-cann]: New version: [1.15.1] Old Version: [1.15.0]
+[2023-07-27 10:01:04] INFO root fetch - processPackages [nonebot-plugin-nonememe]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-27 10:01:04] INFO root fetch - processPackages [ghga-event-schemas]: New version: [0.8.0] Old Version: [0.7.4]
+[2023-07-27 10:01:04] INFO root fetch - processPackages [OpenFisca-France-Data]: New version: [2.0.0] Old Version: [1.3.1]
+[2023-07-27 10:01:04] INFO root fetch - processPackages [aspose-zip]: New version: [23.7.0] Old Version: [23.6.1]
+[2023-07-27 10:01:04] INFO root fetch - processPackages [gitstats-abilian]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-27 10:01:04] INFO root fetch - processPackages [dimtown-spider]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-27 10:01:04] INFO root fetch - processPackages [mkdocs-material]: New version: [9.2.0b2] Old Version: [9.2.0b1]
+[2023-07-27 10:01:04] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-07-27 10:01:04] INFO root fetch - processPackages [nonebot-plugin-nonememe]: Downloading https://files.pythonhosted.org/packages/3b/7d/6df81be9d950f806a6d7f6a32efe05ab8b88276a1b418d2b5a7213b22dd9/nonebot_plugin_nonememe-0.1.0.tar.gz
+[2023-07-27 10:01:04] INFO root fetch - processPackages [aspose-zip]: Downloading https://files.pythonhosted.org/packages/34/29/8a043bb764f0f3ff5714949fb43a9785eb28325b7a10627d88cb6dd67baf/aspose_zip-23.6.1-py3-none-win_amd64.whl
+[2023-07-27 10:01:04] INFO root fetch - processPackages [dimtown-spider]: Downloading https://files.pythonhosted.org/packages/f7/fc/2f93a50366def25a84ae32d4119d8920d078559e5838ac5ae88f3cd4e6b0/dimtown_spider-0.0.3.tar.gz
+[2023-07-27 10:01:04] INFO root fetch - processPackages [gitstats-abilian]: Downloading https://files.pythonhosted.org/packages/72/6b/79912869b93222db1fe01c269717b638b9870c6dcb461511de2312776790/gitstats_abilian-1.0.1.tar.gz
+[2023-07-27 10:01:04] INFO root fetch - processPackages [pydlmeta]: Downloading https://files.pythonhosted.org/packages/ad/1c/730ab4f3269cb1f36f9e5d674e51d911e89ca16f219972c2efd72eaa1dd5/pydlmeta-1.0.2.tar.gz
+[2023-07-27 10:01:04] INFO root fetch - processPackages [onnxruntime-cann]: Downloading https://files.pythonhosted.org/packages/3e/92/e0a8f24a54d607108f7ef011c983bb9c7cc524bb0cd1c8e998de94076500/onnxruntime_cann-1.15.0-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+[2023-07-27 10:01:04] INFO root fetch - processPackages [ghga-event-schemas]: Downloading https://files.pythonhosted.org/packages/3c/c0/caf266f667a293384e27df35c290f38f81bf0a1a5aae96f975e9a715ee43/ghga_event_schemas-0.7.4.tar.gz
+[2023-07-27 10:01:04] INFO root fetch - processPackages [OpenFisca-France-Data]: Downloading https://files.pythonhosted.org/packages/52/50/56ffbf9281fdcb526d495bf09e2e2cb387e493b62c9f5a7a642ae23c2ed3/OpenFisca-France-Data-1.3.1.tar.gz
+[2023-07-27 10:01:04] INFO root fetch - processPackages [mkdocs-material]: Downloading https://files.pythonhosted.org/packages/da/8f/bd3f707b205e85938716b32c8eaedd1e254708f8f56f24c7ec173d5793df/mkdocs_material-9.2.0b2.tar.gz
+[2023-07-27 10:01:04] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/be/ae/7267dfd241a0641f3fbadea4128db5ffa29609911cadb5fc4840656bb44a/lbt-dragonfly-0.9.98.tar.gz
+[2023-07-27 10:01:04] WARNING root fetch - processPackages [aspose-zip]: Skipping package: exceeds size limit 36455253>=10485760
+[2023-07-27 10:01:04] INFO root fetch - processPackages [aspose-zip]: Start processing: insights-core
+[2023-07-27 10:01:04] INFO root fetch - main [MainThread]: End processing [aspose-zip] error
+[2023-07-27 10:01:05] INFO root fetch - processPackages [insights-core]: New version: [3.2.8] Old Version: [3.2.7]
+[2023-07-27 10:01:05] INFO root fetch - processPackages [pydlmeta]: Downloading https://files.pythonhosted.org/packages/92/28/7bdb02479f258dc077a84529de71f9c6408b6b04fcd7f3e2a7c5a1e54a24/pydlmeta-1.0.3.tar.gz
+[2023-07-27 10:01:05] INFO root fetch - processPackages [nonebot-plugin-nonememe]: Downloading https://files.pythonhosted.org/packages/b2/56/e336f832ec23ac6458c9cb91fb0b2f7dd02598f1c561f9b731508092303c/nonebot_plugin_nonememe-0.1.1.tar.gz
+[2023-07-27 10:01:05] INFO root fetch - processPackages [OpenFisca-France-Data]: Downloading https://files.pythonhosted.org/packages/67/1d/841b17e3496862bccf75430b75d50f1c1723c87d6fd77f87990742df684c/OpenFisca-France-Data-2.0.0.tar.gz
+[2023-07-27 10:01:05] INFO root fetch - processPackages [dimtown-spider]: Downloading https://files.pythonhosted.org/packages/5f/51/42d4a00d146a97dfeda04fd4d224d9117bcee16c73107680f5a7b8a5a8c9/dimtown_spider-0.0.4.tar.gz
+[2023-07-27 10:01:05] INFO root fetch - processPackages [gitstats-abilian]: Downloading https://files.pythonhosted.org/packages/76/51/2494226e4e2cb2851e66d790bf86eac69930018cbac5379c0b612e6ac020/gitstats_abilian-1.0.2.tar.gz
+[2023-07-27 10:01:05] INFO root fetch - processPackages [mkdocs-material]: executing diffoscope
+[2023-07-27 10:01:05] INFO root fetch - processPackages [mkdocs-material]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs_material-9.2.0b1.tar.gz tmp/mkdocs_material-9.2.0b2.tar.gz --markdown 20230727/m/mkdocs-material/9.2.0b1-9.2.0b2/diff.md --exclude *.pyd
+[2023-07-27 10:01:05] INFO root fetch - processPackages [insights-core]: Downloading https://files.pythonhosted.org/packages/56/95/cb20286876719f1bb47dbf6d65a5e068d101e43ac053425a5f13999d2e2b/insights-core-3.2.7.tar.gz
+[2023-07-27 10:01:05] INFO root fetch - processPackages [ghga-event-schemas]: Downloading https://files.pythonhosted.org/packages/1b/dd/6c4a8a81b4b88360cebb39bd9f5e698ba599cf34be72cea0dfd9911549d6/ghga_event_schemas-0.8.0.tar.gz
+[2023-07-27 10:01:05] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/b4/08/0ca46e9f7eef7b2cce7f0c6110106c42aa35a79bd88110559177f64d733a/lbt-dragonfly-0.9.99.tar.gz
+[2023-07-27 10:01:05] INFO root fetch - processPackages [pydlmeta]: executing diffoscope
+[2023-07-27 10:01:05] INFO root fetch - processPackages [pydlmeta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydlmeta-1.0.2.tar.gz tmp/pydlmeta-1.0.3.tar.gz --markdown 20230727/p/pydlmeta/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-27 10:01:05] INFO root fetch - processPackages [nonebot-plugin-nonememe]: executing diffoscope
+[2023-07-27 10:01:05] INFO root fetch - processPackages [nonebot-plugin-nonememe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_nonememe-0.1.0.tar.gz tmp/nonebot_plugin_nonememe-0.1.1.tar.gz --markdown 20230727/n/nonebot-plugin-nonememe/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-27 10:01:05] INFO root fetch - processPackages [OpenFisca-France-Data]: executing diffoscope
+[2023-07-27 10:01:05] INFO root fetch - processPackages [OpenFisca-France-Data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenFisca-France-Data-1.3.1.tar.gz tmp/OpenFisca-France-Data-2.0.0.tar.gz --markdown 20230727/O/OpenFisca-France-Data/1.3.1-2.0.0/diff.md --exclude *.pyd
+[2023-07-27 10:01:05] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2023-07-27 10:01:05] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20230727/l/lbt-dragonfly/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-07-27 10:01:05] INFO root fetch - processPackages [dimtown-spider]: executing diffoscope
+[2023-07-27 10:01:05] INFO root fetch - processPackages [dimtown-spider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dimtown_spider-0.0.3.tar.gz tmp/dimtown_spider-0.0.4.tar.gz --markdown 20230727/d/dimtown-spider/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-27 10:01:05] INFO root fetch - processPackages [gitstats-abilian]: executing diffoscope
+[2023-07-27 10:01:05] INFO root fetch - processPackages [gitstats-abilian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitstats_abilian-1.0.1.tar.gz tmp/gitstats_abilian-1.0.2.tar.gz --markdown 20230727/g/gitstats-abilian/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-27 10:01:05] INFO root fetch - processPackages [ghga-event-schemas]: executing diffoscope
+[2023-07-27 10:01:05] INFO root fetch - processPackages [ghga-event-schemas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ghga_event_schemas-0.7.4.tar.gz tmp/ghga_event_schemas-0.8.0.tar.gz --markdown 20230727/g/ghga-event-schemas/0.7.4-0.8.0/diff.md --exclude *.pyd
+[2023-07-27 10:01:05] INFO root fetch - processPackages [onnxruntime-cann]: Downloading https://files.pythonhosted.org/packages/ec/35/db4c89c16751da9ecc066fa01e7a2dd67ca521551c2858d5176746a1b7e7/onnxruntime_cann-1.15.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-27 10:01:05] INFO root fetch - processPackages [insights-core]: Downloading https://files.pythonhosted.org/packages/05/93/81004b4f686a378a6bf8c6192e10d5bb486f005988b73f2b53f0c97553f2/insights-core-3.2.8.tar.gz
+[2023-07-27 10:01:06] INFO root fetch - processPackages [insights-core]: executing diffoscope
+[2023-07-27 10:01:06] INFO root fetch - processPackages [insights-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/insights-core-3.2.7.tar.gz tmp/insights-core-3.2.8.tar.gz --markdown 20230727/i/insights-core/3.2.7-3.2.8/diff.md --exclude *.pyd
+[2023-07-27 10:01:06] INFO root fetch - processPackages [onnxruntime-cann]: executing diffoscope
+[2023-07-27 10:01:06] INFO root fetch - processPackages [onnxruntime-cann]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnxruntime_cann-1.15.0-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip tmp/onnxruntime_cann-1.15.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230727/o/onnxruntime-cann/1.15.0-1.15.1/diff.md --exclude *.pyd
+[2023-07-27 10:01:06] INFO root fetch - processPackages [pydlmeta]: Remove: archive file [/home/abi/fetcher/tmp/pydlmeta-1.0.2.tar.gz]
+[2023-07-27 10:01:06] INFO root fetch - processPackages [pydlmeta]: Remove: archive file [/home/abi/fetcher/tmp/pydlmeta-1.0.3.tar.gz]
+[2023-07-27 10:01:06] INFO root fetch - processPackages [pydlmeta]: Start processing: consulate-fork
+[2023-07-27 10:01:06] INFO root fetch - main [MainThread]: End processing [pydlmeta]: success
+[2023-07-27 10:01:06] INFO root fetch - processPackages [consulate-fork]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-07-27 10:01:07] INFO root fetch - processPackages [nonebot-plugin-nonememe]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_nonememe-0.1.0.tar.gz]
+[2023-07-27 10:01:07] INFO root fetch - processPackages [nonebot-plugin-nonememe]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_nonememe-0.1.1.tar.gz]
+[2023-07-27 10:01:07] INFO root fetch - processPackages [nonebot-plugin-nonememe]: Start processing: tokenmonster
+[2023-07-27 10:01:07] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-nonememe]: success
+[2023-07-27 10:01:07] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.98.tar.gz]
+[2023-07-27 10:01:07] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.99.tar.gz]
+[2023-07-27 10:01:07] INFO root fetch - processPackages [lbt-dragonfly]: Start processing: mass-analytics
+[2023-07-27 10:01:07] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2023-07-27 10:01:07] INFO root fetch - processPackages [tokenmonster]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-27 10:01:07] INFO root fetch - processPackages [consulate-fork]: Downloading https://files.pythonhosted.org/packages/81/74/303c9c4a6efeeb78196f0321dab14c67b16f84a0ed6adb83b177a2793596/consulate-fork-0.7.0.tar.gz
+[2023-07-27 10:01:07] INFO root fetch - processPackages [mass-analytics]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-07-27 10:01:07] INFO root fetch - processPackages [gitstats-abilian]: Remove: archive file [/home/abi/fetcher/tmp/gitstats_abilian-1.0.1.tar.gz]
+[2023-07-27 10:01:07] INFO root fetch - processPackages [gitstats-abilian]: Remove: archive file [/home/abi/fetcher/tmp/gitstats_abilian-1.0.2.tar.gz]
+[2023-07-27 10:01:07] INFO root fetch - processPackages [gitstats-abilian]: Start processing: jupyterlab-s3-browser-uccps
+[2023-07-27 10:01:07] INFO root fetch - main [MainThread]: End processing [gitstats-abilian]: success
+[2023-07-27 10:01:07] INFO root fetch - processPackages [ghga-event-schemas]: Remove: archive file [/home/abi/fetcher/tmp/ghga_event_schemas-0.7.4.tar.gz]
+[2023-07-27 10:01:07] INFO root fetch - processPackages [ghga-event-schemas]: Remove: archive file [/home/abi/fetcher/tmp/ghga_event_schemas-0.8.0.tar.gz]
+[2023-07-27 10:01:07] INFO root fetch - processPackages [ghga-event-schemas]: Start processing: ocean-ml
+[2023-07-27 10:01:07] INFO root fetch - main [MainThread]: End processing [ghga-event-schemas]: success
+[2023-07-27 10:01:07] INFO root fetch - processPackages [dimtown-spider]: Remove: archive file [/home/abi/fetcher/tmp/dimtown_spider-0.0.3.tar.gz]
+[2023-07-27 10:01:07] INFO root fetch - processPackages [dimtown-spider]: Remove: archive file [/home/abi/fetcher/tmp/dimtown_spider-0.0.4.tar.gz]
+[2023-07-27 10:01:07] INFO root fetch - processPackages [dimtown-spider]: Start processing: jax-enums
+[2023-07-27 10:01:07] INFO root fetch - main [MainThread]: End processing [dimtown-spider]: success
+[2023-07-27 10:01:07] INFO root fetch - processPackages [jupyterlab-s3-browser-uccps]: New version: [0.10.4] Old Version: [0.10.3]
+[2023-07-27 10:01:07] INFO root fetch - processPackages [tokenmonster]: Downloading https://files.pythonhosted.org/packages/49/3a/beccf05c96c93fe3f4cfaf075d96aaa4ca5416ea07570da6338012bebd44/tokenmonster-1.1.8.tar.gz
+[2023-07-27 10:01:07] INFO root fetch - processPackages [mass-analytics]: Downloading https://files.pythonhosted.org/packages/6d/4b/8a8c64e2bb148ddf7247c146a5614b8cb72473d41d1bd31f81565110aa5e/mass_analytics-1.0.7.tar.gz
+[2023-07-27 10:01:07] INFO root fetch - processPackages [ocean-ml]: New version: [1.0.5] Old Version: [1.0.1]
+[2023-07-27 10:01:07] INFO root fetch - processPackages [jax-enums]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-27 10:01:07] INFO root fetch - processPackages [consulate-fork]: Downloading https://files.pythonhosted.org/packages/2e/6c/6fe66b1ad25d554593d691d30c1cf21421fa968735b60c86e71836054703/consulate-fork-0.7.1.tar.gz
+[2023-07-27 10:01:07] INFO root fetch - processPackages [jupyterlab-s3-browser-uccps]: Downloading https://files.pythonhosted.org/packages/32/a3/4c2f8cead8340d96c889fb0d9fac243df7b0a64f1d021bfb9e961717364f/jupyterlab_s3_browser_uccps-0.10.3.tar.gz
+[2023-07-27 10:01:07] INFO root fetch - processPackages [OpenFisca-France-Data]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca-France-Data-1.3.1.tar.gz]
+[2023-07-27 10:01:07] INFO root fetch - processPackages [OpenFisca-France-Data]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca-France-Data-2.0.0.tar.gz]
+[2023-07-27 10:01:07] INFO root fetch - processPackages [OpenFisca-France-Data]: Start processing: game-lib-pool
+[2023-07-27 10:01:07] INFO root fetch - main [MainThread]: End processing [OpenFisca-France-Data]: success
+[2023-07-27 10:01:07] INFO root fetch - processPackages [game-lib-pool]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-07-27 10:01:07] INFO root fetch - processPackages [jax-enums]: Downloading https://files.pythonhosted.org/packages/c0/f8/985233412501363148bf783369d3d3fdc4f9f70d0953a69164f7421bc258/jax_enums-0.1.1.tar.gz
+[2023-07-27 10:01:07] INFO root fetch - processPackages [ocean-ml]: Downloading https://files.pythonhosted.org/packages/ff/99/0538917d85a832a3b9f53e479c032294db6bdd1bc3daed6e25a6174a4521/ocean-ml-1.0.1.tar.gz
+[2023-07-27 10:01:07] INFO root fetch - processPackages [consulate-fork]: executing diffoscope
+[2023-07-27 10:01:07] INFO root fetch - processPackages [consulate-fork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/consulate-fork-0.7.0.tar.gz tmp/consulate-fork-0.7.1.tar.gz --markdown 20230727/c/consulate-fork/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-07-27 10:01:07] INFO root fetch - processPackages [tokenmonster]: Downloading https://files.pythonhosted.org/packages/de/3e/dd95897fbef8045c52323a2502aa2ddfa92ef61ad5ced051910519f05402/tokenmonster-1.1.9.tar.gz
+[2023-07-27 10:01:07] INFO root fetch - processPackages [mass-analytics]: Downloading https://files.pythonhosted.org/packages/50/68/0e88d56222aaa0168e3bdb6139eed83fd048a7c77d2f15ca419eb1bf5888/mass_analytics-1.0.8.tar.gz
+[2023-07-27 10:01:07] INFO root fetch - processPackages [jupyterlab-s3-browser-uccps]: Downloading https://files.pythonhosted.org/packages/73/74/295f3ec8757f8b6b50de8f8d138fe0e9d54aab725c8904b66c3eb99affd8/jupyterlab_s3_browser_uccps-0.10.4.tar.gz
+[2023-07-27 10:01:07] INFO root fetch - processPackages [tokenmonster]: executing diffoscope
+[2023-07-27 10:01:07] INFO root fetch - processPackages [tokenmonster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tokenmonster-1.1.8.tar.gz tmp/tokenmonster-1.1.9.tar.gz --markdown 20230727/t/tokenmonster/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-27 10:01:07] INFO root fetch - processPackages [mass-analytics]: executing diffoscope
+[2023-07-27 10:01:07] INFO root fetch - processPackages [mass-analytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mass_analytics-1.0.7.tar.gz tmp/mass_analytics-1.0.8.tar.gz --markdown 20230727/m/mass-analytics/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-07-27 10:01:07] INFO root fetch - processPackages [game-lib-pool]: Downloading https://files.pythonhosted.org/packages/1b/19/c83e8e989c3d0cf88ff56745beecf4adcf4264180081563b4b90aadcb816/game_lib_pool-0.1.2-cp311-none-win_amd64.whl
+[2023-07-27 10:01:08] INFO root fetch - processPackages [jax-enums]: Downloading https://files.pythonhosted.org/packages/c9/7e/86dadf746bba5e0c7cfd08db797dfd9e52c9bbe904ee74998727cac17381/jax_enums-0.1.2.tar.gz
+[2023-07-27 10:01:08] INFO root fetch - processPackages [ocean-ml]: Downloading https://files.pythonhosted.org/packages/b7/98/e799c513ea8db72b1dd2c1e3057e8c767e9653ab5d9ee8a400e02568f504/ocean-ml-1.0.5.tar.gz
+[2023-07-27 10:01:08] INFO root fetch - processPackages [jax-enums]: executing diffoscope
+[2023-07-27 10:01:08] INFO root fetch - processPackages [jax-enums]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jax_enums-0.1.1.tar.gz tmp/jax_enums-0.1.2.tar.gz --markdown 20230727/j/jax-enums/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-27 10:01:08] INFO root fetch - processPackages [jupyterlab-s3-browser-uccps]: executing diffoscope
+[2023-07-27 10:01:08] INFO root fetch - processPackages [jupyterlab-s3-browser-uccps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_s3_browser_uccps-0.10.3.tar.gz tmp/jupyterlab_s3_browser_uccps-0.10.4.tar.gz --markdown 20230727/j/jupyterlab-s3-browser-uccps/0.10.3-0.10.4/diff.md --exclude *.pyd
+[2023-07-27 10:01:08] INFO root fetch - processPackages [ocean-ml]: executing diffoscope
+[2023-07-27 10:01:08] INFO root fetch - processPackages [ocean-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocean-ml-1.0.1.tar.gz tmp/ocean-ml-1.0.5.tar.gz --markdown 20230727/o/ocean-ml/1.0.1-1.0.5/diff.md --exclude *.pyd
+[2023-07-27 10:01:08] INFO root fetch - processPackages [game-lib-pool]: Downloading https://files.pythonhosted.org/packages/3e/21/491a805ef47201b54ece747cbc756038dacef6842e32ee7d45219fdfd79b/game_lib_pool-0.2.0-cp311-cp311-manylinux_2_34_x86_64.whl
+[2023-07-27 10:01:08] INFO root fetch - processPackages [game-lib-pool]: executing diffoscope
+[2023-07-27 10:01:08] INFO root fetch - processPackages [game-lib-pool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/game_lib_pool-0.1.2-cp311-none-win_amd64.whl.zip tmp/game_lib_pool-0.2.0-cp311-cp311-manylinux_2_34_x86_64.whl.zip --markdown 20230727/g/game-lib-pool/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-07-27 10:01:09] INFO root fetch - processPackages [consulate-fork]: Remove: archive file [/home/abi/fetcher/tmp/consulate-fork-0.7.0.tar.gz]
+[2023-07-27 10:01:09] INFO root fetch - processPackages [consulate-fork]: Remove: archive file [/home/abi/fetcher/tmp/consulate-fork-0.7.1.tar.gz]
+[2023-07-27 10:01:09] INFO root fetch - processPackages [consulate-fork]: Start processing: pypsa
+[2023-07-27 10:01:09] INFO root fetch - main [MainThread]: End processing [consulate-fork]: success
+[2023-07-27 10:01:09] INFO root fetch - processPackages [mass-analytics]: Remove: archive file [/home/abi/fetcher/tmp/mass_analytics-1.0.7.tar.gz]
+[2023-07-27 10:01:09] INFO root fetch - processPackages [mass-analytics]: Remove: archive file [/home/abi/fetcher/tmp/mass_analytics-1.0.8.tar.gz]
+[2023-07-27 10:01:09] INFO root fetch - processPackages [mass-analytics]: Start processing: hserv
+[2023-07-27 10:01:09] INFO root fetch - main [MainThread]: End processing [mass-analytics]: success
+[2023-07-27 10:01:09] INFO root fetch - processPackages [hserv]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-27 10:01:09] INFO root fetch - processPackages [pypsa]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-27 10:01:09] INFO root fetch - processPackages [tokenmonster]: Remove: archive file [/home/abi/fetcher/tmp/tokenmonster-1.1.8.tar.gz]
+[2023-07-27 10:01:09] INFO root fetch - processPackages [tokenmonster]: Remove: archive file [/home/abi/fetcher/tmp/tokenmonster-1.1.9.tar.gz]
+[2023-07-27 10:01:09] INFO root fetch - processPackages [tokenmonster]: Start processing: terraform-backend-s3-bucket
+[2023-07-27 10:01:09] INFO root fetch - main [MainThread]: End processing [tokenmonster]: success
+[2023-07-27 10:01:09] INFO root fetch - processPackages [hserv]: Downloading https://files.pythonhosted.org/packages/9f/97/d8511f768e13ac8ca7d84ab918e76587aab375e986729bc04db791d2367e/hserv-0.0.8.tar.gz
+[2023-07-27 10:01:09] INFO root fetch - processPackages [terraform-backend-s3-bucket]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-27 10:01:09] INFO root fetch - processPackages [jax-enums]: Remove: archive file [/home/abi/fetcher/tmp/jax_enums-0.1.1.tar.gz]
+[2023-07-27 10:01:09] INFO root fetch - processPackages [jax-enums]: Remove: archive file [/home/abi/fetcher/tmp/jax_enums-0.1.2.tar.gz]
+[2023-07-27 10:01:09] INFO root fetch - main [MainThread]: End processing [jax-enums]: success
+[2023-07-27 10:01:09] INFO root fetch - processPackages [pypsa]: Downloading https://files.pythonhosted.org/packages/b1/df/284abdbbc60905c7a2f2286c5507b03658dd3fbf7b10cc05a81fff6902bd/pypsa-0.8.0.tar.gz
+[2023-07-27 10:01:09] INFO root fetch - processPackages [ocean-ml]: Remove: archive file [/home/abi/fetcher/tmp/ocean-ml-1.0.1.tar.gz]
+[2023-07-27 10:01:09] INFO root fetch - processPackages [ocean-ml]: Remove: archive file [/home/abi/fetcher/tmp/ocean-ml-1.0.5.tar.gz]
+[2023-07-27 10:01:09] INFO root fetch - main [MainThread]: End processing [ocean-ml]: success
+[2023-07-27 10:01:09] INFO root fetch - processPackages [hserv]: Downloading https://files.pythonhosted.org/packages/36/92/1dda30c84099f91f8d5fbb2d3235d8cee3d69d102795ec377f5975bdf659/hserv-0.0.9.tar.gz
+[2023-07-27 10:01:09] INFO root fetch - processPackages [game-lib-pool]: Remove: archive file [/home/abi/fetcher/tmp/game_lib_pool-0.1.2-cp311-none-win_amd64.whl.zip]
+[2023-07-27 10:01:09] INFO root fetch - processPackages [game-lib-pool]: Remove: archive file [/home/abi/fetcher/tmp/game_lib_pool-0.2.0-cp311-cp311-manylinux_2_34_x86_64.whl.zip]
+[2023-07-27 10:01:09] INFO root fetch - main [MainThread]: End processing [game-lib-pool]: success
+[2023-07-27 10:01:09] INFO root fetch - processPackages [terraform-backend-s3-bucket]: Downloading https://files.pythonhosted.org/packages/c8/d0/f24de56a6375142a732a6a63a2870145dbda0f949c19b7e1b44fe223b748/terraform-backend-s3-bucket-0.0.8.tar.gz
+[2023-07-27 10:01:09] INFO root fetch - processPackages [hserv]: executing diffoscope
+[2023-07-27 10:01:09] INFO root fetch - processPackages [hserv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hserv-0.0.8.tar.gz tmp/hserv-0.0.9.tar.gz --markdown 20230727/h/hserv/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-27 10:01:10] INFO root fetch - processPackages [pypsa]: Downloading https://files.pythonhosted.org/packages/33/dd/0450c22b22814dfa635e3e221a61ec96d98208c05e6e7390d3f4c8ce0557/pypsa-0.9.0.tar.gz
+[2023-07-27 10:01:10] INFO root fetch - processPackages [terraform-backend-s3-bucket]: Downloading https://files.pythonhosted.org/packages/cb/5e/264cab254692a82c02a6b4183994138c7fbe1b9f89a8df282e61342ed3ee/terraform-backend-s3-bucket-0.0.9.tar.gz
+[2023-07-27 10:01:10] INFO root fetch - processPackages [terraform-backend-s3-bucket]: executing diffoscope
+[2023-07-27 10:01:10] INFO root fetch - processPackages [terraform-backend-s3-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terraform-backend-s3-bucket-0.0.8.tar.gz tmp/terraform-backend-s3-bucket-0.0.9.tar.gz --markdown 20230727/t/terraform-backend-s3-bucket/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-27 10:01:10] INFO root fetch - processPackages [pypsa]: executing diffoscope
+[2023-07-27 10:01:10] INFO root fetch - processPackages [pypsa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypsa-0.8.0.tar.gz tmp/pypsa-0.9.0.tar.gz --markdown 20230727/p/pypsa/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-27 10:01:10] INFO root fetch - processPackages [jupyterlab-s3-browser-uccps]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_s3_browser_uccps-0.10.3.tar.gz]
+[2023-07-27 10:01:10] INFO root fetch - processPackages [jupyterlab-s3-browser-uccps]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_s3_browser_uccps-0.10.4.tar.gz]
+[2023-07-27 10:01:10] INFO root fetch - main [MainThread]: End processing [jupyterlab-s3-browser-uccps]: success
+[2023-07-27 10:01:10] INFO root fetch - processPackages [hserv]: Remove: archive file [/home/abi/fetcher/tmp/hserv-0.0.8.tar.gz]
+[2023-07-27 10:01:10] INFO root fetch - processPackages [hserv]: Remove: archive file [/home/abi/fetcher/tmp/hserv-0.0.9.tar.gz]
+[2023-07-27 10:01:10] INFO root fetch - main [MainThread]: End processing [hserv]: success
+[2023-07-27 10:01:11] INFO root fetch - processPackages [terraform-backend-s3-bucket]: Remove: archive file [/home/abi/fetcher/tmp/terraform-backend-s3-bucket-0.0.8.tar.gz]
+[2023-07-27 10:01:11] INFO root fetch - processPackages [terraform-backend-s3-bucket]: Remove: archive file [/home/abi/fetcher/tmp/terraform-backend-s3-bucket-0.0.9.tar.gz]
+[2023-07-27 10:01:11] INFO root fetch - main [MainThread]: End processing [terraform-backend-s3-bucket]: success
+[2023-07-27 10:01:11] INFO root fetch - processPackages [pypsa]: Remove: archive file [/home/abi/fetcher/tmp/pypsa-0.8.0.tar.gz]
+[2023-07-27 10:01:11] INFO root fetch - processPackages [pypsa]: Remove: archive file [/home/abi/fetcher/tmp/pypsa-0.9.0.tar.gz]
+[2023-07-27 10:01:11] INFO root fetch - main [MainThread]: End processing [pypsa]: success
+[2023-07-27 10:01:16] INFO root fetch - processPackages [onnxruntime-cann]: Remove: archive file [/home/abi/fetcher/tmp/onnxruntime_cann-1.15.0-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip]
+[2023-07-27 10:01:16] INFO root fetch - processPackages [onnxruntime-cann]: Remove: archive file [/home/abi/fetcher/tmp/onnxruntime_cann-1.15.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-27 10:01:16] INFO root fetch - main [MainThread]: End processing [onnxruntime-cann]: success
+[2023-07-27 10:01:18] INFO root fetch - processPackages [insights-core]: Remove: archive file [/home/abi/fetcher/tmp/insights-core-3.2.7.tar.gz]
+[2023-07-27 10:01:18] INFO root fetch - processPackages [insights-core]: Remove: archive file [/home/abi/fetcher/tmp/insights-core-3.2.8.tar.gz]
+[2023-07-27 10:01:18] INFO root fetch - main [MainThread]: End processing [insights-core]: success
+[2023-07-27 10:04:05] ERROR root fetch - processPackages [mkdocs-material]: Timeout during execution of pkgdiff
+[2023-07-27 10:04:05] INFO root fetch - main [MainThread]: End processing [mkdocs-material] error
+[2023-07-27 10:04:05] INFO root fetch - main [MainThread]: Store serial: [19056995]
