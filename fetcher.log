@@ -10670,3 +10670,202 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-27 04:58:34] INFO root fetch - processPackages [LibcSearcher3]: Remove: archive file [/home/abi/fetcher/tmp/LibcSearcher3-1.4.0.tar.gz]
 [2023-07-27 04:58:34] INFO root fetch - main [MainThread]: End processing [LibcSearcher3]: success
 [2023-07-27 04:58:34] INFO root fetch - main [MainThread]: Store serial: [19054042]
+[2023-07-27 05:03:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19054042]
+[2023-07-27 05:03:43] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-27 05:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MeUtils
+[2023-07-27 05:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: psyneulink
+[2023-07-27 05:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: genicam
+[2023-07-27 05:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autodailycheckin
+[2023-07-27 05:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: basewordle
+[2023-07-27 05:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openai-function
+[2023-07-27 05:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cartup-dag
+[2023-07-27 05:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: usefulgram
+[2023-07-27 05:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-connector-importer-source-sftp
+[2023-07-27 05:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: langchain-plantuml
+[2023-07-27 05:03:43] INFO root fetch - processPackages [psyneulink]: New version: [0.9.1.1] Old Version: [0.9.1.0]
+[2023-07-27 05:03:43] INFO root fetch - processPackages [MeUtils]: New version: [2023.7.7.15.3.6] Old Version: [2023.7.6.9.18.40]
+[2023-07-27 05:03:43] INFO root fetch - processPackages [openai-function]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-27 05:03:43] INFO root fetch - processPackages [cartup-dag]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-27 05:03:43] INFO root fetch - processPackages [usefulgram]: New version: [0.0.0a9] Old Version: [0.0.0a8]
+[2023-07-27 05:03:43] INFO root fetch - processPackages [langchain-plantuml]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-27 05:03:43] INFO root fetch - processPackages [odoo-addon-connector-importer-source-sftp]: New version: [15.0.1.0.1.1] Old Version: [15.0.1.0.1]
+[2023-07-27 05:03:43] INFO root fetch - processPackages [genicam]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-07-27 05:03:43] WARNING root fetch - processPackages [basewordle]: Skipping, unable to determine old version
+[2023-07-27 05:03:43] INFO root fetch - processPackages [autodailycheckin]: New version: [0.1.3] Old Version: [0.1.2.1]
+[2023-07-27 05:03:43] INFO root fetch - processPackages [basewordle]: Start processing: testflows.github.runners
+[2023-07-27 05:03:43] INFO root fetch - main [MainThread]: End processing [basewordle] error
+[2023-07-27 05:03:44] INFO root fetch - processPackages [openai-function]: Downloading https://files.pythonhosted.org/packages/ba/90/0421dccfc461459f30512a42a6f5fc0f53a1b4c5d79594000f8291079069/openai_function-0.1.2.tar.gz
+[2023-07-27 05:03:44] INFO root fetch - processPackages [testflows.github.runners]: New version: [1.2.230727.1030201] Old Version: [1.2.230727.1024408]
+[2023-07-27 05:03:44] INFO root fetch - processPackages [usefulgram]: Downloading https://files.pythonhosted.org/packages/2e/0b/c176ee2a4cca2f15c3d9f3366b81ea095083b0fdd909e565d866ba9a0eb5/usefulgram-0.0.0a8.tar.gz
+[2023-07-27 05:03:44] INFO root fetch - processPackages [genicam]: Downloading https://files.pythonhosted.org/packages/34/b1/d5c20abb4a85e7e521fe406337e4791696cb32689b1baefc94199e8d8bf8/genicam-1.2.0-cp39-cp39-win_amd64.whl
+[2023-07-27 05:03:44] INFO root fetch - processPackages [psyneulink]: Downloading https://files.pythonhosted.org/packages/4a/66/a5a30a229896ccdd16fbfc3f8cf09164b90efe2a70f5365f54d8e4d24f20/psyneulink-0.9.1.0.tar.gz
+[2023-07-27 05:03:44] INFO root fetch - processPackages [cartup-dag]: Downloading https://files.pythonhosted.org/packages/18/ad/99ba8fe3056ce6d203b33d554a19fe378d12701d690be3b9d253f1ebde72/cartup-dag-1.0.2.tar.gz
+[2023-07-27 05:03:44] INFO root fetch - processPackages [testflows.github.runners]: Downloading https://files.pythonhosted.org/packages/fc/e3/3a07242b09ffee9a4d9aef5a404c138fc0cce82152c2a3702953c02432dd/testflows.github.runners-1.2.230727.1024408.tar.gz
+[2023-07-27 05:03:44] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/03/c2/0074fedd9218c4324bec9cdbb7bc5f7c2c839ea18d1079a715c0d495a660/MeUtils-2023.7.6.9.18.40.tar.gz
+[2023-07-27 05:03:44] INFO root fetch - processPackages [odoo-addon-connector-importer-source-sftp]: Downloading https://files.pythonhosted.org/packages/b5/c7/243b177e3daefb82548cd98906bd0980c22c10a7b9d72c01a73c671cf33a/odoo_addon_connector_importer_source_sftp-15.0.1.0.1-py3-none-any.whl
+[2023-07-27 05:03:44] INFO root fetch - processPackages [langchain-plantuml]: Downloading https://files.pythonhosted.org/packages/c9/58/3e1ab1b60bb5879c37cdb323690b293c50df51c83361c57b1ade03576d65/langchain_plantuml-0.0.5.tar.gz
+[2023-07-27 05:03:44] INFO root fetch - processPackages [autodailycheckin]: Downloading https://files.pythonhosted.org/packages/1f/7d/a36f47dcaf06aee96a90be008c57871b0bebe6aa09f5ac5212b51c18f542/autodailycheckin-0.1.2.1-py3-none-any.whl
+[2023-07-27 05:03:44] INFO root fetch - processPackages [usefulgram]: Downloading https://files.pythonhosted.org/packages/74/30/055c6040d72076b5639809c587066ee72fd7f961a9140ad5a7d8ff1c5ea4/usefulgram-0.0.0a9.tar.gz
+[2023-07-27 05:03:44] INFO root fetch - processPackages [openai-function]: Downloading https://files.pythonhosted.org/packages/7a/77/8f4f3ea4de786fb5fcb2c32b0b5ea5068bdf591b3c82ac5567acf3742e83/openai_function-0.1.3.tar.gz
+[2023-07-27 05:03:44] INFO root fetch - processPackages [cartup-dag]: Downloading https://files.pythonhosted.org/packages/b7/0d/48b6547e98558df2edc04105a9eb0cf1052f6dbeff95308ccb23254e4520/cartup_dag-1.0.3.tar.gz
+[2023-07-27 05:03:44] INFO root fetch - processPackages [langchain-plantuml]: Downloading https://files.pythonhosted.org/packages/7d/f9/8ce82dff4415a3d472d0328b08f22573358d6da684f5c3ce572c1da85966/langchain_plantuml-0.0.6.tar.gz
+[2023-07-27 05:03:44] INFO root fetch - processPackages [testflows.github.runners]: Downloading https://files.pythonhosted.org/packages/e5/c8/014ada648e52336eaf76d99bc0bb3a219ab011afc24711de7ee8cfa60cd0/testflows.github.runners-1.2.230727.1030201.tar.gz
+[2023-07-27 05:03:44] INFO root fetch - processPackages [usefulgram]: executing diffoscope
+[2023-07-27 05:03:44] INFO root fetch - processPackages [usefulgram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usefulgram-0.0.0a8.tar.gz tmp/usefulgram-0.0.0a9.tar.gz --markdown 20230727/u/usefulgram/0.0.0a8-0.0.0a9/diff.md --exclude *.pyd
+[2023-07-27 05:03:44] INFO root fetch - processPackages [openai-function]: executing diffoscope
+[2023-07-27 05:03:44] INFO root fetch - processPackages [openai-function]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_function-0.1.2.tar.gz tmp/openai_function-0.1.3.tar.gz --markdown 20230727/o/openai-function/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-27 05:03:44] INFO root fetch - processPackages [odoo-addon-connector-importer-source-sftp]: Downloading https://files.pythonhosted.org/packages/6b/05/b9fd77e083d577887ac56e5c36a09973018043a184d25f7e3ad003799bf7/odoo_addon_connector_importer_source_sftp-15.0.1.0.1.1-py3-none-any.whl
+[2023-07-27 05:03:44] INFO root fetch - processPackages [cartup-dag]: executing diffoscope
+[2023-07-27 05:03:44] INFO root fetch - processPackages [cartup-dag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cartup-dag-1.0.2.tar.gz tmp/cartup_dag-1.0.3.tar.gz --markdown 20230727/c/cartup-dag/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-27 05:03:44] INFO root fetch - processPackages [autodailycheckin]: Downloading https://files.pythonhosted.org/packages/a5/9f/8f776db782f3f80ccae64c4d03a7173f15ca09285a4472354d603facb14e/autodailycheckin-0.1.3-py3-none-any.whl
+[2023-07-27 05:03:44] INFO root fetch - processPackages [langchain-plantuml]: executing diffoscope
+[2023-07-27 05:03:44] INFO root fetch - processPackages [langchain-plantuml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_plantuml-0.0.5.tar.gz tmp/langchain_plantuml-0.0.6.tar.gz --markdown 20230727/l/langchain-plantuml/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-27 05:03:44] INFO root fetch - processPackages [genicam]: Downloading https://files.pythonhosted.org/packages/7b/58/85ddad498449b30064413e1ff43d211f1df2a25a89f2191c9669abf961eb/genicam-1.3.0-cp39-cp39-win_amd64.whl
+[2023-07-27 05:03:44] INFO root fetch - processPackages [testflows.github.runners]: executing diffoscope
+[2023-07-27 05:03:44] INFO root fetch - processPackages [testflows.github.runners]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testflows.github.runners-1.2.230727.1024408.tar.gz tmp/testflows.github.runners-1.2.230727.1030201.tar.gz --markdown 20230727/t/testflows.github.runners/1.2.230727.1024408-1.2.230727.1030201/diff.md --exclude *.pyd
+[2023-07-27 05:03:44] INFO root fetch - processPackages [odoo-addon-connector-importer-source-sftp]: executing diffoscope
+[2023-07-27 05:03:44] INFO root fetch - processPackages [odoo-addon-connector-importer-source-sftp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_connector_importer_source_sftp-15.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_connector_importer_source_sftp-15.0.1.0.1.1-py3-none-any.whl.zip --markdown 20230727/o/odoo-addon-connector-importer-source-sftp/15.0.1.0.1-15.0.1.0.1.1/diff.md --exclude *.pyd
+[2023-07-27 05:03:45] INFO root fetch - processPackages [autodailycheckin]: executing diffoscope
+[2023-07-27 05:03:45] INFO root fetch - processPackages [autodailycheckin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autodailycheckin-0.1.2.1-py3-none-any.whl.zip tmp/autodailycheckin-0.1.3-py3-none-any.whl.zip --markdown 20230727/a/autodailycheckin/0.1.2.1-0.1.3/diff.md --exclude *.pyd
+[2023-07-27 05:03:45] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/1e/99/2f228a790c6fc15f93482f3f0fa7bbad95d15d6e0aa883c7919fe4a66c95/MeUtils-2023.7.7.15.3.6.tar.gz
+[2023-07-27 05:03:45] INFO root fetch - processPackages [genicam]: executing diffoscope
+[2023-07-27 05:03:45] INFO root fetch - processPackages [genicam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genicam-1.2.0-cp39-cp39-win_amd64.whl.zip tmp/genicam-1.3.0-cp39-cp39-win_amd64.whl.zip --markdown 20230727/g/genicam/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-07-27 05:03:45] INFO root fetch - processPackages [psyneulink]: Downloading https://files.pythonhosted.org/packages/3c/a7/48d33876c59d44696e8c9ea242404174cd6b7772dd39ff684d6485b95502/psyneulink-0.9.1.1.tar.gz
+[2023-07-27 05:03:46] INFO root fetch - processPackages [psyneulink]: executing diffoscope
+[2023-07-27 05:03:46] INFO root fetch - processPackages [psyneulink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psyneulink-0.9.1.0.tar.gz tmp/psyneulink-0.9.1.1.tar.gz --markdown 20230727/p/psyneulink/0.9.1.0-0.9.1.1/diff.md --exclude *.pyd
+[2023-07-27 05:03:46] INFO root fetch - processPackages [cartup-dag]: Remove: archive file [/home/abi/fetcher/tmp/cartup-dag-1.0.2.tar.gz]
+[2023-07-27 05:03:46] INFO root fetch - processPackages [cartup-dag]: Remove: archive file [/home/abi/fetcher/tmp/cartup_dag-1.0.3.tar.gz]
+[2023-07-27 05:03:46] INFO root fetch - processPackages [cartup-dag]: Start processing: dunder-xml-reader
+[2023-07-27 05:03:46] INFO root fetch - main [MainThread]: End processing [cartup-dag]: success
+[2023-07-27 05:03:46] INFO root fetch - processPackages [langchain-plantuml]: Remove: archive file [/home/abi/fetcher/tmp/langchain_plantuml-0.0.5.tar.gz]
+[2023-07-27 05:03:46] INFO root fetch - processPackages [langchain-plantuml]: Remove: archive file [/home/abi/fetcher/tmp/langchain_plantuml-0.0.6.tar.gz]
+[2023-07-27 05:03:46] INFO root fetch - processPackages [langchain-plantuml]: Start processing: lite-fastapi-local
+[2023-07-27 05:03:46] INFO root fetch - main [MainThread]: End processing [langchain-plantuml]: success
+[2023-07-27 05:03:46] INFO root fetch - processPackages [testflows.github.runners]: Remove: archive file [/home/abi/fetcher/tmp/testflows.github.runners-1.2.230727.1024408.tar.gz]
+[2023-07-27 05:03:46] INFO root fetch - processPackages [testflows.github.runners]: Remove: archive file [/home/abi/fetcher/tmp/testflows.github.runners-1.2.230727.1030201.tar.gz]
+[2023-07-27 05:03:46] INFO root fetch - main [MainThread]: End processing [testflows.github.runners]: success
+[2023-07-27 05:03:46] INFO root fetch - processPackages [dunder-xml-reader]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-27 05:03:46] ERROR root fetch - processPackages [autodailycheckin]: Diffoscope failed: time="2023-07-27T05:03:45+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid continuation byte
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 252, in compare_details
+    differences.extend(zipinfo_differences(self, other))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 127, in zipinfo_differences
+    zipinfo = Difference.from_operation(Zipinfo, file.path, other.path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid continuation byte
+
+[2023-07-27 05:03:46] INFO root fetch - main [MainThread]: End processing [autodailycheckin] error
+[2023-07-27 05:03:46] INFO root fetch - processPackages [MeUtils]: executing diffoscope
+[2023-07-27 05:03:46] INFO root fetch - processPackages [MeUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeUtils-2023.7.6.9.18.40.tar.gz tmp/MeUtils-2023.7.7.15.3.6.tar.gz --markdown 20230727/M/MeUtils/2023.7.6.9.18.40-2023.7.7.15.3.6/diff.md --exclude *.pyd
+[2023-07-27 05:03:46] INFO root fetch - processPackages [lite-fastapi-local]: New version: [0.0.42] Old Version: [0.0.41]
+[2023-07-27 05:03:46] INFO root fetch - processPackages [openai-function]: Remove: archive file [/home/abi/fetcher/tmp/openai_function-0.1.2.tar.gz]
+[2023-07-27 05:03:46] INFO root fetch - processPackages [openai-function]: Remove: archive file [/home/abi/fetcher/tmp/openai_function-0.1.3.tar.gz]
+[2023-07-27 05:03:46] INFO root fetch - main [MainThread]: End processing [openai-function]: success
+[2023-07-27 05:03:46] INFO root fetch - processPackages [usefulgram]: Remove: archive file [/home/abi/fetcher/tmp/usefulgram-0.0.0a8.tar.gz]
+[2023-07-27 05:03:46] INFO root fetch - processPackages [usefulgram]: Remove: archive file [/home/abi/fetcher/tmp/usefulgram-0.0.0a9.tar.gz]
+[2023-07-27 05:03:46] INFO root fetch - main [MainThread]: End processing [usefulgram]: success
+[2023-07-27 05:03:46] INFO root fetch - processPackages [lite-fastapi-local]: Downloading https://files.pythonhosted.org/packages/df/a5/35fdb5d8c49366420d9b94326921c08c963ae489e677773e09325a26fd1b/lite_fastapi_local-0.0.41.tar.gz
+[2023-07-27 05:03:46] INFO root fetch - processPackages [odoo-addon-connector-importer-source-sftp]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_connector_importer_source_sftp-15.0.1.0.1-py3-none-any.whl.zip]
+[2023-07-27 05:03:46] INFO root fetch - processPackages [odoo-addon-connector-importer-source-sftp]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_connector_importer_source_sftp-15.0.1.0.1.1-py3-none-any.whl.zip]
+[2023-07-27 05:03:46] INFO root fetch - main [MainThread]: End processing [odoo-addon-connector-importer-source-sftp]: success
+[2023-07-27 05:03:46] INFO root fetch - processPackages [dunder-xml-reader]: Downloading https://files.pythonhosted.org/packages/8c/af/8f3f85ed61d97cab7cf98371590f8e66a5c1771296eede55be3ea03e2ca8/dunder_xml_reader-0.0.3.tar.gz
+[2023-07-27 05:03:46] INFO root fetch - processPackages [lite-fastapi-local]: Downloading https://files.pythonhosted.org/packages/5f/ed/5f4addb503d1624a6737c8234c277a32f41fcd63c67739a1762e64d228cc/lite_fastapi_local-0.0.42.tar.gz
+[2023-07-27 05:03:47] INFO root fetch - processPackages [dunder-xml-reader]: Downloading https://files.pythonhosted.org/packages/b8/89/1b5e39756cfe92f0655b24e1e512575787d0a03a153f535cec21d1ed74fb/dunder_xml_reader-0.0.4.tar.gz
+[2023-07-27 05:03:47] INFO root fetch - processPackages [lite-fastapi-local]: executing diffoscope
+[2023-07-27 05:03:47] INFO root fetch - processPackages [lite-fastapi-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lite_fastapi_local-0.0.41.tar.gz tmp/lite_fastapi_local-0.0.42.tar.gz --markdown 20230727/l/lite-fastapi-local/0.0.41-0.0.42/diff.md --exclude *.pyd
+[2023-07-27 05:03:47] INFO root fetch - processPackages [dunder-xml-reader]: executing diffoscope
+[2023-07-27 05:03:47] INFO root fetch - processPackages [dunder-xml-reader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dunder_xml_reader-0.0.3.tar.gz tmp/dunder_xml_reader-0.0.4.tar.gz --markdown 20230727/d/dunder-xml-reader/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-27 05:03:47] INFO root fetch - processPackages [lite-fastapi-local]: Remove: archive file [/home/abi/fetcher/tmp/lite_fastapi_local-0.0.41.tar.gz]
+[2023-07-27 05:03:47] INFO root fetch - processPackages [lite-fastapi-local]: Remove: archive file [/home/abi/fetcher/tmp/lite_fastapi_local-0.0.42.tar.gz]
+[2023-07-27 05:03:47] INFO root fetch - main [MainThread]: End processing [lite-fastapi-local]: success
+[2023-07-27 05:03:48] INFO root fetch - processPackages [dunder-xml-reader]: Remove: archive file [/home/abi/fetcher/tmp/dunder_xml_reader-0.0.3.tar.gz]
+[2023-07-27 05:03:48] INFO root fetch - processPackages [dunder-xml-reader]: Remove: archive file [/home/abi/fetcher/tmp/dunder_xml_reader-0.0.4.tar.gz]
+[2023-07-27 05:03:48] INFO root fetch - main [MainThread]: End processing [dunder-xml-reader]: success
+[2023-07-27 05:03:49] INFO root fetch - processPackages [psyneulink]: Remove: archive file [/home/abi/fetcher/tmp/psyneulink-0.9.1.0.tar.gz]
+[2023-07-27 05:03:49] INFO root fetch - processPackages [psyneulink]: Remove: archive file [/home/abi/fetcher/tmp/psyneulink-0.9.1.1.tar.gz]
+[2023-07-27 05:03:49] INFO root fetch - main [MainThread]: End processing [psyneulink]: success
+[2023-07-27 05:03:49] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.7.6.9.18.40.tar.gz]
+[2023-07-27 05:03:49] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.7.7.15.3.6.tar.gz]
+[2023-07-27 05:03:49] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
+[2023-07-27 05:03:52] INFO root fetch - processPackages [genicam]: Remove: archive file [/home/abi/fetcher/tmp/genicam-1.2.0-cp39-cp39-win_amd64.whl.zip]
+[2023-07-27 05:03:52] INFO root fetch - processPackages [genicam]: Remove: archive file [/home/abi/fetcher/tmp/genicam-1.3.0-cp39-cp39-win_amd64.whl.zip]
+[2023-07-27 05:03:52] INFO root fetch - main [MainThread]: End processing [genicam]: success
+[2023-07-27 05:03:52] INFO root fetch - main [MainThread]: Store serial: [19054100]
