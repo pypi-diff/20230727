@@ -18957,3 +18957,66 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-07-27 10:14:49] INFO root fetch - processPackages [composabl]: Remove: archive file [/home/abi/fetcher/tmp/composabl-0.2.3-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
 [2023-07-27 10:14:49] INFO root fetch - main [MainThread]: End processing [composabl]: success
 [2023-07-27 10:14:49] INFO root fetch - main [MainThread]: Store serial: [19057130]
+[2023-07-27 10:19:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19057130]
+[2023-07-27 10:19:57] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-27 10:19:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: simpleindex
+[2023-07-27 10:19:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyroFork-dev
+[2023-07-27 10:19:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gcodereader
+[2023-07-27 10:19:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: code-loader
+[2023-07-27 10:19:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: villa
+[2023-07-27 10:19:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cxas
+[2023-07-27 10:19:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pumaz
+[2023-07-27 10:19:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pySidra
+[2023-07-27 10:19:58] WARNING root fetch - processPackages [gcodereader]: Skipping, unable to determine old version
+[2023-07-27 10:19:58] INFO root fetch - main [MainThread]: End processing [gcodereader] error
+[2023-07-27 10:19:58] INFO root fetch - processPackages [cxas]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-27 10:19:58] INFO root fetch - processPackages [villa]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-07-27 10:19:58] INFO root fetch - processPackages [simpleindex]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-07-27 10:19:58] WARNING root fetch - processPackages [pySidra]: Skipping, unable to determine old version
+[2023-07-27 10:19:58] INFO root fetch - main [MainThread]: End processing [pySidra] error
+[2023-07-27 10:19:58] INFO root fetch - processPackages [pumaz]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-27 10:19:58] INFO root fetch - processPackages [code-loader]: New version: [0.2.9] Old Version: [0.2.84.dev9]
+[2023-07-27 10:19:58] INFO root fetch - processPackages [PyroFork-dev]: New version: [2.2.6.dev202307272537] Old Version: [2.2.5.dev202307229435]
+[2023-07-27 10:19:58] INFO root fetch - processPackages [code-loader]: Downloading https://files.pythonhosted.org/packages/f6/76/524b8306793ea4df9f95b8a10c72d0b8192f6110600b3fb0ff0dd714b882/code_loader-0.2.84.dev9.tar.gz
+[2023-07-27 10:19:58] INFO root fetch - processPackages [simpleindex]: Downloading https://files.pythonhosted.org/packages/9f/75/8729a25e5e305aa3a392d50f7ef5e82c81f9ad239c6939c998dc3654e2cd/simpleindex-0.6.1.tar.gz
+[2023-07-27 10:19:58] INFO root fetch - processPackages [cxas]: Downloading https://files.pythonhosted.org/packages/4f/c5/760dfb69166a914bdf9a4e7052283e7f53943a47c57dfbcc4b584e588e56/cxas-0.0.8.tar.gz
+[2023-07-27 10:19:58] INFO root fetch - processPackages [villa]: Downloading https://files.pythonhosted.org/packages/70/9f/e85271aab8375db19d89148f9ddff306e9bcbfd45379ca83b758a3835210/villa-0.7.2.tar.gz
+[2023-07-27 10:19:58] INFO root fetch - processPackages [pumaz]: Downloading https://files.pythonhosted.org/packages/5a/7b/b1869726a02fc990fe059211680341427fe749ec6546e1ce3514be50de8b/pumaz-0.1.0.tar.gz
+[2023-07-27 10:19:58] INFO root fetch - processPackages [PyroFork-dev]: Downloading https://files.pythonhosted.org/packages/47/4b/cbd9d4ad0909daa0b8dc918a9609f3711e81ec80ed82bff1ddd744bfd8ba/PyroFork-dev-2.2.5.dev202307229435.tar.gz
+[2023-07-27 10:19:58] INFO root fetch - processPackages [simpleindex]: Downloading https://files.pythonhosted.org/packages/db/8d/d262b0368ea6336b0557246126a40eb92061de5dc19bdf7aed332d3d76c2/simpleindex-0.6.2.tar.gz
+[2023-07-27 10:19:58] INFO root fetch - processPackages [code-loader]: Downloading https://files.pythonhosted.org/packages/23/3d/c50351675c5df1eec25c494b3e7b9f9b516c43bd5d3db8cc4447604a8f74/code-loader-0.2.9.tar.gz
+[2023-07-27 10:19:58] INFO root fetch - processPackages [villa]: Downloading https://files.pythonhosted.org/packages/0b/26/81985f7b248234b5b009fb2fa7a53727c9873de435e1444a08fbf5d64119/villa-0.7.3.tar.gz
+[2023-07-27 10:19:58] INFO root fetch - processPackages [pumaz]: Downloading https://files.pythonhosted.org/packages/aa/58/da2517929a4dec4304c97d3d1ba16efffa2d2a947a522ab775241dc9caf0/pumaz-0.2.0.tar.gz
+[2023-07-27 10:19:58] INFO root fetch - processPackages [PyroFork-dev]: Downloading https://files.pythonhosted.org/packages/5b/a5/042a480e4563fe0ebfad67ba3ffd77a327ada756121ae5e8b167d2def9ed/PyroFork-dev-2.2.6.dev202307272537.tar.gz
+[2023-07-27 10:19:58] INFO root fetch - processPackages [villa]: executing diffoscope
+[2023-07-27 10:19:58] INFO root fetch - processPackages [villa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/villa-0.7.2.tar.gz tmp/villa-0.7.3.tar.gz --markdown 20230727/v/villa/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-07-27 10:19:58] INFO root fetch - processPackages [code-loader]: executing diffoscope
+[2023-07-27 10:19:58] INFO root fetch - processPackages [code-loader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/code_loader-0.2.84.dev9.tar.gz tmp/code-loader-0.2.9.tar.gz --markdown 20230727/c/code-loader/0.2.84.dev9-0.2.9/diff.md --exclude *.pyd
+[2023-07-27 10:19:58] INFO root fetch - processPackages [cxas]: Downloading https://files.pythonhosted.org/packages/24/7d/2c89e8039196151d646c442553db664c71d327126b571b4b765e1399bc62/cxas-0.0.9.tar.gz
+[2023-07-27 10:19:59] INFO root fetch - processPackages [simpleindex]: executing diffoscope
+[2023-07-27 10:19:59] INFO root fetch - processPackages [simpleindex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simpleindex-0.6.1.tar.gz tmp/simpleindex-0.6.2.tar.gz --markdown 20230727/s/simpleindex/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-07-27 10:19:59] INFO root fetch - processPackages [PyroFork-dev]: executing diffoscope
+[2023-07-27 10:19:59] INFO root fetch - processPackages [PyroFork-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyroFork-dev-2.2.5.dev202307229435.tar.gz tmp/PyroFork-dev-2.2.6.dev202307272537.tar.gz --markdown 20230727/P/PyroFork-dev/2.2.5.dev202307229435-2.2.6.dev202307272537/diff.md --exclude *.pyd
+[2023-07-27 10:19:59] INFO root fetch - processPackages [cxas]: executing diffoscope
+[2023-07-27 10:19:59] INFO root fetch - processPackages [cxas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cxas-0.0.8.tar.gz tmp/cxas-0.0.9.tar.gz --markdown 20230727/c/cxas/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-27 10:19:59] INFO root fetch - processPackages [pumaz]: executing diffoscope
+[2023-07-27 10:19:59] INFO root fetch - processPackages [pumaz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pumaz-0.1.0.tar.gz tmp/pumaz-0.2.0.tar.gz --markdown 20230727/p/pumaz/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-27 10:20:00] INFO root fetch - processPackages [simpleindex]: Remove: archive file [/home/abi/fetcher/tmp/simpleindex-0.6.1.tar.gz]
+[2023-07-27 10:20:00] INFO root fetch - processPackages [simpleindex]: Remove: archive file [/home/abi/fetcher/tmp/simpleindex-0.6.2.tar.gz]
+[2023-07-27 10:20:00] INFO root fetch - main [MainThread]: End processing [simpleindex]: success
+[2023-07-27 10:20:00] INFO root fetch - processPackages [code-loader]: Remove: archive file [/home/abi/fetcher/tmp/code_loader-0.2.84.dev9.tar.gz]
+[2023-07-27 10:20:00] INFO root fetch - processPackages [code-loader]: Remove: archive file [/home/abi/fetcher/tmp/code-loader-0.2.9.tar.gz]
+[2023-07-27 10:20:00] INFO root fetch - main [MainThread]: End processing [code-loader]: success
+[2023-07-27 10:20:00] INFO root fetch - processPackages [villa]: Remove: archive file [/home/abi/fetcher/tmp/villa-0.7.2.tar.gz]
+[2023-07-27 10:20:00] INFO root fetch - processPackages [villa]: Remove: archive file [/home/abi/fetcher/tmp/villa-0.7.3.tar.gz]
+[2023-07-27 10:20:00] INFO root fetch - main [MainThread]: End processing [villa]: success
+[2023-07-27 10:20:00] INFO root fetch - processPackages [pumaz]: Remove: archive file [/home/abi/fetcher/tmp/pumaz-0.1.0.tar.gz]
+[2023-07-27 10:20:00] INFO root fetch - processPackages [pumaz]: Remove: archive file [/home/abi/fetcher/tmp/pumaz-0.2.0.tar.gz]
+[2023-07-27 10:20:00] INFO root fetch - main [MainThread]: End processing [pumaz]: success
+[2023-07-27 10:20:00] INFO root fetch - processPackages [cxas]: Remove: archive file [/home/abi/fetcher/tmp/cxas-0.0.8.tar.gz]
+[2023-07-27 10:20:00] INFO root fetch - processPackages [cxas]: Remove: archive file [/home/abi/fetcher/tmp/cxas-0.0.9.tar.gz]
+[2023-07-27 10:20:00] INFO root fetch - main [MainThread]: End processing [cxas]: success
+[2023-07-27 10:20:02] INFO root fetch - processPackages [PyroFork-dev]: Remove: archive file [/home/abi/fetcher/tmp/PyroFork-dev-2.2.5.dev202307229435.tar.gz]
+[2023-07-27 10:20:02] INFO root fetch - processPackages [PyroFork-dev]: Remove: archive file [/home/abi/fetcher/tmp/PyroFork-dev-2.2.6.dev202307272537.tar.gz]
+[2023-07-27 10:20:02] INFO root fetch - main [MainThread]: End processing [PyroFork-dev]: success
+[2023-07-27 10:20:02] INFO root fetch - main [MainThread]: Store serial: [19057160]
