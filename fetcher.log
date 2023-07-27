@@ -12704,3 +12704,94 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-27 07:05:08] INFO root fetch - processPackages [mypy-boto3-builder]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-builder-7.9.2.tar.gz]
 [2023-07-27 07:05:08] INFO root fetch - main [MainThread]: End processing [mypy-boto3-builder]: success
 [2023-07-27 07:05:08] INFO root fetch - main [MainThread]: Store serial: [19054748]
+[2023-07-27 07:10:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19054748]
+[2023-07-27 07:10:16] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-27 07:10:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pe
+[2023-07-27 07:10:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: litellm
+[2023-07-27 07:10:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zlgsendcan
+[2023-07-27 07:10:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: genet
+[2023-07-27 07:10:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dask-cuda
+[2023-07-27 07:10:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dask-cuda
+[2023-07-27 07:10:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: honeybee-radiance
+[2023-07-27 07:10:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: honeybee-energy
+[2023-07-27 07:10:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sparglim
+[2023-07-27 07:10:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dragonfly-core
+[2023-07-27 07:10:16] INFO root fetch - processPackages [pe]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-07-27 07:10:17] INFO root fetch - processPackages [litellm]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-27 07:10:17] INFO root fetch - processPackages [zlgsendcan]: New version: [1.2.0] Old Version: [1.1.9]
+[2023-07-27 07:10:17] INFO root fetch - processPackages [sparglim]: New version: [0.1.0rc6] Old Version: [0.1.0rc5]
+[2023-07-27 07:10:17] INFO root fetch - processPackages [genet]: New version: [0.6.2] Old Version: [0.6.1a0]
+[2023-07-27 07:10:17] INFO root fetch - processPackages [dask-cuda]: New version: [23.8.0a230727] Old Version: [23.8.0a230726]
+[2023-07-27 07:10:17] INFO root fetch - processPackages [dragonfly-core]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-07-27 07:10:17] INFO root fetch - processPackages [honeybee-energy]: New version: [1.99.9] Old Version: [1.99.8]
+[2023-07-27 07:10:17] INFO root fetch - processPackages [honeybee-radiance]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-07-27 07:10:17] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/03/22/7f90212d68bfc725c3f53ab9eae890e89af0816e8484622c1ce7ae324f8e/dask-cuda-23.8.0a230726.tar.gz
+[2023-07-27 07:10:17] INFO root fetch - processPackages [dask-cuda]: New version: [23.8.0a230727] Old Version: [23.8.0a230726]
+[2023-07-27 07:10:17] INFO root fetch - processPackages [genet]: Downloading https://files.pythonhosted.org/packages/34/6b/4bc0154a47fd93a9d0676f61d332765549dacff239af579d51329b943bd3/genet-0.6.1a0-py3-none-any.whl
+[2023-07-27 07:10:17] INFO root fetch - processPackages [zlgsendcan]: Downloading https://files.pythonhosted.org/packages/d8/33/acd9ab2f691f11b1ee6457dff73da71c4be3f0ecebdf5c4a5fa5a717e6cc/zlgsendcan-1.1.9.tar.gz
+[2023-07-27 07:10:17] INFO root fetch - processPackages [sparglim]: Downloading https://files.pythonhosted.org/packages/91/d2/b5de8435b00c395aff861f943ee8d8f546a455f970df300b81c8fb70408f/sparglim-0.1.0rc5.tar.gz
+[2023-07-27 07:10:17] INFO root fetch - processPackages [pe]: Downloading https://files.pythonhosted.org/packages/f4/fb/61c60d97f9665dd94263bef8b9021d52014cb4e9402034a7241fe77ca916/pe-0.4.0.tar.gz
+[2023-07-27 07:10:17] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/e1/32/bb37615e99b598fdad6fdfdc98cdf1ab944e99c0ac6fb391f4f8a70fc06e/litellm-0.1.0.tar.gz
+[2023-07-27 07:10:17] INFO root fetch - processPackages [honeybee-energy]: Downloading https://files.pythonhosted.org/packages/b1/ab/c8fb70e349d71cce95bac52782f7ea0659a6987ed84dd41c7fe2ef40806c/honeybee-energy-1.99.8.tar.gz
+[2023-07-27 07:10:17] INFO root fetch - processPackages [honeybee-radiance]: Downloading https://files.pythonhosted.org/packages/48/ae/cca3e8aac6a72593fde7860cbf91882050c1a465c316efc2e0472bfa36e1/honeybee-radiance-1.9.1.tar.gz
+[2023-07-27 07:10:17] INFO root fetch - processPackages [dragonfly-core]: Downloading https://files.pythonhosted.org/packages/93/fd/7cad9d4c9406e421f7ce31b725936bb32ec8a421f9b143e829c33cae55dd/dragonfly-core-1.8.1.tar.gz
+[2023-07-27 07:10:17] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/03/22/7f90212d68bfc725c3f53ab9eae890e89af0816e8484622c1ce7ae324f8e/dask-cuda-23.8.0a230726.tar.gz
+[2023-07-27 07:10:17] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/00/5c/7c7a8dc1e579409a05a25e8cf9421cbccbbac82a37c31a6aa46e2ab299b1/dask-cuda-23.8.0a230727.tar.gz
+[2023-07-27 07:10:17] INFO root fetch - processPackages [zlgsendcan]: Downloading https://files.pythonhosted.org/packages/3f/79/ade104422dc302277a69d354fb5e8d765bc9a5ce3e30b82906b981c25961/zlgsendcan-1.2.0.tar.gz
+[2023-07-27 07:10:17] INFO root fetch - processPackages [dragonfly-core]: Downloading https://files.pythonhosted.org/packages/75/cb/4a1ce4726a070a188305b8d5343b4300bf24190845d85c8718cc31aa3e53/dragonfly-core-1.9.0.tar.gz
+[2023-07-27 07:10:17] INFO root fetch - processPackages [genet]: Downloading https://files.pythonhosted.org/packages/30/ab/b9829cc65ec22a95462a83f58c851f88599fb6e4b1367365da5eeb54e342/genet-0.6.2-py3-none-any.whl
+[2023-07-27 07:10:17] INFO root fetch - processPackages [honeybee-energy]: Downloading https://files.pythonhosted.org/packages/8d/5e/1bc90eeaf45799cc7d5cda125017c1e4e2cf0ef068cd3db60d971b9596ba/honeybee-energy-1.99.9.tar.gz
+[2023-07-27 07:10:17] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/a5/04/5ea253a0c3caf8f5e42f3aa1d4ae28773f94fb805b6e328e1b91c69644eb/litellm-0.1.1.tar.gz
+[2023-07-27 07:10:17] INFO root fetch - processPackages [sparglim]: Downloading https://files.pythonhosted.org/packages/14/79/584ff4c46ddee5681849de2df3c70e950e395a128c7f631b8429ee56b037/sparglim-0.1.0rc6.tar.gz
+[2023-07-27 07:10:17] INFO root fetch - processPackages [honeybee-radiance]: Downloading https://files.pythonhosted.org/packages/50/24/71a3a4863bb39caef68dcd79f1b380133b1f1968426af26bc9c4812376d1/honeybee-radiance-1.9.2.tar.gz
+[2023-07-27 07:10:17] INFO root fetch - processPackages [pe]: Downloading https://files.pythonhosted.org/packages/57/29/ce983f18b44b7704fce05ec61259b39830a85662fbe815df7202f1b7a1cd/pe-0.5.0.tar.gz
+[2023-07-27 07:10:18] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/00/5c/7c7a8dc1e579409a05a25e8cf9421cbccbbac82a37c31a6aa46e2ab299b1/dask-cuda-23.8.0a230727.tar.gz
+[2023-07-27 07:10:18] INFO root fetch - processPackages [dask-cuda]: executing diffoscope
+[2023-07-27 07:10:18] INFO root fetch - processPackages [dask-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-cuda-23.8.0a230726.tar.gz tmp/dask-cuda-23.8.0a230727.tar.gz --markdown 20230727/d/dask-cuda/23.8.0a230726-23.8.0a230727/diff.md --exclude *.pyd
+[2023-07-27 07:10:18] INFO root fetch - processPackages [zlgsendcan]: executing diffoscope
+[2023-07-27 07:10:18] INFO root fetch - processPackages [zlgsendcan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zlgsendcan-1.1.9.tar.gz tmp/zlgsendcan-1.2.0.tar.gz --markdown 20230727/z/zlgsendcan/1.1.9-1.2.0/diff.md --exclude *.pyd
+[2023-07-27 07:10:18] INFO root fetch - processPackages [dragonfly-core]: executing diffoscope
+[2023-07-27 07:10:18] INFO root fetch - processPackages [dragonfly-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-core-1.8.1.tar.gz tmp/dragonfly-core-1.9.0.tar.gz --markdown 20230727/d/dragonfly-core/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-07-27 07:10:18] INFO root fetch - processPackages [honeybee-energy]: executing diffoscope
+[2023-07-27 07:10:18] INFO root fetch - processPackages [honeybee-energy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-energy-1.99.8.tar.gz tmp/honeybee-energy-1.99.9.tar.gz --markdown 20230727/h/honeybee-energy/1.99.8-1.99.9/diff.md --exclude *.pyd
+[2023-07-27 07:10:18] INFO root fetch - processPackages [genet]: executing diffoscope
+[2023-07-27 07:10:18] INFO root fetch - processPackages [genet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genet-0.6.1a0-py3-none-any.whl.zip tmp/genet-0.6.2-py3-none-any.whl.zip --markdown 20230727/g/genet/0.6.1a0-0.6.2/diff.md --exclude *.pyd
+[2023-07-27 07:10:18] INFO root fetch - processPackages [sparglim]: executing diffoscope
+[2023-07-27 07:10:18] INFO root fetch - processPackages [sparglim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparglim-0.1.0rc5.tar.gz tmp/sparglim-0.1.0rc6.tar.gz --markdown 20230727/s/sparglim/0.1.0rc5-0.1.0rc6/diff.md --exclude *.pyd
+[2023-07-27 07:10:18] INFO root fetch - processPackages [litellm]: executing diffoscope
+[2023-07-27 07:10:18] INFO root fetch - processPackages [litellm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litellm-0.1.0.tar.gz tmp/litellm-0.1.1.tar.gz --markdown 20230727/l/litellm/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-27 07:10:18] INFO root fetch - processPackages [dask-cuda]: executing diffoscope
+[2023-07-27 07:10:18] INFO root fetch - processPackages [dask-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-cuda-23.8.0a230726.tar.gz tmp/dask-cuda-23.8.0a230727.tar.gz --markdown 20230727/d/dask-cuda/23.8.0a230726-23.8.0a230727/diff.md --exclude *.pyd
+[2023-07-27 07:10:18] INFO root fetch - processPackages [pe]: executing diffoscope
+[2023-07-27 07:10:18] INFO root fetch - processPackages [pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pe-0.4.0.tar.gz tmp/pe-0.5.0.tar.gz --markdown 20230727/p/pe/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-07-27 07:10:18] INFO root fetch - processPackages [honeybee-radiance]: executing diffoscope
+[2023-07-27 07:10:18] INFO root fetch - processPackages [honeybee-radiance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-radiance-1.9.1.tar.gz tmp/honeybee-radiance-1.9.2.tar.gz --markdown 20230727/h/honeybee-radiance/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-07-27 07:10:19] INFO root fetch - processPackages [zlgsendcan]: Remove: archive file [/home/abi/fetcher/tmp/zlgsendcan-1.1.9.tar.gz]
+[2023-07-27 07:10:19] INFO root fetch - processPackages [zlgsendcan]: Remove: archive file [/home/abi/fetcher/tmp/zlgsendcan-1.2.0.tar.gz]
+[2023-07-27 07:10:19] INFO root fetch - main [MainThread]: End processing [zlgsendcan]: success
+[2023-07-27 07:10:19] INFO root fetch - processPackages [genet]: Remove: archive file [/home/abi/fetcher/tmp/genet-0.6.1a0-py3-none-any.whl.zip]
+[2023-07-27 07:10:19] INFO root fetch - processPackages [genet]: Remove: archive file [/home/abi/fetcher/tmp/genet-0.6.2-py3-none-any.whl.zip]
+[2023-07-27 07:10:19] INFO root fetch - main [MainThread]: End processing [genet]: success
+[2023-07-27 07:10:19] INFO root fetch - processPackages [dragonfly-core]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-core-1.8.1.tar.gz]
+[2023-07-27 07:10:19] INFO root fetch - processPackages [dragonfly-core]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-core-1.9.0.tar.gz]
+[2023-07-27 07:10:19] INFO root fetch - main [MainThread]: End processing [dragonfly-core]: success
+[2023-07-27 07:10:20] INFO root fetch - processPackages [sparglim]: Remove: archive file [/home/abi/fetcher/tmp/sparglim-0.1.0rc5.tar.gz]
+[2023-07-27 07:10:20] INFO root fetch - processPackages [sparglim]: Remove: archive file [/home/abi/fetcher/tmp/sparglim-0.1.0rc6.tar.gz]
+[2023-07-27 07:10:20] INFO root fetch - main [MainThread]: End processing [sparglim]: success
+[2023-07-27 07:10:20] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230726.tar.gz]
+[2023-07-27 07:10:20] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230727.tar.gz]
+[2023-07-27 07:10:20] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
+[2023-07-27 07:10:20] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
+[2023-07-27 07:10:20] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-0.1.0.tar.gz]
+[2023-07-27 07:10:20] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-0.1.1.tar.gz]
+[2023-07-27 07:10:20] INFO root fetch - main [MainThread]: End processing [litellm]: success
+[2023-07-27 07:10:20] INFO root fetch - processPackages [pe]: Remove: archive file [/home/abi/fetcher/tmp/pe-0.4.0.tar.gz]
+[2023-07-27 07:10:20] INFO root fetch - processPackages [pe]: Remove: archive file [/home/abi/fetcher/tmp/pe-0.5.0.tar.gz]
+[2023-07-27 07:10:20] INFO root fetch - main [MainThread]: End processing [pe]: success
+[2023-07-27 07:10:20] INFO root fetch - processPackages [honeybee-energy]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-energy-1.99.8.tar.gz]
+[2023-07-27 07:10:20] INFO root fetch - processPackages [honeybee-energy]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-energy-1.99.9.tar.gz]
+[2023-07-27 07:10:20] INFO root fetch - main [MainThread]: End processing [honeybee-energy]: success
+[2023-07-27 07:10:20] INFO root fetch - processPackages [honeybee-radiance]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-radiance-1.9.1.tar.gz]
+[2023-07-27 07:10:20] INFO root fetch - processPackages [honeybee-radiance]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-radiance-1.9.2.tar.gz]
+[2023-07-27 07:10:21] INFO root fetch - main [MainThread]: End processing [honeybee-radiance]: success
+[2023-07-27 07:10:21] INFO root fetch - main [MainThread]: Store serial: [19054796]
