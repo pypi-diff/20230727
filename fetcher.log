@@ -2079,3 +2079,160 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-27 02:04:44] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230726.post425.tar.gz]
 [2023-07-27 02:04:44] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
 [2023-07-27 02:04:44] INFO root fetch - main [MainThread]: Store serial: [19051000]
+[2023-07-27 02:09:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19051000]
+[2023-07-27 02:09:54] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-27 02:09:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: echofish-aws-resample-and-write-to-zarr-store-lambda
+[2023-07-27 02:09:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jaxkern-nightly
+[2023-07-27 02:09:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: agentgpt
+[2023-07-27 02:09:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jaxutils-nightly
+[2023-07-27 02:09:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sqlglot
+[2023-07-27 02:09:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ml-compiler-opt
+[2023-07-27 02:09:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: doodleverse-utils
+[2023-07-27 02:09:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: torchlayers-nightly
+[2023-07-27 02:09:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fastfs
+[2023-07-27 02:09:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdk8s-operator
+[2023-07-27 02:09:54] INFO root fetch - processPackages [fastfs]: New version: [0.9.0] Old Version: [0.0.0]
+[2023-07-27 02:09:54] INFO root fetch - processPackages [echofish-aws-resample-and-write-to-zarr-store-lambda]: New version: [1.0.0.dev20230726234601] Old Version: [1.0.0.dev20230726225322]
+[2023-07-27 02:09:54] WARNING root fetch - processPackages [agentgpt]: Skipping, unable to determine old version
+[2023-07-27 02:09:54] INFO root fetch - processPackages [agentgpt]: Start processing: cdk8s-image
+[2023-07-27 02:09:54] INFO root fetch - main [MainThread]: End processing [agentgpt] error
+[2023-07-27 02:09:54] INFO root fetch - processPackages [doodleverse-utils]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-27 02:09:54] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20230726] Old Version: [0.0.8.dev20230725]
+[2023-07-27 02:09:54] INFO root fetch - processPackages [ml-compiler-opt]: New version: [0.0.1.dev202307270006] Old Version: [0.0.1.dev202307260007]
+[2023-07-27 02:09:54] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2023-07-27 02:09:54] INFO root fetch - processPackages [cdk8s-operator]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-27 02:09:54] INFO root fetch - processPackages [sqlglot]: New version: [9.0.6] Old Version: [9.0.5]
+[2023-07-27 02:09:54] INFO root fetch - processPackages [torchlayers-nightly]: New version: [1690330057] Old Version: [1690243699]
+[2023-07-27 02:09:54] INFO root fetch - processPackages [cdk8s-image]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-07-27 02:09:54] INFO root fetch - processPackages [ml-compiler-opt]: Downloading https://files.pythonhosted.org/packages/1e/34/d2bf0a728d1ef42dc17f324757a2db0f7e9da79cca12cd18c213940452ff/ml-compiler-opt-0.0.1.dev202307260007.tar.gz
+[2023-07-27 02:09:54] INFO root fetch - processPackages [cdk8s-operator]: Downloading https://files.pythonhosted.org/packages/81/a1/472f9e27ea96746839caa41992257e24e496917b018d958034169769bdb6/cdk8s-operator-0.1.98.tar.gz
+[2023-07-27 02:09:54] INFO root fetch - processPackages [echofish-aws-resample-and-write-to-zarr-store-lambda]: Downloading https://files.pythonhosted.org/packages/4f/3a/0be520875a79af9214194d819022b87fea2f2a04f1b0834603fc13f3ab93/echofish-aws-resample-and-write-to-zarr-store-lambda-1.0.0.dev20230726225322.tar.gz
+[2023-07-27 02:09:54] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/76/55/ef13835e3e8e1570e91b3bc7235725e556f183e3222d5e7e66ac8de58ba0/jaxkern-nightly-0.dev20221221.tar.gz
+[2023-07-27 02:09:54] INFO root fetch - processPackages [torchlayers-nightly]: Downloading https://files.pythonhosted.org/packages/a7/cf/11443c40f0dfa3e0209dc47400d2e0cd8157598df19aa415d7fddf43c864/torchlayers-nightly-1690243699.tar.gz
+[2023-07-27 02:09:54] INFO root fetch - processPackages [cdk8s-image]: Downloading https://files.pythonhosted.org/packages/08/4a/4983fe97d4073731fd1258ffef45d7770c72f1de7244a05cdfe1bb68d3b0/cdk8s-image-0.2.98.tar.gz
+[2023-07-27 02:09:54] INFO root fetch - processPackages [fastfs]: Downloading https://files.pythonhosted.org/packages/9d/23/0545df19fc1a46d2270a9a82c996fe4db553bc9da89676b7d41d660f2757/fastfs-0.0.0.tar.gz
+[2023-07-27 02:09:54] INFO root fetch - processPackages [doodleverse-utils]: Downloading https://files.pythonhosted.org/packages/3d/a2/fb512b646c69853e26e8b32c8493ed87fa0d3cb0c4156e2ef2f881108896/doodleverse-utils-0.0.8.tar.gz
+[2023-07-27 02:09:54] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/c6/44/001dd5ae6e0b0218b3f0ff8d9ec89d07d48192c44a93da032d3aaf248f1e/jaxutils-nightly-0.0.8.dev20230725.tar.gz
+[2023-07-27 02:09:54] INFO root fetch - processPackages [sqlglot]: Downloading https://files.pythonhosted.org/packages/20/6b/5034324cd2ac42831b5103037f6a14e518172128c4196b8d01b93dcc76c8/sqlglot-9.0.5.tar.gz
+[2023-07-27 02:09:55] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/ea/b1/fbac44f07e48f8800aada2de8e9114775baf3f3d605ee80382db18a1c728/jaxkern-nightly-0.dev20221222.tar.gz
+[2023-07-27 02:09:55] INFO root fetch - processPackages [cdk8s-image]: Downloading https://files.pythonhosted.org/packages/fb/19/ce87f85995849eec0b27665fe8c6c59e225f2d99370b1c068893ad31c698/cdk8s-image-0.2.99.tar.gz
+[2023-07-27 02:09:55] INFO root fetch - processPackages [ml-compiler-opt]: Downloading https://files.pythonhosted.org/packages/4b/7f/8a81b3e557a51147a8c41ce7ddd8047e8f700e6ada81b388cb42ce262cf3/ml-compiler-opt-0.0.1.dev202307270006.tar.gz
+[2023-07-27 02:09:55] INFO root fetch - processPackages [echofish-aws-resample-and-write-to-zarr-store-lambda]: Downloading https://files.pythonhosted.org/packages/5c/ee/ae9661916bf13ca398e9d648dc02cabbdb6bb84ac5701ed7d5350029079d/echofish-aws-resample-and-write-to-zarr-store-lambda-1.0.0.dev20230726234601.tar.gz
+[2023-07-27 02:09:55] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/f7/ee/ac802edc6e33b31f19c12f9a57019f5a17296914b31c1f9b2d775c74c5d3/jaxutils-nightly-0.0.8.dev20230726.tar.gz
+[2023-07-27 02:09:55] INFO root fetch - processPackages [fastfs]: Downloading https://files.pythonhosted.org/packages/dd/09/7c7f630ebbf8be11703466b6fd4b4bec8b2f999e9a49e76335792dbca182/fastfs-0.9.0.tar.gz
+[2023-07-27 02:09:55] INFO root fetch - processPackages [cdk8s-operator]: Downloading https://files.pythonhosted.org/packages/ed/ed/568c3c642392b5ad833ee040dea0d55163deba1f7a12ed395db2a18420f0/cdk8s-operator-0.1.99.tar.gz
+[2023-07-27 02:09:55] INFO root fetch - processPackages [torchlayers-nightly]: Downloading https://files.pythonhosted.org/packages/7d/4e/89b52b8a49e26ad5c1a7d02086713e8b8c5c08e786799a4ac1778f40afeb/torchlayers-nightly-1690330057.tar.gz
+[2023-07-27 02:09:55] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2023-07-27 02:09:55] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20230727/j/jaxkern-nightly/0.dev20221221-0.dev20221222/diff.md --exclude *.pyd
+[2023-07-27 02:09:55] INFO root fetch - processPackages [sqlglot]: Downloading https://files.pythonhosted.org/packages/36/2a/e7389a112e1a7cfd1fcc7c7209a0f8f5ffe905ce8aad03f447367dc9b209/sqlglot-9.0.6.tar.gz
+[2023-07-27 02:09:55] INFO root fetch - processPackages [cdk8s-image]: executing diffoscope
+[2023-07-27 02:09:55] INFO root fetch - processPackages [cdk8s-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-image-0.2.98.tar.gz tmp/cdk8s-image-0.2.99.tar.gz --markdown 20230727/c/cdk8s-image/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-07-27 02:09:55] INFO root fetch - processPackages [fastfs]: executing diffoscope
+[2023-07-27 02:09:55] INFO root fetch - processPackages [fastfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastfs-0.0.0.tar.gz tmp/fastfs-0.9.0.tar.gz --markdown 20230727/f/fastfs/0.0.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-27 02:09:55] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2023-07-27 02:09:55] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20230725.tar.gz tmp/jaxutils-nightly-0.0.8.dev20230726.tar.gz --markdown 20230727/j/jaxutils-nightly/0.0.8.dev20230725-0.0.8.dev20230726/diff.md --exclude *.pyd
+[2023-07-27 02:09:55] INFO root fetch - processPackages [doodleverse-utils]: Downloading https://files.pythonhosted.org/packages/4e/f5/6ed72cbccecf6cb77775fa0a8352ddf2477d69b4f96f8bc00c415f7e350e/doodleverse-utils-0.0.9.tar.gz
+[2023-07-27 02:09:55] INFO root fetch - processPackages [cdk8s-operator]: executing diffoscope
+[2023-07-27 02:09:55] INFO root fetch - processPackages [cdk8s-operator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-operator-0.1.98.tar.gz tmp/cdk8s-operator-0.1.99.tar.gz --markdown 20230727/c/cdk8s-operator/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-27 02:09:55] INFO root fetch - processPackages [echofish-aws-resample-and-write-to-zarr-store-lambda]: executing diffoscope
+[2023-07-27 02:09:55] INFO root fetch - processPackages [echofish-aws-resample-and-write-to-zarr-store-lambda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/echofish-aws-resample-and-write-to-zarr-store-lambda-1.0.0.dev20230726225322.tar.gz tmp/echofish-aws-resample-and-write-to-zarr-store-lambda-1.0.0.dev20230726234601.tar.gz --markdown 20230727/e/echofish-aws-resample-and-write-to-zarr-store-lambda/1.0.0.dev20230726225322-1.0.0.dev20230726234601/diff.md --exclude *.pyd
+[2023-07-27 02:09:55] INFO root fetch - processPackages [torchlayers-nightly]: executing diffoscope
+[2023-07-27 02:09:55] INFO root fetch - processPackages [torchlayers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchlayers-nightly-1690243699.tar.gz tmp/torchlayers-nightly-1690330057.tar.gz --markdown 20230727/t/torchlayers-nightly/1690243699-1690330057/diff.md --exclude *.pyd
+[2023-07-27 02:09:55] INFO root fetch - processPackages [ml-compiler-opt]: executing diffoscope
+[2023-07-27 02:09:55] INFO root fetch - processPackages [ml-compiler-opt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-compiler-opt-0.0.1.dev202307260007.tar.gz tmp/ml-compiler-opt-0.0.1.dev202307270006.tar.gz --markdown 20230727/m/ml-compiler-opt/0.0.1.dev202307260007-0.0.1.dev202307270006/diff.md --exclude *.pyd
+[2023-07-27 02:09:55] INFO root fetch - processPackages [sqlglot]: executing diffoscope
+[2023-07-27 02:09:55] INFO root fetch - processPackages [sqlglot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlglot-9.0.5.tar.gz tmp/sqlglot-9.0.6.tar.gz --markdown 20230727/s/sqlglot/9.0.5-9.0.6/diff.md --exclude *.pyd
+[2023-07-27 02:09:55] INFO root fetch - processPackages [doodleverse-utils]: executing diffoscope
+[2023-07-27 02:09:55] INFO root fetch - processPackages [doodleverse-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doodleverse-utils-0.0.8.tar.gz tmp/doodleverse-utils-0.0.9.tar.gz --markdown 20230727/d/doodleverse-utils/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-27 02:09:56] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221221.tar.gz]
+[2023-07-27 02:09:56] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221222.tar.gz]
+[2023-07-27 02:09:56] INFO root fetch - processPackages [jaxkern-nightly]: Start processing: cdk-aws-discord-notifiers
+[2023-07-27 02:09:56] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2023-07-27 02:09:57] INFO root fetch - processPackages [fastfs]: Remove: archive file [/home/abi/fetcher/tmp/fastfs-0.0.0.tar.gz]
+[2023-07-27 02:09:57] INFO root fetch - processPackages [fastfs]: Remove: archive file [/home/abi/fetcher/tmp/fastfs-0.9.0.tar.gz]
+[2023-07-27 02:09:57] INFO root fetch - processPackages [fastfs]: Start processing: vesselapi
+[2023-07-27 02:09:57] INFO root fetch - main [MainThread]: End processing [fastfs]: success
+[2023-07-27 02:09:57] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-27 02:09:57] INFO root fetch - processPackages [vesselapi]: New version: [3.5.2] Old Version: [3.41.0]
+[2023-07-27 02:09:57] INFO root fetch - processPackages [cdk8s-image]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-image-0.2.98.tar.gz]
+[2023-07-27 02:09:57] INFO root fetch - processPackages [cdk8s-image]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-image-0.2.99.tar.gz]
+[2023-07-27 02:09:57] INFO root fetch - processPackages [cdk8s-image]: Start processing: cdk8s-grafana
+[2023-07-27 02:09:57] INFO root fetch - main [MainThread]: End processing [cdk8s-image]: success
+[2023-07-27 02:09:57] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230725.tar.gz]
+[2023-07-27 02:09:57] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230726.tar.gz]
+[2023-07-27 02:09:57] INFO root fetch - processPackages [jaxutils-nightly]: Start processing: ait-gui
+[2023-07-27 02:09:57] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2023-07-27 02:09:57] INFO root fetch - processPackages [vesselapi]: Downloading https://files.pythonhosted.org/packages/7d/ce/a852a10324e6210a52d2e8a060196ad880a253ceac6022ecd92bc9734ca9/vesselapi-3.41.0.tar.gz
+[2023-07-27 02:09:57] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Downloading https://files.pythonhosted.org/packages/56/53/6723a7c49bca58765247618ffc3edcd771eea50c77deafc133a9513dfcde/cdk-aws-discord-notifiers-0.0.98.tar.gz
+[2023-07-27 02:09:57] INFO root fetch - processPackages [cdk8s-operator]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-operator-0.1.98.tar.gz]
+[2023-07-27 02:09:57] INFO root fetch - processPackages [cdk8s-operator]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-operator-0.1.99.tar.gz]
+[2023-07-27 02:09:57] INFO root fetch - processPackages [cdk8s-operator]: Start processing: ait-gui
+[2023-07-27 02:09:57] INFO root fetch - main [MainThread]: End processing [cdk8s-operator]: success
+[2023-07-27 02:09:57] INFO root fetch - processPackages [cdk8s-grafana]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-27 02:09:57] INFO root fetch - processPackages [echofish-aws-resample-and-write-to-zarr-store-lambda]: Remove: archive file [/home/abi/fetcher/tmp/echofish-aws-resample-and-write-to-zarr-store-lambda-1.0.0.dev20230726225322.tar.gz]
+[2023-07-27 02:09:57] INFO root fetch - processPackages [echofish-aws-resample-and-write-to-zarr-store-lambda]: Remove: archive file [/home/abi/fetcher/tmp/echofish-aws-resample-and-write-to-zarr-store-lambda-1.0.0.dev20230726234601.tar.gz]
+[2023-07-27 02:09:57] INFO root fetch - processPackages [echofish-aws-resample-and-write-to-zarr-store-lambda]: Start processing: blaster-server
+[2023-07-27 02:09:57] INFO root fetch - main [MainThread]: End processing [echofish-aws-resample-and-write-to-zarr-store-lambda]: success
+[2023-07-27 02:09:57] INFO root fetch - processPackages [cdk8s-grafana]: Downloading https://files.pythonhosted.org/packages/d9/95/654afcf433ff074ee19483bcc89f1b1a113ddd08edd6ff0bfcc205167a77/cdk8s-grafana-0.1.98.tar.gz
+[2023-07-27 02:09:57] INFO root fetch - processPackages [torchlayers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchlayers-nightly-1690243699.tar.gz]
+[2023-07-27 02:09:57] INFO root fetch - processPackages [torchlayers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchlayers-nightly-1690330057.tar.gz]
+[2023-07-27 02:09:57] INFO root fetch - processPackages [torchlayers-nightly]: Start processing: testflows.github.runners
+[2023-07-27 02:09:57] INFO root fetch - main [MainThread]: End processing [torchlayers-nightly]: success
+[2023-07-27 02:09:57] INFO root fetch - processPackages [ait-gui]: New version: [2.4.1] Old Version: [2.4.0]
+[2023-07-27 02:09:57] INFO root fetch - processPackages [ait-gui]: New version: [2.4.1] Old Version: [2.4.0]
+[2023-07-27 02:09:57] INFO root fetch - processPackages [testflows.github.runners]: New version: [1.2.230726.1235607] Old Version: [1.2.230726.1231242]
+[2023-07-27 02:09:57] INFO root fetch - processPackages [doodleverse-utils]: Remove: archive file [/home/abi/fetcher/tmp/doodleverse-utils-0.0.8.tar.gz]
+[2023-07-27 02:09:57] INFO root fetch - processPackages [vesselapi]: Downloading https://files.pythonhosted.org/packages/82/f2/105170d36bec43bbe554de48bf20f0f1727c0db0e62b44a2412f0e180fa6/vesselapi-3.5.2.tar.gz
+[2023-07-27 02:09:57] INFO root fetch - processPackages [doodleverse-utils]: Remove: archive file [/home/abi/fetcher/tmp/doodleverse-utils-0.0.9.tar.gz]
+[2023-07-27 02:09:57] INFO root fetch - main [MainThread]: End processing [doodleverse-utils]: success
+[2023-07-27 02:09:57] INFO root fetch - processPackages [blaster-server]: New version: [0.0.438] Old Version: [0.0.437b0]
+[2023-07-27 02:09:57] INFO root fetch - processPackages [testflows.github.runners]: Downloading https://files.pythonhosted.org/packages/10/31/b72b18e4a96f52f5eca7972c0a7f7480408e44348e3c3971a2693a239075/testflows.github.runners-1.2.230726.1231242.tar.gz
+[2023-07-27 02:09:57] INFO root fetch - processPackages [ait-gui]: Downloading https://files.pythonhosted.org/packages/60/97/1be59a141a2f20344907ab9597ecdb1e272d4a4e1ef6af1c0880dae7f83e/ait_gui-2.4.0.tar.gz
+[2023-07-27 02:09:57] INFO root fetch - processPackages [ait-gui]: Downloading https://files.pythonhosted.org/packages/60/97/1be59a141a2f20344907ab9597ecdb1e272d4a4e1ef6af1c0880dae7f83e/ait_gui-2.4.0.tar.gz
+[2023-07-27 02:09:57] INFO root fetch - processPackages [cdk8s-grafana]: Downloading https://files.pythonhosted.org/packages/70/0b/1cbbebf9bdeb0edcb5ab0f3110b233c14ebfd8e9d744573a7640af1c4b94/cdk8s-grafana-0.1.99.tar.gz
+[2023-07-27 02:09:57] INFO root fetch - processPackages [vesselapi]: executing diffoscope
+[2023-07-27 02:09:57] INFO root fetch - processPackages [vesselapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vesselapi-3.41.0.tar.gz tmp/vesselapi-3.5.2.tar.gz --markdown 20230727/v/vesselapi/3.41.0-3.5.2/diff.md --exclude *.pyd
+[2023-07-27 02:09:57] INFO root fetch - processPackages [blaster-server]: Downloading https://files.pythonhosted.org/packages/25/79/49457fc216c1585c84b7e19f053027443ee2b3cefa9f8e02682b613aa741/blaster-server-0.0.437b0.tar.gz
+[2023-07-27 02:09:57] INFO root fetch - processPackages [sqlglot]: Remove: archive file [/home/abi/fetcher/tmp/sqlglot-9.0.5.tar.gz]
+[2023-07-27 02:09:57] INFO root fetch - processPackages [sqlglot]: Remove: archive file [/home/abi/fetcher/tmp/sqlglot-9.0.6.tar.gz]
+[2023-07-27 02:09:57] INFO root fetch - main [MainThread]: End processing [sqlglot]: success
+[2023-07-27 02:09:57] INFO root fetch - processPackages [testflows.github.runners]: Downloading https://files.pythonhosted.org/packages/09/e5/9ce60a995b58f9b6b9955b3004758348aa5dc8ba28562ede1ed0aff43ecc/testflows.github.runners-1.2.230726.1235607.tar.gz
+[2023-07-27 02:09:57] INFO root fetch - processPackages [cdk8s-grafana]: executing diffoscope
+[2023-07-27 02:09:57] INFO root fetch - processPackages [cdk8s-grafana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-grafana-0.1.98.tar.gz tmp/cdk8s-grafana-0.1.99.tar.gz --markdown 20230727/c/cdk8s-grafana/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-27 02:09:57] INFO root fetch - processPackages [ml-compiler-opt]: Remove: archive file [/home/abi/fetcher/tmp/ml-compiler-opt-0.0.1.dev202307260007.tar.gz]
+[2023-07-27 02:09:57] INFO root fetch - processPackages [ml-compiler-opt]: Remove: archive file [/home/abi/fetcher/tmp/ml-compiler-opt-0.0.1.dev202307270006.tar.gz]
+[2023-07-27 02:09:57] INFO root fetch - main [MainThread]: End processing [ml-compiler-opt]: success
+[2023-07-27 02:09:57] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Downloading https://files.pythonhosted.org/packages/e9/77/7aafe1cb83c9a08a337fb161ed76fbd8ea0e22d81058ab1a2974adb0a1f9/cdk-aws-discord-notifiers-0.0.99.tar.gz
+[2023-07-27 02:09:57] INFO root fetch - processPackages [testflows.github.runners]: executing diffoscope
+[2023-07-27 02:09:57] INFO root fetch - processPackages [testflows.github.runners]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testflows.github.runners-1.2.230726.1231242.tar.gz tmp/testflows.github.runners-1.2.230726.1235607.tar.gz --markdown 20230727/t/testflows.github.runners/1.2.230726.1231242-1.2.230726.1235607/diff.md --exclude *.pyd
+[2023-07-27 02:09:58] INFO root fetch - processPackages [blaster-server]: Downloading https://files.pythonhosted.org/packages/81/66/d43962ab05074dcddc1d70df0f60a14c73968d4809793dc22bf4415ef115/blaster-server-0.0.438.tar.gz
+[2023-07-27 02:09:58] INFO root fetch - processPackages [ait-gui]: Downloading https://files.pythonhosted.org/packages/cf/10/553eb1dc6cbb7aa411b096b26c5d5b478628097d8507fbce2a5dbc43a6b0/ait_gui-2.4.1.tar.gz
+[2023-07-27 02:09:58] INFO root fetch - processPackages [ait-gui]: Downloading https://files.pythonhosted.org/packages/cf/10/553eb1dc6cbb7aa411b096b26c5d5b478628097d8507fbce2a5dbc43a6b0/ait_gui-2.4.1.tar.gz
+[2023-07-27 02:09:58] INFO root fetch - processPackages [blaster-server]: executing diffoscope
+[2023-07-27 02:09:58] INFO root fetch - processPackages [blaster-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blaster-server-0.0.437b0.tar.gz tmp/blaster-server-0.0.438.tar.gz --markdown 20230727/b/blaster-server/0.0.437b0-0.0.438/diff.md --exclude *.pyd
+[2023-07-27 02:09:58] INFO root fetch - processPackages [ait-gui]: executing diffoscope
+[2023-07-27 02:09:58] INFO root fetch - processPackages [ait-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ait_gui-2.4.0.tar.gz tmp/ait_gui-2.4.1.tar.gz --markdown 20230727/a/ait-gui/2.4.0-2.4.1/diff.md --exclude *.pyd
+[2023-07-27 02:09:58] INFO root fetch - processPackages [ait-gui]: executing diffoscope
+[2023-07-27 02:09:58] INFO root fetch - processPackages [ait-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ait_gui-2.4.0.tar.gz tmp/ait_gui-2.4.1.tar.gz --markdown 20230727/a/ait-gui/2.4.0-2.4.1/diff.md --exclude *.pyd
+[2023-07-27 02:09:58] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: executing diffoscope
+[2023-07-27 02:09:58] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aws-discord-notifiers-0.0.98.tar.gz tmp/cdk-aws-discord-notifiers-0.0.99.tar.gz --markdown 20230727/c/cdk-aws-discord-notifiers/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-27 02:09:58] INFO root fetch - processPackages [cdk8s-grafana]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-grafana-0.1.98.tar.gz]
+[2023-07-27 02:09:58] INFO root fetch - processPackages [cdk8s-grafana]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-grafana-0.1.99.tar.gz]
+[2023-07-27 02:09:58] INFO root fetch - main [MainThread]: End processing [cdk8s-grafana]: success
+[2023-07-27 02:09:58] INFO root fetch - processPackages [testflows.github.runners]: Remove: archive file [/home/abi/fetcher/tmp/testflows.github.runners-1.2.230726.1231242.tar.gz]
+[2023-07-27 02:09:58] INFO root fetch - processPackages [testflows.github.runners]: Remove: archive file [/home/abi/fetcher/tmp/testflows.github.runners-1.2.230726.1235607.tar.gz]
+[2023-07-27 02:09:58] INFO root fetch - main [MainThread]: End processing [testflows.github.runners]: success
+[2023-07-27 02:09:59] INFO root fetch - processPackages [blaster-server]: Remove: archive file [/home/abi/fetcher/tmp/blaster-server-0.0.437b0.tar.gz]
+[2023-07-27 02:09:59] INFO root fetch - processPackages [blaster-server]: Remove: archive file [/home/abi/fetcher/tmp/blaster-server-0.0.438.tar.gz]
+[2023-07-27 02:09:59] INFO root fetch - main [MainThread]: End processing [blaster-server]: success
+[2023-07-27 02:09:59] INFO root fetch - processPackages [vesselapi]: Remove: archive file [/home/abi/fetcher/tmp/vesselapi-3.41.0.tar.gz]
+[2023-07-27 02:09:59] INFO root fetch - processPackages [vesselapi]: Remove: archive file [/home/abi/fetcher/tmp/vesselapi-3.5.2.tar.gz]
+[2023-07-27 02:09:59] INFO root fetch - main [MainThread]: End processing [vesselapi]: success
+[2023-07-27 02:09:59] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aws-discord-notifiers-0.0.98.tar.gz]
+[2023-07-27 02:09:59] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aws-discord-notifiers-0.0.99.tar.gz]
+[2023-07-27 02:09:59] INFO root fetch - main [MainThread]: End processing [cdk-aws-discord-notifiers]: success
+[2023-07-27 02:10:00] INFO root fetch - processPackages [ait-gui]: Remove: archive file [/home/abi/fetcher/tmp/ait_gui-2.4.0.tar.gz]
+[2023-07-27 02:10:00] INFO root fetch - processPackages [ait-gui]: Remove: archive file [/home/abi/fetcher/tmp/ait_gui-2.4.1.tar.gz]
+[2023-07-27 02:10:00] INFO root fetch - main [MainThread]: End processing [ait-gui]: success
+[2023-07-27 02:10:00] INFO root fetch - main [MainThread]: End processing [ait-gui]: success
+[2023-07-27 02:10:00] INFO root fetch - main [MainThread]: Store serial: [19051054]
