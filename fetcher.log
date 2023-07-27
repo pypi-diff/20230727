@@ -12475,3 +12475,154 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-27 06:54:37] INFO root fetch - processPackages [danbi]: Remove: archive file [/home/abi/fetcher/tmp/danbi-0.2.99.tar.gz]
 [2023-07-27 06:54:37] INFO root fetch - main [MainThread]: End processing [danbi]: success
 [2023-07-27 06:54:37] INFO root fetch - main [MainThread]: Store serial: [19054684]
+[2023-07-27 06:59:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19054684]
+[2023-07-27 06:59:45] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-27 06:59:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: red_utils
+[2023-07-27 06:59:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openai-function
+[2023-07-27 06:59:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: honeybee-core
+[2023-07-27 06:59:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autopack-tools
+[2023-07-27 06:59:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: deforum
+[2023-07-27 06:59:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: genet
+[2023-07-27 06:59:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyautd3
+[2023-07-27 06:59:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aigent
+[2023-07-27 06:59:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: autodailycheckin
+[2023-07-27 06:59:46] WARNING root fetch - processPackages [deforum]: Skipping, unable to determine old version
+[2023-07-27 06:59:46] INFO root fetch - main [MainThread]: End processing [deforum] error
+[2023-07-27 06:59:46] INFO root fetch - processPackages [red_utils]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-27 06:59:46] WARNING root fetch - processPackages [aigent]: Skipping, unable to determine old version
+[2023-07-27 06:59:46] INFO root fetch - main [MainThread]: End processing [aigent] error
+[2023-07-27 06:59:46] INFO root fetch - processPackages [autopack-tools]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-07-27 06:59:46] INFO root fetch - processPackages [openai-function]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-27 06:59:46] INFO root fetch - processPackages [genet]: New version: [0.6.1a0] Old Version: [0.6.1]
+[2023-07-27 06:59:46] INFO root fetch - processPackages [pyautd3]: New version: [9.0.1] Old Version: [9.0.0]
+[2023-07-27 06:59:46] INFO root fetch - processPackages [honeybee-core]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-07-27 06:59:46] INFO root fetch - processPackages [autodailycheckin]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-27 06:59:46] INFO root fetch - processPackages [red_utils]: Downloading https://files.pythonhosted.org/packages/95/26/b2ed72743af36cd008dba50918b136441087c95395672f712c81bc600ce6/red_utils-0.1.6.tar.gz
+[2023-07-27 06:59:46] INFO root fetch - processPackages [openai-function]: Downloading https://files.pythonhosted.org/packages/1f/7c/34f70c480aa0abc5b5953792c89c52bfd82a947254f7470ba45006ae48d5/openai_function-0.1.5.tar.gz
+[2023-07-27 06:59:46] INFO root fetch - processPackages [autopack-tools]: Downloading https://files.pythonhosted.org/packages/42/77/9ec783903d9fd7e5128e8519bbc1aa66c7deaec5654d88b6efa5d3f3043d/autopack_tools-0.4.2.tar.gz
+[2023-07-27 06:59:46] INFO root fetch - processPackages [honeybee-core]: Downloading https://files.pythonhosted.org/packages/25/88/7ed0aeb6b1cf0d4f003a3d3e96312cea0aff67017d50c5c9cd245c04f048/honeybee-core-1.8.1.tar.gz
+[2023-07-27 06:59:46] INFO root fetch - processPackages [genet]: Downloading https://files.pythonhosted.org/packages/a8/af/eebd928cb6e1cdae8407bd0518b276fe1e9ae66a938e8429e12485114aca/genet-0.6.1-py3-none-any.whl
+[2023-07-27 06:59:46] INFO root fetch - processPackages [pyautd3]: Downloading https://files.pythonhosted.org/packages/e8/71/a7e782b3fd39d71bc7d9f5c5bc4c935f52b63b87e0680f3ec000d5ae1545/pyautd3-9.0.0.tar.gz
+[2023-07-27 06:59:46] INFO root fetch - processPackages [autodailycheckin]: executing diffoscope
+[2023-07-27 06:59:46] INFO root fetch - processPackages [autodailycheckin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autodailycheckin-0.1.4-py3-none-any.whl.zip tmp/autodailycheckin-0.1.5-py3-none-any.whl.zip --markdown 20230727/a/autodailycheckin/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-27 06:59:46] INFO root fetch - processPackages [honeybee-core]: Downloading https://files.pythonhosted.org/packages/d8/9b/f2a81f9cdf6c2556a083efabd9c0d69bdf3eb0acefed3b55c9d5ed1bcb15/honeybee-core-1.9.0.tar.gz
+[2023-07-27 06:59:46] WARNING root fetch - processPackages [pyautd3]: Skipping package: exceeds size limit 25360257>=10485760
+[2023-07-27 06:59:46] INFO root fetch - main [MainThread]: End processing [pyautd3] error
+[2023-07-27 06:59:46] INFO root fetch - processPackages [openai-function]: Downloading https://files.pythonhosted.org/packages/f9/8a/6b08e6f054fb93da463f7b0340e6c0a4fac1d321aed2fd6cc855db8c2858/openai_function-0.1.6.tar.gz
+[2023-07-27 06:59:46] INFO root fetch - processPackages [autopack-tools]: Downloading https://files.pythonhosted.org/packages/3d/ed/da1e0052f790636e5cf037b077b556073bdca9c7c57a7358adbf821e6ef4/autopack_tools-0.4.3.tar.gz
+[2023-07-27 06:59:46] INFO root fetch - processPackages [honeybee-core]: executing diffoscope
+[2023-07-27 06:59:46] INFO root fetch - processPackages [honeybee-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-core-1.8.1.tar.gz tmp/honeybee-core-1.9.0.tar.gz --markdown 20230727/h/honeybee-core/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-07-27 06:59:46] INFO root fetch - processPackages [genet]: Downloading https://files.pythonhosted.org/packages/34/6b/4bc0154a47fd93a9d0676f61d332765549dacff239af579d51329b943bd3/genet-0.6.1a0-py3-none-any.whl
+[2023-07-27 06:59:46] INFO root fetch - processPackages [openai-function]: executing diffoscope
+[2023-07-27 06:59:46] INFO root fetch - processPackages [openai-function]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_function-0.1.5.tar.gz tmp/openai_function-0.1.6.tar.gz --markdown 20230727/o/openai-function/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-27 06:59:46] INFO root fetch - processPackages [genet]: executing diffoscope
+[2023-07-27 06:59:46] INFO root fetch - processPackages [genet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genet-0.6.1-py3-none-any.whl.zip tmp/genet-0.6.1a0-py3-none-any.whl.zip --markdown 20230727/g/genet/0.6.1-0.6.1a0/diff.md --exclude *.pyd
+[2023-07-27 06:59:46] INFO root fetch - processPackages [autopack-tools]: executing diffoscope
+[2023-07-27 06:59:46] INFO root fetch - processPackages [autopack-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopack_tools-0.4.2.tar.gz tmp/autopack_tools-0.4.3.tar.gz --markdown 20230727/a/autopack-tools/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-07-27 06:59:47] INFO root fetch - processPackages [red_utils]: Downloading https://files.pythonhosted.org/packages/71/23/454d0daefbdeab3489a68945eda764f0ee0c03988f63a5578ecf6a6be9f7/red_utils-0.1.7.tar.gz
+[2023-07-27 06:59:47] ERROR root fetch - processPackages [autodailycheckin]: Diffoscope failed: time="2023-07-27T06:59:46+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid continuation byte
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 252, in compare_details
+    differences.extend(zipinfo_differences(self, other))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 127, in zipinfo_differences
+    zipinfo = Difference.from_operation(Zipinfo, file.path, other.path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid continuation byte
+
+[2023-07-27 06:59:47] INFO root fetch - main [MainThread]: End processing [autodailycheckin] error
+[2023-07-27 06:59:47] INFO root fetch - processPackages [openai-function]: Remove: archive file [/home/abi/fetcher/tmp/openai_function-0.1.5.tar.gz]
+[2023-07-27 06:59:47] INFO root fetch - processPackages [openai-function]: Remove: archive file [/home/abi/fetcher/tmp/openai_function-0.1.6.tar.gz]
+[2023-07-27 06:59:47] INFO root fetch - main [MainThread]: End processing [openai-function]: success
+[2023-07-27 06:59:47] INFO root fetch - processPackages [genet]: Remove: archive file [/home/abi/fetcher/tmp/genet-0.6.1-py3-none-any.whl.zip]
+[2023-07-27 06:59:47] INFO root fetch - processPackages [genet]: Remove: archive file [/home/abi/fetcher/tmp/genet-0.6.1a0-py3-none-any.whl.zip]
+[2023-07-27 06:59:47] INFO root fetch - main [MainThread]: End processing [genet]: success
+[2023-07-27 06:59:47] INFO root fetch - processPackages [honeybee-core]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-core-1.8.1.tar.gz]
+[2023-07-27 06:59:47] INFO root fetch - processPackages [honeybee-core]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-core-1.9.0.tar.gz]
+[2023-07-27 06:59:47] INFO root fetch - main [MainThread]: End processing [honeybee-core]: success
+[2023-07-27 06:59:47] INFO root fetch - processPackages [autopack-tools]: Remove: archive file [/home/abi/fetcher/tmp/autopack_tools-0.4.2.tar.gz]
+[2023-07-27 06:59:47] INFO root fetch - processPackages [autopack-tools]: Remove: archive file [/home/abi/fetcher/tmp/autopack_tools-0.4.3.tar.gz]
+[2023-07-27 06:59:47] INFO root fetch - main [MainThread]: End processing [autopack-tools]: success
+[2023-07-27 06:59:48] INFO root fetch - processPackages [red_utils]: executing diffoscope
+[2023-07-27 06:59:48] INFO root fetch - processPackages [red_utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/red_utils-0.1.6.tar.gz tmp/red_utils-0.1.7.tar.gz --markdown 20230727/r/red_utils/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-27 06:59:55] INFO root fetch - processPackages [red_utils]: Remove: archive file [/home/abi/fetcher/tmp/red_utils-0.1.6.tar.gz]
+[2023-07-27 06:59:55] INFO root fetch - processPackages [red_utils]: Remove: archive file [/home/abi/fetcher/tmp/red_utils-0.1.7.tar.gz]
+[2023-07-27 06:59:55] INFO root fetch - main [MainThread]: End processing [red_utils]: success
+[2023-07-27 06:59:55] INFO root fetch - main [MainThread]: Store serial: [19054721]
