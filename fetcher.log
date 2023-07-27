@@ -20987,3 +20987,171 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-07-27 11:35:00] INFO root fetch - processPackages [simpa]: Remove: archive file [/home/abi/fetcher/tmp/simpa-0.8.9.tar.gz]
 [2023-07-27 11:35:00] INFO root fetch - main [MainThread]: End processing [simpa]: success
 [2023-07-27 11:35:00] INFO root fetch - main [MainThread]: Store serial: [19057954]
+[2023-07-27 11:40:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19057954]
+[2023-07-27 11:40:09] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-07-27 11:40:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyAPplus64
+[2023-07-27 11:40:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: smartchart
+[2023-07-27 11:40:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: codegrade
+[2023-07-27 11:40:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nucliadb
+[2023-07-27 11:40:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nucliadb-client
+[2023-07-27 11:40:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nucliadb-dataset
+[2023-07-27 11:40:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nucliadb-models
+[2023-07-27 11:40:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nucliadb-protos
+[2023-07-27 11:40:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nucliadb-sdk
+[2023-07-27 11:40:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nucliadb-utils
+[2023-07-27 11:40:09] INFO root fetch - processPackages [PyAPplus64]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-07-27 11:40:09] INFO root fetch - processPackages [nucliadb-sdk]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-07-27 11:40:09] INFO root fetch - processPackages [codegrade]: New version: [16.1.9] Old Version: [16.1.8]
+[2023-07-27 11:40:09] INFO root fetch - processPackages [smartchart]: New version: [6.6.8.6] Old Version: [6.6.8.5]
+[2023-07-27 11:40:09] INFO root fetch - processPackages [nucliadb]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-07-27 11:40:09] INFO root fetch - processPackages [nucliadb-protos]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-07-27 11:40:09] INFO root fetch - processPackages [nucliadb-utils]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-07-27 11:40:09] INFO root fetch - processPackages [nucliadb-models]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-07-27 11:40:09] INFO root fetch - processPackages [nucliadb-dataset]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-07-27 11:40:09] INFO root fetch - processPackages [nucliadb-client]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-07-27 11:40:09] INFO root fetch - processPackages [codegrade]: Downloading https://files.pythonhosted.org/packages/a2/99/6dd91f125d60162d9298aca4e361d64263b90012dc12a802e2171ac952ee/codegrade-16.1.8.tar.gz
+[2023-07-27 11:40:09] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/16/50/6ab2e4f9cca425d97ef0824c338fea58b8e3a0bfb590231f3196942875c0/nucliadb_protos-2.9.0.post266-py3-none-any.whl
+[2023-07-27 11:40:09] INFO root fetch - processPackages [nucliadb-client]: Downloading https://files.pythonhosted.org/packages/e9/f9/e883083a5a0915d9eef487a6fa094cee59f24bf25f983e64b02d3dd71a9f/nucliadb_client-2.9.0.post266-py3-none-any.whl
+[2023-07-27 11:40:09] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/7c/ff/0a879c94d307d6130c47fa95a8a217386c5cbb1838101d660244b068cd95/nucliadb-2.9.0.post266-py3-none-any.whl
+[2023-07-27 11:40:09] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/9c/a6/d6dd21ed1948bdcc0b560698e72d117f3fdad522e2ac0894dd980e184631/nucliadb_utils-2.9.0.post266-py3-none-any.whl
+[2023-07-27 11:40:09] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/a1/64/be41afa3acf3d90a5d9575ac0e1c151ff6e91fb473f9724dac60fea85414/nucliadb_sdk-2.9.0.post266-py3-none-any.whl
+[2023-07-27 11:40:09] INFO root fetch - processPackages [smartchart]: Downloading https://files.pythonhosted.org/packages/0b/a7/dbc35d61ae4e95229ed45bd37c4c399f363df7eb82dca2d2c648bacb2f79/smartchart-6.6.8.5.tar.gz
+[2023-07-27 11:40:09] INFO root fetch - processPackages [PyAPplus64]: Downloading https://files.pythonhosted.org/packages/30/01/e257c90e4fc681bb19176e307ef2b7c0151d3547d2d4b341768c66aba521/PyAPplus64-1.0.1.tar.gz
+[2023-07-27 11:40:09] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/3b/2d/e4d68391765b0e9f57ca1023e2aec3cf60968a9418e00f24c1554bb0041e/nucliadb_models-2.9.0.post266-py3-none-any.whl
+[2023-07-27 11:40:10] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/56/4b/fc2d9cfebab3c585f1cb9965c827bf2aca2a655f2fec6b1fffcac6eef1c1/nucliadb_dataset-2.9.0.post266-py3-none-any.whl
+[2023-07-27 11:40:10] INFO root fetch - processPackages [nucliadb-client]: Downloading https://files.pythonhosted.org/packages/24/40/81827f509054d15496de510289a599e8f6d34f706b2371d86d048fbc0db0/nucliadb_client-2.9.0.post267-py3-none-any.whl
+[2023-07-27 11:40:10] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/35/7b/660db604a69a01811bfa1b2ce906d520705e186b4f8a91c3972cb4446303/nucliadb_sdk-2.9.0.post267-py3-none-any.whl
+[2023-07-27 11:40:10] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/33/34/554de7935ae3aecd4129d1f85d83822f97fd284da917d6aced4c09802f1a/nucliadb_models-2.9.0.post267-py3-none-any.whl
+[2023-07-27 11:40:10] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/a2/ce/8ce8a66a2ef214d8ae9f81cb70eb5d8d5396c8bd94794cf92d145fdccd31/nucliadb_utils-2.9.0.post267-py3-none-any.whl
+[2023-07-27 11:40:10] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/d0/e8/3c39cb6a2ed6ad97a3e0dec5110ec85934306f7a7d052b0cb4fe4762aa0f/nucliadb-2.9.0.post267-py3-none-any.whl
+[2023-07-27 11:40:10] INFO root fetch - processPackages [codegrade]: Downloading https://files.pythonhosted.org/packages/5c/19/067059110db7547fcfe643055d33ab487be554e0741049ea108c0e330c22/codegrade-16.1.9.tar.gz
+[2023-07-27 11:40:10] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/80/9f/9ffeb0e3d1b4da8f1178595f75fb1c1ffe183913036ae2a60f569c8c7dc7/nucliadb_dataset-2.9.0.post267-py3-none-any.whl
+[2023-07-27 11:40:10] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/21/bd/4fffaf241f826293c98c1317bdaff65a5d202f9ec94d08322b2fd017f3b0/nucliadb_protos-2.9.0.post267-py3-none-any.whl
+[2023-07-27 11:40:10] INFO root fetch - processPackages [nucliadb-client]: executing diffoscope
+[2023-07-27 11:40:10] INFO root fetch - processPackages [nucliadb-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_client-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_client-2.9.0.post267-py3-none-any.whl.zip --markdown 20230727/n/nucliadb-client/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-07-27 11:40:10] INFO root fetch - processPackages [PyAPplus64]: Downloading https://files.pythonhosted.org/packages/d9/51/467d07936777804579380d809b5ce15164cb8bd31c0bffa6bfab7e55e0d0/PyAPplus64-1.1.0.tar.gz
+[2023-07-27 11:40:10] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2023-07-27 11:40:10] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_sdk-2.9.0.post267-py3-none-any.whl.zip --markdown 20230727/n/nucliadb-sdk/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-07-27 11:40:10] INFO root fetch - processPackages [smartchart]: Downloading https://files.pythonhosted.org/packages/e6/8c/75288efde73cf1bb613f88b7dc1c76d7457b4db2ba3d282608d1363ade78/smartchart-6.6.8.6.tar.gz
+[2023-07-27 11:40:10] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2023-07-27 11:40:10] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_models-2.9.0.post267-py3-none-any.whl.zip --markdown 20230727/n/nucliadb-models/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-07-27 11:40:10] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2023-07-27 11:40:10] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_utils-2.9.0.post267-py3-none-any.whl.zip --markdown 20230727/n/nucliadb-utils/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-07-27 11:40:10] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2023-07-27 11:40:10] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip --markdown 20230727/n/nucliadb/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-07-27 11:40:10] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2023-07-27 11:40:10] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_dataset-2.9.0.post267-py3-none-any.whl.zip --markdown 20230727/n/nucliadb-dataset/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-07-27 11:40:10] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2023-07-27 11:40:10] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_protos-2.9.0.post267-py3-none-any.whl.zip --markdown 20230727/n/nucliadb-protos/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-07-27 11:40:10] INFO root fetch - processPackages [PyAPplus64]: executing diffoscope
+[2023-07-27 11:40:10] INFO root fetch - processPackages [PyAPplus64]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyAPplus64-1.0.1.tar.gz tmp/PyAPplus64-1.1.0.tar.gz --markdown 20230727/P/PyAPplus64/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-07-27 11:40:10] INFO root fetch - processPackages [smartchart]: executing diffoscope
+[2023-07-27 11:40:10] INFO root fetch - processPackages [smartchart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartchart-6.6.8.5.tar.gz tmp/smartchart-6.6.8.6.tar.gz --markdown 20230727/s/smartchart/6.6.8.5-6.6.8.6/diff.md --exclude *.pyd
+[2023-07-27 11:40:10] INFO root fetch - processPackages [codegrade]: executing diffoscope
+[2023-07-27 11:40:10] INFO root fetch - processPackages [codegrade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codegrade-16.1.8.tar.gz tmp/codegrade-16.1.9.tar.gz --markdown 20230727/c/codegrade/16.1.8-16.1.9/diff.md --exclude *.pyd
+[2023-07-27 11:40:12] INFO root fetch - processPackages [nucliadb-client]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_client-2.9.0.post266-py3-none-any.whl.zip]
+[2023-07-27 11:40:12] INFO root fetch - processPackages [nucliadb-client]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_client-2.9.0.post267-py3-none-any.whl.zip]
+[2023-07-27 11:40:12] INFO root fetch - processPackages [nucliadb-client]: Start processing: axabc
+[2023-07-27 11:40:12] INFO root fetch - main [MainThread]: End processing [nucliadb-client]: success
+[2023-07-27 11:40:12] INFO root fetch - processPackages [axabc]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-27 11:40:12] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-2.9.0.post266-py3-none-any.whl.zip]
+[2023-07-27 11:40:12] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-2.9.0.post267-py3-none-any.whl.zip]
+[2023-07-27 11:40:12] INFO root fetch - processPackages [nucliadb-sdk]: Start processing: odoo-addon-announcement
+[2023-07-27 11:40:12] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2023-07-27 11:40:12] INFO root fetch - processPackages [odoo-addon-announcement]: New version: [15.0.2.0.0] Old Version: [15.0.1.2.1]
+[2023-07-27 11:40:12] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-2.9.0.post266-py3-none-any.whl.zip]
+[2023-07-27 11:40:12] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-2.9.0.post267-py3-none-any.whl.zip]
+[2023-07-27 11:40:12] INFO root fetch - processPackages [nucliadb-dataset]: Start processing: viur-core
+[2023-07-27 11:40:12] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2023-07-27 11:40:12] INFO root fetch - processPackages [axabc]: Downloading https://files.pythonhosted.org/packages/41/c5/b797e58b17775ec27f68316c932448dfa73c089804cd7a559dea828dcd85/axabc-0.0.8.tar.gz
+[2023-07-27 11:40:12] INFO root fetch - processPackages [viur-core]: New version: [3.5.0b2] Old Version: [3.5.0b1]
+[2023-07-27 11:40:13] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip]
+[2023-07-27 11:40:13] INFO root fetch - processPackages [odoo-addon-announcement]: Downloading https://files.pythonhosted.org/packages/11/c3/813a9592b34da89f71e4ee4384db3187f09ad1f661b974f9741b34319717/odoo_addon_announcement-15.0.1.2.1-py3-none-any.whl
+[2023-07-27 11:40:13] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-2.9.0.post267-py3-none-any.whl.zip]
+[2023-07-27 11:40:13] INFO root fetch - processPackages [nucliadb-models]: Start processing: gitopenlib
+[2023-07-27 11:40:13] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2023-07-27 11:40:13] INFO root fetch - processPackages [viur-core]: Downloading https://files.pythonhosted.org/packages/29/ab/ad96e697aa952c8c9f8782db681345e426b71b507a79cec9dd4cfc3c9abc/viur_core-3.5.0b1-py3-none-any.whl
+[2023-07-27 11:40:13] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-2.9.0.post266-py3-none-any.whl.zip]
+[2023-07-27 11:40:13] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-2.9.0.post267-py3-none-any.whl.zip]
+[2023-07-27 11:40:13] INFO root fetch - processPackages [nucliadb-protos]: Start processing: xj-finance
+[2023-07-27 11:40:13] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2023-07-27 11:40:13] INFO root fetch - processPackages [gitopenlib]: New version: [0.2.8.28] Old Version: [0.2.7.28]
+[2023-07-27 11:40:13] INFO root fetch - processPackages [xj-finance]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-07-27 11:40:13] INFO root fetch - processPackages [axabc]: Downloading https://files.pythonhosted.org/packages/60/61/87ebd4434765200cd248acf948bf78aef84ae73165a7cb8854e4f5a4f66d/axabc-0.0.9.tar.gz
+[2023-07-27 11:40:13] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-2.9.0.post266-py3-none-any.whl.zip]
+[2023-07-27 11:40:13] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-2.9.0.post267-py3-none-any.whl.zip]
+[2023-07-27 11:40:13] INFO root fetch - processPackages [nucliadb-utils]: Start processing: bg-reports-sdk
+[2023-07-27 11:40:13] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2023-07-27 11:40:13] WARNING root fetch - processPackages [bg-reports-sdk]: Skipping, unable to determine old version
+[2023-07-27 11:40:13] INFO root fetch - processPackages [bg-reports-sdk]: Start processing: pythomac-sebastian.schwindt
+[2023-07-27 11:40:13] INFO root fetch - main [MainThread]: End processing [bg-reports-sdk] error
+[2023-07-27 11:40:13] INFO root fetch - processPackages [gitopenlib]: Downloading https://files.pythonhosted.org/packages/48/74/590f5be409b770795c16d674e400c8995a8061e00d4e779cd4a7be76b06d/gitopenlib-0.2.7.28.tar.gz
+[2023-07-27 11:40:13] INFO root fetch - processPackages [axabc]: executing diffoscope
+[2023-07-27 11:40:13] INFO root fetch - processPackages [axabc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/axabc-0.0.8.tar.gz tmp/axabc-0.0.9.tar.gz --markdown 20230727/a/axabc/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-27 11:40:13] INFO root fetch - processPackages [odoo-addon-announcement]: Downloading https://files.pythonhosted.org/packages/49/63/7107d15252db56225a4edabbe4b990c10c0b976d8eeb4414ca7a097cd87d/odoo_addon_announcement-15.0.2.0.0-py3-none-any.whl
+[2023-07-27 11:40:13] INFO root fetch - processPackages [pythomac-sebastian.schwindt]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-27 11:40:13] INFO root fetch - processPackages [xj-finance]: Downloading https://files.pythonhosted.org/packages/85/06/1e9c8076aa8e0629c14bb494a76121b916ff57c4793069cd4ef44db94916/xj_finance-1.1.7.tar.gz
+[2023-07-27 11:40:13] INFO root fetch - processPackages [odoo-addon-announcement]: executing diffoscope
+[2023-07-27 11:40:13] INFO root fetch - processPackages [odoo-addon-announcement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_announcement-15.0.1.2.1-py3-none-any.whl.zip tmp/odoo_addon_announcement-15.0.2.0.0-py3-none-any.whl.zip --markdown 20230727/o/odoo-addon-announcement/15.0.1.2.1-15.0.2.0.0/diff.md --exclude *.pyd
+[2023-07-27 11:40:13] INFO root fetch - processPackages [viur-core]: Downloading https://files.pythonhosted.org/packages/97/c8/2f48c2056aa410bdad2f51e30825f802d649a07391c96bf26919a32e0e0a/viur_core-3.5.0b2-py3-none-any.whl
+[2023-07-27 11:40:13] INFO root fetch - processPackages [pythomac-sebastian.schwindt]: Downloading https://files.pythonhosted.org/packages/88/31/92a5aa087c5958daed31347bd87886d331a4b151add5f921123908949daa/pythomac_sebastian_schwindt-1.0.0.tar.gz
+[2023-07-27 11:40:13] INFO root fetch - processPackages [gitopenlib]: Downloading https://files.pythonhosted.org/packages/95/54/4a4292733061b582887b760f5ab036ac4b7f126b55956419de3015c0a1fa/gitopenlib-0.2.8.28.tar.gz
+[2023-07-27 11:40:13] INFO root fetch - processPackages [viur-core]: executing diffoscope
+[2023-07-27 11:40:13] INFO root fetch - processPackages [viur-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viur_core-3.5.0b1-py3-none-any.whl.zip tmp/viur_core-3.5.0b2-py3-none-any.whl.zip --markdown 20230727/v/viur-core/3.5.0b1-3.5.0b2/diff.md --exclude *.pyd
+[2023-07-27 11:40:13] INFO root fetch - processPackages [xj-finance]: Downloading https://files.pythonhosted.org/packages/05/17/1d8ed3acedb3e976333c002d75343346b672b1b0907099e9685be98f80ac/xj_finance-1.1.8.tar.gz
+[2023-07-27 11:40:14] INFO root fetch - processPackages [pythomac-sebastian.schwindt]: Downloading https://files.pythonhosted.org/packages/27/74/9a6a0e39a9af2f58614e91f106225daf82ebf05deed6be19207efdc2c217/pythomac_sebastian_schwindt-1.0.1.tar.gz
+[2023-07-27 11:40:14] INFO root fetch - processPackages [gitopenlib]: executing diffoscope
+[2023-07-27 11:40:14] INFO root fetch - processPackages [gitopenlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitopenlib-0.2.7.28.tar.gz tmp/gitopenlib-0.2.8.28.tar.gz --markdown 20230727/g/gitopenlib/0.2.7.28-0.2.8.28/diff.md --exclude *.pyd
+[2023-07-27 11:40:14] INFO root fetch - processPackages [pythomac-sebastian.schwindt]: executing diffoscope
+[2023-07-27 11:40:14] INFO root fetch - processPackages [pythomac-sebastian.schwindt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythomac_sebastian_schwindt-1.0.0.tar.gz tmp/pythomac_sebastian_schwindt-1.0.1.tar.gz --markdown 20230727/p/pythomac-sebastian.schwindt/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-27 11:40:14] INFO root fetch - processPackages [PyAPplus64]: Remove: archive file [/home/abi/fetcher/tmp/PyAPplus64-1.0.1.tar.gz]
+[2023-07-27 11:40:14] INFO root fetch - processPackages [PyAPplus64]: Remove: archive file [/home/abi/fetcher/tmp/PyAPplus64-1.1.0.tar.gz]
+[2023-07-27 11:40:14] INFO root fetch - processPackages [PyAPplus64]: Start processing: odoo-addon-coupon-multi-gift
+[2023-07-27 11:40:14] INFO root fetch - main [MainThread]: End processing [PyAPplus64]: success
+[2023-07-27 11:40:14] INFO root fetch - processPackages [odoo-addon-coupon-multi-gift]: New version: [15.0.1.0.1] Old Version: [15.0.1.0.0.3]
+[2023-07-27 11:40:14] INFO root fetch - processPackages [odoo-addon-coupon-multi-gift]: Downloading https://files.pythonhosted.org/packages/37/11/cf567cc4f2e9456b306f381d9b239bb59c490f3f232b7f1e97e33be4122d/odoo_addon_coupon_multi_gift-15.0.1.0.0.3-py3-none-any.whl
+[2023-07-27 11:40:14] INFO root fetch - processPackages [xj-finance]: executing diffoscope
+[2023-07-27 11:40:14] INFO root fetch - processPackages [xj-finance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_finance-1.1.7.tar.gz tmp/xj_finance-1.1.8.tar.gz --markdown 20230727/x/xj-finance/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-07-27 11:40:14] INFO root fetch - processPackages [axabc]: Remove: archive file [/home/abi/fetcher/tmp/axabc-0.0.8.tar.gz]
+[2023-07-27 11:40:14] INFO root fetch - processPackages [axabc]: Remove: archive file [/home/abi/fetcher/tmp/axabc-0.0.9.tar.gz]
+[2023-07-27 11:40:14] INFO root fetch - processPackages [axabc]: Start processing: csvcubed-devtools
+[2023-07-27 11:40:14] INFO root fetch - main [MainThread]: End processing [axabc]: success
+[2023-07-27 11:40:15] INFO root fetch - processPackages [csvcubed-devtools]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-07-27 11:40:15] INFO root fetch - processPackages [odoo-addon-coupon-multi-gift]: Downloading https://files.pythonhosted.org/packages/bc/c4/d749505640a6772fb7f9876dfb28dc342a2dd3ab9b24ae8422b15bc95cab/odoo_addon_coupon_multi_gift-15.0.1.0.1-py3-none-any.whl
+[2023-07-27 11:40:15] INFO root fetch - processPackages [odoo-addon-coupon-multi-gift]: executing diffoscope
+[2023-07-27 11:40:15] INFO root fetch - processPackages [odoo-addon-coupon-multi-gift]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_coupon_multi_gift-15.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_coupon_multi_gift-15.0.1.0.1-py3-none-any.whl.zip --markdown 20230727/o/odoo-addon-coupon-multi-gift/15.0.1.0.0.3-15.0.1.0.1/diff.md --exclude *.pyd
+[2023-07-27 11:40:15] INFO root fetch - processPackages [csvcubed-devtools]: Downloading https://files.pythonhosted.org/packages/f9/5d/ec8ac2824d24b9eda69032a2ddf7e8a81761ac1497d9679ff735e0ae1f5a/csvcubed_devtools-0.1.9-py3-none-any.whl
+[2023-07-27 11:40:15] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-2.9.0.post266-py3-none-any.whl.zip]
+[2023-07-27 11:40:15] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip]
+[2023-07-27 11:40:15] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2023-07-27 11:40:15] INFO root fetch - processPackages [odoo-addon-announcement]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_announcement-15.0.1.2.1-py3-none-any.whl.zip]
+[2023-07-27 11:40:15] INFO root fetch - processPackages [odoo-addon-announcement]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_announcement-15.0.2.0.0-py3-none-any.whl.zip]
+[2023-07-27 11:40:15] INFO root fetch - main [MainThread]: End processing [odoo-addon-announcement]: success
+[2023-07-27 11:40:15] INFO root fetch - processPackages [csvcubed-devtools]: Downloading https://files.pythonhosted.org/packages/9d/7b/3eb5c2c58d2af103365e74f1ad54cfe6e00aef5f1543227c4ef982bdf6fb/csvcubed_devtools-0.2.0-py3-none-any.whl
+[2023-07-27 11:40:15] INFO root fetch - processPackages [csvcubed-devtools]: executing diffoscope
+[2023-07-27 11:40:15] INFO root fetch - processPackages [csvcubed-devtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csvcubed_devtools-0.1.9-py3-none-any.whl.zip tmp/csvcubed_devtools-0.2.0-py3-none-any.whl.zip --markdown 20230727/c/csvcubed-devtools/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-07-27 11:40:15] INFO root fetch - processPackages [gitopenlib]: Remove: archive file [/home/abi/fetcher/tmp/gitopenlib-0.2.7.28.tar.gz]
+[2023-07-27 11:40:15] INFO root fetch - processPackages [gitopenlib]: Remove: archive file [/home/abi/fetcher/tmp/gitopenlib-0.2.8.28.tar.gz]
+[2023-07-27 11:40:15] INFO root fetch - main [MainThread]: End processing [gitopenlib]: success
+[2023-07-27 11:40:16] INFO root fetch - processPackages [pythomac-sebastian.schwindt]: Remove: archive file [/home/abi/fetcher/tmp/pythomac_sebastian_schwindt-1.0.0.tar.gz]
+[2023-07-27 11:40:16] INFO root fetch - processPackages [pythomac-sebastian.schwindt]: Remove: archive file [/home/abi/fetcher/tmp/pythomac_sebastian_schwindt-1.0.1.tar.gz]
+[2023-07-27 11:40:16] INFO root fetch - main [MainThread]: End processing [pythomac-sebastian.schwindt]: success
+[2023-07-27 11:40:16] INFO root fetch - processPackages [viur-core]: Remove: archive file [/home/abi/fetcher/tmp/viur_core-3.5.0b1-py3-none-any.whl.zip]
+[2023-07-27 11:40:16] INFO root fetch - processPackages [viur-core]: Remove: archive file [/home/abi/fetcher/tmp/viur_core-3.5.0b2-py3-none-any.whl.zip]
+[2023-07-27 11:40:16] INFO root fetch - main [MainThread]: End processing [viur-core]: success
+[2023-07-27 11:40:16] INFO root fetch - processPackages [xj-finance]: Remove: archive file [/home/abi/fetcher/tmp/xj_finance-1.1.7.tar.gz]
+[2023-07-27 11:40:16] INFO root fetch - processPackages [xj-finance]: Remove: archive file [/home/abi/fetcher/tmp/xj_finance-1.1.8.tar.gz]
+[2023-07-27 11:40:16] INFO root fetch - main [MainThread]: End processing [xj-finance]: success
+[2023-07-27 11:40:16] INFO root fetch - processPackages [odoo-addon-coupon-multi-gift]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_coupon_multi_gift-15.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-07-27 11:40:16] INFO root fetch - processPackages [odoo-addon-coupon-multi-gift]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_coupon_multi_gift-15.0.1.0.1-py3-none-any.whl.zip]
+[2023-07-27 11:40:16] INFO root fetch - main [MainThread]: End processing [odoo-addon-coupon-multi-gift]: success
+[2023-07-27 11:40:17] INFO root fetch - processPackages [csvcubed-devtools]: Remove: archive file [/home/abi/fetcher/tmp/csvcubed_devtools-0.1.9-py3-none-any.whl.zip]
+[2023-07-27 11:40:17] INFO root fetch - processPackages [csvcubed-devtools]: Remove: archive file [/home/abi/fetcher/tmp/csvcubed_devtools-0.2.0-py3-none-any.whl.zip]
+[2023-07-27 11:40:17] INFO root fetch - main [MainThread]: End processing [csvcubed-devtools]: success
+[2023-07-27 11:40:17] INFO root fetch - processPackages [codegrade]: Remove: archive file [/home/abi/fetcher/tmp/codegrade-16.1.8.tar.gz]
+[2023-07-27 11:40:17] INFO root fetch - processPackages [codegrade]: Remove: archive file [/home/abi/fetcher/tmp/codegrade-16.1.9.tar.gz]
+[2023-07-27 11:40:17] INFO root fetch - main [MainThread]: End processing [codegrade]: success
+[2023-07-27 11:40:17] INFO root fetch - processPackages [smartchart]: Remove: archive file [/home/abi/fetcher/tmp/smartchart-6.6.8.5.tar.gz]
+[2023-07-27 11:40:17] INFO root fetch - processPackages [smartchart]: Remove: archive file [/home/abi/fetcher/tmp/smartchart-6.6.8.6.tar.gz]
+[2023-07-27 11:40:17] INFO root fetch - main [MainThread]: End processing [smartchart]: success
+[2023-07-27 11:40:17] INFO root fetch - main [MainThread]: Store serial: [19058012]
