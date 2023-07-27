@@ -10986,3 +10986,54 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-27 05:09:09] INFO root fetch - processPackages [waveforms]: Remove: archive file [/home/abi/fetcher/tmp/waveforms-1.6.6.tar.gz]
 [2023-07-27 05:09:09] INFO root fetch - main [MainThread]: End processing [waveforms]: success
 [2023-07-27 05:09:09] INFO root fetch - main [MainThread]: Store serial: [19054144]
+[2023-07-27 05:14:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19054144]
+[2023-07-27 05:14:18] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-27 05:14:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: temperature-converter-py
+[2023-07-27 05:14:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dodevops
+[2023-07-27 05:14:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cvxsimulator
+[2023-07-27 05:14:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: testflows.github.runners
+[2023-07-27 05:14:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: intelliw
+[2023-07-27 05:14:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ldas
+[2023-07-27 05:14:18] INFO root fetch - processPackages [temperature-converter-py]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-27 05:14:18] WARNING root fetch - processPackages [ldas]: Skipping, unable to determine old version
+[2023-07-27 05:14:18] INFO root fetch - main [MainThread]: End processing [ldas] error
+[2023-07-27 05:14:18] INFO root fetch - processPackages [intelliw]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-27 05:14:18] INFO root fetch - processPackages [dodevops]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-27 05:14:18] INFO root fetch - processPackages [cvxsimulator]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-07-27 05:14:18] INFO root fetch - processPackages [testflows.github.runners]: New version: [1.2.230727.1031300] Old Version: [1.2.230727.1030201]
+[2023-07-27 05:14:18] INFO root fetch - processPackages [testflows.github.runners]: Downloading https://files.pythonhosted.org/packages/e5/c8/014ada648e52336eaf76d99bc0bb3a219ab011afc24711de7ee8cfa60cd0/testflows.github.runners-1.2.230727.1030201.tar.gz
+[2023-07-27 05:14:18] INFO root fetch - processPackages [temperature-converter-py]: Downloading https://files.pythonhosted.org/packages/26/4c/bad140cbd878f6c9563f48ec043435c711ed6fd02a99556820b38f9ebe41/temperature_converter_py-1.0.1.tar.gz
+[2023-07-27 05:14:19] INFO root fetch - processPackages [intelliw]: Downloading https://files.pythonhosted.org/packages/9a/ce/20850d455cee55870f68b4c52538dfbcad9360bd19b3fe310f2060fc3b4e/intelliw-1.2.8-py3-none-any.whl
+[2023-07-27 05:14:19] INFO root fetch - processPackages [dodevops]: Downloading https://files.pythonhosted.org/packages/1a/18/06c2488148b2257582b58138dc3697e62cc7a847d51f00a381e948d75b1a/dodevops-0.1.8.tar.gz
+[2023-07-27 05:14:19] INFO root fetch - processPackages [cvxsimulator]: Downloading https://files.pythonhosted.org/packages/b7/63/1cf84d642dff1010244102fe4a4f0fc2c25f00c55ddeaaba2033af6f1ea1/cvxsimulator-0.6.2.tar.gz
+[2023-07-27 05:14:19] INFO root fetch - processPackages [testflows.github.runners]: Downloading https://files.pythonhosted.org/packages/82/c1/acb43224f235e26687a3fb8e478383bc95fd94f7685cd53d92bf2beaa0c8/testflows.github.runners-1.2.230727.1031300.tar.gz
+[2023-07-27 05:14:19] INFO root fetch - processPackages [temperature-converter-py]: Downloading https://files.pythonhosted.org/packages/5a/fd/b5d595a5a33509d3609c72b449360462855d8471e631677e68ec7a35ce63/temperature_converter_py-1.0.2.tar.gz
+[2023-07-27 05:14:19] INFO root fetch - processPackages [dodevops]: Downloading https://files.pythonhosted.org/packages/41/5d/c2423ea8b261b7a7034db4214baef9f7e4474e8e2ac9d884063cc022e455/dodevops-0.1.9.tar.gz
+[2023-07-27 05:14:19] INFO root fetch - processPackages [temperature-converter-py]: executing diffoscope
+[2023-07-27 05:14:19] INFO root fetch - processPackages [temperature-converter-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/temperature_converter_py-1.0.1.tar.gz tmp/temperature_converter_py-1.0.2.tar.gz --markdown 20230727/t/temperature-converter-py/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-27 05:14:19] INFO root fetch - processPackages [cvxsimulator]: Downloading https://files.pythonhosted.org/packages/6a/02/2a9dbb1eaf9393cba3656899bd30457a4ef30f19004ecb6d2428ed04f0cc/cvxsimulator-0.6.3.tar.gz
+[2023-07-27 05:14:19] INFO root fetch - processPackages [intelliw]: Downloading https://files.pythonhosted.org/packages/56/39/8c9d9f02f068eb32b537f84561688a3542e0d77b426f926f06943dd7238a/intelliw-1.2.9-py3-none-any.whl
+[2023-07-27 05:14:19] INFO root fetch - processPackages [dodevops]: executing diffoscope
+[2023-07-27 05:14:19] INFO root fetch - processPackages [dodevops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dodevops-0.1.8.tar.gz tmp/dodevops-0.1.9.tar.gz --markdown 20230727/d/dodevops/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-27 05:14:19] INFO root fetch - processPackages [testflows.github.runners]: executing diffoscope
+[2023-07-27 05:14:19] INFO root fetch - processPackages [testflows.github.runners]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testflows.github.runners-1.2.230727.1030201.tar.gz tmp/testflows.github.runners-1.2.230727.1031300.tar.gz --markdown 20230727/t/testflows.github.runners/1.2.230727.1030201-1.2.230727.1031300/diff.md --exclude *.pyd
+[2023-07-27 05:14:19] INFO root fetch - processPackages [cvxsimulator]: executing diffoscope
+[2023-07-27 05:14:19] INFO root fetch - processPackages [cvxsimulator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvxsimulator-0.6.2.tar.gz tmp/cvxsimulator-0.6.3.tar.gz --markdown 20230727/c/cvxsimulator/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-07-27 05:14:19] INFO root fetch - processPackages [intelliw]: executing diffoscope
+[2023-07-27 05:14:19] INFO root fetch - processPackages [intelliw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intelliw-1.2.8-py3-none-any.whl.zip tmp/intelliw-1.2.9-py3-none-any.whl.zip --markdown 20230727/i/intelliw/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-27 05:14:20] INFO root fetch - processPackages [temperature-converter-py]: Remove: archive file [/home/abi/fetcher/tmp/temperature_converter_py-1.0.1.tar.gz]
+[2023-07-27 05:14:20] INFO root fetch - processPackages [temperature-converter-py]: Remove: archive file [/home/abi/fetcher/tmp/temperature_converter_py-1.0.2.tar.gz]
+[2023-07-27 05:14:20] INFO root fetch - main [MainThread]: End processing [temperature-converter-py]: success
+[2023-07-27 05:14:20] INFO root fetch - processPackages [cvxsimulator]: Remove: archive file [/home/abi/fetcher/tmp/cvxsimulator-0.6.2.tar.gz]
+[2023-07-27 05:14:20] INFO root fetch - processPackages [cvxsimulator]: Remove: archive file [/home/abi/fetcher/tmp/cvxsimulator-0.6.3.tar.gz]
+[2023-07-27 05:14:20] INFO root fetch - main [MainThread]: End processing [cvxsimulator]: success
+[2023-07-27 05:14:20] INFO root fetch - processPackages [dodevops]: Remove: archive file [/home/abi/fetcher/tmp/dodevops-0.1.8.tar.gz]
+[2023-07-27 05:14:20] INFO root fetch - processPackages [dodevops]: Remove: archive file [/home/abi/fetcher/tmp/dodevops-0.1.9.tar.gz]
+[2023-07-27 05:14:20] INFO root fetch - main [MainThread]: End processing [dodevops]: success
+[2023-07-27 05:14:20] INFO root fetch - processPackages [testflows.github.runners]: Remove: archive file [/home/abi/fetcher/tmp/testflows.github.runners-1.2.230727.1030201.tar.gz]
+[2023-07-27 05:14:20] INFO root fetch - processPackages [testflows.github.runners]: Remove: archive file [/home/abi/fetcher/tmp/testflows.github.runners-1.2.230727.1031300.tar.gz]
+[2023-07-27 05:14:20] INFO root fetch - main [MainThread]: End processing [testflows.github.runners]: success
+[2023-07-27 05:14:20] INFO root fetch - processPackages [intelliw]: Remove: archive file [/home/abi/fetcher/tmp/intelliw-1.2.8-py3-none-any.whl.zip]
+[2023-07-27 05:14:20] INFO root fetch - processPackages [intelliw]: Remove: archive file [/home/abi/fetcher/tmp/intelliw-1.2.9-py3-none-any.whl.zip]
+[2023-07-27 05:14:21] INFO root fetch - main [MainThread]: End processing [intelliw]: success
+[2023-07-27 05:14:21] INFO root fetch - main [MainThread]: Store serial: [19054167]
