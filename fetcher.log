@@ -15827,3 +15827,63 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-27 08:03:35] INFO root fetch - processPackages [honeybee-energy]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-energy-1.99.9.tar.gz]
 [2023-07-27 08:03:35] INFO root fetch - main [MainThread]: End processing [honeybee-energy]: success
 [2023-07-27 08:03:35] INFO root fetch - main [MainThread]: Store serial: [19055866]
+[2023-07-27 08:08:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19055866]
+[2023-07-27 08:08:44] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-27 08:08:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cloud-governance
+[2023-07-27 08:08:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: requestsbankrko
+[2023-07-27 08:08:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: deforum
+[2023-07-27 08:08:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: destinynet
+[2023-07-27 08:08:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: picaso
+[2023-07-27 08:08:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openai-function
+[2023-07-27 08:08:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: firstclass-dotenv
+[2023-07-27 08:08:44] INFO root fetch - processPackages [deforum]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-27 08:08:44] INFO root fetch - processPackages [picaso]: New version: [3.1.2] Old Version: [3.1.1]
+[2023-07-27 08:08:44] INFO root fetch - processPackages [openai-function]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-27 08:08:44] WARNING root fetch - processPackages [destinynet]: Skipping, unable to determine old version
+[2023-07-27 08:08:44] INFO root fetch - main [MainThread]: End processing [destinynet] error
+[2023-07-27 08:08:44] INFO root fetch - processPackages [firstclass-dotenv]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-27 08:08:44] INFO root fetch - processPackages [requestsbankrko]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-27 08:08:44] INFO root fetch - processPackages [cloud-governance]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-07-27 08:08:44] INFO root fetch - processPackages [deforum]: Downloading https://files.pythonhosted.org/packages/1e/2d/374431bb82914a8af3a3fd04055a281894fdf3ca4143bd526c26ddc4f5a8/deforum-0.1.1-py3-none-any.whl
+[2023-07-27 08:08:44] INFO root fetch - processPackages [firstclass-dotenv]: Downloading https://files.pythonhosted.org/packages/3f/6c/ae2ac7cbbc85cb94d78c39055e48b7bc783f1ba33a1e35f00f2f4bf56b83/firstclass_dotenv-0.0.6.tar.gz
+[2023-07-27 08:08:44] INFO root fetch - processPackages [openai-function]: Downloading https://files.pythonhosted.org/packages/f9/8a/6b08e6f054fb93da463f7b0340e6c0a4fac1d321aed2fd6cc855db8c2858/openai_function-0.1.6.tar.gz
+[2023-07-27 08:08:44] INFO root fetch - processPackages [picaso]: Downloading https://files.pythonhosted.org/packages/b0/34/abb4c27585887e79d1b8077d781192ecaa5da918242024b3b960a0070b7a/picaso-3.1.1.tar.gz
+[2023-07-27 08:08:45] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/af/f8/db9bacb41ff13a7d3ae59369ae36809c3202232c910b932a09e42257b676/cloud-governance-1.1.98.tar.gz
+[2023-07-27 08:08:45] INFO root fetch - processPackages [requestsbankrko]: Downloading https://files.pythonhosted.org/packages/74/0b/3825be188a130045b4b8dddff5c8c9aad555ae72aa8989a46a092ce2066a/requestsbankrko-0.2.8.tar.gz
+[2023-07-27 08:08:45] INFO root fetch - processPackages [firstclass-dotenv]: Downloading https://files.pythonhosted.org/packages/48/5d/aba63ef368eeff275a8b8608561d3d2eb2ea4b6ffd256130745ded279922/firstclass_dotenv-0.0.7.tar.gz
+[2023-07-27 08:08:45] INFO root fetch - processPackages [deforum]: Downloading https://files.pythonhosted.org/packages/37/79/4704cd9ae79fb573616a2e5e3b43cc27ee14658f047d3a9aad867b9e7e47/deforum-0.1.2.tar.gz
+[2023-07-27 08:08:45] INFO root fetch - processPackages [openai-function]: Downloading https://files.pythonhosted.org/packages/a7/1e/02e71a13e4da0fe2db84178bfc36d84d09e943d0b6ed9e342c6241455ef5/openai_function-0.1.7.tar.gz
+[2023-07-27 08:08:45] INFO root fetch - processPackages [firstclass-dotenv]: executing diffoscope
+[2023-07-27 08:08:45] INFO root fetch - processPackages [firstclass-dotenv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/firstclass_dotenv-0.0.6.tar.gz tmp/firstclass_dotenv-0.0.7.tar.gz --markdown 20230727/f/firstclass-dotenv/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-27 08:08:45] INFO root fetch - processPackages [requestsbankrko]: Downloading https://files.pythonhosted.org/packages/9a/64/a24a456bcddbf558dedec89fd3391a5d78687a97cfd59be0b87207b50eff/requestsbankrko-0.2.9.tar.gz
+[2023-07-27 08:08:45] INFO root fetch - processPackages [openai-function]: executing diffoscope
+[2023-07-27 08:08:45] INFO root fetch - processPackages [openai-function]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_function-0.1.6.tar.gz tmp/openai_function-0.1.7.tar.gz --markdown 20230727/o/openai-function/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-27 08:08:45] INFO root fetch - processPackages [deforum]: executing diffoscope
+[2023-07-27 08:08:45] INFO root fetch - processPackages [deforum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deforum-0.1.1-py3-none-any.whl.zip tmp/deforum-0.1.2.tar.gz --markdown 20230727/d/deforum/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-27 08:08:45] INFO root fetch - processPackages [requestsbankrko]: executing diffoscope
+[2023-07-27 08:08:45] INFO root fetch - processPackages [requestsbankrko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/requestsbankrko-0.2.8.tar.gz tmp/requestsbankrko-0.2.9.tar.gz --markdown 20230727/r/requestsbankrko/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-27 08:08:45] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/ec/3e/06dc6e6844d3033717858064a494efaaf4cdae01a0c58d2b2a38273075e2/cloud-governance-1.1.99.tar.gz
+[2023-07-27 08:08:45] INFO root fetch - processPackages [cloud-governance]: executing diffoscope
+[2023-07-27 08:08:45] INFO root fetch - processPackages [cloud-governance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud-governance-1.1.98.tar.gz tmp/cloud-governance-1.1.99.tar.gz --markdown 20230727/c/cloud-governance/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-07-27 08:08:45] INFO root fetch - processPackages [picaso]: Downloading https://files.pythonhosted.org/packages/ee/c8/bef3a9b341e344ad9cb4249f3396a01bfe3458adca48fc957b46354248f2/picaso-3.1.2.tar.gz
+[2023-07-27 08:08:45] INFO root fetch - processPackages [picaso]: executing diffoscope
+[2023-07-27 08:08:45] INFO root fetch - processPackages [picaso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picaso-3.1.1.tar.gz tmp/picaso-3.1.2.tar.gz --markdown 20230727/p/picaso/3.1.1-3.1.2/diff.md --exclude *.pyd
+[2023-07-27 08:08:46] INFO root fetch - processPackages [deforum]: Remove: archive file [/home/abi/fetcher/tmp/deforum-0.1.1-py3-none-any.whl.zip]
+[2023-07-27 08:08:46] INFO root fetch - processPackages [deforum]: Remove: archive file [/home/abi/fetcher/tmp/deforum-0.1.2.tar.gz]
+[2023-07-27 08:08:46] INFO root fetch - main [MainThread]: End processing [deforum]: success
+[2023-07-27 08:08:46] INFO root fetch - processPackages [requestsbankrko]: Remove: archive file [/home/abi/fetcher/tmp/requestsbankrko-0.2.8.tar.gz]
+[2023-07-27 08:08:46] INFO root fetch - processPackages [requestsbankrko]: Remove: archive file [/home/abi/fetcher/tmp/requestsbankrko-0.2.9.tar.gz]
+[2023-07-27 08:08:46] INFO root fetch - main [MainThread]: End processing [requestsbankrko]: success
+[2023-07-27 08:08:46] INFO root fetch - processPackages [openai-function]: Remove: archive file [/home/abi/fetcher/tmp/openai_function-0.1.6.tar.gz]
+[2023-07-27 08:08:46] INFO root fetch - processPackages [openai-function]: Remove: archive file [/home/abi/fetcher/tmp/openai_function-0.1.7.tar.gz]
+[2023-07-27 08:08:46] INFO root fetch - main [MainThread]: End processing [openai-function]: success
+[2023-07-27 08:08:46] INFO root fetch - processPackages [firstclass-dotenv]: Remove: archive file [/home/abi/fetcher/tmp/firstclass_dotenv-0.0.6.tar.gz]
+[2023-07-27 08:08:46] INFO root fetch - processPackages [firstclass-dotenv]: Remove: archive file [/home/abi/fetcher/tmp/firstclass_dotenv-0.0.7.tar.gz]
+[2023-07-27 08:08:46] INFO root fetch - main [MainThread]: End processing [firstclass-dotenv]: success
+[2023-07-27 08:08:47] INFO root fetch - processPackages [picaso]: Remove: archive file [/home/abi/fetcher/tmp/picaso-3.1.1.tar.gz]
+[2023-07-27 08:08:47] INFO root fetch - processPackages [picaso]: Remove: archive file [/home/abi/fetcher/tmp/picaso-3.1.2.tar.gz]
+[2023-07-27 08:08:47] INFO root fetch - main [MainThread]: End processing [picaso]: success
+[2023-07-27 08:08:47] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.98.tar.gz]
+[2023-07-27 08:08:47] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.99.tar.gz]
+[2023-07-27 08:08:47] INFO root fetch - main [MainThread]: End processing [cloud-governance]: success
+[2023-07-27 08:08:47] INFO root fetch - main [MainThread]: Store serial: [19055892]
