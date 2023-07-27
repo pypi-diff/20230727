@@ -11112,3 +11112,54 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-27 05:19:35] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.9.tar.gz]
 [2023-07-27 05:19:35] INFO root fetch - main [MainThread]: End processing [oloren]: success
 [2023-07-27 05:19:35] INFO root fetch - main [MainThread]: Store serial: [19054213]
+[2023-07-27 05:24:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19054213]
+[2023-07-27 05:24:44] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-27 05:24:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdktf-cdktf-provider-spotinst
+[2023-07-27 05:24:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: retakesearch-py
+[2023-07-27 05:24:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flask-me
+[2023-07-27 05:24:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pycampus
+[2023-07-27 05:24:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alibabacloud-servicemesh20200111
+[2023-07-27 05:24:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: anesthetic
+[2023-07-27 05:24:44] INFO root fetch - processPackages [flask-me]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-27 05:24:44] WARNING root fetch - processPackages [retakesearch-py]: Skipping, unable to determine old version
+[2023-07-27 05:24:44] INFO root fetch - main [MainThread]: End processing [retakesearch-py] error
+[2023-07-27 05:24:44] INFO root fetch - processPackages [pycampus]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-27 05:24:44] INFO root fetch - processPackages [alibabacloud-servicemesh20200111]: New version: [3.0.0] Old Version: [2.0.9]
+[2023-07-27 05:24:44] INFO root fetch - processPackages [anesthetic]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-07-27 05:24:44] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: New version: [9.0.6] Old Version: [9.0.5]
+[2023-07-27 05:24:44] INFO root fetch - processPackages [anesthetic]: Downloading https://files.pythonhosted.org/packages/d0/34/e9fdc5310d4b5591d76839835eef3add168df453998773b102a933bb02c1/anesthetic-2.1.0.tar.gz
+[2023-07-27 05:24:44] INFO root fetch - processPackages [flask-me]: Downloading https://files.pythonhosted.org/packages/5c/6b/b9dbe71d54858388135ee3a4b2021476408b1b4d8ce81f607566947667f9/flask-me-1.0.1.tar.gz
+[2023-07-27 05:24:44] INFO root fetch - processPackages [pycampus]: Downloading https://files.pythonhosted.org/packages/be/30/fb4473e229885da63282dad848effa64d0d3742a235b614ce4e6ef4beb7d/pycampus-0.1.0.tar.gz
+[2023-07-27 05:24:44] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: Downloading https://files.pythonhosted.org/packages/4b/33/0e4e3f1248c6234c56f3443346d98661be3797f329eb55db1c02bc24217e/cdktf-cdktf-provider-spotinst-9.0.5.tar.gz
+[2023-07-27 05:24:44] INFO root fetch - processPackages [alibabacloud-servicemesh20200111]: Downloading https://files.pythonhosted.org/packages/47/d2/aedff6edc6d251bc23609764ccfc007686c4347d12a99bcd109f650331c7/alibabacloud_servicemesh20200111-2.0.9.tar.gz
+[2023-07-27 05:24:44] INFO root fetch - processPackages [anesthetic]: Downloading https://files.pythonhosted.org/packages/62/7f/e688e72b758f056b71b67ebe0c0b0576f07484eff9238b964f3c4b6375c5/anesthetic-2.1.1.tar.gz
+[2023-07-27 05:24:44] INFO root fetch - processPackages [pycampus]: Downloading https://files.pythonhosted.org/packages/fe/ca/b4719ed927d32d49bca87ac8ed3ee0e2cc25b056fbe2ad3b9ea735d9f2f1/pycampus-0.1.1.tar.gz
+[2023-07-27 05:24:44] INFO root fetch - processPackages [anesthetic]: executing diffoscope
+[2023-07-27 05:24:44] INFO root fetch - processPackages [anesthetic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anesthetic-2.1.0.tar.gz tmp/anesthetic-2.1.1.tar.gz --markdown 20230727/a/anesthetic/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-07-27 05:24:44] INFO root fetch - processPackages [pycampus]: executing diffoscope
+[2023-07-27 05:24:45] INFO root fetch - processPackages [pycampus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycampus-0.1.0.tar.gz tmp/pycampus-0.1.1.tar.gz --markdown 20230727/p/pycampus/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-27 05:24:45] INFO root fetch - processPackages [alibabacloud-servicemesh20200111]: Downloading https://files.pythonhosted.org/packages/87/09/b6da79b2d51f563f6a0d70e57c63728ea60626e0d2a72febd48b75cd7c1b/alibabacloud_servicemesh20200111-3.0.0.tar.gz
+[2023-07-27 05:24:45] INFO root fetch - processPackages [flask-me]: Downloading https://files.pythonhosted.org/packages/98/cb/1d532e6112097d62267230c45aa77a9efe86857f8450287353a85ada0123/flask-me-1.0.2.tar.gz
+[2023-07-27 05:24:45] INFO root fetch - processPackages [alibabacloud-servicemesh20200111]: executing diffoscope
+[2023-07-27 05:24:45] INFO root fetch - processPackages [alibabacloud-servicemesh20200111]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_servicemesh20200111-2.0.9.tar.gz tmp/alibabacloud_servicemesh20200111-3.0.0.tar.gz --markdown 20230727/a/alibabacloud-servicemesh20200111/2.0.9-3.0.0/diff.md --exclude *.pyd
+[2023-07-27 05:24:45] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: Downloading https://files.pythonhosted.org/packages/7a/65/80b1051a3cf6aad35dbdf656d5ea70209c7e4bf0a6d27e8a5293f9509116/cdktf-cdktf-provider-spotinst-9.0.6.tar.gz
+[2023-07-27 05:24:45] INFO root fetch - processPackages [flask-me]: executing diffoscope
+[2023-07-27 05:24:45] INFO root fetch - processPackages [flask-me]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask-me-1.0.1.tar.gz tmp/flask-me-1.0.2.tar.gz --markdown 20230727/f/flask-me/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-27 05:24:45] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: executing diffoscope
+[2023-07-27 05:24:45] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-spotinst-9.0.5.tar.gz tmp/cdktf-cdktf-provider-spotinst-9.0.6.tar.gz --markdown 20230727/c/cdktf-cdktf-provider-spotinst/9.0.5-9.0.6/diff.md --exclude *.pyd
+[2023-07-27 05:24:45] INFO root fetch - processPackages [pycampus]: Remove: archive file [/home/abi/fetcher/tmp/pycampus-0.1.0.tar.gz]
+[2023-07-27 05:24:45] INFO root fetch - processPackages [pycampus]: Remove: archive file [/home/abi/fetcher/tmp/pycampus-0.1.1.tar.gz]
+[2023-07-27 05:24:45] INFO root fetch - main [MainThread]: End processing [pycampus]: success
+[2023-07-27 05:24:46] INFO root fetch - processPackages [anesthetic]: Remove: archive file [/home/abi/fetcher/tmp/anesthetic-2.1.0.tar.gz]
+[2023-07-27 05:24:46] INFO root fetch - processPackages [anesthetic]: Remove: archive file [/home/abi/fetcher/tmp/anesthetic-2.1.1.tar.gz]
+[2023-07-27 05:24:46] INFO root fetch - main [MainThread]: End processing [anesthetic]: success
+[2023-07-27 05:24:46] INFO root fetch - processPackages [alibabacloud-servicemesh20200111]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_servicemesh20200111-2.0.9.tar.gz]
+[2023-07-27 05:24:46] INFO root fetch - processPackages [alibabacloud-servicemesh20200111]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_servicemesh20200111-3.0.0.tar.gz]
+[2023-07-27 05:24:46] INFO root fetch - main [MainThread]: End processing [alibabacloud-servicemesh20200111]: success
+[2023-07-27 05:24:46] INFO root fetch - processPackages [flask-me]: Remove: archive file [/home/abi/fetcher/tmp/flask-me-1.0.1.tar.gz]
+[2023-07-27 05:24:46] INFO root fetch - processPackages [flask-me]: Remove: archive file [/home/abi/fetcher/tmp/flask-me-1.0.2.tar.gz]
+[2023-07-27 05:24:46] INFO root fetch - main [MainThread]: End processing [flask-me]: success
+[2023-07-27 05:24:48] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-spotinst-9.0.5.tar.gz]
+[2023-07-27 05:24:48] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-spotinst-9.0.6.tar.gz]
+[2023-07-27 05:24:48] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-spotinst]: success
+[2023-07-27 05:24:48] INFO root fetch - main [MainThread]: Store serial: [19054240]
