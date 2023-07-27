@@ -1,0 +1,18 @@
+# Comparing `tmp/mypy-boto3-route53-recovery-control-config-1.28.0.tar.gz` & `tmp/mypy_boto3_route53_recovery_control_config-1.28.12-py3-none-any.whl.zip`
+
+## filetype from file(1)
+
+```diff
+@@ -1 +1 @@
+-gzip compressed data, was "mypy-boto3-route53-recovery-control-config-1.28.0.tar", last modified: Thu Jul  6 21:00:28 2023, max compression
++Zip archive data, at least v2.0 to extract, compression method=deflate
+```
+
+## filetype from diffoscope
+
+```diff
+@@ -1 +1 @@
+-GzipFile
++ZipFile
+```
+
