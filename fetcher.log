@@ -2575,3 +2575,147 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-27 02:20:32] INFO root fetch - processPackages [coconut-develop]: Remove: archive file [/home/abi/fetcher/tmp/coconut-develop-3.0.2.post0.dev9.tar.gz]
 [2023-07-27 02:20:32] INFO root fetch - main [MainThread]: End processing [coconut-develop]: success
 [2023-07-27 02:20:32] INFO root fetch - main [MainThread]: Store serial: [19051167]
+[2023-07-27 02:25:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19051167]
+[2023-07-27 02:25:41] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-07-27 02:25:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk8s-valheim
+[2023-07-27 02:25:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: userclouds
+[2023-07-27 02:25:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdklabs.cdk-ethereum-node
+[2023-07-27 02:25:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ezui
+[2023-07-27 02:25:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: interactivenlp
+[2023-07-27 02:25:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk8s-redis
+[2023-07-27 02:25:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-aurora-globaldatabase
+[2023-07-27 02:25:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: splam
+[2023-07-27 02:25:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: splam
+[2023-07-27 02:25:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdk-tweet-queue
+[2023-07-27 02:25:41] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-07-27 02:25:41] WARNING root fetch - processPackages [ezui]: Skipping, unable to determine old version
+[2023-07-27 02:25:41] INFO root fetch - processPackages [ezui]: Start processing: cdk-remote-stack
+[2023-07-27 02:25:41] INFO root fetch - main [MainThread]: End processing [ezui] error
+[2023-07-27 02:25:41] INFO root fetch - processPackages [splam]: New version: [1.0.0] Old Version: [0.3.1]
+[2023-07-27 02:25:41] INFO root fetch - processPackages [interactivenlp]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-27 02:25:41] INFO root fetch - processPackages [splam]: New version: [1.0.0] Old Version: [0.3.1]
+[2023-07-27 02:25:41] WARNING root fetch - processPackages [userclouds]: Skipping, unable to determine old version
+[2023-07-27 02:25:41] INFO root fetch - processPackages [userclouds]: Start processing: cdk-cr-constructs
+[2023-07-27 02:25:41] INFO root fetch - main [MainThread]: End processing [userclouds] error
+[2023-07-27 02:25:41] INFO root fetch - processPackages [cdk8s-valheim]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-27 02:25:41] INFO root fetch - processPackages [cdk8s-redis]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-27 02:25:41] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-27 02:25:41] INFO root fetch - processPackages [cdk-tweet-queue]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-27 02:25:41] INFO root fetch - processPackages [cdk-remote-stack]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-07-27 02:25:41] INFO root fetch - processPackages [interactivenlp]: Downloading https://files.pythonhosted.org/packages/e1/4a/66070d1a3b4a53afbd4527fdeeb79dbc763ba6a01500e8b94e8aa9d1f3c3/interactivenlp-0.2.2.tar.gz
+[2023-07-27 02:25:41] INFO root fetch - processPackages [cdk8s-redis]: Downloading https://files.pythonhosted.org/packages/5a/8c/825ae4195bc273e13b4fb93e9ef112419d75fcd2c5194121692b5cd9fd19/cdk8s-redis-0.1.98.tar.gz
+[2023-07-27 02:25:41] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/e4/39/e997b5acac972df8d777c4a4ad6dfd9f51e03e75fc8e23c973a7772267d5/cdk-aurora-globaldatabase-2.3.98.tar.gz
+[2023-07-27 02:25:41] INFO root fetch - processPackages [cdk-cr-constructs]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-07-27 02:25:41] INFO root fetch - processPackages [cdk8s-valheim]: Downloading https://files.pythonhosted.org/packages/85/d8/81574b6442b1b94620aa1985afe516b2e1e0688ce1267cb3ec360aabdcd1/cdk8s-valheim-0.0.98.tar.gz
+[2023-07-27 02:25:41] INFO root fetch - processPackages [cdk-tweet-queue]: Downloading https://files.pythonhosted.org/packages/f2/a9/33fbe548cea174e015412108a563be3bbbdacbb6982d1ef6bf71d4abb509/cdk-tweet-queue-2.0.98.tar.gz
+[2023-07-27 02:25:41] INFO root fetch - processPackages [cdk-remote-stack]: Downloading https://files.pythonhosted.org/packages/1e/de/45d43dc1fa4bc3424cd99914bf377237ae9ee0c29f504b3c449c461104e1/cdk-remote-stack-2.0.8.tar.gz
+[2023-07-27 02:25:41] INFO root fetch - processPackages [splam]: Downloading https://files.pythonhosted.org/packages/c8/55/d8079e937d1f568ac9358237871b9d4d6d28abf1e8e8ec2b8073db7b166a/splam-0.3.1-py3.8-macosx-11.1-arm64.egg
+[2023-07-27 02:25:41] INFO root fetch - processPackages [splam]: Downloading https://files.pythonhosted.org/packages/c8/55/d8079e937d1f568ac9358237871b9d4d6d28abf1e8e8ec2b8073db7b166a/splam-0.3.1-py3.8-macosx-11.1-arm64.egg
+[2023-07-27 02:25:41] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Downloading https://files.pythonhosted.org/packages/d8/1a/417af84315b2d52f6063ccf2072677259777d28fb73cab91e17879faaa26/cdklabs.cdk-ethereum-node-0.0.98.tar.gz
+[2023-07-27 02:25:41] INFO root fetch - processPackages [cdk-cr-constructs]: Downloading https://files.pythonhosted.org/packages/fe/58/3e435ab85ca79a785db1238624c29b48fc60946bcbae9b2813fd45cb0a41/cdk-cr-constructs-2.1.98.tar.gz
+[2023-07-27 02:25:42] WARNING root fetch - processPackages [cdk-cr-constructs]: Skipping package: exceeds size limit 12826336>=10485760
+[2023-07-27 02:25:42] INFO root fetch - processPackages [cdk-cr-constructs]: Start processing: cdk8s-plus-26
+[2023-07-27 02:25:42] INFO root fetch - main [MainThread]: End processing [cdk-cr-constructs] error
+[2023-07-27 02:25:42] INFO root fetch - processPackages [cdk-remote-stack]: Downloading https://files.pythonhosted.org/packages/53/84/0d0362b5a5e90511d1836dad771fb231ff4adf4461322f76f2463dfdf6d3/cdk-remote-stack-2.0.9.tar.gz
+[2023-07-27 02:25:42] INFO root fetch - processPackages [cdk8s-plus-26]: New version: [2.9.0] Old Version: [2.8.1]
+[2023-07-27 02:25:42] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/51/53/0158facaec2becec86707148eb931de78a7ad1c2b63f80b9911a53e4c17b/cdk-aurora-globaldatabase-2.3.99.tar.gz
+[2023-07-27 02:25:42] INFO root fetch - processPackages [cdk8s-redis]: Downloading https://files.pythonhosted.org/packages/f2/71/df3da901bc2e5bd800b595302ae54fadb2f66a5789cfb0dd7e7d34eb2d91/cdk8s-redis-0.1.99.tar.gz
+[2023-07-27 02:25:42] INFO root fetch - processPackages [cdk-tweet-queue]: Downloading https://files.pythonhosted.org/packages/b9/df/ffba41b66fc7796cb2c763da82c2012cc28d0708e1dcb7775c98d3d9e491/cdk-tweet-queue-2.0.99.tar.gz
+[2023-07-27 02:25:42] INFO root fetch - processPackages [cdk8s-valheim]: Downloading https://files.pythonhosted.org/packages/ce/27/b660a37e9470f74e7b0d5c589710b82fcbfc01ec4796630a81d2dabb9e17/cdk8s-valheim-0.0.99.tar.gz
+[2023-07-27 02:25:42] INFO root fetch - processPackages [interactivenlp]: Downloading https://files.pythonhosted.org/packages/0f/00/57ca1b565e0b902f713c733512b78b2ed46f223fb20ba0225b553d6d3f24/interactivenlp-0.2.3.tar.gz
+[2023-07-27 02:25:42] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Downloading https://files.pythonhosted.org/packages/2d/d8/3fd98f927d9988f7c189f488b1829ac7aa7f855bf93f6030e3bed9af9a97/cdklabs.cdk-ethereum-node-0.0.99.tar.gz
+[2023-07-27 02:25:42] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/57/27/c7dc7b7a6ca589c8557e2fcdfa03d98cabb52552fd18df535b3e675f7dc0/cdk8s-plus-26-2.8.1.tar.gz
+[2023-07-27 02:25:42] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2023-07-27 02:25:42] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20230727/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-07-27 02:25:42] INFO root fetch - processPackages [cdk-remote-stack]: executing diffoscope
+[2023-07-27 02:25:42] INFO root fetch - processPackages [cdk-remote-stack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-remote-stack-2.0.8.tar.gz tmp/cdk-remote-stack-2.0.9.tar.gz --markdown 20230727/c/cdk-remote-stack/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-07-27 02:25:42] INFO root fetch - processPackages [splam]: Downloading https://files.pythonhosted.org/packages/56/ae/c9e443ec09db88b2b2aaa18ebc6b12751b321d731ce21964ee188067bb0f/splam-1.0.0-py3.8-macosx-11.1-arm64.egg
+[2023-07-27 02:25:42] INFO root fetch - processPackages [splam]: Downloading https://files.pythonhosted.org/packages/56/ae/c9e443ec09db88b2b2aaa18ebc6b12751b321d731ce21964ee188067bb0f/splam-1.0.0-py3.8-macosx-11.1-arm64.egg
+[2023-07-27 02:25:42] INFO root fetch - processPackages [cdk8s-valheim]: executing diffoscope
+[2023-07-27 02:25:42] INFO root fetch - processPackages [cdk8s-valheim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-valheim-0.0.98.tar.gz tmp/cdk8s-valheim-0.0.99.tar.gz --markdown 20230727/c/cdk8s-valheim/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-27 02:25:42] INFO root fetch - processPackages [cdk-tweet-queue]: executing diffoscope
+[2023-07-27 02:25:42] INFO root fetch - processPackages [cdk-tweet-queue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-tweet-queue-2.0.98.tar.gz tmp/cdk-tweet-queue-2.0.99.tar.gz --markdown 20230727/c/cdk-tweet-queue/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-27 02:25:42] INFO root fetch - processPackages [cdk8s-redis]: executing diffoscope
+[2023-07-27 02:25:42] INFO root fetch - processPackages [cdk8s-redis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-redis-0.1.98.tar.gz tmp/cdk8s-redis-0.1.99.tar.gz --markdown 20230727/c/cdk8s-redis/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-27 02:25:42] INFO root fetch - processPackages [interactivenlp]: executing diffoscope
+[2023-07-27 02:25:42] INFO root fetch - processPackages [interactivenlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/interactivenlp-0.2.2.tar.gz tmp/interactivenlp-0.2.3.tar.gz --markdown 20230727/i/interactivenlp/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-27 02:25:42] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: executing diffoscope
+[2023-07-27 02:25:42] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-ethereum-node-0.0.98.tar.gz tmp/cdklabs.cdk-ethereum-node-0.0.99.tar.gz --markdown 20230727/c/cdklabs.cdk-ethereum-node/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-27 02:25:42] INFO root fetch - processPackages [splam]: executing diffoscope
+[2023-07-27 02:25:42] INFO root fetch - processPackages [splam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splam-0.3.1-py3.8-macosx-11.1-arm64.egg tmp/splam-1.0.0-py3.8-macosx-11.1-arm64.egg --markdown 20230727/s/splam/0.3.1-1.0.0/diff.md --exclude *.pyd
+[2023-07-27 02:25:42] INFO root fetch - processPackages [splam]: executing diffoscope
+[2023-07-27 02:25:42] INFO root fetch - processPackages [splam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splam-0.3.1-py3.8-macosx-11.1-arm64.egg tmp/splam-1.0.0-py3.8-macosx-11.1-arm64.egg --markdown 20230727/s/splam/0.3.1-1.0.0/diff.md --exclude *.pyd
+[2023-07-27 02:25:43] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/f9/b5/db2ea94d29c01b146fcfb2e07a32393e9961c1c1f5a9a2bc2232af84a4dd/cdk8s-plus-26-2.9.0.tar.gz
+[2023-07-27 02:25:43] INFO root fetch - processPackages [cdk8s-plus-26]: executing diffoscope
+[2023-07-27 02:25:43] INFO root fetch - processPackages [cdk8s-plus-26]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-26-2.8.1.tar.gz tmp/cdk8s-plus-26-2.9.0.tar.gz --markdown 20230727/c/cdk8s-plus-26/2.8.1-2.9.0/diff.md --exclude *.pyd
+[2023-07-27 02:25:44] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz]
+[2023-07-27 02:25:44] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
+[2023-07-27 02:25:44] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Start processing: circuitpython-uplot
+[2023-07-27 02:25:44] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2023-07-27 02:25:44] INFO root fetch - processPackages [circuitpython-uplot]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-27 02:25:44] INFO root fetch - processPackages [interactivenlp]: Remove: archive file [/home/abi/fetcher/tmp/interactivenlp-0.2.2.tar.gz]
+[2023-07-27 02:25:44] INFO root fetch - processPackages [interactivenlp]: Remove: archive file [/home/abi/fetcher/tmp/interactivenlp-0.2.3.tar.gz]
+[2023-07-27 02:25:44] INFO root fetch - processPackages [interactivenlp]: Start processing: tcex-app-testing
+[2023-07-27 02:25:44] INFO root fetch - main [MainThread]: End processing [interactivenlp]: success
+[2023-07-27 02:25:44] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-ethereum-node-0.0.98.tar.gz]
+[2023-07-27 02:25:44] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-ethereum-node-0.0.99.tar.gz]
+[2023-07-27 02:25:44] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Start processing: cdk-docker-image-deployment
+[2023-07-27 02:25:44] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-ethereum-node]: success
+[2023-07-27 02:25:44] WARNING root fetch - processPackages [tcex-app-testing]: Skipping, unable to determine old version
+[2023-07-27 02:25:44] INFO root fetch - processPackages [tcex-app-testing]: Start processing: awsx
+[2023-07-27 02:25:44] INFO root fetch - main [MainThread]: End processing [tcex-app-testing] error
+[2023-07-27 02:25:44] INFO root fetch - processPackages [circuitpython-uplot]: Downloading https://files.pythonhosted.org/packages/1d/57/734bb4fe2a5f70070960b2cb8cd2200d924a82d4e0a6fa215e3e95a2122d/circuitpython-uplot-0.9.3.tar.gz
+[2023-07-27 02:25:44] INFO root fetch - processPackages [cdk8s-redis]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-redis-0.1.98.tar.gz]
+[2023-07-27 02:25:44] INFO root fetch - processPackages [cdk8s-redis]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-redis-0.1.99.tar.gz]
+[2023-07-27 02:25:44] INFO root fetch - processPackages [cdk8s-redis]: Start processing: cdk-certbot-dns-route53
+[2023-07-27 02:25:44] INFO root fetch - main [MainThread]: End processing [cdk8s-redis]: success
+[2023-07-27 02:25:44] INFO root fetch - processPackages [cdk-tweet-queue]: Remove: archive file [/home/abi/fetcher/tmp/cdk-tweet-queue-2.0.98.tar.gz]
+[2023-07-27 02:25:44] INFO root fetch - processPackages [cdk-remote-stack]: Remove: archive file [/home/abi/fetcher/tmp/cdk-remote-stack-2.0.8.tar.gz]
+[2023-07-27 02:25:44] INFO root fetch - processPackages [cdk-tweet-queue]: Remove: archive file [/home/abi/fetcher/tmp/cdk-tweet-queue-2.0.99.tar.gz]
+[2023-07-27 02:25:44] INFO root fetch - processPackages [cdk-remote-stack]: Remove: archive file [/home/abi/fetcher/tmp/cdk-remote-stack-2.0.9.tar.gz]
+[2023-07-27 02:25:44] INFO root fetch - processPackages [cdk-remote-stack]: Start processing: userclouds-sdk-python
+[2023-07-27 02:25:44] INFO root fetch - main [MainThread]: End processing [cdk-remote-stack]: success
+[2023-07-27 02:25:44] INFO root fetch - main [MainThread]: End processing [cdk-tweet-queue]: success
+[2023-07-27 02:25:44] INFO root fetch - processPackages [cdk8s-valheim]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-valheim-0.0.98.tar.gz]
+[2023-07-27 02:25:44] INFO root fetch - processPackages [cdk8s-valheim]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-valheim-0.0.99.tar.gz]
+[2023-07-27 02:25:44] INFO root fetch - main [MainThread]: End processing [cdk8s-valheim]: success
+[2023-07-27 02:25:44] INFO root fetch - processPackages [awsx]: New version: [0.5] Old Version: [0.4]
+[2023-07-27 02:25:44] INFO root fetch - processPackages [cdk-certbot-dns-route53]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-07-27 02:25:44] INFO root fetch - processPackages [cdk-docker-image-deployment]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-27 02:25:44] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/3a/17/b6246ecdc02e08f5a2a265eb410094bc1978a1c23a9ff1ef9625deee1c7c/cdk-certbot-dns-route53-2.1.98.tar.gz
+[2023-07-27 02:25:44] WARNING root fetch - processPackages [userclouds-sdk-python]: Skipping, unable to determine old version
+[2023-07-27 02:25:44] INFO root fetch - main [MainThread]: End processing [userclouds-sdk-python] error
+[2023-07-27 02:25:44] INFO root fetch - processPackages [cdk-docker-image-deployment]: Downloading https://files.pythonhosted.org/packages/df/53/1ddc54545e9ffbcefe4385747deddb0f87b200ddf27630a55f9728869564/cdk-docker-image-deployment-0.0.98.tar.gz
+[2023-07-27 02:25:44] INFO root fetch - processPackages [awsx]: Downloading https://files.pythonhosted.org/packages/77/fb/622c041ca2dbc0b1203690ddac5b249f526c47dca94f7e1aa867df39dd1c/awsx-0.4.tar.gz
+[2023-07-27 02:25:44] INFO root fetch - processPackages [circuitpython-uplot]: Downloading https://files.pythonhosted.org/packages/d9/0f/137307a70ee54fe6b12bf2685f8d7c1a95d4488a5bed4c0ae82f1c3bda38/circuitpython-uplot-0.9.4.tar.gz
+[2023-07-27 02:25:44] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/cc/b6/654c84ec7d8620b5f17a064219a77d716eea46f886b19741e6e9cf3eff24/cdk-certbot-dns-route53-2.1.99.tar.gz
+[2023-07-27 02:25:44] INFO root fetch - processPackages [circuitpython-uplot]: executing diffoscope
+[2023-07-27 02:25:44] INFO root fetch - processPackages [circuitpython-uplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/circuitpython-uplot-0.9.3.tar.gz tmp/circuitpython-uplot-0.9.4.tar.gz --markdown 20230727/c/circuitpython-uplot/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-27 02:25:44] INFO root fetch - processPackages [cdk-certbot-dns-route53]: executing diffoscope
+[2023-07-27 02:25:44] INFO root fetch - processPackages [cdk-certbot-dns-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-certbot-dns-route53-2.1.98.tar.gz tmp/cdk-certbot-dns-route53-2.1.99.tar.gz --markdown 20230727/c/cdk-certbot-dns-route53/2.1.98-2.1.99/diff.md --exclude *.pyd
+[2023-07-27 02:25:45] INFO root fetch - processPackages [awsx]: Downloading https://files.pythonhosted.org/packages/7a/3d/d833e9bf471c602f2d6f1f40760bc4123913b317807de9c874bedd771cd1/awsx-0.5.tar.gz
+[2023-07-27 02:25:45] INFO root fetch - processPackages [awsx]: executing diffoscope
+[2023-07-27 02:25:45] INFO root fetch - processPackages [awsx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awsx-0.4.tar.gz tmp/awsx-0.5.tar.gz --markdown 20230727/a/awsx/0.4-0.5/diff.md --exclude *.pyd
+[2023-07-27 02:25:45] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.8.1.tar.gz]
+[2023-07-27 02:25:45] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.9.0.tar.gz]
+[2023-07-27 02:25:45] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
+[2023-07-27 02:25:45] INFO root fetch - processPackages [cdk-docker-image-deployment]: Downloading https://files.pythonhosted.org/packages/a3/f9/be2a564d48355f28c54c00f791e3f39262ae2d2d740e34b1e0d70ba48448/cdk-docker-image-deployment-0.0.99.tar.gz
+[2023-07-27 02:25:46] INFO root fetch - processPackages [awsx]: Remove: archive file [/home/abi/fetcher/tmp/awsx-0.4.tar.gz]
+[2023-07-27 02:25:46] INFO root fetch - processPackages [awsx]: Remove: archive file [/home/abi/fetcher/tmp/awsx-0.5.tar.gz]
+[2023-07-27 02:25:46] INFO root fetch - main [MainThread]: End processing [awsx]: success
+[2023-07-27 02:25:46] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.1.98.tar.gz]
+[2023-07-27 02:25:46] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.1.99.tar.gz]
+[2023-07-27 02:25:46] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
+[2023-07-27 02:25:46] INFO root fetch - processPackages [cdk-docker-image-deployment]: executing diffoscope
+[2023-07-27 02:25:46] INFO root fetch - processPackages [cdk-docker-image-deployment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-docker-image-deployment-0.0.98.tar.gz tmp/cdk-docker-image-deployment-0.0.99.tar.gz --markdown 20230727/c/cdk-docker-image-deployment/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-27 02:25:46] INFO root fetch - processPackages [circuitpython-uplot]: Remove: archive file [/home/abi/fetcher/tmp/circuitpython-uplot-0.9.3.tar.gz]
+[2023-07-27 02:25:46] INFO root fetch - processPackages [circuitpython-uplot]: Remove: archive file [/home/abi/fetcher/tmp/circuitpython-uplot-0.9.4.tar.gz]
+[2023-07-27 02:25:46] INFO root fetch - main [MainThread]: End processing [circuitpython-uplot]: success
+[2023-07-27 02:25:47] INFO root fetch - processPackages [splam]: Remove: archive file [/home/abi/fetcher/tmp/splam-0.3.1-py3.8-macosx-11.1-arm64.egg]
+[2023-07-27 02:25:47] INFO root fetch - processPackages [splam]: Remove: archive file [/home/abi/fetcher/tmp/splam-1.0.0-py3.8-macosx-11.1-arm64.egg]
+[2023-07-27 02:25:47] INFO root fetch - main [MainThread]: End processing [splam]: success
+[2023-07-27 02:25:47] INFO root fetch - main [MainThread]: End processing [splam]: success
+[2023-07-27 02:25:47] INFO root fetch - processPackages [cdk-docker-image-deployment]: Remove: archive file [/home/abi/fetcher/tmp/cdk-docker-image-deployment-0.0.98.tar.gz]
+[2023-07-27 02:25:47] INFO root fetch - processPackages [cdk-docker-image-deployment]: Remove: archive file [/home/abi/fetcher/tmp/cdk-docker-image-deployment-0.0.99.tar.gz]
+[2023-07-27 02:25:47] INFO root fetch - main [MainThread]: End processing [cdk-docker-image-deployment]: success
+[2023-07-27 02:25:47] INFO root fetch - main [MainThread]: Store serial: [19051229]
