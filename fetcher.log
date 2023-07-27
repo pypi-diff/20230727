@@ -22492,3 +22492,84 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-27 12:40:14] INFO root fetch - processPackages [morm]: Remove: archive file [/home/abi/fetcher/tmp/morm-1.5.0-py3-none-any.whl.zip]
 [2023-07-27 12:40:14] INFO root fetch - main [MainThread]: End processing [morm]: success
 [2023-07-27 12:40:14] INFO root fetch - main [MainThread]: Store serial: [19058624]
+[2023-07-27 12:45:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19058624]
+[2023-07-27 12:45:24] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-27 12:45:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: statspack
+[2023-07-27 12:45:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: skypilot-nightly
+[2023-07-27 12:45:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gammarer.aws-secure-bucket
+[2023-07-27 12:45:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vern
+[2023-07-27 12:45:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mrchef
+[2023-07-27 12:45:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wagtailmakeup
+[2023-07-27 12:45:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dbcc
+[2023-07-27 12:45:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: optimas
+[2023-07-27 12:45:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: s1290080-learn
+[2023-07-27 12:45:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: SuperPang
+[2023-07-27 12:45:24] INFO root fetch - processPackages [optimas]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-07-27 12:45:24] INFO root fetch - processPackages [wagtailmakeup]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-27 12:45:24] INFO root fetch - processPackages [SuperPang]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-27 12:45:24] WARNING root fetch - processPackages [statspack]: Skipping, unable to determine old version
+[2023-07-27 12:45:24] INFO root fetch - main [MainThread]: End processing [statspack] error
+[2023-07-27 12:45:24] INFO root fetch - processPackages [gammarer.aws-secure-bucket]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-27 12:45:24] WARNING root fetch - processPackages [s1290080-learn]: Skipping, unable to determine old version
+[2023-07-27 12:45:24] INFO root fetch - main [MainThread]: End processing [s1290080-learn] error
+[2023-07-27 12:45:24] INFO root fetch - processPackages [skypilot-nightly]: New version: [1.0.0.dev20230726] Old Version: [1.0.0.dev20230725]
+[2023-07-27 12:45:24] INFO root fetch - processPackages [mrchef]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-07-27 12:45:25] INFO root fetch - processPackages [dbcc]: New version: [0.0.1.dev2] Old Version: [0.0.1.dev1]
+[2023-07-27 12:45:25] INFO root fetch - processPackages [vern]: New version: [1.3.9b0] Old Version: [1.3.8b0]
+[2023-07-27 12:45:25] INFO root fetch - processPackages [gammarer.aws-secure-bucket]: Downloading https://files.pythonhosted.org/packages/e5/38/5b420860f93794e18802eacf479e833a4db9e09459fe2a4186487210f680/gammarer.aws-secure-bucket-0.9.8.tar.gz
+[2023-07-27 12:45:25] INFO root fetch - processPackages [vern]: Downloading https://files.pythonhosted.org/packages/b7/42/d30ccee830eb2a3e9ebbba795a7c7383f2a5ad9dd58b2867b6848818bb8a/vern-1.3.8b0.tar.gz
+[2023-07-27 12:45:25] INFO root fetch - processPackages [optimas]: Downloading https://files.pythonhosted.org/packages/14/63/49ff87c9ce7d6053a1374a75d5b4bd165863273090e4e879382088e7e168/optimas-0.1.1.tar.gz
+[2023-07-27 12:45:25] INFO root fetch - processPackages [SuperPang]: Downloading https://files.pythonhosted.org/packages/4e/d1/6bd16f697e9c2bd174a907232f8b347fcb6e69c4cb0cb43e33da93e59ba9/SuperPang-1.0.0.tar.gz
+[2023-07-27 12:45:25] INFO root fetch - processPackages [dbcc]: Downloading https://files.pythonhosted.org/packages/58/18/7071d85bd3b6deb790801475cf4b509ac44e7e32f0f8b4e0727b2a2e0b73/dbcc-0.0.1.dev1.tar.gz
+[2023-07-27 12:45:25] INFO root fetch - processPackages [wagtailmakeup]: Downloading https://files.pythonhosted.org/packages/15/a8/6b99490b15be0c3ae2b9dd603fc755cd57eb5f00187c78ed670eeab7948c/wagtailmakeup-1.0.0.tar.gz
+[2023-07-27 12:45:25] INFO root fetch - processPackages [mrchef]: Downloading https://files.pythonhosted.org/packages/20/16/99d8da83d0ef759d92aa881629216b6b19e3cabf34214a3da0e0c4259e82/mrchef-0.6.0.tar.gz
+[2023-07-27 12:45:25] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/68/39/a7e8ac4a2d8331b27de271d6f692956b98ccde318258df6eb4811163b7d0/skypilot-nightly-1.0.0.dev20230725.tar.gz
+[2023-07-27 12:45:25] INFO root fetch - processPackages [gammarer.aws-secure-bucket]: Downloading https://files.pythonhosted.org/packages/36/90/e611ddc1c76866489b8236c7bc76c65f47dd2d74abf84c84dc89478cee6c/gammarer.aws-secure-bucket-0.9.9.tar.gz
+[2023-07-27 12:45:25] INFO root fetch - processPackages [vern]: Downloading https://files.pythonhosted.org/packages/a7/94/6287ab3e98a811ad29ae34054c34f5d22f4cc56bac2ef220bbbe1f8f1f42/vern-1.3.9b0.tar.gz
+[2023-07-27 12:45:25] INFO root fetch - processPackages [optimas]: Downloading https://files.pythonhosted.org/packages/3b/23/4c02af965aa2a81f1096de360ed97f050cd5b2722d151994b5361b2c9f68/optimas-0.2.0.tar.gz
+[2023-07-27 12:45:25] INFO root fetch - processPackages [gammarer.aws-secure-bucket]: executing diffoscope
+[2023-07-27 12:45:25] INFO root fetch - processPackages [gammarer.aws-secure-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-secure-bucket-0.9.8.tar.gz tmp/gammarer.aws-secure-bucket-0.9.9.tar.gz --markdown 20230727/g/gammarer.aws-secure-bucket/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-27 12:45:25] INFO root fetch - processPackages [vern]: executing diffoscope
+[2023-07-27 12:45:25] INFO root fetch - processPackages [vern]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vern-1.3.8b0.tar.gz tmp/vern-1.3.9b0.tar.gz --markdown 20230727/v/vern/1.3.8b0-1.3.9b0/diff.md --exclude *.pyd
+[2023-07-27 12:45:25] INFO root fetch - processPackages [dbcc]: Downloading https://files.pythonhosted.org/packages/91/25/881f983c543dc2635fc31bd831e5f1daed0c4abce7963b0335ebd69b7bd7/dbcc-0.0.1.dev2.tar.gz
+[2023-07-27 12:45:25] INFO root fetch - processPackages [wagtailmakeup]: Downloading https://files.pythonhosted.org/packages/29/e6/e0a6ef214649cf673bbc85f704f2959aa29c171a40e1952369d4a5ac2f6e/wagtailmakeup-1.0.1.tar.gz
+[2023-07-27 12:45:25] INFO root fetch - processPackages [optimas]: executing diffoscope
+[2023-07-27 12:45:25] INFO root fetch - processPackages [optimas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optimas-0.1.1.tar.gz tmp/optimas-0.2.0.tar.gz --markdown 20230727/o/optimas/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-07-27 12:45:25] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/1b/b2/89e2f4e514419dd02eed1ab43a6ee5ef2ef2046b68a37185d60fab232543/skypilot-nightly-1.0.0.dev20230726.tar.gz
+[2023-07-27 12:45:25] INFO root fetch - processPackages [mrchef]: Downloading https://files.pythonhosted.org/packages/18/cb/01161c2854273198d4b3f1a558d8f76ab30dcda8cc8dafa529327f71a24d/mrchef-0.7.0.tar.gz
+[2023-07-27 12:45:25] INFO root fetch - processPackages [wagtailmakeup]: executing diffoscope
+[2023-07-27 12:45:25] INFO root fetch - processPackages [wagtailmakeup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtailmakeup-1.0.0.tar.gz tmp/wagtailmakeup-1.0.1.tar.gz --markdown 20230727/w/wagtailmakeup/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-27 12:45:25] INFO root fetch - processPackages [dbcc]: executing diffoscope
+[2023-07-27 12:45:25] INFO root fetch - processPackages [dbcc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbcc-0.0.1.dev1.tar.gz tmp/dbcc-0.0.1.dev2.tar.gz --markdown 20230727/d/dbcc/0.0.1.dev1-0.0.1.dev2/diff.md --exclude *.pyd
+[2023-07-27 12:45:26] INFO root fetch - processPackages [mrchef]: executing diffoscope
+[2023-07-27 12:45:26] INFO root fetch - processPackages [mrchef]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrchef-0.6.0.tar.gz tmp/mrchef-0.7.0.tar.gz --markdown 20230727/m/mrchef/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-07-27 12:45:26] INFO root fetch - processPackages [SuperPang]: Downloading https://files.pythonhosted.org/packages/d9/37/086028f99bbf4c6bb484cf19d8afc1c1dcc994838051a2735535007edd7d/SuperPang-1.1.0.tar.gz
+[2023-07-27 12:45:26] INFO root fetch - processPackages [skypilot-nightly]: executing diffoscope
+[2023-07-27 12:45:26] INFO root fetch - processPackages [skypilot-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skypilot-nightly-1.0.0.dev20230725.tar.gz tmp/skypilot-nightly-1.0.0.dev20230726.tar.gz --markdown 20230727/s/skypilot-nightly/1.0.0.dev20230725-1.0.0.dev20230726/diff.md --exclude *.pyd
+[2023-07-27 12:45:26] INFO root fetch - processPackages [SuperPang]: executing diffoscope
+[2023-07-27 12:45:26] INFO root fetch - processPackages [SuperPang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SuperPang-1.0.0.tar.gz tmp/SuperPang-1.1.0.tar.gz --markdown 20230727/S/SuperPang/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-27 12:45:27] INFO root fetch - processPackages [vern]: Remove: archive file [/home/abi/fetcher/tmp/vern-1.3.8b0.tar.gz]
+[2023-07-27 12:45:27] INFO root fetch - processPackages [vern]: Remove: archive file [/home/abi/fetcher/tmp/vern-1.3.9b0.tar.gz]
+[2023-07-27 12:45:27] INFO root fetch - main [MainThread]: End processing [vern]: success
+[2023-07-27 12:45:27] INFO root fetch - processPackages [gammarer.aws-secure-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-bucket-0.9.8.tar.gz]
+[2023-07-27 12:45:27] INFO root fetch - processPackages [gammarer.aws-secure-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-bucket-0.9.9.tar.gz]
+[2023-07-27 12:45:27] INFO root fetch - main [MainThread]: End processing [gammarer.aws-secure-bucket]: success
+[2023-07-27 12:45:27] INFO root fetch - processPackages [dbcc]: Remove: archive file [/home/abi/fetcher/tmp/dbcc-0.0.1.dev1.tar.gz]
+[2023-07-27 12:45:27] INFO root fetch - processPackages [dbcc]: Remove: archive file [/home/abi/fetcher/tmp/dbcc-0.0.1.dev2.tar.gz]
+[2023-07-27 12:45:27] INFO root fetch - main [MainThread]: End processing [dbcc]: success
+[2023-07-27 12:45:27] INFO root fetch - processPackages [wagtailmakeup]: Remove: archive file [/home/abi/fetcher/tmp/wagtailmakeup-1.0.0.tar.gz]
+[2023-07-27 12:45:27] INFO root fetch - processPackages [wagtailmakeup]: Remove: archive file [/home/abi/fetcher/tmp/wagtailmakeup-1.0.1.tar.gz]
+[2023-07-27 12:45:27] INFO root fetch - main [MainThread]: End processing [wagtailmakeup]: success
+[2023-07-27 12:45:27] INFO root fetch - processPackages [optimas]: Remove: archive file [/home/abi/fetcher/tmp/optimas-0.1.1.tar.gz]
+[2023-07-27 12:45:27] INFO root fetch - processPackages [optimas]: Remove: archive file [/home/abi/fetcher/tmp/optimas-0.2.0.tar.gz]
+[2023-07-27 12:45:27] INFO root fetch - main [MainThread]: End processing [optimas]: success
+[2023-07-27 12:45:27] INFO root fetch - processPackages [mrchef]: Remove: archive file [/home/abi/fetcher/tmp/mrchef-0.6.0.tar.gz]
+[2023-07-27 12:45:27] INFO root fetch - processPackages [mrchef]: Remove: archive file [/home/abi/fetcher/tmp/mrchef-0.7.0.tar.gz]
+[2023-07-27 12:45:27] INFO root fetch - main [MainThread]: End processing [mrchef]: success
+[2023-07-27 12:45:28] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot-nightly-1.0.0.dev20230725.tar.gz]
+[2023-07-27 12:45:28] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot-nightly-1.0.0.dev20230726.tar.gz]
+[2023-07-27 12:45:28] INFO root fetch - main [MainThread]: End processing [skypilot-nightly]: success
+[2023-07-27 12:45:30] INFO root fetch - processPackages [SuperPang]: Remove: archive file [/home/abi/fetcher/tmp/SuperPang-1.0.0.tar.gz]
+[2023-07-27 12:45:30] INFO root fetch - processPackages [SuperPang]: Remove: archive file [/home/abi/fetcher/tmp/SuperPang-1.1.0.tar.gz]
+[2023-07-27 12:45:30] INFO root fetch - main [MainThread]: End processing [SuperPang]: success
+[2023-07-27 12:45:30] INFO root fetch - main [MainThread]: Store serial: [19058656]
