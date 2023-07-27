@@ -21155,3 +21155,129 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-07-27 11:40:17] INFO root fetch - processPackages [smartchart]: Remove: archive file [/home/abi/fetcher/tmp/smartchart-6.6.8.6.tar.gz]
 [2023-07-27 11:40:17] INFO root fetch - main [MainThread]: End processing [smartchart]: success
 [2023-07-27 11:40:17] INFO root fetch - main [MainThread]: Store serial: [19058012]
+[2023-07-27 11:45:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19058012]
+[2023-07-27 11:45:26] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-27 11:45:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lkfmt
+[2023-07-27 11:45:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jupyterlab-nodeeditor
+[2023-07-27 11:45:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pistar
+[2023-07-27 11:45:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pythomac
+[2023-07-27 11:45:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gitopenlib
+[2023-07-27 11:45:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: readyocr
+[2023-07-27 11:45:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dask-kubernetes
+[2023-07-27 11:45:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fds.sdk.DocumentsDistributorCallStreetEvents
+[2023-07-27 11:45:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fds.sdk.FactSetTrading
+[2023-07-27 11:45:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: polarismesh-specification
+[2023-07-27 11:45:26] INFO root fetch - processPackages [pistar]: New version: [2.5.0] Old Version: [2.4.0]
+[2023-07-27 11:45:26] INFO root fetch - processPackages [fds.sdk.DocumentsDistributorCallStreetEvents]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-27 11:45:26] INFO root fetch - processPackages [fds.sdk.FactSetTrading]: New version: [0.23.0] Old Version: [0.22.5]
+[2023-07-27 11:45:26] INFO root fetch - processPackages [dask-kubernetes]: New version: [2023.7.3] Old Version: [2023.7.2]
+[2023-07-27 11:45:26] INFO root fetch - processPackages [readyocr]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-27 11:45:26] WARNING root fetch - processPackages [pythomac]: Skipping, unable to determine old version
+[2023-07-27 11:45:26] INFO root fetch - processPackages [pythomac]: Start processing: Chronix2Grid
+[2023-07-27 11:45:26] INFO root fetch - main [MainThread]: End processing [pythomac] error
+[2023-07-27 11:45:26] INFO root fetch - processPackages [lkfmt]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-27 11:45:26] INFO root fetch - processPackages [polarismesh-specification]: New version: [1.4.0a2] Old Version: [1.4.0a1]
+[2023-07-27 11:45:26] INFO root fetch - processPackages [jupyterlab-nodeeditor]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-07-27 11:45:26] INFO root fetch - processPackages [Chronix2Grid]: New version: [1.2.0.post1] Old Version: [1.2.0]
+[2023-07-27 11:45:26] INFO root fetch - processPackages [gitopenlib]: New version: [0.2.8.28] Old Version: [0.2.7.28]
+[2023-07-27 11:45:27] INFO root fetch - processPackages [gitopenlib]: Downloading https://files.pythonhosted.org/packages/48/74/590f5be409b770795c16d674e400c8995a8061e00d4e779cd4a7be76b06d/gitopenlib-0.2.7.28.tar.gz
+[2023-07-27 11:45:27] INFO root fetch - processPackages [dask-kubernetes]: Downloading https://files.pythonhosted.org/packages/29/a0/672ecd8b0f9c329b531b2b01f69db7b9a5e97dad706cb7c6e2337bc23e02/dask-kubernetes-2023.7.2.tar.gz
+[2023-07-27 11:45:27] INFO root fetch - processPackages [jupyterlab-nodeeditor]: Downloading https://files.pythonhosted.org/packages/6a/4f/b1f70b2697f7932e67f42e9dd387851afdbaf436b2435937bf734217edff/jupyterlab_nodeeditor-1.0.6.tar.gz
+[2023-07-27 11:45:27] INFO root fetch - processPackages [fds.sdk.FactSetTrading]: Downloading https://files.pythonhosted.org/packages/9c/75/7be7b9acd58730b637fcf10baae4556872439baf6cf745536850ca7604e6/fds.sdk.FactSetTrading-0.22.5-py3-none-any.whl
+[2023-07-27 11:45:27] INFO root fetch - processPackages [pistar]: Downloading https://files.pythonhosted.org/packages/b7/d2/e2400bba5ee87c828c8fcf14ff3d04ce53f3fa1b05f3cb28d89ec77f43d3/pistar-2.4.0-py3-none-any.whl
+[2023-07-27 11:45:27] INFO root fetch - processPackages [fds.sdk.DocumentsDistributorCallStreetEvents]: Downloading https://files.pythonhosted.org/packages/ea/8f/62705208bf9689cf018c740dd4bfe1086e3ae6e11b7ad16d9cd6d15d82d5/fds.sdk.DocumentsDistributorCallStreetEvents-0.9.0-py3-none-any.whl
+[2023-07-27 11:45:27] INFO root fetch - processPackages [lkfmt]: Downloading https://files.pythonhosted.org/packages/ac/1b/dfc519beff04a582b458adebc54890ab52eac166411a6d0e7688ef04b806/lkfmt-0.2.1-py3-none-any.whl
+[2023-07-27 11:45:27] INFO root fetch - processPackages [Chronix2Grid]: Downloading https://files.pythonhosted.org/packages/c8/55/86cfd63fe3e41a89da2e73d6ea2b0588c7079bc0b0b27203f6d2904a9e68/Chronix2Grid-1.2.0.tar.gz
+[2023-07-27 11:45:27] INFO root fetch - processPackages [polarismesh-specification]: Downloading https://files.pythonhosted.org/packages/7d/7a/4f4cf714c0d0f715a65cac254d6c84cbd1b71f4f5c09fd76b3ebda5a23c8/polarismesh_specification-1.4.0a1.tar.gz
+[2023-07-27 11:45:27] INFO root fetch - processPackages [readyocr]: Downloading https://files.pythonhosted.org/packages/c0/29/14e71ef7cbc2bb63eb3a7dde19b1d0261a548da80fc6f233f4cdf0b5ee8c/readyocr-0.0.8.tar.gz
+[2023-07-27 11:45:27] INFO root fetch - processPackages [gitopenlib]: Downloading https://files.pythonhosted.org/packages/95/54/4a4292733061b582887b760f5ab036ac4b7f126b55956419de3015c0a1fa/gitopenlib-0.2.8.28.tar.gz
+[2023-07-27 11:45:27] INFO root fetch - processPackages [gitopenlib]: executing diffoscope
+[2023-07-27 11:45:27] INFO root fetch - processPackages [gitopenlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitopenlib-0.2.7.28.tar.gz tmp/gitopenlib-0.2.8.28.tar.gz --markdown 20230727/g/gitopenlib/0.2.7.28-0.2.8.28/diff.md --exclude *.pyd
+[2023-07-27 11:45:27] INFO root fetch - processPackages [dask-kubernetes]: Downloading https://files.pythonhosted.org/packages/ad/8c/fb050e188ca5f7eda48a79fb8513d25597fe8fd4b94942648bfb14f39c6a/dask-kubernetes-2023.7.3.tar.gz
+[2023-07-27 11:45:27] INFO root fetch - processPackages [fds.sdk.FactSetTrading]: Downloading https://files.pythonhosted.org/packages/fb/77/1a40eec8fd3207b781e4a98b1abf5b6bc8d6ae8ae6358f8426b09d9d6550/fds.sdk.FactSetTrading-0.23.0-py3-none-any.whl
+[2023-07-27 11:45:27] INFO root fetch - processPackages [polarismesh-specification]: Downloading https://files.pythonhosted.org/packages/01/97/52e18563ebf95186b727e496eec77d19d3c90f360c466aadc21bd7284503/polarismesh_specification-1.4.0a2.tar.gz
+[2023-07-27 11:45:27] INFO root fetch - processPackages [pistar]: Downloading https://files.pythonhosted.org/packages/bc/cf/61ca651f6d8172f03913bfcf5d89dfe729dbc72e3e7986867a8efb44a74c/pistar-2.5.0-py3-none-any.whl
+[2023-07-27 11:45:27] INFO root fetch - processPackages [lkfmt]: Downloading https://files.pythonhosted.org/packages/6d/9c/6af85375089a593c3bd1778724b9f3b0286d7810a33c69f09568440135d5/lkfmt-0.2.2-py3-none-any.whl
+[2023-07-27 11:45:27] INFO root fetch - processPackages [dask-kubernetes]: executing diffoscope
+[2023-07-27 11:45:27] INFO root fetch - processPackages [dask-kubernetes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-kubernetes-2023.7.2.tar.gz tmp/dask-kubernetes-2023.7.3.tar.gz --markdown 20230727/d/dask-kubernetes/2023.7.2-2023.7.3/diff.md --exclude *.pyd
+[2023-07-27 11:45:27] INFO root fetch - processPackages [fds.sdk.FactSetTrading]: executing diffoscope
+[2023-07-27 11:45:27] INFO root fetch - processPackages [fds.sdk.FactSetTrading]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fds.sdk.FactSetTrading-0.22.5-py3-none-any.whl.zip tmp/fds.sdk.FactSetTrading-0.23.0-py3-none-any.whl.zip --markdown 20230727/f/fds.sdk.FactSetTrading/0.22.5-0.23.0/diff.md --exclude *.pyd
+[2023-07-27 11:45:27] INFO root fetch - processPackages [readyocr]: Downloading https://files.pythonhosted.org/packages/67/b0/34662554637d50f73b74973afb6ddfb4d9895b1fafbfa36c16d5764321fa/readyocr-0.0.9.tar.gz
+[2023-07-27 11:45:27] INFO root fetch - processPackages [lkfmt]: executing diffoscope
+[2023-07-27 11:45:27] INFO root fetch - processPackages [lkfmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lkfmt-0.2.1-py3-none-any.whl.zip tmp/lkfmt-0.2.2-py3-none-any.whl.zip --markdown 20230727/l/lkfmt/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-27 11:45:27] INFO root fetch - processPackages [pistar]: executing diffoscope
+[2023-07-27 11:45:27] INFO root fetch - processPackages [pistar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pistar-2.4.0-py3-none-any.whl.zip tmp/pistar-2.5.0-py3-none-any.whl.zip --markdown 20230727/p/pistar/2.4.0-2.5.0/diff.md --exclude *.pyd
+[2023-07-27 11:45:28] INFO root fetch - processPackages [jupyterlab-nodeeditor]: Downloading https://files.pythonhosted.org/packages/bb/47/b3a13768fd87f562a5e604f00c72fab4248f1666573262cdc6a9c8df1cbb/jupyterlab_nodeeditor-1.0.7.tar.gz
+[2023-07-27 11:45:28] INFO root fetch - processPackages [readyocr]: executing diffoscope
+[2023-07-27 11:45:28] INFO root fetch - processPackages [readyocr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readyocr-0.0.8.tar.gz tmp/readyocr-0.0.9.tar.gz --markdown 20230727/r/readyocr/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-27 11:45:28] INFO root fetch - processPackages [polarismesh-specification]: executing diffoscope
+[2023-07-27 11:45:28] INFO root fetch - processPackages [polarismesh-specification]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polarismesh_specification-1.4.0a1.tar.gz tmp/polarismesh_specification-1.4.0a2.tar.gz --markdown 20230727/p/polarismesh-specification/1.4.0a1-1.4.0a2/diff.md --exclude *.pyd
+[2023-07-27 11:45:28] INFO root fetch - processPackages [fds.sdk.DocumentsDistributorCallStreetEvents]: Downloading https://files.pythonhosted.org/packages/1f/35/2ef9137f881083ccb4cc2fc649bda2b6ee4deb2a5bc04684ba1ff7af5ebd/fds.sdk.DocumentsDistributorCallStreetEvents-0.9.1-py3-none-any.whl
+[2023-07-27 11:45:28] INFO root fetch - processPackages [jupyterlab-nodeeditor]: executing diffoscope
+[2023-07-27 11:45:28] INFO root fetch - processPackages [jupyterlab-nodeeditor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_nodeeditor-1.0.6.tar.gz tmp/jupyterlab_nodeeditor-1.0.7.tar.gz --markdown 20230727/j/jupyterlab-nodeeditor/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-07-27 11:45:28] INFO root fetch - processPackages [fds.sdk.DocumentsDistributorCallStreetEvents]: executing diffoscope
+[2023-07-27 11:45:28] INFO root fetch - processPackages [fds.sdk.DocumentsDistributorCallStreetEvents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fds.sdk.DocumentsDistributorCallStreetEvents-0.9.0-py3-none-any.whl.zip tmp/fds.sdk.DocumentsDistributorCallStreetEvents-0.9.1-py3-none-any.whl.zip --markdown 20230727/f/fds.sdk.DocumentsDistributorCallStreetEvents/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-27 11:45:29] INFO root fetch - processPackages [Chronix2Grid]: Downloading https://files.pythonhosted.org/packages/62/33/48d85d3a9d0e884751212b19a814c69fd8e856414bc211870daed0117f41/Chronix2Grid-1.2.0.post1.tar.gz
+[2023-07-27 11:45:29] INFO root fetch - processPackages [gitopenlib]: Remove: archive file [/home/abi/fetcher/tmp/gitopenlib-0.2.7.28.tar.gz]
+[2023-07-27 11:45:29] INFO root fetch - processPackages [gitopenlib]: Remove: archive file [/home/abi/fetcher/tmp/gitopenlib-0.2.8.28.tar.gz]
+[2023-07-27 11:45:29] INFO root fetch - processPackages [gitopenlib]: Start processing: airflowkit
+[2023-07-27 11:45:29] INFO root fetch - main [MainThread]: End processing [gitopenlib]: success
+[2023-07-27 11:45:29] INFO root fetch - processPackages [airflowkit]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-27 11:45:29] INFO root fetch - processPackages [airflowkit]: Downloading https://files.pythonhosted.org/packages/ae/a1/3daf9959bd158e65c490ed43a010e13ba702ee240c1bf49c0494a8faf150/airflowkit-0.0.2.tar.gz
+[2023-07-27 11:45:29] INFO root fetch - processPackages [lkfmt]: Remove: archive file [/home/abi/fetcher/tmp/lkfmt-0.2.1-py3-none-any.whl.zip]
+[2023-07-27 11:45:29] INFO root fetch - processPackages [lkfmt]: Remove: archive file [/home/abi/fetcher/tmp/lkfmt-0.2.2-py3-none-any.whl.zip]
+[2023-07-27 11:45:29] INFO root fetch - processPackages [lkfmt]: Start processing: amazon-scrape
+[2023-07-27 11:45:29] INFO root fetch - main [MainThread]: End processing [lkfmt]: success
+[2023-07-27 11:45:29] WARNING root fetch - processPackages [amazon-scrape]: Skipping, unable to determine old version
+[2023-07-27 11:45:29] INFO root fetch - processPackages [amazon-scrape]: Start processing: balcony
+[2023-07-27 11:45:29] INFO root fetch - main [MainThread]: End processing [amazon-scrape] error
+[2023-07-27 11:45:29] INFO root fetch - processPackages [balcony]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-07-27 11:45:30] INFO root fetch - processPackages [readyocr]: Remove: archive file [/home/abi/fetcher/tmp/readyocr-0.0.8.tar.gz]
+[2023-07-27 11:45:30] INFO root fetch - processPackages [readyocr]: Remove: archive file [/home/abi/fetcher/tmp/readyocr-0.0.9.tar.gz]
+[2023-07-27 11:45:30] INFO root fetch - processPackages [readyocr]: Start processing: pollination-streamlit-io
+[2023-07-27 11:45:30] INFO root fetch - main [MainThread]: End processing [readyocr]: success
+[2023-07-27 11:45:30] INFO root fetch - processPackages [fds.sdk.FactSetTrading]: Remove: archive file [/home/abi/fetcher/tmp/fds.sdk.FactSetTrading-0.22.5-py3-none-any.whl.zip]
+[2023-07-27 11:45:30] INFO root fetch - processPackages [fds.sdk.FactSetTrading]: Remove: archive file [/home/abi/fetcher/tmp/fds.sdk.FactSetTrading-0.23.0-py3-none-any.whl.zip]
+[2023-07-27 11:45:30] INFO root fetch - main [MainThread]: End processing [fds.sdk.FactSetTrading]: success
+[2023-07-27 11:45:30] INFO root fetch - processPackages [airflowkit]: Downloading https://files.pythonhosted.org/packages/d0/55/254767997de4934ab960ab94f41f1523980b21b8aac535677d3d93456905/airflowkit-0.0.3.tar.gz
+[2023-07-27 11:45:30] INFO root fetch - processPackages [pollination-streamlit-io]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-27 11:45:30] INFO root fetch - processPackages [balcony]: Downloading https://files.pythonhosted.org/packages/a5/88/a2caff9b76bd830c15698696c8acd2ab655b0bfb879c805b94c791c9311f/balcony-0.1.9.tar.gz
+[2023-07-27 11:45:30] INFO root fetch - processPackages [polarismesh-specification]: Remove: archive file [/home/abi/fetcher/tmp/polarismesh_specification-1.4.0a1.tar.gz]
+[2023-07-27 11:45:30] INFO root fetch - processPackages [dask-kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/dask-kubernetes-2023.7.2.tar.gz]
+[2023-07-27 11:45:30] INFO root fetch - processPackages [polarismesh-specification]: Remove: archive file [/home/abi/fetcher/tmp/polarismesh_specification-1.4.0a2.tar.gz]
+[2023-07-27 11:45:30] INFO root fetch - processPackages [dask-kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/dask-kubernetes-2023.7.3.tar.gz]
+[2023-07-27 11:45:30] INFO root fetch - main [MainThread]: End processing [polarismesh-specification]: success
+[2023-07-27 11:45:30] INFO root fetch - main [MainThread]: End processing [dask-kubernetes]: success
+[2023-07-27 11:45:30] INFO root fetch - processPackages [airflowkit]: executing diffoscope
+[2023-07-27 11:45:30] INFO root fetch - processPackages [airflowkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airflowkit-0.0.2.tar.gz tmp/airflowkit-0.0.3.tar.gz --markdown 20230727/a/airflowkit/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-27 11:45:30] INFO root fetch - processPackages [pollination-streamlit-io]: Downloading https://files.pythonhosted.org/packages/17/15/4c33d16aa9b1c63a7b6d57fc304bcba87a36e17745b5767550a4159d02e4/pollination-streamlit-io-0.9.2.tar.gz
+[2023-07-27 11:45:30] INFO root fetch - processPackages [pistar]: Remove: archive file [/home/abi/fetcher/tmp/pistar-2.4.0-py3-none-any.whl.zip]
+[2023-07-27 11:45:30] INFO root fetch - processPackages [pistar]: Remove: archive file [/home/abi/fetcher/tmp/pistar-2.5.0-py3-none-any.whl.zip]
+[2023-07-27 11:45:30] INFO root fetch - main [MainThread]: End processing [pistar]: success
+[2023-07-27 11:45:30] INFO root fetch - processPackages [fds.sdk.DocumentsDistributorCallStreetEvents]: Remove: archive file [/home/abi/fetcher/tmp/fds.sdk.DocumentsDistributorCallStreetEvents-0.9.0-py3-none-any.whl.zip]
+[2023-07-27 11:45:30] INFO root fetch - processPackages [fds.sdk.DocumentsDistributorCallStreetEvents]: Remove: archive file [/home/abi/fetcher/tmp/fds.sdk.DocumentsDistributorCallStreetEvents-0.9.1-py3-none-any.whl.zip]
+[2023-07-27 11:45:30] INFO root fetch - main [MainThread]: End processing [fds.sdk.DocumentsDistributorCallStreetEvents]: success
+[2023-07-27 11:45:30] INFO root fetch - processPackages [balcony]: Downloading https://files.pythonhosted.org/packages/5e/8d/2b683650f2d1d0a3be3b03383e198bd9b223611a2669595af03a1736b4b8/balcony-0.2.0.tar.gz
+[2023-07-27 11:45:30] INFO root fetch - processPackages [Chronix2Grid]: executing diffoscope
+[2023-07-27 11:45:30] INFO root fetch - processPackages [Chronix2Grid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Chronix2Grid-1.2.0.tar.gz tmp/Chronix2Grid-1.2.0.post1.tar.gz --markdown 20230727/C/Chronix2Grid/1.2.0-1.2.0.post1/diff.md --exclude *.pyd
+[2023-07-27 11:45:30] INFO root fetch - processPackages [balcony]: executing diffoscope
+[2023-07-27 11:45:30] INFO root fetch - processPackages [balcony]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/balcony-0.1.9.tar.gz tmp/balcony-0.2.0.tar.gz --markdown 20230727/b/balcony/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-07-27 11:45:31] INFO root fetch - processPackages [airflowkit]: Remove: archive file [/home/abi/fetcher/tmp/airflowkit-0.0.2.tar.gz]
+[2023-07-27 11:45:31] INFO root fetch - processPackages [airflowkit]: Remove: archive file [/home/abi/fetcher/tmp/airflowkit-0.0.3.tar.gz]
+[2023-07-27 11:45:31] INFO root fetch - main [MainThread]: End processing [airflowkit]: success
+[2023-07-27 11:45:31] INFO root fetch - processPackages [pollination-streamlit-io]: Downloading https://files.pythonhosted.org/packages/8f/88/39612cd1265361dd994ecd8d02ba175364afe8e50600f0d896b70d07b54c/pollination-streamlit-io-0.9.3.tar.gz
+[2023-07-27 11:45:31] INFO root fetch - processPackages [pollination-streamlit-io]: executing diffoscope
+[2023-07-27 11:45:31] INFO root fetch - processPackages [pollination-streamlit-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pollination-streamlit-io-0.9.2.tar.gz tmp/pollination-streamlit-io-0.9.3.tar.gz --markdown 20230727/p/pollination-streamlit-io/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-07-27 11:45:32] INFO root fetch - processPackages [balcony]: Remove: archive file [/home/abi/fetcher/tmp/balcony-0.1.9.tar.gz]
+[2023-07-27 11:45:32] INFO root fetch - processPackages [balcony]: Remove: archive file [/home/abi/fetcher/tmp/balcony-0.2.0.tar.gz]
+[2023-07-27 11:45:32] INFO root fetch - main [MainThread]: End processing [balcony]: success
+[2023-07-27 11:45:33] INFO root fetch - processPackages [pollination-streamlit-io]: Remove: archive file [/home/abi/fetcher/tmp/pollination-streamlit-io-0.9.2.tar.gz]
+[2023-07-27 11:45:33] INFO root fetch - processPackages [pollination-streamlit-io]: Remove: archive file [/home/abi/fetcher/tmp/pollination-streamlit-io-0.9.3.tar.gz]
+[2023-07-27 11:45:33] INFO root fetch - main [MainThread]: End processing [pollination-streamlit-io]: success
+[2023-07-27 11:45:34] INFO root fetch - processPackages [Chronix2Grid]: Remove: archive file [/home/abi/fetcher/tmp/Chronix2Grid-1.2.0.tar.gz]
+[2023-07-27 11:45:34] INFO root fetch - processPackages [Chronix2Grid]: Remove: archive file [/home/abi/fetcher/tmp/Chronix2Grid-1.2.0.post1.tar.gz]
+[2023-07-27 11:45:34] INFO root fetch - main [MainThread]: End processing [Chronix2Grid]: success
+[2023-07-27 11:45:34] INFO root fetch - processPackages [jupyterlab-nodeeditor]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_nodeeditor-1.0.6.tar.gz]
+[2023-07-27 11:45:34] INFO root fetch - processPackages [jupyterlab-nodeeditor]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_nodeeditor-1.0.7.tar.gz]
+[2023-07-27 11:45:34] INFO root fetch - main [MainThread]: End processing [jupyterlab-nodeeditor]: success
+[2023-07-27 11:45:34] INFO root fetch - main [MainThread]: Store serial: [19058065]
