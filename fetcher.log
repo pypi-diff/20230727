@@ -17879,3 +17879,107 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-27 09:31:34] INFO root fetch - processPackages [kafkaproducerself]: Remove: archive file [/home/abi/fetcher/tmp/kafkaproducerself-0.0.3.tar.gz]
 [2023-07-27 09:31:34] INFO root fetch - main [MainThread]: End processing [kafkaproducerself]: success
 [2023-07-27 09:31:34] INFO root fetch - main [MainThread]: Store serial: [19056692]
+[2023-07-27 09:36:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19056692]
+[2023-07-27 09:36:43] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-27 09:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: honeybee-radiance
+[2023-07-27 09:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: datame
+[2023-07-27 09:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: multisig-ci
+[2023-07-27 09:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: crop-utils
+[2023-07-27 09:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PySide6-stubs
+[2023-07-27 09:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: honeybee-energy
+[2023-07-27 09:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: starrailres
+[2023-07-27 09:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: loggerutility
+[2023-07-27 09:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: c2cwsgiutils
+[2023-07-27 09:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dragonfly-core
+[2023-07-27 09:36:43] INFO root fetch - processPackages [c2cwsgiutils]: New version: [6.0.0.dev99] Old Version: [6.0.0.dev97]
+[2023-07-27 09:36:43] INFO root fetch - processPackages [starrailres]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-07-27 09:36:43] INFO root fetch - processPackages [crop-utils]: New version: [4.3.8] Old Version: [4.3.7]
+[2023-07-27 09:36:43] INFO root fetch - processPackages [multisig-ci]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-07-27 09:36:43] INFO root fetch - processPackages [honeybee-radiance]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-07-27 09:36:43] INFO root fetch - processPackages [honeybee-energy]: New version: [1.99.9] Old Version: [1.99.8]
+[2023-07-27 09:36:43] WARNING root fetch - processPackages [PySide6-stubs]: Skipping, unable to determine old version
+[2023-07-27 09:36:43] INFO root fetch - processPackages [PySide6-stubs]: Start processing: cg
+[2023-07-27 09:36:43] INFO root fetch - main [MainThread]: End processing [PySide6-stubs] error
+[2023-07-27 09:36:43] INFO root fetch - processPackages [loggerutility]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-27 09:36:43] WARNING root fetch - processPackages [datame]: Skipping, unable to determine old version
+[2023-07-27 09:36:43] INFO root fetch - processPackages [datame]: Start processing: lalsuite
+[2023-07-27 09:36:43] INFO root fetch - main [MainThread]: End processing [datame] error
+[2023-07-27 09:36:43] INFO root fetch - processPackages [cg]: New version: [40.2.1] Old Version: [40.2.0]
+[2023-07-27 09:36:43] INFO root fetch - processPackages [c2cwsgiutils]: Downloading https://files.pythonhosted.org/packages/7e/19/e64dc0870291f601e6d1f041424eef5a28112c1c9b7be627a7f01c80ebab/c2cwsgiutils-6.0.0.dev97.tar.gz
+[2023-07-27 09:36:43] INFO root fetch - processPackages [dragonfly-core]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-07-27 09:36:43] INFO root fetch - processPackages [crop-utils]: Downloading https://files.pythonhosted.org/packages/8e/83/0d33c8fbf409e372c176b3bf099a144189d74130896f0328070c76d3b59c/crop_utils-4.3.7.tar.gz
+[2023-07-27 09:36:43] INFO root fetch - processPackages [multisig-ci]: Downloading https://files.pythonhosted.org/packages/05/3f/a7680f5af586c27b6ce1a641b81dcb74d3f1f08dc9a6b401af4d69439798/multisig_ci-0.6.8.tar.gz
+[2023-07-27 09:36:43] INFO root fetch - processPackages [honeybee-radiance]: Downloading https://files.pythonhosted.org/packages/48/ae/cca3e8aac6a72593fde7860cbf91882050c1a465c316efc2e0472bfa36e1/honeybee-radiance-1.9.1.tar.gz
+[2023-07-27 09:36:43] INFO root fetch - processPackages [honeybee-energy]: Downloading https://files.pythonhosted.org/packages/b1/ab/c8fb70e349d71cce95bac52782f7ea0659a6987ed84dd41c7fe2ef40806c/honeybee-energy-1.99.8.tar.gz
+[2023-07-27 09:36:43] INFO root fetch - processPackages [starrailres]: Downloading https://files.pythonhosted.org/packages/9f/0a/8fca1e84c94449e8884d6887d64bdedfda046f7a4420db27042fe9ec14ee/starrailres-1.1.2.tar.gz
+[2023-07-27 09:36:43] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/1d/82/6530390136ae2205650410a89d94bd21d23f0c3dec96abd161f23f829395/cg-40.2.0.tar.gz
+[2023-07-27 09:36:43] INFO root fetch - processPackages [dragonfly-core]: Downloading https://files.pythonhosted.org/packages/93/fd/7cad9d4c9406e421f7ce31b725936bb32ec8a421f9b143e829c33cae55dd/dragonfly-core-1.8.1.tar.gz
+[2023-07-27 09:36:43] INFO root fetch - processPackages [loggerutility]: Downloading https://files.pythonhosted.org/packages/d8/50/28021f711c9c5fae195deba0dac70a31589ad7f24ccabf436a46979a1119/loggerutility-0.0.5-py3-none-any.whl
+[2023-07-27 09:36:44] INFO root fetch - processPackages [crop-utils]: Downloading https://files.pythonhosted.org/packages/22/56/d0b2dd9920e6fe4f62d3ab8e2d0cf3b5ad1cc731be1ca6f441973d21f295/crop_utils-4.3.8.tar.gz
+[2023-07-27 09:36:44] INFO root fetch - processPackages [c2cwsgiutils]: Downloading https://files.pythonhosted.org/packages/bc/fc/caed9a3b8aa535ab83ce1fdf048ce861e9039ac24958fa3ddf9049b3f2b6/c2cwsgiutils-6.0.0.dev99.tar.gz
+[2023-07-27 09:36:44] INFO root fetch - processPackages [honeybee-radiance]: Downloading https://files.pythonhosted.org/packages/50/24/71a3a4863bb39caef68dcd79f1b380133b1f1968426af26bc9c4812376d1/honeybee-radiance-1.9.2.tar.gz
+[2023-07-27 09:36:44] INFO root fetch - processPackages [honeybee-energy]: Downloading https://files.pythonhosted.org/packages/8d/5e/1bc90eeaf45799cc7d5cda125017c1e4e2cf0ef068cd3db60d971b9596ba/honeybee-energy-1.99.9.tar.gz
+[2023-07-27 09:36:44] INFO root fetch - processPackages [multisig-ci]: Downloading https://files.pythonhosted.org/packages/8b/13/c5bd2691986f3b4747fa53d7d48680655a70e0ebc3af1d8a70f532f5c499/multisig_ci-0.6.9.tar.gz
+[2023-07-27 09:36:44] INFO root fetch - processPackages [crop-utils]: executing diffoscope
+[2023-07-27 09:36:44] INFO root fetch - processPackages [crop-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crop_utils-4.3.7.tar.gz tmp/crop_utils-4.3.8.tar.gz --markdown 20230727/c/crop-utils/4.3.7-4.3.8/diff.md --exclude *.pyd
+[2023-07-27 09:36:44] INFO root fetch - processPackages [dragonfly-core]: Downloading https://files.pythonhosted.org/packages/75/cb/4a1ce4726a070a188305b8d5343b4300bf24190845d85c8718cc31aa3e53/dragonfly-core-1.9.0.tar.gz
+[2023-07-27 09:36:44] INFO root fetch - processPackages [c2cwsgiutils]: executing diffoscope
+[2023-07-27 09:36:44] INFO root fetch - processPackages [c2cwsgiutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cwsgiutils-6.0.0.dev97.tar.gz tmp/c2cwsgiutils-6.0.0.dev99.tar.gz --markdown 20230727/c/c2cwsgiutils/6.0.0.dev97-6.0.0.dev99/diff.md --exclude *.pyd
+[2023-07-27 09:36:44] INFO root fetch - processPackages [multisig-ci]: executing diffoscope
+[2023-07-27 09:36:44] INFO root fetch - processPackages [multisig-ci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multisig_ci-0.6.8.tar.gz tmp/multisig_ci-0.6.9.tar.gz --markdown 20230727/m/multisig-ci/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-07-27 09:36:44] INFO root fetch - processPackages [loggerutility]: Downloading https://files.pythonhosted.org/packages/8f/ac/2e0c481816d068f8d3c9b9091a666514547a19de406289c1b2e80f2280cb/loggerutility-0.0.6-py3-none-any.whl
+[2023-07-27 09:36:44] INFO root fetch - processPackages [starrailres]: Downloading https://files.pythonhosted.org/packages/21/9e/b50c8e5afda7f3d06fdf2a1c34749f4079dcb0677d3e0cd1846254ec8854/starrailres-1.1.3.tar.gz
+[2023-07-27 09:36:44] INFO root fetch - processPackages [honeybee-energy]: executing diffoscope
+[2023-07-27 09:36:44] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/23/50/a745ebc9854b3dce340d0dbc91311e94a1530f6b799a47c6b4b828f7fbc9/cg-40.2.1.tar.gz
+[2023-07-27 09:36:44] INFO root fetch - processPackages [honeybee-energy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-energy-1.99.8.tar.gz tmp/honeybee-energy-1.99.9.tar.gz --markdown 20230727/h/honeybee-energy/1.99.8-1.99.9/diff.md --exclude *.pyd
+[2023-07-27 09:36:44] INFO root fetch - processPackages [honeybee-radiance]: executing diffoscope
+[2023-07-27 09:36:44] INFO root fetch - processPackages [honeybee-radiance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-radiance-1.9.1.tar.gz tmp/honeybee-radiance-1.9.2.tar.gz --markdown 20230727/h/honeybee-radiance/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-07-27 09:36:44] INFO root fetch - processPackages [dragonfly-core]: executing diffoscope
+[2023-07-27 09:36:44] INFO root fetch - processPackages [dragonfly-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-core-1.8.1.tar.gz tmp/dragonfly-core-1.9.0.tar.gz --markdown 20230727/d/dragonfly-core/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-07-27 09:36:44] INFO root fetch - processPackages [lalsuite]: New version: [7.9] Old Version: [7.8]
+[2023-07-27 09:36:44] INFO root fetch - processPackages [starrailres]: executing diffoscope
+[2023-07-27 09:36:44] INFO root fetch - processPackages [starrailres]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starrailres-1.1.2.tar.gz tmp/starrailres-1.1.3.tar.gz --markdown 20230727/s/starrailres/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-07-27 09:36:44] INFO root fetch - processPackages [loggerutility]: executing diffoscope
+[2023-07-27 09:36:44] INFO root fetch - processPackages [loggerutility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loggerutility-0.0.5-py3-none-any.whl.zip tmp/loggerutility-0.0.6-py3-none-any.whl.zip --markdown 20230727/l/loggerutility/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-27 09:36:44] INFO root fetch - processPackages [lalsuite]: Downloading https://files.pythonhosted.org/packages/53/92/fc43211ca56b7c5532fc1b47c701a564c7ddcaf866c62ae45acbfdc34f23/lalsuite-7.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-27 09:36:44] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-07-27 09:36:44] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-40.2.0.tar.gz tmp/cg-40.2.1.tar.gz --markdown 20230727/c/cg/40.2.0-40.2.1/diff.md --exclude *.pyd
+[2023-07-27 09:36:45] WARNING root fetch - processPackages [lalsuite]: Skipping package: exceeds size limit 48394251>=10485760
+[2023-07-27 09:36:45] INFO root fetch - processPackages [lalsuite]: Start processing: hrequests
+[2023-07-27 09:36:45] INFO root fetch - main [MainThread]: End processing [lalsuite] error
+[2023-07-27 09:36:45] INFO root fetch - processPackages [hrequests]: New version: [0.5.0] Old Version: [0.4.2]
+[2023-07-27 09:36:45] INFO root fetch - processPackages [hrequests]: Downloading https://files.pythonhosted.org/packages/cf/24/8d5f52e255c11863bfc2f0fca5dcb265d11219be46e7fe9adfeed76b449c/hrequests-0.4.2.tar.gz
+[2023-07-27 09:36:45] INFO root fetch - processPackages [multisig-ci]: Remove: archive file [/home/abi/fetcher/tmp/multisig_ci-0.6.8.tar.gz]
+[2023-07-27 09:36:45] INFO root fetch - processPackages [multisig-ci]: Remove: archive file [/home/abi/fetcher/tmp/multisig_ci-0.6.9.tar.gz]
+[2023-07-27 09:36:45] INFO root fetch - main [MainThread]: End processing [multisig-ci]: success
+[2023-07-27 09:36:46] INFO root fetch - processPackages [crop-utils]: Remove: archive file [/home/abi/fetcher/tmp/crop_utils-4.3.7.tar.gz]
+[2023-07-27 09:36:46] INFO root fetch - processPackages [crop-utils]: Remove: archive file [/home/abi/fetcher/tmp/crop_utils-4.3.8.tar.gz]
+[2023-07-27 09:36:46] INFO root fetch - main [MainThread]: End processing [crop-utils]: success
+[2023-07-27 09:36:46] INFO root fetch - processPackages [starrailres]: Remove: archive file [/home/abi/fetcher/tmp/starrailres-1.1.2.tar.gz]
+[2023-07-27 09:36:46] INFO root fetch - processPackages [starrailres]: Remove: archive file [/home/abi/fetcher/tmp/starrailres-1.1.3.tar.gz]
+[2023-07-27 09:36:46] INFO root fetch - main [MainThread]: End processing [starrailres]: success
+[2023-07-27 09:36:46] INFO root fetch - processPackages [hrequests]: Downloading https://files.pythonhosted.org/packages/3b/3f/e88e67bfd32fbd3a955cde0082237cee641394edb3aa0dbd7d71e9630446/hrequests-0.5.0.tar.gz
+[2023-07-27 09:36:46] INFO root fetch - processPackages [dragonfly-core]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-core-1.8.1.tar.gz]
+[2023-07-27 09:36:46] INFO root fetch - processPackages [dragonfly-core]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-core-1.9.0.tar.gz]
+[2023-07-27 09:36:46] INFO root fetch - main [MainThread]: End processing [dragonfly-core]: success
+[2023-07-27 09:36:46] INFO root fetch - processPackages [c2cwsgiutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cwsgiutils-6.0.0.dev97.tar.gz]
+[2023-07-27 09:36:46] INFO root fetch - processPackages [c2cwsgiutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cwsgiutils-6.0.0.dev99.tar.gz]
+[2023-07-27 09:36:46] INFO root fetch - main [MainThread]: End processing [c2cwsgiutils]: success
+[2023-07-27 09:36:46] INFO root fetch - processPackages [loggerutility]: Remove: archive file [/home/abi/fetcher/tmp/loggerutility-0.0.5-py3-none-any.whl.zip]
+[2023-07-27 09:36:46] INFO root fetch - processPackages [loggerutility]: Remove: archive file [/home/abi/fetcher/tmp/loggerutility-0.0.6-py3-none-any.whl.zip]
+[2023-07-27 09:36:46] INFO root fetch - main [MainThread]: End processing [loggerutility]: success
+[2023-07-27 09:36:46] INFO root fetch - processPackages [hrequests]: executing diffoscope
+[2023-07-27 09:36:46] INFO root fetch - processPackages [hrequests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hrequests-0.4.2.tar.gz tmp/hrequests-0.5.0.tar.gz --markdown 20230727/h/hrequests/0.4.2-0.5.0/diff.md --exclude *.pyd
+[2023-07-27 09:36:46] INFO root fetch - processPackages [honeybee-energy]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-energy-1.99.8.tar.gz]
+[2023-07-27 09:36:46] INFO root fetch - processPackages [honeybee-energy]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-energy-1.99.9.tar.gz]
+[2023-07-27 09:36:46] INFO root fetch - main [MainThread]: End processing [honeybee-energy]: success
+[2023-07-27 09:36:47] INFO root fetch - processPackages [honeybee-radiance]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-radiance-1.9.1.tar.gz]
+[2023-07-27 09:36:47] INFO root fetch - processPackages [honeybee-radiance]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-radiance-1.9.2.tar.gz]
+[2023-07-27 09:36:47] INFO root fetch - main [MainThread]: End processing [honeybee-radiance]: success
+[2023-07-27 09:36:47] INFO root fetch - processPackages [hrequests]: Remove: archive file [/home/abi/fetcher/tmp/hrequests-0.4.2.tar.gz]
+[2023-07-27 09:36:47] INFO root fetch - processPackages [hrequests]: Remove: archive file [/home/abi/fetcher/tmp/hrequests-0.5.0.tar.gz]
+[2023-07-27 09:36:47] INFO root fetch - main [MainThread]: End processing [hrequests]: success
+[2023-07-27 09:36:51] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-40.2.0.tar.gz]
+[2023-07-27 09:36:51] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-40.2.1.tar.gz]
+[2023-07-27 09:36:51] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-07-27 09:36:51] INFO root fetch - main [MainThread]: Store serial: [19056741]
