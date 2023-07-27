@@ -2719,3 +2719,257 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-27 02:25:47] INFO root fetch - processPackages [cdk-docker-image-deployment]: Remove: archive file [/home/abi/fetcher/tmp/cdk-docker-image-deployment-0.0.99.tar.gz]
 [2023-07-27 02:25:47] INFO root fetch - main [MainThread]: End processing [cdk-docker-image-deployment]: success
 [2023-07-27 02:25:47] INFO root fetch - main [MainThread]: Store serial: [19051229]
+[2023-07-27 02:30:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19051229]
+[2023-07-27 02:30:58] INFO root fetch - main [MainThread]: Found 29 changed packages
+[2023-07-27 02:30:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-serverless-clamscan
+[2023-07-27 02:30:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk8s
+[2023-07-27 02:30:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: table-maker
+[2023-07-27 02:30:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-secret-manager-wrapper-layer
+[2023-07-27 02:30:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gitlabci-local
+[2023-07-27 02:30:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-certbot-dns-route53
+[2023-07-27 02:30:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: echofish-aws-resample-and-write-to-zarr-store-lambda
+[2023-07-27 02:30:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: reflex
+[2023-07-27 02:30:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gearsllm
+[2023-07-27 02:30:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdk-gitlab-runner
+[2023-07-27 02:30:58] INFO root fetch - processPackages [gearsllm]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-27 02:30:58] WARNING root fetch - processPackages [table-maker]: Skipping, unable to determine old version
+[2023-07-27 02:30:58] INFO root fetch - processPackages [table-maker]: Start processing: pytubemusic
+[2023-07-27 02:30:58] INFO root fetch - main [MainThread]: End processing [table-maker] error
+[2023-07-27 02:30:58] INFO root fetch - processPackages [echofish-aws-resample-and-write-to-zarr-store-lambda]: New version: [1.0.0.dev20230727000831] Old Version: [1.0.0.dev20230726234601]
+[2023-07-27 02:30:58] INFO root fetch - processPackages [reflex]: New version: [0.2.3a6] Old Version: [0.2.3a5]
+[2023-07-27 02:30:58] INFO root fetch - processPackages [gitlabci-local]: New version: [8.0.0] Old Version: [7.2.0]
+[2023-07-27 02:30:58] INFO root fetch - processPackages [cdk-serverless-clamscan]: New version: [2.5.9] Old Version: [2.5.8]
+[2023-07-27 02:30:58] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-27 02:30:58] INFO root fetch - processPackages [pytubemusic]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-27 02:30:58] INFO root fetch - processPackages [cdk-certbot-dns-route53]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-07-27 02:30:58] INFO root fetch - processPackages [cdk8s]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-07-27 02:30:58] INFO root fetch - processPackages [cdk-gitlab-runner]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-07-27 02:30:58] INFO root fetch - processPackages [echofish-aws-resample-and-write-to-zarr-store-lambda]: Downloading https://files.pythonhosted.org/packages/5c/ee/ae9661916bf13ca398e9d648dc02cabbdb6bb84ac5701ed7d5350029079d/echofish-aws-resample-and-write-to-zarr-store-lambda-1.0.0.dev20230726234601.tar.gz
+[2023-07-27 02:30:58] INFO root fetch - processPackages [reflex]: Downloading https://files.pythonhosted.org/packages/52/b3/d17105228f4db8bf14b02648cb7d00ba0c57b7e189996e54ce48be4da062/reflex-0.2.3a5.tar.gz
+[2023-07-27 02:30:58] INFO root fetch - processPackages [gearsllm]: Downloading https://files.pythonhosted.org/packages/d4/a2/0687c5f8865e7fd066846289fd27a5bf1c319b505e2287c9d6ddbe8cf895/gearsllm-0.1.8.tar.gz
+[2023-07-27 02:30:58] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/00/40/016cdb2fb9e28fe1b601ce7542603c38b93a78a9a0d77a0309e559d58a1c/cdk-gitlab-runner-2.1.98.tar.gz
+[2023-07-27 02:30:58] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/00/91/545869a3cc999dbc9750aad345d775087610ebf834517c928a0d0e289c4e/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz
+[2023-07-27 02:30:58] INFO root fetch - processPackages [cdk-serverless-clamscan]: Downloading https://files.pythonhosted.org/packages/f1/94/234c7859ea38bf3bfd719842cb9ba335317746c85e3d6ea2c21db624c3c9/cdk-serverless-clamscan-2.5.8.tar.gz
+[2023-07-27 02:30:59] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/3a/17/b6246ecdc02e08f5a2a265eb410094bc1978a1c23a9ff1ef9625deee1c7c/cdk-certbot-dns-route53-2.1.98.tar.gz
+[2023-07-27 02:30:59] INFO root fetch - processPackages [pytubemusic]: Downloading https://files.pythonhosted.org/packages/3f/a1/7ce1e70a1f1174a92a787fc0ee6dd496cfa0f88dca72c3df9af3c68cc29d/pytubemusic-0.3.1.tar.gz
+[2023-07-27 02:30:59] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/7d/c5/592391e50b273450851cb1dd87401069971eead9d407a9d5c5ec13704f65/cdk8s-2.8.0.tar.gz
+[2023-07-27 02:30:59] INFO root fetch - processPackages [gitlabci-local]: Downloading https://files.pythonhosted.org/packages/d9/73/b07191a6ff3f48f46fb38b57069bbee696d63847573d610321d92da977e7/gitlabci_local-7.2.0-py3-none-any.whl
+[2023-07-27 02:30:59] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/c2/c5/a8a13bb72ea375e2ce99dd389e945478ce7d95d8628acf6db64f14f674f5/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz
+[2023-07-27 02:30:59] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/89/96/8e14acbbed72ce7cf16a2f829e722ff9189610a1fe440e7d52bb6185d401/cdk-gitlab-runner-2.1.99.tar.gz
+[2023-07-27 02:30:59] INFO root fetch - processPackages [echofish-aws-resample-and-write-to-zarr-store-lambda]: Downloading https://files.pythonhosted.org/packages/67/70/0ab9a1ba7f4447a3eb611336b4cc1f6d29095bde04565073702abd85843b/echofish-aws-resample-and-write-to-zarr-store-lambda-1.0.0.dev20230727000831.tar.gz
+[2023-07-27 02:30:59] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/cc/b6/654c84ec7d8620b5f17a064219a77d716eea46f886b19741e6e9cf3eff24/cdk-certbot-dns-route53-2.1.99.tar.gz
+[2023-07-27 02:30:59] INFO root fetch - processPackages [reflex]: Downloading https://files.pythonhosted.org/packages/76/f6/613700d1026f668cf6666f0488368642f3448c14aa0539d3c87ea383450f/reflex-0.2.3a6.tar.gz
+[2023-07-27 02:30:59] INFO root fetch - processPackages [gearsllm]: Downloading https://files.pythonhosted.org/packages/0e/f8/6abc4e6811387a0f9bcd70790e57a9ed2d019e847c391914880502a2febc/gearsllm-0.1.9.tar.gz
+[2023-07-27 02:30:59] INFO root fetch - processPackages [pytubemusic]: Downloading https://files.pythonhosted.org/packages/fc/16/75467ada2fefde1ad3eed51d1b75965c14d7770dc653e3ff51ad0acbdace/pytubemusic-0.3.2.tar.gz
+[2023-07-27 02:30:59] INFO root fetch - processPackages [cdk-serverless-clamscan]: Downloading https://files.pythonhosted.org/packages/28/a2/7652c50d98b37eb12999dac92423c2e06eb02ce205876482c411d4948af3/cdk-serverless-clamscan-2.5.9.tar.gz
+[2023-07-27 02:30:59] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: executing diffoscope
+[2023-07-27 02:30:59] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz --markdown 20230727/c/cdk-secret-manager-wrapper-layer/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-27 02:30:59] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/3b/6d/920a6a9be9d1576059ced41c1fd11a3f7214589f1add4c7d3da2290b1198/cdk8s-2.9.0.tar.gz
+[2023-07-27 02:30:59] INFO root fetch - processPackages [cdk-gitlab-runner]: executing diffoscope
+[2023-07-27 02:30:59] INFO root fetch - processPackages [cdk-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-gitlab-runner-2.1.98.tar.gz tmp/cdk-gitlab-runner-2.1.99.tar.gz --markdown 20230727/c/cdk-gitlab-runner/2.1.98-2.1.99/diff.md --exclude *.pyd
+[2023-07-27 02:30:59] INFO root fetch - processPackages [cdk-certbot-dns-route53]: executing diffoscope
+[2023-07-27 02:30:59] INFO root fetch - processPackages [cdk-certbot-dns-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-certbot-dns-route53-2.1.98.tar.gz tmp/cdk-certbot-dns-route53-2.1.99.tar.gz --markdown 20230727/c/cdk-certbot-dns-route53/2.1.98-2.1.99/diff.md --exclude *.pyd
+[2023-07-27 02:30:59] INFO root fetch - processPackages [echofish-aws-resample-and-write-to-zarr-store-lambda]: executing diffoscope
+[2023-07-27 02:30:59] INFO root fetch - processPackages [echofish-aws-resample-and-write-to-zarr-store-lambda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/echofish-aws-resample-and-write-to-zarr-store-lambda-1.0.0.dev20230726234601.tar.gz tmp/echofish-aws-resample-and-write-to-zarr-store-lambda-1.0.0.dev20230727000831.tar.gz --markdown 20230727/e/echofish-aws-resample-and-write-to-zarr-store-lambda/1.0.0.dev20230726234601-1.0.0.dev20230727000831/diff.md --exclude *.pyd
+[2023-07-27 02:30:59] INFO root fetch - processPackages [gearsllm]: executing diffoscope
+[2023-07-27 02:30:59] INFO root fetch - processPackages [gearsllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gearsllm-0.1.8.tar.gz tmp/gearsllm-0.1.9.tar.gz --markdown 20230727/g/gearsllm/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-27 02:30:59] INFO root fetch - processPackages [gitlabci-local]: Downloading https://files.pythonhosted.org/packages/0e/13/c797dbb37f6db99f1fc7ee41f5ef2b6d0601c6dab9ed50248ef689cd8d56/gitlabci_local-8.0.0-py3-none-any.whl
+[2023-07-27 02:30:59] INFO root fetch - processPackages [pytubemusic]: executing diffoscope
+[2023-07-27 02:30:59] INFO root fetch - processPackages [pytubemusic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytubemusic-0.3.1.tar.gz tmp/pytubemusic-0.3.2.tar.gz --markdown 20230727/p/pytubemusic/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-27 02:30:59] INFO root fetch - processPackages [reflex]: executing diffoscope
+[2023-07-27 02:30:59] INFO root fetch - processPackages [reflex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reflex-0.2.3a5.tar.gz tmp/reflex-0.2.3a6.tar.gz --markdown 20230727/r/reflex/0.2.3a5-0.2.3a6/diff.md --exclude *.pyd
+[2023-07-27 02:30:59] INFO root fetch - processPackages [cdk-serverless-clamscan]: executing diffoscope
+[2023-07-27 02:30:59] INFO root fetch - processPackages [cdk-serverless-clamscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-serverless-clamscan-2.5.8.tar.gz tmp/cdk-serverless-clamscan-2.5.9.tar.gz --markdown 20230727/c/cdk-serverless-clamscan/2.5.8-2.5.9/diff.md --exclude *.pyd
+[2023-07-27 02:30:59] INFO root fetch - processPackages [cdk8s]: executing diffoscope
+[2023-07-27 02:30:59] INFO root fetch - processPackages [cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-2.8.0.tar.gz tmp/cdk8s-2.9.0.tar.gz --markdown 20230727/c/cdk8s/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-07-27 02:31:00] INFO root fetch - processPackages [gitlabci-local]: executing diffoscope
+[2023-07-27 02:31:00] INFO root fetch - processPackages [gitlabci-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitlabci_local-7.2.0-py3-none-any.whl.zip tmp/gitlabci_local-8.0.0-py3-none-any.whl.zip --markdown 20230727/g/gitlabci-local/7.2.0-8.0.0/diff.md --exclude *.pyd
+[2023-07-27 02:31:01] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz]
+[2023-07-27 02:31:01] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz]
+[2023-07-27 02:31:01] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Start processing: latinex-sdk
+[2023-07-27 02:31:01] INFO root fetch - main [MainThread]: End processing [cdk-secret-manager-wrapper-layer]: success
+[2023-07-27 02:31:01] INFO root fetch - processPackages [latinex-sdk]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-27 02:31:01] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.1.98.tar.gz]
+[2023-07-27 02:31:01] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.1.99.tar.gz]
+[2023-07-27 02:31:01] INFO root fetch - processPackages [cdk-gitlab-runner]: Start processing: cdk-ecs-service-extensions
+[2023-07-27 02:31:01] INFO root fetch - main [MainThread]: End processing [cdk-gitlab-runner]: success
+[2023-07-27 02:31:01] INFO root fetch - processPackages [echofish-aws-resample-and-write-to-zarr-store-lambda]: Remove: archive file [/home/abi/fetcher/tmp/echofish-aws-resample-and-write-to-zarr-store-lambda-1.0.0.dev20230726234601.tar.gz]
+[2023-07-27 02:31:01] INFO root fetch - processPackages [echofish-aws-resample-and-write-to-zarr-store-lambda]: Remove: archive file [/home/abi/fetcher/tmp/echofish-aws-resample-and-write-to-zarr-store-lambda-1.0.0.dev20230727000831.tar.gz]
+[2023-07-27 02:31:01] INFO root fetch - processPackages [echofish-aws-resample-and-write-to-zarr-store-lambda]: Start processing: cdk8s
+[2023-07-27 02:31:01] INFO root fetch - main [MainThread]: End processing [echofish-aws-resample-and-write-to-zarr-store-lambda]: success
+[2023-07-27 02:31:01] INFO root fetch - processPackages [latinex-sdk]: Downloading https://files.pythonhosted.org/packages/4b/f9/f0fe6dd829841306272d51e8220f54508980ba89747bfcba7308687c85b1/latinex-sdk-0.1.2.tar.gz
+[2023-07-27 02:31:01] INFO root fetch - processPackages [cdk-ecs-service-extensions]: New version: [2.0.1a99] Old Version: [2.0.1a98]
+[2023-07-27 02:31:01] INFO root fetch - processPackages [cdk8s]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-07-27 02:31:01] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.1.98.tar.gz]
+[2023-07-27 02:31:01] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.1.99.tar.gz]
+[2023-07-27 02:31:01] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Start processing: cdk-aurora-globaldatabase
+[2023-07-27 02:31:01] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
+[2023-07-27 02:31:01] INFO root fetch - processPackages [gearsllm]: Remove: archive file [/home/abi/fetcher/tmp/gearsllm-0.1.8.tar.gz]
+[2023-07-27 02:31:01] INFO root fetch - processPackages [gearsllm]: Remove: archive file [/home/abi/fetcher/tmp/gearsllm-0.1.9.tar.gz]
+[2023-07-27 02:31:01] INFO root fetch - processPackages [gearsllm]: Start processing: Furious-GUI
+[2023-07-27 02:31:01] INFO root fetch - main [MainThread]: End processing [gearsllm]: success
+[2023-07-27 02:31:01] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-07-27 02:31:01] INFO root fetch - processPackages [pytubemusic]: Remove: archive file [/home/abi/fetcher/tmp/pytubemusic-0.3.1.tar.gz]
+[2023-07-27 02:31:01] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.8.0.tar.gz]
+[2023-07-27 02:31:01] INFO root fetch - processPackages [pytubemusic]: Remove: archive file [/home/abi/fetcher/tmp/pytubemusic-0.3.2.tar.gz]
+[2023-07-27 02:31:01] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.9.0.tar.gz]
+[2023-07-27 02:31:01] INFO root fetch - processPackages [pytubemusic]: Start processing: cdktf-github-actions
+[2023-07-27 02:31:01] INFO root fetch - main [MainThread]: End processing [pytubemusic]: success
+[2023-07-27 02:31:01] INFO root fetch - processPackages [cdk8s]: Start processing: geo-espresso
+[2023-07-27 02:31:01] INFO root fetch - main [MainThread]: End processing [cdk8s]: success
+[2023-07-27 02:31:01] INFO root fetch - processPackages [gitlabci-local]: Remove: archive file [/home/abi/fetcher/tmp/gitlabci_local-7.2.0-py3-none-any.whl.zip]
+[2023-07-27 02:31:01] INFO root fetch - processPackages [gitlabci-local]: Remove: archive file [/home/abi/fetcher/tmp/gitlabci_local-8.0.0-py3-none-any.whl.zip]
+[2023-07-27 02:31:01] INFO root fetch - processPackages [gitlabci-local]: Start processing: pbu
+[2023-07-27 02:31:01] INFO root fetch - main [MainThread]: End processing [gitlabci-local]: success
+[2023-07-27 02:31:01] INFO root fetch - processPackages [Furious-GUI]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-27 02:31:01] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/3b/6d/920a6a9be9d1576059ced41c1fd11a3f7214589f1add4c7d3da2290b1198/cdk8s-2.9.0.tar.gz
+[2023-07-27 02:31:01] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Downloading https://files.pythonhosted.org/packages/c9/ad/d7965da0f34d52de670def31464963b3971de03ac20cddf5eac577722b31/cdk-ecs-service-extensions-2.0.1a98.tar.gz
+[2023-07-27 02:31:01] INFO root fetch - processPackages [geo-espresso]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-27 02:31:01] INFO root fetch - processPackages [cdktf-github-actions]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-27 02:31:01] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/e4/39/e997b5acac972df8d777c4a4ad6dfd9f51e03e75fc8e23c973a7772267d5/cdk-aurora-globaldatabase-2.3.98.tar.gz
+[2023-07-27 02:31:01] INFO root fetch - processPackages [pbu]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-27 02:31:01] INFO root fetch - processPackages [latinex-sdk]: Downloading https://files.pythonhosted.org/packages/79/83/7795bd28639b53a2b689c41a7f9828c83e16eaf630ea769d782ba1f141ee/latinex_sdk-0.1.3.tar.gz
+[2023-07-27 02:31:01] INFO root fetch - processPackages [Furious-GUI]: Downloading https://files.pythonhosted.org/packages/91/13/14efbb67706522aedd1862e5537c18ea8e49b928888f87207436d7697df9/Furious-GUI-0.1.5.tar.gz
+[2023-07-27 02:31:02] INFO root fetch - processPackages [reflex]: Remove: archive file [/home/abi/fetcher/tmp/reflex-0.2.3a5.tar.gz]
+[2023-07-27 02:31:02] INFO root fetch - processPackages [reflex]: Remove: archive file [/home/abi/fetcher/tmp/reflex-0.2.3a6.tar.gz]
+[2023-07-27 02:31:02] INFO root fetch - processPackages [reflex]: Start processing: cdktf-proxmox
+[2023-07-27 02:31:02] INFO root fetch - main [MainThread]: End processing [reflex]: success
+[2023-07-27 02:31:02] INFO root fetch - processPackages [cdk-serverless-clamscan]: Remove: archive file [/home/abi/fetcher/tmp/cdk-serverless-clamscan-2.5.8.tar.gz]
+[2023-07-27 02:31:02] INFO root fetch - processPackages [cdk-serverless-clamscan]: Remove: archive file [/home/abi/fetcher/tmp/cdk-serverless-clamscan-2.5.9.tar.gz]
+[2023-07-27 02:31:02] INFO root fetch - processPackages [cdk-serverless-clamscan]: Start processing: yokkaichi
+[2023-07-27 02:31:02] INFO root fetch - main [MainThread]: End processing [cdk-serverless-clamscan]: success
+[2023-07-27 02:31:02] INFO root fetch - processPackages [cdk8s]: executing diffoscope
+[2023-07-27 02:31:02] INFO root fetch - processPackages [cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-2.8.0.tar.gz tmp/cdk8s-2.9.0.tar.gz --markdown 20230727/c/cdk8s/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-07-27 02:31:02] INFO root fetch - processPackages [yokkaichi]: New version: [1.6] Old Version: [1.5.2]
+[2023-07-27 02:31:02] INFO root fetch - processPackages [cdktf-proxmox]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-27 02:31:02] INFO root fetch - processPackages [latinex-sdk]: executing diffoscope
+[2023-07-27 02:31:02] INFO root fetch - processPackages [latinex-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latinex-sdk-0.1.2.tar.gz tmp/latinex_sdk-0.1.3.tar.gz --markdown 20230727/l/latinex-sdk/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-27 02:31:02] INFO root fetch - processPackages [geo-espresso]: Downloading https://files.pythonhosted.org/packages/e2/0a/0060e5e987a8897249eb2a92fbf34a75675b9bfeb335fff97b8b62e0443d/geo-espresso-0.3.8.tar.gz
+[2023-07-27 02:31:02] INFO root fetch - processPackages [cdktf-github-actions]: Downloading https://files.pythonhosted.org/packages/07/58/fd956de115e00f327e93ad8957b6bb967e67537256fcee54171d65d2a849/cdktf-github-actions-0.0.98.tar.gz
+[2023-07-27 02:31:02] INFO root fetch - processPackages [pbu]: Downloading https://files.pythonhosted.org/packages/ae/b5/fa1a5c8aab9d5cd0c3cfd7004b70fcb0e9acba58b6edb4335c60a7e257fa/pbu-1.1.0.tar.gz
+[2023-07-27 02:31:02] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Downloading https://files.pythonhosted.org/packages/9c/f7/1a593c4ae0d3c80332cec251caad8f13a27842299475718ad186eea220ba/cdk-ecs-service-extensions-2.0.1a99.tar.gz
+[2023-07-27 02:31:02] INFO root fetch - processPackages [cdktf-proxmox]: Downloading https://files.pythonhosted.org/packages/d9/ee/7220413f67291e445284d014e3e51e97a33ce5125383f30b4756c598d8d8/cdktf-proxmox-0.0.98.tar.gz
+[2023-07-27 02:31:02] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/51/53/0158facaec2becec86707148eb931de78a7ad1c2b63f80b9911a53e4c17b/cdk-aurora-globaldatabase-2.3.99.tar.gz
+[2023-07-27 02:31:02] INFO root fetch - processPackages [yokkaichi]: Downloading https://files.pythonhosted.org/packages/3c/86/4697f7e8bd6a2e99218f01aa3fd834f909fe5ec8630e58d5f6a03df6c599/yokkaichi-1.5.2.tar.gz
+[2023-07-27 02:31:02] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2023-07-27 02:31:02] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20230727/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-07-27 02:31:02] ERROR root fetch - processPackages [cdk8s]: Diffoscope failed: time="2023-07-27T02:31:02+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/cdk8s-2.8.0.tar.gz: No such file or directory
+
+[2023-07-27 02:31:02] INFO root fetch - processPackages [cdk8s]: Start processing: azureml-acft-accelerator
+[2023-07-27 02:31:02] INFO root fetch - main [MainThread]: End processing [cdk8s] error
+[2023-07-27 02:31:02] INFO root fetch - processPackages [cdktf-github-actions]: Downloading https://files.pythonhosted.org/packages/56/78/477ea020d063f38bdacf3f5681517318875ce9cbff389019b4934f6c8cf1/cdktf-github-actions-0.0.99.tar.gz
+[2023-07-27 02:31:02] INFO root fetch - processPackages [cdk-ecs-service-extensions]: executing diffoscope
+[2023-07-27 02:31:02] INFO root fetch - processPackages [cdk-ecs-service-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-ecs-service-extensions-2.0.1a98.tar.gz tmp/cdk-ecs-service-extensions-2.0.1a99.tar.gz --markdown 20230727/c/cdk-ecs-service-extensions/2.0.1a98-2.0.1a99/diff.md --exclude *.pyd
+[2023-07-27 02:31:02] INFO root fetch - processPackages [pbu]: Downloading https://files.pythonhosted.org/packages/16/a4/ff69e56dfc320f49a4ea879f1d866579f10157aa5da918201ec178beac75/pbu-1.1.1.tar.gz
+[2023-07-27 02:31:02] INFO root fetch - processPackages [Furious-GUI]: Downloading https://files.pythonhosted.org/packages/3e/15/e114d0e2bfd88910d563598e36e92274ce53d9f2f378fc3f5f2aede8d1e2/Furious-GUI-0.1.6.tar.gz
+[2023-07-27 02:31:02] INFO root fetch - processPackages [azureml-acft-accelerator]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-27 02:31:02] INFO root fetch - processPackages [yokkaichi]: Downloading https://files.pythonhosted.org/packages/0e/7b/cbcec88cd606986e37a05cb0e3f3771f47c2488a46f6b63575868791a858/yokkaichi-1.6.tar.gz
+[2023-07-27 02:31:02] INFO root fetch - processPackages [pbu]: executing diffoscope
+[2023-07-27 02:31:02] INFO root fetch - processPackages [pbu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pbu-1.1.0.tar.gz tmp/pbu-1.1.1.tar.gz --markdown 20230727/p/pbu/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-27 02:31:02] INFO root fetch - processPackages [cdktf-github-actions]: executing diffoscope
+[2023-07-27 02:31:02] INFO root fetch - processPackages [cdktf-github-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-github-actions-0.0.98.tar.gz tmp/cdktf-github-actions-0.0.99.tar.gz --markdown 20230727/c/cdktf-github-actions/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-27 02:31:02] INFO root fetch - processPackages [cdktf-proxmox]: Downloading https://files.pythonhosted.org/packages/ae/43/6d62460a5f0e800acb4dffd0cf8c675fbd2916d3287669415148cb96adfe/cdktf-proxmox-0.0.99.tar.gz
+[2023-07-27 02:31:02] INFO root fetch - processPackages [azureml-acft-accelerator]: Downloading https://files.pythonhosted.org/packages/7e/ef/bae82174f8ae37679572ec1080feac58efa577918ab6594b2b38d1113bcd/azureml_acft_accelerator-0.0.8-py3-none-any.whl
+[2023-07-27 02:31:02] INFO root fetch - processPackages [latinex-sdk]: Remove: archive file [/home/abi/fetcher/tmp/latinex-sdk-0.1.2.tar.gz]
+[2023-07-27 02:31:02] INFO root fetch - processPackages [latinex-sdk]: Remove: archive file [/home/abi/fetcher/tmp/latinex_sdk-0.1.3.tar.gz]
+[2023-07-27 02:31:02] INFO root fetch - processPackages [latinex-sdk]: Start processing: azureml-acft-common-components
+[2023-07-27 02:31:02] INFO root fetch - main [MainThread]: End processing [latinex-sdk]: success
+[2023-07-27 02:31:02] INFO root fetch - processPackages [yokkaichi]: executing diffoscope
+[2023-07-27 02:31:02] INFO root fetch - processPackages [yokkaichi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yokkaichi-1.5.2.tar.gz tmp/yokkaichi-1.6.tar.gz --markdown 20230727/y/yokkaichi/1.5.2-1.6/diff.md --exclude *.pyd
+[2023-07-27 02:31:03] INFO root fetch - processPackages [cdktf-proxmox]: executing diffoscope
+[2023-07-27 02:31:03] INFO root fetch - processPackages [cdktf-proxmox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-proxmox-0.0.98.tar.gz tmp/cdktf-proxmox-0.0.99.tar.gz --markdown 20230727/c/cdktf-proxmox/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-27 02:31:03] WARNING root fetch - processPackages [geo-espresso]: Skipping package: exceeds size limit 72127486>=10485760
+[2023-07-27 02:31:03] INFO root fetch - processPackages [geo-espresso]: Start processing: azureml-acft-contrib-hf-diffusion
+[2023-07-27 02:31:03] INFO root fetch - main [MainThread]: End processing [geo-espresso] error
+[2023-07-27 02:31:03] INFO root fetch - processPackages [azureml-acft-common-components]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-27 02:31:03] INFO root fetch - processPackages [Furious-GUI]: executing diffoscope
+[2023-07-27 02:31:03] INFO root fetch - processPackages [Furious-GUI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Furious-GUI-0.1.5.tar.gz tmp/Furious-GUI-0.1.6.tar.gz --markdown 20230727/F/Furious-GUI/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-27 02:31:03] INFO root fetch - processPackages [azureml-acft-contrib-hf-diffusion]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-27 02:31:03] INFO root fetch - processPackages [azureml-acft-accelerator]: Downloading https://files.pythonhosted.org/packages/f4/a3/15bfb45471496789ba0291a4458055542302f2b954414120e64af247a54d/azureml_acft_accelerator-0.0.9-py3-none-any.whl
+[2023-07-27 02:31:03] INFO root fetch - processPackages [azureml-acft-common-components]: Downloading https://files.pythonhosted.org/packages/1b/69/79c753b95642820059ac6078e8d3304c534d5fb1670b39f2979261b8e8e5/azureml_acft_common_components-0.0.8-py3-none-any.whl
+[2023-07-27 02:31:03] INFO root fetch - processPackages [azureml-acft-accelerator]: executing diffoscope
+[2023-07-27 02:31:03] INFO root fetch - processPackages [azureml-acft-accelerator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_acft_accelerator-0.0.8-py3-none-any.whl.zip tmp/azureml_acft_accelerator-0.0.9-py3-none-any.whl.zip --markdown 20230727/a/azureml-acft-accelerator/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-27 02:31:03] INFO root fetch - processPackages [azureml-acft-contrib-hf-diffusion]: Downloading https://files.pythonhosted.org/packages/b3/e4/d85f7a1a243a906f8c0c1337e73e9679cc506d3cacd07e2751e7fe7db717/azureml_acft_contrib_hf_diffusion-0.0.8-py3-none-any.whl
+[2023-07-27 02:31:03] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz]
+[2023-07-27 02:31:03] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
+[2023-07-27 02:31:03] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Start processing: azureml-acft-contrib-hf-nlp
+[2023-07-27 02:31:03] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2023-07-27 02:31:03] INFO root fetch - processPackages [azureml-acft-contrib-hf-nlp]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-27 02:31:03] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Remove: archive file [/home/abi/fetcher/tmp/cdk-ecs-service-extensions-2.0.1a98.tar.gz]
+[2023-07-27 02:31:03] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Remove: archive file [/home/abi/fetcher/tmp/cdk-ecs-service-extensions-2.0.1a99.tar.gz]
+[2023-07-27 02:31:03] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Start processing: azureml-acft-image-components
+[2023-07-27 02:31:03] INFO root fetch - main [MainThread]: End processing [cdk-ecs-service-extensions]: success
+[2023-07-27 02:31:03] INFO root fetch - processPackages [azureml-acft-common-components]: Downloading https://files.pythonhosted.org/packages/74/d7/91a6d6d711d3c106762e53ec7cae4d9dc23f91a43d347e9d438e3934f50b/azureml_acft_common_components-0.0.9-py3-none-any.whl
+[2023-07-27 02:31:03] INFO root fetch - processPackages [azureml-acft-contrib-hf-diffusion]: Downloading https://files.pythonhosted.org/packages/17/fa/51d9356bdb0000b44f3f9e37245c49c28a3dd3170bd8534527159f3ba71a/azureml_acft_contrib_hf_diffusion-0.0.9-py3-none-any.whl
+[2023-07-27 02:31:03] INFO root fetch - processPackages [azureml-acft-image-components]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-27 02:31:03] INFO root fetch - processPackages [azureml-acft-contrib-hf-nlp]: Downloading https://files.pythonhosted.org/packages/c6/b4/92fe2844600ef202ad1bfb17d785a9983adaed2ba8c40362e8d46f44641f/azureml_acft_contrib_hf_nlp-0.0.8-py3-none-any.whl
+[2023-07-27 02:31:03] INFO root fetch - processPackages [azureml-acft-common-components]: executing diffoscope
+[2023-07-27 02:31:03] INFO root fetch - processPackages [azureml-acft-common-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_acft_common_components-0.0.8-py3-none-any.whl.zip tmp/azureml_acft_common_components-0.0.9-py3-none-any.whl.zip --markdown 20230727/a/azureml-acft-common-components/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-27 02:31:04] INFO root fetch - processPackages [azureml-acft-contrib-hf-diffusion]: executing diffoscope
+[2023-07-27 02:31:04] INFO root fetch - processPackages [azureml-acft-contrib-hf-diffusion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_acft_contrib_hf_diffusion-0.0.8-py3-none-any.whl.zip tmp/azureml_acft_contrib_hf_diffusion-0.0.9-py3-none-any.whl.zip --markdown 20230727/a/azureml-acft-contrib-hf-diffusion/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-27 02:31:04] INFO root fetch - processPackages [azureml-acft-image-components]: Downloading https://files.pythonhosted.org/packages/54/14/b21660f0894f00e8b252c21c555bfa0f0d81cb9c5e21a5d0558cef89779c/azureml_acft_image_components-0.0.8-py3-none-any.whl
+[2023-07-27 02:31:04] INFO root fetch - processPackages [cdktf-github-actions]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-github-actions-0.0.98.tar.gz]
+[2023-07-27 02:31:04] INFO root fetch - processPackages [cdktf-github-actions]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-github-actions-0.0.99.tar.gz]
+[2023-07-27 02:31:04] INFO root fetch - processPackages [cdktf-github-actions]: Start processing: azureml-evaluate-mlflow
+[2023-07-27 02:31:04] INFO root fetch - main [MainThread]: End processing [cdktf-github-actions]: success
+[2023-07-27 02:31:04] INFO root fetch - processPackages [yokkaichi]: Remove: archive file [/home/abi/fetcher/tmp/yokkaichi-1.5.2.tar.gz]
+[2023-07-27 02:31:04] INFO root fetch - processPackages [yokkaichi]: Remove: archive file [/home/abi/fetcher/tmp/yokkaichi-1.6.tar.gz]
+[2023-07-27 02:31:04] INFO root fetch - processPackages [yokkaichi]: Start processing: azureml-metrics
+[2023-07-27 02:31:04] INFO root fetch - main [MainThread]: End processing [yokkaichi]: success
+[2023-07-27 02:31:04] INFO root fetch - processPackages [pbu]: Remove: archive file [/home/abi/fetcher/tmp/pbu-1.1.0.tar.gz]
+[2023-07-27 02:31:04] INFO root fetch - processPackages [pbu]: Remove: archive file [/home/abi/fetcher/tmp/pbu-1.1.1.tar.gz]
+[2023-07-27 02:31:04] INFO root fetch - processPackages [pbu]: Start processing: cdk8s-plus-25
+[2023-07-27 02:31:04] INFO root fetch - main [MainThread]: End processing [pbu]: success
+[2023-07-27 02:31:04] INFO root fetch - processPackages [azureml-acft-contrib-hf-nlp]: Downloading https://files.pythonhosted.org/packages/3f/53/207e2ef0fc5d44967253be36d79a263cd47893128e4f9c253c01c386828a/azureml_acft_contrib_hf_nlp-0.0.9-py3-none-any.whl
+[2023-07-27 02:31:04] INFO root fetch - processPackages [cdk8s-plus-25]: New version: [2.9.0] Old Version: [2.8.98]
+[2023-07-27 02:31:04] INFO root fetch - processPackages [azureml-evaluate-mlflow]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-27 02:31:04] INFO root fetch - processPackages [azureml-metrics]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-27 02:31:04] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/d2/ea/a95fb938621c00da665acf03d476758b01ebe2e776b23de7d4de170d096a/cdk8s-plus-25-2.8.98.tar.gz
+[2023-07-27 02:31:04] INFO root fetch - processPackages [azureml-acft-contrib-hf-nlp]: executing diffoscope
+[2023-07-27 02:31:04] INFO root fetch - processPackages [azureml-acft-contrib-hf-nlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_acft_contrib_hf_nlp-0.0.8-py3-none-any.whl.zip tmp/azureml_acft_contrib_hf_nlp-0.0.9-py3-none-any.whl.zip --markdown 20230727/a/azureml-acft-contrib-hf-nlp/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-27 02:31:04] INFO root fetch - processPackages [cdktf-proxmox]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-proxmox-0.0.98.tar.gz]
+[2023-07-27 02:31:04] INFO root fetch - processPackages [cdktf-proxmox]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-proxmox-0.0.99.tar.gz]
+[2023-07-27 02:31:04] INFO root fetch - main [MainThread]: End processing [cdktf-proxmox]: success
+[2023-07-27 02:31:04] INFO root fetch - processPackages [azureml-acft-image-components]: Downloading https://files.pythonhosted.org/packages/c2/4c/c39c6718dda35b70925d6b2c893e31372e3c932478f5c52caf1ae909f8fa/azureml_acft_image_components-0.0.9-py3-none-any.whl
+[2023-07-27 02:31:04] INFO root fetch - processPackages [azureml-evaluate-mlflow]: Downloading https://files.pythonhosted.org/packages/bf/82/f2b5cca48caac7cedb5d44dff46c9fbcc32c3cde13444bead6d5aacb0c43/azureml_evaluate_mlflow-0.0.8-py3-none-any.whl
+[2023-07-27 02:31:04] INFO root fetch - processPackages [azureml-metrics]: Downloading https://files.pythonhosted.org/packages/ab/8d/c00408ae3f836d5caab609c4e0207687802fba036c489afd1de05df60ee8/azureml_metrics-0.0.8-py3-none-any.whl
+[2023-07-27 02:31:04] INFO root fetch - processPackages [azureml-acft-image-components]: executing diffoscope
+[2023-07-27 02:31:04] INFO root fetch - processPackages [azureml-acft-image-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_acft_image_components-0.0.8-py3-none-any.whl.zip tmp/azureml_acft_image_components-0.0.9-py3-none-any.whl.zip --markdown 20230727/a/azureml-acft-image-components/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-27 02:31:04] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/13/80/f2400f9cb3621417c7b6c7a312421f75288679ed95e1742c6a7cbd4ad306/cdk8s-plus-25-2.9.0.tar.gz
+[2023-07-27 02:31:05] INFO root fetch - processPackages [azureml-evaluate-mlflow]: Downloading https://files.pythonhosted.org/packages/b8/d5/37e5123c1308f4fb41e069c8fe225331772b429781cd0e55a35c8a932e20/azureml_evaluate_mlflow-0.0.9-py3-none-any.whl
+[2023-07-27 02:31:05] INFO root fetch - processPackages [azureml-metrics]: Downloading https://files.pythonhosted.org/packages/d9/b6/db1d2bb7b04794fb4db613f74b2e3f42e69d272672dc18a156a2eab656c4/azureml_metrics-0.0.9-py3-none-any.whl
+[2023-07-27 02:31:05] INFO root fetch - processPackages [azureml-metrics]: executing diffoscope
+[2023-07-27 02:31:05] INFO root fetch - processPackages [azureml-metrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_metrics-0.0.8-py3-none-any.whl.zip tmp/azureml_metrics-0.0.9-py3-none-any.whl.zip --markdown 20230727/a/azureml-metrics/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-27 02:31:05] INFO root fetch - processPackages [cdk8s-plus-25]: executing diffoscope
+[2023-07-27 02:31:05] INFO root fetch - processPackages [cdk8s-plus-25]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-25-2.8.98.tar.gz tmp/cdk8s-plus-25-2.9.0.tar.gz --markdown 20230727/c/cdk8s-plus-25/2.8.98-2.9.0/diff.md --exclude *.pyd
+[2023-07-27 02:31:05] INFO root fetch - processPackages [azureml-evaluate-mlflow]: executing diffoscope
+[2023-07-27 02:31:05] INFO root fetch - processPackages [azureml-evaluate-mlflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_evaluate_mlflow-0.0.8-py3-none-any.whl.zip tmp/azureml_evaluate_mlflow-0.0.9-py3-none-any.whl.zip --markdown 20230727/a/azureml-evaluate-mlflow/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-27 02:31:05] INFO root fetch - processPackages [azureml-acft-accelerator]: Remove: archive file [/home/abi/fetcher/tmp/azureml_acft_accelerator-0.0.8-py3-none-any.whl.zip]
+[2023-07-27 02:31:05] INFO root fetch - processPackages [azureml-acft-accelerator]: Remove: archive file [/home/abi/fetcher/tmp/azureml_acft_accelerator-0.0.9-py3-none-any.whl.zip]
+[2023-07-27 02:31:05] INFO root fetch - main [MainThread]: End processing [azureml-acft-accelerator]: success
+[2023-07-27 02:31:05] INFO root fetch - processPackages [azureml-acft-common-components]: Remove: archive file [/home/abi/fetcher/tmp/azureml_acft_common_components-0.0.8-py3-none-any.whl.zip]
+[2023-07-27 02:31:05] INFO root fetch - processPackages [azureml-acft-common-components]: Remove: archive file [/home/abi/fetcher/tmp/azureml_acft_common_components-0.0.9-py3-none-any.whl.zip]
+[2023-07-27 02:31:05] INFO root fetch - main [MainThread]: End processing [azureml-acft-common-components]: success
+[2023-07-27 02:31:05] INFO root fetch - processPackages [Furious-GUI]: Remove: archive file [/home/abi/fetcher/tmp/Furious-GUI-0.1.5.tar.gz]
+[2023-07-27 02:31:05] INFO root fetch - processPackages [Furious-GUI]: Remove: archive file [/home/abi/fetcher/tmp/Furious-GUI-0.1.6.tar.gz]
+[2023-07-27 02:31:05] INFO root fetch - main [MainThread]: End processing [Furious-GUI]: success
+[2023-07-27 02:31:06] INFO root fetch - processPackages [azureml-metrics]: Remove: archive file [/home/abi/fetcher/tmp/azureml_metrics-0.0.8-py3-none-any.whl.zip]
+[2023-07-27 02:31:06] INFO root fetch - processPackages [azureml-metrics]: Remove: archive file [/home/abi/fetcher/tmp/azureml_metrics-0.0.9-py3-none-any.whl.zip]
+[2023-07-27 02:31:06] INFO root fetch - main [MainThread]: End processing [azureml-metrics]: success
+[2023-07-27 02:31:06] INFO root fetch - processPackages [azureml-acft-contrib-hf-diffusion]: Remove: archive file [/home/abi/fetcher/tmp/azureml_acft_contrib_hf_diffusion-0.0.8-py3-none-any.whl.zip]
+[2023-07-27 02:31:06] INFO root fetch - processPackages [azureml-acft-contrib-hf-diffusion]: Remove: archive file [/home/abi/fetcher/tmp/azureml_acft_contrib_hf_diffusion-0.0.9-py3-none-any.whl.zip]
+[2023-07-27 02:31:06] INFO root fetch - main [MainThread]: End processing [azureml-acft-contrib-hf-diffusion]: success
+[2023-07-27 02:31:06] INFO root fetch - processPackages [azureml-acft-image-components]: Remove: archive file [/home/abi/fetcher/tmp/azureml_acft_image_components-0.0.8-py3-none-any.whl.zip]
+[2023-07-27 02:31:06] INFO root fetch - processPackages [azureml-acft-image-components]: Remove: archive file [/home/abi/fetcher/tmp/azureml_acft_image_components-0.0.9-py3-none-any.whl.zip]
+[2023-07-27 02:31:06] INFO root fetch - main [MainThread]: End processing [azureml-acft-image-components]: success
+[2023-07-27 02:31:06] INFO root fetch - processPackages [cdk8s-plus-25]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-25-2.8.98.tar.gz]
+[2023-07-27 02:31:06] INFO root fetch - processPackages [cdk8s-plus-25]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-25-2.9.0.tar.gz]
+[2023-07-27 02:31:06] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-25]: success
+[2023-07-27 02:31:06] INFO root fetch - processPackages [azureml-acft-contrib-hf-nlp]: Remove: archive file [/home/abi/fetcher/tmp/azureml_acft_contrib_hf_nlp-0.0.8-py3-none-any.whl.zip]
+[2023-07-27 02:31:06] INFO root fetch - processPackages [azureml-acft-contrib-hf-nlp]: Remove: archive file [/home/abi/fetcher/tmp/azureml_acft_contrib_hf_nlp-0.0.9-py3-none-any.whl.zip]
+[2023-07-27 02:31:06] INFO root fetch - main [MainThread]: End processing [azureml-acft-contrib-hf-nlp]: success
+[2023-07-27 02:31:06] INFO root fetch - processPackages [azureml-evaluate-mlflow]: Remove: archive file [/home/abi/fetcher/tmp/azureml_evaluate_mlflow-0.0.8-py3-none-any.whl.zip]
+[2023-07-27 02:31:06] INFO root fetch - processPackages [azureml-evaluate-mlflow]: Remove: archive file [/home/abi/fetcher/tmp/azureml_evaluate_mlflow-0.0.9-py3-none-any.whl.zip]
+[2023-07-27 02:31:06] INFO root fetch - main [MainThread]: End processing [azureml-evaluate-mlflow]: success
+[2023-07-27 02:31:06] INFO root fetch - main [MainThread]: Store serial: [19051321]
