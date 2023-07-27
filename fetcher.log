@@ -3059,3 +3059,93 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-27 02:36:22] INFO root fetch - processPackages [bisum]: Remove: archive file [/home/abi/fetcher/tmp/bisum-0.1.1.tar.gz]
 [2023-07-27 02:36:22] INFO root fetch - main [MainThread]: End processing [bisum]: success
 [2023-07-27 02:36:22] INFO root fetch - main [MainThread]: Store serial: [19051350]
+[2023-07-27 02:41:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19051350]
+[2023-07-27 02:41:30] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-27 02:41:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: litellm
+[2023-07-27 02:41:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gearsllm
+[2023-07-27 02:41:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: state-machine-semaphore
+[2023-07-27 02:41:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rsoup
+[2023-07-27 02:41:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: quant-alchemy
+[2023-07-27 02:41:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dolbyio-rest-apis
+[2023-07-27 02:41:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: feriados-brasileiros
+[2023-07-27 02:41:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bkapi-plugins-py
+[2023-07-27 02:41:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pepperize.cdk-organizations
+[2023-07-27 02:41:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cribl
+[2023-07-27 02:41:31] INFO root fetch - processPackages [dolbyio-rest-apis]: New version: [4.0.0] Old Version: [3.7.1]
+[2023-07-27 02:41:31] INFO root fetch - processPackages [rsoup]: New version: [3.1.1] Old Version: [3.1.0]
+[2023-07-27 02:41:31] INFO root fetch - processPackages [quant-alchemy]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-27 02:41:31] WARNING root fetch - processPackages [litellm]: Skipping, unable to determine old version
+[2023-07-27 02:41:31] INFO root fetch - processPackages [litellm]: Start processing: ream2
+[2023-07-27 02:41:31] INFO root fetch - main [MainThread]: End processing [litellm] error
+[2023-07-27 02:41:31] INFO root fetch - processPackages [feriados-brasileiros]: New version: [0.0.7] Old Version: [0.0.5]
+[2023-07-27 02:41:31] WARNING root fetch - processPackages [cribl]: Skipping, unable to determine old version
+[2023-07-27 02:41:31] INFO root fetch - main [MainThread]: End processing [cribl] error
+[2023-07-27 02:41:31] INFO root fetch - processPackages [bkapi-plugins-py]: New version: [0.727] Old Version: [0.703]
+[2023-07-27 02:41:31] INFO root fetch - processPackages [gearsllm]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-27 02:41:31] INFO root fetch - processPackages [state-machine-semaphore]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-27 02:41:31] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-07-27 02:41:31] INFO root fetch - processPackages [ream2]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-07-27 02:41:31] INFO root fetch - processPackages [gearsllm]: Downloading https://files.pythonhosted.org/packages/d4/a2/0687c5f8865e7fd066846289fd27a5bf1c319b505e2287c9d6ddbe8cf895/gearsllm-0.1.8.tar.gz
+[2023-07-27 02:41:31] INFO root fetch - processPackages [dolbyio-rest-apis]: Downloading https://files.pythonhosted.org/packages/53/77/aa072bed83b1868186b4c867576cd211b4418400d5b00c12e53d67859a2e/dolbyio-rest-apis-3.7.1.tar.gz
+[2023-07-27 02:41:31] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/fa/f7/eea494ef2079699969c054c97478b7e0d5db0ce186fbb2708d9a243b4366/state-machine-semaphore-0.1.98.tar.gz
+[2023-07-27 02:41:31] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/c4/ec/fa2c14031b7b9ce22e4b044c652dd13a1a81769141fcd90e55c9eeb24d66/pepperize.cdk-organizations-0.7.98.tar.gz
+[2023-07-27 02:41:31] INFO root fetch - processPackages [quant-alchemy]: Downloading https://files.pythonhosted.org/packages/79/35/7c3548f46be1a4c039c217a625b6476a07fad7c663d3a376942b0fed2b2f/quant-alchemy-0.1.3.tar.gz
+[2023-07-27 02:41:31] INFO root fetch - processPackages [rsoup]: Downloading https://files.pythonhosted.org/packages/44/95/e7f7fefb434ab654e1c2278002403b5b5df7ee421eb874a193608dc19f5f/rsoup-3.1.0.tar.gz
+[2023-07-27 02:41:31] INFO root fetch - processPackages [bkapi-plugins-py]: Downloading https://files.pythonhosted.org/packages/d4/ac/53f3e96ec86a99e135df4fac8eb9907f93564812c82112d4e982f8d56611/bkapi-plugins-py-0.703.tar.gz
+[2023-07-27 02:41:31] INFO root fetch - processPackages [feriados-brasileiros]: Downloading https://files.pythonhosted.org/packages/1a/1a/2b4794496b5d43f6c427664fbf712dacba908d66f440f9c6cf1240e6aa1a/feriados_brasileiros-0.0.5.tar.gz
+[2023-07-27 02:41:31] INFO root fetch - processPackages [ream2]: Downloading https://files.pythonhosted.org/packages/5c/ef/d5da9f4ae7fddd7c14d6cda1a9fc688917c17024c42f890d0b7de28ed4c8/ream2-2.9.0.tar.gz
+[2023-07-27 02:41:31] INFO root fetch - processPackages [gearsllm]: Downloading https://files.pythonhosted.org/packages/0e/f8/6abc4e6811387a0f9bcd70790e57a9ed2d019e847c391914880502a2febc/gearsllm-0.1.9.tar.gz
+[2023-07-27 02:41:31] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/12/45/1106cc30844f7f4d96f7898a6ef3647d24a597c297bab995920a5915750e/pepperize.cdk-organizations-0.7.99.tar.gz
+[2023-07-27 02:41:31] INFO root fetch - processPackages [dolbyio-rest-apis]: Downloading https://files.pythonhosted.org/packages/f9/58/922fd0fe9c141593ade1965023197b3b8111ef26bff8fc1032121843675c/dolbyio-rest-apis-4.0.0.tar.gz
+[2023-07-27 02:41:31] INFO root fetch - processPackages [gearsllm]: executing diffoscope
+[2023-07-27 02:41:31] INFO root fetch - processPackages [gearsllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gearsllm-0.1.8.tar.gz tmp/gearsllm-0.1.9.tar.gz --markdown 20230727/g/gearsllm/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-27 02:41:31] INFO root fetch - processPackages [quant-alchemy]: Downloading https://files.pythonhosted.org/packages/23/c7/5cea44a99457cddaa84753d575e9834209411855d836c411153c8b00d9a4/quant-alchemy-0.1.4.tar.gz
+[2023-07-27 02:41:32] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-07-27 02:41:32] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230727/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-07-27 02:41:32] INFO root fetch - processPackages [feriados-brasileiros]: Downloading https://files.pythonhosted.org/packages/15/bf/aa069dd3e2b15fe5029f6040fa05f24af1408ee1e388096b37bc88d30b3f/feriados_brasileiros-0.0.7.tar.gz
+[2023-07-27 02:41:32] INFO root fetch - processPackages [rsoup]: Downloading https://files.pythonhosted.org/packages/d5/06/a90de8ef421a391bab82afd1bc803321e2d4e813e723942f4c1a4d2f1df4/rsoup-3.1.1.tar.gz
+[2023-07-27 02:41:32] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/80/0f/c73e069a7ceff3d9f61065aa4b5b338bc0b9f4f933b94a97692457bfa317/state-machine-semaphore-0.1.99.tar.gz
+[2023-07-27 02:41:32] INFO root fetch - processPackages [dolbyio-rest-apis]: executing diffoscope
+[2023-07-27 02:41:32] INFO root fetch - processPackages [dolbyio-rest-apis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dolbyio-rest-apis-3.7.1.tar.gz tmp/dolbyio-rest-apis-4.0.0.tar.gz --markdown 20230727/d/dolbyio-rest-apis/3.7.1-4.0.0/diff.md --exclude *.pyd
+[2023-07-27 02:41:32] INFO root fetch - processPackages [bkapi-plugins-py]: Downloading https://files.pythonhosted.org/packages/7a/74/7d6377d078d5253fd55a3a50f81869db1ff845ad9f0fa18eb066d6134b56/bkapi-plugins-py-0.727.tar.gz
+[2023-07-27 02:41:32] INFO root fetch - processPackages [quant-alchemy]: executing diffoscope
+[2023-07-27 02:41:32] INFO root fetch - processPackages [quant-alchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quant-alchemy-0.1.3.tar.gz tmp/quant-alchemy-0.1.4.tar.gz --markdown 20230727/q/quant-alchemy/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-27 02:41:32] INFO root fetch - processPackages [feriados-brasileiros]: executing diffoscope
+[2023-07-27 02:41:32] INFO root fetch - processPackages [feriados-brasileiros]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feriados_brasileiros-0.0.5.tar.gz tmp/feriados_brasileiros-0.0.7.tar.gz --markdown 20230727/f/feriados-brasileiros/0.0.5-0.0.7/diff.md --exclude *.pyd
+[2023-07-27 02:41:32] INFO root fetch - processPackages [ream2]: Downloading https://files.pythonhosted.org/packages/87/f4/ae92473c49108a0f9e62764c20ea1b65c84f8b6305313fd7d35c57a4d9f4/ream2-2.9.1.tar.gz
+[2023-07-27 02:41:32] INFO root fetch - processPackages [rsoup]: executing diffoscope
+[2023-07-27 02:41:32] INFO root fetch - processPackages [rsoup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rsoup-3.1.0.tar.gz tmp/rsoup-3.1.1.tar.gz --markdown 20230727/r/rsoup/3.1.0-3.1.1/diff.md --exclude *.pyd
+[2023-07-27 02:41:32] INFO root fetch - processPackages [state-machine-semaphore]: executing diffoscope
+[2023-07-27 02:41:32] INFO root fetch - processPackages [state-machine-semaphore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/state-machine-semaphore-0.1.98.tar.gz tmp/state-machine-semaphore-0.1.99.tar.gz --markdown 20230727/s/state-machine-semaphore/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-27 02:41:32] INFO root fetch - processPackages [bkapi-plugins-py]: executing diffoscope
+[2023-07-27 02:41:32] INFO root fetch - processPackages [bkapi-plugins-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bkapi-plugins-py-0.703.tar.gz tmp/bkapi-plugins-py-0.727.tar.gz --markdown 20230727/b/bkapi-plugins-py/0.703-0.727/diff.md --exclude *.pyd
+[2023-07-27 02:41:32] INFO root fetch - processPackages [ream2]: executing diffoscope
+[2023-07-27 02:41:32] INFO root fetch - processPackages [ream2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ream2-2.9.0.tar.gz tmp/ream2-2.9.1.tar.gz --markdown 20230727/r/ream2/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-07-27 02:41:33] INFO root fetch - processPackages [gearsllm]: Remove: archive file [/home/abi/fetcher/tmp/gearsllm-0.1.8.tar.gz]
+[2023-07-27 02:41:33] INFO root fetch - processPackages [gearsllm]: Remove: archive file [/home/abi/fetcher/tmp/gearsllm-0.1.9.tar.gz]
+[2023-07-27 02:41:33] INFO root fetch - main [MainThread]: End processing [gearsllm]: success
+[2023-07-27 02:41:33] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.98.tar.gz]
+[2023-07-27 02:41:33] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.99.tar.gz]
+[2023-07-27 02:41:33] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-07-27 02:41:33] INFO root fetch - processPackages [quant-alchemy]: Remove: archive file [/home/abi/fetcher/tmp/quant-alchemy-0.1.3.tar.gz]
+[2023-07-27 02:41:33] INFO root fetch - processPackages [quant-alchemy]: Remove: archive file [/home/abi/fetcher/tmp/quant-alchemy-0.1.4.tar.gz]
+[2023-07-27 02:41:33] INFO root fetch - main [MainThread]: End processing [quant-alchemy]: success
+[2023-07-27 02:41:33] INFO root fetch - processPackages [feriados-brasileiros]: Remove: archive file [/home/abi/fetcher/tmp/feriados_brasileiros-0.0.5.tar.gz]
+[2023-07-27 02:41:33] INFO root fetch - processPackages [feriados-brasileiros]: Remove: archive file [/home/abi/fetcher/tmp/feriados_brasileiros-0.0.7.tar.gz]
+[2023-07-27 02:41:33] INFO root fetch - main [MainThread]: End processing [feriados-brasileiros]: success
+[2023-07-27 02:41:33] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.98.tar.gz]
+[2023-07-27 02:41:33] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.99.tar.gz]
+[2023-07-27 02:41:33] INFO root fetch - main [MainThread]: End processing [state-machine-semaphore]: success
+[2023-07-27 02:41:33] INFO root fetch - processPackages [dolbyio-rest-apis]: Remove: archive file [/home/abi/fetcher/tmp/dolbyio-rest-apis-3.7.1.tar.gz]
+[2023-07-27 02:41:33] INFO root fetch - processPackages [dolbyio-rest-apis]: Remove: archive file [/home/abi/fetcher/tmp/dolbyio-rest-apis-4.0.0.tar.gz]
+[2023-07-27 02:41:33] INFO root fetch - main [MainThread]: End processing [dolbyio-rest-apis]: success
+[2023-07-27 02:41:33] INFO root fetch - processPackages [ream2]: Remove: archive file [/home/abi/fetcher/tmp/ream2-2.9.0.tar.gz]
+[2023-07-27 02:41:33] INFO root fetch - processPackages [ream2]: Remove: archive file [/home/abi/fetcher/tmp/ream2-2.9.1.tar.gz]
+[2023-07-27 02:41:33] INFO root fetch - main [MainThread]: End processing [ream2]: success
+[2023-07-27 02:41:33] INFO root fetch - processPackages [rsoup]: Remove: archive file [/home/abi/fetcher/tmp/rsoup-3.1.0.tar.gz]
+[2023-07-27 02:41:33] INFO root fetch - processPackages [rsoup]: Remove: archive file [/home/abi/fetcher/tmp/rsoup-3.1.1.tar.gz]
+[2023-07-27 02:41:33] INFO root fetch - main [MainThread]: End processing [rsoup]: success
+[2023-07-27 02:41:34] INFO root fetch - processPackages [bkapi-plugins-py]: Remove: archive file [/home/abi/fetcher/tmp/bkapi-plugins-py-0.703.tar.gz]
+[2023-07-27 02:41:34] INFO root fetch - processPackages [bkapi-plugins-py]: Remove: archive file [/home/abi/fetcher/tmp/bkapi-plugins-py-0.727.tar.gz]
+[2023-07-27 02:41:34] INFO root fetch - main [MainThread]: End processing [bkapi-plugins-py]: success
+[2023-07-27 02:41:34] INFO root fetch - main [MainThread]: Store serial: [19051426]
