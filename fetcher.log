@@ -18207,3 +18207,170 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-27 09:47:32] INFO root fetch - processPackages [kafkaproducerself]: Remove: archive file [/home/abi/fetcher/tmp/kafkaproducerself-0.0.5.tar.gz]
 [2023-07-27 09:47:32] INFO root fetch - main [MainThread]: End processing [kafkaproducerself]: success
 [2023-07-27 09:47:32] INFO root fetch - main [MainThread]: Store serial: [19056858]
+[2023-07-27 09:52:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19056858]
+[2023-07-27 09:52:41] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-07-27 09:52:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dragonfly-radiance
+[2023-07-27 09:52:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: decentriq-platform
+[2023-07-27 09:52:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: finterion-investing-algorithm-framework
+[2023-07-27 09:52:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: keras-nightly
+[2023-07-27 09:52:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lbt-honeybee
+[2023-07-27 09:52:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nonebot-plugin-nonememe
+[2023-07-27 09:52:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: recon-lw
+[2023-07-27 09:52:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tomlkit
+[2023-07-27 09:52:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: py4jps
+[2023-07-27 09:52:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: t3w
+[2023-07-27 09:52:41] INFO root fetch - processPackages [dragonfly-radiance]: New version: [0.2.9] Old Version: [0.2.83]
+[2023-07-27 09:52:41] WARNING root fetch - processPackages [nonebot-plugin-nonememe]: Skipping, unable to determine old version
+[2023-07-27 09:52:41] INFO root fetch - processPackages [nonebot-plugin-nonememe]: Start processing: neural-amp-modeler
+[2023-07-27 09:52:41] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-nonememe] error
+[2023-07-27 09:52:41] INFO root fetch - processPackages [decentriq-platform]: New version: [0.9.1] Old Version: [0.9.0rc2]
+[2023-07-27 09:52:41] INFO root fetch - processPackages [keras-nightly]: New version: [2.9.0.dev2022033107] Old Version: [2.9.0.dev2022033007]
+[2023-07-27 09:52:41] INFO root fetch - processPackages [finterion-investing-algorithm-framework]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-07-27 09:52:41] WARNING root fetch - processPackages [t3w]: Skipping, unable to determine old version
+[2023-07-27 09:52:41] INFO root fetch - processPackages [t3w]: Start processing: dragonfly-uwg
+[2023-07-27 09:52:41] INFO root fetch - main [MainThread]: End processing [t3w] error
+[2023-07-27 09:52:41] INFO root fetch - processPackages [py4jps]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-27 09:52:41] INFO root fetch - processPackages [recon-lw]: New version: [2.0.0.dev5677926480] Old Version: [2.0.0.dev5610522079]
+[2023-07-27 09:52:41] INFO root fetch - processPackages [tomlkit]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-27 09:52:41] INFO root fetch - processPackages [neural-amp-modeler]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-07-27 09:52:42] INFO root fetch - processPackages [lbt-honeybee]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-07-27 09:52:42] INFO root fetch - processPackages [dragonfly-uwg]: New version: [0.5.99] Old Version: [0.5.98]
+[2023-07-27 09:52:42] INFO root fetch - processPackages [finterion-investing-algorithm-framework]: Downloading https://files.pythonhosted.org/packages/77/71/5b7d29139a15e100ad2342617818e7ad01f146492c07d31d8bd26bc06ca3/finterion_investing_algorithm_framework-0.5.2-py3-none-any.whl
+[2023-07-27 09:52:42] INFO root fetch - processPackages [dragonfly-radiance]: Downloading https://files.pythonhosted.org/packages/d4/e5/6f1884847f1b3e5920a28a856fa02305eb30ed6ee5213289bf7e0b3b8d23/dragonfly-radiance-0.2.83.tar.gz
+[2023-07-27 09:52:42] INFO root fetch - processPackages [decentriq-platform]: Downloading https://files.pythonhosted.org/packages/8b/c1/695a0f73f216e20fbf9a98a63235989a07b60ced292eb67c210593fda34a/decentriq-platform-0.9.0rc2.tar.gz
+[2023-07-27 09:52:42] INFO root fetch - processPackages [py4jps]: Downloading https://files.pythonhosted.org/packages/78/42/c19dfc9b4b84b0a566c91233badf811675c0e67496eb2637024a115a0d7b/py4jps-1.0.8.tar.gz
+[2023-07-27 09:52:42] INFO root fetch - processPackages [neural-amp-modeler]: Downloading https://files.pythonhosted.org/packages/d1/08/cdb7009a2c820748d9579e876efc933e2082e734849be60e6c3fcb8336be/neural-amp-modeler-0.7.1.tar.gz
+[2023-07-27 09:52:42] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/19/59/4901be09b4bc6b97917c58bf3279cb373aa222989b9501e53b4c43213a9e/lbt-honeybee-0.7.98.tar.gz
+[2023-07-27 09:52:42] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/9c/ac/df626672be5af4204ef9c477f1110050afecb7a0f086fef8a6a2e3469a56/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl
+[2023-07-27 09:52:42] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/eb/dd/fc18d74ef62972073e0f8b40f1f6eb6cbc513f4853d2b663e193a6c434c0/recon_lw-2.0.0.dev5610522079.tar.gz
+[2023-07-27 09:52:42] INFO root fetch - processPackages [tomlkit]: Downloading https://files.pythonhosted.org/packages/9a/32/1803492307e16ed41c6f2410a3c710fdfb8bd529d55cc3ada81f3adf268c/tomlkit-0.9.1.tar.gz
+[2023-07-27 09:52:42] INFO root fetch - processPackages [dragonfly-uwg]: Downloading https://files.pythonhosted.org/packages/a6/3c/7afbd082f170d8d51ed57abdf8bb67058ca404ede70f9d982fd95c8bb807/dragonfly-uwg-0.5.98.tar.gz
+[2023-07-27 09:52:42] WARNING root fetch - processPackages [py4jps]: Skipping package: exceeds size limit 92613788>=10485760
+[2023-07-27 09:52:42] INFO root fetch - processPackages [py4jps]: Start processing: dragonfly-energy
+[2023-07-27 09:52:42] INFO root fetch - main [MainThread]: End processing [py4jps] error
+[2023-07-27 09:52:42] INFO root fetch - processPackages [dragonfly-energy]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-07-27 09:52:42] INFO root fetch - processPackages [dragonfly-radiance]: Downloading https://files.pythonhosted.org/packages/e9/01/706de1a3d81bb520c7a73e10a084040d9e5f37ff57b7defd9715a2c4018e/dragonfly-radiance-0.2.9.tar.gz
+[2023-07-27 09:52:42] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/a2/24/156ec161f44515db7966a68d9cc8aa62da7475128d138541e64b86dd4487/lbt-honeybee-0.7.99.tar.gz
+[2023-07-27 09:52:42] INFO root fetch - processPackages [finterion-investing-algorithm-framework]: Downloading https://files.pythonhosted.org/packages/09/49/b2d56873e136f5d0db8bd542cb7690f1c819606c884f1eae89097d7d1887/finterion_investing_algorithm_framework-0.5.3-py3-none-any.whl
+[2023-07-27 09:52:42] INFO root fetch - processPackages [dragonfly-energy]: Downloading https://files.pythonhosted.org/packages/20/4e/115840f938ee254b23bd515351ba786228441464717f8557431f914e75f4/dragonfly-energy-1.9.8.tar.gz
+[2023-07-27 09:52:42] INFO root fetch - processPackages [dragonfly-uwg]: Downloading https://files.pythonhosted.org/packages/55/b3/3f9a36d82b87f343d4e196e93a8cf3e838b9c80b0849f927d4f3505355af/dragonfly-uwg-0.5.99.tar.gz
+[2023-07-27 09:52:42] INFO root fetch - processPackages [neural-amp-modeler]: Downloading https://files.pythonhosted.org/packages/8f/b1/356e1b20cfec35a4f367f72e1e8432207de96154848290d95d8c180f1faf/neural-amp-modeler-0.7.2.tar.gz
+[2023-07-27 09:52:42] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/10/ce/2b5e8ebea69aca38ab11a219265db3a33b67acf4980d8c2f71ec9022226a/recon_lw-2.0.0.dev5677926480.tar.gz
+[2023-07-27 09:52:42] INFO root fetch - processPackages [dragonfly-radiance]: executing diffoscope
+[2023-07-27 09:52:42] INFO root fetch - processPackages [dragonfly-radiance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-radiance-0.2.83.tar.gz tmp/dragonfly-radiance-0.2.9.tar.gz --markdown 20230727/d/dragonfly-radiance/0.2.83-0.2.9/diff.md --exclude *.pyd
+[2023-07-27 09:52:42] INFO root fetch - processPackages [lbt-honeybee]: executing diffoscope
+[2023-07-27 09:52:42] INFO root fetch - processPackages [lbt-honeybee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-honeybee-0.7.98.tar.gz tmp/lbt-honeybee-0.7.99.tar.gz --markdown 20230727/l/lbt-honeybee/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-07-27 09:52:42] INFO root fetch - processPackages [decentriq-platform]: Downloading https://files.pythonhosted.org/packages/69/7c/b6c9a006e306cc15917be3102e43763687fbce0bf34b98d63390c4fadf94/decentriq-platform-0.9.1.tar.gz
+[2023-07-27 09:52:42] INFO root fetch - processPackages [tomlkit]: Downloading https://files.pythonhosted.org/packages/3c/9b/62c6f4e28152a9473d3ecceef627deaa32bec23f9666a5ed4efa6067380f/tomlkit-0.9.2.tar.gz
+[2023-07-27 09:52:43] INFO root fetch - processPackages [finterion-investing-algorithm-framework]: executing diffoscope
+[2023-07-27 09:52:43] INFO root fetch - processPackages [finterion-investing-algorithm-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finterion_investing_algorithm_framework-0.5.2-py3-none-any.whl.zip tmp/finterion_investing_algorithm_framework-0.5.3-py3-none-any.whl.zip --markdown 20230727/f/finterion-investing-algorithm-framework/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-07-27 09:52:43] INFO root fetch - processPackages [recon-lw]: executing diffoscope
+[2023-07-27 09:52:43] INFO root fetch - processPackages [recon-lw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recon_lw-2.0.0.dev5610522079.tar.gz tmp/recon_lw-2.0.0.dev5677926480.tar.gz --markdown 20230727/r/recon-lw/2.0.0.dev5610522079-2.0.0.dev5677926480/diff.md --exclude *.pyd
+[2023-07-27 09:52:43] INFO root fetch - processPackages [dragonfly-uwg]: executing diffoscope
+[2023-07-27 09:52:43] INFO root fetch - processPackages [dragonfly-uwg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-uwg-0.5.98.tar.gz tmp/dragonfly-uwg-0.5.99.tar.gz --markdown 20230727/d/dragonfly-uwg/0.5.98-0.5.99/diff.md --exclude *.pyd
+[2023-07-27 09:52:43] INFO root fetch - processPackages [neural-amp-modeler]: executing diffoscope
+[2023-07-27 09:52:43] INFO root fetch - processPackages [neural-amp-modeler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neural-amp-modeler-0.7.1.tar.gz tmp/neural-amp-modeler-0.7.2.tar.gz --markdown 20230727/n/neural-amp-modeler/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-07-27 09:52:43] INFO root fetch - processPackages [dragonfly-energy]: Downloading https://files.pythonhosted.org/packages/09/b6/c12f13159c5beb3b855a32f792faef162ad37358d2e0d3311cbd68a969db/dragonfly-energy-1.9.9.tar.gz
+[2023-07-27 09:52:43] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/64/5c/effcf86e94e42de7429f684d499233617aaa054e929986d65d4d72fb5c19/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl
+[2023-07-27 09:52:43] INFO root fetch - processPackages [tomlkit]: executing diffoscope
+[2023-07-27 09:52:43] INFO root fetch - processPackages [tomlkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tomlkit-0.9.1.tar.gz tmp/tomlkit-0.9.2.tar.gz --markdown 20230727/t/tomlkit/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-27 09:52:43] INFO root fetch - processPackages [decentriq-platform]: executing diffoscope
+[2023-07-27 09:52:43] INFO root fetch - processPackages [decentriq-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decentriq-platform-0.9.0rc2.tar.gz tmp/decentriq-platform-0.9.1.tar.gz --markdown 20230727/d/decentriq-platform/0.9.0rc2-0.9.1/diff.md --exclude *.pyd
+[2023-07-27 09:52:43] INFO root fetch - processPackages [dragonfly-energy]: executing diffoscope
+[2023-07-27 09:52:43] INFO root fetch - processPackages [dragonfly-energy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-energy-1.9.8.tar.gz tmp/dragonfly-energy-1.9.9.tar.gz --markdown 20230727/d/dragonfly-energy/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-07-27 09:52:43] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2023-07-27 09:52:43] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip --markdown 20230727/k/keras-nightly/2.9.0.dev2022033007-2.9.0.dev2022033107/diff.md --exclude *.pyd
+[2023-07-27 09:52:44] INFO root fetch - processPackages [dragonfly-radiance]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-radiance-0.2.83.tar.gz]
+[2023-07-27 09:52:44] INFO root fetch - processPackages [dragonfly-radiance]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-radiance-0.2.9.tar.gz]
+[2023-07-27 09:52:44] INFO root fetch - processPackages [dragonfly-radiance]: Start processing: pydbapi
+[2023-07-27 09:52:44] INFO root fetch - main [MainThread]: End processing [dragonfly-radiance]: success
+[2023-07-27 09:52:44] INFO root fetch - processPackages [pydbapi]: New version: [0.0.98] Old Version: [0.0.97]
+[2023-07-27 09:52:44] INFO root fetch - processPackages [finterion-investing-algorithm-framework]: Remove: archive file [/home/abi/fetcher/tmp/finterion_investing_algorithm_framework-0.5.2-py3-none-any.whl.zip]
+[2023-07-27 09:52:44] INFO root fetch - processPackages [finterion-investing-algorithm-framework]: Remove: archive file [/home/abi/fetcher/tmp/finterion_investing_algorithm_framework-0.5.3-py3-none-any.whl.zip]
+[2023-07-27 09:52:44] INFO root fetch - processPackages [finterion-investing-algorithm-framework]: Start processing: mkdocs-material
+[2023-07-27 09:52:44] INFO root fetch - main [MainThread]: End processing [finterion-investing-algorithm-framework]: success
+[2023-07-27 09:52:44] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.7.98.tar.gz]
+[2023-07-27 09:52:44] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.7.99.tar.gz]
+[2023-07-27 09:52:44] INFO root fetch - processPackages [lbt-honeybee]: Start processing: tf-nightly-cpu
+[2023-07-27 09:52:44] INFO root fetch - main [MainThread]: End processing [lbt-honeybee]: success
+[2023-07-27 09:52:44] INFO root fetch - processPackages [recon-lw]: Remove: archive file [/home/abi/fetcher/tmp/recon_lw-2.0.0.dev5610522079.tar.gz]
+[2023-07-27 09:52:44] INFO root fetch - processPackages [recon-lw]: Remove: archive file [/home/abi/fetcher/tmp/recon_lw-2.0.0.dev5677926480.tar.gz]
+[2023-07-27 09:52:44] INFO root fetch - processPackages [recon-lw]: Start processing: hserv
+[2023-07-27 09:52:44] INFO root fetch - main [MainThread]: End processing [recon-lw]: success
+[2023-07-27 09:52:44] INFO root fetch - processPackages [pydbapi]: Downloading https://files.pythonhosted.org/packages/21/bf/df6f10068eb3e7fcab15fb118b962b0ecd89419e4c08f7f1feaf0a0d8a8f/pydbapi-0.0.97.tar.gz
+[2023-07-27 09:52:44] INFO root fetch - processPackages [mkdocs-material]: New version: [9.2.0b1] Old Version: [9.2.0b0]
+[2023-07-27 09:52:44] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.14.0.dev20230727] Old Version: [2.14.0.dev20230726]
+[2023-07-27 09:52:44] INFO root fetch - processPackages [hserv]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-27 09:52:45] INFO root fetch - processPackages [neural-amp-modeler]: Remove: archive file [/home/abi/fetcher/tmp/neural-amp-modeler-0.7.1.tar.gz]
+[2023-07-27 09:52:45] INFO root fetch - processPackages [neural-amp-modeler]: Remove: archive file [/home/abi/fetcher/tmp/neural-amp-modeler-0.7.2.tar.gz]
+[2023-07-27 09:52:45] INFO root fetch - processPackages [neural-amp-modeler]: Start processing: lbt-honeybee
+[2023-07-27 09:52:45] INFO root fetch - main [MainThread]: End processing [neural-amp-modeler]: success
+[2023-07-27 09:52:45] INFO root fetch - processPackages [lbt-honeybee]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-07-27 09:52:45] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/e2/57/e1aab93c6659f7e3affe0f1caebebbebb1841b06986e65cc8b67388b690c/tf_nightly_cpu-2.14.0.dev20230726-cp39-cp39-win_amd64.whl
+[2023-07-27 09:52:45] INFO root fetch - processPackages [hserv]: Downloading https://files.pythonhosted.org/packages/9f/97/d8511f768e13ac8ca7d84ab918e76587aab375e986729bc04db791d2367e/hserv-0.0.8.tar.gz
+[2023-07-27 09:52:45] INFO root fetch - processPackages [pydbapi]: Downloading https://files.pythonhosted.org/packages/f4/c7/8303cd1d3ce9d177d1b77762d457e400bba324c6257b84c966cd99724f5e/pydbapi-0.0.98.tar.gz
+[2023-07-27 09:52:45] INFO root fetch - processPackages [decentriq-platform]: Remove: archive file [/home/abi/fetcher/tmp/decentriq-platform-0.9.0rc2.tar.gz]
+[2023-07-27 09:52:45] INFO root fetch - processPackages [decentriq-platform]: Remove: archive file [/home/abi/fetcher/tmp/decentriq-platform-0.9.1.tar.gz]
+[2023-07-27 09:52:45] INFO root fetch - processPackages [decentriq-platform]: Start processing: composabl-ray
+[2023-07-27 09:52:45] INFO root fetch - main [MainThread]: End processing [decentriq-platform]: success
+[2023-07-27 09:52:45] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/19/59/4901be09b4bc6b97917c58bf3279cb373aa222989b9501e53b4c43213a9e/lbt-honeybee-0.7.98.tar.gz
+[2023-07-27 09:52:45] INFO root fetch - processPackages [dragonfly-uwg]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-uwg-0.5.98.tar.gz]
+[2023-07-27 09:52:45] INFO root fetch - processPackages [dragonfly-uwg]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-uwg-0.5.99.tar.gz]
+[2023-07-27 09:52:45] INFO root fetch - processPackages [dragonfly-uwg]: Start processing: gitstats-abilian
+[2023-07-27 09:52:45] INFO root fetch - main [MainThread]: End processing [dragonfly-uwg]: success
+[2023-07-27 09:52:45] INFO root fetch - processPackages [mkdocs-material]: executing diffoscope
+[2023-07-27 09:52:45] INFO root fetch - processPackages [mkdocs-material]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs_material-9.2.0b0.tar.gz tmp/mkdocs_material-9.2.0b1.tar.gz --markdown 20230727/m/mkdocs-material/9.2.0b0-9.2.0b1/diff.md --exclude *.pyd
+[2023-07-27 09:52:45] INFO root fetch - processPackages [dragonfly-energy]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-energy-1.9.8.tar.gz]
+[2023-07-27 09:52:45] INFO root fetch - processPackages [dragonfly-energy]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-energy-1.9.9.tar.gz]
+[2023-07-27 09:52:45] INFO root fetch - processPackages [dragonfly-energy]: Start processing: alembic-postgresql-enum
+[2023-07-27 09:52:45] INFO root fetch - main [MainThread]: End processing [dragonfly-energy]: success
+[2023-07-27 09:52:45] INFO root fetch - processPackages [composabl-ray]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-27 09:52:45] WARNING root fetch - processPackages [gitstats-abilian]: Skipping, unable to determine old version
+[2023-07-27 09:52:45] INFO root fetch - main [MainThread]: End processing [gitstats-abilian] error
+[2023-07-27 09:52:45] INFO root fetch - processPackages [pydbapi]: executing diffoscope
+[2023-07-27 09:52:45] INFO root fetch - processPackages [pydbapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydbapi-0.0.97.tar.gz tmp/pydbapi-0.0.98.tar.gz --markdown 20230727/p/pydbapi/0.0.97-0.0.98/diff.md --exclude *.pyd
+[2023-07-27 09:52:45] INFO root fetch - processPackages [alembic-postgresql-enum]: New version: [0.1.4a0] Old Version: [0.1.3a2]
+[2023-07-27 09:52:45] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/7d/67/200ffc71d69d89c3bc1b69d8e527bd2927049507031f69d5605785113dd3/tf_nightly_cpu-2.14.0.dev20230727-cp39-cp39-win_amd64.whl
+[2023-07-27 09:52:45] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/a2/24/156ec161f44515db7966a68d9cc8aa62da7475128d138541e64b86dd4487/lbt-honeybee-0.7.99.tar.gz
+[2023-07-27 09:52:45] INFO root fetch - processPackages [alembic-postgresql-enum]: Downloading https://files.pythonhosted.org/packages/04/75/4a1fdbea71e007857d1ccf7ea8439dbfe0a551604848d0c38f743c424fcc/alembic_postgresql_enum-0.1.3a2.tar.gz
+[2023-07-27 09:52:45] INFO root fetch - processPackages [lbt-honeybee]: executing diffoscope
+[2023-07-27 09:52:45] INFO root fetch - processPackages [lbt-honeybee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-honeybee-0.7.98.tar.gz tmp/lbt-honeybee-0.7.99.tar.gz --markdown 20230727/l/lbt-honeybee/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-07-27 09:52:45] INFO root fetch - processPackages [composabl-ray]: Downloading https://files.pythonhosted.org/packages/cd/69/a0f372ab9e983a1583cd3c5d7b3c7796a75e3cdbd2c46326a41490f0bf48/composabl_ray-0.2.3-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-07-27 09:52:45] INFO root fetch - processPackages [hserv]: Downloading https://files.pythonhosted.org/packages/36/92/1dda30c84099f91f8d5fbb2d3235d8cee3d69d102795ec377f5975bdf659/hserv-0.0.9.tar.gz
+[2023-07-27 09:52:45] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2023-07-27 09:52:45] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.14.0.dev20230726-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.14.0.dev20230727-cp39-cp39-win_amd64.whl.zip --markdown 20230727/t/tf-nightly-cpu/2.14.0.dev20230726-2.14.0.dev20230727/diff.md --exclude *.pyd
+[2023-07-27 09:52:45] INFO root fetch - processPackages [alembic-postgresql-enum]: Downloading https://files.pythonhosted.org/packages/e2/17/26b34877128a307a79fdb0d9b965a17c092061c92cf4ad9c1f1b450489a9/alembic_postgresql_enum-0.1.4a0.tar.gz
+[2023-07-27 09:52:45] INFO root fetch - processPackages [hserv]: executing diffoscope
+[2023-07-27 09:52:45] INFO root fetch - processPackages [hserv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hserv-0.0.8.tar.gz tmp/hserv-0.0.9.tar.gz --markdown 20230727/h/hserv/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-27 09:52:46] INFO root fetch - processPackages [alembic-postgresql-enum]: executing diffoscope
+[2023-07-27 09:52:46] INFO root fetch - processPackages [alembic-postgresql-enum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alembic_postgresql_enum-0.1.3a2.tar.gz tmp/alembic_postgresql_enum-0.1.4a0.tar.gz --markdown 20230727/a/alembic-postgresql-enum/0.1.3a2-0.1.4a0/diff.md --exclude *.pyd
+[2023-07-27 09:52:46] INFO root fetch - processPackages [composabl-ray]: Downloading https://files.pythonhosted.org/packages/95/f3/a837f616e0220bda79663b4ae1ea52567b670cd007f476fad201f7543d40/composabl_ray-0.2.4-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-07-27 09:52:46] INFO root fetch - processPackages [pydbapi]: Remove: archive file [/home/abi/fetcher/tmp/pydbapi-0.0.97.tar.gz]
+[2023-07-27 09:52:46] INFO root fetch - processPackages [pydbapi]: Remove: archive file [/home/abi/fetcher/tmp/pydbapi-0.0.98.tar.gz]
+[2023-07-27 09:52:47] INFO root fetch - main [MainThread]: End processing [pydbapi]: success
+[2023-07-27 09:52:47] INFO root fetch - processPackages [composabl-ray]: executing diffoscope
+[2023-07-27 09:52:47] INFO root fetch - processPackages [composabl-ray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_ray-0.2.3-cp38-cp38-musllinux_1_1_x86_64.whl.zip tmp/composabl_ray-0.2.4-cp38-cp38-musllinux_1_1_x86_64.whl.zip --markdown 20230727/c/composabl-ray/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-27 09:52:47] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.7.98.tar.gz]
+[2023-07-27 09:52:47] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.7.99.tar.gz]
+[2023-07-27 09:52:47] INFO root fetch - main [MainThread]: End processing [lbt-honeybee]: success
+[2023-07-27 09:52:47] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230726-cp39-cp39-win_amd64.whl.zip]
+[2023-07-27 09:52:47] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230727-cp39-cp39-win_amd64.whl.zip]
+[2023-07-27 09:52:47] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2023-07-27 09:52:47] INFO root fetch - processPackages [hserv]: Remove: archive file [/home/abi/fetcher/tmp/hserv-0.0.8.tar.gz]
+[2023-07-27 09:52:47] INFO root fetch - processPackages [hserv]: Remove: archive file [/home/abi/fetcher/tmp/hserv-0.0.9.tar.gz]
+[2023-07-27 09:52:47] INFO root fetch - main [MainThread]: End processing [hserv]: success
+[2023-07-27 09:52:47] INFO root fetch - processPackages [alembic-postgresql-enum]: Remove: archive file [/home/abi/fetcher/tmp/alembic_postgresql_enum-0.1.3a2.tar.gz]
+[2023-07-27 09:52:47] INFO root fetch - processPackages [alembic-postgresql-enum]: Remove: archive file [/home/abi/fetcher/tmp/alembic_postgresql_enum-0.1.4a0.tar.gz]
+[2023-07-27 09:52:47] INFO root fetch - main [MainThread]: End processing [alembic-postgresql-enum]: success
+[2023-07-27 09:52:47] INFO root fetch - processPackages [tomlkit]: Remove: archive file [/home/abi/fetcher/tmp/tomlkit-0.9.1.tar.gz]
+[2023-07-27 09:52:47] INFO root fetch - processPackages [tomlkit]: Remove: archive file [/home/abi/fetcher/tmp/tomlkit-0.9.2.tar.gz]
+[2023-07-27 09:52:47] INFO root fetch - main [MainThread]: End processing [tomlkit]: success
+[2023-07-27 09:52:49] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip]
+[2023-07-27 09:52:49] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip]
+[2023-07-27 09:52:49] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2023-07-27 09:53:13] INFO root fetch - processPackages [composabl-ray]: Remove: archive file [/home/abi/fetcher/tmp/composabl_ray-0.2.3-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2023-07-27 09:53:13] INFO root fetch - processPackages [composabl-ray]: Remove: archive file [/home/abi/fetcher/tmp/composabl_ray-0.2.4-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2023-07-27 09:53:13] INFO root fetch - main [MainThread]: End processing [composabl-ray]: success
+[2023-07-27 09:55:45] ERROR root fetch - processPackages [mkdocs-material]: Timeout during execution of pkgdiff
+[2023-07-27 09:55:45] INFO root fetch - main [MainThread]: End processing [mkdocs-material] error
+[2023-07-27 09:55:45] INFO root fetch - main [MainThread]: Store serial: [19056932]

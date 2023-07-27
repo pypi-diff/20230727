@@ -1,484 +1,300 @@
 # Comparing `tmp/alembic_postgresql_enum-0.1.3a2.tar.gz` & `tmp/alembic_postgresql_enum-0.1.4a0.tar.gz`
 
+## filetype from file(1)
+
 ```diff
-@@ -0,0 +1,478 @@
-+00000000: 1f8b 0808 0000 0000 02ff 616c 656d 6269  ..........alembi
-+00000010: 635f 706f 7374 6772 6573 716c 5f65 6e75  c_postgresql_enu
-+00000020: 6d2d 302e 312e 3461 302e 7461 7200 ed3d  m-0.1.4a0.tar..=
-+00000030: d972 e338 92f5 ccaf 40cb 0f92 6668 5a92  .r.8....@...fhZ.
-+00000040: afb2 66dc 312a 5bae d28e af91 e4ee ed70  ..f.1*[........p
-+00000050: 7855 b408 c9ec a248 3649 d9a5 7538 6263  xU.....H6I..u8bc
-+00000060: bf60 37f6 4ff6 6923 f6f8 869a 3fda 4c00  .`7.O.i#....?.L.
-+00000070: 24c1 4b3e ca76 75cf 90d1 5d16 4120 0124  $.K>.vu...].A .$
-+00000080: 1289 4c64 22a1 ad69 6b7f 3ad5 3f7f a0ba  ..Ld"..ik.:.?...
-+00000090: 41bd 372f f234 f853 f4b7 d158 5f8f 7f63  A.7/.4.S...X_..c
-+000000a0: 7ab3 d16a 36df 90cf 6f5e e199 fb81 ee41  z..j6...o^.....A
-+000000b0: f56f fe3e 9fd6 3699 05e6 8cee 36b7 de6e  .o.>..6.....6..n
-+000000c0: 36de ee34 dfee 68cd cdf5 b71b 5bca 9bf2  6..4..h.....[...
-+000000d0: f9db 7f74 8bce 2ecd f1c8 75fc 60ea 51ff  ...t......u.`.Q.
-+000000e0: 176b 44ed f96c b5a1 35b5 0dbd b176 d8db  .kD..l..5....v..
-+000000f0: eb1e 0fba 5f3d ffb7 3636 8ae6 7fab b1dd  ...._=..66......
-+00000100: 7ad3 dcd8 58df 686c 6d6e 6d6c c2fc dfd8  z...X.hlmnml....
-+00000110: 6a6c bf21 8d72 febf f873 d41b 9243 734c  jl.!.r...s...CsL
-+00000120: 6d9f 2aca 9ee3 2e3c 737a 1590 dab8 4e5a  m.*....<sz....NZ
-+00000130: 8dd6 3af9 f26f 7ffd 97bf feeb 5fff fdcb  ..:..o......_...
-+00000140: ff90 2fff f1e5 ffbe fc37 fcff 9f5f feeb  ../......7..._..
-+00000150: cbff 2aca 29f5 66a6 ef9b 8e4d 4c9f 5c51  ..*.).f....ML.\Q
-+00000160: 8f5e 2ec8 d4d3 ed80 1a2a 9978 9412 6742  .^.......*.x..gB
-+00000170: c657 ba37 a52a 091c a2db 0be2 52cf 8702  .W.7.*......R...
-+00000180: ce65 a09b b669 4f89 4ec6 50ab 0239 832b  .e...iO.N.P..9.+
-+00000190: 00e3 3b93 e046 f728 6436 88ee fbce d8d4  ..;..F.(d6......
-+000001a0: 011e 319c f17c 46ed 400f b0be 8969 519f  ..1..|F.@....iQ.
-+000001b0: d482 2b4a 2a03 51a2 5267 9518 54b7 14d3  ..+J*.Q.Rg..T...
-+000001c0: 26f8 2dfc 446e cce0 ca99 0704 083c f0cc  &.-.Dn.......<..
-+000001d0: 31c2 5089 698f adb9 816d 083f 5be6 cc14  1.P.i....m.?[...
-+000001e0: 3560 7186 0a5f 01a0 731f 7a80 ed54 c9cc  5`q.._..s.z..T..
-+000001f0: 31cc 09fe a5ac 5bee fcd2 32fd 2b95 1826  1.....[...2.+..&
-+00000200: 82be 9c07 90e8 6322 c3a9 8afd 5873 3ce2  ......c"....Xs<.
-+00000210: 53cb 5200 8209 ed66 7d8d 5bc7 f260 d35d  S.R....f}.[..`.]
-+00000220: 4468 2050 e463 cacd 9533 4bf6 c4f4 95c9  Dh P.c...3K.....
-+00000230: dcb3 a14a caca 180e a08c d5f8 331d 0798  ...J........3...
-+00000240: 82d9 278e 6539 37d8 b5b1 631b 26f6 c86f  ..'.e97...c.&..o
-+00000250: 2bca 103e e997 ce35 657d e123 6d3b 0134  +..>...5e}.#m;.4
-+00000260: 9537 0107 c08d 4755 7cf2 af74 cb22 9754  .7....GU|..t.".T
-+00000270: 200c ea05 f4ea 5277 3cac 1ea6 911d 98ba   .....Rw<.......
-+00000280: 455c c763 f5a5 bba9 41fd 1fba 6470 7230  E\.c....A...dpr0
-+00000290: fcb1 d3ef 92de 809c f64f 7ee8 ed77 f749  .........O~..w.I
-+000002a0: a533 80f7 8a4a 7eec 0d3f 9c9c 0d09 e4e8  .3...J~..?......
-+000002b0: 778e 873f 9193 03d2 39fe 89fc b977 bcaf  w..?....9....w..
-+000002c0: 92ee 3f9e f6bb 8301 39e9 2bbd a3d3 c35e  ..?.....9.+....^
-+000002d0: 17d2 7ac7 7b87 67fb bde3 f7e4 1d94 3b3e  ..z.{.g.......;>
-+000002e0: 0172 ee01 5103 d0e1 09c1 0a05 a85e 7780  .r..Q........^w.
-+000002f0: c08e bafd bd0f f0da 79d7 3bec 0d7f 5295  ........y.;...R.
-+00000300: 83de f018 611e 9cf4 4987 9c76 fac3 dede  ....a...I..v....
-+00000310: d961 a74f 4ecf faa7 2783 2e54 bf0f 608f  .a.ON...'..T..`.
-+00000320: 7bc7 077d a8a5 7bd4 3d1e 6a50 2ba4 91ee  {..}..{.=.jP+...
-+00000330: 0ff0 4206 1f3a 8787 5895 d239 83d6 f7b1  ..B..:..X..9....
-+00000340: 7d64 efe4 f4a7 7eef fd87 21f9 7072 b8df  }d....~...!.pr..
-+00000350: 85c4 775d 6859 e7dd 6197 5705 9dda 3bec  ..w]hY..a.W...;.
-+00000360: f48e 54b2 df39 eabc efb2 5227 00a5 af60  ..T..9....R'...`
-+00000370: 36de 3af2 e387 2e26 617d 1df8 6f6f d83b  6.:....&a}..oo.;
-+00000380: 39c6 6eec 9d1c 0ffb f0aa 422f fbc3 a8e8  9.n.......B/....
-+00000390: 8fbd 4157 259d 7e6f 8008 39e8 9f1c a90a  ..AW%.~o..9.....
-+000003a0: a213 4a9c 3020 50ee b8cb a120 aa49 6244  ..J.0 P.... .IbD
-+000003b0: 200b be9f 0dba 1140 b2df ed1c 02ac 0116   ......@........
-+000003c0: c62e 8699 b552 3cf8 9b78 b45f 85fc bf91  .....R<..x._....
-+000003d0: 95ff 5ba5 fcff 2af2 ffdb 48fe df69 6c34  ..[...*...H..il4
-+000003e0: 9a9b ad0d 6d7b 7363 6b7b 7bb3 9ce1 a5fc  ....m{sck{{.....
-+000003f0: bfd6 ef76 f68f bada cc78 39f9 7f7b abd5  ...v.....x9..{..
-+00000400: 44f9 7fab d1da de5c df42 f97f b3b1 55ca  D......\.B....U.
-+00000410: ffaf f2ac 1041 01ab 3105 ac22 0528 e77f  .....A..1..".(..
-+00000420: 3467 53e2 7be3 ddca 5510 b87e 7b6d 0d12  4gS.{...U..~{m..
-+00000430: 34ff caa4 96e1 6ba6 b3e6 2e5c 13fe b906  4.....k....\....
-+00000440: 7915 05be b502 4895 ef2f 6a21 042c a239  y.....H../j!.,.9
-+00000450: de74 cdf5 1c14 588b caac d51f 5aff f5b7  .t....X.....Z...
-+00000460: a9d6 7ae6 6a95 0eff 44f4 79e0 4ca9 4d3d  ..z.j...D.y.L.M=
-+00000470: 507b 40ae 7651 9c06 79de 2363 8fea 5c71  P{@.vQ..y.#c..\q
-+00000480: d1ad 003f a388 8e62 bb41 2dca 5e40 e046  ...?...b.A-.^@.F
-+00000490: 687e 0cec c604 c9dd 766e 18d4 1914 1983  h~......vn......
-+000004a0: dcbe 682b ab64 0fa1 519e 1fc4 743d 20e3  ..h+.d..Q...t= .
-+000004b0: b9e7 8182 652d 08ea 1920 fba3 981f 3694  ....e-... ....6.
-+000004c0: f8e3 2b3a d3a1 609f ce40 8158 d30d 638d  ..+:..`..@.X..c.
-+000004d0: b583 8120 d7ba 35a7 3efb ec78 4626 751f  ... ..5.>..xF&u.
-+000004e0: 9b48 c9dc 0645 ca10 954e 3cd0 6d04 5865  .H...E...N<.m.Xe
-+000004f0: 6585 9cf9 fa14 74d0 9e0d 1312 5a6d 9997  e.....t.....Zm..
-+00000500: 9eee 415b 3f7e fca8 b8a6 0bad e11f 8ae8  ..A[?~..........
-+00000510: 15f3 291d c360 4a87 65da 1414 1e48 7317  ..)..`J.e....Hs.
-+00000520: a0db d944 5981 6aaf 35d0 34cd 1943 6901  ...DY.j.5.4..Ci.
-+00000530: e353 344d e3a0 865c 950a 1c17 11bb 70e6  .S4M...\......p.
-+00000540: 9e80 a0b1 e676 3feb 3317 b450 7c59 e1e8  .....v?.3..P|Y..
-+00000550: 94c6 20ae 5919 5ba0 c692 a345 1792 6bf8  .. .Y.[....E..k.
-+00000560: 4dc3 5ff5 b642 e071 6c4a 7649 93fd 0e6e  M._..B.qlJvI...n
-+00000570: 1cf8 dde2 bfaf 507d de25 eb8a 2200 88fa  ......P}.%.."...
-+00000580: 86fa a545 6bef 749f 1e39 30f0 024c 007a  ...Ek.t..90..L.z
-+00000590: ed68 8214 0a65 f61c 6b3e b36b 3dd0 c3a7  .h...e..k>.k=...
-+000005a0: d403 15d5 3367 80c9 d127 bad8 1d7a 73d4  ....3g...'...zs.
-+000005b0: 3781 1a40 99f3 286a d4bb 07ba e5d3 3a83  7..@..(j......:.
-+000005c0: 83cd 4bc3 01cc e816 0ed3 8235 bcc6 7b52  ..K........5..{R
-+000005d0: af33 2c0d 5165 1c43 4b38 a945 843b 33a7  .3,.Qe.CK8.E.;3.
-+000005e0: 8242 a7e6 35b5 417b 047d b44d 24b4 1874  .B..5.A{.}.M$..t
-+000005f0: 42e6 2ee4 3268 4df4 6285 202a c7ce 6c06  B...2hM.b. *..l.
-+00000600: 64ed b356 4610 0d72 b920 2159 af12 c004  d..VF..r. !Y....
-+00000610: a080 e8c6 cfc0 bfbf c372 0c82 aff3 3656  .........r....6V
-+00000620: 01af 5595 5401 a5ec 0f62 137e d83a 083a  ..U.T....b.~.:.:
-+00000630: d5d9 02bb 59ad 6b6c 46d1 9ae3 6a53 1a8c  ....Y.klF...jS..
-+00000640: 2e4d dba8 d539 1e20 0908 7c34 e618 a852  .M...9. ..|4...R
-+00000650: 8efb 5180 c807 3850 cd5e f829 c218 4f7f  ..Q...8P.^.)..O.
-+00000660: 78f5 f03e b72c 8428 46e0 b155 83ba ee19  x..>.,.(F..U....
-+00000670: 72dd 0796 a307 3519 300e b780 cb91 4b81  r.....5.0.....K.
-+00000680: 5f84 588c 108d d853 d880 18ce 8dfd cc43  _.X....S.......C
-+00000690: 02fd 313c c72d ec50 a21b f587 1591 905e  ..1<.-.P.......^
-+000006a0: 7fc2 b823 f0bc 51bf 0745 8c2b 608e 7d89  ...#..Q..E.+`.}.
-+000006b0: e1ce 6d8f 4e28 30ce b160 6c4a 8f73 00dc  ..m.N(0..`lJ.s..
-+000006c0: 1303 9402 1f32 7218 a94a 2ee7 c060 039f  .....2r..J...`..
-+000006d0: e014 64db 251e 63ac 06e7 8b6c 4aad 921e  ..d.%.c....lJ...
-+000006e0: 9f56 9734 c9c0 c3bc 192e f32a 4c62 4566  .V.4.......*LbEf
-+000006f0: 13a6 2f37 4679 e909 fe6c a431 017e fe6c  ../7Fy...l.1.~.l
-+00000700: 94f1 6293 e751 8d7f 7676 162f 8d5a f7f8  ..b..Q..vv./.Z..
-+00000710: ece8 41ad c8a5 9b27 71a4 68ba f529 5621  ..A....'q.h..)V!
-+00000720: 4914 2023 f0bd ca31 e20c 5666 3203 ac11  I. #...1..Vf2...
-+00000730: 283a 67b3 831a 6610 af40 cab3 adc5 d062  (:g...f..@.....b
-+00000740: 8fb5 454c d28f 017c f828 a485 8285 90b5  ..EL...|.(......
-+00000750: 336a 4bfb 15e6 87bf b0c7 4c94 1971 f1ab  3jK.......L..q..
-+00000760: 5665 7bd4 631c 3231 4a2a 39cf e594 17f0  Ve{.c.21J*9.....
-+00000770: e19e 3975 f1cd 5793 a7f5 ef59 bbc7 46bc  ..9u..W....Y..F.
-+00000780: 1720 f343 064f 4c26 1fe2 5e3c 8acd 57fa  . .C.OL&..^<..W.
-+00000790: 3565 b60e 430f 74e4 fd4c 76c4 974b e892  5e..C.t..Lv..K..
-+000007a0: 4694 7773 265b cf60 7a31 12f6 6121 4058  F.ws&[.`z1..a!@X
-+000007b0: 5018 64cb 8123 7a2d 0951 96f9 8932 29fd  P.d..#z-.Q...2).
-+000007c0: 1e06 fbf2 c3af b27a f21e a9ce 51e0 8cf8  .......z....Q...
-+000007d0: 4cd9 0580 015f 8445 2588 e202 f278 f1c1  L...._.E%....x..
-+000007e0: 7d4a e3af c2d6 878d 6783 dffd eca2 eae5  }J......g.......
-+000007f0: c00a c84b 311b 12b1 e90d b211 15c6 c5c0  ...K1...........
-+00000800: d98f fa4a 611e be6e b2ef 316f 23e5 fe6f  ...Ja..n..1o#..o
-+00000810: b9ff fbad f67f d777 de6e 37b7 b4b7 5beb  .......w.n7...[.
-+00000820: ebeb 5b6f cbfd df72 ff77 ade0 fbda 6864  ..[o...r.w....hd
-+00000830: da66 301a 69ee e26b f77f 1b8d 8d86 d8ff  .f0.i..k........
-+00000840: ddda dede de7c d368 b5b6 9a5b e5fe ef6b  .....|.h...[...k
-+00000850: 3c4c 90d5 40ba 7175 8f8e 0cd3 77f5 607c  <L..@.qu....w.`|
-+00000860: 45c4 26d9 ef4a 1e50 da7f cbf5 bf5c ffcb  E.&..J.P.....\..
-+00000870: a75c ff13 eb7f 7ac5 5826 07dc b3fe afb7  .\....z.X&......
-+00000880: b6b6 52eb ffc6 46a3 59ae ffaf b6fe 070b  ..R...F.Y.......
-+00000890: 177d 05c5 a2df 43eb 22a8 cf2a 39b3 d9fe  .}....C."..*9...
-+000008a0: 59d2 62a6 b022 e245 93cd 959a ee9a 2190  Y.b..".E......!.
-+000008b0: 0e4f df73 ec80 7e0e 9265 1c57 982f 7df8  .O.s..~..e.W./}.
-+000008c0: e987 25ce f856 c689 eb2b 89ec 69d2 d398  ..%..V...+..i...
-+000008d0: ae2e d940 4579 b675 30be d2ed 2935 46dc  ...@Ey.u0...)5F.
-+000008e0: 0e7a 3f98 d0a8 1a02 e17b a823 d0d1 1f0c  .z?......{.#....
-+000008f0: 2232 bf0a 106c 7f9a 5b3a 1f02 03f7 6a39  "2...l..[:....j9
-+00000900: 1cb6 5bc4 6160 a230 1e70 18aa 481a 5b30  ..[.a`.0.p..H.[0
-+00000910: e942 b88a f2a7 dc61 e073 530f 1ccf d7c2  .B.....a.sS.....
-+00000920: f939 9a38 5ead c28d 0f95 3adb 7f09 a730  .9.8^.....:....0
-+00000930: 0356 1310 4663 3e62 edd4 08aa e156 d308  .V..Fc>b.....V..
-+00000940: 86ac 2d0d 962a 2c1a 23dc 3181 2f21 f59c  ..-..*,.#.1./!..
-+00000950: 33e2 39f7 034f 25c7 8e4d 2f2e c42e 4fa5  3.9..O%..M/...O.
-+00000960: 5261 7f7f d4ad 4fcc c21a f68a 0cfe 72d8  Ra....O.......r.
-+00000970: e196 4601 93d9 bde9 35f5 d0e2 1159 5970  ..F.....5....YYp
-+00000980: cb56 2537 61f1 d3f7 7cab 3c5d 2234 bef0  .V%7a...|.<]"4..
-+00000990: ec90 d38e 7765 0740 2b98 fe03 db97 3971  ....we.@+.....9q
-+000009a0: e3ad 369f 0163 5074 9083 4320 6c83 8699  ..6..cPt..C l...
-+000009b0: c9af 749f 4c3d e7c6 661b 39d4 0e3c f481  ..t.L=..f.9..<..
-+000009c0: bd41 f002 a1cc 2fd7 0c38 a4a8 73c2 4b42  .A..../..8..s.KB
-+000009d0: 63a9 ddd8 ec6e 3876 3520 f4b3 e9b3 4d41  c....n8v5 ....MA
-+000009e0: 8610 b155 4816 3460 c678 736a 3b1e 3a55  ...UH.4`.xsj;.:U
-+000009f0: fb26 6080 4188 71b5 9630 f673 0246 3040  .&`.A.q..0.s.F0@
-+00000a00: 723e 81f6 04a1 23ee dc9f eb96 b4a9 e87a  r>....#........z
-+00000a10: ce98 fabe 9618 15ec b940 25b4 2631 b4d1  .........@%.&1..
-+00000a20: e619 2045 9f5b c148 e4db 2529 da01 a203  .. E.[.H..%)....
-+00000a30: ba1c c3df 4446 0626 0262 4ea2 7a7c 4620  ....DF.&.bN.z|F 
-+00000a40: edc4 e65c 043b 0943 911b 811a 2833 9ded  ...\.;.C....(3..
-+00000a50: 6627 4c9a 9e61 52d8 3615 9edf 1c56 5d82  f'L..aR.6....V].
-+00000a60: 8583 a427 81c9 532d 036d 4603 1d87 498d  ...'..S-.mF...I.
-+00000a70: ec79 c976 aa45 38a9 c73d 48f3 9a9a d425  .y.v.E8..=H....%
-+00000a80: 35d1 264d da9e 8c6b 9426 a404 35c3 7e9e  5.&M...k.&..5.~.
-+00000a90: 076c 96bb 3e10 6ee1 966b 0aef bc10 dbb7  .l..>.n..k......
-+00000aa0: 1d45 93bd a859 a5dc 56ea 7fa5 fcf7 ecfa  .E...Y..V.......
-+00000ab0: 1f48 dd1b 3b9b dadb b7cd b7eb dba5 fe57  .H..;..........W
-+00000ac0: ea7f c5fa 5f4a 085f ba0d bc5c ff6b 6e34  ...._J._...\.kn4
-+00000ad0: b7b7 62ff dff5 06ea 7fad 8d72 fff7 551e  ..b........r..U.
-+00000ae0: 94fb 4201 12c4 146a b393 5f92 5d9e 740e  ..B....j.._.].t.
-+00000af0: 87dd 3e19 fe74 da25 9a46 3afb fbe4 87ce  ..>..t.%.F:.....
-+00000b00: e159 9700 de02 e6e3 c14e aa71 83a7 2289  .Y.......N.q..".
-+00000b10: f04c 48d0 1405 6b50 72d4 cc43 9078 5532  .LH...kPr..C.xU2
-+00000b20: 9cbb a869 76ec 852a 299e 58db 68ef 4377  ...iv..*).X.h.Cw
-+00000b30: efcf bde3 f769 0534 a1ec a4bf 49ba 258a  .....i.4....I.%.
-+00000b40: d04b 3e83 2011 7e8d 5d1c 5f43 b905 c937  .K>. .~.]._C...7
-+00000b50: d13f 2ef8 7277 d8d8 d792 da53 e65a c0cb  .?..rw.....S.Z..
-+00000b60: ef45 d2ab c065 b1de 280b baa8 671c a3f0  .E...e..(...g...
-+00000b70: 3e74 7e10 629e 94c4 dcc4 fa91 ac25 eb93  >t~.b........%..
-+00000b80: 2934 6a27 f1bb 47a7 3072 d41b 4579 40af  )4j'..G.0r..Ey@.
-+00000b90: 4c99 ed41 c3e4 ae36 6945 ab96 8f26 ed88  L..A...6iE...&..
-+00000ba0: 6925 34aa 26f2 0810 ef4c 7700 d1bc ca45  i%4.&....Lw....E
-+00000bb0: d0b0 2ecf d481 feaa 8a50 b526 2434 4bd5  .........P.&$4K.
-+00000bc0: 92ca 04b5 266a 8e7a d126 a89e 263e 603d  ....&j.z.&..&>`=
-+00000bd0: 39c9 8e65 88ae b519 e1a2 5e9b 7227 4039  9..e......^.r'@9
-+00000be0: fe9e 2cfa 6402 2343 434f 2cc8 5865 39d9  ..,.d.#CCO,.Xe9.
-+00000bf0: 24e0 aa32 16ba a8f2 62f5 5825 c21e 6891  $..2....b.X%..h.
-+00000c00: 4e24 74a1 c447 81a0 848e c53e c44d 87cf  N$t..G.....>.M..
-+00000c10: f14b aa74 d478 8411 bd24 33a5 9b8f 9a5f  .K.t.x...$3...._
-+00000c20: 2a29 1e09 0fb5 709f d6b0 a4d4 9150 cf64  *)....p......P.d
-+00000c30: 3a2c a524 3df0 5a58 aeae e596 f168 30f7  :,.$=.ZX.....h0.
-+00000c40: ec2c 5d65 c65b 604b cd7e 4014 158d ee6e  .,]e.[`K.~@....n
-+00000c50: 0a1b 4543 bc9b 42ed f271 decd 455f 5c46  ..EC..B..q..E_\F
-+00000c60: e859 7f62 7306 54cb 2bc7 8829 da0f 27ba  .Y.bs.T.+..)..'.
-+00000c70: f088 195b 3e9e 450e 2739 d050 cc1c aa4b  ...[>.E.'9.P...K
-+00000c80: d4ad 4292 cf3a c214 4c02 f248 7227 5f41  ..B..:..L..Hr'_A
-+00000c90: fbb9 8f44 475c 5b5c b834 e40c 93ca 2def  ...DG\[\.4....-.
-+00000ca0: e19d 761b 75e2 2e26 1c58 ab80 45a2 8b6b  ..v.u..&.X..E..k
-+00000cb0: f495 978a 338f 603c 2bb1 cafb cb9c 426e  ....3.`<+.....Bn
-+00000cc0: 6814 e44b d2d7 0428 525a 166f 938d b923  h..K...(RZ.o...#
-+00000cd0: fdee 71e7 a88b 0790 6f73 aabd fb83 4cd0  ..q.....os....L.
-+00000ce0: 21bc bd7e b733 ec16 00ec 0c08 f3c0 bc45  !..~.3.........E
-+00000cf0: 4f24 ed67 c7b4 6b93 4af5 96e1 ffae 5a61  O$.g..k.J.....Za
-+00000d00: bb36 dc7d c8b4 a591 a9df d513 7549 fa3c  .6.}........uI.<
-+00000d10: 96e0 ca36 9b0e 848f 0a47 0b1e ef4e 8f56  ...6.....G...N.V
-+00000d20: a2bd 3166 7e9f 460d f79e 9b98 9f67 34dc  ..1f~.F......g4.
-+00000d30: 1261 9ed0 9ee3 bae8 e337 6727 cec9 2545  .a.......7g'..%E
-+00000d40: 4900 8fe3 e3c6 5606 8284 6076 62fa 366e  I.....V...`vb.6n
-+00000d50: ea9d 1048 f64e 0ecf 8e8e c9ad d4f0 3bb2  ...H.N........;.
-+00000d60: df3f 3925 fbdd 83ce d9e1 3083 e5af 019c  .?9%......0.....
-+00000d70: 3f2c 67ec 9875 2267 bbcd 764f dbe9 bc99  ?,g..u"g..vO....
-+00000d80: d6d4 f308 edf7 bbac 85ac 1bbc ca3c fa61  .............<.a
-+00000d90: 1295 3c90 bfe0 9045 5034 dfb5 cca0 56fd  ..<....EP4....V.
-+00000da0: 43b5 9e1c b698 6968 f433 1dcf 032a 1fee  C.....ih.3...*..
-+00000db0: c076 d77e a92f e545 5cca 1ba5 a9e3 c93c  .v.~./.E\......<
-+00000dc0: e971 bce9 3959 c952 c73f 0018 6d63 6780  .q..9Y.R.?..mcg.
-+00000dd0: de0f 5342 3b8e 4e2d 5a26 d478 6ed6 71c8  ..SB;.N-Z&.xn.q.
-+00000de0: f22b 4fb2 86af 99a7 0f1c f449 b59a dfab  .+O........I....
-+00000df0: b3d3 7de4 4931 6395 67cb a03b 4c4d 1210  ..}.I1c.g..;LM..
-+00000e00: cf6e a30e de55 3178 41bf 9b93 27c2 c75d  .n...U1xA...'..]
-+00000e10: b65a 68ca 5212 cc38 8826 29dc 4aad c4b1  .Zh.R..8.&).J...
-+00000e20: 98f9 40f9 6fd9 faf7 9c12 1e20 0237 bd93  ..@.o...... .7..
-+00000e30: a57f 97d3 9647 d126 400d 30ad 564f 0b90  .....G.&@.0.VO..
-+00000e40: 32fb e953 d7d2 c7b2 47bd 704d fd18 f7f0  2..S....G.pM....
-+00000e50: 6394 bb8d b6a4 9984 c924 8de1 79b9 5456  c........$..y.TV
-+00000e60: e464 02c1 89ac 032e bf62 2f32 6562 bc27  .d.......b/2eb.'
-+00000e70: 8aa0 8c17 daf9 9099 e617 b6d0 7822 8d4e  ............x".N
-+00000e80: 0204 e23f 3c96 1782 129d 6606 18ff ca99  ...?<.....f.....
-+00000e90: a30b 2eb3 c0e8 133c d298 74da 4f8e 099f  .......<..t.O...
-+00000ea0: 437e 7e1b 964f c7b0 25a1 f8cc aa8f f7ba  C~~..O..%.......
-+00000eb0: 79b5 cc28 9828 7660 7a50 4e2c efbe cc0d  y..(.(v`zPN,....
-+00000ec0: 52b2 2dc6 7a89 f349 d32e 17d9 cbf9 4e48  R.-.z..I......NH
-+00000ed0: 63cc 7884 2485 00ed 3068 0fce 60c6 82d0  c.x.$...0h..`...
-+00000ee0: 091a 119f a865 8943 7566 be67 dcc3 417a  .....e.Cuf.g..Az
-+00000ef0: 081c 1420 70bc 9d44 fe8b 5c6a 6694 9b54  ... p..D..\jf..T
-+00000f00: 7c6b 31b1 d6d1 0a26 ad4c 0980 e6e4 21a8  |k1....&.L....!.
-+00000f10: c8e3 e3a3 87f2 ef2c efd0 7490 846c 2386  .......,..t..l#.
-+00000f20: 56cf f26c cbd7 b272 7fc6 80a5 c6b3 465a  V..l...r......FZ
-+00000f30: 5960 254e 93a1 246b 24aa 285c ce73 aaca  Y`%N..$k$.(\.s..
-+00000f40: 682f f9bd cfa9 ea39 71c7 7de6 bf31 eeb8  h/.....9q.}..1..
-+00000f50: 0eaa 28af 502d 2e79 801d c39c 4c46 9cb3  ..(.P-.y....LF..
-+00000f60: 337d 9aac 7e4f aa9c fbb3 9d33 60c2 17d5  3}..~O.....3`...
-+00000f70: 765a 49e6 3a6a 620b 454d ef09 a869 fd5f  vZI.:jb.EM...i._
-+00000f80: cdd7 f50b 9d0d 60e0 0cea 893f 34ed 7190  ......`....?4.q.
-+00000f90: d6d3 b9e7 01cf 3c4a ade5 23c7 bddf 0bc1  ......<J..#.....
-+00000fa0: 71db 19e5 5f2c 73a2 d793 4ade 3992 5b4c  q..._,s...J.9.[L
-+00000fb0: 6443 f09d 77a7 127c 457c c42f 1102 a2a4  dC..w..|E|./....
-+00000fc0: 340a e043 bd22 ceae 1499 43c3 b776 ded6  4..C."....C..v..
-+00000fd0: 5bd2 a69c 97a5 48b6 4c9b 45db 4bb6 f10a  [.....H.L.E.K...
-+00000fe0: 81c8 324f 9137 8740 25f3 7fc8 2354 9cb9  ..2O.7.@%...#T..
-+00000ff0: c96e 6826 a828 7e4d 1235 42ae ca16 0811  .nh&.(~M.5B.....
-+00001000: 4720 891c 25a9 2d0e 711d 8415 ebc6 f13e  G ..%.-.q......>
-+00001010: c5a1 0e24 cb38 99cc ed71 6629 461a 31ed  ...$.8...qf)F.1.
-+00001020: 398d 2762 62ab 2b51 e579 d4a2 0b45 6ea8  9.'bb.+Q.y...En.
-+00001030: bcef 25ef 8ea5 9b88 e896 5c0e 44dc 85c8  ..%.......\.D...
-+00001040: 7acd bd34 6c46 16f7 b431 6713 2d3d ba72  z..4lF...1g.-=.r
-+00001050: 6363 4116 3266 76bd 7298 0aca 2131 7ff4  ccA.2fv.r...!1..
-+00001060: eb22 45da 14b8 4f2b 3a17 9243 d420 0d38  ."E...O+:..C. .8
-+00001070: 9010 2bf9 f0a4 bee7 2922 1731 6796 488d  ..+.....)".1g.H.
-+00001080: edf5 86eb 9f5b daf1 4bfb 7f69 ff2f fdbf  .....[..K..i./..
-+00001090: cbe7 376a ff0f bd67 ef39 0476 5ffc dfe6  ..7j...g.9.v_...
-+000010a0: 7633 e5ff bdbe 5d9e ff7a 9de7 1bf9 7673  v3....]..z....vs
-+000010b0: 6f3f c71d 313f 5791 0b45 9b13 7799 7d3b  o?..1?W..E..w.};
-+000010c0: 2331 47e1 9178 3c2b 0ea1 c6ff 14db 90b9  #1G..x<+........
-+000010d0: 78c9 4e93 df6b b094 9a9b f6f4 def7 1c57  x.N..k.........W
-+000010e0: b439 a579 c55f 6a19 ebf2 6e81 1192 cb72  .9.y._j...n....r
-+000010f0: bb85 b64b 499b e199 72bd 2ceb 4f54 d464  ...KI...r.,.OT.d
-+00001100: fc25 9434 0959 0f56 d012 c052 ca99 d8b9  .%.4.Y.V...R....
-+00001110: 0923 9b48 16ad 99ee d63c ea7a 0843 ee5c  .#.H.....<.z.C.\
-+00001120: bd7e 1746 1909 d5b6 bba5 e14e a00e 0d83  .~.F.......N....
-+00001130: 31bb b530 d440 beab ed8b 286b 8fd0 b242  1..0.@....(k...B
-+00001140: 5c64 63b1 4911 d84e 5311 d8d2 ceda 4fd4  \dc.I..NS.....O.
-+00001150: d01e a89c a565 77d3 f6a9 17d4 1a6a 72c2  .....ew......jr.
-+00001160: b1d1 11fb 0b82 8c65 cd44 50ad a483 94a2  .......e.DP.....
-+00001170: 7f29 ff97 f27f 29ff 97cf 6f59 fe0f 05a2  .)....)...oY....
-+00001180: af94 ff5b adad 52fe 2fe5 ffaf 92ff 2589  ...[..R./.....%.
-+00001190: fb1e e99f 1d90 7ab4 ec9f 3e28 2a8b 3f69  ......z...>(*.?i
-+000011a0: e93f 211a fd46 e4ff 187f 09e9 3f42 d683  .?!..F......?B..
-+000011b0: 657f 0950 bee4 ff3c d27f 51a4 c67c f9bf  e..P...<..Q..|..
-+000011c0: e050 dccb 586b 9ea0 0120 d2d2 f27f 56f6  .P..Xk... ....V.
-+000011d0: 8fbc e7a2 43a5 9067 f08b 953c 34fb 400d  ....C..g...<4.@.
-+000011e0: 41ea fe03 1484 042a 966a 0862 775f 9a8f  A......*.j.bw_..
-+000011f0: a572 50ca ffa5 fcff 9b91 ff37 b59d d6f6  .rP........7....
-+00001200: 7a73 ab55 cec2 52fe 5f2e ff0b f9ed be18  zs.U..R._.......
-+00001210: 70f7 c8ff cde6 ba2c ff6f a0fc bfd9 2ae3  p......,.o....*.
-+00001220: bfbc cac3 85f7 cb71 24db bfdb 53e1 1d64  .......q$...S..d
-+00001230: 177d 1c08 dfdb a531 62e2 037c 9940 31d1  .}.....1b..|.@1.
-+00001240: d505 5c0e 78e0 d12f 15db 2064 91c4 91ae  ..\.x../.. d....
-+00001250: ec29 ae07 f88e 2f3b ca22 891f 52dc 9282  .)..../;."..R...
-+00001260: 732c cf73 184b aa12 be4b 6fc2 e5d9 f510  s,.s.K...Ko.....
-+00001270: 3bc1 82bf a5c6 21c4 4852 a789 3dc2 2073  ;.....!.HR..=. s
-+00001280: dc48 1730 ffa2 3e64 d2cf 509e 4b77 b15c  .H.0..>d..P.Kw.\
-+00001290: 414a f9ef 4d79 fff3 af5a fedb 96e3 3f6c  AJ..My...Z....?l
-+000012a0: 34d7 b75b 5a6b 7d7d 7b67 bd9c bca5 fc57  4..[Zk}}{g.....W
-+000012b0: 2cff 25b6 e7be 6aff b7d9 6c6d 6f73 f90f  ,.%...j...lmos..
-+000012c0: c8af b5ce e4bf adcd 4629 ffbd c6b3 42f0  ........F)....B.
-+000012d0: 9a18 8338 3609 6f2d 9b9a c1d5 fc12 a3c8  ...86.o-........
-+000012e0: ad19 37d1 9565 f25e e2aa 14d7 6eec 5816  ..7..e.^....n.X.
-+000012f0: f771 8f76 7bc5 b94f c31c 0761 1eb6 4168  .q.v{..O...a..Ah
-+00001300: 9997 519c 3d9e 32d3 6d7d 4a3d 9e0b 2989  ..Q.=.2.m}J=..).
-+00001310: 098c 3486 1426 e5c9 a0fb 003f 923f 1311  ..4..&.....?.?..
-+00001320: 1544 3c89 0185 ef07 9ef3 cfd4 869f 4a51  .D<...........JQ
-+00001330: b487 f83d 847c 4403 7d1f aa7e 5aac 867d  ...=.|D.}..~Z..}
-+00001340: 1ee9 0b37 62a3 f6d7 26ac 19fc fa13 2116  ...7b...&.....!.
-+00001350: 27fd b6c5 1d3d d1e1 1e26 b42a dc87 383a  '....=...&.*..8:
-+00001360: c8c3 1365 a92e 25d0 a54e 84e5 8b73 f279  ...e..%..N...s.y
-+00001370: 4296 201f 1552 94cc 4627 48aa 886b 0e56  B. ..R..F'H..k.V
-+00001380: aa01 25c6 0ba5 d813 3d51 2e1a 87f3 642e  ..%.....=Q....d.
-+00001390: 8020 232a dcce 173b 8eb1 b773 5bc9 88ec  . #*...;...s[...
-+000013a0: 596b 407c 32fc 110e f362 8f38 1b42 0e8f  Yk@|2....b.8.B..
-+000013b0: 6fa8 b27e c150 9ca9 35b9 95db e788 d609  o..~.P..5.......
-+000013c0: 923f 99e9 2e23 59b1 933b f8cb 6122 a4a0  .?...#Y..;..a"..
-+000013d0: 7cb4 cd0f 2fef f669 18b2 cff4 9428 d41d  |.../..i.....(..
-+000013e0: 0d6f 91e0 87c3 c449 2e6c 623c c852 f495  .o.....I.lb<.R..
-+000013f0: f8e8 09bf 380f ddb8 957b cee8 49e7 f348  ....8....{..I..H
-+00001400: 8d6a 538d 54f8 ed1b 1511 8ca1 cda9 a878  .jS.T..........x
-+00001410: 7822 fc4b b1e1 766f 13ca 5465 c68f 3257  x".K..vo..Te..2W
-+00001420: dae2 a8e2 7945 afa8 a472 89ff 8c2b 1792  ....yE...r...+..
-+00001430: 7bfa 5d02 b130 df80 a012 f123 ba87 ddbd  {.]..0.....#....
-+00001440: 6102 ba3b 1d8d 8194 2c67 aa4d 1c6f a607  a..;....,g.M.o..
-+00001450: ec08 762d d01c d350 c9f1 d9e1 61ca fd1d  ..v-...P....a...
-+00001460: 2f07 ffa9 c621 b1a6 5bfa 25b5 7276 f6f1  /....!..[.%.rv..
-+00001470: 326d 193c fc64 d77d 6573 f263 aff8 11f9  2m.<.d.}es.c....
-+00001480: 155e b6c5 aa8f ed13 39a0 d8d9 c620 ca71  .^......9.... .q
-+00001490: d83d 1892 7f38 e91d a7b2 b140 8c2e 9edd  .=...8.....@....
-+000014a0: b4c9 c931 b111 2e83 0fe5 a36f 4aa2 2189  ...1.......oJ.!.
-+000014b0: 06b2 8cac ae5d 52a5 c9d3 b778 cfb9 add9  .....]R....x....
-+000014c0: be2b 94d7 768e 3941 7091 7844 bdf3 c645  .+..v.9Ap.xD...E
-+000014d0: 3890 de79 53f2 fa47 cb83 87c6 03a4 c4c2  8..yS..G........
-+000014e0: a3c7 f05e 57d9 54a9 256c 03c2 9a73 27cd  ...^W.T.%l...s'.
-+000014f0: 4df9 344f 74b8 be4d 52d7 1322 301e 6851  M.4Ot..MR.."0.hQ
-+00001500: d26f 236e 550d ef21 3ac0 3097 2e1d 9b13  .o#nU..!:.0.....
-+00001510: bcdb 076d 902c 8227 9b87 da10 fe05 0a77  ...m.,.'.......w
-+00001520: 5808 553c 9882 7623 45d8 454c 3f9c 4f71  X.U<..v#E.EL?.Oq
-+00001530: 2b54 b915 3930 ea89 d899 7c1e 8f44 f84d  +T..90....|..D.M
-+00001540: c7ab f193 6c49 b38a c074 5485 26b2 3363  ....lI...tT.&.3c
-+00001550: d788 cde1 6ce0 8538 372c 4596 06e2 1a46  ....l..87,E....F
-+00001560: a48c 2b12 a851 e38c 7551 7976 c343 e44d  ..+..Q..uQyv.C.M
-+00001570: c52c 60b5 583e 5dde a178 a896 f48a 5fe5  .,`.X>]..x...._.
-+00001580: 25a5 722a ca47 4e32 c245 dc4f c6a8 232f  %.r*.GN2.E.O..#/
-+00001590: 3fbe 8cb1 a00b a6cf 08a6 26a5 b551 2a60  ?.........&..Q*`
-+000015a0: 6471 e938 563b 6740 a5cc 6a9a b0ea 99b5  dq.8V;g@..j.....
-+000015b0: 14d7 72e5 39e9 09a8 5c0f 022f d98c 2a0e  ..r.9...\../..*.
-+000015c0: 6595 c7d0 ad3f aa55 2281 ddc0 9658 e312  e....?.U"....X..
-+000015d0: 914d c348 a6ed 48ea 5193 16cc 6460 d330  .M.H..H.Q...d`.0
-+000015e0: 9153 479b 5485 b453 6588 2d5a 1796 2f8e  .SG.T..Se.-Z../.
-+000015f0: d2b2 1559 361f b43a 1229 4a11 3b06 1c9e  ...Y6..:.)J.;...
-+00001600: a902 e47b a143 25da 5211 e189 e52f ea75  ...{.C%.R..../.u
-+00001610: bc98 e4da 51bf 6ab5 e465 53f8 8bca ef8b  ....Q.j..eS.....
-+00001620: e828 7e0c 4765 177d 598b e8d6 c710 6202  .(~.Ge.}Y.....b.
-+00001630: 5e88 fac0 311c c0e1 825d 0f49 a68e 6310  ^...1....].I..c.
-+00001640: d3a0 3a0f de16 100f 9606 4094 19e0 0968  ..:.......@....h
-+00001650: 719b 2e88 f900 5ddc 2aec 4b17 fc45 adda  q.....].*.K..E..
-+00001660: e3b7 00b3 d556 6601 0f5f fa43 e9ec e9cb  .....Vf.._.C....
-+00001670: be9a 8af2 9391 e50a 41df 66d8 1836 5348  ........A.f..6SH
-+00001680: 7cb5 58ee ddc5 32ec b592 08a9 c1d2 f97b  |.X...2........{
-+00001690: 2579 b4f8 ae40 2a89 4ede e121 e6f8 ec21  %y...@*.N..!...!
-+000016a0: 2e68 f56c 866c 5724 5d89 2f53 7912 721c  .h.l.lW$]./Sy.r.
-+000016b0: 0699 af94 340c 231c 4507 61f7 c909 9ae6  ....4.#.E.a.....
-+000016c0: f2bd af89 b532 158d 84f7 8e85 9ac6 6c5a  .....2........lZ
-+000016d0: 6ea4 8215 e44c 614e ee30 604e 5873 82f4  n....LaN.0`NXs..
-+000016e0: 7e77 e82e c02e bef3 25fe a509 fec5 f3a7  ~w......%.......
-+000016f0: 63d1 240e 47a6 6089 19f1 dd2e 9141 853b  c.$.G.`......A.;
-+00001700: eed0 87e4 945a 0639 af99 c5cb 04ab e731  .....Z.9.......1
-+00001710: e0e4 e6c9 0e13 3954 d156 0a43 6dc5 99ce  ......9T.V.Cm...
-+00001720: d300 2f44 38ea e4a9 7209 bdd9 b0d2 f712  ../D8...r.......
-+00001730: 5db6 12bc 1db4 9624 3a3e 5934 39e8 0c7b  ]......$:>Y49..{
-+00001740: 0983 b384 071d 32dc a096 c70d 7673 fa7a  ......2.....vs.z
-+00001750: cf2c dfbd 9542 b170 ed19 e8be 96ce 56bf  .,...B.p......V.
-+00001760: 2f1c 4fea 2873 bafc 7dc5 d383 992e 1ffa  /.O.(s..}.......
-+00001770: ce08 a6c5 dcaf 529b 1be1 c25b 109f 020d  ......R....[....
-+00001780: 37e9 ad04 6d2f 15b1 2264 37d2 52d9 d21a  7...m/.."d7.R...
-+00001790: 849f 40f7 d9c2 18c1 2428 22e2 ba6a 3963  ..@.....$("..j9c
-+000017a0: 96f0 0772 098b c194 46c7 a871 8910 8b00  ...r....F..q....
-+000017b0: 837a e9c0 dad9 d43e b363 cd2d edb3 a624  .z.....>.c.-...$
-+000017c0: 2a0d e1ed 4a41 6024 c7ab 1c49 4694 5097  *...JA`$...IF.P.
-+000017d0: f64c 9a68 0b76 97b0 2895 9268 944c 8630  .L.h.v..(..h.L.0
-+000017e0: 967b ad74 142a fd7f cafd dfe7 f3ff d9d8  .{.t.*..........
-+000017f0: 68ee ecec 688d cd66 7373 67a7 9c5c a5fd  h...h..fssg..\..
-+00001800: 67cd 5d80 2afe 335e e611 3833 ebe9 f37f  g.].*.3^..83....
-+00001810: 99ff cf56 632b b4ff 0005 6ec3 fcdf dac4  ...Vc+....n.....
-+00001820: f95f da7f 5efe 390f 1cc7 d25c 8706 dee2  ._..^.9....\....
-+00001830: 4211 5b7f 95d0 e813 5305 33f9 5414 718b  B.[.....S.3.T.q.
-+00001840: 0de6 e114 5201 f1c6 1f7b a61b 88e4 3098  ....R....{....0.
-+00001850: b86c 2f0a 858d 38b8 0bf3 f391 ee70 e2f1  .l/...8......p..
-+00001860: 54c4 f15a 11ac cdaf 2800 e4ca f150 a33a  T..Z....(....P.:
-+00001870: aff4 61a4 16ef e7ba 6754 2e14 508a 511e  ..a.....gT..P.Q.
-+00001880: c40a 8f7a c38a 0230 0dde f47e b7b3 7fd4  ...z...0...~....
-+00001890: d566 4645 71f5 f127 7dca 14b2 f35b 90e4  .fFEq..'}....[..
-+000018a0: c6d6 dc90 bb97 26fa 0ab9 bbe0 f607 7362  ......&.......sb
-+000018b0: 525e 2d93 3eaa fbf4 9a5a 8e8b d1ce c920  R^-.>....Z..... 
-+000018c0: d083 b94f da6d b241 56c9 3b50 ba44 9cc9  ...O.m.AV.;P.D..
-+000018d0: 6a0f c43e dba0 06e9 cc0d 9305 4681 4ca2  j..>........F.L.
-+000018e0: 2880 0bb3 1d8a b6c3 c793 418f 745c 9861  (.........A.t\.a
-+000018f0: d750 0ade a12f 447c 0e73 9f7a ce14 d4fe  .P.../D|.s.z....
-+00001900: 190a 6087 20ed cda1 4798 f594 5d02 8ebf  ..`. ...G...]...
-+00001910: d6b5 edc7 647e fb98 cc3b 8fc9 dc6c 3c2a  ....d~...;...l<*
-+00001920: 7713 725f 288a 4c81 dadc b3fc 0ba5 3270  w.r_(.L.......2p
-+00001930: e61e a06f ec18 b482 0396 639a 8cc9 61ad  ...o......c...a.
-+00001940: 905a 93b0 0d8a 9ee9 302e 2685 3af8 25ea  .Z......0.&.:.%.
-+00001950: 08fc 9f00 8115 3972 3da4 7dbf 0bc4 0df4  ......9r=.}.....
-+00001960: 2788 59a4 6c63 f8a7 f3cb b969 19ab fec2  '.Y.lc.....i....
-+00001970: 07c9 ff02 28ef 97b9 e971 22ab f09a 56c7  ....(....q"...V.
-+00001980: 8e47 8148 79c6 4ba0 42bc 491e 6088 86e0  .G.Hy.K.B.I.`...
-+00001990: 676d a6fb 8e0d 2fba 6b56 945f 2fff 3ffd  gm..../.kV._/.?.
-+000019a0: f3fb d5de f1c1 c9d7 ca7f cbec ffec ce87  ................
-+000019b0: 84fc b7b1 d52a f9ff ab3c 4762 d368 f507  .....*...<Gb.h..
-+000019c0: ced9 dba0 ff35 9563 a675 17cc 2b25 ca2a  .....5.c.u..+%.*
-+000019d0: 8844 19cc 6733 dd5b b4c9 3332 7f45 f041  .D..g3.[..32.E.A
-+000019e0: c614 950e 5b08 da24 9ef5 4a5f 4cbc 55ce  ....[..$..J_L.U.
-+000019f0: 54da e4fb 5d98 c8ea 1f37 b486 b217 31f1  T...]....7....1.
-+00001a00: 8801 17f0 ee44 d67b 1878 22ef c3b8 78a2  .....D.{.x"...x.
-+00001a10: c803 b8e2 63f3 6bdb 8f2e f1f6 d125 761e  ....c.k......%v.
-+00001a20: 5da2 d978 7c91 663c a2fb a61f b4e5 bd8e  ]..x|.f<........
-+00001a30: 1ae3 c7f5 748e 903d b3cf db75 e594 8baa  ....t..=...u....
-+00001a40: ab67 fd43 281e af21 2a79 d202 a2ec c7a2  .g.C(..!*y......
-+00001a50: cd2a 3be4 6607 ab43 6649 c2fd 9d35 a0f9  .*;.f..CfI...5..
-+00001a60: 4f86 7363 2bca 4ae1 5c39 ffa3 399b 12df  O.sc+.J.\9..9...
-+00001a70: 1bef 468b 1824 68fe 156e 68f8 9ae9 a084  ..F..$h..nh.....
-+00001a80: 6dc2 3f42 b2f2 0b57 b3ef 2f6a 2104 2ca2  m.?B...W../j!.,.
-+00001a90: 39de 744d c8e6 4565 d6ea 0fad fffa db54  9.tM..Ee.......T
-+00001aa0: 6b3d 73b5 ca73 3220 2571 b1a2 eddc 30a8  k=s..s2 %q....0.
-+00001ab0: 3328 32d6 2d6b d156 5673 2277 8cb9 fdc4  3(2.-k.VVs"w....
-+00001ac0: 5ac8 313c dc54 0c8f 55d2 6771 4cd7 7403  Z.1<.T..U.gqL.t.
-+00001ad0: 890f 430e 4bb1 98d9 67c7 3332 a9fb d844  ..C.K...g.32...D
-+00001ae0: 4af8 3946 5129 7745 1277 23ae ac90 331f  J.9FQ)wE.w#...3.
-+00001af0: e696 a2f4 7027 0e5a 2dec 3e6d e5e3 c78f  ....p'.Z-.>m....
-+00001b00: 8a6b badc 1904 3e14 d12b e653 3a86 c1b6  .k....>..+.S:...
-+00001b10: 142d 13af 65c4 3421 2d01 a153 fb5a 7317  .-..e.4!-..S.Zs.
-+00001b20: 2957 ffb4 f8a0 6054 6806 6ac8 ad76 81e3  )W....`Th.j..v..
-+00001b30: 2262 1730 2705 048d 35b7 fb59 9f61 7061  "b.0'...5..Y.apa
-+00001b40: 7c59 e1e8 94c6 20ae 59b8 051d 2dd8 b151  |Y.... .Y...-..Q
-+00001b50: 1623 5932 7f3a 368a f54d ee41 75e3 c0ef  .#Y2.:6..M.Au...
-+00001b60: 16ff 8d21 85e1 6d3d 3e8a c0eb e3f6 20f4  ...!..m=>..... .
-+00001b70: 7c3b 02f6 6009 3001 f583 d184 ed34 ee92  |;..`.0......4..
-+00001b80: 3db6 e75d c325 614a 3d95 b89e 896b dce8  =..].%aJ=....k..
-+00001b90: 135d 302f 2e7e c323 2815 1ebb 0469 9799  .]0/.~.#(....i..
-+00001ba0: 5925 934f 0a4e ca6e 5be3 3da9 d719 9686  Y%.O.N.n[.=.....
-+00001bb0: 572c 5e33 2827 8cd4 22c2 8def ea9c 9ad7  W,^3('..".......
-+00001bc0: d426 97b0 10dd b489 8416 dc5b 1627 3043  .&.........[.'0C
-+00001bd0: 43cf 0a41 5402 879b 0159 fbac 9511 4483  C..AT....Y....D.
-+00001be0: 5c2e a245 7a95 0026 d054 ad1b 3f03 2ffc  \..Ez..&.T..?./.
-+00001bf0: 0ecb 2562 f354 01af 2c32 f38d 1307 680e  ..%b.T..,2....h.
-+00001c00: 0fe3 ce16 ec0c f5b2 383c 1843 d508 2342  ........8<.C..#B
-+00001c10: d6aa 94e3 9e6f a103 1ca8 662f fc14 618c  .....o....f/..a.
-+00001c20: a73f bc7a 789f 5b16 4214 23f0 d8aa 832b  .?.zx.[.B.#....+
-+00001c30: d333 e4ba 0f2c 470f 6a32 60e6 b457 9790  .3...,G.j2`..W..
-+00001c40: 8be2 7c88 c508 d188 3d71 da18 d684 671e  ..|.....=q....g.
-+00001c50: 12e8 0f3b c35c d4a1 4437 ea0f 2b22 21bd  ...;.\..D7..+"!.
-+00001c60: fe84 712f 3a81 7d0f 8a18 57c0 1cfb 12c3  ..q/:.}...W.....
-+00001c70: 9ddb d2fd be6c e6f7 3807 6077 8708 f7b7  .....l..8.`w....
-+00001c80: 2c23 55d9 8968 33f0 094e 41e6 82ca 0344  ,#U..h3..NA....D
-+00001c90: 1b44 f89d c294 5a25 bdc8 9e9e 60e0 61de  .D....Z%....`.a.
-+00001ca0: 0c97 7915 26b1 22b3 09d3 971b a3bc f404  ..y.&.".........
-+00001cb0: 7f36 d298 003f 7f36 ca78 b1c9 f3a8 c63f  .6...?.6.x.....?
-+00001cc0: 3b3b 8b97 468d dde1 f390 56e4 d2cd 9338  ;;..F.....V....8
-+00001cd0: 5234 ddfa 2cc0 ba24 5180 8cc0 6f1c 60ee  R4..,..$Q...o.`.
-+00001ce0: 4ab0 3293 1960 8d40 d139 9b1d d430 03e9  J.2..`.@.9...0..
-+00001cf0: 1284 675b 8ba1 c53c d8bb 98a4 1ff1 0280  ..g[...<........
-+00001d00: 8f42 5a28 5808 9317 32b4 5f61 7e64 0288  .BZ(X...2._a~d..
-+00001d10: 57b9 2b0e 0e99 1825 959c e772 ca0b f870  W.+....%...r...p
-+00001d20: cf9c baf8 e6ab c9d3 faf7 acdd 6323 de63  ............c#.c
-+00001d30: 91bf 27cc 7d9e c987 d05f e14c 728d d74b  ..'.}...._.Lr..K
-+00001d40: 2c08 8fff 6273 d931 bc1a 5d23 cabb 3993  ,...bs.1..]#..9.
-+00001d50: ad67 30bd 1809 fbe8 ea04 b0a0 30c8 9603  .g0.........0...
-+00001d60: 47f4 5a12 a2d0 b98a 49e9 f730 d897 1ffe  G.Z.....I..0....
-+00001d70: e210 dc05 f766 64ae c9b8 a817 91c7 8b0f  .....fd.........
-+00001d80: ee53 1a7f 15b6 3e6c 3c1b fcee 6717 552f  .S....>l<...g.U/
-+00001d90: c732 12d7 d0d8 f406 d988 2a2e 1525 a8af  .2........*..%..
-+00001da0: 14e6 e1eb 26fb 1ef3 3652 da2e cba7 7cca  ....&...6R....|.
-+00001db0: a77c caa7 7cca a77c caa7 7cca a77c caa7  .|..|..|..|..|..
-+00001dc0: 7cca a77c caa7 7cca e7ef fef9 7f1a 0112  |..|..|.........
-+00001dd0: 7000 c800 00                             p....
+@@ -1 +1 @@
+-gzip compressed data, was "alembic_postgresql_enum-0.1.3a2.tar", max compression
++gzip compressed data, was "alembic_postgresql_enum-0.1.4a0.tar", max compression
+```
+
+## Comparing `alembic_postgresql_enum-0.1.3a2.tar` & `alembic_postgresql_enum-0.1.4a0.tar`
+
+### file list
+
+```diff
+@@ -1,8 +1,11 @@
+--rw-r--r--   0        0        0     1082 2023-05-26 08:19:49.153846 alembic_postgresql_enum-0.1.3a2/LICENSE
+--rw-r--r--   0        0        0     4263 2023-05-26 14:50:54.441763 alembic_postgresql_enum-0.1.3a2/README.md
+--rw-r--r--   0        0        0       60 2023-07-19 17:05:28.063788 alembic_postgresql_enum-0.1.3a2/alembic_postgresql_enum/__init__.py
+--rw-r--r--   0        0        0     4821 2023-07-19 16:50:35.569872 alembic_postgresql_enum-0.1.3a2/alembic_postgresql_enum/enum_alteration.py
+--rw-r--r--   0        0        0     2191 2023-07-19 16:50:35.581872 alembic_postgresql_enum-0.1.3a2/alembic_postgresql_enum/enum_creation.py
+--rw-r--r--   0        0        0     3890 2023-07-19 17:50:40.549511 alembic_postgresql_enum-0.1.3a2/alembic_postgresql_enum/get_enum_data.py
+--rw-r--r--   0        0        0      810 2023-07-19 18:53:58.752409 alembic_postgresql_enum-0.1.3a2/pyproject.toml
+--rw-r--r--   0        0        0     5103 1970-01-01 00:00:00.000000 alembic_postgresql_enum-0.1.3a2/PKG-INFO
++-rw-r--r--   0        0        0     1082 2023-05-26 08:19:49.153846 alembic_postgresql_enum-0.1.4a0/LICENSE
++-rw-r--r--   0        0        0     3985 2023-07-26 19:58:44.754677 alembic_postgresql_enum-0.1.4a0/README.md
++-rw-r--r--   0        0        0       32 2023-07-26 19:11:56.863336 alembic_postgresql_enum-0.1.4a0/alembic_postgresql_enum/__init__.py
++-rw-r--r--   0        0        0     1718 2023-07-26 19:11:56.863336 alembic_postgresql_enum-0.1.4a0/alembic_postgresql_enum/compare_dispatch.py
++-rw-r--r--   0        0        0     6270 2023-07-26 19:58:15.881837 alembic_postgresql_enum-0.1.4a0/alembic_postgresql_enum/enum_alteration.py
++-rw-r--r--   0        0        0     1145 2023-07-26 19:11:56.863336 alembic_postgresql_enum-0.1.4a0/alembic_postgresql_enum/enum_creation.py
++-rw-r--r--   0        0        0     1174 2023-07-26 19:11:56.863336 alembic_postgresql_enum-0.1.4a0/alembic_postgresql_enum/enum_deletion.py
++-rw-r--r--   0        0        0      606 2023-07-26 19:11:55.927316 alembic_postgresql_enum-0.1.4a0/alembic_postgresql_enum/enum_op_base.py
++-rw-r--r--   0        0        0     4799 2023-07-27 07:02:52.233793 alembic_postgresql_enum-0.1.4a0/alembic_postgresql_enum/get_enum_data.py
++-rw-r--r--   0        0        0      902 2023-07-27 07:13:19.051159 alembic_postgresql_enum-0.1.4a0/pyproject.toml
++-rw-r--r--   0        0        0     4824 1970-01-01 00:00:00.000000 alembic_postgresql_enum-0.1.4a0/PKG-INFO
+```
+
+### Comparing `alembic_postgresql_enum-0.1.3a2/LICENSE` & `alembic_postgresql_enum-0.1.4a0/LICENSE`
+
+ * *Files identical despite different names*
+
+### Comparing `alembic_postgresql_enum-0.1.3a2/README.md` & `alembic_postgresql_enum-0.1.4a0/README.md`
+
+ * *Files 20% similar despite different names*
+
+```diff
+@@ -110,19 +110,17 @@
+ It is fine if you do not have any data in your database. 
+ But in most cases it is not.
+ 
+ So adjust migration like that
+ 
+ ```python
+ def upgrade():
+-    op.sync_enum_values('public', 'myenum', ['one', 'two', 'tree', 'three'], [('example_table', 'enum_field')])
+-    op.execute("""UPDATE example_table SET enum_field = 'three' WHERE enum_field = 'tree'""")
+-    op.sync_enum_values('public', 'myenum', ['one', 'two', 'three'], [('example_table', 'enum_field')])
++    op.sync_enum_values('public', 'myenum', ['one', 'two', 'three'], [('example_table', 'enum_field')],
++                        enum_values_to_rename=[('tree', 'three')])
+ 
+ 
+ def downgrade():
+-    op.sync_enum_values('public', 'myenum', ['one', 'two', 'tree', 'three'], [('example_table', 'enum_field')])
+-    op.execute("""UPDATE example_table SET enum_field = 'tree' WHERE enum_field = 'three'""")
+-    op.sync_enum_values('public', 'myenum', ['one', 'two', 'tree'], [('example_table', 'enum_field')])
++    op.sync_enum_values('public', 'myenum', ['one', 'two', 'tree'], [('example_table', 'enum_field')],
++                        enum_values_to_rename=[('three', 'tree')])
+ ```
+ 
+ Expand old values with new one, update all old values with new one, remove old enum value
+```
+
+### Comparing `alembic_postgresql_enum-0.1.3a2/alembic_postgresql_enum/get_enum_data.py` & `alembic_postgresql_enum-0.1.4a0/alembic_postgresql_enum/get_enum_data.py`
+
+ * *Files 20% similar despite different names*
+
+```diff
+@@ -1,32 +1,42 @@
+ # Based on https://github.com/dw/alembic-autogenerate-enums
++from collections import defaultdict
+ from contextlib import contextmanager
+ from dataclasses import dataclass
+-from typing import Optional, Dict, List, Tuple
++from typing import Dict, Tuple, TYPE_CHECKING, Any, Set, FrozenSet
+ 
+ import sqlalchemy
++from sqlalchemy import MetaData
+ 
++if TYPE_CHECKING:
++    from sqlalchemy.engine import Dialect
+ 
+-@dataclass
+-class EnumToTable:
++
++@dataclass(frozen=True)
++class TableReference:
+     table_name: str
+     column_name: str
+-    enum_name: str
++
++    def to_tuple(self) -> Tuple[str, str]:
++        return self.table_name, self.column_name
++
++
++EnumNamesToValues = Dict[str, Tuple[str, ...]]
++EnumNamesToTableReferences = Dict[str, FrozenSet[TableReference]]
+ 
+ 
+ @dataclass
+ class DeclaredEnumValues:
+-    # enum name -> tuple of values
+-    enum_definitions: Dict[str, Tuple[str]]
+-    table_definitions: Optional[List[EnumToTable]] = None
++    enum_values: EnumNamesToValues
++    enum_table_references: EnumNamesToTableReferences
+ 
+ 
+-def get_defined_enums(conn, schema: str):
++def get_defined_enums(conn, schema: str) -> EnumNamesToValues:
+     """
+-    Return a dict mapping PostgreSQL enumeration types to the set of their
++    Return a dict mapping PostgreSQL defined enumeration types to the set of their
+     defined values.
+     :param conn:
+         SQLAlchemy connection instance.
+     :param str schema:
+         Schema name (e.g. "public").
+     :returns DeclaredEnumValues:
+         enum_definitions={
+@@ -41,18 +51,18 @@
+                   WHERE enumtypid = t.oid)
+         FROM pg_catalog.pg_type t
+         LEFT JOIN pg_catalog.pg_namespace n ON n.oid = t.typnamespace
+         WHERE
+             t.typtype = 'e'
+             AND n.nspname = :schema
+     """
+-    return DeclaredEnumValues({
++    return {
+         r[0]: tuple(r[1])
+         for r in conn.execute(sqlalchemy.text(sql), dict(schema=schema))
+-    })
++    }
+ 
+ 
+ def get_enum_values(enum_type: sqlalchemy.Enum, dialect) -> 'Tuple[str, ...]':
+     # For specific case when types.TypeDecorator is used
+     if isinstance(enum_type, sqlalchemy.types.TypeDecorator):
+         def value_processor(value):
+             return enum_type.process_bind_param(
+@@ -61,64 +71,71 @@
+             )
+     else:
+         def value_processor(enum_value):
+             return enum_value
+     return tuple(value_processor(value) for value in enum_type.enums)
+ 
+ 
+-def get_declared_enums(metadata, schema: str, default_schema: str, dialect):
++def column_type_is_enum(column_type: Any) -> bool:
++    if isinstance(column_type, sqlalchemy.Enum):
++        return True
++
++    # For specific case when types.TypeDecorator is used
++    if isinstance(getattr(column_type, 'impl', None), sqlalchemy.Enum):
++        return True
++
++    return False
++
++
++def get_declared_enums(metadata: MetaData, schema: str, default_schema: str, dialect: 'Dialect') -> DeclaredEnumValues:
+     """
+-    Return a dict mapping SQLAlchemy enumeration types to the set of their
+-    declared values.
++    Return a dict mapping SQLAlchemy declared enumeration types to the set of their values
++    with columns where enums are used.
+     :param metadata:
+-        ...
++        SqlAlchemy schema
+     :param str schema:
+         Schema name (e.g. "public").
+     :param default_schema:
+         Default schema name, likely will be "public"
+-    :param dialect:
++    :param dialect: todo may be a good idea to get rid of it as library only supports postgresql
+         Current sql dialect
+     :returns DeclaredEnumValues:
+-        enum_definitions: {
++        enum_values: {
+             "my_enum": tuple(["a", "b", "c"]),
+         },
+-        table_definitions: [
+-            EnumToTable(table_name="my_table", column_name="my_column", enum_name="my_enum"),
+-        ]
++        enum_table_references: {
++            "my_enum": {
++                EnumToTable(table_name="my_table", column_name="my_column")
++            }
++        }
+     """
+-    types = set()
+-    table_definitions = []
++    enum_name_to_values = dict()
++    enum_name_to_table_references: defaultdict[str, Set[TableReference]] = defaultdict(set)
+ 
+     for table in metadata.tables.values():
+         for column in table.columns:
++            # if column is in different schema
+             if not hasattr(column.type, 'schema'):
+                 continue
+-
+             if schema != (column.type.schema or default_schema):
+                 continue
+ 
+-            if isinstance(column.type, sqlalchemy.Enum):
+-                types.add(column.type)
+-
+-            # For specific case when types.TypeDecorator is used
+-            elif isinstance(getattr(column.type, 'impl', None), sqlalchemy.Enum):
+-                types.add(column.type)
+-
+-            else:
++            if not column_type_is_enum(column.type):
+                 continue
+ 
+-            table_definitions.append(
+-                EnumToTable(table.name, column.name, column.type.name)
+-            )
++            if column.type.name not in enum_name_to_values:
++                enum_name_to_values[column.type.name] = get_enum_values(column.type, dialect)
++
++            enum_name_to_table_references[column.type.name].add(TableReference(table.name, column.name))
+ 
+     return DeclaredEnumValues(
+-        enum_definitions={
+-            t.name: get_enum_values(t, dialect) for t in types
+-        },
+-        table_definitions=table_definitions,
++        enum_values=enum_name_to_values,
++        enum_table_references={enum_name: frozenset(table_references)
++                               for enum_name, table_references
++                               in enum_name_to_table_references.items()},
+     )
+ 
+ 
+ @contextmanager
+ def get_connection(operations) -> sqlalchemy.engine.Connection:
+     """
+     SQLAlchemy 2.0 changes the operation binding location; bridge function to support
+```
+
+### Comparing `alembic_postgresql_enum-0.1.3a2/PKG-INFO` & `alembic_postgresql_enum-0.1.4a0/PKG-INFO`
+
+ * *Files 20% similar despite different names*
+
+```diff
+@@ -1,15 +1,15 @@
+ Metadata-Version: 2.1
+ Name: alembic-postgresql-enum
+-Version: 0.1.3a2
++Version: 0.1.4a0
+ Summary: Alembic autogenerate support for creation, alteration and deletion of enums
+ License: MIT
+ Author: RustyGuard
+ Requires-Python: >=3.7,<4.0
+-Classifier: Development Status :: 3 - Alpha
++Classifier: Development Status :: 4 - Beta
+ Classifier: Intended Audience :: Developers
+ Classifier: License :: OSI Approved :: MIT License
+ Classifier: Programming Language :: Python :: 3
+ Classifier: Programming Language :: Python :: 3.7
+ Classifier: Programming Language :: Python :: 3.8
+ Classifier: Programming Language :: Python :: 3.9
+ Classifier: Programming Language :: Python :: 3.10
+@@ -131,19 +131,17 @@
+ It is fine if you do not have any data in your database. 
+ But in most cases it is not.
+ 
+ So adjust migration like that
+ 
+ ```python
+ def upgrade():
+-    op.sync_enum_values('public', 'myenum', ['one', 'two', 'tree', 'three'], [('example_table', 'enum_field')])
+-    op.execute("""UPDATE example_table SET enum_field = 'three' WHERE enum_field = 'tree'""")
+-    op.sync_enum_values('public', 'myenum', ['one', 'two', 'three'], [('example_table', 'enum_field')])
++    op.sync_enum_values('public', 'myenum', ['one', 'two', 'three'], [('example_table', 'enum_field')],
++                        enum_values_to_rename=[('tree', 'three')])
+ 
+ 
+ def downgrade():
+-    op.sync_enum_values('public', 'myenum', ['one', 'two', 'tree', 'three'], [('example_table', 'enum_field')])
+-    op.execute("""UPDATE example_table SET enum_field = 'tree' WHERE enum_field = 'three'""")
+-    op.sync_enum_values('public', 'myenum', ['one', 'two', 'tree'], [('example_table', 'enum_field')])
++    op.sync_enum_values('public', 'myenum', ['one', 'two', 'tree'], [('example_table', 'enum_field')],
++                        enum_values_to_rename=[('three', 'tree')])
+ ```
+ 
+ Expand old values with new one, update all old values with new one, remove old enum value
 ```
 
