@@ -17752,3 +17752,79 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-27 09:21:04] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.99.tar.gz]
 [2023-07-27 09:21:04] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-07-27 09:21:04] INFO root fetch - main [MainThread]: Store serial: [19056636]
+[2023-07-27 09:26:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19056636]
+[2023-07-27 09:26:13] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-27 09:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chatllm
+[2023-07-27 09:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MeUtils
+[2023-07-27 09:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: c2cwsgiutils
+[2023-07-27 09:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chatllm
+[2023-07-27 09:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: localstack-core
+[2023-07-27 09:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kili
+[2023-07-27 09:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: RXN4Chemistry
+[2023-07-27 09:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bkapi-plugins-py
+[2023-07-27 09:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyphotonics
+[2023-07-27 09:26:13] INFO root fetch - processPackages [pyphotonics]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-27 09:26:13] INFO root fetch - processPackages [bkapi-plugins-py]: New version: [0.727] Old Version: [0.703]
+[2023-07-27 09:26:13] INFO root fetch - processPackages [localstack-core]: New version: [2.2.1.dev20230727072358] Old Version: [2.2.1.dev20230726202215]
+[2023-07-27 09:26:13] INFO root fetch - processPackages [chatllm]: New version: [2023.7.4.13.43.50] Old Version: [2023.7.4.12.13.14]
+[2023-07-27 09:26:13] INFO root fetch - processPackages [chatllm]: New version: [2023.7.4.13.43.50] Old Version: [2023.7.4.12.13.14]
+[2023-07-27 09:26:13] INFO root fetch - processPackages [MeUtils]: New version: [2023.7.7.15.3.6] Old Version: [2023.7.6.9.18.40]
+[2023-07-27 09:26:13] INFO root fetch - processPackages [c2cwsgiutils]: New version: [6.0.0.dev99] Old Version: [6.0.0.dev97]
+[2023-07-27 09:26:13] INFO root fetch - processPackages [kili]: New version: [2.99.0] Old Version: [2.98.0]
+[2023-07-27 09:26:13] INFO root fetch - processPackages [RXN4Chemistry]: New version: [1.8.0] Old Version: [1.7.0]
+[2023-07-27 09:26:13] INFO root fetch - processPackages [pyphotonics]: Downloading https://files.pythonhosted.org/packages/3c/87/b8711d3f2b7c2acd70886adbe9c5b8b69bc97919e624879cd5abdc6aa9c2/pyphotonics-0.1.4.tar.gz
+[2023-07-27 09:26:13] INFO root fetch - processPackages [bkapi-plugins-py]: Downloading https://files.pythonhosted.org/packages/d4/ac/53f3e96ec86a99e135df4fac8eb9907f93564812c82112d4e982f8d56611/bkapi-plugins-py-0.703.tar.gz
+[2023-07-27 09:26:13] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/03/c2/0074fedd9218c4324bec9cdbb7bc5f7c2c839ea18d1079a715c0d495a660/MeUtils-2023.7.6.9.18.40.tar.gz
+[2023-07-27 09:26:13] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/44/4e/62f5b1aea6c85b6c6232243e952fff8350887b6938682da98e4cffd606af/localstack-core-2.2.1.dev20230726202215.tar.gz
+[2023-07-27 09:26:14] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/ac/15/d8015b5ea1834f5c18e47edecc9b74875a43e81a49b4b2b2372660959ee1/chatllm-2023.7.4.12.13.14.tar.gz
+[2023-07-27 09:26:14] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/ac/15/d8015b5ea1834f5c18e47edecc9b74875a43e81a49b4b2b2372660959ee1/chatllm-2023.7.4.12.13.14.tar.gz
+[2023-07-27 09:26:14] INFO root fetch - processPackages [kili]: Downloading https://files.pythonhosted.org/packages/82/1a/9d8d62f4db71c0c98f2af8101e21f42133a2335a53ea5acb86d49e0afcce/kili-2.98.0.tar.gz
+[2023-07-27 09:26:14] INFO root fetch - processPackages [c2cwsgiutils]: Downloading https://files.pythonhosted.org/packages/7e/19/e64dc0870291f601e6d1f041424eef5a28112c1c9b7be627a7f01c80ebab/c2cwsgiutils-6.0.0.dev97.tar.gz
+[2023-07-27 09:26:14] WARNING root fetch - processPackages [chatllm]: Skipping package: exceeds size limit 11352041>=10485760
+[2023-07-27 09:26:14] INFO root fetch - main [MainThread]: End processing [chatllm] error
+[2023-07-27 09:26:14] WARNING root fetch - processPackages [chatllm]: Skipping package: exceeds size limit 11352041>=10485760
+[2023-07-27 09:26:14] INFO root fetch - main [MainThread]: End processing [chatllm] error
+[2023-07-27 09:26:14] INFO root fetch - processPackages [RXN4Chemistry]: Downloading https://files.pythonhosted.org/packages/5d/79/6496aa85d06b931544ee5b6b9667ff72337cd088c796511b9c53a2ca18b0/RXN4Chemistry-1.7.0.tar.gz
+[2023-07-27 09:26:14] INFO root fetch - processPackages [pyphotonics]: Downloading https://files.pythonhosted.org/packages/c0/04/08e16bee6b79cc50036ac4d3f24b2f342167608686e5ebeb79527bdd236d/pyphotonics-0.1.5.tar.gz
+[2023-07-27 09:26:14] INFO root fetch - processPackages [bkapi-plugins-py]: Downloading https://files.pythonhosted.org/packages/7a/74/7d6377d078d5253fd55a3a50f81869db1ff845ad9f0fa18eb066d6134b56/bkapi-plugins-py-0.727.tar.gz
+[2023-07-27 09:26:14] INFO root fetch - processPackages [pyphotonics]: executing diffoscope
+[2023-07-27 09:26:14] INFO root fetch - processPackages [pyphotonics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyphotonics-0.1.4.tar.gz tmp/pyphotonics-0.1.5.tar.gz --markdown 20230727/p/pyphotonics/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-27 09:26:14] INFO root fetch - processPackages [c2cwsgiutils]: Downloading https://files.pythonhosted.org/packages/bc/fc/caed9a3b8aa535ab83ce1fdf048ce861e9039ac24958fa3ddf9049b3f2b6/c2cwsgiutils-6.0.0.dev99.tar.gz
+[2023-07-27 09:26:14] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/32/c4/93c6838be5345ec53fa135e80663836d2546b04b078d8a8ba746395d9074/localstack-core-2.2.1.dev20230727072358.tar.gz
+[2023-07-27 09:26:14] INFO root fetch - processPackages [kili]: Downloading https://files.pythonhosted.org/packages/29/0e/34477795c404b4be48b4e400c823732c9e2857d5f305bbbdbc8203e0ec17/kili-2.99.0.tar.gz
+[2023-07-27 09:26:14] INFO root fetch - processPackages [c2cwsgiutils]: executing diffoscope
+[2023-07-27 09:26:14] INFO root fetch - processPackages [c2cwsgiutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cwsgiutils-6.0.0.dev97.tar.gz tmp/c2cwsgiutils-6.0.0.dev99.tar.gz --markdown 20230727/c/c2cwsgiutils/6.0.0.dev97-6.0.0.dev99/diff.md --exclude *.pyd
+[2023-07-27 09:26:14] INFO root fetch - processPackages [bkapi-plugins-py]: executing diffoscope
+[2023-07-27 09:26:14] INFO root fetch - processPackages [bkapi-plugins-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bkapi-plugins-py-0.703.tar.gz tmp/bkapi-plugins-py-0.727.tar.gz --markdown 20230727/b/bkapi-plugins-py/0.703-0.727/diff.md --exclude *.pyd
+[2023-07-27 09:26:14] INFO root fetch - processPackages [RXN4Chemistry]: Downloading https://files.pythonhosted.org/packages/01/c1/1f635441b0df383bff81c95b4aa41512d5b8d324abc716416b2726fcc582/RXN4Chemistry-1.8.0.tar.gz
+[2023-07-27 09:26:14] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/1e/99/2f228a790c6fc15f93482f3f0fa7bbad95d15d6e0aa883c7919fe4a66c95/MeUtils-2023.7.7.15.3.6.tar.gz
+[2023-07-27 09:26:14] INFO root fetch - processPackages [kili]: executing diffoscope
+[2023-07-27 09:26:14] INFO root fetch - processPackages [kili]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kili-2.98.0.tar.gz tmp/kili-2.99.0.tar.gz --markdown 20230727/k/kili/2.98.0-2.99.0/diff.md --exclude *.pyd
+[2023-07-27 09:26:14] INFO root fetch - processPackages [RXN4Chemistry]: executing diffoscope
+[2023-07-27 09:26:14] INFO root fetch - processPackages [RXN4Chemistry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RXN4Chemistry-1.7.0.tar.gz tmp/RXN4Chemistry-1.8.0.tar.gz --markdown 20230727/R/RXN4Chemistry/1.7.0-1.8.0/diff.md --exclude *.pyd
+[2023-07-27 09:26:14] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-07-27 09:26:14] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.2.1.dev20230726202215.tar.gz tmp/localstack-core-2.2.1.dev20230727072358.tar.gz --markdown 20230727/l/localstack-core/2.2.1.dev20230726202215-2.2.1.dev20230727072358/diff.md --exclude *.pyd
+[2023-07-27 09:26:15] INFO root fetch - processPackages [MeUtils]: executing diffoscope
+[2023-07-27 09:26:15] INFO root fetch - processPackages [MeUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeUtils-2023.7.6.9.18.40.tar.gz tmp/MeUtils-2023.7.7.15.3.6.tar.gz --markdown 20230727/M/MeUtils/2023.7.6.9.18.40-2023.7.7.15.3.6/diff.md --exclude *.pyd
+[2023-07-27 09:26:15] INFO root fetch - processPackages [pyphotonics]: Remove: archive file [/home/abi/fetcher/tmp/pyphotonics-0.1.4.tar.gz]
+[2023-07-27 09:26:15] INFO root fetch - processPackages [pyphotonics]: Remove: archive file [/home/abi/fetcher/tmp/pyphotonics-0.1.5.tar.gz]
+[2023-07-27 09:26:15] INFO root fetch - main [MainThread]: End processing [pyphotonics]: success
+[2023-07-27 09:26:15] INFO root fetch - processPackages [RXN4Chemistry]: Remove: archive file [/home/abi/fetcher/tmp/RXN4Chemistry-1.7.0.tar.gz]
+[2023-07-27 09:26:15] INFO root fetch - processPackages [RXN4Chemistry]: Remove: archive file [/home/abi/fetcher/tmp/RXN4Chemistry-1.8.0.tar.gz]
+[2023-07-27 09:26:15] INFO root fetch - main [MainThread]: End processing [RXN4Chemistry]: success
+[2023-07-27 09:26:16] INFO root fetch - processPackages [kili]: Remove: archive file [/home/abi/fetcher/tmp/kili-2.98.0.tar.gz]
+[2023-07-27 09:26:16] INFO root fetch - processPackages [kili]: Remove: archive file [/home/abi/fetcher/tmp/kili-2.99.0.tar.gz]
+[2023-07-27 09:26:16] INFO root fetch - main [MainThread]: End processing [kili]: success
+[2023-07-27 09:26:16] INFO root fetch - processPackages [c2cwsgiutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cwsgiutils-6.0.0.dev97.tar.gz]
+[2023-07-27 09:26:16] INFO root fetch - processPackages [c2cwsgiutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cwsgiutils-6.0.0.dev99.tar.gz]
+[2023-07-27 09:26:16] INFO root fetch - main [MainThread]: End processing [c2cwsgiutils]: success
+[2023-07-27 09:26:16] INFO root fetch - processPackages [bkapi-plugins-py]: Remove: archive file [/home/abi/fetcher/tmp/bkapi-plugins-py-0.703.tar.gz]
+[2023-07-27 09:26:16] INFO root fetch - processPackages [bkapi-plugins-py]: Remove: archive file [/home/abi/fetcher/tmp/bkapi-plugins-py-0.727.tar.gz]
+[2023-07-27 09:26:16] INFO root fetch - main [MainThread]: End processing [bkapi-plugins-py]: success
+[2023-07-27 09:26:18] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.7.6.9.18.40.tar.gz]
+[2023-07-27 09:26:18] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.7.7.15.3.6.tar.gz]
+[2023-07-27 09:26:18] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
+[2023-07-27 09:26:18] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.2.1.dev20230726202215.tar.gz]
+[2023-07-27 09:26:18] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.2.1.dev20230727072358.tar.gz]
+[2023-07-27 09:26:18] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-07-27 09:26:18] INFO root fetch - main [MainThread]: Store serial: [19056664]
