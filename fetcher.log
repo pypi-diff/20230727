@@ -7510,3 +7510,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-27 03:54:47] INFO root fetch - processPackages [paddleocr-convert]: Remove: archive file [/home/abi/fetcher/tmp/paddleocr_convert-0.0.9-py3-none-any.whl.zip]
 [2023-07-27 03:54:47] INFO root fetch - main [MainThread]: End processing [paddleocr-convert]: success
 [2023-07-27 03:54:47] INFO root fetch - main [MainThread]: Store serial: [19053008]
+[2023-07-27 03:59:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19053008]
+[2023-07-27 03:59:56] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-27 03:59:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: shootpandora-Cloud
+[2023-07-27 03:59:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: shootpandora-ChatGPT
+[2023-07-27 03:59:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: imgviz
+[2023-07-27 03:59:56] INFO root fetch - processPackages [shootpandora-Cloud]: New version: [20230725.1.4] Old Version: [20230725.1.3]
+[2023-07-27 03:59:56] INFO root fetch - processPackages [imgviz]: New version: [1.7.3] Old Version: [1.7.2]
+[2023-07-27 03:59:56] INFO root fetch - processPackages [shootpandora-ChatGPT]: New version: [20230725.1.4] Old Version: [20230725.1.3]
+[2023-07-27 03:59:56] INFO root fetch - processPackages [shootpandora-Cloud]: Downloading https://files.pythonhosted.org/packages/79/4e/c0ccfbea894cdb60dec8a5ae6d99a94c99f895e674781bba8fb5a11c084c/shootpandora-Cloud-20230725.1.3.tar.gz
+[2023-07-27 03:59:56] INFO root fetch - processPackages [shootpandora-ChatGPT]: Downloading https://files.pythonhosted.org/packages/b6/45/e4dab86ee4d39ceb2b2cd7204b4a320ce5e6c01d189dab9191dc81dd152c/shootpandora-ChatGPT-20230725.1.3.tar.gz
+[2023-07-27 03:59:56] INFO root fetch - processPackages [imgviz]: Downloading https://files.pythonhosted.org/packages/af/35/3c7ecc8bc21213ca5a92aead94c79a65018e1be5a26ba4589dda2f3b5b56/imgviz-1.7.2.tar.gz
+[2023-07-27 03:59:57] INFO root fetch - processPackages [shootpandora-ChatGPT]: Downloading https://files.pythonhosted.org/packages/60/f0/131d49e54c54bb7c29d2ee17b10e5898f8c87af34f9f01f4d600da2e6cf8/shootpandora-ChatGPT-20230725.1.4.tar.gz
+[2023-07-27 03:59:57] INFO root fetch - processPackages [shootpandora-Cloud]: Downloading https://files.pythonhosted.org/packages/de/3e/a8538302ea7fdfb269c7d2f09a037fd5f610c6c05b6faa7774472086d3a1/shootpandora-Cloud-20230725.1.4.tar.gz
+[2023-07-27 03:59:57] INFO root fetch - processPackages [shootpandora-ChatGPT]: executing diffoscope
+[2023-07-27 03:59:57] INFO root fetch - processPackages [shootpandora-ChatGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shootpandora-ChatGPT-20230725.1.3.tar.gz tmp/shootpandora-ChatGPT-20230725.1.4.tar.gz --markdown 20230727/s/shootpandora-ChatGPT/20230725.1.3-20230725.1.4/diff.md --exclude *.pyd
+[2023-07-27 03:59:57] INFO root fetch - processPackages [imgviz]: Downloading https://files.pythonhosted.org/packages/f7/b6/adcc404d0cdd66051f708609043f6cd2a7081f7fe63ce4d8d64befc12e78/imgviz-1.7.3.tar.gz
+[2023-07-27 03:59:57] INFO root fetch - processPackages [shootpandora-Cloud]: executing diffoscope
+[2023-07-27 03:59:57] INFO root fetch - processPackages [shootpandora-Cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shootpandora-Cloud-20230725.1.3.tar.gz tmp/shootpandora-Cloud-20230725.1.4.tar.gz --markdown 20230727/s/shootpandora-Cloud/20230725.1.3-20230725.1.4/diff.md --exclude *.pyd
+[2023-07-27 03:59:58] INFO root fetch - processPackages [imgviz]: executing diffoscope
+[2023-07-27 03:59:58] INFO root fetch - processPackages [imgviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imgviz-1.7.2.tar.gz tmp/imgviz-1.7.3.tar.gz --markdown 20230727/i/imgviz/1.7.2-1.7.3/diff.md --exclude *.pyd
+[2023-07-27 03:59:58] INFO root fetch - processPackages [shootpandora-ChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/shootpandora-ChatGPT-20230725.1.3.tar.gz]
+[2023-07-27 03:59:58] INFO root fetch - processPackages [shootpandora-ChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/shootpandora-ChatGPT-20230725.1.4.tar.gz]
+[2023-07-27 03:59:58] INFO root fetch - main [MainThread]: End processing [shootpandora-ChatGPT]: success
+[2023-07-27 03:59:59] INFO root fetch - processPackages [shootpandora-Cloud]: Remove: archive file [/home/abi/fetcher/tmp/shootpandora-Cloud-20230725.1.3.tar.gz]
+[2023-07-27 03:59:59] INFO root fetch - processPackages [shootpandora-Cloud]: Remove: archive file [/home/abi/fetcher/tmp/shootpandora-Cloud-20230725.1.4.tar.gz]
+[2023-07-27 03:59:59] INFO root fetch - main [MainThread]: End processing [shootpandora-Cloud]: success
+[2023-07-27 03:59:59] INFO root fetch - processPackages [imgviz]: Remove: archive file [/home/abi/fetcher/tmp/imgviz-1.7.2.tar.gz]
+[2023-07-27 03:59:59] INFO root fetch - processPackages [imgviz]: Remove: archive file [/home/abi/fetcher/tmp/imgviz-1.7.3.tar.gz]
+[2023-07-27 03:59:59] INFO root fetch - main [MainThread]: End processing [imgviz]: success
+[2023-07-27 03:59:59] INFO root fetch - main [MainThread]: Store serial: [19053017]
