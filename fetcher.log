@@ -21915,3 +21915,111 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-27 12:12:40] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.2.1.dev20230727100820.tar.gz]
 [2023-07-27 12:12:40] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-07-27 12:12:40] INFO root fetch - main [MainThread]: Store serial: [19058298]
+[2023-07-27 12:17:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19058298]
+[2023-07-27 12:17:50] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-27 12:17:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gdrive-bot
+[2023-07-27 12:17:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: OpenFisca-France-Local
+[2023-07-27 12:17:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyprocessors-openai_completion
+[2023-07-27 12:17:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: biodigest
+[2023-07-27 12:17:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vg-beat-detectors
+[2023-07-27 12:17:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: axabc
+[2023-07-27 12:17:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: simple-pygame
+[2023-07-27 12:17:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: amazon-scrape
+[2023-07-27 12:17:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: weboptout
+[2023-07-27 12:17:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: anylearn
+[2023-07-27 12:17:50] INFO root fetch - processPackages [gdrive-bot]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-27 12:17:50] INFO root fetch - processPackages [biodigest]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-27 12:17:50] INFO root fetch - processPackages [axabc]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-27 12:17:50] WARNING root fetch - processPackages [vg-beat-detectors]: Skipping, unable to determine old version
+[2023-07-27 12:17:50] INFO root fetch - processPackages [vg-beat-detectors]: Start processing: stream-gears
+[2023-07-27 12:17:50] INFO root fetch - main [MainThread]: End processing [vg-beat-detectors] error
+[2023-07-27 12:17:50] INFO root fetch - processPackages [OpenFisca-France-Local]: New version: [6.0.0] Old Version: [5.3.2]
+[2023-07-27 12:17:50] INFO root fetch - processPackages [amazon-scrape]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-27 12:17:50] INFO root fetch - processPackages [simple-pygame]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-27 12:17:50] INFO root fetch - processPackages [pyprocessors-openai_completion]: New version: [0.5.9] Old Version: [0.5.79]
+[2023-07-27 12:17:50] INFO root fetch - processPackages [weboptout]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-27 12:17:50] INFO root fetch - processPackages [anylearn]: New version: [0.18.3] Old Version: [0.18.2]
+[2023-07-27 12:17:50] INFO root fetch - processPackages [stream-gears]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-27 12:17:50] INFO root fetch - processPackages [axabc]: Downloading https://files.pythonhosted.org/packages/41/c5/b797e58b17775ec27f68316c932448dfa73c089804cd7a559dea828dcd85/axabc-0.0.8.tar.gz
+[2023-07-27 12:17:50] INFO root fetch - processPackages [biodigest]: Downloading https://files.pythonhosted.org/packages/cb/f4/00f5dbe212fdc6f3320080d0403549155deabf08afa4491176f578746f84/biodigest-0.2.8.tar.gz
+[2023-07-27 12:17:50] INFO root fetch - processPackages [amazon-scrape]: Downloading https://files.pythonhosted.org/packages/ba/57/62d7c079a6ea7651fa6d7886c790544542facfa2c15ec3ef584f0ba0f81d/amazon_scrape-0.0.3.tar.gz
+[2023-07-27 12:17:50] INFO root fetch - processPackages [gdrive-bot]: Downloading https://files.pythonhosted.org/packages/96/3f/724c074560d43561090eaf90f8b3f5e90d820cce1102e7484be869701f95/gdrive_bot-1.0.0-py3-none-any.whl
+[2023-07-27 12:17:50] INFO root fetch - processPackages [pyprocessors-openai_completion]: Downloading https://files.pythonhosted.org/packages/79/a7/3bab213d5f9e07bab4d0889a9aa8bc68d0229af137bd32a7d0f0b0538538/pyprocessors_openai_completion-0.5.79.tar.gz
+[2023-07-27 12:17:50] INFO root fetch - processPackages [OpenFisca-France-Local]: Downloading https://files.pythonhosted.org/packages/6a/50/98bcec77030e0d5cdb0c2bc53e40e58a9eb8d524c381c6a5fc77680f0260/OpenFisca-France-Local-5.3.2.tar.gz
+[2023-07-27 12:17:50] INFO root fetch - processPackages [simple-pygame]: Downloading https://files.pythonhosted.org/packages/b8/65/adc581e2a10f3d5e04d2bcfc33126202e7b4c665fedff355e237484dc8ec/simple_pygame-0.0.6.tar.gz
+[2023-07-27 12:17:50] INFO root fetch - processPackages [anylearn]: Downloading https://files.pythonhosted.org/packages/e4/58/6c5bc70138e64219361e0c8a45559e2132b66c9a9cff13708763fe3de445/anylearn-0.18.2.tar.gz
+[2023-07-27 12:17:50] INFO root fetch - processPackages [weboptout]: Downloading https://files.pythonhosted.org/packages/73/0d/81a8f61d75fc99ccfe8d2d2b7402fc3eb7d1efc0c9f2f008c56bd12041a8/weboptout-0.2.1.tar.gz
+[2023-07-27 12:17:50] INFO root fetch - processPackages [stream-gears]: Downloading https://files.pythonhosted.org/packages/13/81/79efb8e292403dc0e02ea78b266635644e038eac384fbfe481a2a8a68074/stream_gears-0.1.8.tar.gz
+[2023-07-27 12:17:51] INFO root fetch - processPackages [axabc]: Downloading https://files.pythonhosted.org/packages/60/61/87ebd4434765200cd248acf948bf78aef84ae73165a7cb8854e4f5a4f66d/axabc-0.0.9.tar.gz
+[2023-07-27 12:17:51] INFO root fetch - processPackages [amazon-scrape]: Downloading https://files.pythonhosted.org/packages/ad/f8/90a9bcf6e7b0839850ece1c42446e4b6423a186894547d3123595bc0efff/amazon_scrape-0.0.4.tar.gz
+[2023-07-27 12:17:51] INFO root fetch - processPackages [biodigest]: Downloading https://files.pythonhosted.org/packages/c1/4f/a6829a2be5029cff51d8f8debc7a04ed99af64b8398532bba03dea55832a/biodigest-0.2.9.tar.gz
+[2023-07-27 12:17:51] INFO root fetch - processPackages [axabc]: executing diffoscope
+[2023-07-27 12:17:51] INFO root fetch - processPackages [axabc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/axabc-0.0.8.tar.gz tmp/axabc-0.0.9.tar.gz --markdown 20230727/a/axabc/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-27 12:17:51] INFO root fetch - processPackages [gdrive-bot]: Downloading https://files.pythonhosted.org/packages/22/ba/ea6291c9e2ba5091799c8ba0b3e337131e374b5a97ca67aef367dd35d4a4/gdrive_bot-1.0.1-py3-none-any.whl
+[2023-07-27 12:17:51] INFO root fetch - processPackages [amazon-scrape]: executing diffoscope
+[2023-07-27 12:17:51] INFO root fetch - processPackages [amazon-scrape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amazon_scrape-0.0.3.tar.gz tmp/amazon_scrape-0.0.4.tar.gz --markdown 20230727/a/amazon-scrape/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-27 12:17:51] INFO root fetch - processPackages [pyprocessors-openai_completion]: Downloading https://files.pythonhosted.org/packages/b5/1e/3c195ba299c9cef36df6685a21b65584e4176fa5e0acf63ac6a871bc0c66/pyprocessors-openai_completion-0.5.9.tar.gz
+[2023-07-27 12:17:51] INFO root fetch - processPackages [biodigest]: executing diffoscope
+[2023-07-27 12:17:51] INFO root fetch - processPackages [biodigest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biodigest-0.2.8.tar.gz tmp/biodigest-0.2.9.tar.gz --markdown 20230727/b/biodigest/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-27 12:17:51] INFO root fetch - processPackages [simple-pygame]: Downloading https://files.pythonhosted.org/packages/a3/c5/b08c3fccaee99be162fcf74be0cd8d69839cc22a06212733fe7410ca517b/simple_pygame-0.0.7.tar.gz
+[2023-07-27 12:17:51] INFO root fetch - processPackages [gdrive-bot]: executing diffoscope
+[2023-07-27 12:17:51] INFO root fetch - processPackages [gdrive-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdrive_bot-1.0.0-py3-none-any.whl.zip tmp/gdrive_bot-1.0.1-py3-none-any.whl.zip --markdown 20230727/g/gdrive-bot/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-27 12:17:51] INFO root fetch - processPackages [weboptout]: Downloading https://files.pythonhosted.org/packages/62/a4/aa3bc9374598b2c2979f6ba1ebb27cff791430fe7fc3f0baae39405de688/weboptout-0.2.2.tar.gz
+[2023-07-27 12:17:51] INFO root fetch - processPackages [simple-pygame]: executing diffoscope
+[2023-07-27 12:17:51] INFO root fetch - processPackages [simple-pygame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_pygame-0.0.6.tar.gz tmp/simple_pygame-0.0.7.tar.gz --markdown 20230727/s/simple-pygame/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-27 12:17:51] INFO root fetch - processPackages [anylearn]: Downloading https://files.pythonhosted.org/packages/23/bd/7eb707b3843d60610a5dbad6b06e389d8ba6f2a355b89c10d1207428f3c1/anylearn-0.18.3.tar.gz
+[2023-07-27 12:17:51] INFO root fetch - processPackages [weboptout]: executing diffoscope
+[2023-07-27 12:17:51] INFO root fetch - processPackages [weboptout]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weboptout-0.2.1.tar.gz tmp/weboptout-0.2.2.tar.gz --markdown 20230727/w/weboptout/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-27 12:17:51] INFO root fetch - processPackages [pyprocessors-openai_completion]: executing diffoscope
+[2023-07-27 12:17:51] INFO root fetch - processPackages [pyprocessors-openai_completion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyprocessors_openai_completion-0.5.79.tar.gz tmp/pyprocessors-openai_completion-0.5.9.tar.gz --markdown 20230727/p/pyprocessors-openai_completion/0.5.79-0.5.9/diff.md --exclude *.pyd
+[2023-07-27 12:17:51] INFO root fetch - processPackages [anylearn]: executing diffoscope
+[2023-07-27 12:17:51] INFO root fetch - processPackages [anylearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anylearn-0.18.2.tar.gz tmp/anylearn-0.18.3.tar.gz --markdown 20230727/a/anylearn/0.18.2-0.18.3/diff.md --exclude *.pyd
+[2023-07-27 12:17:52] INFO root fetch - processPackages [stream-gears]: Downloading https://files.pythonhosted.org/packages/8c/e7/74a603e774f52cb59d3b1b07ce874ef8180426c14aa6f1316a255772b5c7/stream_gears-0.1.9.tar.gz
+[2023-07-27 12:17:52] INFO root fetch - processPackages [amazon-scrape]: Remove: archive file [/home/abi/fetcher/tmp/amazon_scrape-0.0.3.tar.gz]
+[2023-07-27 12:17:52] INFO root fetch - processPackages [amazon-scrape]: Remove: archive file [/home/abi/fetcher/tmp/amazon_scrape-0.0.4.tar.gz]
+[2023-07-27 12:17:52] INFO root fetch - processPackages [amazon-scrape]: Start processing: sitTools
+[2023-07-27 12:17:52] INFO root fetch - main [MainThread]: End processing [amazon-scrape]: success
+[2023-07-27 12:17:52] INFO root fetch - processPackages [axabc]: Remove: archive file [/home/abi/fetcher/tmp/axabc-0.0.8.tar.gz]
+[2023-07-27 12:17:52] INFO root fetch - processPackages [axabc]: Remove: archive file [/home/abi/fetcher/tmp/axabc-0.0.9.tar.gz]
+[2023-07-27 12:17:52] INFO root fetch - processPackages [axabc]: Start processing: klein-mongo
+[2023-07-27 12:17:52] INFO root fetch - main [MainThread]: End processing [axabc]: success
+[2023-07-27 12:17:52] ERROR root fetch - processPackages [sitTools]: Unable to get metadata: No such project 'sitTools'
+[2023-07-27 12:17:52] INFO root fetch - main [MainThread]: End processing [sitTools] error
+[2023-07-27 12:17:52] INFO root fetch - processPackages [klein-mongo]: New version: [2.0.7] Old Version: [2.0.14]
+[2023-07-27 12:17:52] INFO root fetch - processPackages [biodigest]: Remove: archive file [/home/abi/fetcher/tmp/biodigest-0.2.8.tar.gz]
+[2023-07-27 12:17:52] INFO root fetch - processPackages [biodigest]: Remove: archive file [/home/abi/fetcher/tmp/biodigest-0.2.9.tar.gz]
+[2023-07-27 12:17:52] INFO root fetch - processPackages [simple-pygame]: Remove: archive file [/home/abi/fetcher/tmp/simple_pygame-0.0.6.tar.gz]
+[2023-07-27 12:17:52] INFO root fetch - processPackages [simple-pygame]: Remove: archive file [/home/abi/fetcher/tmp/simple_pygame-0.0.7.tar.gz]
+[2023-07-27 12:17:52] INFO root fetch - main [MainThread]: End processing [biodigest]: success
+[2023-07-27 12:17:52] INFO root fetch - main [MainThread]: End processing [simple-pygame]: success
+[2023-07-27 12:17:52] INFO root fetch - processPackages [pyprocessors-openai_completion]: Remove: archive file [/home/abi/fetcher/tmp/pyprocessors_openai_completion-0.5.79.tar.gz]
+[2023-07-27 12:17:52] INFO root fetch - processPackages [pyprocessors-openai_completion]: Remove: archive file [/home/abi/fetcher/tmp/pyprocessors-openai_completion-0.5.9.tar.gz]
+[2023-07-27 12:17:52] INFO root fetch - main [MainThread]: End processing [pyprocessors-openai_completion]: success
+[2023-07-27 12:17:52] INFO root fetch - processPackages [gdrive-bot]: Remove: archive file [/home/abi/fetcher/tmp/gdrive_bot-1.0.0-py3-none-any.whl.zip]
+[2023-07-27 12:17:52] INFO root fetch - processPackages [gdrive-bot]: Remove: archive file [/home/abi/fetcher/tmp/gdrive_bot-1.0.1-py3-none-any.whl.zip]
+[2023-07-27 12:17:52] INFO root fetch - main [MainThread]: End processing [gdrive-bot]: success
+[2023-07-27 12:17:52] INFO root fetch - processPackages [klein-mongo]: Downloading https://files.pythonhosted.org/packages/82/e4/ab322688e400c49fead13fe6dac5113a9a2b5f60d5b7f852cbd3b1287c47/klein_mongo-2.0.14.tar.gz
+[2023-07-27 12:17:52] INFO root fetch - processPackages [weboptout]: Remove: archive file [/home/abi/fetcher/tmp/weboptout-0.2.1.tar.gz]
+[2023-07-27 12:17:52] INFO root fetch - processPackages [weboptout]: Remove: archive file [/home/abi/fetcher/tmp/weboptout-0.2.2.tar.gz]
+[2023-07-27 12:17:52] INFO root fetch - main [MainThread]: End processing [weboptout]: success
+[2023-07-27 12:17:52] INFO root fetch - processPackages [stream-gears]: executing diffoscope
+[2023-07-27 12:17:52] INFO root fetch - processPackages [stream-gears]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stream_gears-0.1.8.tar.gz tmp/stream_gears-0.1.9.tar.gz --markdown 20230727/s/stream-gears/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-27 12:17:53] INFO root fetch - processPackages [anylearn]: Remove: archive file [/home/abi/fetcher/tmp/anylearn-0.18.2.tar.gz]
+[2023-07-27 12:17:53] INFO root fetch - processPackages [anylearn]: Remove: archive file [/home/abi/fetcher/tmp/anylearn-0.18.3.tar.gz]
+[2023-07-27 12:17:53] INFO root fetch - main [MainThread]: End processing [anylearn]: success
+[2023-07-27 12:17:53] INFO root fetch - processPackages [klein-mongo]: Downloading https://files.pythonhosted.org/packages/92/a0/8d2bb476fef82414982012a57181d5ade770e2e13991691090f1f4d75195/klein_mongo-2.0.7.tar.gz
+[2023-07-27 12:17:53] INFO root fetch - processPackages [klein-mongo]: executing diffoscope
+[2023-07-27 12:17:53] INFO root fetch - processPackages [klein-mongo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/klein_mongo-2.0.14.tar.gz tmp/klein_mongo-2.0.7.tar.gz --markdown 20230727/k/klein-mongo/2.0.14-2.0.7/diff.md --exclude *.pyd
+[2023-07-27 12:17:53] INFO root fetch - processPackages [stream-gears]: Remove: archive file [/home/abi/fetcher/tmp/stream_gears-0.1.8.tar.gz]
+[2023-07-27 12:17:53] INFO root fetch - processPackages [stream-gears]: Remove: archive file [/home/abi/fetcher/tmp/stream_gears-0.1.9.tar.gz]
+[2023-07-27 12:17:53] INFO root fetch - main [MainThread]: End processing [stream-gears]: success
+[2023-07-27 12:17:53] INFO root fetch - processPackages [OpenFisca-France-Local]: Downloading https://files.pythonhosted.org/packages/c9/a6/18bdff92e7892573ad5f736ccd5fdce30b89b109f6588dc0ab676703dfa9/OpenFisca-France-Local-6.0.0.tar.gz
+[2023-07-27 12:17:54] INFO root fetch - processPackages [OpenFisca-France-Local]: executing diffoscope
+[2023-07-27 12:17:54] INFO root fetch - processPackages [OpenFisca-France-Local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenFisca-France-Local-5.3.2.tar.gz tmp/OpenFisca-France-Local-6.0.0.tar.gz --markdown 20230727/O/OpenFisca-France-Local/5.3.2-6.0.0/diff.md --exclude *.pyd
+[2023-07-27 12:17:54] INFO root fetch - processPackages [klein-mongo]: Remove: archive file [/home/abi/fetcher/tmp/klein_mongo-2.0.14.tar.gz]
+[2023-07-27 12:17:54] INFO root fetch - processPackages [klein-mongo]: Remove: archive file [/home/abi/fetcher/tmp/klein_mongo-2.0.7.tar.gz]
+[2023-07-27 12:17:54] INFO root fetch - main [MainThread]: End processing [klein-mongo]: success
+[2023-07-27 12:17:57] INFO root fetch - processPackages [OpenFisca-France-Local]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca-France-Local-5.3.2.tar.gz]
+[2023-07-27 12:17:57] INFO root fetch - processPackages [OpenFisca-France-Local]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca-France-Local-6.0.0.tar.gz]
+[2023-07-27 12:17:57] INFO root fetch - main [MainThread]: End processing [OpenFisca-France-Local]: success
+[2023-07-27 12:17:57] INFO root fetch - main [MainThread]: Store serial: [19058397]
