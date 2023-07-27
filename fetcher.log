@@ -1985,3 +1985,97 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-27 01:59:29] INFO root fetch - processPackages [Furious-GUI]: Remove: archive file [/home/abi/fetcher/tmp/Furious-GUI-0.1.5.tar.gz]
 [2023-07-27 01:59:29] INFO root fetch - main [MainThread]: End processing [Furious-GUI]: success
 [2023-07-27 01:59:29] INFO root fetch - main [MainThread]: Store serial: [19050966]
+[2023-07-27 02:04:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19050966]
+[2023-07-27 02:04:39] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-27 02:04:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: morningstar-data
+[2023-07-27 02:04:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: danbi
+[2023-07-27 02:04:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: reflex
+[2023-07-27 02:04:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: danbi
+[2023-07-27 02:04:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: interactivenlp
+[2023-07-27 02:04:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: michina
+[2023-07-27 02:04:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: python-openevse-http
+[2023-07-27 02:04:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tcex-cli
+[2023-07-27 02:04:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: torchdatasets-nightly
+[2023-07-27 02:04:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: usefulgram
+[2023-07-27 02:04:40] INFO root fetch - processPackages [danbi]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-07-27 02:04:40] INFO root fetch - processPackages [morningstar-data]: New version: [1.4.0] Old Version: [1.3.3]
+[2023-07-27 02:04:40] INFO root fetch - processPackages [michina]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-07-27 02:04:40] INFO root fetch - processPackages [reflex]: New version: [0.2.3a5] Old Version: [0.2.3a4]
+[2023-07-27 02:04:40] INFO root fetch - processPackages [python-openevse-http]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-27 02:04:40] WARNING root fetch - processPackages [tcex-cli]: Skipping, unable to determine old version
+[2023-07-27 02:04:40] INFO root fetch - processPackages [tcex-cli]: Start processing: mct-nightly
+[2023-07-27 02:04:40] INFO root fetch - main [MainThread]: End processing [tcex-cli] error
+[2023-07-27 02:04:40] INFO root fetch - processPackages [interactivenlp]: New version: [0.2.1] Old Version: [0.1.1]
+[2023-07-27 02:04:40] INFO root fetch - processPackages [danbi]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-07-27 02:04:40] INFO root fetch - processPackages [usefulgram]: New version: [0.0.0a5] Old Version: [0.0.0a4]
+[2023-07-27 02:04:40] INFO root fetch - processPackages [torchdatasets-nightly]: New version: [1690416196] Old Version: [1690329794]
+[2023-07-27 02:04:40] INFO root fetch - processPackages [mct-nightly]: New version: [1.9.0.20230726.post425] Old Version: [1.9.0.20230725.post417]
+[2023-07-27 02:04:40] INFO root fetch - processPackages [danbi]: Downloading https://files.pythonhosted.org/packages/c2/72/22ba0c3509479f69f5ffc3941df78acc0abfcc40698187c42ce4a3ddcc73/danbi-0.2.98.tar.gz
+[2023-07-27 02:04:40] INFO root fetch - processPackages [interactivenlp]: Downloading https://files.pythonhosted.org/packages/ba/ad/b28c7642005d506d9583f239ac679eb71bfe614f327d946fa1540f947c07/interactivenlp-0.1.1.tar.gz
+[2023-07-27 02:04:40] INFO root fetch - processPackages [danbi]: Downloading https://files.pythonhosted.org/packages/c2/72/22ba0c3509479f69f5ffc3941df78acc0abfcc40698187c42ce4a3ddcc73/danbi-0.2.98.tar.gz
+[2023-07-27 02:04:40] INFO root fetch - processPackages [python-openevse-http]: Downloading https://files.pythonhosted.org/packages/5a/f7/2c12172b51d308725864d7ad56eb5596e88863392fc72315db61157b026c/python-openevse-http-0.1.8.tar.gz
+[2023-07-27 02:04:40] INFO root fetch - processPackages [michina]: Downloading https://files.pythonhosted.org/packages/64/ab/6c8f976fd2440b58746a0743dae903873609be7182cce88844608f817647/michina-0.1.1.tar.gz
+[2023-07-27 02:04:40] INFO root fetch - processPackages [morningstar-data]: Downloading https://files.pythonhosted.org/packages/5b/e8/18c1b5b60625ffe2472d63adc55df425106fd77d171cb743b895a7f9da5d/morningstar_data-1.3.3.tar.gz
+[2023-07-27 02:04:40] INFO root fetch - processPackages [usefulgram]: Downloading https://files.pythonhosted.org/packages/f8/bb/70c078d2dbc9fe26988adefcca18692fe1da8ad7fed8f330d8b512332d4d/usefulgram-0.0.0a4.tar.gz
+[2023-07-27 02:04:40] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/e9/b7/5ba2e2f622d581d6ff098b096d55979afd7e4666d853c7fd68c041c3ef3c/torchdatasets-nightly-1690329794.tar.gz
+[2023-07-27 02:04:40] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/9d/33/ddf6ccec1dc6290be91d2bee36ce699e05d60ffc20cdc6fb7861845f6da8/mct-nightly-1.9.0.20230725.post417.tar.gz
+[2023-07-27 02:04:40] INFO root fetch - processPackages [reflex]: Downloading https://files.pythonhosted.org/packages/5d/bc/a4cae4efceac3d0ff901ebcf7649fb348a69adf6bde34c1c7b17aee4f083/reflex-0.2.3a4.tar.gz
+[2023-07-27 02:04:40] INFO root fetch - processPackages [interactivenlp]: Downloading https://files.pythonhosted.org/packages/00/07/90b05583480a886d4a09463c1fc7da2ece6677893587084821a215b09637/interactivenlp-0.2.1.tar.gz
+[2023-07-27 02:04:41] INFO root fetch - processPackages [danbi]: Downloading https://files.pythonhosted.org/packages/08/67/6ca29911c73cded25c25e0725cecb295a7ffb7284383910591bbccccb9bf/danbi-0.2.99.tar.gz
+[2023-07-27 02:04:41] INFO root fetch - processPackages [danbi]: Downloading https://files.pythonhosted.org/packages/08/67/6ca29911c73cded25c25e0725cecb295a7ffb7284383910591bbccccb9bf/danbi-0.2.99.tar.gz
+[2023-07-27 02:04:41] INFO root fetch - processPackages [michina]: Downloading https://files.pythonhosted.org/packages/ba/ae/e3e8fa5165c6662b10c267913f8cdfa3a5ef63a1db37d05364a184551acb/michina-0.2.0.tar.gz
+[2023-07-27 02:04:41] INFO root fetch - processPackages [interactivenlp]: executing diffoscope
+[2023-07-27 02:04:41] INFO root fetch - processPackages [interactivenlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/interactivenlp-0.1.1.tar.gz tmp/interactivenlp-0.2.1.tar.gz --markdown 20230727/i/interactivenlp/0.1.1-0.2.1/diff.md --exclude *.pyd
+[2023-07-27 02:04:41] INFO root fetch - processPackages [morningstar-data]: Downloading https://files.pythonhosted.org/packages/16/de/bce9f1871bef9da97c4ddb730b3300b48d0a6173510c6a03a50ed1144cfd/morningstar_data-1.4.0.tar.gz
+[2023-07-27 02:04:41] INFO root fetch - processPackages [python-openevse-http]: Downloading https://files.pythonhosted.org/packages/41/8b/0000dc08b8e7a57cdd1469a3d5804d1250c6454ccd5a9f3c6bb1cf755b1f/python-openevse-http-0.1.9.tar.gz
+[2023-07-27 02:04:41] INFO root fetch - processPackages [usefulgram]: Downloading https://files.pythonhosted.org/packages/f2/d2/e00e1098576510320875a2f1fc5cb3be5d05c6cd586e9fad3bad06169934/usefulgram-0.0.0a5.tar.gz
+[2023-07-27 02:04:41] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/34/46/8ba406d7efdf93c73f0ddc1d3c1e0a6be4f781939d0e333829e9b473690d/torchdatasets-nightly-1690416196.tar.gz
+[2023-07-27 02:04:41] INFO root fetch - processPackages [michina]: executing diffoscope
+[2023-07-27 02:04:41] INFO root fetch - processPackages [michina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/michina-0.1.1.tar.gz tmp/michina-0.2.0.tar.gz --markdown 20230727/m/michina/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-07-27 02:04:41] INFO root fetch - processPackages [morningstar-data]: executing diffoscope
+[2023-07-27 02:04:41] INFO root fetch - processPackages [morningstar-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morningstar_data-1.3.3.tar.gz tmp/morningstar_data-1.4.0.tar.gz --markdown 20230727/m/morningstar-data/1.3.3-1.4.0/diff.md --exclude *.pyd
+[2023-07-27 02:04:41] INFO root fetch - processPackages [reflex]: Downloading https://files.pythonhosted.org/packages/52/b3/d17105228f4db8bf14b02648cb7d00ba0c57b7e189996e54ce48be4da062/reflex-0.2.3a5.tar.gz
+[2023-07-27 02:04:41] INFO root fetch - processPackages [danbi]: executing diffoscope
+[2023-07-27 02:04:41] INFO root fetch - processPackages [danbi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/danbi-0.2.98.tar.gz tmp/danbi-0.2.99.tar.gz --markdown 20230727/d/danbi/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-07-27 02:04:41] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/5b/74/1a42795c8f568bd43e0d0ac56ba5b15baab5a19aac5cc240d09d85bb5a1f/mct-nightly-1.9.0.20230726.post425.tar.gz
+[2023-07-27 02:04:41] INFO root fetch - processPackages [danbi]: executing diffoscope
+[2023-07-27 02:04:41] INFO root fetch - processPackages [danbi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/danbi-0.2.98.tar.gz tmp/danbi-0.2.99.tar.gz --markdown 20230727/d/danbi/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-07-27 02:04:41] INFO root fetch - processPackages [python-openevse-http]: executing diffoscope
+[2023-07-27 02:04:41] INFO root fetch - processPackages [python-openevse-http]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-openevse-http-0.1.8.tar.gz tmp/python-openevse-http-0.1.9.tar.gz --markdown 20230727/p/python-openevse-http/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-27 02:04:41] INFO root fetch - processPackages [usefulgram]: executing diffoscope
+[2023-07-27 02:04:41] INFO root fetch - processPackages [usefulgram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usefulgram-0.0.0a4.tar.gz tmp/usefulgram-0.0.0a5.tar.gz --markdown 20230727/u/usefulgram/0.0.0a4-0.0.0a5/diff.md --exclude *.pyd
+[2023-07-27 02:04:41] INFO root fetch - processPackages [torchdatasets-nightly]: executing diffoscope
+[2023-07-27 02:04:41] INFO root fetch - processPackages [torchdatasets-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchdatasets-nightly-1690329794.tar.gz tmp/torchdatasets-nightly-1690416196.tar.gz --markdown 20230727/t/torchdatasets-nightly/1690329794-1690416196/diff.md --exclude *.pyd
+[2023-07-27 02:04:41] INFO root fetch - processPackages [reflex]: executing diffoscope
+[2023-07-27 02:04:41] INFO root fetch - processPackages [reflex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reflex-0.2.3a4.tar.gz tmp/reflex-0.2.3a5.tar.gz --markdown 20230727/r/reflex/0.2.3a4-0.2.3a5/diff.md --exclude *.pyd
+[2023-07-27 02:04:41] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2023-07-27 02:04:41] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230727:/home/abi/fetcher/20230727:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-1.9.0.20230725.post417.tar.gz tmp/mct-nightly-1.9.0.20230726.post425.tar.gz --markdown 20230727/m/mct-nightly/1.9.0.20230725.post417-1.9.0.20230726.post425/diff.md --exclude *.pyd
+[2023-07-27 02:04:42] INFO root fetch - processPackages [interactivenlp]: Remove: archive file [/home/abi/fetcher/tmp/interactivenlp-0.1.1.tar.gz]
+[2023-07-27 02:04:42] INFO root fetch - processPackages [interactivenlp]: Remove: archive file [/home/abi/fetcher/tmp/interactivenlp-0.2.1.tar.gz]
+[2023-07-27 02:04:42] INFO root fetch - main [MainThread]: End processing [interactivenlp]: success
+[2023-07-27 02:04:42] INFO root fetch - processPackages [michina]: Remove: archive file [/home/abi/fetcher/tmp/michina-0.1.1.tar.gz]
+[2023-07-27 02:04:42] INFO root fetch - processPackages [michina]: Remove: archive file [/home/abi/fetcher/tmp/michina-0.2.0.tar.gz]
+[2023-07-27 02:04:42] INFO root fetch - main [MainThread]: End processing [michina]: success
+[2023-07-27 02:04:42] INFO root fetch - processPackages [python-openevse-http]: Remove: archive file [/home/abi/fetcher/tmp/python-openevse-http-0.1.8.tar.gz]
+[2023-07-27 02:04:42] INFO root fetch - processPackages [python-openevse-http]: Remove: archive file [/home/abi/fetcher/tmp/python-openevse-http-0.1.9.tar.gz]
+[2023-07-27 02:04:42] INFO root fetch - main [MainThread]: End processing [python-openevse-http]: success
+[2023-07-27 02:04:42] INFO root fetch - processPackages [danbi]: Remove: archive file [/home/abi/fetcher/tmp/danbi-0.2.98.tar.gz]
+[2023-07-27 02:04:42] INFO root fetch - processPackages [danbi]: Remove: archive file [/home/abi/fetcher/tmp/danbi-0.2.99.tar.gz]
+[2023-07-27 02:04:42] INFO root fetch - main [MainThread]: End processing [danbi]: success
+[2023-07-27 02:04:43] INFO root fetch - main [MainThread]: End processing [danbi]: success
+[2023-07-27 02:04:43] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1690329794.tar.gz]
+[2023-07-27 02:04:43] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1690416196.tar.gz]
+[2023-07-27 02:04:43] INFO root fetch - main [MainThread]: End processing [torchdatasets-nightly]: success
+[2023-07-27 02:04:43] INFO root fetch - processPackages [usefulgram]: Remove: archive file [/home/abi/fetcher/tmp/usefulgram-0.0.0a4.tar.gz]
+[2023-07-27 02:04:43] INFO root fetch - processPackages [usefulgram]: Remove: archive file [/home/abi/fetcher/tmp/usefulgram-0.0.0a5.tar.gz]
+[2023-07-27 02:04:43] INFO root fetch - main [MainThread]: End processing [usefulgram]: success
+[2023-07-27 02:04:43] INFO root fetch - processPackages [morningstar-data]: Remove: archive file [/home/abi/fetcher/tmp/morningstar_data-1.3.3.tar.gz]
+[2023-07-27 02:04:43] INFO root fetch - processPackages [morningstar-data]: Remove: archive file [/home/abi/fetcher/tmp/morningstar_data-1.4.0.tar.gz]
+[2023-07-27 02:04:43] INFO root fetch - main [MainThread]: End processing [morningstar-data]: success
+[2023-07-27 02:04:43] INFO root fetch - processPackages [reflex]: Remove: archive file [/home/abi/fetcher/tmp/reflex-0.2.3a4.tar.gz]
+[2023-07-27 02:04:43] INFO root fetch - processPackages [reflex]: Remove: archive file [/home/abi/fetcher/tmp/reflex-0.2.3a5.tar.gz]
+[2023-07-27 02:04:43] INFO root fetch - main [MainThread]: End processing [reflex]: success
+[2023-07-27 02:04:44] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230725.post417.tar.gz]
+[2023-07-27 02:04:44] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230726.post425.tar.gz]
+[2023-07-27 02:04:44] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2023-07-27 02:04:44] INFO root fetch - main [MainThread]: Store serial: [19051000]
